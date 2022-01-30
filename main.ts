@@ -1,4 +1,5 @@
 import { path, Pool } from "./deps.ts";
+import "https://deno.land/x/dotenv/load.ts";
 
 const POOL_CONNECTIONS = 4;
 const dbPool = new Pool({
@@ -14,7 +15,7 @@ const client = await dbPool.connect();
 let counter = 0;
 let groupId = 1;
 const groupIds: { [key: string]: number } = {};
-const rootDir = "data";
+const rootDir = "data/macos";
 for await (const directory of Deno.readDir(rootDir)) {
   const localizable: Localizable = JSON.parse(
     await Deno.readTextFile(path.join(rootDir, directory.name)),
@@ -38,7 +39,7 @@ for await (const directory of Deno.readDir(rootDir)) {
       }
 
       await client.queryArray(
-        `INSERT INTO localizations (group_id, source, target, language, file_name, bundle_name, bundle_path, platform) VALUES($1, $2, $3, $4, $5, $6, $7, $8);`,
+        `INSERT INTO macos (group_id, source, target, language, file_name, bundle_name, bundle_path, platform) VALUES($1, $2, $3, $4, $5, $6, $7, $8);`,
         [
           gid,
           key,
@@ -47,7 +48,7 @@ for await (const directory of Deno.readDir(rootDir)) {
           localization.filename,
           localizable.framework,
           localizable.bundlePath,
-          "iOS",
+          "macOS",
         ],
       );
 

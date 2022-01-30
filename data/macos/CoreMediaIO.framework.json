@@ -1,0 +1,34 @@
+{
+  "localizations" : {
+    "SYSEXT_INVALID_DICTIONARY" : [
+      {
+        "target" : "System extension %@ has an invalid CMIOExtension key in its Info.plist: the value of the CMIOExtension key must be a non-empty dictionary.",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "SYSEXT_INVALID_MACH_SERVICE_NAME" : [
+      {
+        "target" : "System extension %@ has an invalid mach service name or is not signed, the value must be prefixed with one of the App Groups in the entitlement.",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "SYSEXT_CANNOT_READ_BUNDLE" : [
+      {
+        "target" : "Failed to load the system extension bundle at %@.",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "SYSEXT_INTERNAL_ERROR" : [
+      {
+        "target" : "System extension %@ could not be started because an internal error occurred.",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ]
+  },
+  "bundlePath" : "\/System\/Library\/Frameworks\/CoreMediaIO.framework",
+  "framework" : "CoreMediaIO.framework"
+}
