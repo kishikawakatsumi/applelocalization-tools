@@ -151,12 +151,17 @@ func collectLocalizables(root: AbsolutePath) throws -> OrderedSet<Localizable> {
           print(file)
           fatalError()
         }
+      } else if file.pathString == "/System/Library/LASecureIO/Strings/ApplePayWarsaw.loctable" {
+        bundlePath = file.parentDirectory.parentDirectory
+      } else if file.pathString == "/System/Library/Displays/Contents/Resources/Localizable.loctable" {
+        bundlePath = file.parentDirectory.parentDirectory.parentDirectory
       } else {
         print(file)
         fatalError()
       }
 
       guard let _ = Bundle(url: bundlePath.asURL) else {
+        print(bundlePath)
         fatalError()
       }
 

@@ -1,0 +1,28 @@
+{
+  "loctablePath" : "\/System\/Library\/Frameworks\/AppTrackingTransparency.framework\/Versions\/A\/Resources\/Localizable.loctable",
+  "bundlePath" : "\/System\/Library\/Frameworks\/AppTrackingTransparency.framework",
+  "framework" : "AppTrackingTransparency.framework",
+  "localizations" : {
+    "ALERT_HEADER" : [
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"CROSS-APP TRACKING\";\n}",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      }
+    ],
+    "ALERT_TITLE" : [
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"Weekly Report Available\";\n}",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      }
+    ],
+    "ALERT_BODY" : [
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"In the past week %#@apps@ contacted %#@trackers@.\";\n    apps =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        one = \"%d app\";\n        other = \"%d apps\";\n    };\n    trackers =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        one = \"%d tracker\";\n        other = \"%d trackers\";\n    };\n}",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      }
+    ]
+  }
+}

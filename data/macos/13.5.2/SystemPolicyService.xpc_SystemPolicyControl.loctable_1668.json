@@ -1,0 +1,598 @@
+{
+  "loctablePath" : "\/System\/Library\/PrivateFrameworks\/ConfigurationProfiles.framework\/XPCServices\/SystemPolicyService.xpc\/Contents\/Resources\/SystemPolicyControl.loctable",
+  "bundlePath" : "\/System\/Library\/PrivateFrameworks\/ConfigurationProfiles.framework\/XPCServices\/SystemPolicyService.xpc",
+  "framework" : "SystemPolicyService.xpc",
+  "localizations" : {
+    "CPPayloadCountStringsDictKey_CountFirst" : [
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"System Policy Control\";\n        other = \"%lu System Policy Controls\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Controlemaatregel voor systeembeleid\";\n        other = \"%lu controlemaatregelen voor systeembeleid\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"%lu\\U500b\\U306e\\U30b7\\U30b9\\U30c6\\U30e0\\U30dd\\U30ea\\U30b7\\U30fc\\U5236\\U5fa1\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Control de pol\\U00edtica del sistema\";\n        other = \"%lu controls de pol\\U00edtica del sistema\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Rendszerir\\U00e1nyelvek szab\\U00e1lyoz\\U00e1sa\";\n        other = \"%lu Rendszerir\\U00e1nyelv vez\\U00e9rl\\U0151k\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Kontrol af systempolitik\";\n        other = \"%lu kontroller af systempolitik\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"%lu\\Uac1c\\Uc758 \\Uc2dc\\Uc2a4\\Ud15c \\Uc815\\Ucc45 \\Uc81c\\Uc5b4\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = Systempolicykontroll;\n        other = \"%lu systempolicykontroller\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"%lu Kawalan Dasar Sistem\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"\\U0388\\U03bb\\U03b5\\U03b3\\U03c7\\U03bf\\U03c2 \\U03c0\\U03bf\\U03bb\\U03b9\\U03c4\\U03b9\\U03ba\\U03ae\\U03c2 \\U03c3\\U03c5\\U03c3\\U03c4\\U03ae\\U03bc\\U03b1\\U03c4\\U03bf\\U03c2\";\n        other = \"%lu \\U03ad\\U03bb\\U03b5\\U03b3\\U03c7\\U03bf\\U03b9 \\U03c0\\U03bf\\U03bb\\U03b9\\U03c4\\U03b9\\U03ba\\U03ce\\U03bd \\U03c3\\U03c5\\U03c3\\U03c4\\U03ae\\U03bc\\U03b1\\U03c4\\U03bf\\U03c2\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"\\U200f%lu \\U062d\\U0645\\U0648\\U0644\\U0627\\U062a \\U0645\\U0646 \\\"\\U0627\\U0644\\U062a\\U062d\\U0643\\U0645 \\U0641\\U064a \\U0633\\U064a\\U0627\\U0633\\U0629 \\U0627\\U0644\\U0646\\U0638\\U0627\\U0645\\\"\";\n        many = \"\\U200f%lu \\U062d\\U0645\\U0648\\U0644\\U0629 \\U0645\\U0646 \\\"\\U0627\\U0644\\U062a\\U062d\\U0643\\U0645 \\U0641\\U064a \\U0633\\U064a\\U0627\\U0633\\U0629 \\U0627\\U0644\\U0646\\U0638\\U0627\\U0645\\\"\";\n        one = \"\\U062d\\U0645\\U0648\\U0644\\U0629 \\U0648\\U0627\\U062d\\U062f\\U0629 \\U0645\\U0646 \\\"\\U0627\\U0644\\U062a\\U062d\\U0643\\U0645 \\U0641\\U064a \\U0633\\U064a\\U0627\\U0633\\U0629 \\U0627\\U0644\\U0646\\U0638\\U0627\\U0645\\\"\";\n        other = \"\\U200f%lu \\U062d\\U0645\\U0648\\U0644\\U0629 \\U0645\\U0646 \\\"\\U0627\\U0644\\U062a\\U062d\\U0643\\U0645 \\U0641\\U064a \\U0633\\U064a\\U0627\\U0633\\U0629 \\U0627\\U0644\\U0646\\U0638\\U0627\\U0645\\\"\";\n        two = \"\\U062d\\U0645\\U0648\\U0644\\U062a\\U0627\\U0646 \\U0645\\U0646 \\\"\\U0627\\U0644\\U062a\\U062d\\U0643\\U0645 \\U0641\\U064a \\U0633\\U064a\\U0627\\U0633\\U0629 \\U0627\\U0644\\U0646\\U0638\\U0627\\U0645\\\"\";\n        zero = \"\\U0644\\U0627 \\U062a\\U0648\\U062c\\U062f \\U062d\\U0645\\U0648\\U0644\\U0627\\U062a \\U0645\\U0646 \\\"\\U0627\\U0644\\U062a\\U062d\\U0643\\U0645 \\U0641\\U064a \\U0633\\U064a\\U0627\\U0633\\U0629 \\U0627\\U0644\\U0646\\U0638\\U0627\\U0645\\\"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"kontroll av systemkriterier\";\n        other = \"%lu kontroller av systemkriterier\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"%lu\\U4e2a\\U7cfb\\U7edf\\U7b56\\U7565\\U63a7\\U5236\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"%lu controale ale politicii de sistem\";\n        one = \"Control al politicii de sistem\";\n        other = \"%lu de controale ale politicii de sistem\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Contr\\U00f4le de politique syst\\U00e8me\";\n        other = \"%lu\\U00a0contr\\U00f4les de politique syst\\U00e8me\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"System Policy Control\";\n        other = \"%lu System Policy Controls\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"%lu \\U0435\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442\\U0438 \\U043a\\U0435\\U0440\\U0443\\U0432\\U0430\\U043d\\U043d\\U044f \\U043f\\U043e\\U043b\\U0456\\U0442\\U0438\\U043a\\U043e\\U044e \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U0438\";\n        many = \"%lu \\U0435\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442\\U0456\\U0432 \\U043a\\U0435\\U0440\\U0443\\U0432\\U0430\\U043d\\U043d\\U044f \\U043f\\U043e\\U043b\\U0456\\U0442\\U0438\\U043a\\U043e\\U044e \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U0438\";\n        one = \"%lu\\U00a0\\U0435\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442 \\U043a\\U0435\\U0440\\U0443\\U0432\\U0430\\U043d\\U043d\\U044f \\U043f\\U043e\\U043b\\U0456\\U0442\\U0438\\U043a\\U043e\\U044e \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U0438\";\n        other = \"%lu \\U0435\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442\\U0430 \\U043a\\U0435\\U0440\\U0443\\U0432\\U0430\\U043d\\U043d\\U044f \\U043f\\U043e\\U043b\\U0456\\U0442\\U0438\\U043a\\U043e\\U044e \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U0438\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Control de la pol\\U00edtica del sistema\";\n        other = \"%lu controles de la pol\\U00edtica del sistema\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        many = \"%lu \\U05de\\U05d8\\U05e2\\U05e0\\U05d9 \\U05d1\\U05e7\\U05e8\\U05ea \\U05de\\U05d3\\U05d9\\U05e0\\U05d9\\U05d5\\U05ea \\U05de\\U05e2\\U05e8\\U05db\\U05ea\";\n        one = \"\\U05d1\\U05e7\\U05e8\\U05ea \\U05de\\U05d3\\U05d9\\U05e0\\U05d9\\U05d5\\U05ea \\U05de\\U05e2\\U05e8\\U05db\\U05ea\";\n        other = \"%lu \\U05de\\U05d8\\U05e2\\U05e0\\U05d9 \\U05d1\\U05e7\\U05e8\\U05ea \\U05de\\U05d3\\U05d9\\U05e0\\U05d9\\U05d5\\U05ea \\U05de\\U05e2\\U05e8\\U05db\\U05ea\";\n        two = \"\\U05e9\\U05e0\\U05d9 \\U05de\\U05d8\\U05e2\\U05e0\\U05d9 \\U05d1\\U05e7\\U05e8\\U05ea \\U05de\\U05d3\\U05d9\\U05e0\\U05d9\\U05d5\\U05ea \\U05de\\U05e2\\U05e8\\U05db\\U05ea\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Control de las pol\\U00edticas del sistema\";\n        other = \"%lu controles de las pol\\U00edticas del sistema\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"%lu ovl\\U00e1dacie prvky pravidiel syst\\U00e9mu\";\n        many = \"%lu ovl\\U00e1dac\\U00edch prvkov pravidiel syst\\U00e9mu\";\n        one = \"Ovl\\U00e1dac\\U00ed prvok pravidiel syst\\U00e9mu\";\n        other = \"%lu ovl\\U00e1dac\\U00edch prvkov pravidiel syst\\U00e9mu\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Steuerung f\\U00fcr Systemrichtlinien\";\n        other = \"%lu Steuerungen f\\U00fcr Systemrichtlinien\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"\\U042d\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442\\U044b \\U0443\\U043f\\U0440\\U0430\\U0432\\U043b\\U0435\\U043d\\U0438\\U044f \\U043f\\U043e\\U043b\\U0438\\U0442\\U0438\\U043a\\U0438 \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U044b (%lu)\";\n        many = \"\\U042d\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442\\U044b \\U0443\\U043f\\U0440\\U0430\\U0432\\U043b\\U0435\\U043d\\U0438\\U044f \\U043f\\U043e\\U043b\\U0438\\U0442\\U0438\\U043a\\U0438 \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U044b (%lu)\";\n        one = \"\\U042d\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442 \\U0443\\U043f\\U0440\\U0430\\U0432\\U043b\\U0435\\U043d\\U0438\\U044f \\U043f\\U043e\\U043b\\U0438\\U0442\\U0438\\U043a\\U0438 \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U044b (%lu)\";\n        other = \"\\U042d\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442\\U044b \\U0443\\U043f\\U0440\\U0430\\U0432\\U043b\\U0435\\U043d\\U0438\\U044f \\U043f\\U043e\\U043b\\U0438\\U0442\\U0438\\U043a\\U0438 \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U044b (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Contr\\U00f4le de politique syst\\U00e8me\";\n        other = \"%lu\\U00a0contr\\U00f4les de politique syst\\U00e8me\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Controle de Pol\\U00edtica do Sistema\";\n        other = \"%lu Controles de Pol\\U00edtica do Sistema\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"%lu\\U500b\\U7cfb\\U7d71\\U898f\\U5247\\U63a7\\U5236\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\\U0e15\\U0e31\\U0e27\\U0e04\\U0e27\\U0e1a\\U0e04\\U0e38\\U0e21\\U0e19\\U0e42\\U0e22\\U0e1a\\U0e32\\U0e22\\U0e23\\U0e30\\U0e1a\\U0e1a %lu \\U0e23\\U0e32\\U0e22\\U0e01\\U0e32\\U0e23\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"%lu\\U500b\\U7cfb\\U7d71\\U898f\\U5247\\U63a7\\U5236\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"%lu Kontrol Kebijakan Sistem\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Sistem Politikas\\U0131 Denetimi\";\n        other = \"%lu Sistem Politikas\\U0131 Denetimi\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"%lu datov\\U00e9 \\U010d\\U00e1sti \\U0159\\U00edzen\\U00ed syst\\U00e9mov\\U00fdch z\\U00e1sad\";\n        many = \"%lu datov\\U00e9 \\U010d\\U00e1sti \\U0159\\U00edzen\\U00ed syst\\U00e9mov\\U00fdch z\\U00e1sad\";\n        one = \"Datov\\U00e1 \\U010d\\U00e1st \\U0159\\U00edzen\\U00ed syst\\U00e9mov\\U00fdch z\\U00e1sad\";\n        other = \"%lu datov\\U00fdch \\U010d\\U00e1st\\U00ed \\U0159\\U00edzen\\U00ed syst\\U00e9mov\\U00fdch z\\U00e1sad\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"\\U0938\\U093f\\U0938\\U094d\\U091f\\U092e \\U0928\\U0940\\U0924\\U093f \\U0928\\U093f\\U092f\\U0902\\U0924\\U094d\\U0930\\U0923\";\n        other = \"%lu \\U0938\\U093f\\U0938\\U094d\\U091f\\U092e \\U0928\\U0940\\U0924\\U093f \\U0928\\U093f\\U092f\\U0902\\U0924\\U094d\\U0930\\U0923\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Controllo politiche di sistema\";\n        other = \"%lu controlli politiche di sistema\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"%lu Ki\\U1ec3m so\\U00e1t ch\\U00ednh s\\U00e1ch h\\U1ec7 th\\U1ed1ng\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Controlo das normas do sistema\";\n        other = \"%lu controlos das normas do sistema\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"System Policy Control\";\n        other = \"%lu System Policy Controls\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"J\\U00e4rjestelm\\U00e4k\\U00e4yt\\U00e4nn\\U00f6n ohjaus\";\n        other = \"%lu j\\U00e4rjestelm\\U00e4k\\U00e4yt\\U00e4nn\\U00f6n ohjausta\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"%lu kontrole zasad systemowych\";\n        many = \"%lu kontroli zasad systemowych\";\n        one = \"Kontrola zasad systemowych\";\n        other = \"%lu kontroli zasad systemowych\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"%lu kontrole pravila sustava\";\n        one = \"%lu kontrola pravila sustava\";\n        other = \"%lu kontrola pravila sustava\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "hr"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_SingularOnly" : [
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"System Policy Control\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Controlemaatregel voor systeembeleid\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Control de pol\\U00edtica del sistema\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Rendszerir\\U00e1nyelvek szab\\U00e1lyoz\\U00e1sa\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Kontrol af systempolitik\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = Systempolicykontroll;\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"\\U0388\\U03bb\\U03b5\\U03b3\\U03c7\\U03bf\\U03c2 \\U03c0\\U03bf\\U03bb\\U03b9\\U03c4\\U03b9\\U03ba\\U03ae\\U03c2 \\U03c3\\U03c5\\U03c3\\U03c4\\U03ae\\U03bc\\U03b1\\U03c4\\U03bf\\U03c2\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"\";\n        many = \"\";\n        one = \"\\U062d\\U0645\\U0648\\U0644\\U0629 \\U0648\\U0627\\U062d\\U062f\\U0629 \\U0645\\U0646 \\\"\\U0627\\U0644\\U062a\\U062d\\U0643\\U0645 \\U0641\\U064a \\U0633\\U064a\\U0627\\U0633\\U0629 \\U0627\\U0644\\U0646\\U0638\\U0627\\U0645\\\"\";\n        other = \"\";\n        two = \"\";\n        zero = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"kontroll av systemkriterier\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"\";\n        one = \"Control al politicii de sistem\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Contr\\U00f4le de politique syst\\U00e8me\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"System Policy Control\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"\";\n        many = \"\";\n        one = \"\\U0415\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442 \\U043a\\U0435\\U0440\\U0443\\U0432\\U0430\\U043d\\U043d\\U044f \\U043f\\U043e\\U043b\\U0456\\U0442\\U0438\\U043a\\U043e\\U044e \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U0438\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Control de la pol\\U00edtica del sistema\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        many = \"\";\n        one = \"\\U05d1\\U05e7\\U05e8\\U05ea \\U05de\\U05d3\\U05d9\\U05e0\\U05d9\\U05d5\\U05ea \\U05de\\U05e2\\U05e8\\U05db\\U05ea\";\n        other = \"\";\n        two = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Control de las pol\\U00edticas del sistema\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"\";\n        many = \"\";\n        one = \"Ovl\\U00e1dac\\U00ed prvok pravidiel syst\\U00e9mu\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Steuerung f\\U00fcr Systemrichtlinien\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"\";\n        many = \"\";\n        one = \"\\U042d\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442 \\U0443\\U043f\\U0440\\U0430\\U0432\\U043b\\U0435\\U043d\\U0438\\U044f \\U043f\\U043e\\U043b\\U0438\\U0442\\U0438\\U043a\\U0438 \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U044b\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Contr\\U00f4le de politique syst\\U00e8me\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Controle de Pol\\U00edtica do Sistema\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Sistem Politikas\\U0131 Denetimi\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"\";\n        many = \"\";\n        one = \"\\U0158\\U00edzen\\U00ed syst\\U00e9mov\\U00fdch z\\U00e1sad\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"\\U0938\\U093f\\U0938\\U094d\\U091f\\U092e \\U0928\\U0940\\U0924\\U093f \\U0928\\U093f\\U092f\\U0902\\U0924\\U094d\\U0930\\U0923\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Controllo politiche di sistema\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Controlo das normas do sistema\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"System Policy Control\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"J\\U00e4rjestelm\\U00e4k\\U00e4yt\\U00e4nn\\U00f6n ohjaus\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"\";\n        many = \"\";\n        one = \"Kontrola zasad systemowych\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"\";\n        one = \"%lu kontrola pravila sustava\";\n        other = \"\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "hr"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_CountLast" : [
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"System Policy Control\";\n        other = \"System Policy Controls (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Controlemaatregel voor systeembeleid\";\n        other = \"Controlemaatregelen voor systeembeleid (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\\U30b7\\U30b9\\U30c6\\U30e0\\U30dd\\U30ea\\U30b7\\U30fc\\U5236\\U5fa1\\Uff08%lu\\Uff09\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Control de pol\\U00edtica del sistema\";\n        other = \"Control de pol\\U00edtica del sistema (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Rendszerir\\U00e1nyelvek szab\\U00e1lyoz\\U00e1sa\";\n        other = \"Rendszerir\\U00e1nyelv vez\\U00e9rl\\U0151k (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Kontrol af systempolitik\";\n        other = \"Kontroller af systempolitik (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\\Uc2dc\\Uc2a4\\Ud15c \\Uc815\\Ucc45 \\Uc81c\\Uc5b4(%lu\\Uac1c)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = Systempolicykontroll;\n        other = \"Systempolicykontroller (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"Kawalan Dasar Sistem (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"\\U0388\\U03bb\\U03b5\\U03b3\\U03c7\\U03bf\\U03c2 \\U03c0\\U03bf\\U03bb\\U03b9\\U03c4\\U03b9\\U03ba\\U03ae\\U03c2 \\U03c3\\U03c5\\U03c3\\U03c4\\U03ae\\U03bc\\U03b1\\U03c4\\U03bf\\U03c2\";\n        other = \"\\U0388\\U03bb\\U03b5\\U03b3\\U03c7\\U03bf\\U03b9 \\U03c0\\U03bf\\U03bb\\U03b9\\U03c4\\U03b9\\U03ba\\U03ce\\U03bd \\U03c3\\U03c5\\U03c3\\U03c4\\U03ae\\U03bc\\U03b1\\U03c4\\U03bf\\U03c2 (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"\\U0627\\U0644\\U062a\\U062d\\U0643\\U0645 \\U0641\\U064a \\U0633\\U064a\\U0627\\U0633\\U0629 \\U0627\\U0644\\U0646\\U0638\\U0627\\U0645 (%lu)\";\n        many = \"\\U0627\\U0644\\U062a\\U062d\\U0643\\U0645 \\U0641\\U064a \\U0633\\U064a\\U0627\\U0633\\U0629 \\U0627\\U0644\\U0646\\U0638\\U0627\\U0645 (%lu)\";\n        one = \"\\U062d\\U0645\\U0648\\U0644\\U0629 \\U0648\\U0627\\U062d\\U062f\\U0629 \\U0645\\U0646 \\\"\\U0627\\U0644\\U062a\\U062d\\U0643\\U0645 \\U0641\\U064a \\U0633\\U064a\\U0627\\U0633\\U0629 \\U0627\\U0644\\U0646\\U0638\\U0627\\U0645\\\"\";\n        other = \"\\U0627\\U0644\\U062a\\U062d\\U0643\\U0645 \\U0641\\U064a \\U0633\\U064a\\U0627\\U0633\\U0629 \\U0627\\U0644\\U0646\\U0638\\U0627\\U0645 (%lu)\";\n        two = \"\\U0627\\U0644\\U062a\\U062d\\U0643\\U0645 \\U0641\\U064a \\U0633\\U064a\\U0627\\U0633\\U0629 \\U0627\\U0644\\U0646\\U0638\\U0627\\U0645 (%lu)\";\n        zero = \"\\U0627\\U0644\\U062a\\U062d\\U0643\\U0645 \\U0641\\U064a \\U0633\\U064a\\U0627\\U0633\\U0629 \\U0627\\U0644\\U0646\\U0638\\U0627\\U0645 (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"kontroll av systemkriterier\";\n        other = \"kontroller av systemkriterier (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\\U7cfb\\U7edf\\U7b56\\U7565\\U63a7\\U5236\\Uff08%lu\\U4e2a\\Uff09\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"Controale ale politicii de sistem (%lu)\";\n        one = \"Control al politicii de sistem\";\n        other = \"Controale ale politicii de sistem (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Contr\\U00f4le de politique syst\\U00e8me\";\n        other = \"Contr\\U00f4les de politique syst\\U00e8me (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"System Policy Control\";\n        other = \"System Policy Controls (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"\\U0415\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442\\U0438 \\U043a\\U0435\\U0440\\U0443\\U0432\\U0430\\U043d\\U043d\\U044f \\U043f\\U043e\\U043b\\U0456\\U0442\\U0438\\U043a\\U043e\\U044e \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U0438 (%lu)\";\n        many = \"\\U0415\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442\\U0438 \\U043a\\U0435\\U0440\\U0443\\U0432\\U0430\\U043d\\U043d\\U044f \\U043f\\U043e\\U043b\\U0456\\U0442\\U0438\\U043a\\U043e\\U044e \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U0438 (%lu)\";\n        one = \"\\U0415\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442 \\U043a\\U0435\\U0440\\U0443\\U0432\\U0430\\U043d\\U043d\\U044f \\U043f\\U043e\\U043b\\U0456\\U0442\\U0438\\U043a\\U043e\\U044e \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U0438 (%lu)\";\n        other = \"\\U0415\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442\\U0438 \\U043a\\U0435\\U0440\\U0443\\U0432\\U0430\\U043d\\U043d\\U044f \\U043f\\U043e\\U043b\\U0456\\U0442\\U0438\\U043a\\U043e\\U044e \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U0438 (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Control de la pol\\U00edtica del sistema\";\n        other = \"Controles de la pol\\U00edtica del sistema (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        many = \"\\U05d1\\U05e7\\U05e8\\U05ea \\U05de\\U05d3\\U05d9\\U05e0\\U05d9\\U05d5\\U05ea \\U05de\\U05e2\\U05e8\\U05db\\U05ea (%lu)\";\n        one = \"\\U05d1\\U05e7\\U05e8\\U05ea \\U05de\\U05d3\\U05d9\\U05e0\\U05d9\\U05d5\\U05ea \\U05de\\U05e2\\U05e8\\U05db\\U05ea\";\n        other = \"\\U05d1\\U05e7\\U05e8\\U05ea \\U05de\\U05d3\\U05d9\\U05e0\\U05d9\\U05d5\\U05ea \\U05de\\U05e2\\U05e8\\U05db\\U05ea (%lu)\";\n        two = \"\\U05d1\\U05e7\\U05e8\\U05ea \\U05de\\U05d3\\U05d9\\U05e0\\U05d9\\U05d5\\U05ea \\U05de\\U05e2\\U05e8\\U05db\\U05ea (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Control de las pol\\U00edticas del sistema\";\n        other = \"Controles de las pol\\U00edticas del sistema (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"Ovl\\U00e1dacie prvky pravidiel syst\\U00e9mu (%lu)\";\n        many = \"Ovl\\U00e1dacie prvky pravidiel syst\\U00e9mu (%lu)\";\n        one = \"Ovl\\U00e1dac\\U00ed prvok pravidiel syst\\U00e9mu\";\n        other = \"Ovl\\U00e1dacie prvky pravidiel syst\\U00e9mu (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Steuerung f\\U00fcr Systemrichtlinien\";\n        other = \"Steuerungen f\\U00fcr Systemrichtlinien (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"\\U042d\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442\\U044b \\U0443\\U043f\\U0440\\U0430\\U0432\\U043b\\U0435\\U043d\\U0438\\U044f \\U043f\\U043e\\U043b\\U0438\\U0442\\U0438\\U043a\\U0438 \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U044b (%lu)\";\n        many = \"\\U042d\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442\\U044b \\U0443\\U043f\\U0440\\U0430\\U0432\\U043b\\U0435\\U043d\\U0438\\U044f \\U043f\\U043e\\U043b\\U0438\\U0442\\U0438\\U043a\\U0438 \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U044b (%lu)\";\n        one = \"\\U042d\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442 \\U0443\\U043f\\U0440\\U0430\\U0432\\U043b\\U0435\\U043d\\U0438\\U044f \\U043f\\U043e\\U043b\\U0438\\U0442\\U0438\\U043a\\U0438 \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U044b (%lu)\";\n        other = \"\\U042d\\U043b\\U0435\\U043c\\U0435\\U043d\\U0442\\U044b \\U0443\\U043f\\U0440\\U0430\\U0432\\U043b\\U0435\\U043d\\U0438\\U044f \\U043f\\U043e\\U043b\\U0438\\U0442\\U0438\\U043a\\U0438 \\U0441\\U0438\\U0441\\U0442\\U0435\\U043c\\U044b (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Contr\\U00f4le de politique syst\\U00e8me\";\n        other = \"Contr\\U00f4les de politique syst\\U00e8me (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Controle de Pol\\U00edtica do Sistema\";\n        other = \"Controles de Pol\\U00edtica do Sistema (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\\U7cfb\\U7d71\\U898f\\U5247\\U63a7\\U5236\\Uff08%lu\\Uff09\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\\U0e15\\U0e31\\U0e27\\U0e04\\U0e27\\U0e1a\\U0e04\\U0e38\\U0e21\\U0e19\\U0e42\\U0e22\\U0e1a\\U0e32\\U0e22\\U0e23\\U0e30\\U0e1a\\U0e1a (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"\\U7cfb\\U7d71\\U898f\\U5247\\U63a7\\U5236\\Uff08%lu\\Uff09\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"Kontrol Kebijakan Sistem (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Sistem Politikas\\U0131 Denetimi\";\n        other = \"Sistem Politikas\\U0131 Denetimleri (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"\\U0158\\U00edzen\\U00ed syst\\U00e9mov\\U00fdch z\\U00e1sad (%lu)\";\n        many = \"\\U0158\\U00edzen\\U00ed syst\\U00e9mov\\U00fdch z\\U00e1sad (%lu)\";\n        one = \"\\U0158\\U00edzen\\U00ed syst\\U00e9mov\\U00fdch z\\U00e1sad\";\n        other = \"\\U0158\\U00edzen\\U00ed syst\\U00e9mov\\U00fdch z\\U00e1sad (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"\\U0938\\U093f\\U0938\\U094d\\U091f\\U092e \\U0928\\U0940\\U0924\\U093f \\U0928\\U093f\\U092f\\U0902\\U0924\\U094d\\U0930\\U0923\";\n        other = \"\\U0938\\U093f\\U0938\\U094d\\U091f\\U092e \\U0928\\U0940\\U0924\\U093f \\U0928\\U093f\\U092f\\U0902\\U0924\\U094d\\U0930\\U0923 (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Controllo politiche di sistema\";\n        other = \"Controlli regole di sistema (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        other = \"Ki\\U1ec3m so\\U00e1t ch\\U00ednh s\\U00e1ch h\\U1ec7 th\\U1ed1ng (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"Controlo das normas do sistema\";\n        other = \"Controlos das normas do sistema (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"System Policy Control\";\n        other = \"System Policy Controls (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        one = \"J\\U00e4rjestelm\\U00e4k\\U00e4yt\\U00e4nn\\U00f6n ohjaus\";\n        other = \"J\\U00e4rjestelm\\U00e4k\\U00e4yt\\U00e4nn\\U00f6n ohjaukset (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"Kontrole zasad systemowych (%lu)\";\n        many = \"Kontrole zasad systemowych (%lu)\";\n        one = \"Kontrola zasad systemowych\";\n        other = \"Kontrole zasad systemowych (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@PayloadType@\";\n    PayloadType =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = lu;\n        few = \"Kontole pravila sustava (%lu)\";\n        one = \"Kontrola pravila sustava (%lu)\";\n        other = \"Kontrole pravila sustava (%lu)\";\n    };\n}",
+        "filename" : "SystemPolicyControl.loctable",
+        "language" : "hr"
+      }
+    ]
+  }
+}
