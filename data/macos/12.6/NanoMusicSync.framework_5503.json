@@ -153,6 +153,40 @@
         "language" : "kk"
       }
     ],
+    "LAST_UPDATED_SUBTITLE_THURSDAY" : [
+      {
+        "target" : "Actualizar cada jueves",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Обновяване: всеки четвъртък",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Әр бейсенбі күні жаңартылады",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "DOWNLOAD_ERROR_DEVICE_IS_LOCKED_MESSAGE" : [
+      {
+        "target" : "Tu Apple Watch está bloqueado; desbloquéalo y reintenta.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Вашият Apple Watch в момента е заключен. Моля, отключете го и след това опитайте отново.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Apple Watch сағатыңыз ағымдағы уақытта құлыптаулы. Оның құлпын ашып, әрекетті қайталаңыз.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "DOWNLOAD_EXCEPTION_NO_NETWORK_MESSAGE" : [
       {
         "target" : "Asegúrate de que tu Apple Watch esté conectado a Internet y reintenta.",
@@ -187,36 +221,19 @@
         "language" : "kk"
       }
     ],
-    "LAST_UPDATED_SUBTITLE_THURSDAY" : [
+    "DOWNLOAD_EXCEPTION_CELLULAR_DATA_NOT_ALLOWED_MESSAGE_WLAN_TINKER" : [
       {
-        "target" : "Actualizar cada jueves",
+        "target" : "Para descargar música cuando tu Apple Watch no tiene conexión con una red WLAN, activa los datos celulares para Música en Configuración > Red celular.",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Обновяване: всеки четвъртък",
+        "target" : "За да изтегляте музика, когато вашият Apple Watch не е свързан към WLAN мрежа, включете Мобилни данни за Музика. Можете да промените това във всеки момент в Настройки > Мобилни данни.",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Әр бейсенбі күні жаңартылады",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "DOWNLOAD_ERROR_DEVICE_IS_LOCKED_MESSAGE" : [
-      {
-        "target" : "Tu Apple Watch está bloqueado; desbloquéalo y reintenta.",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Вашият Apple Watch в момента е заключен. Моля, отключете го и след това опитайте отново.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Apple Watch сағатыңыз ағымдағы уақытта құлыптаулы. Оның құлпын ашып, әрекетті қайталаңыз.",
+        "target" : "Apple Watch сағатыңыз WLAN желісіне қосылмай тұрған кезде, музыканы жүктеп алу мақсатында «Музыка» қолданбасы үшін ұялы деректерді пайдалану параметрін қосыңыз. Бұл параметрді кез келген уақытта «Реттеулер» > «Ұялы байланыс» тармағынан өзгертуге болады.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -255,23 +272,6 @@
         "language" : "kk"
       }
     ],
-    "DOWNLOAD_EXCEPTION_CELLULAR_DATA_NOT_ALLOWED_MESSAGE_WLAN_TINKER" : [
-      {
-        "target" : "Para descargar música cuando tu Apple Watch no tiene conexión con una red WLAN, activa los datos celulares para Música en Configuración > Red celular.",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "За да изтегляте музика, когато вашият Apple Watch не е свързан към WLAN мрежа, включете Мобилни данни за Музика. Можете да промените това във всеки момент в Настройки > Мобилни данни.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Apple Watch сағатыңыз WLAN желісіне қосылмай тұрған кезде, музыканы жүктеп алу мақсатында «Музыка» қолданбасы үшін ұялы деректерді пайдалану параметрін қосыңыз. Бұл параметрді кез келген уақытта «Реттеулер» > «Ұялы байланыс» тармағынан өзгертуге болады.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "WAITING_TO_DOWNLOAD_ALERT_MESSAGE_WAITING_FOR_WLAN_AND_POWER_CONTAINER_TINKER" : [
       {
         "target" : "“%@” se descargará la próxima vez que tu Apple Watch esté conectado a la corriente y a una red WLAN.",
@@ -285,6 +285,23 @@
       },
       {
         "target" : "«%1$@» контейнері келесі жолы Apple Watch сағаты зарядталып жатқанда және WLAN желісіне қосылғанда жүктеп алынады.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WAITING_TO_DOWNLOAD_ALERT_MESSAGE_CONSTRAINED_NETWORK_CONTAINER" : [
+      {
+        "target" : "“%@” se descargará cuando tu Apple Watch deje de estar en modo de ahorro de datos.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "„%@“ ще се изтегли, когато вашият Apple Watch вече не е в режим Пестене на данни.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«%@» альбомы Apple Watch сағаты «Деректерді үнемдеу» режимінен шыққанда жүктеп алынады.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -306,36 +323,19 @@
         "language" : "kk"
       }
     ],
-    "DOWNLOAD_EXCEPTION_POWER_WARNING_MESSAGE" : [
+    "WAITING_TO_DOWNLOAD_ALERT_TITLE" : [
       {
-        "target" : "Continuar con la descarga de “%@” en tu Apple Watch podría consumir más energía de lo normal.",
+        "target" : "Esperando para descargar",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Ако продължите изтеглянето на „%@“ на вашия Apple Watch, може да използва повече от обичайното от заряда на батерията.",
+        "target" : "Изчакване на изтегляне",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Apple Watch сағатында «%@» контейнерін жүктеп алу әрекетін жалғастырсаңыз, аккумулятор заряды әдеттегіден көбірек жұмсалуы мүмкін.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "WAITING_TO_DOWNLOAD_ALERT_MESSAGE_CONSTRAINED_NETWORK_CONTAINER" : [
-      {
-        "target" : "“%@” se descargará cuando tu Apple Watch deje de estar en modo de ahorro de datos.",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "„%@“ ще се изтегли, когато вашият Apple Watch вече не е в режим Пестене на данни.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "«%@» альбомы Apple Watch сағаты «Деректерді үнемдеу» режимінен шыққанда жүктеп алынады.",
+        "target" : "Жүктеп алу күтілуде",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -391,19 +391,19 @@
         "language" : "kk"
       }
     ],
-    "WAITING_TO_DOWNLOAD_ALERT_TITLE" : [
+    "DOWNLOAD_EXCEPTION_POWER_WARNING_MESSAGE" : [
       {
-        "target" : "Esperando para descargar",
+        "target" : "Continuar con la descarga de “%@” en tu Apple Watch podría consumir más energía de lo normal.",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Изчакване на изтегляне",
+        "target" : "Ако продължите изтеглянето на „%@“ на вашия Apple Watch, може да използва повече от обичайното от заряда на батерията.",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Жүктеп алу күтілуде",
+        "target" : "Apple Watch сағатында «%@» контейнерін жүктеп алу әрекетін жалғастырсаңыз, аккумулятор заряды әдеттегіден көбірек жұмсалуы мүмкін.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -799,19 +799,19 @@
         "language" : "kk"
       }
     ],
-    "WAITING_TO_DOWNLOAD_ALERT_MESSAGE_THERMAL_CONTAINER" : [
+    "COMPACT_LAST_UPDATED_SUBTITLE_MONDAY" : [
       {
-        "target" : "“%@” se descargará cuando tu Apple Watch se enfríe.",
+        "target" : "Act.: lun",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "„%@“ ще се изтегли, когато вашият Apple Watch се охлади.",
+        "target" : "Обновено в понеделник",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "«%@» контейнері Apple Watch сағаты суығанда жүктеп алынады.",
+        "target" : "Дүйсенбі күні жаңартылған",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -833,19 +833,19 @@
         "language" : "kk"
       }
     ],
-    "COMPACT_LAST_UPDATED_SUBTITLE_MONDAY" : [
+    "DOWNLOAD_EXCEPTION_CELLULAR_DOWNLOADS_NOT_ALLOWED_NON_TINKER_WATCH_MESSAGE_WIFI" : [
       {
-        "target" : "Act.: lun",
+        "target" : "Para descargar música cuando tu Apple Watch no tiene conexión ni a una red Wi-Fi ni a tu iPhone, activa los datos celulares para las descargas en Configuración > Música en tu iPhone.",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Обновено в понеделник",
+        "target" : "За да изтегляте музика, когато вашият Apple Watch не е свързан към Wi-Fi мрежа или към вашия iPhone, включете Мобилни данни за изтегляне. Можете да промените това във всеки момент в Настройки > Музика на вашия iPhone.",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Дүйсенбі күні жаңартылған",
+        "target" : "Apple Watch сағатыңыз Wi-Fi желісіне немесе iPhone құрылғыңызға қосылмай тұрған кезде, музыканы жүктеп алу үшін ұялы деректерді қосыңыз. Бұл параметрді iPhone құрылғысында кез келген уақытта «Реттеулер» > «Музыка» тармағынан өзгертуге болады.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -867,19 +867,19 @@
         "language" : "kk"
       }
     ],
-    "DOWNLOAD_EXCEPTION_CELLULAR_DOWNLOADS_NOT_ALLOWED_NON_TINKER_WATCH_MESSAGE_WIFI" : [
+    "WAITING_TO_DOWNLOAD_ALERT_MESSAGE_THERMAL_CONTAINER" : [
       {
-        "target" : "Para descargar música cuando tu Apple Watch no tiene conexión ni a una red Wi-Fi ni a tu iPhone, activa los datos celulares para las descargas en Configuración > Música en tu iPhone.",
+        "target" : "“%@” se descargará cuando tu Apple Watch se enfríe.",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "За да изтегляте музика, когато вашият Apple Watch не е свързан към Wi-Fi мрежа или към вашия iPhone, включете Мобилни данни за изтегляне. Можете да промените това във всеки момент в Настройки > Музика на вашия iPhone.",
+        "target" : "„%@“ ще се изтегли, когато вашият Apple Watch се охлади.",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Apple Watch сағатыңыз Wi-Fi желісіне немесе iPhone құрылғыңызға қосылмай тұрған кезде, музыканы жүктеп алу үшін ұялы деректерді қосыңыз. Бұл параметрді iPhone құрылғысында кез келген уақытта «Реттеулер» > «Музыка» тармағынан өзгертуге болады.",
+        "target" : "«%@» контейнері Apple Watch сағаты суығанда жүктеп алынады.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -986,19 +986,19 @@
         "language" : "kk"
       }
     ],
-    "WAITING_TO_DOWNLOAD_ALERT_MESSAGE_WAITING_FOR_WLAN_AND_POWER_CONTAINER" : [
+    "ACTION_TITLE_DOWNLOAD_WHEN_CHARGING" : [
       {
-        "target" : "“%@” se descargará la próxima vez que tu Apple Watch esté conectado a la corriente y a una red WLAN o a tu iPhone.",
+        "target" : "Descargar al conectarse a la corriente",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "„%@“ ще се изтегли следващия път, когато вашият Apple Watch се зарежда и е свързан към WLAN мрежа или към вашия iPhone.",
+        "target" : "Изтегляй по време на зареждане",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "«%1$@» контейнері келесі жолы Apple Watch сағаты зарядталып жатқанда және WLAN желісіне немесе iPhone құрылғыңызға қосылғанда жүктеп алынады.",
+        "target" : "Зарядтау кезінде жүктеп алу",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -1071,19 +1071,19 @@
         "language" : "kk"
       }
     ],
-    "ACTION_TITLE_DOWNLOAD_WHEN_CHARGING" : [
+    "WAITING_TO_DOWNLOAD_ALERT_MESSAGE_WAITING_FOR_WLAN_AND_POWER_CONTAINER" : [
       {
-        "target" : "Descargar al conectarse a la corriente",
+        "target" : "“%@” se descargará la próxima vez que tu Apple Watch esté conectado a la corriente y a una red WLAN o a tu iPhone.",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Изтегляй по време на зареждане",
+        "target" : "„%@“ ще се изтегли следващия път, когато вашият Apple Watch се зарежда и е свързан към WLAN мрежа или към вашия iPhone.",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Зарядтау кезінде жүктеп алу",
+        "target" : "«%1$@» контейнері келесі жолы Apple Watch сағаты зарядталып жатқанда және WLAN желісіне немесе iPhone құрылғыңызға қосылғанда жүктеп алынады.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -1258,19 +1258,19 @@
         "language" : "kk"
       }
     ],
-    "COMPACT_LAST_UPDATED_SUBTITLE_THURSDAY" : [
+    "COMPACT_LAST_UPDATED_SUBTITLE_FRIDAY" : [
       {
-        "target" : "Act.: jue",
+        "target" : "Act.: vie",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Обновено в четвъртък",
+        "target" : "Обновено в петък",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бейсенбі күні жаңартылған",
+        "target" : "Жұма күні жаңартылған",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -1292,36 +1292,19 @@
         "language" : "kk"
       }
     ],
-    "COMPACT_LAST_UPDATED_SUBTITLE_FRIDAY" : [
+    "COMPACT_LAST_UPDATED_SUBTITLE_THURSDAY" : [
       {
-        "target" : "Act.: vie",
+        "target" : "Act.: jue",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Обновено в петък",
+        "target" : "Обновено в четвъртък",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Жұма күні жаңартылған",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "DOWNLOAD_EXCEPTION_CELLULAR_DOWNLOADS_NOT_ALLOWED_MESSAGE_WLAN_TINKER" : [
-      {
-        "target" : "Para descargar música cuando tu Apple Watch no tiene conexión a una red WLAN, activa los datos celulares para las descargas en Configuración > Música.",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "За да изтегляте музика, когато вашият Apple Watch не е свързан към WLAN мрежа, включете Мобилни данни за изтегляне. Можете да промените това във всеки момент в Настройки > Музика.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Apple Watch сағатыңыз WLAN желісіне қосылмай тұрған кезде, музыканы жүктеп алу үшін ұялы деректерді қосыңыз. Бұл параметрді кез келген уақытта «Реттеулер» > «Музыка» тармағынан өзгертуге болады.",
+        "target" : "Бейсенбі күні жаңартылған",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -1339,6 +1322,23 @@
       },
       {
         "target" : "Музыканы жүктеп алу әрекеті келесі жолы Apple Watch сағаты зарядталып жатқанда және Wi-Fi желісіне немесе iPhone құрылғыңызға қосулы болғанда жалғасады.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "DOWNLOAD_EXCEPTION_CELLULAR_DOWNLOADS_NOT_ALLOWED_MESSAGE_WLAN_TINKER" : [
+      {
+        "target" : "Para descargar música cuando tu Apple Watch no tiene conexión a una red WLAN, activa los datos celulares para las descargas en Configuración > Música.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "За да изтегляте музика, когато вашият Apple Watch не е свързан към WLAN мрежа, включете Мобилни данни за изтегляне. Можете да промените това във всеки момент в Настройки > Музика.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Apple Watch сағатыңыз WLAN желісіне қосылмай тұрған кезде, музыканы жүктеп алу үшін ұялы деректерді қосыңыз. Бұл параметрді кез келген уақытта «Реттеулер» > «Музыка» тармағынан өзгертуге болады.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }

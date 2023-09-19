@@ -12,18 +12,6 @@
         "language" : "kk"
       }
     ],
-    "WIFI_ON_WLAN" : [
-      {
-        "target" : "WLAN",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "WLAN",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "AIRPLANE_MODE_TITLE" : [
       {
         "target" : "Режим Полет",
@@ -32,6 +20,18 @@
       },
       {
         "target" : "Ұшақ режимі",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WIFI_ON_WLAN" : [
+      {
+        "target" : "WLAN",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "WLAN",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -96,50 +96,14 @@
         "language" : "kk"
       }
     ],
-    "CELLULAR_PLAN_BUTTON_ADD_CELLULAR" : [
+    "WAITING_FOR_CARRIER_NAME" : [
       {
-        "target" : "Добави нов план",
+        "target" : "Оператор",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Жаңа тарифтік жоспар қосу",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "CELLULAR_PLAN_STATUS_DELETING" : [
-      {
-        "target" : "Премахване",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жойылуда",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "UNKNOWN" : [
-      {
-        "target" : "Непознат",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Белгісіз",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "MISSING_SIM_TEXT_TINKER" : [
-      {
-        "target" : "Може да се добави мобилен план на iPhone, който е използван за настройване на този часовник.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Ұялы тарифтік жоспарды осы сағатты баптау үшін пайдаланылған iPhone құрылғысына қосуға болады.",
+        "target" : "Ұялы байланыс операторы",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -156,14 +120,14 @@
         "language" : "kk"
       }
     ],
-    "CELLULAR_PLAN_STATUS_WAITING" : [
+    "MISSING_SIM_TEXT_TINKER" : [
       {
-        "target" : "Изчакване",
+        "target" : "Може да се добави мобилен план на iPhone, който е използван за настройване на този часовник.",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Күтілуде",
+        "target" : "Ұялы тарифтік жоспарды осы сағатты баптау үшін пайдаланылған iPhone құрылғысына қосуға болады.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -180,14 +144,50 @@
         "language" : "kk"
       }
     ],
-    "WAITING_FOR_CARRIER_NAME" : [
+    "CELLULAR_PLAN_STATUS_DELETING" : [
       {
-        "target" : "Оператор",
+        "target" : "Премахване",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Ұялы байланыс операторы",
+        "target" : "Жойылуда",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "CELLULAR_PLAN_STATUS_WAITING" : [
+      {
+        "target" : "Изчакване",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Күтілуде",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "UNKNOWN" : [
+      {
+        "target" : "Непознат",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Белгісіз",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "CELLULAR_PLAN_BUTTON_ADD_CELLULAR" : [
+      {
+        "target" : "Добави нов план",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жаңа тарифтік жоспар қосу",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -204,18 +204,6 @@
         "language" : "kk"
       }
     ],
-    "CFBundleDisplayName" : [
-      {
-        "target" : "Мобилни данни",
-        "filename" : "InfoPlist.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Ұялы байланыс",
-        "filename" : "InfoPlist.strings",
-        "language" : "kk"
-      }
-    ],
     "REMOVE_MORE_THAN_ONE_PLAN_ACTION" : [
       {
         "target" : "Продължи и премахни всички планове",
@@ -225,6 +213,18 @@
       {
         "target" : "Жалғастыру және барлық тарифтік жоспарды жою",
         "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "CFBundleDisplayName" : [
+      {
+        "target" : "Мобилни данни",
+        "filename" : "InfoPlist.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Ұялы байланыс",
+        "filename" : "InfoPlist.strings",
         "language" : "kk"
       }
     ],
@@ -252,18 +252,6 @@
         "language" : "kk"
       }
     ],
-    "STATUS_TITLE" : [
-      {
-        "target" : "Състояние",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Күйі",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "REPLACE_PLAN_CANCEL" : [
       {
         "target" : "Отказ",
@@ -272,6 +260,18 @@
       },
       {
         "target" : "Бас тарту",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "RESET_STATISTICS_TITLE" : [
+      {
+        "target" : "Нулиране на статистиката",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Статистиканы бастапқы күйге қайтару",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -288,14 +288,14 @@
         "language" : "kk"
       }
     ],
-    "RESET_STATISTICS_TITLE" : [
+    "STATUS_TITLE" : [
       {
-        "target" : "Нулиране на статистиката",
+        "target" : "Състояние",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Статистиканы бастапқы күйге қайтару",
+        "target" : "Күйі",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -408,18 +408,6 @@
         "language" : "kk"
       }
     ],
-    "DATA_OFF" : [
-      {
-        "target" : "Изкл.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Өшірулі",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "REMOVE_MULTILE_PLANS_ACTION" : [
       {
         "target" : "Премахни всички планове",
@@ -428,6 +416,18 @@
       },
       {
         "target" : "Барлық тарифтік жоспарды жою",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "DATA_OFF" : [
+      {
+        "target" : "Изкл.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Өшірулі",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -480,18 +480,6 @@
         "language" : "kk"
       }
     ],
-    "ACTIVE_CELLULAR_PLANS_HEADER" : [
-      {
-        "target" : "МОБИЛЕН ПЛАН",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "ҰЯЛЫ ТАРИФТІК ЖОСПАР",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "MISSING_SIM" : [
       {
         "target" : "Няма мобилен план",
@@ -516,6 +504,18 @@
         "language" : "kk"
       }
     ],
+    "ACTIVE_CELLULAR_PLANS_HEADER" : [
+      {
+        "target" : "МОБИЛЕН ПЛАН",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "ҰЯЛЫ ТАРИФТІК ЖОСПАР",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "ALL_ON_WIFI" : [
       {
         "target" : "Wi-Fi и мобилни данни",
@@ -524,30 +524,6 @@
       },
       {
         "target" : "Wi-Fi және ұялы деректер",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "CELLULAR_PLAN_STATUS_EXPIRED" : [
-      {
-        "target" : "Изтекъл",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Мерзімі аяқталды",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "CONNECTIVITY_STATUS_CONNECTED" : [
-      {
-        "target" : "Свързано",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Қосылды",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -564,6 +540,18 @@
         "language" : "kk"
       }
     ],
+    "CELLULAR_PLAN_STATUS_EXPIRED" : [
+      {
+        "target" : "Изтекъл",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Мерзімі аяқталды",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "BRIDGE_APP_TITLE" : [
       {
         "target" : "Мобилни данни",
@@ -572,6 +560,18 @@
       },
       {
         "target" : "Ұялы байланыс",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "CONNECTIVITY_STATUS_CONNECTED" : [
+      {
+        "target" : "Свързано",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қосылды",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -696,18 +696,6 @@
         "language" : "kk"
       }
     ],
-    "CONNECTIVITY_STATUS_NO_SIM" : [
-      {
-        "target" : "Няма SIM карта",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "SIM карта жоқ",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "CELLULAR_PLAN_STATUS_SWITCHING" : [
       {
         "target" : "Превключване",
@@ -716,6 +704,18 @@
       },
       {
         "target" : "Ауысу",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "CONNECTIVITY_STATUS_NO_SIM" : [
+      {
+        "target" : "Няма SIM карта",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "SIM карта жоқ",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -780,14 +780,14 @@
         "language" : "kk"
       }
     ],
-    "ALL_ON_WLAN" : [
+    "UNINSTALLED_APPS" : [
       {
-        "target" : "WLAN и мобилни данни",
+        "target" : "Деинсталирани приложения",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "WLAN және ұялы деректер",
+        "target" : "Жойылған қолданбалар",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -804,6 +804,18 @@
         "language" : "kk"
       }
     ],
+    "ALL_ON_WLAN" : [
+      {
+        "target" : "WLAN и мобилни данни",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "WLAN және ұялы деректер",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "ALLOW_DATA_ACCESS_FORMAT" : [
       {
         "target" : "Разреши на „%@“ да използва данни",
@@ -812,18 +824,6 @@
       },
       {
         "target" : "Деректерді «%@» пайдалануына рұқсат беру",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "UNINSTALLED_APPS" : [
-      {
-        "target" : "Деинсталирани приложения",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жойылған қолданбалар",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }

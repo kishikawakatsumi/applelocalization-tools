@@ -28,9 +28,9 @@
         "language" : "en"
       }
     ],
-    "Simulator.title2.formatter" : [
+    "deviceError.invalidService.short" : [
       {
-        "target" : "Simulator - %@ (%@)",
+        "target" : "Not setup",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -49,16 +49,9 @@
         "language" : "en"
       }
     ],
-    "deviceError.invalidService.short" : [
+    "Simulator.title2.formatter" : [
       {
-        "target" : "Not setup",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "AXAuditIssueType_ElementTitleUIElementNotAssigned" : [
-      {
-        "target" : "Lacking title element",
+        "target" : "Simulator - %@ (%@)",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -70,6 +63,13 @@
         "language" : "en"
       }
     ],
+    "Simulator.title1.formatter" : [
+      {
+        "target" : "Simulator - %@",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "deviceError.invalidService.title" : [
       {
         "target" : "Device not setup",
@@ -77,9 +77,9 @@
         "language" : "en"
       }
     ],
-    "Simulator.title1.formatter" : [
+    "deviceError.missingPairRecord.short" : [
       {
-        "target" : "Simulator - %@",
+        "target" : "Unpaired",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -91,6 +91,13 @@
         "language" : "en"
       }
     ],
+    "deviceError.invalidService.message" : [
+      {
+        "target" : "This device must be setup for development using Xcode.",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "deviceError.passwordProtected.message" : [
       {
         "target" : "Please unlock your device and reattach.",
@@ -98,16 +105,9 @@
         "language" : "en"
       }
     ],
-    "AXAuditIssueType_ElementLabelNotHumanReadable" : [
+    "AXAuditIssueType_ElementTitleUIElementNotAssigned" : [
       {
-        "target" : "Label is not human readable",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "deviceError.invalidService.message" : [
-      {
-        "target" : "This device must be setup for development using Xcode.",
+        "target" : "Lacking title element",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -119,9 +119,9 @@
         "language" : "en"
       }
     ],
-    "deviceError.missingPairRecord.short" : [
+    "AXAuditIssueType_ElementLabelNotHumanReadable" : [
       {
-        "target" : "Unpaired",
+        "target" : "Label is not human readable",
         "filename" : "Localizable.strings",
         "language" : "en"
       }

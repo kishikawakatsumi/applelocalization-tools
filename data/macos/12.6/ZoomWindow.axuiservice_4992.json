@@ -170,6 +170,23 @@
         "language" : "kk"
       }
     ],
+    "ZOOM_DISABLED_BANNER" : [
+      {
+        "target" : "Zoom desactivado",
+        "filename" : "ZoomWindow.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Увеличението е изключено",
+        "filename" : "ZoomWindow.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«Масштабтау» функциясы өшірулі",
+        "filename" : "ZoomWindow.strings",
+        "language" : "kk"
+      }
+    ],
     "ZW_MENU_TOUCH_CONTAINER_LABEL" : [
       {
         "target" : "Menú de zoom",
@@ -183,23 +200,6 @@
       },
       {
         "target" : "Масштабтау мәзірі",
-        "filename" : "ZoomWindow.strings",
-        "language" : "kk"
-      }
-    ],
-    "ZW_RESIZE_HANDLE_LEFT" : [
-      {
-        "target" : "Manija izquierda de redimensionamiento",
-        "filename" : "ZoomWindow.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Ляв показалец за промяна на размера",
-        "filename" : "ZoomWindow.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Сол жақтағы өлшемді өзгерту манипуляторы",
         "filename" : "ZoomWindow.strings",
         "language" : "kk"
       }
@@ -255,6 +255,23 @@
         "language" : "kk"
       }
     ],
+    "ZW_MENU_BUTTON_HIDE_SLUG_LABEL" : [
+      {
+        "target" : "Ocultar controlador",
+        "filename" : "ZoomWindow.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Скрий управление",
+        "filename" : "ZoomWindow.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Контроллерді жасыру",
+        "filename" : "ZoomWindow.strings",
+        "language" : "kk"
+      }
+    ],
     "ZW_LENS_EFFECTS_MENU_TITLE" : [
       {
         "target" : "Filtros",
@@ -289,19 +306,19 @@
         "language" : "kk"
       }
     ],
-    "ZW_HUD_PANNING" : [
+    "ZW_SLUG_LABEL" : [
       {
-        "target" : "Panorámico",
+        "target" : "Controles de zoom",
         "filename" : "ZoomWindow.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Преместване",
+        "target" : "Управление на увеличаването",
         "filename" : "ZoomWindow.strings",
         "language" : "bg"
       },
       {
-        "target" : "Панорамалау",
+        "target" : "Масштабтауды басқару элементтері",
         "filename" : "ZoomWindow.strings",
         "language" : "kk"
       }
@@ -323,36 +340,19 @@
         "language" : "kk"
       }
     ],
-    "ZW_TITLE" : [
+    "ZW_HUD_PANNING" : [
       {
-        "target" : "Zoom",
+        "target" : "Panorámico",
         "filename" : "ZoomWindow.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Увеличаване",
+        "target" : "Преместване",
         "filename" : "ZoomWindow.strings",
         "language" : "bg"
       },
       {
-        "target" : "Масштабтау",
-        "filename" : "ZoomWindow.strings",
-        "language" : "kk"
-      }
-    ],
-    "ZW_RESIZE_HANDLE_UPPER" : [
-      {
-        "target" : "Manija superior derecha de redimensionamiento",
-        "filename" : "ZoomWindow.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Горен показалец за промяна на размера",
-        "filename" : "ZoomWindow.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жоғарғы өлшемді өзгерту манипуляторы",
+        "target" : "Панорамалау",
         "filename" : "ZoomWindow.strings",
         "language" : "kk"
       }
@@ -374,19 +374,19 @@
         "language" : "kk"
       }
     ],
-    "ZW_GRABBER_HINT" : [
+    "ZW_TITLE" : [
       {
-        "target" : "Toca dos veces para mostrar el menú de zoom. Toca dos veces y luego arrastra para mover la lente del zoom.",
+        "target" : "Zoom",
         "filename" : "ZoomWindow.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Докоснете два пъти, за да се покаже менюто за увеличаване. Докоснете два пъти, след това изтеглете, за да преместите варио обектива",
+        "target" : "Увеличаване",
         "filename" : "ZoomWindow.strings",
         "language" : "bg"
       },
       {
-        "target" : "Масштабтау мәзірін көрсету үшін екі рет түртіңіз. Масштабтау линзасын жылжыту үшін екі рет түртіңіз, содан кейін сүйреңіз",
+        "target" : "Масштабтау",
         "filename" : "ZoomWindow.strings",
         "language" : "kk"
       }
@@ -408,23 +408,6 @@
         "language" : "kk"
       }
     ],
-    "ZW_HUD_FOLLOWING_FOCUS" : [
-      {
-        "target" : "Seguir enfoque",
-        "filename" : "ZoomWindow.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Следване на фокуса",
-        "filename" : "ZoomWindow.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Фокустың артынан еру",
-        "filename" : "ZoomWindow.strings",
-        "language" : "kk"
-      }
-    ],
     "ZW_SLUG_HINT_DOUBLE_TAP_TOGGLE_ZOOM" : [
       {
         "target" : "Toca tres veces para activar el zoom.",
@@ -438,6 +421,23 @@
       },
       {
         "target" : "Масштабтау функциясын қосу\/өшіру үшін үш рет түртіңіз.",
+        "filename" : "ZoomWindow.strings",
+        "language" : "kk"
+      }
+    ],
+    "ZW_HUD_FOLLOWING_FOCUS" : [
+      {
+        "target" : "Seguir enfoque",
+        "filename" : "ZoomWindow.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Следване на фокуса",
+        "filename" : "ZoomWindow.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Фокустың артынан еру",
         "filename" : "ZoomWindow.strings",
         "language" : "kk"
       }
@@ -459,19 +459,19 @@
         "language" : "kk"
       }
     ],
-    "ZW_RIGHT_GRABBER_LABEL" : [
+    "ZW_RESIZE_HANDLE_LEFT" : [
       {
-        "target" : "Manija derecha de zoom",
+        "target" : "Manija izquierda de redimensionamiento",
         "filename" : "ZoomWindow.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Десен показалец за увеличаване",
+        "target" : "Ляв показалец за промяна на размера",
         "filename" : "ZoomWindow.strings",
         "language" : "bg"
       },
       {
-        "target" : "Оң жақтағы масштабтау манипуляторы",
+        "target" : "Сол жақтағы өлшемді өзгерту манипуляторы",
         "filename" : "ZoomWindow.strings",
         "language" : "kk"
       }
@@ -493,53 +493,53 @@
         "language" : "kk"
       }
     ],
-    "ZW_SLUG_LABEL" : [
+    "ZW_RESIZE_HANDLE_UPPER_LEFT" : [
       {
-        "target" : "Controles de zoom",
+        "target" : "Manija superior izquierda de redimensionamiento",
         "filename" : "ZoomWindow.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Управление на увеличаването",
+        "target" : "Горен ляв показалец за промяна на размера",
         "filename" : "ZoomWindow.strings",
         "language" : "bg"
       },
       {
-        "target" : "Масштабтауды басқару элементтері",
+        "target" : "Жоғарғы сол жақтағы өлшемді өзгерту манипуляторы",
         "filename" : "ZoomWindow.strings",
         "language" : "kk"
       }
     ],
-    "ZW_MENU_BUTTON_HIDE_SLUG_LABEL" : [
+    "ZW_GRABBER_HINT" : [
       {
-        "target" : "Ocultar controlador",
+        "target" : "Toca dos veces para mostrar el menú de zoom. Toca dos veces y luego arrastra para mover la lente del zoom.",
         "filename" : "ZoomWindow.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Скрий управление",
+        "target" : "Докоснете два пъти, за да се покаже менюто за увеличаване. Докоснете два пъти, след това изтеглете, за да преместите варио обектива",
         "filename" : "ZoomWindow.strings",
         "language" : "bg"
       },
       {
-        "target" : "Контроллерді жасыру",
+        "target" : "Масштабтау мәзірін көрсету үшін екі рет түртіңіз. Масштабтау линзасын жылжыту үшін екі рет түртіңіз, содан кейін сүйреңіз",
         "filename" : "ZoomWindow.strings",
         "language" : "kk"
       }
     ],
-    "ZW_RESIZE_HANDLE_UPPER_RIGHT" : [
+    "ZW_RESIZE_HANDLE_UPPER" : [
       {
         "target" : "Manija superior derecha de redimensionamiento",
         "filename" : "ZoomWindow.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Горен десен показалец за промяна на размера",
+        "target" : "Горен показалец за промяна на размера",
         "filename" : "ZoomWindow.strings",
         "language" : "bg"
       },
       {
-        "target" : "Жоғарғы оң жақтағы өлшемді өзгерту манипуляторы",
+        "target" : "Жоғарғы өлшемді өзгерту манипуляторы",
         "filename" : "ZoomWindow.strings",
         "language" : "kk"
       }
@@ -561,36 +561,36 @@
         "language" : "kk"
       }
     ],
-    "ZW_STOP_RESIZING_HINT" : [
+    "ZW_RIGHT_GRABBER_LABEL" : [
       {
-        "target" : "Toca dos veces para detener el cambio de tamaño",
+        "target" : "Manija derecha de zoom",
         "filename" : "ZoomWindow.strings",
         "language" : "es_419"
       },
       {
-        "target" : "докоснете два пъти, за да прекратите промяната на размера",
+        "target" : "Десен показалец за увеличаване",
         "filename" : "ZoomWindow.strings",
         "language" : "bg"
       },
       {
-        "target" : "өлшемді өзгерту әрекетін тоқтату үшін екі рет түртіңіз",
+        "target" : "Оң жақтағы масштабтау манипуляторы",
         "filename" : "ZoomWindow.strings",
         "language" : "kk"
       }
     ],
-    "ZW_RESIZE_HANDLE_UPPER_LEFT" : [
+    "ZW_RESIZE_HANDLE_UPPER_RIGHT" : [
       {
-        "target" : "Manija superior izquierda de redimensionamiento",
+        "target" : "Manija superior derecha de redimensionamiento",
         "filename" : "ZoomWindow.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Горен ляв показалец за промяна на размера",
+        "target" : "Горен десен показалец за промяна на размера",
         "filename" : "ZoomWindow.strings",
         "language" : "bg"
       },
       {
-        "target" : "Жоғарғы сол жақтағы өлшемді өзгерту манипуляторы",
+        "target" : "Жоғарғы оң жақтағы өлшемді өзгерту манипуляторы",
         "filename" : "ZoomWindow.strings",
         "language" : "kk"
       }
@@ -646,19 +646,19 @@
         "language" : "kk"
       }
     ],
-    "ZOOM_DISABLED_BANNER" : [
+    "ZW_STOP_RESIZING_HINT" : [
       {
-        "target" : "Zoom desactivado",
+        "target" : "Toca dos veces para detener el cambio de tamaño",
         "filename" : "ZoomWindow.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Увеличението е изключено",
+        "target" : "докоснете два пъти, за да прекратите промяната на размера",
         "filename" : "ZoomWindow.strings",
         "language" : "bg"
       },
       {
-        "target" : "«Масштабтау» функциясы өшірулі",
+        "target" : "өлшемді өзгерту әрекетін тоқтату үшін екі рет түртіңіз",
         "filename" : "ZoomWindow.strings",
         "language" : "kk"
       }

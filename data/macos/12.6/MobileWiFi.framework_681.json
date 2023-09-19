@@ -68,23 +68,6 @@
         "language" : "kk"
       }
     ],
-    "WIFI_JOIN_NETWORK_TITLE" : [
-      {
-        "target" : "“%@” quiere unirse a la red Wi‑Fi ”%@”",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "„%@“ иска да се присъедини към Wi‑Fi мрежа „%@“?",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "«%@» қолданбасы «%@» Wi‑Fi желісіне қосылғысы келеді",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "PERSONAL_HOTSPOT_NEARBY_BODY" : [
       {
         "target" : "¿Quieres acceder a “%@”?",
@@ -98,6 +81,23 @@
       },
       {
         "target" : "«%@» желісіне қосылғыңыз келе ме?",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WIFI_JOIN_NETWORK_TITLE" : [
+      {
+        "target" : "“%@” quiere unirse a la red Wi‑Fi ”%@”",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "„%@“ иска да се присъедини към Wi‑Fi мрежа „%@“?",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«%@» қолданбасы «%@» Wi‑Fi желісіне қосылғысы келеді",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -187,20 +187,20 @@
         "language" : "kk"
       }
     ],
-    "WIFI_COLOCATED_SSID_BODY" : [
+    "CFBundleDisplayName" : [
       {
-        "target" : "“%@” comparte el mismo punto de acceso Wi-Fi que la red actual.",
-        "filename" : "Localizable.strings",
+        "target" : "Conexión de red Wi-Fi",
+        "filename" : "InfoPlist.strings",
         "language" : "es_419"
       },
       {
-        "target" : "„%@“ споделя същата Wi-Fi точка за достъп като настоящата мрежа.",
-        "filename" : "Localizable.strings",
+        "target" : "Wi-Fi свързване",
+        "filename" : "InfoPlist.strings",
         "language" : "bg"
       },
       {
-        "target" : "«%@» ағымдағы желі сияқты бірдей Wi-Fi қол жеткізу нүктесін ортақ пайдаланады.",
-        "filename" : "Localizable.strings",
+        "target" : "Wi-Fi желілері",
+        "filename" : "InfoPlist.strings",
         "language" : "kk"
       }
     ],
@@ -221,20 +221,20 @@
         "language" : "kk"
       }
     ],
-    "CFBundleDisplayName" : [
+    "WIFI_COLOCATED_SSID_BODY" : [
       {
-        "target" : "Conexión de red Wi-Fi",
-        "filename" : "InfoPlist.strings",
+        "target" : "“%@” comparte el mismo punto de acceso Wi-Fi que la red actual.",
+        "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Wi-Fi свързване",
-        "filename" : "InfoPlist.strings",
+        "target" : "„%@“ споделя същата Wi-Fi точка за достъп като настоящата мрежа.",
+        "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Wi-Fi желілері",
-        "filename" : "InfoPlist.strings",
+        "target" : "«%@» ағымдағы желі сияқты бірдей Wi-Fi қол жеткізу нүктесін ортақ пайдаланады.",
+        "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],
@@ -289,23 +289,6 @@
         "language" : "kk"
       }
     ],
-    "WIFI_USER_JOIN_NETWORK_TITLE" : [
-      {
-        "target" : "¿Unirse a la red Wi-Fi\n“%@”?",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Присъединяване към Wi‑Fi мрежа \n„%@“?",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "«%@» Wi‑Fi желісіне қосылу \nқажет пе?",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "WIFI_LOW_DATA_MODE_ALERT_JOINED_NETWORK_BODY_IPAD" : [
       {
         "target" : "Esto ayuda a que las apps de tu iPad reduzcan su consumo de datos al estar conectadas a “%@”.",
@@ -319,6 +302,23 @@
       },
       {
         "target" : "Бұл режим iPad құрылғысындағы қолданбаларға «%@» желісіне қосылған кезде деректерді пайдалануды азайтуға көмектеседі.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WIFI_USER_JOIN_NETWORK_TITLE" : [
+      {
+        "target" : "¿Unirse a la red Wi-Fi\n“%@”?",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Присъединяване към Wi‑Fi мрежа \n„%@“?",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«%@» Wi‑Fi желісіне қосылу \nқажет пе?",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -374,6 +374,23 @@
         "language" : "kk"
       }
     ],
+    "WIFI_ASK_TO_JOIN_NETWORK_HOTSPOT_RECOMMENDED_BODY" : [
+      {
+        "target" : "\"Compartir Internet\" está usando “%@”. ¿Compartir la misma red?",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Личната точка е свързана към „%@“. Искате ли да се присъедините към същата мрежа?",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жеке кіру нүктесі «%@» желісіне қосылды. Осы желіге қосылу қажет пе?",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "WIFI_FAILURE_MESSAGE_SUFFIX" : [
       {
         "target" : "”.",
@@ -404,23 +421,6 @@
       },
       {
         "target" : "OK",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "WIFI_ASK_TO_JOIN_NETWORK_HOTSPOT_RECOMMENDED_BODY" : [
-      {
-        "target" : "\"Compartir Internet\" está usando “%@”. ¿Compartir la misma red?",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Личната точка е свързана към „%@“. Искате ли да се присъедините към същата мрежа?",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жеке кіру нүктесі «%@» желісіне қосылды. Осы желіге қосылу қажет пе?",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -476,23 +476,6 @@
         "language" : "kk"
       }
     ],
-    "WIFI_JOIN_NETWORK_JOIN" : [
-      {
-        "target" : "Acceder",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Присъединяване",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Қосылу",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "PERSONAL_HOTSPOT_REMOTE_FAILURE_TITLE" : [
       {
         "target" : "Error al compartir Internet",
@@ -506,74 +489,6 @@
       },
       {
         "target" : "Қашықтағы кіру нүктесінің ақауы",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "WIFI_LIMITED_COMPATIBILITY_JOIN_TITLE" : [
-      {
-        "target" : "¿Ingresar también a “%@”?",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Присъединяване също към „%@“?",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "«%@» желісіне де қосылу қажет пе?",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "PERSONAL_HOTSPOT_DECLINED_BODY" : [
-      {
-        "target" : "“%@”\nrechazó la solicitud de conexión",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Заявката за присъединяване към точка за достъп е отказана от\n„%@“",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%@ кіру нүктесіне қосылу сұрауын\nқабылдамады",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "WIFI_FAILURE_MESSAGE_PREFIX" : [
-      {
-        "target" : "Se presentó un error al acceder a\n“",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Възникна грешка при присъединяването към\n“",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Мына желіге қосылу кезінде қате орын алды:\n«",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "WIFI_RECOMMENDATION_TITLE_CH" : [
-      {
-        "target" : "Red WLAN disponible",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Налична WLAN мрежа",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Қолжетімді WLAN желісі",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -595,20 +510,105 @@
         "language" : "kk"
       }
     ],
-    "WIFI_JOIN_NETWORK_FAILURE_TITLE" : [
+    "WIFI_JOIN_NETWORK_JOIN" : [
       {
-        "target" : "No se pudo conectar a la red\n“%@”",
+        "target" : "Acceder",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Не може да се свърже с мрежата\n„%@“",
+        "target" : "Присъединяване",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "«%@» желісіне қосылу\nмүмкін емес",
+        "target" : "Қосылу",
         "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WIFI_LIMITED_COMPATIBILITY_JOIN_TITLE" : [
+      {
+        "target" : "¿Ingresar también a “%@”?",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Присъединяване също към „%@“?",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«%@» желісіне де қосылу қажет пе?",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WIFI_FAILURE_MESSAGE_PREFIX" : [
+      {
+        "target" : "Se presentó un error al acceder a\n“",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Възникна грешка при присъединяването към\n“",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Мына желіге қосылу кезінде қате орын алды:\n«",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "PERSONAL_HOTSPOT_DECLINED_BODY" : [
+      {
+        "target" : "“%@”\nrechazó la solicitud de conexión",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Заявката за присъединяване към точка за достъп е отказана от\n„%@“",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%@ кіру нүктесіне қосылу сұрауын\nқабылдамады",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WIFI_RECOMMENDATION_TITLE_CH" : [
+      {
+        "target" : "Red WLAN disponible",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Налична WLAN мрежа",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қолжетімді WLAN желісі",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "CFBundleName" : [
+      {
+        "target" : "MobileWiFi",
+        "filename" : "InfoPlist.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "MobileWiFi",
+        "filename" : "InfoPlist.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "MobileWiFi",
+        "filename" : "InfoPlist.strings",
         "language" : "kk"
       }
     ],
@@ -680,23 +680,6 @@
         "language" : "kk"
       }
     ],
-    "CFBundleName" : [
-      {
-        "target" : "MobileWiFi",
-        "filename" : "InfoPlist.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "MobileWiFi",
-        "filename" : "InfoPlist.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "MobileWiFi",
-        "filename" : "InfoPlist.strings",
-        "language" : "kk"
-      }
-    ],
     "WIFI_FAILURE_TITLE" : [
       {
         "target" : "Error de la red Wi-Fi",
@@ -710,6 +693,23 @@
       },
       {
         "target" : "Wi-Fi желісінің қатесі",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WIFI_JOIN_NETWORK_FAILURE_TITLE" : [
+      {
+        "target" : "No se pudo conectar a la red\n“%@”",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Не може да се свърже с мрежата\n„%@“",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«%@» желісіне қосылу\nмүмкін емес",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -1020,23 +1020,6 @@
         "language" : "kk"
       }
     ],
-    "WIFI_PASSWORD_TEXT_TITLE" : [
-      {
-        "target" : "Contraseña",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Парола",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Құпиясөз",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "WIFI_ASK_TO_JOIN_CANCEL_BUTTON" : [
       {
         "target" : "Cancelar",
@@ -1054,36 +1037,19 @@
         "language" : "kk"
       }
     ],
-    "WIFI_ASK_TO_JOIN_JOIN_BUTTON" : [
+    "WIFI_COLOCATED_SSID_TITLE" : [
       {
-        "target" : "Conectarse",
+        "target" : "Red Wi-Fi relacionada disponible",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Присъединяване",
+        "target" : "Налична е сродна Wi-Fi мрежа",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Қосылу",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "WIFI_LIMITED_COMPATIBILITY_JOIN_BUTTON_LEARNMORE" : [
-      {
-        "target" : "Más información",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Научете повече",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Толығырақ ақпарат алу",
+        "target" : "Тиісті Wi-Fi желісі қолжетімді",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -1105,19 +1071,53 @@
         "language" : "kk"
       }
     ],
-    "WIFI_COLOCATED_SSID_TITLE" : [
+    "WIFI_ASK_TO_JOIN_JOIN_BUTTON" : [
       {
-        "target" : "Red Wi-Fi relacionada disponible",
+        "target" : "Conectarse",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Налична е сродна Wi-Fi мрежа",
+        "target" : "Присъединяване",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Тиісті Wi-Fi желісі қолжетімді",
+        "target" : "Қосылу",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WIFI_PASSWORD_TEXT_TITLE" : [
+      {
+        "target" : "Contraseña",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Парола",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Құпиясөз",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WIFI_LIMITED_COMPATIBILITY_JOIN_BUTTON_LEARNMORE" : [
+      {
+        "target" : "Más información",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Научете повече",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Толығырақ ақпарат алу",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -1224,19 +1224,19 @@
         "language" : "kk"
       }
     ],
-    "WIFI_PASSWORD_TITLE_CH" : [
+    "WIFI_OPEN_SETTINGS_CERTIFICATE_ACCEPT_BUTTON" : [
       {
-        "target" : "Contraseña WLAN incorrecta",
+        "target" : "Aceptar certificado",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Грешна WLAN парола",
+        "target" : "Приеми сертификати",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Қате WLAN құпиясөзі",
+        "target" : "Сертификатты қабылдау",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -1309,19 +1309,19 @@
         "language" : "kk"
       }
     ],
-    "WIFI_OPEN_SETTINGS_CERTIFICATE_ACCEPT_BUTTON" : [
+    "WIFI_PASSWORD_TITLE_CH" : [
       {
-        "target" : "Aceptar certificado",
+        "target" : "Contraseña WLAN incorrecta",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Приеми сертификати",
+        "target" : "Грешна WLAN парола",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Сертификатты қабылдау",
+        "target" : "Қате WLAN құпиясөзі",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }

@@ -105,16 +105,16 @@
         "language" : "en"
       }
     ],
-    "SSL_GENERIC_READ_ERROR" : [
+    "SMIME_OTHER_ENCRYPTION_CERT_ERROR_MESSAGE" : [
       {
-        "target" : "An SSL error occurred while trying to read data from the server “%@”. Verify that this server supports SSL and that your account settings are correct.",
+        "target" : "An error occurred while searching for an encryption certificate for “%@” in your keychain.",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
     ],
-    "SMIME_OTHER_ENCRYPTION_CERT_ERROR_MESSAGE" : [
+    "SSL_GENERIC_READ_ERROR" : [
       {
-        "target" : "An error occurred while searching for an encryption certificate for “%@” in your keychain.",
+        "target" : "An SSL error occurred while trying to read data from the server “%@”. Verify that this server supports SSL and that your account settings are correct.",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
@@ -175,10 +175,10 @@
         "language" : "en"
       }
     ],
-    "INVALID_HOST_MESSAGE_FORMAT" : [
+    "LOGIN_DISABLED_FOR_ACCOUNT_FORMAT" : [
       {
-        "target" : "The “Incoming Mail Server” field cannot be empty.",
-        "filename" : "Delayed.strings",
+        "target" : "Logins are disabled for “%@”.",
+        "filename" : "Message.strings",
         "language" : "en"
       }
     ],
@@ -189,10 +189,10 @@
         "language" : "en"
       }
     ],
-    "LOGIN_DISABLED_FOR_ACCOUNT_FORMAT" : [
+    "INVALID_HOST_MESSAGE_FORMAT" : [
       {
-        "target" : "Logins are disabled for “%@”.",
-        "filename" : "Message.strings",
+        "target" : "The “Incoming Mail Server” field cannot be empty.",
+        "filename" : "Delayed.strings",
         "language" : "en"
       }
     ],
@@ -469,16 +469,16 @@
         "language" : "en"
       }
     ],
-    "SMIME_CONFIRM_SIGNATURE_FORMAT" : [
+    "BAD_CHARSET_FORMAT" : [
       {
-        "target" : "Mail was unable to verify the authenticity of the S\/MIME certificate provided by “%@”. Messages signed by this user may be coming from a different source.",
+        "target" : "Some characters in your message could not be converted to the “%@” text encoding. Please choose a different entry from the “Text Encoding” menu.",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
     ],
-    "BAD_CHARSET_FORMAT" : [
+    "SMIME_CONFIRM_SIGNATURE_FORMAT" : [
       {
-        "target" : "Some characters in your message could not be converted to the “%@” text encoding. Please choose a different entry from the “Text Encoding” menu.",
+        "target" : "Mail was unable to verify the authenticity of the S\/MIME certificate provided by “%@”. Messages signed by this user may be coming from a different source.",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
@@ -658,16 +658,16 @@
         "language" : "en"
       }
     ],
-    "WARNING_TITLE" : [
+    "SSL_ALERT_TITLE_FORMAT" : [
       {
-        "target" : "Warning",
+        "target" : "Unable to verify SSL server %@",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
     ],
-    "SSL_ALERT_TITLE_FORMAT" : [
+    "WARNING_TITLE" : [
       {
-        "target" : "Unable to verify SSL server %@",
+        "target" : "Warning",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
@@ -693,16 +693,16 @@
         "language" : "en"
       }
     ],
-    "REPLY_ATTRIBUTION_SENDER" : [
+    "OPENING_MAILBOX" : [
       {
-        "target" : "%1$@ <%2$@>",
+        "target" : "Opening mailbox…",
         "filename" : "Message.strings",
         "language" : "en"
       }
     ],
-    "OPENING_MAILBOX" : [
+    "REPLY_ATTRIBUTION_SENDER" : [
       {
-        "target" : "Opening mailbox…",
+        "target" : "%1$@ <%2$@>",
         "filename" : "Message.strings",
         "language" : "en"
       }
@@ -910,6 +910,13 @@
         "language" : "en"
       }
     ],
+    "PASSWORD_PLACEHOLDER" : [
+      {
+        "target" : "Password",
+        "filename" : "Delayed.strings",
+        "language" : "en"
+      }
+    ],
     "Subject" : [
       {
         "target" : "Subject",
@@ -920,13 +927,6 @@
     "WEBLOGIN_PROMPT_FORMAT" : [
       {
         "target" : "Log in to your %@ account",
-        "filename" : "Delayed.strings",
-        "language" : "en"
-      }
-    ],
-    "PASSWORD_PLACEHOLDER" : [
-      {
-        "target" : "Password",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
@@ -1043,17 +1043,17 @@
         "language" : "en"
       }
     ],
-    "SYNCHRONIZING_WITH_FILE_SYSTEM_FORMAT" : [
-      {
-        "target" : "Synchronizing with file system",
-        "filename" : "Message.strings",
-        "language" : "en"
-      }
-    ],
     "CONNECT_FAILED_NO_REASON_FORMAT" : [
       {
         "target" : "There may be a problem with the mail server or network. Check the settings for account “%@” or try again.",
         "filename" : "Delayed.strings",
+        "language" : "en"
+      }
+    ],
+    "SYNCHRONIZING_WITH_FILE_SYSTEM_FORMAT" : [
+      {
+        "target" : "Synchronizing with file system",
+        "filename" : "Message.strings",
         "language" : "en"
       }
     ],
@@ -1239,13 +1239,6 @@
         "language" : "en"
       }
     ],
-    "OUTBOX_SPECIAL_MAILBOX_NAME" : [
-      {
-        "target" : "Outbox",
-        "filename" : "Message.strings",
-        "language" : "en"
-      }
-    ],
     "HOST_UNREACHABLE" : [
       {
         "target" : "The server “%1$@” cannot be contacted on port %2$d.",
@@ -1264,6 +1257,13 @@
       {
         "target" : "Mail was unable to verify the identity of this server, which has a certificate issued to “%1$@”. The error was:\n\n%2$@\n\nYou might be connecting to a computer that is pretending to be “%3$@”, and putting your confidential information at risk.",
         "filename" : "Delayed.strings",
+        "language" : "en"
+      }
+    ],
+    "OUTBOX_SPECIAL_MAILBOX_NAME" : [
+      {
+        "target" : "Outbox",
+        "filename" : "Message.strings",
         "language" : "en"
       }
     ],

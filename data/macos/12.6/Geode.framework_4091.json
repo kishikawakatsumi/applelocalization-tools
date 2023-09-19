@@ -75,17 +75,17 @@
         "language" : "English"
       }
     ],
-    "DGRawDecodeOperation" : [
-      {
-        "target" : "RAW Fine Tuning",
-        "filename" : "DGRawDecodeOperation.strings",
-        "language" : "English"
-      }
-    ],
     "inputTint" : [
       {
         "target" : "Tint",
         "filename" : "DGWhiteBalanceOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "DGRawDecodeOperation" : [
+      {
+        "target" : "RAW Fine Tuning",
+        "filename" : "DGRawDecodeOperation.strings",
         "language" : "English"
       }
     ],
@@ -152,17 +152,17 @@
         "language" : "English"
       }
     ],
-    "inputEffectType" : [
-      {
-        "target" : "Effect",
-        "filename" : "DGiPhotoEffectsOperation.strings",
-        "language" : "English"
-      }
-    ],
     "inputBValueTooltip" : [
       {
         "target" : "The amount of light in the blue channel",
         "filename" : "DGMonochromeMixerOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "inputFaceColor" : [
+      {
+        "target" : "Skin Tone",
+        "filename" : "DGWhiteBalanceOperation.strings",
         "language" : "English"
       }
     ],
@@ -173,10 +173,10 @@
         "language" : "English"
       }
     ],
-    "inputFaceColor" : [
+    "inputEffectType" : [
       {
-        "target" : "Skin Tone",
-        "filename" : "DGWhiteBalanceOperation.strings",
+        "target" : "Effect",
+        "filename" : "DGiPhotoEffectsOperation.strings",
         "language" : "English"
       }
     ],
@@ -285,17 +285,17 @@
         "language" : "English"
       }
     ],
-    "inputChromaBlurEnabled" : [
-      {
-        "target" : "Chroma Blur",
-        "filename" : "DGRawDecodeOperation.strings",
-        "language" : "English"
-      }
-    ],
     "skinTone" : [
       {
         "target" : "Skin Tone",
         "filename" : "DGWhiteBalanceOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "inputChromaBlurEnabled" : [
+      {
+        "target" : "Chroma Blur",
+        "filename" : "DGRawDecodeOperation.strings",
         "language" : "English"
       }
     ],
@@ -348,17 +348,17 @@
         "language" : "English"
       }
     ],
-    "inputIsDefaults" : [
-      {
-        "target" : "Is Default",
-        "filename" : "DGWhiteBalanceOperation.strings",
-        "language" : "English"
-      }
-    ],
     "inputDetailAmount" : [
       {
         "target" : "Detail",
         "filename" : "DGRawDecodeOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "DGDevignetteOperation" : [
+      {
+        "target" : "Devignette",
+        "filename" : "DGDevignetteOperation.strings",
         "language" : "English"
       }
     ],
@@ -376,17 +376,10 @@
         "language" : "English"
       }
     ],
-    "DGDevignetteOperation" : [
+    "inputIsDefaults" : [
       {
-        "target" : "Devignette",
-        "filename" : "DGDevignetteOperation.strings",
-        "language" : "English"
-      }
-    ],
-    "kCGRenderingIntentSaturation" : [
-      {
-        "target" : "Saturation",
-        "filename" : "Localizable.strings",
+        "target" : "Is Default",
+        "filename" : "DGWhiteBalanceOperation.strings",
         "language" : "English"
       }
     ],
@@ -394,6 +387,13 @@
       {
         "target" : "Horizontal and Vertical",
         "filename" : "DGFlipOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "kCGRenderingIntentSaturation" : [
+      {
+        "target" : "Saturation",
+        "filename" : "Localizable.strings",
         "language" : "English"
       }
     ],
@@ -418,53 +418,6 @@
       {
         "target" : "Intensity",
         "filename" : "DGProEdgeSharpenOperation.strings",
-        "language" : "English"
-      }
-    ],
-    "inputSharpenEnabled" : [
-      {
-        "target" : "Sharpening",
-        "filename" : "DGRawDecodeOperation.strings",
-        "language" : "English"
-      }
-    ],
-    "RKSharpenOperation" : [
-      {
-        "target" : "Sharpen",
-        "filename" : "DGUnavailableOperation.strings",
-        "language" : "English"
-      }
-    ],
-    "inputHighlightAmount" : [
-      {
-        "target" : "Highlights",
-        "filename" : "DGShadowHighlightOperation.strings",
-        "language" : "English"
-      }
-    ],
-    "inputDetaily" : [
-      {
-        "target" : "Edge Detail",
-        "filename" : "DGDtcwtDenoise2Operation.strings",
-        "language" : "English"
-      },
-      {
-        "target" : "Edge Detail",
-        "filename" : "DGDtcwtDenoise3Operation.strings",
-        "language" : "English"
-      }
-    ],
-    "inputAngleTooltip" : [
-      {
-        "target" : "The hue on a color wheel to apply to the brushed area of the image",
-        "filename" : "DGGNGTintOperation.strings",
-        "language" : "English"
-      }
-    ],
-    "DGSepiaToneOperation" : [
-      {
-        "target" : "Sepia Tone",
-        "filename" : "DGSepiaToneOperation.strings",
         "language" : "English"
       }
     ],
@@ -510,6 +463,53 @@
         "language" : "English"
       }
     ],
+    "RKSharpenOperation" : [
+      {
+        "target" : "Sharpen",
+        "filename" : "DGUnavailableOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "inputHighlightAmount" : [
+      {
+        "target" : "Highlights",
+        "filename" : "DGShadowHighlightOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "inputAngleTooltip" : [
+      {
+        "target" : "The hue on a color wheel to apply to the brushed area of the image",
+        "filename" : "DGGNGTintOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "inputDetaily" : [
+      {
+        "target" : "Edge Detail",
+        "filename" : "DGDtcwtDenoise2Operation.strings",
+        "language" : "English"
+      },
+      {
+        "target" : "Edge Detail",
+        "filename" : "DGDtcwtDenoise3Operation.strings",
+        "language" : "English"
+      }
+    ],
+    "DGSepiaToneOperation" : [
+      {
+        "target" : "Sepia Tone",
+        "filename" : "DGSepiaToneOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "inputSharpenEnabled" : [
+      {
+        "target" : "Sharpening",
+        "filename" : "DGRawDecodeOperation.strings",
+        "language" : "English"
+      }
+    ],
     "inputTemperature" : [
       {
         "target" : "Temperature",
@@ -545,17 +545,17 @@
         "language" : "English"
       }
     ],
-    "rawDecodeSummaryDefaultSettingsForCamera" : [
-      {
-        "target" : "%@ %@ Default Settings",
-        "filename" : "DGRawDecodeOperation.strings",
-        "language" : "English"
-      }
-    ],
     "DGLinearVignetteOperation" : [
       {
         "target" : "Graduated Filter",
         "filename" : "DGLinearVignetteOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "rawDecodeSummaryDefaultSettingsForCamera" : [
+      {
+        "target" : "%@ %@ Default Settings",
+        "filename" : "DGRawDecodeOperation.strings",
         "language" : "English"
       }
     ],
@@ -683,6 +683,13 @@
         "language" : "English"
       }
     ],
+    "kCGColorSpaceModelDeviceN" : [
+      {
+        "target" : "DeviceN",
+        "filename" : "Localizable.strings",
+        "language" : "English"
+      }
+    ],
     "inputVignetteIntensityTooltip" : [
       {
         "target" : "The amount of the vignette effect that gets applied to an image",
@@ -704,13 +711,6 @@
         "language" : "English"
       }
     ],
-    "inputRedCyan" : [
-      {
-        "target" : "Red\/Cyan",
-        "filename" : "DGChromaticAberrationOperation.strings",
-        "language" : "English"
-      }
-    ],
     "inputUseAutoCalculatedValues" : [
       {
         "target" : "Auto White Balance",
@@ -725,17 +725,17 @@
         "language" : "English"
       }
     ],
+    "RKDevignetteOperation" : [
+      {
+        "target" : "Devignette",
+        "filename" : "DGUnavailableOperation.strings",
+        "language" : "English"
+      }
+    ],
     "DGChromaticAberrationOperation" : [
       {
         "target" : "Chromatic Aberration",
         "filename" : "DGChromaticAberrationOperation.strings",
-        "language" : "English"
-      }
-    ],
-    "monochromeGreenMenuItem" : [
-      {
-        "target" : "Monochrome with Green Filter",
-        "filename" : "DGMonochromeMixerOperation.strings",
         "language" : "English"
       }
     ],
@@ -779,10 +779,10 @@
         "language" : "English"
       }
     ],
-    "kCGColorSpaceModelDeviceN" : [
+    "inputRedCyan" : [
       {
-        "target" : "DeviceN",
-        "filename" : "Localizable.strings",
+        "target" : "Red\/Cyan",
+        "filename" : "DGChromaticAberrationOperation.strings",
         "language" : "English"
       }
     ],
@@ -793,10 +793,10 @@
         "language" : "English"
       }
     ],
-    "RKDevignetteOperation" : [
+    "monochromeGreenMenuItem" : [
       {
-        "target" : "Devignette",
-        "filename" : "DGUnavailableOperation.strings",
+        "target" : "Monochrome with Green Filter",
+        "filename" : "DGMonochromeMixerOperation.strings",
         "language" : "English"
       }
     ],
@@ -828,13 +828,6 @@
         "language" : "English"
       }
     ],
-    "chooseWhitePoint" : [
-      {
-        "target" : "Choose Neutral Gray",
-        "filename" : "DGWhiteBalanceOperation.strings",
-        "language" : "English"
-      }
-    ],
     "inputThrc" : [
       {
         "target" : "Chroma",
@@ -844,6 +837,13 @@
       {
         "target" : "Chroma",
         "filename" : "DGDtcwtDenoise3Operation.strings",
+        "language" : "English"
+      }
+    ],
+    "chooseWhitePoint" : [
+      {
+        "target" : "Choose Neutral Gray",
+        "filename" : "DGWhiteBalanceOperation.strings",
         "language" : "English"
       }
     ],
@@ -868,10 +868,10 @@
         "language" : "English"
       }
     ],
-    "inputShadowAmountTooltip" : [
+    "kCGColorSpaceModelIndexed" : [
       {
-        "target" : "The amount of brightness and contrast that is applied to the darkest areas of the image",
-        "filename" : "DGShadowHighlightOperation.strings",
+        "target" : "Indexed",
+        "filename" : "Localizable.strings",
         "language" : "English"
       }
     ],
@@ -896,10 +896,10 @@
         "language" : "English"
       }
     ],
-    "kCGColorSpaceModelIndexed" : [
+    "inputShadowAmountTooltip" : [
       {
-        "target" : "Indexed",
-        "filename" : "Localizable.strings",
+        "target" : "The amount of brightness and contrast that is applied to the darkest areas of the image",
+        "filename" : "DGShadowHighlightOperation.strings",
         "language" : "English"
       }
     ],
@@ -910,17 +910,17 @@
         "language" : "English"
       }
     ],
-    "DGGNGBlurOperation" : [
-      {
-        "target" : "Blur",
-        "filename" : "DGGNGBlurOperation.strings",
-        "language" : "English"
-      }
-    ],
     "inputLNRAmount" : [
       {
         "target" : "Noise Reduction",
         "filename" : "DGRawDecodeOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "DGGNGBlurOperation" : [
+      {
+        "target" : "Blur",
+        "filename" : "DGGNGBlurOperation.strings",
         "language" : "English"
       }
     ],
@@ -1060,17 +1060,17 @@
         "language" : "English"
       }
     ],
-    "inputGrayColor" : [
-      {
-        "target" : "Natural Gray",
-        "filename" : "DGWhiteBalanceOperation.strings",
-        "language" : "English"
-      }
-    ],
     "DGGammaOperation" : [
       {
         "target" : "Gamma",
         "filename" : "DGGammaOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "inputGrayColor" : [
+      {
+        "target" : "Natural Gray",
+        "filename" : "DGWhiteBalanceOperation.strings",
         "language" : "English"
       }
     ],
@@ -1081,17 +1081,10 @@
         "language" : "English"
       }
     ],
-    "temperatureAndTint" : [
+    "kCGRenderingIntentDefault" : [
       {
-        "target" : "Temperature & Tint",
-        "filename" : "DGWhiteBalanceOperation.strings",
-        "language" : "English"
-      }
-    ],
-    "inputAntiqueIntensity" : [
-      {
-        "target" : "Amount",
-        "filename" : "DGiPhotoEffectsOperation.strings",
+        "target" : "CoreGraphics default",
+        "filename" : "Localizable.strings",
         "language" : "English"
       }
     ],
@@ -1107,6 +1100,13 @@
         "language" : "English"
       }
     ],
+    "temperatureAndTint" : [
+      {
+        "target" : "Temperature & Tint",
+        "filename" : "DGWhiteBalanceOperation.strings",
+        "language" : "English"
+      }
+    ],
     "DGDtcwtDenoise3Operation" : [
       {
         "target" : "Dtcwt Denoise CL",
@@ -1114,10 +1114,15 @@
         "language" : "English"
       }
     ],
-    "kCGRenderingIntentDefault" : [
+    "inputTypeTooltip" : [
       {
-        "target" : "CoreGraphics default",
-        "filename" : "Localizable.strings",
+        "target" : "The built-in presets simulate filters commonly used in black and white photography",
+        "filename" : "DGMonochromeMixerOperation.strings",
+        "language" : "English"
+      },
+      {
+        "target" : "The type of darkening that gets applied to the edges of the image",
+        "filename" : "DGVignetteOperation.strings",
         "language" : "English"
       }
     ],
@@ -1192,15 +1197,10 @@
         "language" : "English"
       }
     ],
-    "inputTypeTooltip" : [
+    "inputAntiqueIntensity" : [
       {
-        "target" : "The built-in presets simulate filters commonly used in black and white photography",
-        "filename" : "DGMonochromeMixerOperation.strings",
-        "language" : "English"
-      },
-      {
-        "target" : "The type of darkening that gets applied to the edges of the image",
-        "filename" : "DGVignetteOperation.strings",
+        "target" : "Amount",
+        "filename" : "DGiPhotoEffectsOperation.strings",
         "language" : "English"
       }
     ],
@@ -1323,13 +1323,6 @@
         "language" : "English"
       }
     ],
-    "DGGNGBurnOperationLong" : [
-      {
-        "target" : "Burn (Darken)",
-        "filename" : "DGGNGBurnOperation.strings",
-        "language" : "English"
-      }
-    ],
     "gammaMenuItem" : [
       {
         "target" : "Gamma",
@@ -1337,10 +1330,24 @@
         "language" : "English"
       }
     ],
+    "DGGNGBurnOperationLong" : [
+      {
+        "target" : "Burn (Darken)",
+        "filename" : "DGGNGBurnOperation.strings",
+        "language" : "English"
+      }
+    ],
     "DGGNGSharpenOperation" : [
       {
         "target" : "Sharpen",
         "filename" : "DGGNGSharpenOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "DGGNGVibrancyOperation" : [
+      {
+        "target" : "Vibrancy",
+        "filename" : "DGGNGVibrancyOperation.strings",
         "language" : "English"
       }
     ],
@@ -1355,13 +1362,6 @@
       {
         "target" : "Monochrome with Orange Filter",
         "filename" : "DGMonochromeMixerOperation.strings",
-        "language" : "English"
-      }
-    ],
-    "DGGNGVibrancyOperation" : [
-      {
-        "target" : "Vibrancy",
-        "filename" : "DGGNGVibrancyOperation.strings",
         "language" : "English"
       }
     ],
@@ -1398,17 +1398,17 @@
         "language" : "English"
       }
     ],
-    "undoPickWhiteBalance" : [
-      {
-        "target" : "Pick White Balance",
-        "filename" : "DGWhiteBalanceOperation.strings",
-        "language" : "English"
-      }
-    ],
     "summaryIsTooLongAlternateString" : [
       {
         "target" : "…",
         "filename" : "Localizable.strings",
+        "language" : "English"
+      }
+    ],
+    "undoPickWhiteBalance" : [
+      {
+        "target" : "Pick White Balance",
+        "filename" : "DGWhiteBalanceOperation.strings",
         "language" : "English"
       }
     ],
@@ -1419,10 +1419,10 @@
         "language" : "English"
       }
     ],
-    "DGProEdgeSharpenOperation" : [
+    "noneMenuItem" : [
       {
-        "target" : "Edge Sharpen",
-        "filename" : "DGProEdgeSharpenOperation.strings",
+        "target" : "None",
+        "filename" : "DGiPhotoEffectsOperation.strings",
         "language" : "English"
       }
     ],
@@ -1440,13 +1440,6 @@
         "language" : "English"
       }
     ],
-    "genericAutoAdjustment" : [
-      {
-        "target" : "Auto %@",
-        "filename" : "Localizable.strings",
-        "language" : "English"
-      }
-    ],
     "DGColorMonochromeOperation" : [
       {
         "target" : "Color Monochrome",
@@ -1454,10 +1447,17 @@
         "language" : "English"
       }
     ],
-    "noneMenuItem" : [
+    "genericAutoAdjustment" : [
       {
-        "target" : "None",
-        "filename" : "DGiPhotoEffectsOperation.strings",
+        "target" : "Auto %@",
+        "filename" : "Localizable.strings",
+        "language" : "English"
+      }
+    ],
+    "DGProEdgeSharpenOperation" : [
+      {
+        "target" : "Edge Sharpen",
+        "filename" : "DGProEdgeSharpenOperation.strings",
         "language" : "English"
       }
     ],
@@ -1472,6 +1472,13 @@
       {
         "target" : "Sharpening",
         "filename" : "DGRawDecodeOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "inputEdgeBlurIntensity" : [
+      {
+        "target" : "Edge Blur",
+        "filename" : "DGiPhotoEffectsOperation.strings",
         "language" : "English"
       }
     ],
@@ -1496,13 +1503,6 @@
       {
         "target" : "The amount of detail to maintain in the brushed area of the image",
         "filename" : "DGGNGSkinSmoothingOperation.strings",
-        "language" : "English"
-      }
-    ],
-    "inputEdgeBlurIntensity" : [
-      {
-        "target" : "Edge Blur",
-        "filename" : "DGiPhotoEffectsOperation.strings",
         "language" : "English"
       }
     ],
@@ -1605,10 +1605,17 @@
         "language" : "English"
       }
     ],
-    "inputFalloffTooltip" : [
+    "RKProSharpenOperation" : [
       {
-        "target" : "The strength of sharpening applied to the image on the second and third pass of the Edge Sharpen adjustment",
-        "filename" : "DGProEdgeSharpenOperation.strings",
+        "target" : "Edge Sharpen",
+        "filename" : "DGUnavailableOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "inputXOrigin" : [
+      {
+        "target" : "X",
+        "filename" : "DGCropOperation.strings",
         "language" : "English"
       }
     ],
@@ -1619,13 +1626,6 @@
         "language" : "English"
       }
     ],
-    "RKProSharpenOperation" : [
-      {
-        "target" : "Edge Sharpen",
-        "filename" : "DGUnavailableOperation.strings",
-        "language" : "English"
-      }
-    ],
     "RKShadowHighlightOperation" : [
       {
         "target" : "Highlights & Shadows",
@@ -1633,10 +1633,10 @@
         "language" : "English"
       }
     ],
-    "inputXOrigin" : [
+    "inputFalloffTooltip" : [
       {
-        "target" : "X",
-        "filename" : "DGCropOperation.strings",
+        "target" : "The strength of sharpening applied to the image on the second and third pass of the Edge Sharpen adjustment",
+        "filename" : "DGProEdgeSharpenOperation.strings",
         "language" : "English"
       }
     ],
@@ -1697,17 +1697,17 @@
         "language" : "English"
       }
     ],
-    "rawDecodeDNGVersionFormat" : [
-      {
-        "target" : "%@ DNG",
-        "filename" : "Localizable.strings",
-        "language" : "English"
-      }
-    ],
     "horizontalMenuItem" : [
       {
         "target" : "Horizontal",
         "filename" : "DGFlipOperation.strings",
+        "language" : "English"
+      }
+    ],
+    "rawDecodeDNGVersionFormat" : [
+      {
+        "target" : "%@ DNG",
+        "filename" : "Localizable.strings",
         "language" : "English"
       }
     ],

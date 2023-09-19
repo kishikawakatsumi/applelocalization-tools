@@ -42,9 +42,9 @@
         "language" : "en"
       }
     ],
-    "DYFURLMultipleNextDrawables" : [
+    "DYFKBoundBufferWasNotUsedByShader" : [
       {
-        "target" : "",
+        "target" : "Bound Buffer was not used in a Shader",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -56,16 +56,16 @@
         "language" : "en"
       }
     ],
-    "DYFDKUnoptimizedMemoryAccessToBufferInShaderDetail" : [
+    "DYFURLMultipleNextDrawables" : [
       {
-        "target" : "The compiler was not able to preload your buffer. Simplify your memory access pattern by using the constant address space, a struct, or a descriptor.",
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFKBoundBufferWasNotUsedByShader" : [
+    "DYFDKUnoptimizedMemoryAccessToBufferInShaderDetail" : [
       {
-        "target" : "Bound Buffer was not used in a Shader",
+        "target" : "The compiler was not able to preload your buffer. Simplify your memory access pattern by using the constant address space, a struct, or a descriptor.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -182,9 +182,9 @@
         "language" : "en"
       }
     ],
-    "DYFKNewSamplerState" : [
+    "DYFKUnnecessaryNextDrawable" : [
       {
-        "target" : "New MTLSamplerState",
+        "target" : "CAMetalLayer nextDrawable was Called Unnecessarily",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -203,9 +203,9 @@
         "language" : "en"
       }
     ],
-    "DYFKUnnecessaryNextDrawable" : [
+    "DYFKNewSamplerState" : [
       {
-        "target" : "CAMetalLayer nextDrawable was Called Unnecessarily",
+        "target" : "New MTLSamplerState",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -245,9 +245,9 @@
         "language" : "en"
       }
     ],
-    "DYFKResourceMemoryResourceIssueDetected" : [
+    "DYFDKTilerParameterBufferExceedsMemlessWarningThreshold" : [
       {
-        "target" : "Memory Usage",
+        "target" : "The tiler output buffer usage is close to exceeding the maximum space available for an encoder with a memoryless render target.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -259,9 +259,9 @@
         "language" : "en"
       }
     ],
-    "DYFDKTilerParameterBufferExceedsMemlessWarningThreshold" : [
+    "DYFKResourceMemoryResourceIssueDetected" : [
       {
-        "target" : "The tiler output buffer usage is close to exceeding the maximum space available for an encoder with a memoryless render target.",
+        "target" : "Memory Usage",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -343,16 +343,16 @@
         "language" : "en"
       }
     ],
-    "DYFKNewCommandQueue" : [
+    "DYFTilerParameterBufferExceedsActionItemForCorrectRending" : [
       {
-        "target" : "New MTLCommandQueue",
+        "target" : " Reduce scene geometry complexity for complete rendering.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFTilerParameterBufferExceedsActionItemForCorrectRending" : [
+    "DYFKNewCommandQueue" : [
       {
-        "target" : " Reduce scene geometry complexity for complete rendering.",
+        "target" : "New MTLCommandQueue",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -462,9 +462,9 @@
         "language" : "en"
       }
     ],
-    "DYFURLResourceShouldBeManaged" : [
+    "DYFDKUnusedAttachmentTextureDetected" : [
       {
-        "target" : "",
+        "target" : "Encoder should use MTLStoreActionDontCare if results are not used",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -476,9 +476,9 @@
         "language" : "en"
       }
     ],
-    "DYFDKUnusedAttachmentTextureDetected" : [
+    "DYFURLResourceShouldBeManaged" : [
       {
-        "target" : "Encoder should use MTLStoreActionDontCare if results are not used",
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -616,6 +616,13 @@
         "language" : "en"
       }
     ],
+    "DYFDKTilerParameterBufferMRCRenderSplit" : [
+      {
+        "target" : "The tiler output buffer usage was exceeded for an encoder that uses explicit image block memory or threadgroup memory.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFURLNewDepthStencilState" : [
       {
         "target" : "",
@@ -637,9 +644,9 @@
         "language" : "en"
       }
     ],
-    "DYFDKTilerParameterBufferMRCRenderSplit" : [
+    "DYFDKNewComputePipelineState" : [
       {
-        "target" : "The tiler output buffer usage was exceeded for an encoder that uses explicit image block memory or threadgroup memory.",
+        "target" : "Your application created a MTLComputePipelineState object during computation work. Create pipeline states at load time for best performance.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -647,13 +654,6 @@
     "DYFKResourceShouldBeShared" : [
       {
         "target" : "Resource Storage Mode Should be MTLStorageModeShared",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFDKNewComputePipelineState" : [
-      {
-        "target" : "Your application created a MTLComputePipelineState object during computation work. Create pipeline states at load time for best performance.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -896,16 +896,16 @@
         "language" : "en"
       }
     ],
-    "DYFDKMultipleNextDrawables" : [
+    "DYFDKAttachmentTooLarge" : [
       {
-        "target" : "Your application called CAMetalLayer nextDrawable multiple times in a single frame for the same layer.",
+        "target" : "Your application rendered to a drawable texture attachment whose size exceeded the screen resolution of the device. For optimal performance and quality, scale the drawableSize of your CAMetalLayer by the nativeScale of the screen.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFDKAttachmentTooLarge" : [
+    "DYFDKMultipleNextDrawables" : [
       {
-        "target" : "Your application rendered to a drawable texture attachment whose size exceeded the screen resolution of the device. For optimal performance and quality, scale the drawableSize of your CAMetalLayer by the nativeScale of the screen.",
+        "target" : "Your application called CAMetalLayer nextDrawable multiple times in a single frame for the same layer.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }

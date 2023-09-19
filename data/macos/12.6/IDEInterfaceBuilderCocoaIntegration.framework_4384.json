@@ -28,6 +28,13 @@
         "language" : "en"
       }
     ],
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSColorWell.WellStyle.Minimal" : [
+      {
+        "target" : "Minimal well style before macOS 13",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Xcode.IDEInterfaceBuilder.Cocoa.NSScrollView.FindBarPosition" : [
       {
         "target" : "Find Bar Position before OS X 10.7",
@@ -38,13 +45,6 @@
     "Xcode.IDEInterfaceBuilder.Cocoa.NSView.WantsBestResolutionOpenGLSurface" : [
       {
         "target" : "HiDPI Capable before OS X 10.7",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSCell.ToolTips" : [
-      {
-        "target" : "Tool tips on cells not embedded in instances of NSMatrix",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -63,9 +63,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSGestureRecognizer.TouchBar" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSCell.ToolTips" : [
       {
-        "target" : "Gesture recognizers used in a Touch Bar must have a touch type specified.",
+        "target" : "Tool tips on cells not embedded in instances of NSMatrix",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -77,6 +77,13 @@
         "language" : "en"
       }
     ],
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSCollectionView.LayoutMode" : [
+      {
+        "target" : "NSCollectionView Layout mode before OS X 10.11",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Xcode.IDEInterfaceBuilder.Cocoa.NSButton.RoundedBevelAndTintColor" : [
       {
         "target" : "Bevel with Tint Color before macOS 12",
@@ -84,16 +91,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSColorWell.WellStyle.Minimal" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSGestureRecognizer.TouchBar" : [
       {
-        "target" : "Minimal well style before macOS 13",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSCollectionView.LayoutMode" : [
-      {
-        "target" : "NSCollectionView Layout mode before OS X 10.11",
+        "target" : "Gesture recognizers used in a Touch Bar must have a touch type specified.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -196,9 +196,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSStoryboard" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSToolbar.NSToolbarCustomizeToolbarItem" : [
       {
-        "target" : "Storyboards are not available before macOS 10.10",
+        "target" : "IBNSToolbarCustomizeToolbarItem is deprecated since macOS 11.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -210,9 +210,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSToolbar.NSToolbarCustomizeToolbarItem" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSStoryboard" : [
       {
-        "target" : "IBNSToolbarCustomizeToolbarItem is deprecated since macOS 11.0",
+        "target" : "Storyboards are not available before macOS 10.10",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -259,13 +259,6 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.IBNSStoryboardCustomSegue.UnspecifiedCustomClassSegue" : [
-      {
-        "target" : "Custom Segue must specify a custom class derived from NSStoryboardSegue.",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.IDEInterfaceBuilder.Cocoa.SKView" : [
       {
         "target" : "SKView before macOS 10.12 (NSCoding support was broken in previous versions)",
@@ -273,16 +266,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSColorWell.WellStyle.Expanded" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.IBNSStoryboardCustomSegue.UnspecifiedCustomClassSegue" : [
       {
-        "target" : "Expanded well style before macOS 13",
+        "target" : "Custom Segue must specify a custom class derived from NSStoryboardSegue.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.Connections.OutletIntoRepeatedContent" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSSlider.IntrinsicContentHeightMismatch" : [
       {
-        "target" : "Outlet '%1$@' of '%2$@' is connected to '%3$@,' an invalid destination (Object may be repeated at runtime.)",
+        "target" : "Slider's height does not match its intrinsic content size, use \"Size to Fit Content\" to correct",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -301,9 +294,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSSlider.IntrinsicContentHeightMismatch" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.Connections.OutletIntoRepeatedContent" : [
       {
-        "target" : "Slider's height does not match its intrinsic content size, use \"Size to Fit Content\" to correct",
+        "target" : "Outlet '%1$@' of '%2$@' is connected to '%3$@,' an invalid destination (Object may be repeated at runtime.)",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSColorWell.WellStyle.Expanded" : [
+      {
+        "target" : "Expanded well style before macOS 13",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -336,9 +336,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSGridView.Availability" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSSplitViewController.viewOutlet" : [
       {
-        "target" : "NSGridView before OS X 10.12",
+        "target" : "NSSplitViewController's 'view' outlet should not point to its NSSplitView, use the 'splitView' outlet instead.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -350,9 +350,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSSplitViewController.viewOutlet" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSDrawer.ContentSizeTooLarge" : [
       {
-        "target" : "NSSplitViewController's 'view' outlet should not point to its NSSplitView, use the 'splitView' outlet instead.",
+        "target" : "Content Size is larger than Maximum Content Size",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -371,9 +371,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSDrawer.ContentSizeTooLarge" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSWindow.HUDWindowMask" : [
       {
-        "target" : "Content Size is larger than Maximum Content Size",
+        "target" : "HUD Style on NSWindow instances (Change the custom class to NSPanel and use the Attributes inspector)",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -385,9 +385,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSWindow.HUDWindowMask" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSGridView.Availability" : [
       {
-        "target" : "HUD Style on NSWindow instances (Change the custom class to NSPanel and use the Attributes inspector)",
+        "target" : "NSGridView before OS X 10.12",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -441,6 +441,20 @@
         "language" : "en"
       }
     ],
+    "Xcode.IDEInterfaceBuilder.Cocoa.ABPeoplePickerView.InstantMessageProperty" : [
+      {
+        "target" : "Instant Message property before OS X 10.7",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSWindow.FullSizeContentView" : [
+      {
+        "target" : "Full Size Content View before OS X 10.10",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Xcode.IDEInterfaceBuilder.Cocoa.NSWindow.MaxFullScreenSizeTooSmall" : [
       {
         "target" : "Full screen maximum size %1$@ is smaller than content size %2$@",
@@ -455,20 +469,6 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.ABPeoplePickerView.InstantMessageProperty" : [
-      {
-        "target" : "Instant Message property before OS X 10.7",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSObject.UniqueIdentifiers" : [
-      {
-        "target" : "Multiple objects using identifier \"%1$@\" (Identifiers must be unique)",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.IDEInterfaceBuilder.Cocoa.NSAppearance.VibrantDark.Unavailable" : [
       {
         "target" : "Vibrant Dark appearance before OS X 10.10",
@@ -476,9 +476,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSWindow.FullSizeContentView" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSVisualEffectView" : [
       {
-        "target" : "Full Size Content View before OS X 10.10",
+        "target" : "NSVisualEffectView before OS X 10.10",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -490,9 +490,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.MKMapView" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSObject.UniqueIdentifiers" : [
       {
-        "target" : "MKMapView before OS X 10.9",
+        "target" : "Multiple objects using identifier \"%1$@\" (Identifiers must be unique)",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -504,9 +504,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSVisualEffectView" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.MKMapView" : [
       {
-        "target" : "NSVisualEffectView before OS X 10.10",
+        "target" : "MKMapView before OS X 10.9",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -637,13 +637,6 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.ABPersonView" : [
-      {
-        "target" : "ABPersonView before OS X 10.7",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.IDEInterfaceBuilder.Cocoa.NSAppearance.VibrantDark.Discouraged" : [
       {
         "target" : "Vibrant Dark appearance is discouraged",
@@ -654,6 +647,13 @@
     "Xcode.IDEInterfaceBuilder.Cocoa.NSScrollView.AllowsMagnification" : [
       {
         "target" : "Allows Magnification before OS X 10.8",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.IDEInterfaceBuilder.Cocoa.ABPersonView" : [
+      {
+        "target" : "ABPersonView before OS X 10.7",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -686,16 +686,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSToolbar.UniqueIdentifiers" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSObject.IdentifierIllegalCharacter" : [
       {
-        "target" : "Multiple NSToolbars using identifier %1$@ (identifiers must be unique)",
+        "target" : "Identifier \"%1$@\" uses reserved character (\"\/\", \"\\\", or \":\")",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSObject.IdentifierIllegalCharacter" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSToolbar.UniqueIdentifiers" : [
       {
-        "target" : "Identifier \"%1$@\" uses reserved character (\"\/\", \"\\\", or \":\")",
+        "target" : "Multiple NSToolbars using identifier %1$@ (identifiers must be unique)",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -721,10 +721,10 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSButton.CheckButtonImageScaling" : [
+    "Xcode.DVTKit.CocoaIntegration.ObjectsLibraryTemplates-librarySourceTitle" : [
       {
-        "target" : "Image scaling property set (A checkbox image should always appear at the standard size)",
-        "filename" : "Localizable.strings",
+        "target" : "Cocoa",
+        "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
@@ -770,10 +770,10 @@
         "language" : "en"
       }
     ],
-    "Xcode.DVTKit.CocoaIntegration.ObjectsLibraryTemplates-librarySourceTitle" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSButton.CheckButtonImageScaling" : [
       {
-        "target" : "Cocoa",
-        "filename" : "PlugIn.strings",
+        "target" : "Image scaling property set (A checkbox image should always appear at the standard size)",
+        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -805,16 +805,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSButton.RadioButtonImageScaling" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSTableView.ViewBased" : [
       {
-        "target" : "Image scaling property set (A radio button image should always appear at the standard size)",
+        "target" : "View Based content mode before OS X 10.7",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSTableView.ViewBased" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSButton.RadioButtonImageScaling" : [
       {
-        "target" : "View Based content mode before OS X 10.7",
+        "target" : "Image scaling property set (A radio button image should always appear at the standard size)",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -903,16 +903,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSAppearance.VibrantLight.Discouraged" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.AVPlayerView" : [
       {
-        "target" : "Vibrant Light appearance is discouraged",
+        "target" : "AVPlayerView before OS X 10.9",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.AVPlayerView" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSAppearance.VibrantLight.Discouraged" : [
       {
-        "target" : "AVPlayerView before OS X 10.9",
+        "target" : "Vibrant Light appearance is discouraged",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -931,16 +931,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSTableView.CellBasedAutomaticRowHeights" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSTextView.VerticalLayoutOrientation" : [
       {
-        "target" : "Automatic row height with cell based NSTableView",
+        "target" : "Vertical Layout Orientation before OS X 10.7",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.Connections.ActionIntoRepeatedContent" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSTableView.CellBasedAutomaticRowHeights" : [
       {
-        "target" : "Action '%1$@' sent by '%2$@' is connected to '%3$@,' an invalid target (Object may be repeated at runtime.)",
+        "target" : "Automatic row height with cell based NSTableView",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -952,13 +952,6 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.MKDistanceFormatter" : [
-      {
-        "target" : "MKDistanceFormatter before OS X 10.9",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.IDEInterfaceBuilder.Cocoa.NSByteCountFormatter.Availability" : [
       {
         "target" : "NSByteCountFormatter before OS X 10.8",
@@ -966,9 +959,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSTextView.VerticalLayoutOrientation" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.Connections.ActionIntoRepeatedContent" : [
       {
-        "target" : "Vertical Layout Orientation before OS X 10.7",
+        "target" : "Action '%1$@' sent by '%2$@' is connected to '%3$@,' an invalid target (Object may be repeated at runtime.)",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.IDEInterfaceBuilder.Cocoa.MKDistanceFormatter" : [
+      {
+        "target" : "MKDistanceFormatter before OS X 10.9",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1043,16 +1043,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSLengthFormatter.Availability" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSObject.UserDefinedRuntimeAttributesRect" : [
       {
-        "target" : "NSLengthFormatter before OS X 10.10",
+        "target" : "Rect type user defined runtime attributes before OS X 10.7",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.Cocoa.NSObject.UserDefinedRuntimeAttributesRect" : [
+    "Xcode.IDEInterfaceBuilder.Cocoa.NSLengthFormatter.Availability" : [
       {
-        "target" : "Rect type user defined runtime attributes before OS X 10.7",
+        "target" : "NSLengthFormatter before OS X 10.10",
         "filename" : "Localizable.strings",
         "language" : "en"
       }

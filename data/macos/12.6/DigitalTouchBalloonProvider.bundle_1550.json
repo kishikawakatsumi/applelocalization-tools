@@ -22,6 +22,50 @@
         "language" : "kk"
       }
     ],
+    "GESTURE_TITLE_HEARTBEAT" : [
+      {
+        "target" : "Heartbeat",
+        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Latido",
+        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Сърцебиене",
+        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жүректің соғуы",
+        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "GESTURE_INSTRUCTION_ANGER" : [
+      {
+        "target" : "Press with one finger.",
+        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Presiona con un dedo.",
+        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Натиснете с един пръст.",
+        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бір саусақпен басыңыз.",
+        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "MEDIA_ALERT_DONE" : [
       {
         "target" : "Done",
@@ -40,50 +84,6 @@
       },
       {
         "target" : "Дайын",
-        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "TRANSCRIPT_PREVIEW_SUMMARY" : [
-      {
-        "target" : "Digital Touch Message",
-        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Mensaje de Digital Touch",
-        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Digital Touch съобщение",
-        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Digital Touch хабары",
-        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "MEDIA_OUT_OF_SPACE_MESSAGE_PHOTO" : [
-      {
-        "target" : "There is not enough available storage to create a Digital Touch Photo. You can manage your storage in Settings.",
-        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "No hay suficiente espacio de almacenamiento para crear una foto con Digital Touch. Puedes administrar el almacenamiento desde Configuración.",
-        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Няма достатъчно налично пространство, за да се създаде Digital Touch снимка.Можете да управлявате пространството си за съхранение в Настройки.",
-        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Digital Touch фотосын жасау үшін сақтау орны жеткіліксіз. Сақтау орнын «Реттеулер» арқылы басқаруға болады.",
         "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
         "language" : "kk"
       }
@@ -440,28 +440,6 @@
         "language" : "kk"
       }
     ],
-    "MEDIA_CANNOT_START_CAMERA_ALERT_DESCRIPTION" : [
-      {
-        "target" : "Camera preview is not available with multiple foregrounded apps.",
-        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "La previsualización no está disponible con apps múltiples en 1er. plano.",
-        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Прегледът на камерата не е наличен с множество приложения на преден план.",
-        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бірнеше қолданба белсенді болғанда, камераның алдын ала қарау функциясын пайдалану мүмкін емес.",
-        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "GESTURE_INSTRUCTION_SKETCH" : [
       {
         "target" : "Draw with one finger.",
@@ -480,6 +458,28 @@
       },
       {
         "target" : "Бір саусақпен сүйреңіз.",
+        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "TRANSCRIPT_PREVIEW_SUMMARY" : [
+      {
+        "target" : "Digital Touch Message",
+        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Mensaje de Digital Touch",
+        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Digital Touch съобщение",
+        "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Digital Touch хабары",
         "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
         "language" : "kk"
       }
@@ -506,24 +506,24 @@
         "language" : "kk"
       }
     ],
-    "GESTURE_TITLE_HEARTBEAT" : [
+    "MEDIA_CANNOT_START_CAMERA_ALERT_DESCRIPTION" : [
       {
-        "target" : "Heartbeat",
+        "target" : "Camera preview is not available with multiple foregrounded apps.",
         "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
         "language" : "en"
       },
       {
-        "target" : "Latido",
+        "target" : "La previsualización no está disponible con apps múltiples en 1er. plano.",
         "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Сърцебиене",
+        "target" : "Прегледът на камерата не е наличен с множество приложения на преден план.",
         "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Жүректің соғуы",
+        "target" : "Бірнеше қолданба белсенді болғанда, камераның алдын ала қарау функциясын пайдалану мүмкін емес.",
         "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
         "language" : "kk"
       }
@@ -594,24 +594,24 @@
         "language" : "kk"
       }
     ],
-    "GESTURE_INSTRUCTION_ANGER" : [
+    "MEDIA_OUT_OF_SPACE_MESSAGE_PHOTO" : [
       {
-        "target" : "Press with one finger.",
+        "target" : "There is not enough available storage to create a Digital Touch Photo. You can manage your storage in Settings.",
         "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
         "language" : "en"
       },
       {
-        "target" : "Presiona con un dedo.",
+        "target" : "No hay suficiente espacio de almacenamiento para crear una foto con Digital Touch. Puedes administrar el almacenamiento desde Configuración.",
         "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Натиснете с един пръст.",
+        "target" : "Няма достатъчно налично пространство, за да се създаде Digital Touch снимка.Можете да управлявате пространството си за съхранение в Настройки.",
         "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бір саусақпен басыңыз.",
+        "target" : "Digital Touch фотосын жасау үшін сақтау орны жеткіліксіз. Сақтау орнын «Реттеулер» арқылы басқаруға болады.",
         "filename" : "DigitalTouchBalloonProvider-Localizable.strings",
         "language" : "kk"
       }

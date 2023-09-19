@@ -14,13 +14,6 @@
         "language" : "en"
       }
     ],
-    "EmptyDeviceDisplayName" : [
-      {
-        "target" : "Generic device",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "auditTestType.action" : [
       {
         "target" : "Action",
@@ -28,9 +21,16 @@
         "language" : "en"
       }
     ],
-    "inspector" : [
+    "EmptyDeviceDisplayName" : [
       {
-        "target" : "inspector",
+        "target" : "Generic device",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "deviceSetting.INVERT_COLORS" : [
+      {
+        "target" : "Invert colors",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -161,16 +161,16 @@
         "language" : "en"
       }
     ],
-    "emptyString" : [
+    "elementPreview.show" : [
       {
-        "target" : "Empty string",
+        "target" : "Show Elements Preview",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "elementPreview.show" : [
+    "emptyString" : [
       {
-        "target" : "Show Elements Preview",
+        "target" : "Empty string",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -252,16 +252,16 @@
         "language" : "en"
       }
     ],
-    "autodrillIntoElements.enable" : [
+    "ignoredElements.hide" : [
       {
-        "target" : "Enable Auto-Interact into Elements",
+        "target" : "Hide Ignored Elements",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "ignoredElements.hide" : [
+    "autodrillIntoElements.enable" : [
       {
-        "target" : "Hide Ignored Elements",
+        "target" : "Enable Auto-Interact into Elements",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -280,16 +280,16 @@
         "language" : "en"
       }
     ],
-    "deviceSetting.ENABLE_CAPTIONS" : [
+    "pointInspection" : [
       {
-        "target" : "Enable captions",
+        "target" : "point inspection",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "pointInspection" : [
+    "deviceSetting.ENABLE_CAPTIONS" : [
       {
-        "target" : "point inspection",
+        "target" : "Enable captions",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -399,6 +399,13 @@
         "language" : "en"
       }
     ],
+    "internalAttributes.hide" : [
+      {
+        "target" : "Hide Internal Attributes",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "inspector.false" : [
       {
         "target" : "False",
@@ -406,9 +413,9 @@
         "language" : "en"
       }
     ],
-    "internalAttributes.hide" : [
+    "DeviceErrorFormatter" : [
       {
-        "target" : "Hide Internal Attributes",
+        "target" : "%1$@ (%2$@)",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -427,13 +434,6 @@
         "language" : "en"
       }
     ],
-    "pointInspection.enable" : [
-      {
-        "target" : "Enable Point to Inspect",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "auditTestType.dynamicText" : [
       {
         "target" : "Large Text",
@@ -441,9 +441,9 @@
         "language" : "en"
       }
     ],
-    "DeviceErrorFormatter" : [
+    "pointInspection.enable" : [
       {
-        "target" : "%1$@ (%2$@)",
+        "target" : "Enable Point to Inspect",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -476,16 +476,9 @@
         "language" : "en"
       }
     ],
-    "targetMenu.catalyst" : [
+    "contrastFail" : [
       {
-        "target" : "Catalyst",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "auditTestType.trait" : [
-      {
-        "target" : "Traits",
+        "target" : "Fails for all text sizes. ",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -497,16 +490,23 @@
         "language" : "en"
       }
     ],
-    "contrastFail" : [
+    "goToButton.tooltip" : [
       {
-        "target" : "Fails for all text sizes. ",
+        "target" : "Change focus to the associated element",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "goToButton.tooltip" : [
+    "targetMenu.catalyst" : [
       {
-        "target" : "Change focus to the associated element",
+        "target" : "Catalyst",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "auditTestType.trait" : [
+      {
+        "target" : "Traits",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -574,16 +574,16 @@
         "language" : "en"
       }
     ],
-    "deviceSetting.GRAYSCALE" : [
+    "auditTestType.elementDetection" : [
       {
-        "target" : "Grayscale",
+        "target" : "Element Detection",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "auditTestType.elementDetection" : [
+    "deviceSetting.GRAYSCALE" : [
       {
-        "target" : "Element Detection",
+        "target" : "Grayscale",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -644,13 +644,6 @@
         "language" : "en"
       }
     ],
-    "inspector.true" : [
-      {
-        "target" : "True",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "emptyArray" : [
       {
         "target" : "Empty array",
@@ -658,9 +651,9 @@
         "language" : "en"
       }
     ],
-    "auditTestType.textClipped" : [
+    "inspector.true" : [
       {
-        "target" : "Clipped Text",
+        "target" : "True",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -675,6 +668,13 @@
     "tree.element.ignored" : [
       {
         "target" : "<ignored>",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "auditTestType.textClipped" : [
+      {
+        "target" : "Clipped Text",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -770,16 +770,16 @@
         "language" : "en"
       }
     ],
-    "xPositionLabel" : [
+    "deviceSetting.BOLD_FONTS" : [
       {
-        "target" : "x=",
+        "target" : "Bold fonts",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "deviceSetting.BOLD_FONTS" : [
+    "xPositionLabel" : [
       {
-        "target" : "Bold fonts",
+        "target" : "x=",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -791,9 +791,9 @@
         "language" : "en"
       }
     ],
-    "deviceSetting.INVERT_COLORS" : [
+    "inspector" : [
       {
-        "target" : "Invert colors",
+        "target" : "inspector",
         "filename" : "Localizable.strings",
         "language" : "en"
       }

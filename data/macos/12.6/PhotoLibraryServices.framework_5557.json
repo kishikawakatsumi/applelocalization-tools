@@ -459,23 +459,6 @@
         "language" : "kk"
       }
     ],
-    "WARNING_BUTTON_HIDE_PHOTO" : [
-      {
-        "target" : "Hide",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Скрий",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жасыру",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "kk"
-      }
-    ],
     "SHAREDLIBRARY_EXPUNGE_UNOWNED_MESSAGE_ITEM" : [
       {
         "target" : "Recently deleted items will be permanently deleted after 30 days.",
@@ -506,6 +489,23 @@
       },
       {
         "target" : "Фототаспа",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "kk"
+      }
+    ],
+    "WARNING_BUTTON_HIDE_PHOTO" : [
+      {
+        "target" : "Hide",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Скрий",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жасыру",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -1037,6 +1037,23 @@
         "language" : "kk"
       }
     ],
+    "ERROR_WRITE_DISK_SPACE" : [
+      {
+        "target" : "There is insufficient free disk space to copy asset file.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Няма достатъчно място на диска, за да бъде копиран файла с ресурсите.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Файлды көшіру үшін бос орын жеткіліксіз.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "kk"
+      }
+    ],
     "SHAREDLIBRARY_PARTICIPANT_TRASHED_ASSETS_NOTIFICATION_TITLE" : [
       {
         "target" : "Shared Library",
@@ -1067,23 +1084,6 @@
       },
       {
         "target" : "Қайтару",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "kk"
-      }
-    ],
-    "ERROR_WRITE_DISK_SPACE" : [
-      {
-        "target" : "There is insufficient free disk space to copy asset file.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Няма достатъчно място на диска, за да бъде копиран файла с ресурсите.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Файлды көшіру үшін бос орын жеткіліксіз.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -1241,23 +1241,6 @@
         "language" : "kk"
       }
     ],
-    "DELETE_CONF_AVALANCHE_STACKS_AND_OTHERS_1_1_1P" : [
-      {
-        "target" : "Delete one photo from one burst, and one other photo?",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Искате ли да изтриете една снимка от една поредица и още една снимка?",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бір сериядан бір фотоны және тағы бір фотоны жою қажет пе?",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "kk"
-      }
-    ],
     "DELETE_WARNING_PHOTOSTREAM_ALBUM_ITEMS" : [
       {
         "target" : "These items will also be deleted from Photo Stream on all your devices, and from an album.",
@@ -1271,6 +1254,23 @@
       },
       {
         "target" : "Бұл элементтер барлық құрылғыңыздағы фото ағыннан және альбомнан жойылады.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "kk"
+      }
+    ],
+    "DELETE_CONF_AVALANCHE_STACKS_AND_OTHERS_1_1_1P" : [
+      {
+        "target" : "Delete one photo from one burst, and one other photo?",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Искате ли да изтриете една снимка от една поредица и още една снимка?",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бір сериядан бір фотоны және тағы бір фотоны жою қажет пе?",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -1734,19 +1734,36 @@
         "language" : "kk"
       }
     ],
-    "ICLOUDPHOTOS_DOWNLOAD_ERROR_FIND_VIDEO_FAILED_MESSAGE" : [
+    "DELETE_PHOTO_STREAM" : [
       {
-        "target" : "Unable to retrieve video from the server.",
+        "target" : "Delete Shared Album",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "Неуспешно извличане на видео клип от сървъра.",
+        "target" : "Изтрий споделения албум",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "Видеоны серверден алу мүмкін емес.",
+        "target" : "Ортақ альбомды жою",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "kk"
+      }
+    ],
+    "DELETE_SHARED_STREAM_PHOTO_WARNING" : [
+      {
+        "target" : "This photo will be deleted from “%@” on all your devices and all subscribers’ devices.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Тази снимка ще бъде изтрита от „%@“ на всичките ви устройства и от устройствата на абонатите.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл фото сіздің және жазылушыларыңыздың барлық құрылғысындағы «%@» ағынынан жойылады.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -1768,40 +1785,6 @@
         "language" : "kk"
       }
     ],
-    "DELETE_PHOTO_STREAM" : [
-      {
-        "target" : "Delete Shared Album",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Изтрий споделения албум",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Ортақ альбомды жою",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "kk"
-      }
-    ],
-    "DELETE_WARNING_IPHOTO_SOME_ITEMS" : [
-      {
-        "target" : "Some items will also be deleted from iPhoto.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Някои елементи ще бъдат изтрити също и от iPhoto.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Кейбір элементтер iPhoto қолданбасынан да жойылады.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "kk"
-      }
-    ],
     "WARNING_TITLE_REVERT_CONTENT_PHOTO_CLIENT" : [
       {
         "target" : "Allow “%@” to revert this photo?",
@@ -1819,19 +1802,36 @@
         "language" : "kk"
       }
     ],
-    "DELETE_SHARED_STREAM_PHOTO_WARNING" : [
+    "ICLOUDPHOTOS_DOWNLOAD_ERROR_FIND_VIDEO_FAILED_MESSAGE" : [
       {
-        "target" : "This photo will be deleted from “%@” on all your devices and all subscribers’ devices.",
+        "target" : "Unable to retrieve video from the server.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "Тази снимка ще бъде изтрита от „%@“ на всичките ви устройства и от устройствата на абонатите.",
+        "target" : "Неуспешно извличане на видео клип от сървъра.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бұл фото сіздің және жазылушыларыңыздың барлық құрылғысындағы «%@» ағынынан жойылады.",
+        "target" : "Видеоны серверден алу мүмкін емес.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "kk"
+      }
+    ],
+    "DELETE_WARNING_IPHOTO_SOME_ITEMS" : [
+      {
+        "target" : "Some items will also be deleted from iPhoto.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Някои елементи ще бъдат изтрити също и от iPhoto.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Кейбір элементтер iPhoto қолданбасынан да жойылады.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -1870,19 +1870,19 @@
         "language" : "kk"
       }
     ],
-    "CANNOT_SUBSCRIBE_TO_NAMED_STREAM_TITLE" : [
+    "ERROR_ACCESS_USER_DENIED_DESCRIPTION" : [
       {
-        "target" : "Cannot Join “%@”",
+        "target" : "User denied access",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "Невъзможно присъединяване към „%@“",
+        "target" : "Потребителят е отказал достъп",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "«%@» қосылу мүмкін емес",
+        "target" : "Пайдаланушы қол жеткізу рұқсатын бермеді",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -1904,23 +1904,6 @@
         "language" : "kk"
       }
     ],
-    "ERROR_ACCESS_USER_DENIED_DESCRIPTION" : [
-      {
-        "target" : "User denied access",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Потребителят е отказал достъп",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Пайдаланушы қол жеткізу рұқсатын бермеді",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "kk"
-      }
-    ],
     "WARNING_BUTTON_REVERT_CONTENT_VIDEO" : [
       {
         "target" : "Revert",
@@ -1934,6 +1917,23 @@
       },
       {
         "target" : "Қайтару",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "kk"
+      }
+    ],
+    "CANNOT_SUBSCRIBE_TO_NAMED_STREAM_TITLE" : [
+      {
+        "target" : "Cannot Join “%@”",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Невъзможно присъединяване към „%@“",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«%@» қосылу мүмкін емес",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -2040,19 +2040,19 @@
         "language" : "kk"
       }
     ],
-    "PEOPLE" : [
+    "PHOTO_PICKER_CONTENT_UNAVAILABLE_TITLE_REASON_UNKNOWN_VIDEOS" : [
       {
-        "target" : "People",
+        "target" : "Unable to Load Videos",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "Хора",
+        "target" : "Неуспешно зареждане на видео клипове",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "Адамдар",
+        "target" : "Видеоларды жүктеу мүмкін емес",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -2074,19 +2074,19 @@
         "language" : "kk"
       }
     ],
-    "PHOTO_PICKER_CONTENT_UNAVAILABLE_TITLE_REASON_UNKNOWN_VIDEOS" : [
+    "PEOPLE" : [
       {
-        "target" : "Unable to Load Videos",
+        "target" : "People",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "Неуспешно зареждане на видео клипове",
+        "target" : "Хора",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "Видеоларды жүктеу мүмкін емес",
+        "target" : "Адамдар",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -2652,19 +2652,19 @@
         "language" : "kk"
       }
     ],
-    "NOTIFICATION_LABEL" : [
+    "DUPLICATES_TITLE" : [
       {
-        "target" : "Notifications",
+        "target" : "Duplicates",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "Известия",
+        "target" : "Дубликати",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "Хабарландырулар",
+        "target" : "Көшірмелер",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -2703,19 +2703,19 @@
         "language" : "kk"
       }
     ],
-    "DUPLICATES_TITLE" : [
+    "NOTIFICATION_LABEL" : [
       {
-        "target" : "Duplicates",
+        "target" : "Notifications",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "Дубликати",
+        "target" : "Известия",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "Көшірмелер",
+        "target" : "Хабарландырулар",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -2941,23 +2941,6 @@
         "language" : "kk"
       }
     ],
-    "STREAM_SHARED_BY_ME_SUBTITLE" : [
-      {
-        "target" : "Created by You",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Създадено от вас",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Сіз жасаған",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "kk"
-      }
-    ],
     "PHOTOEDIT_FILTER_SILVERTONE" : [
       {
         "target" : "Silvertone",
@@ -2971,6 +2954,23 @@
       },
       {
         "target" : "Күміс түсті",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "kk"
+      }
+    ],
+    "STREAM_SHARED_BY_ME_SUBTITLE" : [
+      {
+        "target" : "Created by You",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Създадено от вас",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Сіз жасаған",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -3451,20 +3451,20 @@
         "language" : "kk"
       }
     ],
-    "SHAREDLIBRARY_PARTICIPANT_EXIT_DISMANTLE_CONTRIBUTED_ONLY_MESSAGE" : [
+    "DELETE_SHARED_STREAM_PHOTOS_WARNING" : [
       {
-        "target" : "%@ has deleted the Shared Library. All the items you shared will be added to your Personal Library.",
-        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
+        "target" : "These photos will be deleted from “%@” on all your devices and all subscribers’ devices.",
+        "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "%@ изтри Споделената библиотека. Всички споделени от вас елементи ще бъдат добавени към вашата Лична библиотека.",
-        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
+        "target" : "Тези снимки ще бъдат изтрити от „%@“ на всичките ви устройства и от устройствата на абонатите.",
+        "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "%@ ортақ медиатеканы жойды. Ортақ қолданыстағы барлық элемент жеке медиатекаңызға қосылады.",
-        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
+        "target" : "Бұл фотолар сіздің және жазылушыларыңыздың барлық құрылғысындағы «%@» ағынынан жойылады.",
+        "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
     ],
@@ -3485,20 +3485,20 @@
         "language" : "kk"
       }
     ],
-    "DELETE_SHARED_STREAM_PHOTOS_WARNING" : [
+    "SHAREDLIBRARY_PARTICIPANT_EXIT_DISMANTLE_CONTRIBUTED_ONLY_MESSAGE" : [
       {
-        "target" : "These photos will be deleted from “%@” on all your devices and all subscribers’ devices.",
-        "filename" : "PhotoLibraryServices.strings",
+        "target" : "%@ has deleted the Shared Library. All the items you shared will be added to your Personal Library.",
+        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
         "language" : "en"
       },
       {
-        "target" : "Тези снимки ще бъдат изтрити от „%@“ на всичките ви устройства и от устройствата на абонатите.",
-        "filename" : "PhotoLibraryServices.strings",
+        "target" : "%@ изтри Споделената библиотека. Всички споделени от вас елементи ще бъдат добавени към вашата Лична библиотека.",
+        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бұл фотолар сіздің және жазылушыларыңыздың барлық құрылғысындағы «%@» ағынынан жойылады.",
-        "filename" : "PhotoLibraryServices.strings",
+        "target" : "%@ ортақ медиатеканы жойды. Ортақ қолданыстағы барлық элемент жеке медиатекаңызға қосылады.",
+        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
         "language" : "kk"
       }
     ],
@@ -3808,19 +3808,19 @@
         "language" : "kk"
       }
     ],
-    "PHOTO_PICKER_CONTENT_UNAVAILABLE_TITLE_REASON_LIBRARY_DOES_NOT_EXIST" : [
+    "DELETE_WARNING_BUTTON_FOLDERS" : [
       {
-        "target" : "No Library Found",
+        "target" : "Delete Folders",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "Няма намерена библиотека",
+        "target" : "Изтрий папките",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "Медиатека табылмады",
+        "target" : "Қалталарды жою",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -3910,19 +3910,19 @@
         "language" : "kk"
       }
     ],
-    "DELETE_WARNING_BUTTON_FOLDERS" : [
+    "PHOTO_PICKER_CONTENT_UNAVAILABLE_TITLE_REASON_LIBRARY_DOES_NOT_EXIST" : [
       {
-        "target" : "Delete Folders",
+        "target" : "No Library Found",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "Изтрий папките",
+        "target" : "Няма намерена библиотека",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "Қалталарды жою",
+        "target" : "Медиатека табылмады",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -4097,23 +4097,6 @@
         "language" : "kk"
       }
     ],
-    "ICLOUDPHOTOS_DOWNLOAD_ERROR_MESSAGE" : [
-      {
-        "target" : "Download failed.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Неуспешно изтегляне.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жүктеп алу сәтсіз аяқталды.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "kk"
-      }
-    ],
     "DELETE_WARNING_ALBUM_ITEM" : [
       {
         "target" : "This item will also be deleted from an album.",
@@ -4127,6 +4110,23 @@
       },
       {
         "target" : "Бұл элемент альбомнан да жойылады.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "kk"
+      }
+    ],
+    "ICLOUDPHOTOS_DOWNLOAD_ERROR_MESSAGE" : [
+      {
+        "target" : "Download failed.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Неуспешно изтегляне.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жүктеп алу сәтсіз аяқталды.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -4301,23 +4301,6 @@
         "language" : "kk"
       }
     ],
-    "DELETE_SUBSCRIBED_STREAM_CONFIRMATION" : [
-      {
-        "target" : "“%@” will be removed from all your devices.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "„%@“ ще бъде премахнато от всичките ви устройства.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "«%@» альбомы барлық құрылғыңыздан жойылады.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "kk"
-      }
-    ],
     "ICLOUDPHOTOS_DOWNLOAD_ERROR_FIND_PHOTO_FAILED_MESSAGE" : [
       {
         "target" : "Unable to retrieve photo from the server.",
@@ -4335,20 +4318,37 @@
         "language" : "kk"
       }
     ],
-    "ALLPHOTOS_ALBUM_TITLE" : [
+    "DELETE_SUBSCRIBED_STREAM_CONFIRMATION" : [
       {
-        "target" : "All Photos",
+        "target" : "“%@” will be removed from all your devices.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "Всички снимки",
+        "target" : "„%@“ ще бъде премахнато от всичките ви устройства.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "Барлық фото",
+        "target" : "«%@» альбомы барлық құрылғыңыздан жойылады.",
         "filename" : "PhotoLibraryServices.strings",
+        "language" : "kk"
+      }
+    ],
+    "SHAREDLIBRARY_PARTICIPANT_EXIT_REMOVAL_KEEP_ALL_MESSAGE" : [
+      {
+        "target" : "%@ has removed you from the Shared Library. All of its items will be added to your Personal Library.",
+        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "%@ ви премахна от Споделената библиотека. Всички елементи от нея ще бъдат добавени към вашата Лична библиотека.",
+        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%@ сізді ортақ медиатекадан жойды. Ішіндегі барлық элемент жеке медиатекаңызға қосылады.",
+        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
         "language" : "kk"
       }
     ],
@@ -4369,20 +4369,20 @@
         "language" : "kk"
       }
     ],
-    "SHAREDLIBRARY_PARTICIPANT_EXIT_REMOVAL_KEEP_ALL_MESSAGE" : [
+    "ALLPHOTOS_ALBUM_TITLE" : [
       {
-        "target" : "%@ has removed you from the Shared Library. All of its items will be added to your Personal Library.",
-        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
+        "target" : "All Photos",
+        "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "%@ ви премахна от Споделената библиотека. Всички елементи от нея ще бъдат добавени към вашата Лична библиотека.",
-        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
+        "target" : "Всички снимки",
+        "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "%@ сізді ортақ медиатекадан жойды. Ішіндегі барлық элемент жеке медиатекаңызға қосылады.",
-        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
+        "target" : "Барлық фото",
+        "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
     ],
@@ -4794,23 +4794,6 @@
         "language" : "kk"
       }
     ],
-    "PHOTOSTREAM_SHARE_LINK_EMAIL_MESSAGE" : [
-      {
-        "target" : "You can view my shared album on the web:",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Можеш да разгледаш споделения ми албум онлайн:",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Ортақ альбомымды келесі мекенжай бойынша көріңіз:",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "kk"
-      }
-    ],
     "EXPUNGE_VIDEO_WARNING_MESSAGE_WITH_ICLOUD_OFF" : [
       {
         "target" : "This will permanently delete the selected video. This action can’t be undone.",
@@ -4824,6 +4807,23 @@
       },
       {
         "target" : "Бұл әрекет таңдалған видеоның біржолата жойылуына әкеледі. Бұл — қайтымсыз әрекет.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "kk"
+      }
+    ],
+    "PHOTOSTREAM_SHARE_LINK_EMAIL_MESSAGE" : [
+      {
+        "target" : "You can view my shared album on the web:",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Можеш да разгледаш споделения ми албум онлайн:",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Ортақ альбомымды келесі мекенжай бойынша көріңіз:",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -5338,6 +5338,23 @@
         "language" : "kk"
       }
     ],
+    "PROGRESS_SYNCING_AND_DOWNLOADING" : [
+      {
+        "target" : "Syncing…",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Синхронизиране…",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Синхрондалуда…",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "kk"
+      }
+    ],
     "CAPTURE_FORMAT_CHANGE_MESSAGE_EXPIRED" : [
       {
         "target" : "Your Mac is no longer syncing with iCloud Photos, Camera will capture in High Efficiency format.",
@@ -5351,23 +5368,6 @@
       },
       {
         "target" : "Mac компьютеріңіз енді iCloud фотоларымен синхрондалмайды, камера кескіндерді жоғары тиімділікті форматта түсіреді.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "kk"
-      }
-    ],
-    "DELETE_SUBSCRIBED_PHOTO_STREAM" : [
-      {
-        "target" : "Unsubscribe",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Спри абонамента",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жазылымнан бас тарту",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -5389,19 +5389,19 @@
         "language" : "kk"
       }
     ],
-    "PROGRESS_SYNCING_AND_DOWNLOADING" : [
+    "DELETE_SUBSCRIBED_PHOTO_STREAM" : [
       {
-        "target" : "Syncing…",
+        "target" : "Unsubscribe",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "Синхронизиране…",
+        "target" : "Спри абонамента",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "Синхрондалуда…",
+        "target" : "Жазылымнан бас тарту",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -5525,23 +5525,6 @@
         "language" : "kk"
       }
     ],
-    "DELETE_CONF_AVALANCHE_FAVORITES_ONLY_1" : [
-      {
-        "target" : "This photo is part of a burst. It will be removed from the photo grid, but will remain in the burst.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Тази снимка е част от поредица и ще бъде премахната от мрежата със снимки, но ще остане в поредицата.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бұл фото серияның бір бөлігі. Ол фототордан жойылады, бірақ осы серияда қалады.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "kk"
-      }
-    ],
     "PEOPLE_FROM_MY_MAC" : [
       {
         "target" : "People from My Mac",
@@ -5555,6 +5538,23 @@
       },
       {
         "target" : "Mac құрылғымдағы адамдар",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "kk"
+      }
+    ],
+    "DELETE_CONF_AVALANCHE_FAVORITES_ONLY_1" : [
+      {
+        "target" : "This photo is part of a burst. It will be removed from the photo grid, but will remain in the burst.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Тази снимка е част от поредица и ще бъде премахната от мрежата със снимки, но ще остане в поредицата.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл фото серияның бір бөлігі. Ол фототордан жойылады, бірақ осы серияда қалады.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -5916,19 +5916,19 @@
         "language" : "kk"
       }
     ],
-    "DELETE_CONF_AVALANCHE_FAVORITES_ONLY_SOME" : [
+    "WARNING_BUTTON_HIDE_ITEMS" : [
       {
-        "target" : "Some photos are part of a burst. They will be removed from the photo grid, but will remain in the burst.",
+        "target" : "Hide",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "Някои снимки са част от поредица и ще бъдат премахнати от мрежата със снимки, но ще останат в поредицата.",
+        "target" : "Скрий",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "Кейбір фотолар серияның бір бөлігі. Олар фототордан жойылады, бірақ осы серияда қалады.",
+        "target" : "Жасыру",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -5967,6 +5967,23 @@
         "language" : "kk"
       }
     ],
+    "DELETE_CONF_AVALANCHE_FAVORITES_ONLY_SOME" : [
+      {
+        "target" : "Some photos are part of a burst. They will be removed from the photo grid, but will remain in the burst.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Някои снимки са част от поредица и ще бъдат премахнати от мрежата със снимки, но ще останат в поредицата.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Кейбір фотолар серияның бір бөлігі. Олар фототордан жойылады, бірақ осы серияда қалады.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "kk"
+      }
+    ],
     "REMOVE_BUTTON" : [
       {
         "target" : "Remove",
@@ -5980,23 +5997,6 @@
       },
       {
         "target" : "Алып тастау",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "kk"
-      }
-    ],
-    "WARNING_BUTTON_HIDE_ITEMS" : [
-      {
-        "target" : "Hide",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Скрий",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жасыру",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -6477,6 +6477,23 @@
         "language" : "kk"
       }
     ],
+    "DELETE_WARNING_COMBINED_MESSAGE_COMPACT_FORMAT" : [
+      {
+        "target" : "%1$@ %2$@",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "%1$@ %2$@",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%1$@ %2$@",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "kk"
+      }
+    ],
     "DELETE_WARNING_PHOTOSTREAM_SOME_PHOTOS" : [
       {
         "target" : "Some photos will also be deleted from Photo Stream on all your devices.",
@@ -6490,23 +6507,6 @@
       },
       {
         "target" : "Кейбір фотолар барлық құрылғыңыздағы фото ағыннан жойылады.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "kk"
-      }
-    ],
-    "DELETE_WARNING_SYNDICATION_COMBINED_PHOTO" : [
-      {
-        "target" : "The photo shared with you will be deleted from Photos, but still appear in Messages.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Споделената с вас снимка ще бъде изтрита от Снимки, но все пак ще се вижда в Съобщения.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Алынған фото «Фотолар» қолданбасынан жойылады, бірақ «Хабарлар» қолданбасында көрсетіледі.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -6545,19 +6545,19 @@
         "language" : "kk"
       }
     ],
-    "DELETE_WARNING_COMBINED_MESSAGE_COMPACT_FORMAT" : [
+    "DELETE_WARNING_SYNDICATION_COMBINED_PHOTO" : [
       {
-        "target" : "%1$@ %2$@",
+        "target" : "The photo shared with you will be deleted from Photos, but still appear in Messages.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "%1$@ %2$@",
+        "target" : "Споделената с вас снимка ще бъде изтрита от Снимки, но все пак ще се вижда в Съобщения.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "%1$@ %2$@",
+        "target" : "Алынған фото «Фотолар» қолданбасынан жойылады, бірақ «Хабарлар» қолданбасында көрсетіледі.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -6681,20 +6681,20 @@
         "language" : "kk"
       }
     ],
-    "SHAREDLIBRARY_DELETE_WARNING_ICLOUD_MIXED_PHOTOS_SYNDICATION" : [
+    "DELETE_WARNING_PHOTOSTREAM_ALBUM_SOME_PHOTOS" : [
       {
-        "target" : "Some photos will be deleted for all Shared Library participants and from iCloud Photos on all your devices.",
-        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
+        "target" : "Some photos will also be deleted from Photo Stream on all your devices, and from an album.",
+        "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "Някои снимки ще бъдат изтрити за всички участници в Споделената библиотека и от iCloud снимки на всичките ви устройства.",
-        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
+        "target" : "Някои снимки ще бъдат изтрити също от Поток снимки във всичките ви устройства и от албум.",
+        "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "Кейбір фотолар барлық құрылғыңыздағы барлық ортақ медиатека қатысушысы үшін және iCloud фотоларынан жойылады.",
-        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
+        "target" : "Кейбір фотолар барлық құрылғыңыздағы фото ағыннан және альбомнан жойылады.",
+        "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
     ],
@@ -6715,20 +6715,20 @@
         "language" : "kk"
       }
     ],
-    "DELETE_WARNING_PHOTOSTREAM_ALBUM_SOME_PHOTOS" : [
+    "SHAREDLIBRARY_DELETE_WARNING_ICLOUD_MIXED_PHOTOS_SYNDICATION" : [
       {
-        "target" : "Some photos will also be deleted from Photo Stream on all your devices, and from an album.",
-        "filename" : "PhotoLibraryServices.strings",
+        "target" : "Some photos will be deleted for all Shared Library participants and from iCloud Photos on all your devices.",
+        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
         "language" : "en"
       },
       {
-        "target" : "Някои снимки ще бъдат изтрити също от Поток снимки във всичките ви устройства и от албум.",
-        "filename" : "PhotoLibraryServices.strings",
+        "target" : "Някои снимки ще бъдат изтрити за всички участници в Споделената библиотека и от iCloud снимки на всичките ви устройства.",
+        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
         "language" : "bg"
       },
       {
-        "target" : "Кейбір фотолар барлық құрылғыңыздағы фото ағыннан және альбомнан жойылады.",
-        "filename" : "PhotoLibraryServices.strings",
+        "target" : "Кейбір фотолар барлық құрылғыңыздағы барлық ортақ медиатека қатысушысы үшін және iCloud фотоларынан жойылады.",
+        "filename" : "PhotoLibraryServicesSharedLibrary.strings",
         "language" : "kk"
       }
     ],
@@ -7072,19 +7072,19 @@
         "language" : "kk"
       }
     ],
-    "DELETE_WARNING_PHOTOSTREAM_IPHOTO_SOME_ITEMS" : [
+    "DELETE_WARNING_SYNDICATION_COMBINED_VIDEOS" : [
       {
-        "target" : "Some items will also be deleted from Photo Stream on all your devices, and from iPhoto.",
+        "target" : "Videos shared with you will be deleted from Photos, but still appear in Messages.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "Някои елементи ще бъдат изтрити също от Поток снимки във всичките ви устройства и от iPhoto.",
+        "target" : "Споделените с вас видео клипове ще бъдат изтрити от Снимки, но все пак ще се виждат в Съобщения.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бұл элементтер барлық құрылғыңыздағы фото ағыннан және iPhoto қолданбасынан жойылады.",
+        "target" : "Алынған видеолар «Фотолар» қолданбасынан жойылады, бірақ «Хабарлар» қолданбасында көрсетіледі.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -7106,19 +7106,19 @@
         "language" : "kk"
       }
     ],
-    "DELETE_WARNING_SYNDICATION_COMBINED_VIDEOS" : [
+    "DELETE_WARNING_PHOTOSTREAM_IPHOTO_SOME_ITEMS" : [
       {
-        "target" : "Videos shared with you will be deleted from Photos, but still appear in Messages.",
+        "target" : "Some items will also be deleted from Photo Stream on all your devices, and from iPhoto.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "en"
       },
       {
-        "target" : "Споделените с вас видео клипове ще бъдат изтрити от Снимки, но все пак ще се виждат в Съобщения.",
+        "target" : "Някои елементи ще бъдат изтрити също от Поток снимки във всичките ви устройства и от iPhoto.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "bg"
       },
       {
-        "target" : "Алынған видеолар «Фотолар» қолданбасынан жойылады, бірақ «Хабарлар» қолданбасында көрсетіледі.",
+        "target" : "Бұл элементтер барлық құрылғыңыздағы фото ағыннан және iPhoto қолданбасынан жойылады.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }
@@ -7888,23 +7888,6 @@
         "language" : "kk"
       }
     ],
-    "COMPLETE_MY_MOMENT_READY_TO_VIEW_FROM" : [
-      {
-        "target" : "Photos from %@ have finished uploading and are ready to view.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Качването на снимките от %@ приключи и вече са готови за разглеждане.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%@ ішінен фотоларды жүктеп салу аяқталды, оларды көруге болады.",
-        "filename" : "PhotoLibraryServices.strings",
-        "language" : "kk"
-      }
-    ],
     "CONFIRM_OUTOFNETWORK_INVITATION_MESSAGE" : [
       {
         "target" : "%@ invited you to join “%@”.\n You need to be logged into iCloud to be able to accept this invitation.",
@@ -7918,6 +7901,23 @@
       },
       {
         "target" : "%@ атты пайдаланушы «%@» альбомына қосылуға шақырды.\n Шақыруды қабылдау үшін iCloud аккаунтына кіруіңіз керек.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "kk"
+      }
+    ],
+    "COMPLETE_MY_MOMENT_READY_TO_VIEW_FROM" : [
+      {
+        "target" : "Photos from %@ have finished uploading and are ready to view.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Качването на снимките от %@ приключи и вече са готови за разглеждане.",
+        "filename" : "PhotoLibraryServices.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%@ ішінен фотоларды жүктеп салу аяқталды, оларды көруге болады.",
         "filename" : "PhotoLibraryServices.strings",
         "language" : "kk"
       }

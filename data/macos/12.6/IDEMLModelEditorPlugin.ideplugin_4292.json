@@ -1,8 +1,8 @@
 {
   "localizations" : {
-    "MLModelType_supportVectorClassifier" : [
+    "MLModelType_glmClassifier" : [
       {
-        "target" : "Support Vector Classifier",
+        "target" : "Generalized Linear Classifier",
         "filename" : "coremlcompiler.strings",
         "language" : "en"
       }
@@ -70,13 +70,6 @@
         "language" : "en"
       }
     ],
-    "MLModelType_categoricalImputer" : [
-      {
-        "target" : "Categorical Imputer",
-        "filename" : "coremlcompiler.strings",
-        "language" : "en"
-      }
-    ],
     "MLModelType_treeEnsembleClassifier" : [
       {
         "target" : "Tree Ensemble Classifier",
@@ -88,6 +81,13 @@
       {
         "target" : "Navigate CoreML",
         "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "MLModelType_categoricalImputer" : [
+      {
+        "target" : "Categorical Imputer",
+        "filename" : "coremlcompiler.strings",
         "language" : "en"
       }
     ],
@@ -140,16 +140,9 @@
         "language" : "en"
       }
     ],
-    "MLModelType_categoricalMapping" : [
+    "MLModelType_supportVectorClassifier" : [
       {
-        "target" : "Categorical Mapping",
-        "filename" : "coremlcompiler.strings",
-        "language" : "en"
-      }
-    ],
-    "MLModelType_glmClassifier" : [
-      {
-        "target" : "Generalized Linear Classifier",
+        "target" : "Support Vector Classifier",
         "filename" : "coremlcompiler.strings",
         "language" : "en"
       }
@@ -168,13 +161,6 @@
         "language" : "en"
       }
     ],
-    "MLModelType_oneHotEncoder" : [
-      {
-        "target" : "One-hot Encoder",
-        "filename" : "coremlcompiler.strings",
-        "language" : "en"
-      }
-    ],
     "MLModelType_numericalImputer" : [
       {
         "target" : "Numerical Imputer",
@@ -182,9 +168,23 @@
         "language" : "en"
       }
     ],
+    "MLModelType_oneHotEncoder" : [
+      {
+        "target" : "One-hot Encoder",
+        "filename" : "coremlcompiler.strings",
+        "language" : "en"
+      }
+    ],
     "MLModelType_arrayFeatureExtractor" : [
       {
         "target" : "Array Feature Extractor",
+        "filename" : "coremlcompiler.strings",
+        "language" : "en"
+      }
+    ],
+    "MLModelType_categoricalMapping" : [
+      {
+        "target" : "Categorical Mapping",
         "filename" : "coremlcompiler.strings",
         "language" : "en"
       }

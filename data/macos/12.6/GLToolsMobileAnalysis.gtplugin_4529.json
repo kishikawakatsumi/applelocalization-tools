@@ -264,9 +264,14 @@
         "language" : "en"
       }
     ],
-    "numAttachments<%d> out of range[1..3]" : [
+    "DYFKVertexShaderDataSpill" : [
       {
-        "target" : "numAttachments<%d> out of range[1..3]",
+        "target" : "Vertex Shader Data Spill",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Use of temporary arrays or too many temporary registers in vertex shader",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -285,14 +290,9 @@
         "language" : "en"
       }
     ],
-    "DYFKVertexShaderDataSpill" : [
+    "numAttachments<%d> out of range[1..3]" : [
       {
-        "target" : "Vertex Shader Data Spill",
-        "filename" : "AnalyzerFindingKinds.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Use of temporary arrays or too many temporary registers in vertex shader",
+        "target" : "numAttachments<%d> out of range[1..3]",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -929,27 +929,22 @@
         "language" : "en"
       }
     ],
-    "DYFURLFragmentShaderDataSpill" : [
+    "DYFKMSAAColorBufferLoad" : [
       {
-        "target" : " ",
+        "target" : "MSAA Color Buffer Load",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "MSAA color buffer load",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFDKFragmentShaderDynamicBranching" : [
+    "DYFURLFragmentShaderDataSpill" : [
       {
-        "target" : " contains dynamic branch instructions, which reduces the performance of the shader.",
-        "filename" : "AnalyzerFindingShort.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Your fragment shader contains dynamic branch instructions, which reduces the performance of the shader. To improve performance, eliminate dynamic branching from the shader, if possible.",
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "$ThisFSProg$ $contains$ dynamic branch instructions, which reduces the performance of the shader.",
-        "filename" : "AnalyzerFindingSimplified.strings",
         "language" : "en"
       }
     ],
@@ -998,6 +993,23 @@
         "language" : "en"
       }
     ],
+    "DYFDKFragmentShaderDynamicBranching" : [
+      {
+        "target" : " contains dynamic branch instructions, which reduces the performance of the shader.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Your fragment shader contains dynamic branch instructions, which reduces the performance of the shader. To improve performance, eliminate dynamic branching from the shader, if possible.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "$ThisFSProg$ $contains$ dynamic branch instructions, which reduces the performance of the shader.",
+        "filename" : "AnalyzerFindingSimplified.strings",
+        "language" : "en"
+      }
+    ],
     "DYFKOffChipMRT" : [
       {
         "target" : "Loss of Fast Path Rendering Due to Large Framebuffer Color Attachment Writes",
@@ -1006,18 +1018,6 @@
       },
       {
         "target" : "Loss of fast path rendering due to large framebuffer color attachment writes",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFKMSAAColorBufferLoad" : [
-      {
-        "target" : "MSAA Color Buffer Load",
-        "filename" : "AnalyzerFindingKinds.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "MSAA color buffer load",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1076,16 +1076,16 @@
         "language" : "en"
       }
     ],
-    "sfactor" : [
+    "FramebufferTexture2D() level<%d> not supported without OES_fbo_render_mipmap extension" : [
       {
-        "target" : "sfactor",
+        "target" : "FramebufferTexture2D() level<%d> not supported without OES_fbo_render_mipmap extension",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "FramebufferTexture2D() level<%d> not supported without OES_fbo_render_mipmap extension" : [
+    "sfactor" : [
       {
-        "target" : "FramebufferTexture2D() level<%d> not supported without OES_fbo_render_mipmap extension",
+        "target" : "sfactor",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1220,7 +1220,7 @@
         "language" : "en"
       }
     ],
-    "DYFURLProjectedTextureSampling" : [
+    "DYFURLTextureUploadNonOptimalGPUUtilization" : [
       {
         "target" : " ",
         "filename" : "AnalyzerFinding.strings",
@@ -1234,13 +1234,6 @@
         "language" : "en"
       }
     ],
-    "DYFURLTextureUploadNonOptimalGPUUtilization" : [
-      {
-        "target" : " ",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFKRecommendNotUsingSignedByte" : [
       {
         "target" : "BYTE format vertex data",
@@ -1248,7 +1241,7 @@
         "language" : "en"
       }
     ],
-    "DYFURLRecommendTwoOrFourComponentsForShortData" : [
+    "DYFURLProjectedTextureSampling" : [
       {
         "target" : " ",
         "filename" : "AnalyzerFinding.strings",
@@ -1256,6 +1249,13 @@
       }
     ],
     "DYFURLLogicalBufferStore" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLRecommendTwoOrFourComponentsForShortData" : [
       {
         "target" : " ",
         "filename" : "AnalyzerFinding.strings",
@@ -1920,9 +1920,9 @@
         "language" : "en"
       }
     ],
-    "units" : [
+    "DYFDKReportExtensionsUsed" : [
       {
-        "target" : "units",
+        "target" : "Extensions Used:\n",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1958,9 +1958,9 @@
         "language" : "en"
       }
     ],
-    "DYFDKReportExtensionsUsed" : [
+    "DYFURLOffChipMRT" : [
       {
-        "target" : "Extensions Used:\n",
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1972,9 +1972,9 @@
         "language" : "en"
       }
     ],
-    "DYFURLOffChipMRT" : [
+    "units" : [
       {
-        "target" : " ",
+        "target" : "units",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -2105,13 +2105,6 @@
         "language" : "en"
       }
     ],
-    "DYFKClientSidePerVertexDataAlignmentIssue" : [
-      {
-        "target" : "Misaligned per-vertex data array element",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "func" : [
       {
         "target" : "func",
@@ -2127,6 +2120,13 @@
       },
       {
         "target" : "Your application sourced element array indices from client memory rather than from a buffer object. In this situation, every time DrawElements is called the indices are retransmitted to the graphics hardware for rendering. Use buffer objects instead to store the indices. See documentation on GenBuffers, BindBuffer, and BufferData, and ELEMENT_ARRAY_BUFFER for more information.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKClientSidePerVertexDataAlignmentIssue" : [
+      {
+        "target" : "Misaligned per-vertex data array element",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }

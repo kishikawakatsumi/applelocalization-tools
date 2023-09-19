@@ -49,16 +49,16 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_40_FEMALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_9_FEMALE" : [
       {
-        "target" : "40 second",
+        "target" : "9 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_9_FEMALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_40_FEMALE" : [
       {
-        "target" : "9 minute",
+        "target" : "40 second",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -392,16 +392,16 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_39" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_24_MALE" : [
       {
-        "target" : "39 minute",
+        "target" : "24 hour",
         "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_24_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_39" : [
       {
-        "target" : "24 hour",
+        "target" : "39 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -497,10 +497,10 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_33_MALE" : [
+    "SIRI_VOX_WIFI_ERROR_0_MALE" : [
       {
-        "target" : "33 minute",
-        "filename" : "Clock.strings",
+        "target" : "I’m having Wi-Fi issues. Look in the Home app for more information.",
+        "filename" : "Errors.strings",
         "language" : "en"
       }
     ],
@@ -525,10 +525,10 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_WIFI_ERROR_0_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_33_MALE" : [
       {
-        "target" : "I’m having Wi-Fi issues. Look in the Home app for more information.",
-        "filename" : "Errors.strings",
+        "target" : "33 minute",
+        "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
@@ -574,16 +574,16 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TITLED_ALARM_ANNOUNCEMENT_SINGLE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_15_MALE" : [
       {
-        "target" : "%@ alarm",
+        "target" : "15 hour",
         "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_15_MALE" : [
+    "SIRI_VOX_FIRING_TITLED_ALARM_ANNOUNCEMENT_SINGLE" : [
       {
-        "target" : "15 hour",
+        "target" : "%@ alarm",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -721,17 +721,17 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_DEVICE_PROBLEM_HARDWARE_1" : [
-      {
-        "target" : "Your HomePod requires service. Check the Home app, or contact Apple Support.",
-        "filename" : "Errors.strings",
-        "language" : "en"
-      }
-    ],
     "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_7_MALE" : [
       {
         "target" : "7 hour",
         "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
+    "SIRI_VOX_DEVICE_PROBLEM_HARDWARE_1" : [
+      {
+        "target" : "Your HomePod requires service. Check the Home app, or contact Apple Support.",
+        "filename" : "Errors.strings",
         "language" : "en"
       }
     ],
@@ -791,6 +791,13 @@
         "language" : "en"
       }
     ],
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_43" : [
+      {
+        "target" : "43 second",
+        "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
     "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_2_FEMALE" : [
       {
         "target" : "2 hour",
@@ -801,13 +808,6 @@
     "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_20_MALE" : [
       {
         "target" : "20 hour",
-        "filename" : "Clock.strings",
-        "language" : "en"
-      }
-    ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_43" : [
-      {
-        "target" : "43 second",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -833,6 +833,13 @@
         "language" : "en"
       }
     ],
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_HOURS_MINUTES_SECONDS_FEMALE" : [
+      {
+        "target" : "%1$@ @{tts#\\ESC\\pause=150\\} %2$@ @{tts#\\ESC\\pause=150\\} %3$@",
+        "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
     "SIRI_VOX_FIRING_TITLED_ALARM_ANNOUNCEMENT_SINGLE_MALE" : [
       {
         "target" : "%@ alarm",
@@ -847,13 +854,6 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_15_MALE" : [
-      {
-        "target" : "15 minute",
-        "filename" : "Clock.strings",
-        "language" : "en"
-      }
-    ],
     "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_34_FEMALE" : [
       {
         "target" : "34 second",
@@ -861,16 +861,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_HOURS_MINUTES_SECONDS_FEMALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_15_MALE" : [
       {
-        "target" : "%1$@ @{tts#\\ESC\\pause=150\\} %2$@ @{tts#\\ESC\\pause=150\\} %3$@",
-        "filename" : "Clock.strings",
-        "language" : "en"
-      }
-    ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_10_MALE" : [
-      {
-        "target" : "10 second",
+        "target" : "15 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -896,6 +889,13 @@
         "language" : "en"
       }
     ],
+    "SIRI_VOX_DEVICE_PROBLEM_THERMAL_0" : [
+      {
+        "target" : "I need to cool down before I can complete your request.",
+        "filename" : "Errors.strings",
+        "language" : "en"
+      }
+    ],
     "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_25_FEMALE" : [
       {
         "target" : "25 second",
@@ -910,20 +910,6 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_UNTITLED_ALARM_ANNOUNCEMENT_SINGLE_MALE" : [
-      {
-        "target" : "%@ alarm",
-        "filename" : "Clock.strings",
-        "language" : "en"
-      }
-    ],
-    "SIRI_VOX_DEVICE_PROBLEM_THERMAL_0" : [
-      {
-        "target" : "I need to cool down before I can complete your request.",
-        "filename" : "Errors.strings",
-        "language" : "en"
-      }
-    ],
     "SIRI_VOX_DEVICE_PROBLEM_THERMAL_1" : [
       {
         "target" : "Your HomePod needs to cool down before I can help with that.",
@@ -931,10 +917,24 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_DEVICE_PROBLEM_THERMAL_2" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_10_MALE" : [
       {
-        "target" : "Your HomePod’s a little too warm for me. I can complete your request once it’s cooled down.",
-        "filename" : "Errors.strings",
+        "target" : "10 second",
+        "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
+    "SIRI_VOX_FIRING_UNTITLED_ALARM_ANNOUNCEMENT_SINGLE_MALE" : [
+      {
+        "target" : "%@ alarm",
+        "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_13" : [
+      {
+        "target" : "13 minute",
+        "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
@@ -952,10 +952,10 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_13" : [
+    "SIRI_VOX_DEVICE_PROBLEM_THERMAL_2" : [
       {
-        "target" : "13 minute",
-        "filename" : "Clock.strings",
+        "target" : "Your HomePod’s a little too warm for me. I can complete your request once it’s cooled down.",
+        "filename" : "Errors.strings",
         "language" : "en"
       }
     ],
@@ -1092,9 +1092,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_46" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_44_FEMALE" : [
       {
-        "target" : "46 second",
+        "target" : "44 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1106,9 +1106,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_44_FEMALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_46" : [
       {
-        "target" : "44 minute",
+        "target" : "46 second",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1190,17 +1190,17 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_ALARM_ANNOUNCEMENT_MULTI_FEMALE" : [
-      {
-        "target" : "%@ alarms",
-        "filename" : "Clock.strings",
-        "language" : "en"
-      }
-    ],
     "SIRI_VOX_WIFI_ERROR_1_FEMALE" : [
       {
         "target" : "There’s a problem with the Wi-Fi. For more info, take a look in the Home app.",
         "filename" : "Errors.strings",
+        "language" : "en"
+      }
+    ],
+    "SIRI_VOX_FIRING_ALARM_ANNOUNCEMENT_MULTI_FEMALE" : [
+      {
+        "target" : "%@ alarms",
+        "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
@@ -1246,9 +1246,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_HOURS_MINUTES" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_23_MALE" : [
       {
-        "target" : "%1$@ @{tts#\\ESC\\pause=150\\} %2$@",
+        "target" : "23 hour",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1267,9 +1267,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_23_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_HOURS_MINUTES" : [
       {
-        "target" : "23 hour",
+        "target" : "%1$@ @{tts#\\ESC\\pause=150\\} %2$@",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1288,9 +1288,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_53_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_1_FEMALE" : [
       {
-        "target" : "53 minute",
+        "target" : "1 hour",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1323,9 +1323,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_1_FEMALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_53_MALE" : [
       {
-        "target" : "1 hour",
+        "target" : "53 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1337,16 +1337,16 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_9" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_50_MALE" : [
       {
-        "target" : "9 second",
+        "target" : "50 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_50_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_9" : [
       {
-        "target" : "50 minute",
+        "target" : "9 second",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1449,13 +1449,6 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_AUDIO_PASSCODE_INSTRUCTION" : [
-      {
-        "target" : "Enter these 4 digits to continue",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_37_FEMALE" : [
       {
         "target" : "37 minute",
@@ -1463,16 +1456,23 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_43" : [
+    "SIRI_VOX_AUDIO_PASSCODE_INSTRUCTION" : [
       {
-        "target" : "43 minute",
-        "filename" : "Clock.strings",
+        "target" : "Enter these 4 digits to continue",
+        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
     "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_13_FEMALE" : [
       {
         "target" : "13 minute",
+        "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_43" : [
+      {
+        "target" : "43 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1554,23 +1554,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_SYSTEM_FACTORY_RESET_CONFIRMATION_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_21_FEMALE" : [
       {
-        "target" : "Your HomePod is about to reset. @{tts#\\ESC\\pause=150\\}Keep pressing, until you hear three beeps.",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_12" : [
-      {
-        "target" : "12 second",
-        "filename" : "Clock.strings",
-        "language" : "en"
-      }
-    ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_51_FEMALE" : [
-      {
-        "target" : "51 second",
+        "target" : "21 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1582,10 +1568,24 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_21_FEMALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_51_FEMALE" : [
       {
-        "target" : "21 minute",
+        "target" : "51 second",
         "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_12" : [
+      {
+        "target" : "12 second",
+        "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
+    "SIRI_VOX_SYSTEM_FACTORY_RESET_CONFIRMATION_MALE" : [
+      {
+        "target" : "Your HomePod is about to reset. @{tts#\\ESC\\pause=150\\}Keep pressing, until you hear three beeps.",
+        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -1638,16 +1638,16 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_23" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_53_FEMALE" : [
       {
-        "target" : "23 hour",
+        "target" : "53 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_56_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_23" : [
       {
-        "target" : "56 second",
+        "target" : "23 hour",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1659,9 +1659,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_UNTITLED_TIMER_ANNOUNCEMENT_SINGLE_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_56_MALE" : [
       {
-        "target" : "%@ timer",
+        "target" : "56 second",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1694,9 +1694,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_53_FEMALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_6_MALE" : [
       {
-        "target" : "53 minute",
+        "target" : "6 hour",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1708,9 +1708,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_6_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_38" : [
       {
-        "target" : "6 hour",
+        "target" : "38 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1722,9 +1722,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_54" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_58_MALE" : [
       {
-        "target" : "54 minute",
+        "target" : "58 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1743,16 +1743,16 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_58_MALE" : [
+    "SIRI_VOX_FIRING_UNTITLED_TIMER_ANNOUNCEMENT_SINGLE_MALE" : [
       {
-        "target" : "58 minute",
+        "target" : "%@ timer",
         "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_38" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_54" : [
       {
-        "target" : "38 minute",
+        "target" : "54 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1799,9 +1799,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_36_FEMALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_23" : [
       {
-        "target" : "36 second",
+        "target" : "23 second",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1813,9 +1813,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_23" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_36_FEMALE" : [
       {
-        "target" : "23 second",
+        "target" : "36 second",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1841,20 +1841,6 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_10_FEMALE" : [
-      {
-        "target" : "10 hour",
-        "filename" : "Clock.strings",
-        "language" : "en"
-      }
-    ],
-    "SIRI_VOX_WIFI_ERROR_1_MALE" : [
-      {
-        "target" : "There’s a problem with the Wi-Fi. For more info, take a look in the Home app.",
-        "filename" : "Errors.strings",
-        "language" : "en"
-      }
-    ],
     "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_27_FEMALE" : [
       {
         "target" : "27 second",
@@ -1866,6 +1852,20 @@
       {
         "target" : "2 hour",
         "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_10_FEMALE" : [
+      {
+        "target" : "10 hour",
+        "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
+    "SIRI_VOX_WIFI_ERROR_1_MALE" : [
+      {
+        "target" : "There’s a problem with the Wi-Fi. For more info, take a look in the Home app.",
+        "filename" : "Errors.strings",
         "language" : "en"
       }
     ],
@@ -1974,9 +1974,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_14_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_38_MALE" : [
       {
-        "target" : "14 minute",
+        "target" : "38 second",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -1988,9 +1988,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_38_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_14_MALE" : [
       {
-        "target" : "38 second",
+        "target" : "14 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -2002,10 +2002,10 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_TIMEOUT_ERROR_2" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_18" : [
       {
-        "target" : "Something’s taking a little too long here.",
-        "filename" : "Errors.strings",
+        "target" : "18 second",
+        "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
@@ -2016,10 +2016,10 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_18" : [
+    "SIRI_VOX_TIMEOUT_ERROR_2" : [
       {
-        "target" : "18 second",
-        "filename" : "Clock.strings",
+        "target" : "Something’s taking a little too long here.",
+        "filename" : "Errors.strings",
         "language" : "en"
       }
     ],
@@ -2030,10 +2030,10 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_DEVICE_PROBLEM_HARDWARE_1_FEMALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_22_MALE" : [
       {
-        "target" : "Your HomePod requires service. Check the Home app, or contact Apple Support.",
-        "filename" : "Errors.strings",
+        "target" : "22 second",
+        "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
@@ -2051,10 +2051,10 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_22_MALE" : [
+    "SIRI_VOX_DEVICE_PROBLEM_HARDWARE_1_FEMALE" : [
       {
-        "target" : "22 second",
-        "filename" : "Clock.strings",
+        "target" : "Your HomePod requires service. Check the Home app, or contact Apple Support.",
+        "filename" : "Errors.strings",
         "language" : "en"
       }
     ],
@@ -2121,9 +2121,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_2_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_54_FEMALE" : [
       {
-        "target" : "2 second",
+        "target" : "54 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -2135,9 +2135,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_54_FEMALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_2_MALE" : [
       {
-        "target" : "54 minute",
+        "target" : "2 second",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -2198,16 +2198,16 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_HOURS_MINUTES_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_MULTI_FEMALE" : [
       {
-        "target" : "%1$@ @{tts#\\ESC\\pause=150\\} %2$@",
+        "target" : "%@ timers",
         "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_MULTI_FEMALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_HOURS_MINUTES_MALE" : [
       {
-        "target" : "%@ timers",
+        "target" : "%1$@ @{tts#\\ESC\\pause=150\\} %2$@",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -2415,16 +2415,16 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_12_FEMALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_17_MALE" : [
       {
-        "target" : "12 second",
+        "target" : "17 second",
         "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_17_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_12_FEMALE" : [
       {
-        "target" : "17 second",
+        "target" : "12 second",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -2674,6 +2674,13 @@
         "language" : "en"
       }
     ],
+    "SIRI_VOX_TIMEOUT_ERROR_3_FEMALE" : [
+      {
+        "target" : "Hmm, this is going a little too slow.",
+        "filename" : "Errors.strings",
+        "language" : "en"
+      }
+    ],
     "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_45_MALE" : [
       {
         "target" : "45 second",
@@ -2685,13 +2692,6 @@
       {
         "target" : "21 minute",
         "filename" : "Clock.strings",
-        "language" : "en"
-      }
-    ],
-    "SIRI_VOX_TIMEOUT_ERROR_3_FEMALE" : [
-      {
-        "target" : "Hmm, this is going a little too slow.",
-        "filename" : "Errors.strings",
         "language" : "en"
       }
     ],
@@ -2730,23 +2730,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_DEVICE_PROBLEM_FIXING_1" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_13_MALE" : [
       {
-        "target" : "Please try again in a few moments.",
-        "filename" : "Errors.strings",
-        "language" : "en"
-      }
-    ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_29_FEMALE" : [
-      {
-        "target" : "29 second",
-        "filename" : "Clock.strings",
-        "language" : "en"
-      }
-    ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_42_MALE" : [
-      {
-        "target" : "42 second",
+        "target" : "13 hour",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -2758,6 +2744,13 @@
         "language" : "en"
       }
     ],
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_29_FEMALE" : [
+      {
+        "target" : "29 second",
+        "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
     "SIRI_VOX_DEVICE_PROBLEM_FIXING_3" : [
       {
         "target" : "Please try again in a moment.",
@@ -2765,10 +2758,17 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_13_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_42_MALE" : [
       {
-        "target" : "13 hour",
+        "target" : "42 second",
         "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
+    "SIRI_VOX_DEVICE_PROBLEM_FIXING_1" : [
+      {
+        "target" : "Please try again in a few moments.",
+        "filename" : "Errors.strings",
         "language" : "en"
       }
     ],
@@ -3010,9 +3010,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_19_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_22" : [
       {
-        "target" : "19 minute",
+        "target" : "22 second",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -3024,9 +3024,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_22" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_19_MALE" : [
       {
-        "target" : "22 second",
+        "target" : "19 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -3087,17 +3087,17 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_DEVICE_PROBLEM_NETWORK_2_MALE" : [
-      {
-        "target" : "Your network may be having problems.",
-        "filename" : "Errors.strings",
-        "language" : "en"
-      }
-    ],
     "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_29_MALE" : [
       {
         "target" : "29 minute",
         "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
+    "SIRI_VOX_DEVICE_PROBLEM_NETWORK_2_MALE" : [
+      {
+        "target" : "Your network may be having problems.",
+        "filename" : "Errors.strings",
         "language" : "en"
       }
     ],
@@ -3108,9 +3108,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_6" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_48" : [
       {
-        "target" : "6 second",
+        "target" : "48 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -3122,9 +3122,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_48" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_6" : [
       {
-        "target" : "48 minute",
+        "target" : "6 second",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -3234,6 +3234,13 @@
         "language" : "en"
       }
     ],
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_24" : [
+      {
+        "target" : "24 hour",
+        "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
     "SIRI_VOX_WLAN_ERROR_0_FEMALE" : [
       {
         "target" : "I’m having WLAN issues. Look in the Home app for more information.",
@@ -3244,13 +3251,6 @@
     "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_41" : [
       {
         "target" : "41 second",
-        "filename" : "Clock.strings",
-        "language" : "en"
-      }
-    ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_24" : [
-      {
-        "target" : "24 hour",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -3304,9 +3304,16 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_11" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_49_FEMALE" : [
       {
-        "target" : "11 minute",
+        "target" : "49 minute",
+        "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_21_MALE" : [
+      {
+        "target" : "21 hour",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -3318,13 +3325,6 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_49_FEMALE" : [
-      {
-        "target" : "49 minute",
-        "filename" : "Clock.strings",
-        "language" : "en"
-      }
-    ],
     "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_25_FEMALE" : [
       {
         "target" : "25 minute",
@@ -3332,9 +3332,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_21_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_11" : [
       {
-        "target" : "21 hour",
+        "target" : "11 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -3353,10 +3353,10 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_DEVICE_PROBLEM_FIXING_3_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_55_FEMALE" : [
       {
-        "target" : "Please try again in a moment.",
-        "filename" : "Errors.strings",
+        "target" : "55 second",
+        "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
@@ -3367,10 +3367,10 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_55_FEMALE" : [
+    "SIRI_VOX_DEVICE_PROBLEM_FIXING_3_MALE" : [
       {
-        "target" : "55 second",
-        "filename" : "Clock.strings",
+        "target" : "Please try again in a moment.",
+        "filename" : "Errors.strings",
         "language" : "en"
       }
     ],
@@ -3479,16 +3479,16 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_52" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_MINUTES_SECONDS_MALE" : [
       {
-        "target" : "52 second",
+        "target" : "%1$@ @{tts#\\ESC\\pause=150\\} %2$@",
         "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_MINUTES_SECONDS_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_52" : [
       {
-        "target" : "%1$@ @{tts#\\ESC\\pause=150\\} %2$@",
+        "target" : "52 second",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -3612,9 +3612,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_18_FEMALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_39" : [
       {
-        "target" : "18 minute",
+        "target" : "39 second",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -3626,9 +3626,9 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_SECOND_39" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_18_FEMALE" : [
       {
-        "target" : "39 second",
+        "target" : "18 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }
@@ -3661,6 +3661,13 @@
         "language" : "en"
       }
     ],
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_10_MALE" : [
+      {
+        "target" : "10 minute",
+        "filename" : "Clock.strings",
+        "language" : "en"
+      }
+    ],
     "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_HOUR_3_FEMALE" : [
       {
         "target" : "3 hour",
@@ -3672,13 +3679,6 @@
       {
         "target" : "Your network may be having some issues.",
         "filename" : "Errors.strings",
-        "language" : "en"
-      }
-    ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_10_MALE" : [
-      {
-        "target" : "10 minute",
-        "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
@@ -3724,10 +3724,10 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_49_MALE" : [
+    "SIRI_VOX_DEVICE_PROBLEM_FIXING_2_MALE" : [
       {
-        "target" : "49 minute",
-        "filename" : "Clock.strings",
+        "target" : "Please try again in a bit.",
+        "filename" : "Errors.strings",
         "language" : "en"
       }
     ],
@@ -3738,10 +3738,10 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_DEVICE_PROBLEM_FIXING_2_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_49_MALE" : [
       {
-        "target" : "Please try again in a bit.",
-        "filename" : "Errors.strings",
+        "target" : "49 minute",
+        "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
@@ -3773,16 +3773,16 @@
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_25" : [
+    "SIRI_VOX_FIRING_ALARM_OR_TIMER_ANNOUNCEMENT_CONCATENATION_MALE" : [
       {
-        "target" : "25 minute",
+        "target" : " and ",
         "filename" : "Clock.strings",
         "language" : "en"
       }
     ],
-    "SIRI_VOX_FIRING_ALARM_OR_TIMER_ANNOUNCEMENT_CONCATENATION_MALE" : [
+    "SIRI_VOX_FIRING_TIMER_ANNOUNCEMENT_DURATION_UNIT_MINUTE_25" : [
       {
-        "target" : " and ",
+        "target" : "25 minute",
         "filename" : "Clock.strings",
         "language" : "en"
       }

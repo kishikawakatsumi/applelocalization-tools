@@ -289,6 +289,23 @@
         "language" : "kk"
       }
     ],
+    "CALENDAR_BEZEL_FORMAT_NO_SUBTITLE" : [
+      {
+        "target" : "%1$@ %2$@",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "%1$@ %2$@",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%1$@ %2$@",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "NEXTEVENT_NO_EVENTS_LEFT_TODAY_SIGNATURE_RECTANGULAR" : [
       {
         "target" : "Sin más por hoy",
@@ -302,23 +319,6 @@
       },
       {
         "target" : "Басқа оқиғалар жоқ",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "CALENDAR_BEZEL_COMPLICATION_LOADING_TEXT" : [
-      {
-        "target" : "OBTENIENDO EVENTOS…",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "СЪБИРАНЕ НА СЪБИТИЯ ОТ КАЛЕНДАР…",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "КҮНТІЗБЕ ОҚИҒАЛАРЫ АЛЫНУДА…",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -374,19 +374,19 @@
         "language" : "kk"
       }
     ],
-    "CALENDAR_BEZEL_FORMAT_NO_SUBTITLE" : [
+    "CALENDAR_BEZEL_COMPLICATION_LOADING_TEXT" : [
       {
-        "target" : "%1$@ %2$@",
+        "target" : "OBTENIENDO EVENTOS…",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "%1$@ %2$@",
+        "target" : "СЪБИРАНЕ НА СЪБИТИЯ ОТ КАЛЕНДАР…",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "%1$@ %2$@",
+        "target" : "КҮНТІЗБЕ ОҚИҒАЛАРЫ АЛЫНУДА…",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -425,9 +425,26 @@
         "language" : "kk"
       }
     ],
-    "NEXTEVENT_N_COINCIDENT_EVENTS_AT_TIME_LONG_UTILITY_SINGULAR" : [
+    "NEXTEVENT_N_COINCIDENT_EVENTS_AT_TIME_LARGE_MODULAR_SINGULAR" : [
       {
-        "target" : "%1$lu EVENTOS A LA %2$@",
+        "target" : "%1$lu a la %2$@",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "%1$lu в %2$@",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%1$lu, %2$@",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "NEXTEVENT_N_COINCIDENT_EVENTS_AT_TIME_LONG_UTILITY_PLURAL" : [
+      {
+        "target" : "%1$lu EVENTOS A LAS %2$@",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
@@ -455,23 +472,6 @@
       },
       {
         "target" : "Музыкалық студия",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "NEXTEVENT_N_COINCIDENT_EVENTS_AT_TIME_LONG_UTILITY_PLURAL" : [
-      {
-        "target" : "%1$lu EVENTOS A LAS %2$@",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "%1$lu СЪБИТИЯ В %2$@",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%2$@ БОЙЫНША %1$lu ОҚИҒА",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -510,19 +510,19 @@
         "language" : "kk"
       }
     ],
-    "NEXTEVENT_N_COINCIDENT_EVENTS_AT_TIME_LARGE_MODULAR_SINGULAR" : [
+    "NEXTEVENT_N_COINCIDENT_EVENTS_AT_TIME_LONG_UTILITY_SINGULAR" : [
       {
-        "target" : "%1$lu a la %2$@",
+        "target" : "%1$lu EVENTOS A LA %2$@",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "%1$lu в %2$@",
+        "target" : "%1$lu СЪБИТИЯ В %2$@",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "%1$lu, %2$@",
+        "target" : "%2$@ БОЙЫНША %1$lu ОҚИҒА",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }

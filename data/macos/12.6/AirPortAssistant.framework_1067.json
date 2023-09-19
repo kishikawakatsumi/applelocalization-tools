@@ -1,18 +1,18 @@
 {
   "localizations" : {
-    "syRe.171" : [
+    "vErr.wwNS" : [
       {
-        "target" : "Panamá",
+        "target" : "Esta estación base no admite el uso de WPA con WDS. Asegúrate de estar usando la versión más reciente del firmware.",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Панама",
+        "target" : "WPA с WDS не се поддържа от тази базова станция. Уверете се, че използвате последната версия на фърмуера.",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Панама",
+        "target" : "Бұл негізгі станцияда WDS қосылған WPA рұқсатына қолдау көрсетілмейді. Соңғы микробағдарлама нұсқасының қолданылғанына көз жеткізіңіз.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -221,23 +221,6 @@
         "language" : "kk"
       }
     ],
-    "kAskUserForSetupCodeRetry" : [
-      {
-        "target" : "Código incorrecto de configuración del accesorio. Intenta de nuevo.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Неправилен код за инсталиране на аксесоар. Опитайте отново.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Керек-жарақты баптау коды қате. Әрекетті қайталаңыз.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "6PDa" : [
       {
         "target" : "Dirección delegada de prefijo IPv6",
@@ -252,6 +235,23 @@
       {
         "target" : "IPv6 префиксін ұсыну мекенжайы",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "kAskUserForSetupCodeRetry" : [
+      {
+        "target" : "Código incorrecto de configuración del accesorio. Intenta de nuevo.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Неправилен код за инсталиране на аксесоар. Опитайте отново.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Керек-жарақты баптау коды қате. Әрекетті қайталаңыз.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -646,6 +646,23 @@
         "language" : "kk"
       }
     ],
+    "keychainSpeakerType" : [
+      {
+        "target" : "Bocina remota",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Отдалечен говорител",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қашықтағы аудио жүйе",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
     "TextEntryTooLong" : [
       {
         "target" : "El valor es demasiado largo.",
@@ -694,23 +711,6 @@
       {
         "target" : "Осы AirPort Time Capsule дискісін «%@» желісін Ethernet арқылы кеңейту үшін баптау.",
         "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
-    "keychainSpeakerType" : [
-      {
-        "target" : "Bocina remota",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Отдалечен говорител",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Қашықтағы аудио жүйе",
-        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -1156,23 +1156,6 @@
         "language" : "kk"
       }
     ],
-    "JoinFooter.AirPortExpress" : [
-      {
-        "target" : "Configurar esta AirPort Express para acceder a otra red Wi-Fi sin ampliar su alcance.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Настройте тази базова станция AirPort Express да се свързва към друга Wi-Fi мрежа, без да разширява нейния обхват.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Осы AirPort Express станциясын басқа Wi-Fi желісіне оның ауқымын кеңейтпей қосылу үшін баптау.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "WillRestoreToCreateNetwork.AirPortExtreme" : [
       {
         "target" : "Esta AirPort Extreme se restaurará para restaurar la red anterior.",
@@ -1190,20 +1173,20 @@
         "language" : "kk"
       }
     ],
-    "firewall.service.SMTP Mail" : [
+    "JoinFooter.AirPortExpress" : [
       {
-        "target" : "Correo SMTP",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Configurar esta AirPort Express para acceder a otra red Wi-Fi sin ampliar su alcance.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "SMTP поща",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Настройте тази базова станция AirPort Express да се свързва към друга Wi-Fi мрежа, без да разширява нейния обхват.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "SMTP Mail",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Осы AirPort Express станциясын басқа Wi-Fi желісіне оның ауқымын кеңейтпей қосылу үшін баптау.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -1220,6 +1203,23 @@
       },
       {
         "target" : "IPv4 порттарын қайта адрестеу",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "firewall.service.SMTP Mail" : [
+      {
+        "target" : "Correo SMTP",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "SMTP поща",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "SMTP Mail",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -2021,23 +2021,6 @@
         "language" : "kk"
       }
     ],
-    "AddressBookAccessRequested" : [
-      {
-        "target" : "Este software quiere acceder a tu agenda para personalizar el nombre de la red.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Този софтуер би искал да има достъп до вашата адресна книга, за да персонализира името на вашата мрежа.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бұл бағдарламалық жасақтама желі атауын жекелендіру үшін мекенжай кітабына кіруге рұқсат сұрайды.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "syRe.2" : [
       {
         "target" : "México",
@@ -2051,6 +2034,23 @@
       },
       {
         "target" : "Мексика",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "AddressBookAccessRequested" : [
+      {
+        "target" : "Este software quiere acceder a tu agenda para personalizar el nombre de la red.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Този софтуер би искал да има достъп до вашата адресна книга, за да персонализира името на вашата мрежа.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл бағдарламалық жасақтама желі атауын жекелендіру үшін мекенжай кітабына кіруге рұқсат сұрайды.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -2412,19 +2412,19 @@
         "language" : "kk"
       }
     ],
-    "BTMMAccountNeedsToBeAnEmailAddress" : [
+    "tACL.count.1" : [
       {
-        "target" : "Para usar iCloud se requiere un Apple ID que sea una dirección de correo electrónico.",
+        "target" : "%@ entrada",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "За използването на iCloud се изисква идентификатор Apple ID, който е имейл адрес.",
+        "target" : "%@ елемент",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "iCloud сервисімен пайдалану үшін эл. пошта мекенжайы болып табылатын Apple ID қажет.",
+        "target" : "%@ жазба",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -2446,6 +2446,23 @@
         "language" : "kk"
       }
     ],
+    "BTMMAccountNeedsToBeAnEmailAddress" : [
+      {
+        "target" : "Para usar iCloud se requiere un Apple ID que sea una dirección de correo electrónico.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "За използването на iCloud се изисква идентификатор Apple ID, който е имейл адрес.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "iCloud сервисімен пайдалану үшін эл. пошта мекенжайы болып табылатын Apple ID қажет.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
     "ReplaceFooter.AirPortExpress" : [
       {
         "target" : "Reemplazar un dispositivo existente con esta AirPort Express. Si el dispositivo existente es una estación base AirPort, la configuración se migrará automáticamente a esta AirPort Express.",
@@ -2460,23 +2477,6 @@
       {
         "target" : "Қолданыстағы құрылғыны осы AirPort Express станциясына ауыстырыңыз. Қолданыстағы құрылғы AirPort негізгі станциясы болса, оның реттеулері автоматты түрде сол AirPort Express негізгі станциясына көшіріледі.",
         "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
-    "tACL.count.1" : [
-      {
-        "target" : "%@ entrada",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "%@ елемент",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%@ жазба",
-        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -2565,23 +2565,6 @@
         "language" : "kk"
       }
     ],
-    "bsNP.3" : [
-      {
-        "target" : "time.asia.apple.com",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "time.asia.apple.com",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "time.asia.apple.com",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "syRe.3" : [
       {
         "target" : "Colombia",
@@ -2599,20 +2582,20 @@
         "language" : "kk"
       }
     ],
-    "DiskSharingSectionHeading" : [
+    "bsNP.3" : [
       {
-        "target" : "Compartir el disco",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "time.asia.apple.com",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Споделяне на диск",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "time.asia.apple.com",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Ортақ дискілер",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "time.asia.apple.com",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -2629,6 +2612,23 @@
       },
       {
         "target" : "Бұл негізгі станция желіңізге қосылу үшін бапталады.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
+    "DiskSharingSectionHeading" : [
+      {
+        "target" : "Compartir el disco",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Споделяне на диск",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Ортақ дискілер",
         "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
@@ -3143,23 +3143,6 @@
         "language" : "kk"
       }
     ],
-    "type" : [
-      {
-        "target" : "Selecciona un servicio",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Избиране на услуга",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Сервисті таңдау",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "CommaListConjunction" : [
       {
         "target" : " %@ ",
@@ -3174,6 +3157,23 @@
       {
         "target" : " %@ ",
         "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
+    "type" : [
+      {
+        "target" : "Selecciona un servicio",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Избиране на услуга",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Сервисті таңдау",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -3194,23 +3194,6 @@
         "language" : "kk"
       }
     ],
-    "connectionStats.XmitSpeed" : [
-      {
-        "target" : "Velocidad de datos",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Скорост на данни",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Деректерді беру жылдамдығы",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "bsBT.count.0" : [
       {
         "target" : "Desactivado",
@@ -3224,6 +3207,23 @@
       },
       {
         "target" : "Өшірулі",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "connectionStats.XmitSpeed" : [
+      {
+        "target" : "Velocidad de datos",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Скорост на данни",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Деректерді беру жылдамдығы",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -3636,23 +3636,6 @@
         "language" : "kk"
       }
     ],
-    "AlsoExtend1Prompt" : [
-      {
-        "target" : "¿Quieres ampliar también “%@”?",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Бихте ли искали също така да разширите „%@“?",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "«%@» желісін де кеңейту қажет пе?",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "usbp.remedy" : [
       {
         "target" : "Discos…",
@@ -3683,6 +3666,23 @@
       },
       {
         "target" : "AirPort утилитасының бұл нұсқасы осы AirPort негізгі станциясына қолдау көрсетпейді және оны пайдалануды жалғастырсаңыз, құрылғыны қате конфигурациялауы мүмкін.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "AlsoExtend1Prompt" : [
+      {
+        "target" : "¿Quieres ampliar también “%@”?",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Бихте ли искали също така да разширите „%@“?",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«%@» желісін де кеңейту қажет пе?",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -4010,19 +4010,19 @@
         "language" : "kk"
       }
     ],
-    "TimeCapsuleArchive" : [
+    "connectionStats.Quality.4" : [
       {
-        "target" : "Archivo de AirPort Time Capsule",
+        "target" : "Excelente",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Архив на AirPort Time Capsule",
+        "target" : "Отлично",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "AirPort Time Capsule мұрағаты",
+        "target" : "Өте жақсы",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -4044,19 +4044,19 @@
         "language" : "kk"
       }
     ],
-    "connectionStats.Quality.4" : [
+    "TimeCapsuleArchive" : [
       {
-        "target" : "Excelente",
+        "target" : "Archivo de AirPort Time Capsule",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Отлично",
+        "target" : "Архив на AirPort Time Capsule",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Өте жақсы",
+        "target" : "AirPort Time Capsule мұрағаты",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -4146,23 +4146,6 @@
         "language" : "kk"
       }
     ],
-    "EnablingFileSharingPortConflict" : [
-      {
-        "target" : "La activación de Compartir archivos entra en conflicto con una o más de tus asignaciones de puertos.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Включването на споделяне на файлове е в конфликт с една или повече от настройките на портовете.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "«Файлдарды ортақ пайдалану» функциясы қосылса, кемінде бір портты қайта адрестеумен байланысты қайшылық туындайды.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "EnablingSNMPPortConflict" : [
       {
         "target" : "La activación de SNMP entra en conflicto con una o más de tus asignaciones de puertos.",
@@ -4176,6 +4159,23 @@
       },
       {
         "target" : "SNMP функциясы қосылса, кемінде бір портты қайта адрестеумен байланысты қайшылық туындайды.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "EnablingFileSharingPortConflict" : [
+      {
+        "target" : "La activación de Compartir archivos entra en conflicto con una o más de tus asignaciones de puertos.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Включването на споделяне на файлове е в конфликт с една или повече от настройките на портовете.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«Файлдарды ортақ пайдалану» функциясы қосылса, кемінде бір портты қайта адрестеумен байланысты қайшылық туындайды.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -4333,23 +4333,6 @@
         "language" : "kk"
       }
     ],
-    "raMu.17" : [
-      {
-        "target" : "11 Mb\/s",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "11Mb\/s",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "11 Мбит\/c",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "bsBT.password" : [
       {
         "target" : "Contraseña",
@@ -4363,6 +4346,23 @@
       },
       {
         "target" : "Құпиясөз",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "raMu.17" : [
+      {
+        "target" : "11 Mb\/s",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "11Mb\/s",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "11 Мбит\/c",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -4758,23 +4758,6 @@
         "language" : "kk"
       }
     ],
-    "bsRC.dual" : [
-      {
-        "target" : "Selección del canal de radio",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Подбор на радио канал",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Радио арнаны таңдау",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "bs8M.655367" : [
       {
         "target" : "Sólo 802.11a\/n\/ac (5 GHz) - 802.11n (2.4 GHz)",
@@ -4788,6 +4771,23 @@
       },
       {
         "target" : "802.11a\/n\/ac (5 ГГц) — тек 802.11n (2,4 ГГц)",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "bsRC.dual" : [
+      {
+        "target" : "Selección del canal de radio",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Подбор на радио канал",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Радио арнаны таңдау",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -5079,6 +5079,23 @@
         "language" : "kk"
       }
     ],
+    "kAskUserForNetworkPassword" : [
+      {
+        "target" : "Ingresa la contraseña de red para “%@”",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Въведете паролата за мрежата на „%@“",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«%@» үшін желі құпиясөзін енгізіңіз",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
     "DHCPRange.selector" : [
       {
         "target" : "Rango DHCP",
@@ -5113,23 +5130,6 @@
         "language" : "kk"
       }
     ],
-    "raMu.3000" : [
-      {
-        "target" : "Alta",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Висок",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жоғары",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "syAP.80211nFormat" : [
       {
         "target" : "%@ con 802.11n",
@@ -5147,20 +5147,20 @@
         "language" : "kk"
       }
     ],
-    "kAskUserForNetworkPassword" : [
+    "raMu.3000" : [
       {
-        "target" : "Ingresa la contraseña de red para “%@”",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Alta",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Въведете паролата за мрежата на „%@“",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Висок",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "«%@» үшін желі құпиясөзін енгізіңіз",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Жоғары",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -5623,6 +5623,23 @@
         "language" : "kk"
       }
     ],
+    "CannotRecommendRestoreCantFindWiFi" : [
+      {
+        "target" : "No es recomendable porque no se encuentra la red.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Това не е препоръчително, защото тази мрежа не може да бъде намерена.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл желіні табу мүмкін болмағандықтан, әрекет ұсынылмайды.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
     "AirPlayPasswordSectionTitle" : [
       {
         "target" : "Contraseña de la bocina",
@@ -5637,23 +5654,6 @@
       {
         "target" : "Динамик құпиясөзі",
         "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
-    "raNm.choose" : [
-      {
-        "target" : "Selecciona una red",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Избиране на мрежа",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Желіні таңдаңыз",
-        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -5674,20 +5674,20 @@
         "language" : "kk"
       }
     ],
-    "CannotRecommendRestoreCantFindWiFi" : [
+    "raNm.choose" : [
       {
-        "target" : "No es recomendable porque no se encuentra la red.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Selecciona una red",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Това не е препоръчително, защото тази мрежа не може да бъде намерена.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Избиране на мрежа",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бұл желіні табу мүмкін болмағандықтан, әрекет ұсынылмайды.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Желіні таңдаңыз",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -6983,23 +6983,6 @@
         "language" : "kk"
       }
     ],
-    "syRe.125" : [
-      {
-        "target" : "Granada",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Гренада",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Гренада",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "bsRC.157" : [
       {
         "target" : "157",
@@ -7013,6 +6996,23 @@
       },
       {
         "target" : "157",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "syRe.125" : [
+      {
+        "target" : "Granada",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Гренада",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Гренада",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -7527,23 +7527,6 @@
         "language" : "kk"
       }
     ],
-    "CanRestoreToExtendNetwork.AirPortExtreme" : [
-      {
-        "target" : "Esta AirPort Extreme se puede restaurar para ampliar la red anterior.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Тази базова станция AirPort Extreme може да бъде възстановена, за да се разшири нейна предишна мрежа.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бұл AirPort Extreme станциясын алдыңғы желісін кеңейту үшін қалпына келтіруге болады.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "peID.30" : [
       {
         "target" : "30 segundos",
@@ -7558,6 +7541,23 @@
       {
         "target" : "30 секунд",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "CanRestoreToExtendNetwork.AirPortExtreme" : [
+      {
+        "target" : "Esta AirPort Extreme se puede restaurar para ampliar la red anterior.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Тази базова станция AirPort Extreme може да бъде възстановена, за да се разшири нейна предишна мрежа.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл AirPort Extreme станциясын алдыңғы желісін кеңейту үшін қалпына келтіруге болады.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -7663,6 +7663,23 @@
         "language" : "kk"
       }
     ],
+    "PrimarySetupRecommendation_ExtendWireless.Specific.TimeCapsule" : [
+      {
+        "target" : "Esta AirPort Time Capsule ampliará “%@” de forma inalámbrica.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Тази базова станция AirPort Time Capsule безжично ще разшири „%@“.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл AirPort Time Capsule дискісі «%@» желісін сымсыз түрде кеңейтеді.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
     "DiskPasswordSectionTitle" : [
       {
         "target" : "Contraseña del disco",
@@ -7694,23 +7711,6 @@
       {
         "target" : "Жоқ",
         "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "PrimarySetupRecommendation_ExtendWireless.Specific.TimeCapsule" : [
-      {
-        "target" : "Esta AirPort Time Capsule ampliará “%@” de forma inalámbrica.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Тази базова станция AirPort Time Capsule безжично ще разшири „%@“.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бұл AirPort Time Capsule дискісі «%@» желісін сымсыз түрде кеңейтеді.",
-        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -8122,36 +8122,36 @@
         "language" : "kk"
       }
     ],
-    "WillRestoreToExtendNetworkSpecific" : [
+    "bsFS" : [
       {
-        "target" : "Esta estación base ampliará la red anterior “%@”.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Compartir Archivos",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Тази базова станция ще разшири предишната си мрежа „%@“.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Споделяне на файлове",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бұл негізгі станция алдыңғы «%@» желісін кеңейтеді.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Файлдарды ортақ пайдалану",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
-    "bsDA" : [
+    "syRe.142" : [
       {
-        "target" : "Permitir clientes inalámbricos",
+        "target" : "Corea del Norte",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Позволяване на безжични потребители",
+        "target" : "Северна Корея",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Сымсыз клиенттерге рұқсат беру",
+        "target" : "Солтүстік Корея",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -8173,20 +8173,20 @@
         "language" : "kk"
       }
     ],
-    "syRe.142" : [
+    "WillRestoreToExtendNetworkSpecific" : [
       {
-        "target" : "Corea del Norte",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Esta estación base ampliará la red anterior “%@”.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Северна Корея",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Тази базова станция ще разшири предишната си мрежа „%@“.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "Солтүстік Корея",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Бұл негізгі станция алдыңғы «%@» желісін кеңейтеді.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -8224,19 +8224,19 @@
         "language" : "kk"
       }
     ],
-    "bsFS" : [
+    "bsDA" : [
       {
-        "target" : "Compartir Archivos",
+        "target" : "Permitir clientes inalámbricos",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Споделяне на файлове",
+        "target" : "Позволяване на безжични потребители",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Файлдарды ортақ пайдалану",
+        "target" : "Сымсыз клиенттерге рұқсат беру",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -8292,19 +8292,19 @@
         "language" : "kk"
       }
     ],
-    "SetupCompleteTitle" : [
+    "WillRestoreToJoinNetwork.AirPortExtreme" : [
       {
-        "target" : "Configuración completada",
+        "target" : "Esta AirPort Extreme se restaurará para acceder a la red anterior.",
         "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Приключване на настройката",
+        "target" : "Тази базова станция AirPort Extreme ще бъде възстановена, за да се свърже към предишната си мрежа.",
         "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "Баптау аяқталды",
+        "target" : "Бұл AirPort Extreme станциясы алдыңғы желісіне қосылу үшін қалпына келтіріледі.",
         "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
@@ -8360,19 +8360,19 @@
         "language" : "kk"
       }
     ],
-    "WillRestoreToJoinNetwork.AirPortExtreme" : [
+    "SetupCompleteTitle" : [
       {
-        "target" : "Esta AirPort Extreme se restaurará para acceder a la red anterior.",
+        "target" : "Configuración completada",
         "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Тази базова станция AirPort Extreme ще бъде възстановена, за да се свърже към предишната си мрежа.",
+        "target" : "Приключване на настройката",
         "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бұл AirPort Extreme станциясы алдыңғы желісіне қосылу үшін қалпына келтіріледі.",
+        "target" : "Баптау аяқталды",
         "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
@@ -8581,23 +8581,6 @@
         "language" : "kk"
       }
     ],
-    "syAP.0" : [
-      {
-        "target" : "Estación base AirPort",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "базова станция AirPort",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "AirPort негізгі станциясы",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "CanRestoreToJoinNetworkSpecific.AirPortExpress" : [
       {
         "target" : "Esta AirPort Express se puede restaurar para acceder a la red anterior “%@”.",
@@ -8628,6 +8611,23 @@
       },
       {
         "target" : "Сипаттама",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "syAP.0" : [
+      {
+        "target" : "Estación base AirPort",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "базова станция AirPort",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "AirPort негізгі станциясы",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -9125,23 +9125,6 @@
         "language" : "kk"
       }
     ],
-    "bsSM.4" : [
-      {
-        "target" : "WPA Personal",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "WPA Personal",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "WPA Personal",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "renewDHCPLease" : [
       {
         "target" : "Nueva concesión DHCP",
@@ -9155,6 +9138,23 @@
       },
       {
         "target" : "DHCP мекенжайын сұрау",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "bsSM.4" : [
+      {
+        "target" : "WPA Personal",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "WPA Personal",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "WPA Personal",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -9278,19 +9278,19 @@
         "language" : "kk"
       }
     ],
-    "pdPW" : [
+    "bsCC.10" : [
       {
-        "target" : "Contraseña",
+        "target" : "Alemania",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Парола",
+        "target" : "Германия",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Құпиясөз",
+        "target" : "Германия",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -9329,19 +9329,19 @@
         "language" : "kk"
       }
     ],
-    "bsCC.10" : [
+    "pdPW" : [
       {
-        "target" : "Alemania",
+        "target" : "Contraseña",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Германия",
+        "target" : "Парола",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Германия",
+        "target" : "Құпиясөз",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -9754,23 +9754,6 @@
         "language" : "kk"
       }
     ],
-    "StepByStepStatus_ReplaceBaseStation" : [
-      {
-        "target" : "Esta estación base se configurará para reemplazar “%@”.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Тази базова станция ще бъде настроена да замени „%@“.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бұл негізгі станция «%@» элементін ауыстыру үшін бапталады.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "syRe.143" : [
       {
         "target" : "Kuwait",
@@ -9785,6 +9768,23 @@
       {
         "target" : "Кувейт",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "StepByStepStatus_ReplaceBaseStation" : [
+      {
+        "target" : "Esta estación base se configurará para reemplazar “%@”.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Тази базова станция ще бъде настроена да замени „%@“.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл негізгі станция «%@» элементін ауыстыру үшін бапталады.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -10638,23 +10638,6 @@
         "language" : "kk"
       }
     ],
-    "syRe.99" : [
-      {
-        "target" : "Islas Cook",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Острови Кук",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Кук аралдары",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "syAP.120" : [
       {
         "target" : "AirPort Extreme 802.11ac",
@@ -10672,19 +10655,19 @@
         "language" : "kk"
       }
     ],
-    "peUN" : [
+    "syRe.99" : [
       {
-        "target" : "Nombre de la cuenta",
+        "target" : "Islas Cook",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Име на регистрация",
+        "target" : "Острови Кук",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Аккаунт атауы",
+        "target" : "Кук аралдары",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -10723,6 +10706,23 @@
         "language" : "kk"
       }
     ],
+    "peUN" : [
+      {
+        "target" : "Nombre de la cuenta",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Име на регистрация",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Аккаунт атауы",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
     "connectedClient.model" : [
       {
         "target" : "Modelo",
@@ -10754,6 +10754,23 @@
       {
         "target" : "(Мерзімі өткен)",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "ExtendDescription" : [
+      {
+        "target" : "Si amplías una red Wi-Fi puedes aumentar tu radio de alcance pero es posible que se perjudique el funcionamiento general de la red.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Разширяването на Wi-Fi мрежа може да увеличи обхвата на мрежата, но може да повлияе на цялостната ефективност на мрежата.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Wi-Fi желісін кеңейту әрекеті желі ауқымын ұлғайта алады, бірақ бұл желінің жалпы жұмыс өнімділігіне әсер етуі мүмкін.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -10804,23 +10821,6 @@
       },
       {
         "target" : "Қолданыстағы негізгі станцияны «%@» атты желіге қосылу үшін баптау.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
-    "ExtendDescription" : [
-      {
-        "target" : "Si amplías una red Wi-Fi puedes aumentar tu radio de alcance pero es posible que se perjudique el funcionamiento general de la red.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Разширяването на Wi-Fi мрежа може да увеличи обхвата на мрежата, но може да повлияе на цялостната ефективност на мрежата.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Wi-Fi желісін кеңейту әрекеті желі ауқымын ұлғайта алады, бірақ бұл желінің жалпы жұмыс өнімділігіне әсер етуі мүмкін.",
         "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
@@ -10944,23 +10944,6 @@
         "language" : "kk"
       }
     ],
-    "BasePasswordLabel" : [
-      {
-        "target" : "Contraseña de la estación",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Парола на базова станция",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Негізгі станция құпиясөзі",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "802.11a" : [
       {
         "target" : "802.11a",
@@ -10975,6 +10958,23 @@
       {
         "target" : "802.11a",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "BasePasswordLabel" : [
+      {
+        "target" : "Contraseña de la estación",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Парола на базова станция",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Негізгі станция құпиясөзі",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -11046,23 +11046,6 @@
         "language" : "kk"
       }
     ],
-    "WaitingForAudioPlugin" : [
-      {
-        "target" : "Esperando a que se conecte un cable de audio…",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Изчакване за свързването на аудио кабел…",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Аудио кабельдің жалғануы күтілуде…",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "WPS.Panel.1.Explanation.Printer" : [
       {
         "target" : "El PIN se mostrará en la pantalla de la impresora, en una etiqueta adherida a ella o se imprimirá en la misma impresora.",
@@ -11077,6 +11060,23 @@
       {
         "target" : "PIN код принтер экранында немесе принтер жапсырмасында не принтерден басып шығарылған бетте көрсетіледі.",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "WaitingForAudioPlugin" : [
+      {
+        "target" : "Esperando a que se conecte un cable de audio…",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Изчакване за свързването на аудио кабел…",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Аудио кабельдің жалғануы күтілуде…",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -11981,23 +11981,6 @@
         "language" : "kk"
       }
     ],
-    "MoreChoicesEllipsis" : [
-      {
-        "target" : "Más opciones…",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Повече избори…",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Басқа опциялар…",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "bsCC.13" : [
       {
         "target" : "Hong-Kong",
@@ -12012,6 +11995,23 @@
       {
         "target" : "Гонконг",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "MoreChoicesEllipsis" : [
+      {
+        "target" : "Más opciones…",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Повече избори…",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Басқа опциялар…",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -12848,23 +12848,6 @@
         "language" : "kk"
       }
     ],
-    "bsCC.14" : [
-      {
-        "target" : "Islandia",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Исландия",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Исландия",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "vErr.nvLD" : [
       {
         "target" : "La velocidad de difusión múltiple que seleccionaste no es válida para una densidad baja.",
@@ -12878,6 +12861,23 @@
       },
       {
         "target" : "Таңдалған бірнеше мекенжайға ақпарат тарату жылдамдығы төмен радио тығыздығы үшін жарамсыз.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "bsCC.14" : [
+      {
+        "target" : "Islandia",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Исландия",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Исландия",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -13511,23 +13511,6 @@
         "language" : "kk"
       }
     ],
-    "syRe.145" : [
-      {
-        "target" : "Libia",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Либия",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Ливия",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "bsCC.9" : [
       {
         "target" : "Francia",
@@ -13541,6 +13524,23 @@
       },
       {
         "target" : "Франция",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "syRe.145" : [
+      {
+        "target" : "Libia",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Либия",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Ливия",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -13698,6 +13698,23 @@
         "language" : "kk"
       }
     ],
+    "CannotRecommendRestoreDisabledNoWanLink" : [
+      {
+        "target" : "Se puede restaurar la configuración anterior, pero no es recomendable, ya que se desactivaría la compatibilidad con Wi-Fi y no hay enlace Ethernet.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Тази станция може да бъде възстановена към нейните предишни настройки, но не е препоръчително, защото така ще се изключи поддържането на Wi-Fi, а няма Ethernet връзка.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл негізгі станцияны алдыңғы реттеулеріне қалпына келтіруге болады, бірақ бұл әрекет ұсынылмайды, себебі бұл Wi-Fi қолдауының өшірілуіне әкелуі мүмкін және Ethernet байланысы жоқ.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
     "bs8M.655361" : [
       {
         "target" : "802.11a\/n\/ac (5 GHz) - 802.11b",
@@ -13715,23 +13732,6 @@
         "language" : "kk"
       }
     ],
-    "ctim.description" : [
-      {
-        "target" : "Esta estación base AirPort tiene la configuración predeterminada. Configura tu estación base AirPort para conectarte a Internet, proteger la red inalámbrica y proporcionar una contraseña.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Тази базова станция AirPort има настройки по подразбиране. Конфигурирайте вашата базова станция AirPort да се свързва към интернет, да защитава безжичната мрежа и предоставете парола.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бұл AirPort негізгі станциясының әдепкі реттеулері бар. Оны интернетке қосылатындай конфигурациялап, сымсыз желіні қорғап, құпиясөз тағайындаңыз.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "802.11n (5GHz)" : [
       {
         "target" : "802.11n (5 GHz)",
@@ -13745,6 +13745,40 @@
       },
       {
         "target" : "802.11n (5 ГГц)",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "raPo.25" : [
+      {
+        "target" : "25%",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "25%",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "25 %",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "ctim.description" : [
+      {
+        "target" : "Esta estación base AirPort tiene la configuración predeterminada. Configura tu estación base AirPort para conectarte a Internet, proteger la red inalámbrica y proporcionar una contraseña.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Тази базова станция AirPort има настройки по подразбиране. Конфигурирайте вашата базова станция AirPort да се свързва към интернет, да защитава безжичната мрежа и предоставете парола.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл AirPort негізгі станциясының әдепкі реттеулері бар. Оны интернетке қосылатындай конфигурациялап, сымсыз желіні қорғап, құпиясөз тағайындаңыз.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -13800,6 +13834,108 @@
         "language" : "kk"
       }
     ],
+    "optionOff" : [
+      {
+        "target" : "Desactivado",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Изкл.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Өшірулі",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "bsBT.appleID" : [
+      {
+        "target" : "Apple ID",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Apple ID",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Apple ID",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "BSSetupRecommend_OfferExtendOverEthernet" : [
+      {
+        "target" : "Ampliar esta red",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Разширяване на тази мрежа",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Осы желіні кеңейту",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
+    "wdsP.remedy" : [
+      {
+        "target" : "WDS…",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "WDS…",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "WDS…",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "GHz.0.3.format" : [
+      {
+        "target" : "%@\n2.4 y 5 GHz",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "%@\n2.4 & 5GHz",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%@\n2,4 және 5 ГГц",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "syRe.40" : [
+      {
+        "target" : "Singapur",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Сингапур",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Сингапур",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
     "bsSN.1" : [
       {
         "target" : "Activado",
@@ -13830,142 +13966,6 @@
       },
       {
         "target" : "9 Мбит\/c",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "bsBT.appleID" : [
-      {
-        "target" : "Apple ID",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Apple ID",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Apple ID",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "optionOff" : [
-      {
-        "target" : "Desactivado",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Изкл.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Өшірулі",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "BSSetupRecommend_OfferExtendOverEthernet" : [
-      {
-        "target" : "Ampliar esta red",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Разширяване на тази мрежа",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Осы желіні кеңейту",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
-    "syRe.40" : [
-      {
-        "target" : "Singapur",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Сингапур",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Сингапур",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "GHz.0.3.format" : [
-      {
-        "target" : "%@\n2.4 y 5 GHz",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "%@\n2.4 & 5GHz",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%@\n2,4 және 5 ГГц",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "CannotRecommendRestoreDisabledNoWanLink" : [
-      {
-        "target" : "Se puede restaurar la configuración anterior, pero no es recomendable, ya que se desactivaría la compatibilidad con Wi-Fi y no hay enlace Ethernet.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Тази станция може да бъде възстановена към нейните предишни настройки, но не е препоръчително, защото така ще се изключи поддържането на Wi-Fi, а няма Ethernet връзка.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бұл негізгі станцияны алдыңғы реттеулеріне қалпына келтіруге болады, бірақ бұл әрекет ұсынылмайды, себебі бұл Wi-Fi қолдауының өшірілуіне әкелуі мүмкін және Ethernet байланысы жоқ.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
-    "wdsP.remedy" : [
-      {
-        "target" : "WDS…",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "WDS…",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "WDS…",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "raPo.25" : [
-      {
-        "target" : "25%",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "25%",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "25 %",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -14514,23 +14514,6 @@
         "language" : "kk"
       }
     ],
-    "infoHardResetAirPortDisk" : [
-      {
-        "target" : "Los archivos de los discos AirPort no se verán afectados, pero deberás configurar el acceso al sistema de compartir archivos de los discos.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Файловете на AirPort дисковете няма да бъдат засегнати, но ще трябва да настроите споделен достъп за дисковете.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "AirPort дискілеріндегі файлдар өзгертілмейді, бірақ бұл дискілер үшін файлды ортақ пайдалану мүмкіндігін баптау қажет болады.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "restartBaseStation" : [
       {
         "target" : "Reiniciar estación base",
@@ -14544,6 +14527,23 @@
       },
       {
         "target" : "Негізгі станцияны қайта іске қосу",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "infoHardResetAirPortDisk" : [
+      {
+        "target" : "Los archivos de los discos AirPort no se verán afectados, pero deberás configurar el acceso al sistema de compartir archivos de los discos.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Файловете на AirPort дисковете няма да бъдат засегнати, но ще трябва да настроите споделен достъп за дисковете.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "AirPort дискілеріндегі файлдар өзгертілмейді, бірақ бұл дискілер үшін файлды ортақ пайдалану мүмкіндігін баптау қажет болады.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -14956,23 +14956,6 @@
         "language" : "kk"
       }
     ],
-    "DataRate" : [
-      {
-        "target" : "Velocidad de datos",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Скорост на данни",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Деректерді беру жылдамдығы",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "NoAudioConnection.AirPlay" : [
       {
         "target" : "Esta bocina AirPlay puede conectarse a un sistema de audio.",
@@ -14987,6 +14970,23 @@
       {
         "target" : "Бұл AirPlay динамигін аудио жүйеге қосуға болады.",
         "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
+    "DataRate" : [
+      {
+        "target" : "Velocidad de datos",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Скорост на данни",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Деректерді беру жылдамдығы",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -15058,23 +15058,6 @@
         "language" : "kk"
       }
     ],
-    "BSSetupRecommend_OfferCreate" : [
-      {
-        "target" : "Crear una nueva red",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Създаване на нова мрежа",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жаңа желі жасау",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "ClientToNetwork" : [
       {
         "target" : "Ser cliente de una red existente",
@@ -15088,6 +15071,23 @@
       },
       {
         "target" : "Бұрыннан бар желінің клиенті болыңыз",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
+    "BSSetupRecommend_OfferCreate" : [
+      {
+        "target" : "Crear una nueva red",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Създаване на нова мрежа",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жаңа желі жасау",
         "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
@@ -15177,6 +15177,23 @@
         "language" : "kk"
       }
     ],
+    "syRe.11" : [
+      {
+        "target" : "República Checa",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Чехия",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Чех Республикасы",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
     "Hostnames" : [
       {
         "target" : "Nombres de servidores",
@@ -15211,23 +15228,6 @@
         "language" : "kk"
       }
     ],
-    "syRe.11" : [
-      {
-        "target" : "República Checa",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Чехия",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Чех Республикасы",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "nDNS.description" : [
       {
         "target" : "Esta estación base AirPort no tiene ninguna dirección de servidor DNS, por lo que podría tener problemas para conectarse a Internet.",
@@ -15241,6 +15241,23 @@
       },
       {
         "target" : "Бұл AirPort негізгі станциясына DNS серверлерінің мекенжайлары тағайындалмағандықтан, интернетке қосылу кезінде қиындықтар туындауы мүмкін.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "connectedClients.header" : [
+      {
+        "target" : "Dispositivos conectados",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Свързани устройства",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қосылған құрылғылар",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -15262,23 +15279,6 @@
         "language" : "kk"
       }
     ],
-    "LaunchAppStoreButtonTitle" : [
-      {
-        "target" : "App Store",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "App Store",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "App Store",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "syAP.106" : [
       {
         "target" : "AirPort Time Capsule 802.11n (1a. generación)",
@@ -15296,19 +15296,19 @@
         "language" : "kk"
       }
     ],
-    "connectedClients.header" : [
+    "LaunchAppStoreButtonTitle" : [
       {
-        "target" : "Dispositivos conectados",
+        "target" : "App Store",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Свързани устройства",
+        "target" : "App Store",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Қосылған құрылғылар",
+        "target" : "App Store",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -15364,23 +15364,6 @@
         "language" : "kk"
       }
     ],
-    "tcUW" : [
-      {
-        "target" : "Ancho de banda de subida",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Скорост при качване",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Негізгі ағынға қарсы бағытта өткізу мүмкіндігі",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "bsRM.0" : [
       {
         "target" : "DHCP y NAT",
@@ -15398,20 +15381,20 @@
         "language" : "kk"
       }
     ],
-    "AddToFooter.AirPortExtreme" : [
+    "tcUW" : [
       {
-        "target" : "Configurar esta AirPort Extreme para acceder o ampliar una red Wi-Fi existente.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Ancho de banda de subida",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Настройте тази базова станция AirPort Extreme да разширява или да се свързва към съществуваща Wi-Fi мрежа.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Скорост при качване",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Қолданыстағы Wi-Fi желісіне қосылу немесе оны кеңейту үшін осы AirPort Extreme негізгі станциясын баптау.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Негізгі ағынға қарсы бағытта өткізу мүмкіндігі",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -15428,6 +15411,23 @@
       },
       {
         "target" : "Желі",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
+    "AddToFooter.AirPortExtreme" : [
+      {
+        "target" : "Configurar esta AirPort Extreme para acceder o ampliar una red Wi-Fi existente.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Настройте тази базова станция AirPort Extreme да разширява или да се свързва към съществуваща Wi-Fi мрежа.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қолданыстағы Wi-Fi желісіне қосылу немесе оны кеңейту үшін осы AirPort Extreme негізгі станциясын баптау.",
         "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
@@ -15704,23 +15704,6 @@
         "language" : "kk"
       }
     ],
-    "syRe.42" : [
-      {
-        "target" : "China continental",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Китай",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Материктік Қытай",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "bsRM.1" : [
       {
         "target" : "Sólo DHCP",
@@ -15734,6 +15717,23 @@
       },
       {
         "target" : "Тек DHCP",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "syRe.42" : [
+      {
+        "target" : "China continental",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Китай",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Материктік Қытай",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -16044,23 +16044,6 @@
         "language" : "kk"
       }
     ],
-    "PrinterName" : [
-      {
-        "target" : "Nombre de la impresora",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Име на принтер",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Принтер атауы",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "syRe.113" : [
       {
         "target" : "Islas Malvinas",
@@ -16074,6 +16057,23 @@
       },
       {
         "target" : "Фолкленд аралдары",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "PrinterName" : [
+      {
+        "target" : "Nombre de la impresora",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Име на принтер",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Принтер атауы",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -17047,23 +17047,6 @@
         "language" : "kk"
       }
     ],
-    "OtherSetupChoices" : [
-      {
-        "target" : "Otras opciones de configuración",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Други опции за настройка",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Басқа баптау опциялары",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "ContinueAnyways" : [
       {
         "target" : "¿Quieres continuar?",
@@ -17078,6 +17061,23 @@
       {
         "target" : "Жалғастыру қажеттігіне сенімдісіз бе?",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "OtherSetupChoices" : [
+      {
+        "target" : "Otras opciones de configuración",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Други опции за настройка",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Басқа баптау опциялары",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -17217,6 +17217,23 @@
         "language" : "kk"
       }
     ],
+    "StepByStepChoice_CreateExtendReplace.SectionTitle.TimeCapsule" : [
+      {
+        "target" : "Usar esta AirPort Time Capsule para:",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Използване на тази базова станция AirPort Time Capsule за:",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл AirPort Time Capsule дискісін келесі мақсатта пайдаланыңыз:",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
     "syCt" : [
       {
         "target" : "Contacto",
@@ -17230,23 +17247,6 @@
       },
       {
         "target" : "Контакт",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "syRe.147" : [
-      {
-        "target" : "Macedonia del Norte",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Република Северна Македония",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Солтүстік Македония",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -17285,20 +17285,20 @@
         "language" : "kk"
       }
     ],
-    "StepByStepChoice_CreateExtendReplace.SectionTitle.TimeCapsule" : [
+    "syRe.147" : [
       {
-        "target" : "Usar esta AirPort Time Capsule para:",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Macedonia del Norte",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Използване на тази базова станция AirPort Time Capsule за:",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Република Северна Македония",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бұл AirPort Time Capsule дискісін келесі мақсатта пайдаланыңыз:",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Солтүстік Македония",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -17387,23 +17387,6 @@
         "language" : "kk"
       }
     ],
-    "mgrt" : [
-      {
-        "target" : "Migración interrumpida",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Прекъсната миграция",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Көшіру процесі үзілді",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "ExtendingANonExtensibleEnabledNetwork" : [
       {
         "target" : "La red seleccionada no está configurada para ampliarse.",
@@ -17417,6 +17400,23 @@
       },
       {
         "target" : "Таңдалған желі кеңейту үшін бапталмаған.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "mgrt" : [
+      {
+        "target" : "Migración interrumpida",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Прекъсната миграция",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Көшіру процесі үзілді",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -17846,23 +17846,6 @@
         "language" : "kk"
       }
     ],
-    "firewall.service.Remote Apple Events" : [
-      {
-        "target" : "Eventos Apple remotos",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Отдалечени Apple Събития",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Қашықтағы Apple оқиғалары",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "SinglePasswordExplanationWithDisk.off" : [
       {
         "target" : "Se usarán contraseñas diferentes para tu red, la estación base y el disco.",
@@ -17877,6 +17860,23 @@
       {
         "target" : "Желіңіз, негізгі станцияңыз және дискіңіз үшін әртүрлі құпиясөздер қолданылады.",
         "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
+    "firewall.service.Remote Apple Events" : [
+      {
+        "target" : "Eventos Apple remotos",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Отдалечени Apple Събития",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қашықтағы Apple оқиғалары",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -18135,23 +18135,6 @@
         "language" : "kk"
       }
     ],
-    "BTMMAccountNeedsToBeUpdated" : [
-      {
-        "target" : "Vuelve a ingresar tu Apple ID y tu contraseña para usar Regresar a mi Mac con iCloud.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Въведете отново вашите идентификатор Apple ID и парола, за да използвате Обратно към моя Mac с iCloud.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "iCloud сервисімен «Mac компьютеріме қолжетімділік» функциясын пайдалану үшін Apple ID мен құпиясөзді қайта енгізіңіз.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "DRes" : [
       {
         "target" : "Reservas DHCP",
@@ -18165,6 +18148,23 @@
       },
       {
         "target" : "DHCP резервтеу әрекеттері",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "BTMMAccountNeedsToBeUpdated" : [
+      {
+        "target" : "Vuelve a ingresar tu Apple ID y tu contraseña para usar Regresar a mi Mac con iCloud.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Въведете отново вашите идентификатор Apple ID и парола, за да използвате Обратно към моя Mac с iCloud.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "iCloud сервисімен «Mac компьютеріме қолжетімділік» функциясын пайдалану үшін Apple ID мен құпиясөзді қайта енгізіңіз.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -18186,23 +18186,6 @@
         "language" : "kk"
       }
     ],
-    "connectionStats.PHYMode.format" : [
-      {
-        "target" : "%@",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "%@",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%@",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "vErr.smNS" : [
       {
         "target" : "Esta estación base no admite el modo cliente.",
@@ -18216,6 +18199,23 @@
       },
       {
         "target" : "Бұл негізгі станция клиент режиміне қолдау көрсетпейді.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "connectionStats.PHYMode.format" : [
+      {
+        "target" : "%@",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "%@",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%@",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -18271,19 +18271,19 @@
         "language" : "kk"
       }
     ],
-    "SelectPPPoEAlwaysOn" : [
+    "MaSt.value" : [
       {
-        "target" : "Selecciona “Siempre activa” en el menú Conexión.",
+        "target" : "%@ libres",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Изберете „Винаги включено“ от менюто Свързване.",
+        "target" : "%@ свободни",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "«Қосылым» мәзірінен «Әрдайым қосулы» опциясын таңдаңыз.",
+        "target" : "%@ бос",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -18305,19 +18305,19 @@
         "language" : "kk"
       }
     ],
-    "MaSt.value" : [
+    "SelectPPPoEAlwaysOn" : [
       {
-        "target" : "%@ libres",
+        "target" : "Selecciona “Siempre activa” en el menú Conexión.",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "%@ свободни",
+        "target" : "Изберете „Винаги включено“ от менюто Свързване.",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "%@ бос",
+        "target" : "«Қосылым» мәзірінен «Әрдайым қосулы» опциясын таңдаңыз.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -18798,23 +18798,6 @@
         "language" : "kk"
       }
     ],
-    "WillRestoreToExtendNetwork.AirPortExtreme" : [
-      {
-        "target" : "Esta AirPort Extreme se restaurará para ampliar la red anterior.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Тази базова станция AirPort Extreme ще бъде възстановена, за да разшири предишната си мрежа.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бұл AirPort Extreme станциясы алдыңғы желісін кеңейту үшін қалпына келтіріледі.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "moPW" : [
       {
         "target" : "Contraseña",
@@ -18828,6 +18811,23 @@
       },
       {
         "target" : "Құпиясөз",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "syAP.108" : [
+      {
+        "target" : "AirPort Extreme 802.11n (3a. generación)",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "AirPort Extreme 802.11n (3-то поколение)",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "AirPort Extreme 802.11n (3-буын)",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -18866,6 +18866,23 @@
         "language" : "kk"
       }
     ],
+    "WillRestoreToExtendNetwork.AirPortExtreme" : [
+      {
+        "target" : "Esta AirPort Extreme se restaurará para ampliar la red anterior.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Тази базова станция AirPort Extreme ще бъде възстановена, за да разшири предишната си мрежа.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл AirPort Extreme станциясы алдыңғы желісін кеңейту үшін қалпына келтіріледі.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
     "UnsupportedBaseStationFWRecommendation" : [
       {
         "target" : "Usa la Utilidad AirPort 5.6 para actualizar esta estación base.",
@@ -18883,20 +18900,20 @@
         "language" : "kk"
       }
     ],
-    "Conjunction_Or" : [
+    "WPS.Panel.0.LimitMessage.0" : [
       {
-        "target" : "o",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Si no limitas el acceso del cliente a 24 horas, el cliente dispondrá de acceso ilimitado a tu red.",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "или",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Ако не ограничите достъпа на потребителя до 24 часа, ще предоставите на потребителя неограничен достъп до вашата мрежа.",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "немесе",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Клиенттің қолжетімділігі 24 сағат бойы шектелмесе, клиент желіңізге шектеусіз кіру рұқсатын алады.",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -18913,23 +18930,6 @@
       },
       {
         "target" : "WDS түйіндері",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "syAP.108" : [
-      {
-        "target" : "AirPort Extreme 802.11n (3a. generación)",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "AirPort Extreme 802.11n (3-то поколение)",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "AirPort Extreme 802.11n (3-буын)",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -18951,20 +18951,20 @@
         "language" : "kk"
       }
     ],
-    "WPS.Panel.0.LimitMessage.0" : [
+    "Conjunction_Or" : [
       {
-        "target" : "Si no limitas el acceso del cliente a 24 horas, el cliente dispondrá de acceso ilimitado a tu red.",
-        "filename" : "AirPortSettings.strings",
+        "target" : "o",
+        "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Ако не ограничите достъпа на потребителя до 24 часа, ще предоставите на потребителя неограничен достъп до вашата мрежа.",
-        "filename" : "AirPortSettings.strings",
+        "target" : "или",
+        "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "Клиенттің қолжетімділігі 24 сағат бойы шектелмесе, клиент желіңізге шектеусіз кіру рұқсатын алады.",
-        "filename" : "AirPortSettings.strings",
+        "target" : "немесе",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -19478,23 +19478,6 @@
         "language" : "kk"
       }
     ],
-    "dayPeriod.30" : [
-      {
-        "target" : "mes",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "месец",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "ай",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "pmTa.privateport" : [
       {
         "target" : "Puerto privado",
@@ -19508,6 +19491,23 @@
       },
       {
         "target" : "Жеке порт",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "dayPeriod.30" : [
+      {
+        "target" : "mes",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "месец",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "ай",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -19597,23 +19597,6 @@
         "language" : "kk"
       }
     ],
-    "usrd.fileSharingAccess.0" : [
-      {
-        "target" : "Leer y escribir",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Четене и писане",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Оқу және жазу",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "StepByStepStatus_ReplaceConfiguration.AirPortExpress" : [
       {
         "target" : "Esta AirPort Express se configurará usando el archivo de configuración de “%@”.\n",
@@ -19627,6 +19610,23 @@
       },
       {
         "target" : "Бұл AirPort Express станциясы «%@» реттеулер файлы арқылы бапталады.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
+    "StepByStepStatus_ExtendWirelessNetworkChoice" : [
+      {
+        "target" : "¿A qué red quieres que esta estación base se conecte?",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Към коя мрежа искате тази базова станция да се свърже?",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл негізгі станцияны қай желіге қосқыңыз келеді?",
         "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
@@ -19648,20 +19648,20 @@
         "language" : "kk"
       }
     ],
-    "StepByStepStatus_ExtendWirelessNetworkChoice" : [
+    "usrd.fileSharingAccess.0" : [
       {
-        "target" : "¿A qué red quieres que esta estación base se conecte?",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Leer y escribir",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Към коя мрежа искате тази базова станция да се свърже?",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Четене и писане",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бұл негізгі станцияны қай желіге қосқыңыз келеді?",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Оқу және жазу",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -20107,23 +20107,6 @@
         "language" : "kk"
       }
     ],
-    "CheckingOutYourNetwork" : [
-      {
-        "target" : "Recopilando información acerca de tu red…",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Събиране на информация за вашата мрежа…",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Желі туралы ақпарат жиналуда...",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "syRe.77" : [
       {
         "target" : "Bielorrusia",
@@ -20138,6 +20121,23 @@
       {
         "target" : "Беларусь",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "CheckingOutYourNetwork" : [
+      {
+        "target" : "Recopilando información acerca de tu red…",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Събиране на информация за вашата мрежа…",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Желі туралы ақпарат жиналуда...",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -20396,23 +20396,6 @@
         "language" : "kk"
       }
     ],
-    "Printers" : [
-      {
-        "target" : "Impresoras",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Принтери",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Принтерлер",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "waNM" : [
       {
         "target" : "Bloquear configuración remota",
@@ -20427,6 +20410,23 @@
       {
         "target" : "Қашықтағы конфигурацияны блоктау",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "CantFindNetworksToJoin" : [
+      {
+        "target" : "No se encontraron redes compatibles a las que %@ pueda acceder.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Не е открита съвместима мрежа, към която %@ да може да се свърже.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%@ қосыла алатын қолдау көрсетілетін желілер табылмады.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -20447,20 +20447,20 @@
         "language" : "kk"
       }
     ],
-    "CantFindNetworksToJoin" : [
+    "Printers" : [
       {
-        "target" : "No se encontraron redes compatibles a las que %@ pueda acceder.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Impresoras",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Не е открита съвместима мрежа, към която %@ да може да се свърже.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Принтери",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "%@ қосыла алатын қолдау көрсетілетін желілер табылмады.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Принтерлер",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -20566,23 +20566,6 @@
         "language" : "kk"
       }
     ],
-    "DRes.count.2+" : [
-      {
-        "target" : "Activado (%@ reservas)",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "На (%@ резервации)",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Қосулы (%@ резервтеу әрекеті)",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "syRe.47" : [
       {
         "target" : "Argentina",
@@ -20596,6 +20579,23 @@
       },
       {
         "target" : "Аргентина",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "DRes.count.2+" : [
+      {
+        "target" : "Activado (%@ reservas)",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "На (%@ резервации)",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қосулы (%@ резервтеу әрекеті)",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -20770,23 +20770,6 @@
         "language" : "kk"
       }
     ],
-    "upAv.description" : [
-      {
-        "target" : "Actualice el firmware de esta estación base AirPort.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Обновете вградения софтуер за тази базова станция AirPort.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Осы AirPort негізгі станциясының микробағдарламасын жаңарту.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "StepByStepStatus_ExtendWireless.4.TimeCapsule" : [
       {
         "target" : "Esta AirPort Time Capsule se configurará para ampliar “%@”, “%@”, “%@” y “%@”.",
@@ -20804,19 +20787,19 @@
         "language" : "kk"
       }
     ],
-    "vErr.iw1K" : [
+    "upAv.description" : [
       {
-        "target" : "No ingresaste una clave WEP de 128 bits válida.",
+        "target" : "Actualice el firmware de esta estación base AirPort.",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Не сте въвели валиден 128 битов WEP ключ.",
+        "target" : "Обновете вградения софтуер за тази базова станция AirPort.",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Жарамды 128 биттік WEP кілтін енгізбедіңіз.",
+        "target" : "Осы AirPort негізгі станциясының микробағдарламасын жаңарту.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -20835,6 +20818,23 @@
       {
         "target" : "«%1$@» атты негізгі станция «%2$@» атты желіге қосылу үшін бапталады.",
         "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
+    "vErr.iw1K" : [
+      {
+        "target" : "No ingresaste una clave WEP de 128 bits válida.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Не сте въвели валиден 128 битов WEP ключ.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жарамды 128 биттік WEP кілтін енгізбедіңіз.",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -20991,20 +20991,20 @@
         "language" : "kk"
       }
     ],
-    "StepByStepStatus_ExtendWirelessNetworkChoice.ChooseABaseStation" : [
+    "6rEr.description" : [
       {
-        "target" : "Selecciona una estación base",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Consulta a tu proveedor del servicio para asegurarte de que ingresaste la configuración IPv6 correcta.",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Избор на базова станция",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Проверете с вашия доставчик на услуги, за да се уверите, че сте въвели правилните настройки на IPv6.",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Негізгі станцияны таңдаңыз",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Интернет-провайдерге хабарласып, IPv6 реттеулерінің дұрыс енгізілгеніне көз жеткізіңіз.",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -21042,20 +21042,20 @@
         "language" : "kk"
       }
     ],
-    "6rEr.description" : [
+    "StepByStepStatus_ExtendWirelessNetworkChoice.ChooseABaseStation" : [
       {
-        "target" : "Consulta a tu proveedor del servicio para asegurarte de que ingresaste la configuración IPv6 correcta.",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Selecciona una estación base",
+        "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Проверете с вашия доставчик на услуги, за да се уверите, че сте въвели правилните настройки на IPv6.",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Избор на базова станция",
+        "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "Интернет-провайдерге хабарласып, IPv6 реттеулерінің дұрыс енгізілгеніне көз жеткізіңіз.",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Негізгі станцияны таңдаңыз",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -21195,23 +21195,6 @@
         "language" : "kk"
       }
     ],
-    "DiagsAndUsageAnonUUIDFormat" : [
-      {
-        "target" : "%1$@ : %2$@",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "%1$@ : %2$@",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%1$@ : %2$@",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "bs8M.327683" : [
       {
         "target" : "Sólo 802.11a\/n - 802.11g",
@@ -21225,6 +21208,23 @@
       },
       {
         "target" : "802.11a\/n - тек 802.11g",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "syRe.78" : [
+      {
+        "target" : "Belice",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Белиз",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Белиз",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -21246,23 +21246,6 @@
         "language" : "kk"
       }
     ],
-    "syRe.78" : [
-      {
-        "target" : "Belice",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Белиз",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Белиз",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "fslo.remedy" : [
       {
         "target" : "Discos…",
@@ -21276,6 +21259,23 @@
       },
       {
         "target" : "Дискілер…",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "DiagsAndUsageAnonUUIDFormat" : [
+      {
+        "target" : "%1$@ : %2$@",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "%1$@ : %2$@",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%1$@ : %2$@",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -21314,23 +21314,6 @@
         "language" : "kk"
       }
     ],
-    "syRe.132" : [
-      {
-        "target" : "Haití",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Хаити",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Гаити",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "bsFE.count.2+" : [
       {
         "target" : "%@ entradas",
@@ -21344,6 +21327,23 @@
       },
       {
         "target" : "%@ жазба",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "syRe.132" : [
+      {
+        "target" : "Haití",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Хаити",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Гаити",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -22094,23 +22094,6 @@
         "language" : "kk"
       }
     ],
-    "WPSPanel.0.Header.title.Printer" : [
-      {
-        "target" : "Permitir impresora WPS",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Позволяване на WPS принтер",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "WPS принтеріне рұқсат беру",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "NotSupported" : [
       {
         "target" : "Incompatible",
@@ -22141,6 +22124,23 @@
       },
       {
         "target" : "Жоқ",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "WPSPanel.0.Header.title.Printer" : [
+      {
+        "target" : "Permitir impresora WPS",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Позволяване на WPS принтер",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "WPS принтеріне рұқсат беру",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -22400,20 +22400,20 @@
         "language" : "kk"
       }
     ],
-    "bsCC.22" : [
+    "WillRestoreToCreateNetworkSpecific.TimeCapsule" : [
       {
-        "target" : "Países Bajos",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Esta AirPort Time Capsule restaurará la red anterior “%@”.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Нидерландия",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Тази базова станция AirPort Time Capsule ще възстанови предишната си мрежа „%@“.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "Нидерланд",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Бұл AirPort Time Capsule дискісі алдыңғы «%@» желісін қалпына келтіреді.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -22434,20 +22434,35 @@
         "language" : "kk"
       }
     ],
-    "WillRestoreToCreateNetworkSpecific.TimeCapsule" : [
+    "EthernetPort" : [
       {
-        "target" : "Esta AirPort Time Capsule restaurará la red anterior “%@”.",
+        "target" : "Puerto Ethernet",
         "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Тази базова станция AirPort Time Capsule ще възстанови предишната си мрежа „%@“.",
+        "target" : "Puerto Ethernet",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Ethernet порт",
         "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бұл AirPort Time Capsule дискісі алдыңғы «%@» желісін қалпына келтіреді.",
+        "target" : "Ethernet порт",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Ethernet порты",
         "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      },
+      {
+        "target" : "Ethernet порты",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -22519,34 +22534,19 @@
         "language" : "kk"
       }
     ],
-    "EthernetPort" : [
+    "bsCC.22" : [
       {
-        "target" : "Puerto Ethernet",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Puerto Ethernet",
+        "target" : "Países Bajos",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Ethernet порт",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Ethernet порт",
+        "target" : "Нидерландия",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Ethernet порты",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      },
-      {
-        "target" : "Ethernet порты",
+        "target" : "Нидерланд",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -22653,23 +22653,6 @@
         "language" : "kk"
       }
     ],
-    "6gdn.description" : [
-      {
-        "target" : "Se presentó un error con el punto final del túnel IPv6. Espera a que el servicio se restablezca e intenta de nuevo. Si el problema persiste, ponte en contacto con el proveedor del servicio.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Възникна грешка при крайната точка на IPv6 тунела. Изчакайте услугата да бъде възстановена и опитайте отново. Свържете се с вашия доставчик на услуги, ако проблемът продължава.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "IPv6 туннелінің соңғы нүктесінен қате шықты. Сервистің қалпына келуін күтіп, әрекетті қайталап көріңіз. Мәселе шешілмесе, сервис провайдеріне хабарласыңыз.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "bsWU" : [
       {
         "target" : "Compartir a través de WAN",
@@ -22683,6 +22666,23 @@
       },
       {
         "target" : "WAN арқылы ортақ пайдалану",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "6gdn.description" : [
+      {
+        "target" : "Se presentó un error con el punto final del túnel IPv6. Espera a que el servicio se restablezca e intenta de nuevo. Si el problema persiste, ponte en contacto con el proveedor del servicio.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Възникна грешка при крайната точка на IPv6 тунела. Изчакайте услугата да бъде възстановена и опитайте отново. Свържете се с вашия доставчик на услуги, ако проблемът продължава.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "IPv6 туннелінің соңғы нүктесінен қате шықты. Сервистің қалпына келуін күтіп, әрекетті қайталап көріңіз. Мәселе шешілмесе, сервис провайдеріне хабарласыңыз.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -23265,6 +23265,23 @@
         "language" : "kk"
       }
     ],
+    "CustomBaseName.MFiAccessory" : [
+      {
+        "target" : "Nombre de accesorio",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Име на аксесоар",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Керек-жарақ атауы",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
     "ipv4Address" : [
       {
         "target" : "Dirección IPv4",
@@ -23278,23 +23295,6 @@
       },
       {
         "target" : "IPv4 мекенжайы",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "raMd.3" : [
-      {
-        "target" : "Sólo 802.11g",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Само 802.11g",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Тек 802.11g",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -23316,20 +23316,20 @@
         "language" : "kk"
       }
     ],
-    "CustomBaseName.MFiAccessory" : [
+    "raMd.3" : [
       {
-        "target" : "Nombre de accesorio",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Sólo 802.11g",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Име на аксесоар",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Само 802.11g",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Керек-жарақ атауы",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Тек 802.11g",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -23486,19 +23486,19 @@
         "language" : "kk"
       }
     ],
-    "bs8M" : [
+    "bsRC.165" : [
       {
-        "target" : "Modo radio",
+        "target" : "165",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Режим Радио",
+        "target" : "165",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Радио режимі",
+        "target" : "165",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -23571,19 +23571,19 @@
         "language" : "kk"
       }
     ],
-    "bsRC.165" : [
+    "bs8M" : [
       {
-        "target" : "165",
+        "target" : "Modo radio",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "165",
+        "target" : "Режим Радио",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "165",
+        "target" : "Радио режимі",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -23860,23 +23860,6 @@
         "language" : "kk"
       }
     ],
-    "2.4GHz" : [
-      {
-        "target" : "2.4 GHz",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "2.4GHz",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "2,4 ГГц",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "pdID.30" : [
       {
         "target" : "30 segundos",
@@ -23890,6 +23873,23 @@
       },
       {
         "target" : "30 секунд",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "2.4GHz" : [
+      {
+        "target" : "2.4 GHz",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "2.4GHz",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "2,4 ГГц",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -24200,23 +24200,6 @@
         "language" : "kk"
       }
     ],
-    "bsMu.18" : [
-      {
-        "target" : "12 Mb\/s",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "12Mb\/s",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "12 Мбит\/c",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "EthernetWANPort" : [
       {
         "target" : "Puerto WAN Ethernet",
@@ -24249,6 +24232,23 @@
         "language" : "kk"
       }
     ],
+    "syRe.117" : [
+      {
+        "target" : "Polinesia Francesa",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Френска Полинезия",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Француз Полинезиясы",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
     "bsRC.149" : [
       {
         "target" : "149",
@@ -24266,19 +24266,19 @@
         "language" : "kk"
       }
     ],
-    "syRe.117" : [
+    "bsMu.18" : [
       {
-        "target" : "Polinesia Francesa",
+        "target" : "12 Mb\/s",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Френска Полинезия",
+        "target" : "12Mb\/s",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Француз Полинезиясы",
+        "target" : "12 Мбит\/c",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -24861,23 +24861,6 @@
         "language" : "kk"
       }
     ],
-    "BSSetupRecommend_OfferExtendWirelessly.Complete.AirPortExtreme" : [
-      {
-        "target" : "Esta AirPort Extreme está ampliando “%@” de forma inalámbrica.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Сега базова станция AirPort Extremeта безжично разширява „%@“.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "AirPort Extreme қазір «%@» желісін сымсыз түрде кеңейтуде.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "syRe.80" : [
       {
         "target" : "Bermudas",
@@ -24892,6 +24875,23 @@
       {
         "target" : "Бермуд аралдары",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "BSSetupRecommend_OfferExtendWirelessly.Complete.AirPortExtreme" : [
+      {
+        "target" : "Esta AirPort Extreme está ampliando “%@” de forma inalámbrica.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Сега базова станция AirPort Extremeта безжично разширява „%@“.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "AirPort Extreme қазір «%@» желісін сымсыз түрде кеңейтуде.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -25303,23 +25303,6 @@
         "language" : "kk"
       }
     ],
-    "PrimarySetupRecommendation_ExtendEthernet.AirPortExtreme" : [
-      {
-        "target" : "Esta AirPort Extreme ampliará tu red mediante Ethernet.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Тази базова станция AirPort Extreme ще разшири вашата мрежа чрез Ethernet.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бұл AirPort Extreme станциясы желіңізді Ethernet арқылы кеңейтеді.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "syAP.3." : [
       {
         "target" : "0",
@@ -25334,6 +25317,23 @@
       {
         "target" : "0",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "PrimarySetupRecommendation_ExtendEthernet.AirPortExtreme" : [
+      {
+        "target" : "Esta AirPort Extreme ampliará tu red mediante Ethernet.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Тази базова станция AirPort Extreme ще разшири вашата мрежа чрез Ethernet.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл AirPort Extreme станциясы желіңізді Ethernet арқылы кеңейтеді.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -25626,23 +25626,6 @@
         "language" : "kk"
       }
     ],
-    "BSSetupRecommend_OfferExtendOverEthernet.InProcess.TimeCapsule" : [
-      {
-        "target" : "Configurando esta AirPort Time Capsule para ampliar “%@” mediante Ethernet.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Настройване на тази базова станция AirPort Time Capsule да разширява „%@“ чрез Ethernet.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Осы AirPort Time Capsule дискісін «%@» желісін Ethernet арқылы кеңейту үшін баптау.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "waRj.description" : [
       {
         "target" : "Esta estación base AirPort rechazó una dirección DHCP en la misma subred que su servidor DHCP interno. Intenta configurar la estación base AirPort al modo puente (en vez de usar DHCP y NAT). Si quieres seguir usando DHCP y NAT para compartir una única dirección IP, modifica tu rango DHCP.",
@@ -25674,6 +25657,23 @@
       {
         "target" : "Италия",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "BSSetupRecommend_OfferExtendOverEthernet.InProcess.TimeCapsule" : [
+      {
+        "target" : "Configurando esta AirPort Time Capsule para ampliar “%@” mediante Ethernet.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Настройване на тази базова станция AirPort Time Capsule да разширява „%@“ чрез Ethernet.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Осы AirPort Time Capsule дискісін «%@» желісін Ethernet арқылы кеңейту үшін баптау.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -25864,23 +25864,6 @@
         "language" : "kk"
       }
     ],
-    "connectedClients.2+" : [
-      {
-        "target" : "%@",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "%@",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%@",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "dayPeriod.365" : [
       {
         "target" : "año",
@@ -25894,6 +25877,23 @@
       },
       {
         "target" : "жыл",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "connectedClients.2+" : [
+      {
+        "target" : "%@",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "%@",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%@",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -26017,23 +26017,6 @@
         "language" : "kk"
       }
     ],
-    "SMBw" : [
-      {
-        "target" : "Grupo de trabajo",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Workgroup",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жұмыс тобы",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "SSdF.remedy" : [
       {
         "target" : "Discos…",
@@ -26047,6 +26030,23 @@
       },
       {
         "target" : "Дискілер…",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "SMBw" : [
+      {
+        "target" : "Grupo de trabajo",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Workgroup",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жұмыс тобы",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -26187,20 +26187,20 @@
         "language" : "kk"
       }
     ],
-    "General" : [
+    "VerifyLabel" : [
       {
-        "target" : "bsSP.%@",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Verificar",
+        "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "bsSP.%@",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Потвърждаване",
+        "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "bsSP.%@",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Тексеру",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -26217,6 +26217,23 @@
       },
       {
         "target" : "Францияның оңтүстік және Антарктикалық аймақтары",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "General" : [
+      {
+        "target" : "bsSP.%@",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "bsSP.%@",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "bsSP.%@",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -26252,23 +26269,6 @@
       {
         "target" : "Кот-д'Ивуар",
         "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "VerifyLabel" : [
-      {
-        "target" : "Verificar",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Потвърждаване",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Тексеру",
-        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -26561,23 +26561,6 @@
         "language" : "kk"
       }
     ],
-    "kProgress_NothingNewFoundError" : [
-      {
-        "target" : "No se encontró ninguna estación base que deba configurarse. Asegúrate de que haya una estación base conectada y dentro del radio de alcance.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Не е открита базова станция, която е необходимо да се настрои. Уверете се, че базовата станция е включена и е в обхват.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Баптауды қажет ететін негізгі станция табылмады. Негізгі станцияның қуат көзіне қосылғанын және желі ауқымында екенін тексеріңіз.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "bsCC.26" : [
       {
         "target" : "Polonia",
@@ -26592,6 +26575,23 @@
       {
         "target" : "Польша",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "kProgress_NothingNewFoundError" : [
+      {
+        "target" : "No se encontró ninguna estación base que deba configurarse. Asegúrate de que haya una estación base conectada y dentro del radio de alcance.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Не е открита базова станция, която е необходимо да се настрои. Уверете се, че базовата станция е включена и е в обхват.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Баптауды қажет ететін негізгі станция табылмады. Негізгі станцияның қуат көзіне қосылғанын және желі ауқымында екенін тексеріңіз.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -26799,23 +26799,6 @@
         "language" : "kk"
       }
     ],
-    "bsSP" : [
-      {
-        "target" : "Nombre del producto",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Име на продукт",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Өнім атауы",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "syRe.151" : [
       {
         "target" : "Omán",
@@ -26829,6 +26812,23 @@
       },
       {
         "target" : "Оман",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "bsSP" : [
+      {
+        "target" : "Nombre del producto",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Име на продукт",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Өнім атауы",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -27003,23 +27003,6 @@
         "language" : "kk"
       }
     ],
-    "OtherSetupChoicesEllipsis" : [
-      {
-        "target" : "Otras opciones de configuración…",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Други опции за настройка…",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Басқа баптау опциялары…",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "6fwl.count.2+" : [
       {
         "target" : "%@ entradas",
@@ -27034,6 +27017,23 @@
       {
         "target" : "%@ жазба",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "OtherSetupChoicesEllipsis" : [
+      {
+        "target" : "Otras opciones de configuración…",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Други опции за настройка…",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Басқа баптау опциялары…",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -27071,23 +27071,6 @@
         "language" : "kk"
       }
     ],
-    "bsRC.100" : [
-      {
-        "target" : "100",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "100",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "100",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "DHCPGuestRange.selector" : [
       {
         "target" : "Rango DHCP de red de invitados",
@@ -27101,6 +27084,23 @@
       },
       {
         "target" : "DHCP қонақ желісінің ауқымы",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "bsRC.100" : [
+      {
+        "target" : "100",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "100",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "100",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -27139,23 +27139,6 @@
         "language" : "kk"
       }
     ],
-    "ExtendFooter" : [
-      {
-        "target" : "Configurar esta estación base AirPort para ampliar el alcance de una red Wi-Fi existente.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Настройва тази базова станция AirPort да разширява обхвата на съществуваща Wi-Fi мрежа.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Осы AirPort негізгі станциясын қолданыстағы Wi-Fi желісінің ауқымын кеңейту үшін баптау.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "pdID.1800" : [
       {
         "target" : "30 minutos",
@@ -27170,6 +27153,23 @@
       {
         "target" : "30 минут",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "ExtendFooter" : [
+      {
+        "target" : "Configurar esta estación base AirPort para ampliar el alcance de una red Wi-Fi existente.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Настройва тази базова станция AirPort да разширява обхвата на съществуваща Wi-Fi мрежа.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Осы AirPort негізгі станциясын қолданыстағы Wi-Fi желісінің ауқымын кеңейту үшін баптау.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -27275,20 +27275,20 @@
         "language" : "kk"
       }
     ],
-    "WiFiPasswordLabel" : [
+    "bsSP.1" : [
       {
-        "target" : "Contraseña de la red",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Estación base AirPort",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Парола на мрежа",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "базова станция AirPort",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Желі құпиясөзі",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "AirPort негізгі станциясы",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -27309,6 +27309,23 @@
         "language" : "kk"
       }
     ],
+    "vErr.nvHD" : [
+      {
+        "target" : "La velocidad de difusión múltiple que seleccionaste no es válida para una densidad alta.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Избраната от вас мултикаст честота не е валидна при висока радио плътност.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Таңдалған бірнеше мекенжайға ақпарат тарату жылдамдығы жоғары радио тығыздығы үшін жарамсыз.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
     "rdNS.description" : [
       {
         "target" : "Esta estación base AirPort está configurada para conectarse a Internet mediante un control de acceso basado en WPA Empresa o RADIUS, pero no se encuentra ningún servidor RADIUS. Asegúrate de que la configuración del servidor sea correcta e intenta de nuevo.",
@@ -27322,23 +27339,6 @@
       },
       {
         "target" : "Бұл AirPort негізгі станциясы интернетке WPA Enterprise немесе RADIUS негізіндегі қолжетімділікті бақылау арқылы қосылу үшін бапталған, бірақ RADIUS сервері табылмады. Сервер реттеулерінің дұрыстығын тексеріп, әрекетті қайталаңыз.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "vErr.ktTL" : [
-      {
-        "target" : "El límite de tiempo que estableciste para la clave de grupo es demasiado largo. El valor debe ser igual o inferior a 9,999,999 minutos.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Въведенето от вас време за групов ключ е прекалено дълго. Трябва да бъде равно или по-малко от 9999999 минути.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Топ кілтінің жарамдылық мерзімінің аяқталу уақыты тым ұзақ. Ол 9999999 минуттан аз немесе соған тең болуы керек.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -27394,36 +27394,36 @@
         "language" : "kk"
       }
     ],
-    "bsSP.1" : [
+    "WiFiPasswordLabel" : [
       {
-        "target" : "Estación base AirPort",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Contraseña de la red",
+        "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "базова станция AirPort",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Парола на мрежа",
+        "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "AirPort негізгі станциясы",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Желі құпиясөзі",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
-    "vErr.nvHD" : [
+    "vErr.ktTL" : [
       {
-        "target" : "La velocidad de difusión múltiple que seleccionaste no es válida para una densidad alta.",
+        "target" : "El límite de tiempo que estableciste para la clave de grupo es demasiado largo. El valor debe ser igual o inferior a 9,999,999 minutos.",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Избраната от вас мултикаст честота не е валидна при висока радио плътност.",
+        "target" : "Въведенето от вас време за групов ключ е прекалено дълго. Трябва да бъде равно или по-малко от 9999999 минути.",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Таңдалған бірнеше мекенжайға ақпарат тарату жылдамдығы жоғары радио тығыздығы үшін жарамсыз.",
+        "target" : "Топ кілтінің жарамдылық мерзімінің аяқталу уақыты тым ұзақ. Ол 9999999 минуттан аз немесе соған тең болуы керек.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -27972,23 +27972,6 @@
         "language" : "kk"
       }
     ],
-    "firewall.service.Printer Sharing" : [
-      {
-        "target" : "Compartir impresora",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Споделяне на принтер",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Ортақ принтерлер",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "fire.addbutton" : [
       {
         "target" : "Nueva entrada…",
@@ -28019,6 +28002,23 @@
       },
       {
         "target" : "Латвия",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "firewall.service.Printer Sharing" : [
+      {
+        "target" : "Compartir impresora",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Споделяне на принтер",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Ортақ принтерлер",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -28412,6 +28412,23 @@
         "language" : "kk"
       }
     ],
+    "syRe.119" : [
+      {
+        "target" : "Gabón",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Габон",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Габон",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
     "StepByStepStatus_ExtendWireless.TimeCapsule" : [
       {
         "target" : "Esta AirPort Time Capsule se configurará para ampliar “%@”.",
@@ -28425,23 +28442,6 @@
       },
       {
         "target" : "Бұл AirPort Time Capsule дискісі «%@» желісін кеңейту үшін бапталады.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
-    "StepByStepChoice_Create_Config.UsingSinglePasswordLabel" : [
-      {
-        "target" : "Contraseña única",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Една парола",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бір құпиясөз",
         "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
@@ -28463,20 +28463,20 @@
         "language" : "kk"
       }
     ],
-    "syRe.119" : [
+    "StepByStepChoice_Create_Config.UsingSinglePasswordLabel" : [
       {
-        "target" : "Gabón",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Contraseña única",
+        "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Габон",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Една парола",
+        "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "Габон",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Бір құпиясөз",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -28616,6 +28616,23 @@
         "language" : "kk"
       }
     ],
+    "sySN" : [
+      {
+        "target" : "Número de serie",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Сериен номер",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Сериялық нөмірі",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
     "soft" : [
       {
         "target" : "Reinicio del software",
@@ -28663,23 +28680,6 @@
       },
       {
         "target" : "Сингапур",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "sySN" : [
-      {
-        "target" : "Número de serie",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Сериен номер",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Сериялық нөмірі",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -28752,23 +28752,6 @@
         "language" : "kk"
       }
     ],
-    "StepByStepChoice_Create_Guest.GuestNetworkInfo.AirPortExtreme" : [
-      {
-        "target" : "Esta AirPort Extreme puede crear una red Wi-Fi para invitados.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Тази базова станция AirPort Extreme може да създаде Wi-Fi мрежа за гости.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бұл AirPort Extreme станциясы қонақ пайдаланушыларға арналған Wi-Fi желісін жасай алады.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "YouShouldUpdateFirmware.specific" : [
       {
         "target" : "Debes actualizar el firmware de “%@” a la versión más reciente.",
@@ -28783,6 +28766,23 @@
       {
         "target" : "«%@» микробағдарламасын ең соңғы нұсқаға дейін жаңарту қажет.",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "StepByStepChoice_Create_Guest.GuestNetworkInfo.AirPortExtreme" : [
+      {
+        "target" : "Esta AirPort Extreme puede crear una red Wi-Fi para invitados.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Тази базова станция AirPort Extreme може да създаде Wi-Fi мрежа за гости.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл AirPort Extreme станциясы қонақ пайдаланушыларға арналған Wi-Fi желісін жасай алады.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -28803,20 +28803,20 @@
         "language" : "kk"
       }
     ],
-    "waNI.description" : [
+    "BSSetupRecommend_AskUserChooseNetworkToJoin.Complete.AirPortExpress" : [
       {
-        "target" : "La estación base AirPort no dispone de una dirección IP válida. Asegúrate de que la estación base AirPort está conectada a un módem de banda ancha o a una red local, verifica tu configuración e intenta de nuevo. Si sigues sin poder establecer conexión, ponte en contacto con tu proveedor de acceso a Internet.",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Esta AirPort Express accedió a “%@”.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Вашата базова станция AirPort няма валиден IP адрес. Уверете се, че тя е свързана към широколентов модем или местна мрежа, потвърдете настройките и опитайте отново. Ако все още не можете да се свържете, се свържете с вашия доставчик на интернет услуги.",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Тази базова станция AirPort Express се свърза към „%@“.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "AirPort негізгі станцияңыздың жарамды IP мекенжайы жоқ. AirPort негізгі станциясының кең жолақты модемге немесе жергілікті желіге қосылғанына көз жеткізіңіз де, реттеулерді тексеріп, әрекетті қайталаңыз. Мәселе шешілмесе, интернет провайдерге хабарласыңыз.",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Бұл AirPort Express «%@» желісіне қосылды.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -28837,20 +28837,20 @@
         "language" : "kk"
       }
     ],
-    "BSSetupRecommend_AskUserChooseNetworkToJoin.Complete.AirPortExpress" : [
+    "waNI.description" : [
       {
-        "target" : "Esta AirPort Express accedió a “%@”.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "La estación base AirPort no dispone de una dirección IP válida. Asegúrate de que la estación base AirPort está conectada a un módem de banda ancha o a una red local, verifica tu configuración e intenta de nuevo. Si sigues sin poder establecer conexión, ponte en contacto con tu proveedor de acceso a Internet.",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Тази базова станция AirPort Express се свърза към „%@“.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Вашата базова станция AirPort няма валиден IP адрес. Уверете се, че тя е свързана към широколентов модем или местна мрежа, потвърдете настройките и опитайте отново. Ако все още не можете да се свържете, се свържете с вашия доставчик на интернет услуги.",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бұл AirPort Express «%@» желісіне қосылды.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "AirPort негізгі станцияңыздың жарамды IP мекенжайы жоқ. AirPort негізгі станциясының кең жолақты модемге немесе жергілікті желіге қосылғанына көз жеткізіңіз де, реттеулерді тексеріп, әрекетті қайталаңыз. Мәселе шешілмесе, интернет провайдерге хабарласыңыз.",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -28939,23 +28939,6 @@
         "language" : "kk"
       }
     ],
-    "syRe.23" : [
-      {
-        "target" : "Liechtenstein",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Лихтенщайн",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Лихтенштейн",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "syRe.169" : [
       {
         "target" : "Mongolia",
@@ -28987,6 +28970,23 @@
       {
         "target" : ", ",
         "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
+    "syRe.23" : [
+      {
+        "target" : "Liechtenstein",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Лихтенщайн",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Лихтенштейн",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -29602,23 +29602,6 @@
         "language" : "kk"
       }
     ],
-    "StepByStepStatus_ExtendWirelessNetworkChoice.AirPortExtreme" : [
-      {
-        "target" : "¿A qué red quieres que esta AirPort Extreme se conecte?",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Към коя мрежа искате тази базова станция AirPort Extreme да се свърже?",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бұл AirPort Extreme станциясын қай желіге қосқыңыз келеді?",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "bsP2.2" : [
       {
         "target" : "1812",
@@ -29633,6 +29616,23 @@
       {
         "target" : "1812",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "StepByStepStatus_ExtendWirelessNetworkChoice.AirPortExtreme" : [
+      {
+        "target" : "¿A qué red quieres que esta AirPort Extreme se conecte?",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Към коя мрежа искате тази базова станция AirPort Extreme да се свърже?",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл AirPort Extreme станциясын қай желіге қосқыңыз келеді?",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -29908,23 +29908,6 @@
         "language" : "kk"
       }
     ],
-    "vErr.dcWW" : [
-      {
-        "target" : "El rango DHCP que ingresaste entra en conflicto con la dirección IP WAN de tu estación base.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Въведеният от вас DHCP обхват е в конфликт с WAN IP адреса на вашата базова станция.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Енгізілген DHCP ауқымы осы негізгі станцияның WAN IP мекенжайына қайшы келеді.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "StepByStepStatus_ExtendWirelessNetworkChoice.AirPortExpress" : [
       {
         "target" : "¿A qué red quieres que esta AirPort Express se conecte?",
@@ -29939,6 +29922,23 @@
       {
         "target" : "Бұл AirPort Express станциясын қай желіге қосқыңыз келеді?",
         "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
+    "vErr.dcWW" : [
+      {
+        "target" : "El rango DHCP que ingresaste entra en conflicto con la dirección IP WAN de tu estación base.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Въведеният от вас DHCP обхват е в конфликт с WAN IP адреса на вашата базова станция.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Енгізілген DHCP ауқымы осы негізгі станцияның WAN IP мекенжайына қайшы келеді.",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -30197,6 +30197,23 @@
         "language" : "kk"
       }
     ],
+    "bsIC.6" : [
+      {
+        "target" : "DHCP",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "DHCP",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "DHCP",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
     "gnEn" : [
       {
         "target" : "Fin del rango de la red de invitados",
@@ -30210,23 +30227,6 @@
       },
       {
         "target" : "Қонақтар желісі ауқымының соңы",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "wpsDescription" : [
-      {
-        "target" : "Hay dos maneras de permitir a un cliente el acceso a tu red protegida mediante contraseña sin necesidad de ingresar la contraseña: puedes ingresar un PIN para el usuario o bien permitir el acceso al primer cliente que intente conectarse a la red.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Има два начина да позволите на потребител да се свърже с вашата мрежа, защитена с парола, без да се въвежда парола. Можете или да въведете PIN код за потребителя, или да позволите достъп на първия принтер, който се опита да се свърже към вашата мрежа.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Клиентке құпиясөзді енгізбей-ақ құпиясөзбен қорғалған желіге қосылуға рұқсат берудің екі әдісі бар. Пайдаланушының PIN кодын енгізуге болады немесе желіңізге қосылуға әрекет жасайтын бірінші клиентке кіру рұқсатын беруге болады.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -30265,19 +30265,19 @@
         "language" : "kk"
       }
     ],
-    "bsIC.6" : [
+    "wpsDescription" : [
       {
-        "target" : "DHCP",
+        "target" : "Hay dos maneras de permitir a un cliente el acceso a tu red protegida mediante contraseña sin necesidad de ingresar la contraseña: puedes ingresar un PIN para el usuario o bien permitir el acceso al primer cliente que intente conectarse a la red.",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "DHCP",
+        "target" : "Има два начина да позволите на потребител да се свърже с вашата мрежа, защитена с парола, без да се въвежда парола. Можете или да въведете PIN код за потребителя, или да позволите достъп на първия принтер, който се опита да се свърже към вашата мрежа.",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "DHCP",
+        "target" : "Клиентке құпиясөзді енгізбей-ақ құпиясөзбен қорғалған желіге қосылуға рұқсат берудің екі әдісі бар. Пайдаланушының PIN кодын енгізуге болады немесе желіңізге қосылуға әрекет жасайтын бірінші клиентке кіру рұқсатын беруге болады.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -30418,6 +30418,23 @@
         "language" : "kk"
       }
     ],
+    "StepByStepStatus_ExtendWireless.4.AirPortExtreme" : [
+      {
+        "target" : "Esta AirPort Extreme se configurará para ampliar “%@”, “%@”, “%@” y “%@”.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Тази базова станция AirPort Extreme ще бъде настроена да разширява „%@“, „%@“, „%@“ и „%@“.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл AirPort Extreme станциясы «%@», «%@», «%@» және «%@» желісін кеңейту үшін бапталады.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "kk"
+      }
+    ],
     "syRe.103" : [
       {
         "target" : "Yibuti",
@@ -30466,23 +30483,6 @@
       {
         "target" : "1 күн",
         "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "StepByStepStatus_ExtendWireless.4.AirPortExtreme" : [
-      {
-        "target" : "Esta AirPort Extreme se configurará para ampliar “%@”, “%@”, “%@” y “%@”.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Тази базова станция AirPort Extreme ще бъде настроена да разширява „%@“, „%@“, „%@“ и „%@“.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бұл AirPort Extreme станциясы «%@», «%@», «%@» және «%@» желісін кеңейту үшін бапталады.",
-        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -30945,6 +30945,23 @@
         "language" : "kk"
       }
     ],
+    "prnR.count.0" : [
+      {
+        "target" : "Ninguno conectado",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Няма свързани",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Принтерлер қосылмаған",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
     "RadioSTAListOpmodeDWDS" : [
       {
         "target" : "Ampliador de alcance inalámbrico",
@@ -31013,23 +31030,6 @@
         "language" : "kk"
       }
     ],
-    "prnR.count.0" : [
-      {
-        "target" : "Ninguno conectado",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Няма свързани",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Принтерлер қосылмаған",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "WPSLimitClientAccess24Hours" : [
       {
         "target" : "Limitar el acceso del cliente a 24 horas",
@@ -31047,23 +31047,6 @@
         "language" : "kk"
       }
     ],
-    "ExtendingANonExtensibleNetwork.Specific" : [
-      {
-        "target" : "“%@” no se puede ampliar.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "„%@“ не може да се разшири.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "«%@» желісін кеңейту мүмкін емес.",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "syRe.25" : [
       {
         "target" : "Luxemburgo",
@@ -31077,6 +31060,23 @@
       },
       {
         "target" : "Люксембург",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "ExtendingANonExtensibleNetwork.Specific" : [
+      {
+        "target" : "“%@” no se puede ampliar.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "„%@“ не може да се разшири.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«%@» желісін кеңейту мүмкін емес.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -31744,6 +31744,23 @@
         "language" : "kk"
       }
     ],
+    "placeholder.notfound" : [
+      {
+        "target" : "No encontrado",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Не е намерено",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Табылмады",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
     "bs8M.1" : [
       {
         "target" : "Sólo 802.11b",
@@ -31774,23 +31791,6 @@
       },
       {
         "target" : "Шри-Ланка",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "placeholder.notfound" : [
-      {
-        "target" : "No encontrado",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Не е намерено",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Табылмады",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -31897,23 +31897,6 @@
         "language" : "kk"
       }
     ],
-    "raWC.1" : [
-      {
-        "target" : "Activado",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Активирано",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Қосылған",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "ipv4DNS.header" : [
       {
         "target" : "Servidor DNS",
@@ -31927,6 +31910,23 @@
       },
       {
         "target" : "DNS сервері",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "raWC.1" : [
+      {
+        "target" : "Activado",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Активирано",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қосылған",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -32169,19 +32169,19 @@
         "language" : "kk"
       }
     ],
-    "pubP.description" : [
+    "connectionStats.SignalStrength.format" : [
       {
-        "target" : "Esta estación base AirPort está protegida mediante la contraseña predeterminada. Es recomendable cambiar la contraseña para proteger la estación base AirPort.",
+        "target" : "%@ dBm",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Тази базова станция AirPort е защитена с паролата по подразбиране. Препоръчително е да промените паролата, за да защитите вашата базова станция AirPort.",
+        "target" : "%@ dBm",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бұл AirPort негізгі станциясы әдепкі құпиясөзбен қорғалған. AirPort негізгі станцияңызды қорғау үшін құпиясөзді өзгерту ұсынылады.",
+        "target" : "%@ дБм",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -32220,19 +32220,19 @@
         "language" : "kk"
       }
     ],
-    "connectionStats.SignalStrength.format" : [
+    "pubP.description" : [
       {
-        "target" : "%@ dBm",
+        "target" : "Esta estación base AirPort está protegida mediante la contraseña predeterminada. Es recomendable cambiar la contraseña para proteger la estación base AirPort.",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "%@ dBm",
+        "target" : "Тази базова станция AirPort е защитена с паролата по подразбиране. Препоръчително е да промените паролата, за да защитите вашата базова станция AirPort.",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "%@ дБм",
+        "target" : "Бұл AirPort негізгі станциясы әдепкі құпиясөзбен қорғалған. AirPort негізгі станцияңызды қорғау үшін құпиясөзді өзгерту ұсынылады.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -32339,20 +32339,20 @@
         "language" : "kk"
       }
     ],
-    "WPSClientMacAddress" : [
+    "AdminPasswordSectionTitle.Airplay" : [
       {
-        "target" : "Dirección MAC",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Contraseña del dispositivo",
+        "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "MAC адрес",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Парола на устройство",
+        "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "MAC мекенжайы",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Құрылғы құпиясөзі",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -32373,20 +32373,20 @@
         "language" : "kk"
       }
     ],
-    "AdminPasswordSectionTitle.Airplay" : [
+    "WPSClientMacAddress" : [
       {
-        "target" : "Contraseña del dispositivo",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Dirección MAC",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Парола на устройство",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "MAC адрес",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Құрылғы құпиясөзі",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "MAC мекенжайы",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -32594,20 +32594,20 @@
         "language" : "kk"
       }
     ],
-    "dhLe.7200" : [
+    "BasePasswordUsedForDisks" : [
       {
-        "target" : "2 horas",
-        "filename" : "AirPortSettings.strings",
+        "target" : "La contraseña de la estación base se usará para proteger los discos.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "2 часа",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Паролата за базовата станция ще се използва да защитава дискове.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "2 сағат",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Дискілерді қорғау үшін негізгі станцияның құпиясөзі қолданылады.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -32624,23 +32624,6 @@
       },
       {
         "target" : "Бұл негізгі станцияны алдыңғы «%@» желісіне қалпына келтіруге болады.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
-    "BasePasswordUsedForDisks" : [
-      {
-        "target" : "La contraseña de la estación base se usará para proteger los discos.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Паролата за базовата станция ще се използва да защитава дискове.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Дискілерді қорғау үшін негізгі станцияның құпиясөзі қолданылады.",
         "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
@@ -32679,19 +32662,19 @@
         "language" : "kk"
       }
     ],
-    "bsRC.136" : [
+    "dhLe.7200" : [
       {
-        "target" : "136",
+        "target" : "2 horas",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "136",
+        "target" : "2 часа",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "136",
+        "target" : "2 сағат",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -32709,6 +32692,23 @@
       },
       {
         "target" : "Доминика",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "bsRC.136" : [
+      {
+        "target" : "136",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "136",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "136",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -32849,23 +32849,6 @@
         "language" : "kk"
       }
     ],
-    "bsNM" : [
-      {
-        "target" : "Modo Wi-Fi",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Режим на Wi-Fi",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Wi-Fi режимі",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "fsck" : [
       {
         "target" : "Debe repararse el disco",
@@ -32879,6 +32862,23 @@
       },
       {
         "target" : "Дискіні жөндеу қажет",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "bsNM" : [
+      {
+        "target" : "Modo Wi-Fi",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Режим на Wi-Fi",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Wi-Fi режимі",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -33002,23 +33002,6 @@
         "language" : "kk"
       }
     ],
-    "bs8M.262145" : [
-      {
-        "target" : "802.11a - 802.11b",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "802.11a - 802.11b",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "802.11a — 802.11b",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "gErB" : [
       {
         "target" : "El valor para “%@” es demasiado corto.",
@@ -33036,20 +33019,37 @@
         "language" : "kk"
       }
     ],
-    "RequiredPlaceholder" : [
+    "bs8M.262145" : [
       {
-        "target" : "Obligatorio",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "802.11a - 802.11b",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Задължително",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "802.11a - 802.11b",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Міндетті",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "802.11a — 802.11b",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "vErr.wnSR" : [
+      {
+        "target" : "Tu dirección IP WAN no puede ser la misma que la dirección IP de tu router.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Вашият WAN IP адрес не може да бъде еднакъв с IP адреса на вашия рутер.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "WAN IP мекенжайы маршрутизатордың IP мекенжайымен бірдей болмауы керек.",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -33087,20 +33087,20 @@
         "language" : "kk"
       }
     ],
-    "vErr.wnSR" : [
+    "RequiredPlaceholder" : [
       {
-        "target" : "Tu dirección IP WAN no puede ser la misma que la dirección IP de tu router.",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Obligatorio",
+        "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Вашият WAN IP адрес не може да бъде еднакъв с IP адреса на вашия рутер.",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Задължително",
+        "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "WAN IP мекенжайы маршрутизатордың IP мекенжайымен бірдей болмауы керек.",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Міндетті",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -33308,19 +33308,19 @@
         "language" : "kk"
       }
     ],
-    "gErD" : [
+    "gnBg" : [
       {
-        "target" : "Esta estación base no admite la configuración “%@”.",
+        "target" : "Inicio del rango de la red de invitados",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Настройката „%@“ не се поддържа на тази базова станция.",
+        "target" : "Начало на обхвата за гости",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "«%@» реттеуіне бұл негізгі станцияда қолдау көрсетілмейді.",
+        "target" : "Қонақтар желісі ауқымының басы",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -33393,19 +33393,19 @@
         "language" : "kk"
       }
     ],
-    "gnBg" : [
+    "syRe" : [
       {
-        "target" : "Inicio del rango de la red de invitados",
+        "target" : "Región",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Начало на обхвата за гости",
+        "target" : "Регион",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Қонақтар желісі ауқымының басы",
+        "target" : "Аймақ",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -33444,19 +33444,19 @@
         "language" : "kk"
       }
     ],
-    "syRe" : [
+    "gErD" : [
       {
-        "target" : "Región",
+        "target" : "Esta estación base no admite la configuración “%@”.",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Регион",
+        "target" : "Настройката „%@“ не се поддържа на тази базова станция.",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Аймақ",
+        "target" : "«%@» реттеуіне бұл негізгі станцияда қолдау көрсетілмейді.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -33665,19 +33665,19 @@
         "language" : "kk"
       }
     ],
-    "BaseStationNotSupportedContinue" : [
+    "peAC" : [
       {
-        "target" : "Continuar",
+        "target" : "Conectar automáticamente",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Продължи",
+        "target" : "Автоматично свързване",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Жалғастыру",
+        "target" : "Автоматты түрде қосылу",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -33699,19 +33699,19 @@
         "language" : "kk"
       }
     ],
-    "peAC" : [
+    "BaseStationNotSupportedContinue" : [
       {
-        "target" : "Conectar automáticamente",
+        "target" : "Continuar",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Автоматично свързване",
+        "target" : "Продължи",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Автоматты түрде қосылу",
+        "target" : "Жалғастыру",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -33852,20 +33852,20 @@
         "language" : "kk"
       }
     ],
-    "gErG" : [
+    "KeychainBasePasswordRemember.message" : [
       {
-        "target" : "El valor para “%@” es demasiado bajo.",
-        "filename" : "AirPortSettings.strings",
+        "target" : "¿Guardar la contraseña de este dispositivo?",
+        "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Стойността за „%@“ е прекалено ниска.",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Помните ли паролата за това устройство?",
+        "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "«%@» өрісіндегі мән тым төмен.",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Осы құрылғы үшін құпиясөзді жадта сақтау қажет пе?",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -33886,20 +33886,20 @@
         "language" : "kk"
       }
     ],
-    "KeychainBasePasswordRemember.message" : [
+    "gErG" : [
       {
-        "target" : "¿Guardar la contraseña de este dispositivo?",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "El valor para “%@” es demasiado bajo.",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Помните ли паролата за това устройство?",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Стойността за „%@“ е прекалено ниска.",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Осы құрылғы үшін құпиясөзді жадта сақтау қажет пе?",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "«%@» өрісіндегі мән тым төмен.",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -34022,23 +34022,6 @@
         "language" : "kk"
       }
     ],
-    "StepByStepStatus_Join.AirPortExtreme" : [
-      {
-        "target" : "Esta AirPort Extreme se configurará para acceder a tu red.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Тази базова станция AirPort Extreme ще бъде настроена да се свърже към вашата мрежа.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бұл AirPort Extreme станциясы желіңізге қосылу үшін бапталады.",
-        "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
     "gErH" : [
       {
         "target" : "Hay demasiadas entradas en la tabla “%@”.",
@@ -34056,20 +34039,20 @@
         "language" : "kk"
       }
     ],
-    "WiFiPasswords" : [
+    "StepByStepStatus_Join.AirPortExtreme" : [
       {
-        "target" : "Contraseña Wi-Fi",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Esta AirPort Extreme se configurará para acceder a tu red.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Wi-Fi парола",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Тази базова станция AirPort Extreme ще бъде настроена да се свърже към вашата мрежа.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "bg"
       },
       {
-        "target" : "Wi-Fi құпиясөзі",
-        "filename" : "AirPortSettings.strings",
+        "target" : "Бұл AirPort Extreme станциясы желіңізге қосылу үшін бапталады.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -34086,6 +34069,23 @@
       },
       {
         "target" : "Құпиясөз",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "WiFiPasswords" : [
+      {
+        "target" : "Contraseña Wi-Fi",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Wi-Fi парола",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Wi-Fi құпиясөзі",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -34141,19 +34141,19 @@
         "language" : "kk"
       }
     ],
-    "vErr.acNS" : [
+    "name.enter" : [
       {
-        "target" : "Esta estación base no admite la selección automática de canales.",
+        "target" : "Ingresar nombre",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Автоматичният подбор на канали не се поддържа от тази базова станция.",
+        "target" : "Въведете име",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бұл негізгі станцияда арнаны авто таңдау әрекетіне қолдау көрсетілмейді.",
+        "target" : "Атын енгізіңіз",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -34175,19 +34175,19 @@
         "language" : "kk"
       }
     ],
-    "name.enter" : [
+    "vErr.acNS" : [
       {
-        "target" : "Ingresar nombre",
+        "target" : "Esta estación base no admite la selección automática de canales.",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Въведете име",
+        "target" : "Автоматичният подбор на канали не се поддържа от тази базова станция.",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Атын енгізіңіз",
+        "target" : "Бұл негізгі станцияда арнаны авто таңдау әрекетіне қолдау көрсетілмейді.",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -34243,19 +34243,19 @@
         "language" : "kk"
       }
     ],
-    "BTMMSigningIn" : [
+    "bs8M.5" : [
       {
-        "target" : "Conectándose…",
+        "target" : "802.11n (compatible con 802.11a)",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Влизане…",
+        "target" : "802.11n (802.11a съвместимо)",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Жүйеге кіру…",
+        "target" : "802.11n (802.11a үйлесімді)",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -34277,36 +34277,36 @@
         "language" : "kk"
       }
     ],
-    "bs8M.5" : [
+    "BTMMSigningIn" : [
       {
-        "target" : "802.11n (compatible con 802.11a)",
+        "target" : "Conectándose…",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "802.11n (802.11a съвместимо)",
+        "target" : "Влизане…",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "802.11n (802.11a үйлесімді)",
+        "target" : "Жүйеге кіру…",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
-    "bsRC.153" : [
+    "syRe.121" : [
       {
-        "target" : "153",
+        "target" : "Georgia",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "153",
+        "target" : "Грузия",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "153",
+        "target" : "Грузия",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -34328,19 +34328,19 @@
         "language" : "kk"
       }
     ],
-    "syRe.121" : [
+    "bsRC.153" : [
       {
-        "target" : "Georgia",
+        "target" : "153",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Грузия",
+        "target" : "153",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Грузия",
+        "target" : "153",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -34379,23 +34379,6 @@
         "language" : "kk"
       }
     ],
-    "sySt" : [
-      {
-        "target" : "Mensajes de estado",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Съобщения за състояние",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Күй хабарлары",
-        "filename" : "AirPortSettings.strings",
-        "language" : "kk"
-      }
-    ],
     "gErJ" : [
       {
         "target" : "Los valores de contraseña y verificación de contraseña de “%@” no coinciden.",
@@ -34427,6 +34410,23 @@
       {
         "target" : "Қолжетімді нұсқа",
         "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
+    "WillRestoreToWirelessDisabled.AirPortExpress" : [
+      {
+        "target" : "Esta AirPort Express se restaurará para desactivar la compatibilidad con Wi-Fi.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Тази базова станция AirPort Express ще бъде възстановена, за да се изключи поддържането на Wi-Fi.",
+        "filename" : "SetupRecommendations.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл AirPort Express станциясы Wi-Fi қолдауын өшіру үшін қалпына келтіріледі.",
+        "filename" : "SetupRecommendations.strings",
         "language" : "kk"
       }
     ],
@@ -34464,20 +34464,20 @@
         "language" : "kk"
       }
     ],
-    "WillRestoreToWirelessDisabled.AirPortExpress" : [
+    "sySt" : [
       {
-        "target" : "Esta AirPort Express se restaurará para desactivar la compatibilidad con Wi-Fi.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Mensajes de estado",
+        "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Тази базова станция AirPort Express ще бъде възстановена, за да се изключи поддържането на Wi-Fi.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Съобщения за състояние",
+        "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бұл AirPort Express станциясы Wi-Fi қолдауын өшіру үшін қалпына келтіріледі.",
-        "filename" : "SetupRecommendations.strings",
+        "target" : "Күй хабарлары",
+        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -34549,19 +34549,19 @@
         "language" : "kk"
       }
     ],
-    "Ifsc.description" : [
+    "raNm" : [
       {
-        "target" : "Hay un problema con el disco de tu AirPort Time Capsule.",
+        "target" : "Red",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Има проблем с диска на вашата базова станция AirPort Time Capsule.",
+        "target" : "Мрежа",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "AirPort Time Capsule дискісімен байланысты ақау табылды.",
+        "target" : "Желі",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
@@ -34634,6 +34634,23 @@
         "language" : "kk"
       }
     ],
+    "Ifsc.description" : [
+      {
+        "target" : "Hay un problema con el disco de tu AirPort Time Capsule.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Има проблем с диска на вашата базова станция AirPort Time Capsule.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "AirPort Time Capsule дискісімен байланысты ақау табылды.",
+        "filename" : "AirPortSettings.strings",
+        "language" : "kk"
+      }
+    ],
     "StepByStepStatus_ExtendWired.AirPortExtreme" : [
       {
         "target" : "Esta AirPort Extreme se configurará para ampliar “%@”.",
@@ -34648,23 +34665,6 @@
       {
         "target" : "Бұл AirPort Extreme станциясы «%@» желісін кеңейту үшін бапталады.",
         "filename" : "SetupRecommendations.strings",
-        "language" : "kk"
-      }
-    ],
-    "raNm" : [
-      {
-        "target" : "Red",
-        "filename" : "AirPortSettings.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Мрежа",
-        "filename" : "AirPortSettings.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Желі",
-        "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }
     ],
@@ -35025,19 +35025,19 @@
         "language" : "kk"
       }
     ],
-    "vErr.wwNS" : [
+    "syRe.171" : [
       {
-        "target" : "Esta estación base no admite el uso de WPA con WDS. Asegúrate de estar usando la versión más reciente del firmware.",
+        "target" : "Panamá",
         "filename" : "AirPortSettings.strings",
         "language" : "es_419"
       },
       {
-        "target" : "WPA с WDS не се поддържа от тази базова станция. Уверете се, че използвате последната версия на фърмуера.",
+        "target" : "Панама",
         "filename" : "AirPortSettings.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бұл негізгі станцияда WDS қосылған WPA рұқсатына қолдау көрсетілмейді. Соңғы микробағдарлама нұсқасының қолданылғанына көз жеткізіңіз.",
+        "target" : "Панама",
         "filename" : "AirPortSettings.strings",
         "language" : "kk"
       }

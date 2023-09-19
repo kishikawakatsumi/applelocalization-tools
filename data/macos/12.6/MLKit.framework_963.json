@@ -68,23 +68,6 @@
         "language" : "kk"
       }
     ],
-    "License" : [
-      {
-        "target" : "License",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Лиценз",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Лицензия",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "Recommendation" : [
       {
         "target" : "Recommendation",
@@ -119,6 +102,23 @@
         "language" : "kk"
       }
     ],
+    "License" : [
+      {
+        "target" : "License",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Лиценз",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Лицензия",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "Action Classification" : [
       {
         "target" : "Action Classification",
@@ -136,19 +136,19 @@
         "language" : "kk"
       }
     ],
-    "Unknown model type" : [
+    "Object Detection" : [
       {
-        "target" : "Unknown model type",
+        "target" : "Object Detection",
         "filename" : "Localizable.strings",
         "language" : "en"
       },
       {
-        "target" : "Неизвестен тип модел",
+        "target" : "Разпознаване на обект",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Белгісіз үлгі түрі",
+        "target" : "Объектіні анықтау",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -204,23 +204,6 @@
         "language" : "kk"
       }
     ],
-    "Image Classification" : [
-      {
-        "target" : "Image Classification",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Класификация на изображение",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Кескін классификациясы",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "Bert QA" : [
       {
         "target" : "Bert QA",
@@ -234,6 +217,23 @@
       },
       {
         "target" : "Bert QA",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "Image Classification" : [
+      {
+        "target" : "Image Classification",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Класификация на изображение",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Кескін классификациясы",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -255,6 +255,40 @@
         "language" : "kk"
       }
     ],
+    "Hand Action Classification" : [
+      {
+        "target" : "Hand Action Classification",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Класификация на действие с ръка",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қол әрекетінің классификациясы",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "Description" : [
+      {
+        "target" : "Description",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Описание",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Сипаттамасы",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "Layer Distribution" : [
       {
         "target" : "Layer Distribution",
@@ -272,53 +306,19 @@
         "language" : "kk"
       }
     ],
-    "Object Detection" : [
+    "Unknown model type" : [
       {
-        "target" : "Object Detection",
+        "target" : "Unknown model type",
         "filename" : "Localizable.strings",
         "language" : "en"
       },
       {
-        "target" : "Разпознаване на обект",
+        "target" : "Неизвестен тип модел",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Объектіні анықтау",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "Pose Estimation" : [
-      {
-        "target" : "Pose Estimation",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Оценка на поза",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Күйді бағалау",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "Hand Action Classification" : [
-      {
-        "target" : "Hand Action Classification",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Класификация на действие с ръка",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Қол әрекетінің классификациясы",
+        "target" : "Белгісіз үлгі түрі",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -357,19 +357,19 @@
         "language" : "kk"
       }
     ],
-    "Description" : [
+    "Pose Estimation" : [
       {
-        "target" : "Description",
+        "target" : "Pose Estimation",
         "filename" : "Localizable.strings",
         "language" : "en"
       },
       {
-        "target" : "Описание",
+        "target" : "Оценка на поза",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Сипаттамасы",
+        "target" : "Күйді бағалау",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -425,36 +425,19 @@
         "language" : "kk"
       }
     ],
-    "Activity Classification" : [
+    "Version" : [
       {
-        "target" : "Activity Classification",
+        "target" : "Version",
         "filename" : "Localizable.strings",
         "language" : "en"
       },
       {
-        "target" : "Класификация на активност",
+        "target" : "Версия",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Белсенділік классификациясы",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "Word Tagging" : [
-      {
-        "target" : "Word Tagging",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Обозначаване на думи",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Сөздерді тегпен белгілеу",
+        "target" : "Нұсқа",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -476,19 +459,36 @@
         "language" : "kk"
       }
     ],
-    "Version" : [
+    "Word Tagging" : [
       {
-        "target" : "Version",
+        "target" : "Word Tagging",
         "filename" : "Localizable.strings",
         "language" : "en"
       },
       {
-        "target" : "Версия",
+        "target" : "Обозначаване на думи",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Нұсқа",
+        "target" : "Сөздерді тегпен белгілеу",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "Activity Classification" : [
+      {
+        "target" : "Activity Classification",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Класификация на активност",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Белсенділік классификациясы",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }

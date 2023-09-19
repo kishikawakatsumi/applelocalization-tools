@@ -1,49 +1,19 @@
 {
   "localizations" : {
-    "kQPTokenFlagColorAction:kQPFlagColorAction:PROACTION:FlagColorStatus-6" : [
+    "3_3_ORDINAL_WEEKDAY" : [
       {
-        "target" : "gray",
-        "filename" : "MailCompletions.strings",
+        "target" : "3rd <date> of the month",
+        "filename" : "Dates.strings",
         "language" : "en"
       },
       {
-        "target" : "Gray",
-        "filename" : "MailTokens.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Gray",
-        "filename" : "MailSuggestions.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "сив",
-        "filename" : "MailCompletions.strings",
+        "target" : "3-ти <date> в месеца",
+        "filename" : "Dates.strings",
         "language" : "bg"
       },
       {
-        "target" : "Сив",
-        "filename" : "MailTokens.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Сив",
-        "filename" : "MailSuggestions.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "сұр",
-        "filename" : "MailCompletions.strings",
-        "language" : "kk"
-      },
-      {
-        "target" : "Сұр",
-        "filename" : "MailTokens.strings",
-        "language" : "kk"
-      },
-      {
-        "target" : "Сұр",
-        "filename" : "MailSuggestions.strings",
+        "target" : "Айдағы 3-<date>",
+        "filename" : "Dates.strings",
         "language" : "kk"
       }
     ],
@@ -926,6 +896,23 @@
         "language" : "kk"
       }
     ],
+    "TOKEN:kQPTokenMessage" : [
+      {
+        "target" : "File",
+        "filename" : "MailTokens.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Файл",
+        "filename" : "MailTokens.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Файл",
+        "filename" : "MailTokens.strings",
+        "language" : "kk"
+      }
+    ],
     "kQPTokenAttachment:kQPAttachedKind:PROATTACHED:KindSpreadsheetFormatNumbers" : [
       {
         "target" : "Numbers",
@@ -969,53 +956,6 @@
       },
       {
         "target" : "Numbers тіркемелері",
-        "filename" : "MailSuggestions.strings",
-        "language" : "kk"
-      }
-    ],
-    "kQPTokenDate:kQPDate:ANYDATE:RelativeThisYearDate" : [
-      {
-        "target" : "this year | year",
-        "filename" : "MailCompletions.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "This Year",
-        "filename" : "MailTokens.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "This Year",
-        "filename" : "MailSuggestions.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "тази година | година",
-        "filename" : "MailCompletions.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Тази година",
-        "filename" : "MailTokens.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Тази година",
-        "filename" : "MailSuggestions.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "осы жыл | жыл",
-        "filename" : "MailCompletions.strings",
-        "language" : "kk"
-      },
-      {
-        "target" : "Осы жыл",
-        "filename" : "MailTokens.strings",
-        "language" : "kk"
-      },
-      {
-        "target" : "Осы жыл",
         "filename" : "MailSuggestions.strings",
         "language" : "kk"
       }
@@ -1101,20 +1041,50 @@
         "language" : "kk"
       }
     ],
-    "TOKEN:kQPTokenMessage" : [
+    "kQPTokenDate:kQPDate:ANYDATE:RelativeThisYearDate" : [
       {
-        "target" : "File",
+        "target" : "this year | year",
+        "filename" : "MailCompletions.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "This Year",
         "filename" : "MailTokens.strings",
         "language" : "en"
       },
       {
-        "target" : "Файл",
+        "target" : "This Year",
+        "filename" : "MailSuggestions.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "тази година | година",
+        "filename" : "MailCompletions.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Тази година",
         "filename" : "MailTokens.strings",
         "language" : "bg"
       },
       {
-        "target" : "Файл",
+        "target" : "Тази година",
+        "filename" : "MailSuggestions.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "осы жыл | жыл",
+        "filename" : "MailCompletions.strings",
+        "language" : "kk"
+      },
+      {
+        "target" : "Осы жыл",
         "filename" : "MailTokens.strings",
+        "language" : "kk"
+      },
+      {
+        "target" : "Осы жыл",
+        "filename" : "MailSuggestions.strings",
         "language" : "kk"
       }
     ],
@@ -1677,23 +1647,6 @@
         "language" : "kk"
       }
     ],
-    "2_6_ORDINAL_WEEKDAY" : [
-      {
-        "target" : "2nd <date> of the month",
-        "filename" : "Dates.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "2-ри <date> в месеца",
-        "filename" : "Dates.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Айдағы 2-<date>",
-        "filename" : "Dates.strings",
-        "language" : "kk"
-      }
-    ],
     "kQPTokenAttachment:kQPAttachedKind:PROATTACHED:KindVideoFormatMp4" : [
       {
         "target" : "MP4",
@@ -1738,6 +1691,23 @@
       {
         "target" : "MP4 тіркемелері",
         "filename" : "MailSuggestions.strings",
+        "language" : "kk"
+      }
+    ],
+    "2_6_ORDINAL_WEEKDAY" : [
+      {
+        "target" : "2nd <date> of the month",
+        "filename" : "Dates.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "2-ри <date> в месеца",
+        "filename" : "Dates.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Айдағы 2-<date>",
+        "filename" : "Dates.strings",
         "language" : "kk"
       }
     ],
@@ -1988,23 +1958,6 @@
         "language" : "kk"
       }
     ],
-    "THIS_SECOND" : [
-      {
-        "target" : "This Second",
-        "filename" : "Dates.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Тази секунда",
-        "filename" : "Dates.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Осы секунд",
-        "filename" : "Dates.strings",
-        "language" : "kk"
-      }
-    ],
     "2_3_ORDINAL_WEEKDAY" : [
       {
         "target" : "2nd <date> of the month",
@@ -2035,6 +1988,23 @@
       },
       {
         "target" : "%1$@, %2$@",
+        "filename" : "Dates.strings",
+        "language" : "kk"
+      }
+    ],
+    "THIS_SECOND" : [
+      {
+        "target" : "This Second",
+        "filename" : "Dates.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Тази секунда",
+        "filename" : "Dates.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Осы секунд",
         "filename" : "Dates.strings",
         "language" : "kk"
       }
@@ -2730,23 +2700,6 @@
         "language" : "kk"
       }
     ],
-    "EVERY_TWO_MORNINGS" : [
-      {
-        "target" : "Every Other Morning",
-        "filename" : "Dates.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "През една сутрин",
-        "filename" : "Dates.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Әр екінші күні таңертең",
-        "filename" : "Dates.strings",
-        "language" : "kk"
-      }
-    ],
     "NOW" : [
       {
         "target" : "Right Now",
@@ -2760,6 +2713,23 @@
       },
       {
         "target" : "Дәл қазір",
+        "filename" : "Dates.strings",
+        "language" : "kk"
+      }
+    ],
+    "EVERY_TWO_MORNINGS" : [
+      {
+        "target" : "Every Other Morning",
+        "filename" : "Dates.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "През една сутрин",
+        "filename" : "Dates.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Әр екінші күні таңертең",
         "filename" : "Dates.strings",
         "language" : "kk"
       }
@@ -2811,53 +2781,6 @@
         "language" : "kk"
       }
     ],
-    "kQPTokenDate:kQPDate:ANYDATE:RelativeMonthDate5" : [
-      {
-        "target" : "may",
-        "filename" : "MailCompletions.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "May",
-        "filename" : "MailTokens.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "May",
-        "filename" : "MailSuggestions.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "май",
-        "filename" : "MailCompletions.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Май",
-        "filename" : "MailTokens.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Май",
-        "filename" : "MailSuggestions.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "мамыр",
-        "filename" : "MailCompletions.strings",
-        "language" : "kk"
-      },
-      {
-        "target" : "Мамыр",
-        "filename" : "MailTokens.strings",
-        "language" : "kk"
-      },
-      {
-        "target" : "Мамыр",
-        "filename" : "MailSuggestions.strings",
-        "language" : "kk"
-      }
-    ],
     "kQPTokenAttachment:kQPAttachedKind:PROATTACHED:KindFileFormatTar" : [
       {
         "target" : "tar files",
@@ -2901,6 +2824,53 @@
       },
       {
         "target" : "Тіркелген TAR файлдары",
+        "filename" : "MailSuggestions.strings",
+        "language" : "kk"
+      }
+    ],
+    "kQPTokenDate:kQPDate:ANYDATE:RelativeMonthDate5" : [
+      {
+        "target" : "may",
+        "filename" : "MailCompletions.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "May",
+        "filename" : "MailTokens.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "May",
+        "filename" : "MailSuggestions.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "май",
+        "filename" : "MailCompletions.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Май",
+        "filename" : "MailTokens.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Май",
+        "filename" : "MailSuggestions.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "мамыр",
+        "filename" : "MailCompletions.strings",
+        "language" : "kk"
+      },
+      {
+        "target" : "Мамыр",
+        "filename" : "MailTokens.strings",
+        "language" : "kk"
+      },
+      {
+        "target" : "Мамыр",
         "filename" : "MailSuggestions.strings",
         "language" : "kk"
       }
@@ -3016,20 +2986,20 @@
         "language" : "kk"
       }
     ],
-    "TOKEN:kQPTokenAttachmentAny" : [
+    "3_7_ORDINAL_WEEKDAY" : [
       {
-        "target" : "Attach.",
-        "filename" : "MailTokens.strings",
+        "target" : "3rd <date> of the month",
+        "filename" : "Dates.strings",
         "language" : "en"
       },
       {
-        "target" : "Прикач.",
-        "filename" : "MailTokens.strings",
+        "target" : "3-та <date> в месеца",
+        "filename" : "Dates.strings",
         "language" : "bg"
       },
       {
-        "target" : "Тіркеме",
-        "filename" : "MailTokens.strings",
+        "target" : "Айдағы 3-<date>",
+        "filename" : "Dates.strings",
         "language" : "kk"
       }
     ],
@@ -3046,23 +3016,6 @@
       },
       {
         "target" : "Айдағы %d-<date>",
-        "filename" : "Dates.strings",
-        "language" : "kk"
-      }
-    ],
-    "3_7_ORDINAL_WEEKDAY" : [
-      {
-        "target" : "3rd <date> of the month",
-        "filename" : "Dates.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "3-та <date> в месеца",
-        "filename" : "Dates.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Айдағы 3-<date>",
         "filename" : "Dates.strings",
         "language" : "kk"
       }
@@ -3111,6 +3064,23 @@
       {
         "target" : "Оқылмаған хабар",
         "filename" : "MailSuggestions.strings",
+        "language" : "kk"
+      }
+    ],
+    "TOKEN:kQPTokenAttachmentAny" : [
+      {
+        "target" : "Attach.",
+        "filename" : "MailTokens.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Прикач.",
+        "filename" : "MailTokens.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Тіркеме",
+        "filename" : "MailTokens.strings",
         "language" : "kk"
       }
     ],
@@ -3208,6 +3178,23 @@
         "language" : "kk"
       }
     ],
+    "LAST_YEAR" : [
+      {
+        "target" : "Last Year",
+        "filename" : "Dates.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Последна година",
+        "filename" : "Dates.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Өткен жылы",
+        "filename" : "Dates.strings",
+        "language" : "kk"
+      }
+    ],
     "kQPTokenAttachment:kQPAttachedKind:PROATTACHED:KindAudioFormatAac" : [
       {
         "target" : "AAC",
@@ -3268,23 +3255,6 @@
       },
       {
         "target" : "Айдағы 2-<date>",
-        "filename" : "Dates.strings",
-        "language" : "kk"
-      }
-    ],
-    "LAST_YEAR" : [
-      {
-        "target" : "Last Year",
-        "filename" : "Dates.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Последна година",
-        "filename" : "Dates.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Өткен жылы",
         "filename" : "Dates.strings",
         "language" : "kk"
       }
@@ -3532,50 +3502,20 @@
         "language" : "kk"
       }
     ],
-    "kQPTokenDate:kQPDate:ANYDATE:RelativeMonthDate7" : [
+    "1_7_ORDINAL_WEEKDAY" : [
       {
-        "target" : "july",
-        "filename" : "MailCompletions.strings",
+        "target" : "1st <date> of the month",
+        "filename" : "Dates.strings",
         "language" : "en"
       },
       {
-        "target" : "July",
-        "filename" : "MailTokens.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "July",
-        "filename" : "MailSuggestions.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "юли",
-        "filename" : "MailCompletions.strings",
+        "target" : "1-ва <date> в месеца",
+        "filename" : "Dates.strings",
         "language" : "bg"
       },
       {
-        "target" : "Юли",
-        "filename" : "MailTokens.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Юли",
-        "filename" : "MailSuggestions.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "шілде",
-        "filename" : "MailCompletions.strings",
-        "language" : "kk"
-      },
-      {
-        "target" : "Шілде",
-        "filename" : "MailTokens.strings",
-        "language" : "kk"
-      },
-      {
-        "target" : "Шілде",
-        "filename" : "MailSuggestions.strings",
+        "target" : "Айдағы 1-<date>",
+        "filename" : "Dates.strings",
         "language" : "kk"
       }
     ],
@@ -3741,20 +3681,50 @@
         "language" : "kk"
       }
     ],
-    "1_7_ORDINAL_WEEKDAY" : [
+    "kQPTokenDate:kQPDate:ANYDATE:RelativeMonthDate7" : [
       {
-        "target" : "1st <date> of the month",
-        "filename" : "Dates.strings",
+        "target" : "july",
+        "filename" : "MailCompletions.strings",
         "language" : "en"
       },
       {
-        "target" : "1-ва <date> в месеца",
-        "filename" : "Dates.strings",
+        "target" : "July",
+        "filename" : "MailTokens.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "July",
+        "filename" : "MailSuggestions.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "юли",
+        "filename" : "MailCompletions.strings",
         "language" : "bg"
       },
       {
-        "target" : "Айдағы 1-<date>",
-        "filename" : "Dates.strings",
+        "target" : "Юли",
+        "filename" : "MailTokens.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Юли",
+        "filename" : "MailSuggestions.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "шілде",
+        "filename" : "MailCompletions.strings",
+        "language" : "kk"
+      },
+      {
+        "target" : "Шілде",
+        "filename" : "MailTokens.strings",
+        "language" : "kk"
+      },
+      {
+        "target" : "Шілде",
+        "filename" : "MailSuggestions.strings",
         "language" : "kk"
       }
     ],
@@ -3789,6 +3759,53 @@
       {
         "target" : "Әр екінші күні түсте",
         "filename" : "Dates.strings",
+        "language" : "kk"
+      }
+    ],
+    "kQPTokenDate:kQPDate:ANYDATE:RelativeThisMonthDate" : [
+      {
+        "target" : "this month | month",
+        "filename" : "MailCompletions.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "This Month",
+        "filename" : "MailTokens.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "This Month",
+        "filename" : "MailSuggestions.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "този месец | месец",
+        "filename" : "MailCompletions.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Този месец",
+        "filename" : "MailTokens.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Този месец",
+        "filename" : "MailSuggestions.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "осы ай | ай",
+        "filename" : "MailCompletions.strings",
+        "language" : "kk"
+      },
+      {
+        "target" : "Осы ай",
+        "filename" : "MailTokens.strings",
+        "language" : "kk"
+      },
+      {
+        "target" : "Осы ай",
+        "filename" : "MailSuggestions.strings",
         "language" : "kk"
       }
     ],
@@ -3853,53 +3870,6 @@
       {
         "target" : "Басқа",
         "filename" : "MailTokens.strings",
-        "language" : "kk"
-      }
-    ],
-    "kQPTokenDate:kQPDate:ANYDATE:RelativeThisMonthDate" : [
-      {
-        "target" : "this month | month",
-        "filename" : "MailCompletions.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "This Month",
-        "filename" : "MailTokens.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "This Month",
-        "filename" : "MailSuggestions.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "този месец | месец",
-        "filename" : "MailCompletions.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Този месец",
-        "filename" : "MailTokens.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Този месец",
-        "filename" : "MailSuggestions.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "осы ай | ай",
-        "filename" : "MailCompletions.strings",
-        "language" : "kk"
-      },
-      {
-        "target" : "Осы ай",
-        "filename" : "MailTokens.strings",
-        "language" : "kk"
-      },
-      {
-        "target" : "Осы ай",
-        "filename" : "MailSuggestions.strings",
         "language" : "kk"
       }
     ],
@@ -4116,23 +4086,6 @@
         "language" : "kk"
       }
     ],
-    "LAST_WEEK" : [
-      {
-        "target" : "Last Week",
-        "filename" : "Dates.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Последна седмица",
-        "filename" : "Dates.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Өткен апта",
-        "filename" : "Dates.strings",
-        "language" : "kk"
-      }
-    ],
     "kQPTokenAttachmentAny:kQPAttachment:PROATTACHMOD:KindAttachment" : [
       {
         "target" : "attachments",
@@ -4177,6 +4130,23 @@
       {
         "target" : "Тіркемелері бар хабар",
         "filename" : "MailSuggestions.strings",
+        "language" : "kk"
+      }
+    ],
+    "LAST_WEEK" : [
+      {
+        "target" : "Last Week",
+        "filename" : "Dates.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Последна седмица",
+        "filename" : "Dates.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Өткен апта",
+        "filename" : "Dates.strings",
         "language" : "kk"
       }
     ],
@@ -5313,20 +5283,50 @@
         "language" : "kk"
       }
     ],
-    "3_3_ORDINAL_WEEKDAY" : [
+    "kQPTokenFlagColorAction:kQPFlagColorAction:PROACTION:FlagColorStatus-6" : [
       {
-        "target" : "3rd <date> of the month",
-        "filename" : "Dates.strings",
+        "target" : "gray",
+        "filename" : "MailCompletions.strings",
         "language" : "en"
       },
       {
-        "target" : "3-ти <date> в месеца",
-        "filename" : "Dates.strings",
+        "target" : "Gray",
+        "filename" : "MailTokens.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Gray",
+        "filename" : "MailSuggestions.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "сив",
+        "filename" : "MailCompletions.strings",
         "language" : "bg"
       },
       {
-        "target" : "Айдағы 3-<date>",
-        "filename" : "Dates.strings",
+        "target" : "Сив",
+        "filename" : "MailTokens.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Сив",
+        "filename" : "MailSuggestions.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "сұр",
+        "filename" : "MailCompletions.strings",
+        "language" : "kk"
+      },
+      {
+        "target" : "Сұр",
+        "filename" : "MailTokens.strings",
+        "language" : "kk"
+      },
+      {
+        "target" : "Сұр",
+        "filename" : "MailSuggestions.strings",
         "language" : "kk"
       }
     ]

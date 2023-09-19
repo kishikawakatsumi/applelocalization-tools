@@ -28,6 +28,13 @@
         "language" : "en"
       }
     ],
+    "Binding" : [
+      {
+        "target" : "Binding",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Err4-R" : [
       {
         "target" : "The plug-in may be damaged and may need to be reinstalled.",
@@ -43,13 +50,6 @@
     "Instance method" : [
       {
         "target" : "Instance method",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Binding" : [
-      {
-        "target" : "Binding",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -73,13 +73,6 @@
         "language" : "en"
       }
     ],
-    "Protocol" : [
-      {
-        "target" : "Protocol",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Err1-C" : [
       {
         "target" : "Scanning for plug-ins failed.",
@@ -89,6 +82,13 @@
       {
         "target" : "Invalid destination device type.",
         "filename" : "DVTDeviceErrors.strings",
+        "language" : "en"
+      }
+    ],
+    "Protocol" : [
+      {
+        "target" : "Protocol",
+        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -196,6 +196,13 @@
         "language" : "en"
       }
     ],
+    "iphonesimulator" : [
+      {
+        "target" : "iOS Simulator",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "unknownSDK" : [
       {
         "target" : "Unknown OS",
@@ -207,13 +214,6 @@
       {
         "target" : "For best performance, check permissions on your cache directory and ensure Xcode can write its plug-in cache file.",
         "filename" : "DeveloperToolsPlugInErrors.strings",
-        "language" : "en"
-      }
-    ],
-    "iphonesimulator" : [
-      {
-        "target" : "iOS Simulator",
-        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -229,18 +229,6 @@
         "language" : "en"
       }
     ],
-    "Err2-C" : [
-      {
-        "target" : "Loading a plug-in failed.",
-        "filename" : "DeveloperToolsPlugInErrors.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Unsupported architecture.",
-        "filename" : "DVTDeviceErrors.strings",
-        "language" : "en"
-      }
-    ],
     "Err7" : [
       {
         "target" : "Components required by Xcode are missing or damaged.",
@@ -249,6 +237,18 @@
       },
       {
         "target" : "The device type “%1$@” requires that either “%2$@” or “%3$@” be specified, but not both.",
+        "filename" : "DVTDeviceErrors.strings",
+        "language" : "en"
+      }
+    ],
+    "Err2-C" : [
+      {
+        "target" : "Loading a plug-in failed.",
+        "filename" : "DeveloperToolsPlugInErrors.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Unsupported architecture.",
         "filename" : "DVTDeviceErrors.strings",
         "language" : "en"
       }
@@ -312,6 +312,13 @@
         "language" : "en"
       }
     ],
+    "Class" : [
+      {
+        "target" : "Class",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "%@: failed attempting to match %@" : [
       {
         "target" : "%1$@: failed attempting to match %2$@",
@@ -319,16 +326,9 @@
         "language" : "en"
       }
     ],
-    "macosx" : [
+    "Typedef" : [
       {
-        "target" : "OS X",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Class" : [
-      {
-        "target" : "Class",
+        "target" : "Typedef",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -392,9 +392,9 @@
         "language" : "en"
       }
     ],
-    "Typedef" : [
+    "macosx" : [
       {
-        "target" : "Typedef",
+        "target" : "OS X",
         "filename" : "Localizable.strings",
         "language" : "en"
       }

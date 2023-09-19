@@ -1,8 +1,8 @@
 {
   "localizations" : {
-    "MLModelType_oneHotEncoder" : [
+    "MLModelType_arrayFeatureExtractor" : [
       {
-        "target" : "One-hot Encoder",
+        "target" : "Array Feature Extractor",
         "filename" : "coremlcompiler.strings",
         "language" : "en"
       }
@@ -63,16 +63,16 @@
         "language" : "en"
       }
     ],
-    "MLModelType_treeEnsembleClassifier" : [
+    "MLModelType_mlProgram" : [
       {
-        "target" : "Tree Ensemble Classifier",
+        "target" : "ML Program",
         "filename" : "coremlcompiler.strings",
         "language" : "en"
       }
     ],
-    "MLModelType_categoricalImputer" : [
+    "MLModelType_treeEnsembleClassifier" : [
       {
-        "target" : "Categorical Imputer",
+        "target" : "Tree Ensemble Classifier",
         "filename" : "coremlcompiler.strings",
         "language" : "en"
       }
@@ -84,9 +84,9 @@
         "language" : "en"
       }
     ],
-    "MLModelType_mlProgram" : [
+    "MLModelType_categoricalImputer" : [
       {
-        "target" : "ML Program",
+        "target" : "Categorical Imputer",
         "filename" : "coremlcompiler.strings",
         "language" : "en"
       }
@@ -126,16 +126,16 @@
         "language" : "en"
       }
     ],
-    "MLModelType_neuralNetwork" : [
+    "MLModelType_pipelineClassifier" : [
       {
-        "target" : "Neural Network",
+        "target" : "Pipeline Classifier",
         "filename" : "coremlcompiler.strings",
         "language" : "en"
       }
     ],
-    "MLModelType_pipelineClassifier" : [
+    "MLModelType_neuralNetwork" : [
       {
-        "target" : "Pipeline Classifier",
+        "target" : "Neural Network",
         "filename" : "coremlcompiler.strings",
         "language" : "en"
       }
@@ -147,13 +147,6 @@
         "language" : "en"
       }
     ],
-    "MLModelType_numericalImputer" : [
-      {
-        "target" : "Numerical Imputer",
-        "filename" : "coremlcompiler.strings",
-        "language" : "en"
-      }
-    ],
     "MLModelType_glmClassifier" : [
       {
         "target" : "Generalized Linear Classifier",
@@ -161,16 +154,9 @@
         "language" : "en"
       }
     ],
-    "MLModelType_supportVectorClassifier" : [
+    "MLModelType_treeEnsembleRegressor" : [
       {
-        "target" : "Support Vector Classifier",
-        "filename" : "coremlcompiler.strings",
-        "language" : "en"
-      }
-    ],
-    "MLModelType_arrayFeatureExtractor" : [
-      {
-        "target" : "Array Feature Extractor",
+        "target" : "Tree Ensemble Regressor",
         "filename" : "coremlcompiler.strings",
         "language" : "en"
       }
@@ -182,9 +168,23 @@
         "language" : "en"
       }
     ],
-    "MLModelType_treeEnsembleRegressor" : [
+    "MLModelType_supportVectorClassifier" : [
       {
-        "target" : "Tree Ensemble Regressor",
+        "target" : "Support Vector Classifier",
+        "filename" : "coremlcompiler.strings",
+        "language" : "en"
+      }
+    ],
+    "MLModelType_numericalImputer" : [
+      {
+        "target" : "Numerical Imputer",
+        "filename" : "coremlcompiler.strings",
+        "language" : "en"
+      }
+    ],
+    "MLModelType_oneHotEncoder" : [
+      {
+        "target" : "One-hot Encoder",
         "filename" : "coremlcompiler.strings",
         "language" : "en"
       }

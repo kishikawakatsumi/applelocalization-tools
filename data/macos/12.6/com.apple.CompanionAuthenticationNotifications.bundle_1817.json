@@ -1,17 +1,5 @@
 {
   "localizations" : {
-    "APP_SIGN_IN_BODY_IPAD" : [
-      {
-        "target" : "Използвайте вашия iPad, за да влезете в „%@“.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "«%@» құрылғысына кіру үшін iPad құрылғыңызды пайдаланыңыз.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "GENERIC_BODY_IPOD TOUCH" : [
       {
         "target" : "Използвайте вашия iPod touch, за да потвърдите на „%@“.",
@@ -24,14 +12,26 @@
         "language" : "kk"
       }
     ],
-    "APP_SIGN_IN_TITLE" : [
+    "PHOTOS_BODY_IPOD TOUCH" : [
       {
-        "target" : "Вход в %@",
+        "target" : "Използвайте вашия iPod touch, за да потвърдите, че искате достъп до снимките от „%@“ на „%@“.",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "%@ қолданбасына кіру",
+        "target" : "%@ атты пайдаланушының «%@» құрылғысындағы фотоларына қол жеткізу қажеттігін растау үшін iPod touch құрылғыңызды пайдаланыңыз.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "RECOGNIZE_MY_VOICE_TITLE" : [
+      {
+        "target" : "Разпознавай гласа ми",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Дауысымды тану",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -144,18 +144,6 @@
         "language" : "kk"
       }
     ],
-    "APP_SIGN_IN_BODY_IPHONE" : [
-      {
-        "target" : "Използвайте вашия iPhone, за да влезете в „%@“.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "«%@» құрылғысына кіру үшін iPhone құрылғыңызды пайдаланыңыз.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "PHOTOS_TITLE" : [
       {
         "target" : "Потвърждаване в приложението Снимки",
@@ -164,6 +152,18 @@
       },
       {
         "target" : "«Фотолар» қолданбасында растау",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "APP_SIGN_IN_BODY_IPHONE" : [
+      {
+        "target" : "Използвайте вашия iPhone, за да влезете в „%@“.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«%@» құрылғысына кіру үшін iPhone құрылғыңызды пайдаланыңыз.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -276,18 +276,6 @@
         "language" : "kk"
       }
     ],
-    "PHOTOS_BODY_IPAD" : [
-      {
-        "target" : "Използвайте вашия iPad, за да потвърдите, че искате достъп до снимките от „%@“ на „%@“.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%@ атты пайдаланушының «%@» құрылғысындағы фотоларына қол жеткізу қажеттігін растау үшін iPad құрылғыңызды пайдаланыңыз.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "CFBundleDisplayName" : [
       {
         "target" : "Вход в Apple TV",
@@ -297,6 +285,18 @@
       {
         "target" : "Apple TV–ге кіру",
         "filename" : "InfoPlist.strings",
+        "language" : "kk"
+      }
+    ],
+    "PHOTOS_BODY_IPAD" : [
+      {
+        "target" : "Използвайте вашия iPad, за да потвърдите, че искате достъп до снимките от „%@“ на „%@“.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%@ атты пайдаланушының «%@» құрылғысындағы фотоларына қол жеткізу қажеттігін растау үшін iPad құрылғыңызды пайдаланыңыз.",
+        "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],
@@ -336,14 +336,14 @@
         "language" : "kk"
       }
     ],
-    "RECOGNIZE_MY_VOICE_TITLE" : [
+    "APP_SIGN_IN_TITLE" : [
       {
-        "target" : "Разпознавай гласа ми",
+        "target" : "Вход в %@",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Дауысымды тану",
+        "target" : "%@ қолданбасына кіру",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -360,14 +360,14 @@
         "language" : "kk"
       }
     ],
-    "PHOTOS_BODY_IPOD TOUCH" : [
+    "APP_SIGN_IN_BODY_IPAD" : [
       {
-        "target" : "Използвайте вашия iPod touch, за да потвърдите, че искате достъп до снимките от „%@“ на „%@“.",
+        "target" : "Използвайте вашия iPad, за да влезете в „%@“.",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "%@ атты пайдаланушының «%@» құрылғысындағы фотоларына қол жеткізу қажеттігін растау үшін iPod touch құрылғыңызды пайдаланыңыз.",
+        "target" : "«%@» құрылғысына кіру үшін iPad құрылғыңызды пайдаланыңыз.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }

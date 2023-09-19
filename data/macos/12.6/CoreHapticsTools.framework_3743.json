@@ -35,16 +35,16 @@
         "language" : "en"
       }
     ],
-    "AUDIO_SECTION_LABEL" : [
+    "MISSING_AUDIO_REFS_SEVERAL" : [
       {
-        "target" : "Audio - %@",
+        "target" : "Some audio references could not be loaded: %@",
         "filename" : "CHTStrings.strings",
         "language" : "en"
       }
     ],
-    "MISSING_AUDIO_REFS_SEVERAL" : [
+    "AUDIO_SECTION_LABEL" : [
       {
-        "target" : "Some audio references could not be loaded: %@",
+        "target" : "Audio - %@",
         "filename" : "CHTStrings.strings",
         "language" : "en"
       }
@@ -63,6 +63,13 @@
         "language" : "en"
       }
     ],
+    "INVALID_EVENT_TIME_ERROR" : [
+      {
+        "target" : "An event in this pattern has an invalid Time.",
+        "filename" : "CHTStrings.strings",
+        "language" : "en"
+      }
+    ],
     "INTENSITY_LABEL" : [
       {
         "target" : "Intensity",
@@ -77,23 +84,9 @@
         "language" : "en"
       }
     ],
-    "INVALID_EVENT_TIME_ERROR" : [
-      {
-        "target" : "An event in this pattern has an invalid Time.",
-        "filename" : "CHTStrings.strings",
-        "language" : "en"
-      }
-    ],
     "INVALID_EVENT_TYPE_ERROR" : [
       {
         "target" : "An event in this pattern has an invalid EventType.",
-        "filename" : "CHTStrings.strings",
-        "language" : "en"
-      }
-    ],
-    "AUDIO_CONTINUOUS_LABEL" : [
-      {
-        "target" : "Continuous",
         "filename" : "CHTStrings.strings",
         "language" : "en"
       }
@@ -105,9 +98,23 @@
         "language" : "en"
       }
     ],
+    "AUDIO_CONTINUOUS_LABEL" : [
+      {
+        "target" : "Continuous",
+        "filename" : "CHTStrings.strings",
+        "language" : "en"
+      }
+    ],
     "UNSUPPORTED_DEVICE_ERROR" : [
       {
         "target" : "This device does not support CoreHaptics.",
+        "filename" : "CHTStrings.strings",
+        "language" : "en"
+      }
+    ],
+    "ACCESSIBILITY_AUDIO_CONTINUOUS" : [
+      {
+        "target" : "Audio Continuous Track showing C H Haptic Audio Continuous events",
         "filename" : "CHTStrings.strings",
         "language" : "en"
       }
@@ -119,13 +126,6 @@
         "language" : "en"
       }
     ],
-    "INVALID_EVENT_DURATION_ERROR" : [
-      {
-        "target" : "An event in this pattern has an invalid Duration.",
-        "filename" : "CHTStrings.strings",
-        "language" : "en"
-      }
-    ],
     "AUDIO_CUSTOM_LABEL" : [
       {
         "target" : "Custom",
@@ -133,9 +133,9 @@
         "language" : "en"
       }
     ],
-    "ACCESSIBILITY_AUDIO_CONTINUOUS" : [
+    "INVALID_EVENT_DURATION_ERROR" : [
       {
-        "target" : "Audio Continuous Track showing C H Haptic Audio Continuous events",
+        "target" : "An event in this pattern has an invalid Duration.",
         "filename" : "CHTStrings.strings",
         "language" : "en"
       }
@@ -161,16 +161,16 @@
         "language" : "en"
       }
     ],
-    "TRANSIENT_LEGEND_FORMATTER" : [
+    "INVALID_EVENT_PARAMETER_ERROR" : [
       {
-        "target" : "%@ {{transient_legend_box}}",
+        "target" : "An event in this pattern has an invalid EventParameter.",
         "filename" : "CHTStrings.strings",
         "language" : "en"
       }
     ],
-    "NOT_SUPPORTED_ERROR" : [
+    "TRANSIENT_LEGEND_FORMATTER" : [
       {
-        "target" : "This pattern uses an unsupported AHAP version.",
+        "target" : "%@ {{transient_legend_box}}",
         "filename" : "CHTStrings.strings",
         "language" : "en"
       }
@@ -182,6 +182,13 @@
         "language" : "en"
       }
     ],
+    "BAD_EVENT_ENTRY_ERROR" : [
+      {
+        "target" : "This pattern contains an invalid Event.",
+        "filename" : "CHTStrings.strings",
+        "language" : "en"
+      }
+    ],
     "LEGACY_PARSING_ERROR" : [
       {
         "target" : "This pattern is using an unsupported format.",
@@ -189,16 +196,9 @@
         "language" : "en"
       }
     ],
-    "INVALID_EVENT_PARAMETER_ERROR" : [
+    "NOT_SUPPORTED_ERROR" : [
       {
-        "target" : "An event in this pattern has an invalid EventParameter.",
-        "filename" : "CHTStrings.strings",
-        "language" : "en"
-      }
-    ],
-    "BAD_EVENT_ENTRY_ERROR" : [
-      {
-        "target" : "This pattern contains an invalid Event.",
+        "target" : "This pattern uses an unsupported AHAP version.",
         "filename" : "CHTStrings.strings",
         "language" : "en"
       }

@@ -1,17 +1,5 @@
 {
   "localizations" : {
-    "SAVE_DRAFT_CHOICE" : [
-      {
-        "target" : "下書きを保存",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "存储草稿",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "FILTER_INACTIVE" : [
       {
         "target" : "無効",
@@ -33,6 +21,18 @@
       {
         "target" : "deviceSubLabel <no loc>",
         "filename" : "Main.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "SAVE_DRAFT_CHOICE" : [
+      {
+        "target" : "下書きを保存",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "存储草稿",
+        "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
     ],
@@ -180,6 +180,28 @@
         "language" : "zh_CN"
       }
     ],
+    "MISSING_ANSWERS_TITLE" : [
+      {
+        "target" : "未回答の質問があります",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "未回答の質問があります",
+        "filename" : "CommonStrings.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "缺少答案",
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "缺少答案",
+        "filename" : "CommonStrings.strings",
+        "language" : "zh_CN"
+      }
+    ],
     "ZLv-oT-P80.text" : [
       {
         "target" : "Question Title <no loc>",
@@ -200,28 +222,6 @@
       },
       {
         "target" : "删除所选草稿时“反馈助理”出错。请稍后再试。",
-        "filename" : "CommonStrings.strings",
-        "language" : "zh_CN"
-      }
-    ],
-    "MISSING_ANSWERS_TITLE" : [
-      {
-        "target" : "未回答の質問があります",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "未回答の質問があります",
-        "filename" : "CommonStrings.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "缺少答案",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      },
-      {
-        "target" : "缺少答案",
         "filename" : "CommonStrings.strings",
         "language" : "zh_CN"
       }
@@ -262,18 +262,6 @@
         "language" : "zh_CN"
       }
     ],
-    "PROMOTE_FEEDBACK_ERROR" : [
-      {
-        "target" : "このフィードバックを移動しているときにエラーが起きました。",
-        "filename" : "CommonStrings.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "“反馈助理”在移动此反馈时遇到错误。",
-        "filename" : "CommonStrings.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "bZ6-lA-5Qr.text" : [
       {
         "target" : "ステージング",
@@ -283,6 +271,18 @@
       {
         "target" : "暂存",
         "filename" : "Main.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "PROMOTE_FEEDBACK_ERROR" : [
+      {
+        "target" : "このフィードバックを移動しているときにエラーが起きました。",
+        "filename" : "CommonStrings.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "“反馈助理”在移动此反馈时遇到错误。",
+        "filename" : "CommonStrings.strings",
         "language" : "zh_CN"
       }
     ],
@@ -442,18 +442,6 @@
         "language" : "zh_CN"
       }
     ],
-    "APNS_REQUEST_MESSAGE" : [
-      {
-        "target" : "通知方法は、テキスト、サウンド、アイコンバッジが利用できる可能性があります。通知方法は“設定”で設定できます。",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "通知可能包括提醒、声音和图标标记。这些可在“设置”中配置。",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "APNS_REQUEST_TITLE" : [
       {
         "target" : "“フィードバックアシスタント”が通知を送信しようとしています",
@@ -462,6 +450,18 @@
       },
       {
         "target" : "“反馈助理”想要给你发送通知",
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "APNS_REQUEST_MESSAGE" : [
+      {
+        "target" : "通知方法は、テキスト、サウンド、アイコンバッジが利用できる可能性があります。通知方法は“設定”で設定できます。",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "通知可能包括提醒、声音和图标标记。这些可在“设置”中配置。",
         "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
@@ -706,18 +706,6 @@
         "language" : "zh_CN"
       }
     ],
-    "FILTER_GROUP_MAIN" : [
-      {
-        "target" : "レポートを含める",
-        "filename" : "CommonStrings.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "包括报告",
-        "filename" : "CommonStrings.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "FBA_KEYCHAIN_LABEL" : [
       {
         "target" : "フィードバックアシスタント認証",
@@ -726,6 +714,18 @@
       },
       {
         "target" : "反馈助理鉴定",
+        "filename" : "CommonStrings.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "FILTER_GROUP_MAIN" : [
+      {
+        "target" : "レポートを含める",
+        "filename" : "CommonStrings.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "包括报告",
         "filename" : "CommonStrings.strings",
         "language" : "zh_CN"
       }
@@ -1018,6 +1018,18 @@
         "language" : "zh_CN"
       }
     ],
+    "NO_BUG_SESSION_ALERT_MESSAGE" : [
+      {
+        "target" : "診断情報を収集しようとしたときに問題が発生しました。診断の収集をやり直してみてください。",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "尝试收集诊断信息时遇到问题。请再次尝试收集诊断信息。",
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN"
+      }
+    ],
     "ADD_ATTACHMENT_CHOICE_FILES" : [
       {
         "target" : "ファイル",
@@ -1026,18 +1038,6 @@
       },
       {
         "target" : "文件",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
-    "TOUCH_ID_ENABLE_PROMPT_TITLE" : [
-      {
-        "target" : "Touch IDを使用",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "使用触控ID",
         "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
@@ -1054,14 +1054,14 @@
         "language" : "zh_CN"
       }
     ],
-    "NO_BUG_SESSION_ALERT_MESSAGE" : [
+    "TOUCH_ID_ENABLE_PROMPT_TITLE" : [
       {
-        "target" : "診断情報を収集しようとしたときに問題が発生しました。診断の収集をやり直してみてください。",
+        "target" : "Touch IDを使用",
         "filename" : "Localizable.strings",
         "language" : "ja"
       },
       {
-        "target" : "尝试收集诊断信息时遇到问题。请再次尝试收集诊断信息。",
+        "target" : "使用触控ID",
         "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
@@ -1138,15 +1138,15 @@
         "language" : "zh_CN"
       }
     ],
-    "REMOVE_DIAGNOSTICS_ALERT_TITLE" : [
+    "0uk-He-IZX.text" : [
       {
-        "target" : "診断を削除中",
-        "filename" : "CommonStrings.strings",
+        "target" : "ラベル",
+        "filename" : "Main.strings",
         "language" : "ja"
       },
       {
-        "target" : "移除诊断信息",
-        "filename" : "CommonStrings.strings",
+        "target" : "标签",
+        "filename" : "Main.strings",
         "language" : "zh_CN"
       }
     ],
@@ -1162,15 +1162,15 @@
         "language" : "zh_CN"
       }
     ],
-    "0uk-He-IZX.text" : [
+    "REMOVE_DIAGNOSTICS_ALERT_TITLE" : [
       {
-        "target" : "ラベル",
-        "filename" : "Main.strings",
+        "target" : "診断を削除中",
+        "filename" : "CommonStrings.strings",
         "language" : "ja"
       },
       {
-        "target" : "标签",
-        "filename" : "Main.strings",
+        "target" : "移除诊断信息",
+        "filename" : "CommonStrings.strings",
         "language" : "zh_CN"
       }
     ],
@@ -1714,18 +1714,6 @@
         "language" : "zh_CN"
       }
     ],
-    "PROMPT_DELETE_DRAFT" : [
-      {
-        "target" : "現在の下書きを保存しますか?",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "你要存储当前草稿吗？",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "ENABLE_FILTER" : [
       {
         "target" : "フィルタを有効にする",
@@ -1735,6 +1723,18 @@
       {
         "target" : "启用过滤条件",
         "filename" : "CommonStrings.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "PROMPT_DELETE_DRAFT" : [
+      {
+        "target" : "現在の下書きを保存しますか?",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "你要存储当前草稿吗？",
+        "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
     ],
@@ -1930,6 +1930,18 @@
         "language" : "zh_CN"
       }
     ],
+    "Bug Report" : [
+      {
+        "target" : "問題レポート",
+        "filename" : "CommonStrings.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "问题报告",
+        "filename" : "CommonStrings.strings",
+        "language" : "zh_CN"
+      }
+    ],
     "TEXT_ANSWER_PLACEHOLDER" : [
       {
         "target" : "詳細を入力…",
@@ -1938,18 +1950,6 @@
       },
       {
         "target" : "提供详细信息…",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
-    "You are not enrolled in any beta software programs." : [
-      {
-        "target" : "いずれのBeta Software Programにも登録されていません。",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "你尚未注册任何Beta版软件计划。",
         "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
@@ -1966,15 +1966,15 @@
         "language" : "zh_CN"
       }
     ],
-    "Bug Report" : [
+    "You are not enrolled in any beta software programs." : [
       {
-        "target" : "問題レポート",
-        "filename" : "CommonStrings.strings",
+        "target" : "いずれのBeta Software Programにも登録されていません。",
+        "filename" : "Localizable.strings",
         "language" : "ja"
       },
       {
-        "target" : "问题报告",
-        "filename" : "CommonStrings.strings",
+        "target" : "你尚未注册任何Beta版软件计划。",
+        "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
     ],
@@ -1990,15 +1990,15 @@
         "language" : "zh_CN"
       }
     ],
-    "QF1-UO-FFk.title" : [
+    "FILTER_GROUP_TEAM" : [
       {
-        "target" : "同意する",
-        "filename" : "Main.strings",
+        "target" : "チーム",
+        "filename" : "CommonStrings.strings",
         "language" : "ja"
       },
       {
-        "target" : "接受",
-        "filename" : "Main.strings",
+        "target" : "团队",
+        "filename" : "CommonStrings.strings",
         "language" : "zh_CN"
       }
     ],
@@ -2014,15 +2014,15 @@
         "language" : "zh_CN"
       }
     ],
-    "FILTER_GROUP_TEAM" : [
+    "QF1-UO-FFk.title" : [
       {
-        "target" : "チーム",
-        "filename" : "CommonStrings.strings",
+        "target" : "同意する",
+        "filename" : "Main.strings",
         "language" : "ja"
       },
       {
-        "target" : "团队",
-        "filename" : "CommonStrings.strings",
+        "target" : "接受",
+        "filename" : "Main.strings",
         "language" : "zh_CN"
       }
     ],
@@ -2416,18 +2416,6 @@
         "language" : "zh_CN"
       }
     ],
-    "FORGET_DEVICE_INSTRUCTION" : [
-      {
-        "target" : "%@のフィードバックをもう登録したくない場合はこのデバイスの登録を解除してください。",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "如果你不想再提交关于%@的反馈，请忽略此设备。",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "cGA-E6-0BL.text" : [
       {
         "target" : "areaLabel <no loc>",
@@ -2437,6 +2425,18 @@
       {
         "target" : "areaLabel <no loc>",
         "filename" : "Main.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "FORGET_DEVICE_INSTRUCTION" : [
+      {
+        "target" : "%@のフィードバックをもう登録したくない場合はこのデバイスの登録を解除してください。",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "如果你不想再提交关于%@的反馈，请忽略此设备。",
+        "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
     ],
@@ -2692,18 +2692,6 @@
         "language" : "zh_CN"
       }
     ],
-    "REQUIRED" : [
-      {
-        "target" : "必須",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "必需",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "ZGo-7z-QUi.title" : [
       {
         "target" : "送信",
@@ -2716,14 +2704,14 @@
         "language" : "zh_CN"
       }
     ],
-    "DRAFTS_INBOX" : [
+    "REQUIRED" : [
       {
-        "target" : "下書き",
+        "target" : "必須",
         "filename" : "Localizable.strings",
         "language" : "ja"
       },
       {
-        "target" : "草稿箱",
+        "target" : "必需",
         "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
@@ -2736,6 +2724,18 @@
       },
       {
         "target" : "创建于%@：",
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "DRAFTS_INBOX" : [
+      {
+        "target" : "下書き",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "草稿箱",
         "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
@@ -3278,18 +3278,6 @@
         "language" : "zh_CN"
       }
     ],
-    "WELCOME_FBA" : [
-      {
-        "target" : "ようこそフィードバックアシスタントへ",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "欢迎使用“反馈助理”",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "This Mac" : [
       {
         "target" : "このMac",
@@ -3299,6 +3287,18 @@
       {
         "target" : "这台Mac",
         "filename" : "Localizable.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "PROMOTE_FEEDBACK_TITLE" : [
+      {
+        "target" : "フィードバック“%@”を移動してもよろしいですか?",
+        "filename" : "CommonStrings.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "你要移动反馈“%@”吗？",
+        "filename" : "CommonStrings.strings",
         "language" : "zh_CN"
       }
     ],
@@ -3350,15 +3350,15 @@
         "language" : "zh_CN"
       }
     ],
-    "PROMOTE_FEEDBACK_TITLE" : [
+    "WELCOME_FBA" : [
       {
-        "target" : "フィードバック“%@”を移動してもよろしいですか?",
-        "filename" : "CommonStrings.strings",
+        "target" : "ようこそフィードバックアシスタントへ",
+        "filename" : "Localizable.strings",
         "language" : "ja"
       },
       {
-        "target" : "你要移动反馈“%@”吗？",
-        "filename" : "CommonStrings.strings",
+        "target" : "欢迎使用“反馈助理”",
+        "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
     ],
@@ -3770,6 +3770,18 @@
         "language" : "zh_CN"
       }
     ],
+    "SUBMIT_BUTTON" : [
+      {
+        "target" : "送信",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "提交",
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN"
+      }
+    ],
     "nhf-BP-XtY.title" : [
       {
         "target" : "サインイン",
@@ -3790,18 +3802,6 @@
       },
       {
         "target" : "此iPod",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
-    "SUBMIT_BUTTON" : [
-      {
-        "target" : "送信",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "提交",
         "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
@@ -3890,18 +3890,6 @@
         "language" : "zh_CN"
       }
     ],
-    "FOLLOWUP_SENDING_ATTACHMENTS" : [
-      {
-        "target" : "添付ファイルを送信中…",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "正在发送附件…",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "DEMOTE_FEEDBACK_ERROR_RECOVERY" : [
       {
         "target" : "あとでやり直してください。",
@@ -3911,6 +3899,18 @@
       {
         "target" : "请稍后再试。",
         "filename" : "CommonStrings.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "FOLLOWUP_SENDING_ATTACHMENTS" : [
+      {
+        "target" : "添付ファイルを送信中…",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "正在发送附件…",
+        "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
     ],
@@ -3962,18 +3962,6 @@
         "language" : "zh_CN"
       }
     ],
-    "nrD-h4-qqg.text" : [
-      {
-        "target" : "5分後",
-        "filename" : "Main.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "5分钟后",
-        "filename" : "Main.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "FOLLOWUP_DELETE_MESSAGE" : [
       {
         "target" : "未送信の情報やファイルは保存されません。",
@@ -3983,6 +3971,18 @@
       {
         "target" : "未提交的信息和文件将不会存储。",
         "filename" : "Localizable.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "nrD-h4-qqg.text" : [
+      {
+        "target" : "5分後",
+        "filename" : "Main.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "5分钟后",
+        "filename" : "Main.strings",
         "language" : "zh_CN"
       }
     ],
@@ -4106,54 +4106,6 @@
         "language" : "zh_CN"
       }
     ],
-    "ADD_IMAGE_OR_VIDEO" : [
-      {
-        "target" : "画像またはビデオを追加",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "添加图像或视频",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
-    "SURVEY_TITLE" : [
-      {
-        "target" : "調査",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "信息反馈",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
-    "0bV-Ye-fNd.text" : [
-      {
-        "target" : "5",
-        "filename" : "Main.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "5",
-        "filename" : "Main.strings",
-        "language" : "zh_CN"
-      }
-    ],
-    "EvG-Ts-duu.text" : [
-      {
-        "target" : "Use Touch ID<no loc>",
-        "filename" : "Main.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "Use Touch ID<no loc>",
-        "filename" : "Main.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "CANCEL" : [
       {
         "target" : "キャンセル",
@@ -4173,6 +4125,54 @@
       {
         "target" : "取消",
         "filename" : "CommonStrings.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "SURVEY_TITLE" : [
+      {
+        "target" : "調査",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "信息反馈",
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "EvG-Ts-duu.text" : [
+      {
+        "target" : "Use Touch ID<no loc>",
+        "filename" : "Main.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "Use Touch ID<no loc>",
+        "filename" : "Main.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "0bV-Ye-fNd.text" : [
+      {
+        "target" : "5",
+        "filename" : "Main.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "5",
+        "filename" : "Main.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "ADD_IMAGE_OR_VIDEO" : [
+      {
+        "target" : "画像またはビデオを追加",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "添加图像或视频",
+        "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
     ],
@@ -4200,15 +4200,15 @@
         "language" : "zh_CN"
       }
     ],
-    "DEVICE_PAIRING_FOOTER_TEXT" : [
+    "Ejs-WI-5uI.text" : [
       {
-        "target" : "ほかのデバイスで発生した問題はこのiOSデバイス上の“フィードバックアシスタント”を使用して報告できます。デバイスを“自分のデバイス”に追加するには、デバイスが近くにあり、オンラインで、iCloudアカウントにサインインしている必要があります。",
-        "filename" : "Localizable.strings",
+        "target" : "Filter Name <no loc>",
+        "filename" : "Main.strings",
         "language" : "ja"
       },
       {
-        "target" : "在其他设备上遇到的问题可使用这台iOS设备上的“反馈助理”进行报告。若要将设备添加到“我的设备”列表，它必须在附近且在线，并已登录iCloud帐户。",
-        "filename" : "Localizable.strings",
+        "target" : "Filter Name <no loc>",
+        "filename" : "Main.strings",
         "language" : "zh_CN"
       }
     ],
@@ -4224,15 +4224,15 @@
         "language" : "zh_CN"
       }
     ],
-    "Ejs-WI-5uI.text" : [
+    "DEVICE_PAIRING_FOOTER_TEXT" : [
       {
-        "target" : "Filter Name <no loc>",
-        "filename" : "Main.strings",
+        "target" : "ほかのデバイスで発生した問題はこのiOSデバイス上の“フィードバックアシスタント”を使用して報告できます。デバイスを“自分のデバイス”に追加するには、デバイスが近くにあり、オンラインで、iCloudアカウントにサインインしている必要があります。",
+        "filename" : "Localizable.strings",
         "language" : "ja"
       },
       {
-        "target" : "Filter Name <no loc>",
-        "filename" : "Main.strings",
+        "target" : "在其他设备上遇到的问题可使用这台iOS设备上的“反馈助理”进行报告。若要将设备添加到“我的设备”列表，它必须在附近且在线，并已登录iCloud帐户。",
+        "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
     ],
@@ -4260,18 +4260,6 @@
         "language" : "zh_CN"
       }
     ],
-    "TEAM" : [
-      {
-        "target" : "チーム",
-        "filename" : "CommonStrings.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "团队",
-        "filename" : "CommonStrings.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "1tC-wW-5yg.title" : [
       {
         "target" : "同意しない",
@@ -4293,6 +4281,18 @@
       {
         "target" : "“反馈助理”在载入此消息项目时出错。请确保你已接入互联网并重试。",
         "filename" : "Localizable.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "TEAM" : [
+      {
+        "target" : "チーム",
+        "filename" : "CommonStrings.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "团队",
+        "filename" : "CommonStrings.strings",
         "language" : "zh_CN"
       }
     ],
@@ -4380,15 +4380,15 @@
         "language" : "zh_CN"
       }
     ],
-    "DEMOTE_FEEDBACK_ASSIGN_WARNING" : [
+    "bmO-U7-GEH.text" : [
       {
-        "target" : "このフィードバックをチームから削除すると、元の担当者に戻されます。元の担当者は、すでにチームから外れていても、このフィードバックと添付ファイルを見ることができます。\n\nこの操作は取り消せません。",
-        "filename" : "CommonStrings.strings",
+        "target" : "自分のデバイス",
+        "filename" : "Main.strings",
         "language" : "ja"
       },
       {
-        "target" : "从团队中移除此反馈会将反馈重新分配给报告者，即使不再是你团队的一员，该报告者仍然能够看到此反馈及其附件。\n\n此操作无法撤销。",
-        "filename" : "CommonStrings.strings",
+        "target" : "我的设备",
+        "filename" : "Main.strings",
         "language" : "zh_CN"
       }
     ],
@@ -4416,15 +4416,15 @@
         "language" : "zh_CN"
       }
     ],
-    "bmO-U7-GEH.text" : [
+    "DEMOTE_FEEDBACK_ASSIGN_WARNING" : [
       {
-        "target" : "自分のデバイス",
-        "filename" : "Main.strings",
+        "target" : "このフィードバックをチームから削除すると、元の担当者に戻されます。元の担当者は、すでにチームから外れていても、このフィードバックと添付ファイルを見ることができます。\n\nこの操作は取り消せません。",
+        "filename" : "CommonStrings.strings",
         "language" : "ja"
       },
       {
-        "target" : "我的设备",
-        "filename" : "Main.strings",
+        "target" : "从团队中移除此反馈会将反馈重新分配给报告者，即使不再是你团队的一员，该报告者仍然能够看到此反馈及其附件。\n\n此操作无法撤销。",
+        "filename" : "CommonStrings.strings",
         "language" : "zh_CN"
       }
     ],
@@ -4536,18 +4536,6 @@
         "language" : "zh_CN"
       }
     ],
-    "UNTITLED_FEEDBACK" : [
-      {
-        "target" : "名称未設定フィードバック",
-        "filename" : "CommonStrings.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "未命名反馈",
-        "filename" : "CommonStrings.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "CANCEL_FORM_W_FILES_MESSAGE" : [
       {
         "target" : "添付ファイルは保存されません。あとでもう一度収集できます。",
@@ -4557,6 +4545,18 @@
       {
         "target" : "附加的文件将不会存储。你可以稍后再次收集。",
         "filename" : "Localizable.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "UNTITLED_FEEDBACK" : [
+      {
+        "target" : "名称未設定フィードバック",
+        "filename" : "CommonStrings.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "未命名反馈",
+        "filename" : "CommonStrings.strings",
         "language" : "zh_CN"
       }
     ],
@@ -4738,14 +4738,14 @@
         "language" : "zh_CN"
       }
     ],
-    "DEMOTE_FEEDBACK_TITLE" : [
+    "DELETE_DRAFT" : [
       {
-        "target" : "フィードバック“%@”を%@から削除してもよろしいですか?",
+        "target" : "下書きを削除",
         "filename" : "CommonStrings.strings",
         "language" : "ja"
       },
       {
-        "target" : "你要从%2$@移除反馈“%1$@”吗？",
+        "target" : "删除草稿",
         "filename" : "CommonStrings.strings",
         "language" : "zh_CN"
       }
@@ -4762,14 +4762,14 @@
         "language" : "zh_CN"
       }
     ],
-    "DELETE_DRAFT" : [
+    "DEMOTE_FEEDBACK_TITLE" : [
       {
-        "target" : "下書きを削除",
+        "target" : "フィードバック“%@”を%@から削除してもよろしいですか?",
         "filename" : "CommonStrings.strings",
         "language" : "ja"
       },
       {
-        "target" : "删除草稿",
+        "target" : "你要从%2$@移除反馈“%1$@”吗？",
         "filename" : "CommonStrings.strings",
         "language" : "zh_CN"
       }
@@ -4786,18 +4786,6 @@
         "language" : "zh_CN"
       }
     ],
-    "CANCEL_FORM_W_FILES" : [
-      {
-        "target" : "この下書きを閉じてもよろしいですか?",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "你确定要关闭此草稿吗？",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "FILE_DOWNLOAD_UNAVAILABLE_MESSAGE" : [
       {
         "target" : "このファイルは現在ダウンロードできません。あとでやり直してください。",
@@ -4807,6 +4795,18 @@
       {
         "target" : "此文件不可用，此时无法下载。请稍后再试。",
         "filename" : "CommonStrings.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "CANCEL_FORM_W_FILES" : [
+      {
+        "target" : "この下書きを閉じてもよろしいですか?",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "你确定要关闭此草稿吗？",
+        "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
     ],
@@ -5062,18 +5062,6 @@
         "language" : "zh_CN"
       }
     ],
-    "FEEDBACK_ASSISTANT" : [
-      {
-        "target" : "フィードバックアシスタント",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "反馈助理",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "DEMOTE_FEEDBACK_ERROR" : [
       {
         "target" : "このフィードバックをチームから削除しているときにエラーが起きました。",
@@ -5083,6 +5071,18 @@
       {
         "target" : "“反馈助理”从团队移除此反馈时遇到错误。",
         "filename" : "CommonStrings.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "FEEDBACK_ASSISTANT" : [
+      {
+        "target" : "フィードバックアシスタント",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "反馈助理",
+        "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
     ],
@@ -5134,18 +5134,6 @@
         "language" : "zh_CN"
       }
     ],
-    "BUILD_QUESTION_PLACEHOLDER" : [
-      {
-        "target" : "お使いのビルドを選択してください…",
-        "filename" : "CommonStrings.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "请选择版本…",
-        "filename" : "CommonStrings.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "FILTER_ASSIGNED_TO_ME" : [
       {
         "target" : "自分に割り当てられたもの",
@@ -5155,6 +5143,18 @@
       {
         "target" : "分配给我",
         "filename" : "CommonStrings.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "SIGN_OUT" : [
+      {
+        "target" : "サインアウト",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "退出登录",
+        "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
     ],
@@ -5170,15 +5170,15 @@
         "language" : "zh_CN"
       }
     ],
-    "SIGN_OUT" : [
+    "BUILD_QUESTION_PLACEHOLDER" : [
       {
-        "target" : "サインアウト",
-        "filename" : "Localizable.strings",
+        "target" : "お使いのビルドを選択してください…",
+        "filename" : "CommonStrings.strings",
         "language" : "ja"
       },
       {
-        "target" : "退出登录",
-        "filename" : "Localizable.strings",
+        "target" : "请选择版本…",
+        "filename" : "CommonStrings.strings",
         "language" : "zh_CN"
       }
     ],
@@ -5362,18 +5362,6 @@
         "language" : "zh_CN"
       }
     ],
-    "After %lu minutes" : [
-      {
-        "target" : "%lu分後",
-        "filename" : "Plurals.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "%lu分钟后",
-        "filename" : "Plurals.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "G1c-Eg-JbX.text" : [
       {
         "target" : "titleLabel <no loc>",
@@ -5383,6 +5371,18 @@
       {
         "target" : "titleLabel <no loc>",
         "filename" : "Main.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "After %lu minutes" : [
+      {
+        "target" : "%lu分後",
+        "filename" : "Plurals.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "%lu分钟后",
+        "filename" : "Plurals.strings",
         "language" : "zh_CN"
       }
     ],
@@ -5434,18 +5434,6 @@
         "language" : "zh_CN"
       }
     ],
-    "SERVER_ERROR" : [
-      {
-        "target" : "サーバエラー",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "服务器错误",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "NO_MORE_DEVICES_MESSAGE" : [
       {
         "target" : "ここに表示するためには、デバイスが近くにあり、オンラインになっていて、iCloudアカウントにサインインしている必要があります。",
@@ -5458,15 +5446,15 @@
         "language" : "zh_CN"
       }
     ],
-    "REQUESTS_FILTER" : [
+    "SERVER_ERROR" : [
       {
-        "target" : "リクエスト",
-        "filename" : "CommonStrings.strings",
+        "target" : "サーバエラー",
+        "filename" : "Localizable.strings",
         "language" : "ja"
       },
       {
-        "target" : "请求",
-        "filename" : "CommonStrings.strings",
+        "target" : "服务器错误",
+        "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
     ],
@@ -5478,6 +5466,18 @@
       },
       {
         "target" : "移除诊断信息",
+        "filename" : "CommonStrings.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "REQUESTS_FILTER" : [
+      {
+        "target" : "リクエスト",
+        "filename" : "CommonStrings.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "请求",
         "filename" : "CommonStrings.strings",
         "language" : "zh_CN"
       }
@@ -5576,6 +5576,18 @@
         "language" : "zh_CN"
       }
     ],
+    "FILE_DOWNLOAD_ERROR_TITLE" : [
+      {
+        "target" : "ファイルをダウンロードできません",
+        "filename" : "CommonStrings.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "无法下载文件",
+        "filename" : "CommonStrings.strings",
+        "language" : "zh_CN"
+      }
+    ],
     "QUICK_FILTERS_AX_LABEL_ONE_UNREAD" : [
       {
         "target" : "%@、未開封項目1件",
@@ -5600,30 +5612,6 @@
         "language" : "zh_CN"
       }
     ],
-    "DELETE_DRAFT_CHOICE" : [
-      {
-        "target" : "下書きを削除",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "删除草稿",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
-    "FILE_DOWNLOAD_ERROR_TITLE" : [
-      {
-        "target" : "ファイルをダウンロードできません",
-        "filename" : "CommonStrings.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "无法下载文件",
-        "filename" : "CommonStrings.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "SURVEY_LOAD_ERROR_TITLE" : [
       {
         "target" : "調査を読み込めませんでした",
@@ -5632,6 +5620,18 @@
       },
       {
         "target" : "无法载入信息反馈",
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "DELETE_DRAFT_CHOICE" : [
+      {
+        "target" : "下書きを削除",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "删除草稿",
         "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
@@ -5982,18 +5982,6 @@
         "language" : "zh_CN"
       }
     ],
-    "IMG_FROM_SIM" : [
-      {
-        "target" : "シミュレータのIMG",
-        "filename" : "Localizable.strings",
-        "language" : "ja"
-      },
-      {
-        "target" : "模拟器IMG",
-        "filename" : "Localizable.strings",
-        "language" : "zh_CN"
-      }
-    ],
     "YLH-2M-iIR.text" : [
       {
         "target" : "Team Type <no loc>",
@@ -6015,6 +6003,18 @@
       {
         "target" : "回应",
         "filename" : "Main.strings",
+        "language" : "zh_CN"
+      }
+    ],
+    "IMG_FROM_SIM" : [
+      {
+        "target" : "シミュレータのIMG",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "target" : "模拟器IMG",
+        "filename" : "Localizable.strings",
         "language" : "zh_CN"
       }
     ],

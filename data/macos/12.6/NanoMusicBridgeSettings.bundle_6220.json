@@ -34,6 +34,23 @@
         "language" : "kk"
       }
     ],
+    "SYNC_SETTINGS_OUT_OF_SPACE_HEADER_TITLE" : [
+      {
+        "target" : "Sin espacio para contenido",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Не достига място за съхранение на медийно съдържание",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Медиаматериалдар үшін бос орын жоқ",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "AUTOMATICALLY_ADD_SECTION_HEADER_TEXT" : [
       {
         "target" : "AGREGAR AUTOMÁTICAMENTE",
@@ -51,19 +68,19 @@
         "language" : "kk"
       }
     ],
-    "SYNC_SETTINGS_SYNC_STORAGE_LIMIT_TOO_LOW_MESSAGE" : [
+    "SYNC_SETTINGS_CONTENT_SUMMARY_HEADER_NOTHING_ADDED_TITLE" : [
       {
-        "target" : "Para liberar espacio, puedes eliminar podcasts, música o audiolibros.",
+        "target" : "No hay música",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "За да освободите място, можете да премахнете някои подкасти, музика или аудио книги.",
+        "target" : "Няма музика",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Орын босату үшін кейбір подкасттарды, музыканы немесе аудиокітаптарды жоюға болады.",
+        "target" : "Музыка жоқ",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -81,23 +98,6 @@
       },
       {
         "target" : "Apple Watch сағатыңызда медиаға арналған сақтау орны толып кетті.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "SYNC_SETTINGS_CONTENT_SUMMARY_HEADER_NOTHING_ADDED_TITLE" : [
-      {
-        "target" : "No hay música",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Няма музика",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Музыка жоқ",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -204,6 +204,23 @@
         "language" : "kk"
       }
     ],
+    "SYNC_SETTINGS_SYNC_STORAGE_LIMIT_TOO_LOW_OK_ACTION" : [
+      {
+        "target" : "OK",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "ОК",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "OK",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "PLAYLIST_LIMIT" : [
       {
         "target" : "Límite de almacenamiento",
@@ -221,19 +238,19 @@
         "language" : "kk"
       }
     ],
-    "SYNC_SETTINGS_SYNC_STORAGE_LIMIT_TOO_LOW_OK_ACTION" : [
+    "PLAYLIST_SUBTITLE" : [
       {
-        "target" : "OK",
+        "target" : "Playlist de %@",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "ОК",
+        "target" : "Списък с песни от %@",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "OK",
+        "target" : "«%@» плейлисті",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -255,23 +272,6 @@
         "language" : "kk"
       }
     ],
-    "SYNC_SETTINGS_OUT_OF_SPACE_HEADER_MESSAGE" : [
-      {
-        "target" : "Se llenó el espacio dedicado a almacenar contenido multimedia en tu Apple Watch. Para liberar espacio, puedes eliminar podcasts, música o audiolibros.",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Пространството във вашия Apple Watch, определено за медийно съдържание, е запълнено. За да освободите място, можете да премахнете някои подкасти, музика или аудио книги.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Apple Watch сағатыңызда медиаға арналған сақтау орны толып кетті. Орын босату үшін кейбір подкасттарды, музыканы немесе аудиокітаптарды жоюға болады.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "SYNC_SETTINGS_WORKOUT_PLAYLIST_CANCEL_ACTION" : [
       {
         "target" : "Cancelar",
@@ -289,19 +289,36 @@
         "language" : "kk"
       }
     ],
-    "PLAYLIST_SUBTITLE" : [
+    "SYNC_SETTINGS_SYNC_STORAGE_LIMIT_TOO_LOW_MESSAGE" : [
       {
-        "target" : "Playlist de %@",
+        "target" : "Para liberar espacio, puedes eliminar podcasts, música o audiolibros.",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Списък с песни от %@",
+        "target" : "За да освободите място, можете да премахнете някои подкасти, музика или аудио книги.",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "«%@» плейлисті",
+        "target" : "Орын босату үшін кейбір подкасттарды, музыканы немесе аудиокітаптарды жоюға болады.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "SYNC_SETTINGS_OUT_OF_SPACE_HEADER_MESSAGE" : [
+      {
+        "target" : "Se llenó el espacio dedicado a almacenar contenido multimedia en tu Apple Watch. Para liberar espacio, puedes eliminar podcasts, música o audiolibros.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Пространството във вашия Apple Watch, определено за медийно съдържание, е запълнено. За да освободите място, можете да премахнете някои подкасти, музика или аудио книги.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Apple Watch сағатыңызда медиаға арналған сақтау орны толып кетті. Орын босату үшін кейбір подкасттарды, музыканы немесе аудиокітаптарды жоюға болады.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -319,6 +336,40 @@
       },
       {
         "target" : "«Соңғы музыка» бөліміндегі әндерді автоматты түрде жүктеп алыңыз. Тыңдамаған болсаңыз, Apple Music ұсыныстары қосылады. Бұл музыка Apple Watch сағаты зарядталып жатқанда немесе Wi-Fi желісіне немесе iPhone құрылғыңызға қосулы болғанда жүктеп алынады.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "AUTOMATICALLY_ADD_NON_SUBSCRIBER_SECTION_FOOTER_TEXT_LEGACY" : [
+      {
+        "target" : "Agrega automáticamente la música que compraste o escuchaste recientemente.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Автоматично добавяне на платената музика, която сте купили или слушали наскоро.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жақында сатып алған немесе тыңдаған музыканы автоматты түрде қосыңыз.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "AUTOMATICALLY_ADD_NON_SUBSCRIBER_SECTION_FOOTER_TEXT_WLAN" : [
+      {
+        "target" : "Descarga automáticamente la música que compraste o escuchaste recientemente. Esta se descargará cuando tu Apple Watch esté conectado a la corriente y a una red WLAN o a tu iPhone.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Изтегляйте автоматично музиката, която сте закупили или слушали наскоро. Тази музика ще се изтегли, когато вашият Apple Watch се зарежда и е свързан към WLAN мрежа или към вашия iPhone.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жақында сатып алған немесе тыңдаған музыканы автоматты түрде жүктеп алыңыз. Бұл музыка Apple Watch сағаты зарядталып жатқанда немесе WLAN желісіне немесе iPhone құрылғыңызға қосулы болғанда жүктеп алынады.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -353,57 +404,6 @@
       },
       {
         "target" : "Apple Watch сағаты қуат көзіне қосылған кезде және iPhone құрылғысы жанында болғанда, музыка жүктеп алынады.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "AUTOMATICALLY_ADD_NON_SUBSCRIBER_SECTION_FOOTER_TEXT_WLAN" : [
-      {
-        "target" : "Descarga automáticamente la música que compraste o escuchaste recientemente. Esta se descargará cuando tu Apple Watch esté conectado a la corriente y a una red WLAN o a tu iPhone.",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Изтегляйте автоматично музиката, която сте закупили или слушали наскоро. Тази музика ще се изтегли, когато вашият Apple Watch се зарежда и е свързан към WLAN мрежа или към вашия iPhone.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жақында сатып алған немесе тыңдаған музыканы автоматты түрде жүктеп алыңыз. Бұл музыка Apple Watch сағаты зарядталып жатқанда немесе WLAN желісіне немесе iPhone құрылғыңызға қосулы болғанда жүктеп алынады.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "SYNC_SETTINGS_OUT_OF_SPACE_HEADER_TITLE" : [
-      {
-        "target" : "Sin espacio para contenido",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Не достига място за съхранение на медийно съдържание",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Медиаматериалдар үшін бос орын жоқ",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "AUTOMATICALLY_ADD_NON_SUBSCRIBER_SECTION_FOOTER_TEXT_LEGACY" : [
-      {
-        "target" : "Agrega automáticamente la música que compraste o escuchaste recientemente.",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Автоматично добавяне на платената музика, която сте купили или слушали наскоро.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жақында сатып алған немесе тыңдаған музыканы автоматты түрде қосыңыз.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }

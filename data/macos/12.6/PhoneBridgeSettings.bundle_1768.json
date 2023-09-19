@@ -12,18 +12,6 @@
         "language" : "kk"
       }
     ],
-    "BRIDGE_APP_TITLE" : [
-      {
-        "target" : "Телефон",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Телефон",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "THUMPER_CALLING_ALLOWED_WLAN" : [
       {
         "target" : "WLAN обаждания",
@@ -32,6 +20,18 @@
       },
       {
         "target" : "WLAN арқылы қоңырау шалу",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "BRIDGE_APP_TITLE" : [
+      {
+        "target" : "Телефон",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Телефон",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -96,15 +96,27 @@
         "language" : "kk"
       }
     ],
-    "MIRROR_DETAIL_FORMAT" : [
+    "THUMPER_CALLING_PHONE_SETTINGS_WIFI" : [
       {
-        "target" : "• %@",
+        "target" : "Настройки на iPhone > Телефон > Wi-Fi обаждания",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "• %@",
+        "target" : "«iPhone реттеулері» > «Телефон» > «Wi-Fi арқылы қоңырау шалу»",
         "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "INCOMING_CALL_HAPTIC" : [
+      {
+        "target" : "Осезание",
+        "filename" : "PhoneBridgeSettings.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жанасу сигналы",
+        "filename" : "PhoneBridgeSettings.strings",
         "language" : "kk"
       }
     ],
@@ -117,18 +129,6 @@
       {
         "target" : "Дыбыс",
         "filename" : "PhoneBridgeSettings.strings",
-        "language" : "kk"
-      }
-    ],
-    "THUMPER_CALLING_PHONE_SETTINGS_WIFI" : [
-      {
-        "target" : "Настройки на iPhone > Телефон > Wi-Fi обаждания",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "«iPhone реттеулері» > «Телефон» > «Wi-Fi арқылы қоңырау шалу»",
-        "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],
@@ -168,15 +168,15 @@
         "language" : "kk"
       }
     ],
-    "INCOMING_CALL_HAPTIC" : [
+    "MIRROR_DETAIL_FORMAT" : [
       {
-        "target" : "Осезание",
-        "filename" : "PhoneBridgeSettings.strings",
+        "target" : "• %@",
+        "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Жанасу сигналы",
-        "filename" : "PhoneBridgeSettings.strings",
+        "target" : "• %@",
+        "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],

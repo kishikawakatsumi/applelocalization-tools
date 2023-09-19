@@ -21,10 +21,10 @@
         "language" : "en"
       }
     ],
-    "timeStamp" : [
+    "elementLabelDuplicateRoleDescription.suggestion" : [
       {
-        "target" : "Time Stamp",
-        "filename" : "Localizable.strings",
+        "target" : "The accessibilityRoleDescription describes the type of element. For example, ‘image’ or ‘button’. The accessibilityLabel is the function or content of that specific element. For example, ‘Get Mail.’",
+        "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
@@ -35,17 +35,17 @@
         "language" : "en"
       }
     ],
-    "elementLabelDuplicateRoleDescription.suggestion" : [
-      {
-        "target" : "The accessibilityRoleDescription describes the type of element. For example, ‘image’ or ‘button’. The accessibilityLabel is the function or content of that specific element. For example, ‘Get Mail.’",
-        "filename" : "AuditIssues.strings",
-        "language" : "en"
-      }
-    ],
     "contrastAAAPass.title" : [
       {
         "target" : "Contrast passed",
         "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "timeStamp" : [
+      {
+        "target" : "Time Stamp",
+        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -112,16 +112,16 @@
         "language" : "en"
       }
     ],
-    "elementValueDuplicateTraitString.suggestion" : [
+    "hitRegionTooSmall.longDesc" : [
       {
-        "target" : "The accessibilityValue represents the dynamic value of the element. For example, a slider’s numeric value or a text field’s contents. The accessibilityLabel is the function or content of that specific element. For example, ‘Volume’ or ‘Mailing Address.’",
+        "target" : "The size of this %@ is too small for user to interact.",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
-    "hitRegionTooSmall.longDesc" : [
+    "elementValueDuplicateTraitString.suggestion" : [
       {
-        "target" : "The size of this %@ is too small for user to interact.",
+        "target" : "The accessibilityValue represents the dynamic value of the element. For example, a slider’s numeric value or a text field’s contents. The accessibilityLabel is the function or content of that specific element. For example, ‘Volume’ or ‘Mailing Address.’",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }
@@ -406,10 +406,10 @@
         "language" : "en"
       }
     ],
-    "elementLabelAndValueEmpty.longDesc" : [
+    "Attribute-Header" : [
       {
-        "target" : "This %@ is missing useful accessibility information.",
-        "filename" : "AuditIssues.strings",
+        "target" : "Header",
+        "filename" : "LocalizableIOS.strings",
         "language" : "en"
       }
     ],
@@ -427,10 +427,10 @@
         "language" : "en"
       }
     ],
-    "Attribute-Header" : [
+    "elementLabelAndValueEmpty.longDesc" : [
       {
-        "target" : "Header",
-        "filename" : "LocalizableIOS.strings",
+        "target" : "This %@ is missing useful accessibility information.",
+        "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
@@ -539,10 +539,10 @@
         "language" : "en"
       }
     ],
-    "contrastAAAPass.longDesc" : [
+    "colorsComparisonFormatter" : [
       {
-        "target" : "Contrast passed.",
-        "filename" : "AuditIssues.strings",
+        "target" : "This is based on color %@ compared with color %@. ",
+        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -574,10 +574,10 @@
         "language" : "en"
       }
     ],
-    "colorsComparisonFormatter" : [
+    "contrastAAAPass.longDesc" : [
       {
-        "target" : "This is based on color %@ compared with color %@. ",
-        "filename" : "Localizable.strings",
+        "target" : "Contrast passed.",
+        "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
@@ -889,13 +889,6 @@
         "language" : "en"
       }
     ],
-    "defaultMacOSSuggestion" : [
-      {
-        "target" : "Review the NSAccessibility protocol",
-        "filename" : "AuditIssues.strings",
-        "language" : "en"
-      }
-    ],
     "elementLabelAndValueEmptyWithMLGeneratedDesc.longDesc" : [
       {
         "target" : "This %@ is missing useful accessibility information.",
@@ -906,6 +899,13 @@
     "hitTestButNotInSwipeOrder.suggestion" : [
       {
         "target" : "A user may be able to touch to select this element, but it is not accessible in linear navigation order. It will not be accessible to those using linear navigation techniques such as swipes or keyboard shortcuts.",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "defaultMacOSSuggestion" : [
+      {
+        "target" : "Review the NSAccessibility protocol",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }

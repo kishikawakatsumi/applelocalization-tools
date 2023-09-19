@@ -1,8 +1,8 @@
 {
   "localizations" : {
-    "Xcode.SwiftPackage.Capability.NearbyInteractionAllowOnce.LibraryDescription" : [
+    "Xcode.SwiftPackage.Capability.MediaLibrary.LibraryDescription" : [
       {
-        "target" : "Required if your app uses the Nearby Interaction framework.",
+        "target" : "Required if your app wants to use the user’s iCloud Music library or Apple Music catalog.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -14,16 +14,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.IncomingNetworkConnections.LibraryDescription" : [
+    "Xcode.SwiftPackage.Capability.NearbyInteractionAllowOnce.LibraryDescription" : [
       {
-        "target" : "Required if your app wants to receive incoming network connections.",
-        "filename" : "PlugIn.strings",
-        "language" : "en"
-      }
-    ],
-    "Xcode.SwiftPackage.Capability.UserTracking.LibraryDescription" : [
-      {
-        "target" : "Required if your app uses the AppTrackingTransparency framework to collect data about end users and shares it with other companies for purposes of tracking across apps and websites.",
+        "target" : "Required if your app uses the Nearby Interaction framework.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -49,9 +42,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.MediaLibrary.LibraryDescription" : [
+    "Xcode.IDEKit.CmdDefinition.NewLibraryPackage" : [
       {
-        "target" : "Required if your app wants to use the user’s iCloud Music library or Apple Music catalog.",
+        "target" : "Package…",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.SwiftPackage.Capability.UserTracking.LibraryDescription" : [
+      {
+        "target" : "Required if your app uses the AppTrackingTransparency framework to collect data about end users and shares it with other companies for purposes of tracking across apps and websites.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -63,13 +63,6 @@
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.FileAccess.LibraryDescription" : [
-      {
-        "target" : "Required if your app wants to access files on disk.",
-        "filename" : "PlugIn.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.SwiftPackage.Capability.SpeechRecognition.LibraryDescription" : [
       {
         "target" : "Required to perform speech recognition using Apple’s servers.",
@@ -77,16 +70,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.LocationWhenInUse.LibraryDescription" : [
+    "Xcode.SwiftPackage.Capability.FileAccess.LibraryDescription" : [
       {
-        "target" : "Required if your app accesses the user’s location when the app is in use.",
+        "target" : "Required if your app wants to access files on disk.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEKit.CmdDefinition.NewPackageContextual" : [
+    "Xcode.SwiftPackage.Capability.LocationWhenInUse.LibraryDescription" : [
       {
-        "target" : "New Package…",
+        "target" : "Required if your app accesses the user’s location when the app is in use.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -101,6 +94,13 @@
     "Xcode.IDESwiftPackageUI.PlaygroundProjectEditor" : [
       {
         "target" : "Playground Project Editor",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.IDEKit.CmdDefinition.NewPackageContextual" : [
+      {
+        "target" : "New Package…",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -161,6 +161,13 @@
         "language" : "en"
       }
     ],
+    "Xcode.SwiftPackage.Capability.LocalNetwork.LibraryDescription" : [
+      {
+        "target" : "Any app that uses the local network, directly or indirectly, should include this description. This includes apps that use Bonjour and services implemented with Bonjour, as well as direct unicast or multicast connections to local hosts.",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
     "Xcode.SwiftPackage.Capability.AppTransportSecurity.LibraryDescription" : [
       {
         "target" : "Required if your app needs to adjust default security settings for HTTP connections.",
@@ -175,9 +182,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.LocalNetwork.LibraryDescription" : [
+    "Xcode.SwiftPackage.Capability.OutgoingNetworkConnections.LibraryDescription" : [
       {
-        "target" : "Any app that uses the local network, directly or indirectly, should include this description. This includes apps that use Bonjour and services implemented with Bonjour, as well as direct unicast or multicast connections to local hosts.",
+        "target" : "Required if your app wants to perform outgoing network connections.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -189,13 +196,6 @@
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.OutgoingNetworkConnections.LibraryDescription" : [
-      {
-        "target" : "Required if your app wants to perform outgoing network connections.",
-        "filename" : "PlugIn.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.IDEKit.CmdDefinition.UpdateToLatestPackageVersions" : [
       {
         "target" : "Update to Latest Package Versions",
@@ -203,16 +203,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEKit.CmdDefinition.NewLibraryPackage" : [
+    "Xcode.SwiftPackage.Capability.Camera.LibraryDescription" : [
       {
-        "target" : "Package…",
+        "target" : "Required if your app wants to use any of the cameras on the user’s device.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.Camera.LibraryDescription" : [
+    "Xcode.SwiftPackage.Capability.IncomingNetworkConnections.LibraryDescription" : [
       {
-        "target" : "Required if your app wants to use any of the cameras on the user’s device.",
+        "target" : "Required if your app wants to receive incoming network connections.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }

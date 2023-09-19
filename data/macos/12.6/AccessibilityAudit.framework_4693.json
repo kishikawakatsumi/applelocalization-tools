@@ -357,13 +357,6 @@
         "language" : "en"
       }
     ],
-    "notChildOfParent.suggestion" : [
-      {
-        "target" : "Determine the parent element and add this element to the parent element’s accessibilityChildren array.",
-        "filename" : "AuditIssues.strings",
-        "language" : "en"
-      }
-    ],
     "dynamicTextUnsupported.suggestion" : [
       {
         "target" : "This text does not support dynamic type. Consider using a UIFont preferred font and setting adjustsFontForContentSizeCategory to YES",
@@ -374,6 +367,13 @@
     "contrastAAAFail.suggestion" : [
       {
         "target" : "To ensure higher contrast for readability, try adjusting either the text color or the background color so the contrast ratio is above 4.4.",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "notChildOfParent.suggestion" : [
+      {
+        "target" : "Determine the parent element and add this element to the parent element’s accessibilityChildren array.",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }
@@ -553,9 +553,9 @@
         "language" : "en"
       }
     ],
-    "contrastAAAPass.longDesc" : [
+    "elementLabelAndValueEmpty.title" : [
       {
-        "target" : "Contrast passed.",
+        "target" : "Element has no description",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }
@@ -567,16 +567,16 @@
         "language" : "en"
       }
     ],
-    "elementLabelAndValueEmpty.title" : [
+    "elementImageHasNoLabel.longDesc" : [
       {
-        "target" : "Element has no description",
+        "target" : "This %@ is missing useful accessibility information.",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
-    "elementImageHasNoLabel.longDesc" : [
+    "contrastAAAPass.longDesc" : [
       {
-        "target" : "This %@ is missing useful accessibility information.",
+        "target" : "Contrast passed.",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }
@@ -588,9 +588,9 @@
         "language" : "en"
       }
     ],
-    "swipeOrderForwardReverseMismatch.longDesc" : [
+    "unknownRole.title" : [
       {
-        "target" : "Linear navigation order is incorrect for this %@.",
+        "target" : "Unknown role",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }
@@ -609,17 +609,17 @@
         "language" : "en"
       }
     ],
-    "unknownRole.title" : [
+    "swipeOrderForwardReverseMismatch.longDesc" : [
       {
-        "target" : "Unknown role",
+        "target" : "Linear navigation order is incorrect for this %@.",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
-    "contrastUnknown.suggestion" : [
+    "textContrastRatioFormatter" : [
       {
-        "target" : "Find out the RGB value of the color used for text versus background and check the contrast ratio via many available online color contrast calculators.",
-        "filename" : "AuditIssues.strings",
+        "target" : "The text contrast ratio is %.2f. ",
+        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -630,10 +630,10 @@
         "language" : "en"
       }
     ],
-    "textContrastRatioFormatter" : [
+    "contrastUnknown.suggestion" : [
       {
-        "target" : "The text contrast ratio is %.2f. ",
-        "filename" : "Localizable.strings",
+        "target" : "Find out the RGB value of the color used for text versus background and check the contrast ratio via many available online color contrast calculators.",
+        "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
@@ -651,13 +651,6 @@
         "language" : "en"
       }
     ],
-    "elementMissingTraitNotEnabled.suggestion" : [
-      {
-        "target" : "Add the UIAccessibilityTraitNotEnabled trait to this element.",
-        "filename" : "AuditIssues.strings",
-        "language" : "en"
-      }
-    ],
     "actionMissing.longDesc" : [
       {
         "target" : "This %@ is missing accessibility action support equivalent to click\/tap inputs.",
@@ -668,6 +661,13 @@
     "potentialElement.suggestion" : [
       {
         "target" : "Determine if any part of the content should be exposed as separate accessibility children.",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "elementMissingTraitNotEnabled.suggestion" : [
+      {
+        "target" : "Add the UIAccessibilityTraitNotEnabled trait to this element.",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }
@@ -868,9 +868,9 @@
         "language" : "en"
       }
     ],
-    "actionMissing.suggestion.formatter" : [
+    "elementLabelNotHumanReadable.title" : [
       {
-        "target" : "Consider implementing the following method(s): %@",
+        "target" : "Label not human-readable",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }
@@ -882,9 +882,9 @@
         "language" : "en"
       }
     ],
-    "elementLabelNotHumanReadable.title" : [
+    "actionMissing.suggestion.formatter" : [
       {
-        "target" : "Label not human-readable",
+        "target" : "Consider implementing the following method(s): %@",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }

@@ -1,22 +1,5 @@
 {
   "localizations" : {
-    "REMOTE_DELETE_FAILED_TITLE" : [
-      {
-        "target" : "Your “%@” Card Could Not Be Removed from Apple Watch",
-        "filename" : "NanoPassKit.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Неуспешно премахване на вашата карта „%@“ от Apple Watch",
-        "filename" : "NanoPassKit.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "«%@» картаңызды Apple Watch қолданбасынан жою мүмкін болмады",
-        "filename" : "NanoPassKit.strings",
-        "language" : "kk"
-      }
-    ],
     "EXTENDED_REVIEW_VERIFICATION_CODE_REQUIRED_TITLE_DRIVER_LICENSE" : [
       {
         "target" : "Finish Adding Driver’s License",
@@ -31,6 +14,23 @@
       {
         "target" : "Жүргізуші куәлігін қосу әрекетін аяқтау",
         "filename" : "NanoPassKit-Identity.strings",
+        "language" : "kk"
+      }
+    ],
+    "REMOTE_DELETE_FAILED_TITLE" : [
+      {
+        "target" : "Your “%@” Card Could Not Be Removed from Apple Watch",
+        "filename" : "NanoPassKit.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Неуспешно премахване на вашата карта „%@“ от Apple Watch",
+        "filename" : "NanoPassKit.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«%@» картаңызды Apple Watch қолданбасынан жою мүмкін болмады",
+        "filename" : "NanoPassKit.strings",
         "language" : "kk"
       }
     ],
@@ -119,23 +119,6 @@
         "language" : "kk"
       }
     ],
-    "RESPONSE_REMOTE_PAYMENT_PASS_ACTION_RELOAD_CAPTION" : [
-      {
-        "target" : "%@ — Paid",
-        "filename" : "NanoPassKit-RemotePaymentPassAction.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "%@ — платено",
-        "filename" : "NanoPassKit-RemotePaymentPassAction.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%@ — төленді",
-        "filename" : "NanoPassKit-RemotePaymentPassAction.strings",
-        "language" : "kk"
-      }
-    ],
     "APPLE_WATCH" : [
       {
         "target" : "Watch",
@@ -150,23 +133,6 @@
       {
         "target" : "Apple Watch",
         "filename" : "NanoPassKit.strings",
-        "language" : "kk"
-      }
-    ],
-    "TODAY_AT_TIME_PLURAL" : [
-      {
-        "target" : "Today at %@",
-        "filename" : "NPKNotificationProvider-AT_TIME.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Днес в %@",
-        "filename" : "NPKNotificationProvider-AT_TIME.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бүгін %@",
-        "filename" : "NPKNotificationProvider-AT_TIME.strings",
         "language" : "kk"
       }
     ],
@@ -187,6 +153,23 @@
         "language" : "kk"
       }
     ],
+    "TODAY_AT_TIME_PLURAL" : [
+      {
+        "target" : "Today at %@",
+        "filename" : "NPKNotificationProvider-AT_TIME.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Днес в %@",
+        "filename" : "NPKNotificationProvider-AT_TIME.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бүгін %@",
+        "filename" : "NPKNotificationProvider-AT_TIME.strings",
+        "language" : "kk"
+      }
+    ],
     "REMOTE_SETUP_ALERT_ADD" : [
       {
         "target" : "Add Cards",
@@ -201,6 +184,23 @@
       {
         "target" : "Карталарды қосу",
         "filename" : "NanoPassKit.strings",
+        "language" : "kk"
+      }
+    ],
+    "RESPONSE_REMOTE_PAYMENT_PASS_ACTION_RELOAD_CAPTION" : [
+      {
+        "target" : "%@ — Paid",
+        "filename" : "NanoPassKit-RemotePaymentPassAction.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "%@ — платено",
+        "filename" : "NanoPassKit-RemotePaymentPassAction.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%@ — төленді",
+        "filename" : "NanoPassKit-RemotePaymentPassAction.strings",
         "language" : "kk"
       }
     ],
@@ -544,20 +544,20 @@
         "language" : "kk"
       }
     ],
-    "GIZMO_UNREACHABLE_ALERT_TITLE" : [
+    "EXTENDED_REVIEW_FOLLOW_VERIFICATON_INSTRUCTION_REQUIRED_TITLE_DRIVER_LICENSE" : [
       {
-        "target" : "Could Not Connect to Apple Watch",
-        "filename" : "NanoPassKit.strings",
+        "target" : "Driver’s License Verification",
+        "filename" : "NanoPassKit-Identity.strings",
         "language" : "en"
       },
       {
-        "target" : "Неуспешно свързване с Apple Watch",
-        "filename" : "NanoPassKit.strings",
+        "target" : "Потвърждаване на шофьорска книжка",
+        "filename" : "NanoPassKit-Identity.strings",
         "language" : "bg"
       },
       {
-        "target" : "Apple Watch сағатына қосылу мүмкін болмады",
-        "filename" : "NanoPassKit.strings",
+        "target" : "Жүргізуші куәлігін тексеру",
+        "filename" : "NanoPassKit-Identity.strings",
         "language" : "kk"
       }
     ],
@@ -595,20 +595,20 @@
         "language" : "kk"
       }
     ],
-    "EXTENDED_REVIEW_FOLLOW_VERIFICATON_INSTRUCTION_REQUIRED_TITLE_DRIVER_LICENSE" : [
+    "GIZMO_UNREACHABLE_ALERT_TITLE" : [
       {
-        "target" : "Driver’s License Verification",
-        "filename" : "NanoPassKit-Identity.strings",
+        "target" : "Could Not Connect to Apple Watch",
+        "filename" : "NanoPassKit.strings",
         "language" : "en"
       },
       {
-        "target" : "Потвърждаване на шофьорска книжка",
-        "filename" : "NanoPassKit-Identity.strings",
+        "target" : "Неуспешно свързване с Apple Watch",
+        "filename" : "NanoPassKit.strings",
         "language" : "bg"
       },
       {
-        "target" : "Жүргізуші куәлігін тексеру",
-        "filename" : "NanoPassKit-Identity.strings",
+        "target" : "Apple Watch сағатына қосылу мүмкін болмады",
+        "filename" : "NanoPassKit.strings",
         "language" : "kk"
       }
     ],
@@ -1122,23 +1122,6 @@
         "language" : "kk"
       }
     ],
-    "ACCOUNTPASS_INFO_ACCOUNT_BALANCE" : [
-      {
-        "target" : "Card Balance",
-        "filename" : "AccountPass.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Салдо по карта",
-        "filename" : "AccountPass.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Карта теңгерімі",
-        "filename" : "AccountPass.strings",
-        "language" : "kk"
-      }
-    ],
     "RESPONSE_REMOTE_PAYMENT_PASS_ACTION_RENEW_SUMMARY_TEXT" : [
       {
         "target" : "Added %@ to %@",
@@ -1153,6 +1136,23 @@
       {
         "target" : "«%@» қолданбасы «%@» қалтасына қосылды",
         "filename" : "NanoPassKit-RemotePaymentPassAction.strings",
+        "language" : "kk"
+      }
+    ],
+    "ACCOUNTPASS_INFO_ACCOUNT_BALANCE" : [
+      {
+        "target" : "Card Balance",
+        "filename" : "AccountPass.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Салдо по карта",
+        "filename" : "AccountPass.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Карта теңгерімі",
+        "filename" : "AccountPass.strings",
         "language" : "kk"
       }
     ],
@@ -1275,19 +1275,19 @@
         "language" : "kk"
       }
     ],
-    "REMOTE_AID_SELECTION_FAILED_MESSAGE" : [
+    "REMOTE_AID_SELECTION_FAILED_MESSAGE_NO_CARD_NAME" : [
       {
-        "target" : "Wallet couldn’t change the payment account for your “%@” card because your Apple Watch isn’t connected to your iPhone. To choose the correct account, go to Wallet on your Apple Watch and tap the card.",
+        "target" : "Wallet couldn’t change the payment account for your card because your Apple Watch isn’t connected to your iPhone. To choose the correct account, go to Wallet on your Apple Watch and tap the card.",
         "filename" : "NanoPassKit.strings",
         "language" : "en"
       },
       {
-        "target" : "Приложението Портфейл не може да промени разплащателната сметка за вашата карта „%@“, защото вашият Apple Watch не е свързан към вашия iPhone. За да изберете правилната сметка, отидете в Портфейл на вашия Apple Watch и докоснете картата.",
+        "target" : "Приложението Портфейл не може да промени разплащателната сметка за вашата карта, защото вашият Apple Watch не е свързан към вашия iPhone. За да изберете правилната сметка, отидете в Портфейл на вашия Apple Watch и докоснете картата.",
         "filename" : "NanoPassKit.strings",
         "language" : "bg"
       },
       {
-        "target" : "Apple Watch сағаты iPhone құрылғысына қосылмағандықтан, Wallet қолданбасында «%@» картасы үшін төлем шотын өзгерту мүмкін болмады. Дұрыс шотты таңдау үшін Apple Watch сағатыңызда Wallet қолданбасына кіріп, картаны түртіңіз.",
+        "target" : "Apple Watch сағаты iPhone құрылғысына қосылмағандықтан, Wallet қолданбасында картаңыз үшін төлем шотын өзгерту мүмкін болмады. Дұрыс шотты таңдау үшін Apple Watch сағатыңызда Wallet қолданбасына кіріп, картаны түртіңіз.",
         "filename" : "NanoPassKit.strings",
         "language" : "kk"
       }
@@ -1309,19 +1309,19 @@
         "language" : "kk"
       }
     ],
-    "REMOTE_AID_SELECTION_FAILED_MESSAGE_NO_CARD_NAME" : [
+    "REMOTE_AID_SELECTION_FAILED_MESSAGE" : [
       {
-        "target" : "Wallet couldn’t change the payment account for your card because your Apple Watch isn’t connected to your iPhone. To choose the correct account, go to Wallet on your Apple Watch and tap the card.",
+        "target" : "Wallet couldn’t change the payment account for your “%@” card because your Apple Watch isn’t connected to your iPhone. To choose the correct account, go to Wallet on your Apple Watch and tap the card.",
         "filename" : "NanoPassKit.strings",
         "language" : "en"
       },
       {
-        "target" : "Приложението Портфейл не може да промени разплащателната сметка за вашата карта, защото вашият Apple Watch не е свързан към вашия iPhone. За да изберете правилната сметка, отидете в Портфейл на вашия Apple Watch и докоснете картата.",
+        "target" : "Приложението Портфейл не може да промени разплащателната сметка за вашата карта „%@“, защото вашият Apple Watch не е свързан към вашия iPhone. За да изберете правилната сметка, отидете в Портфейл на вашия Apple Watch и докоснете картата.",
         "filename" : "NanoPassKit.strings",
         "language" : "bg"
       },
       {
-        "target" : "Apple Watch сағаты iPhone құрылғысына қосылмағандықтан, Wallet қолданбасында картаңыз үшін төлем шотын өзгерту мүмкін болмады. Дұрыс шотты таңдау үшін Apple Watch сағатыңызда Wallet қолданбасына кіріп, картаны түртіңіз.",
+        "target" : "Apple Watch сағаты iPhone құрылғысына қосылмағандықтан, Wallet қолданбасында «%@» картасы үшін төлем шотын өзгерту мүмкін болмады. Дұрыс шотты таңдау үшін Apple Watch сағатыңызда Wallet қолданбасына кіріп, картаны түртіңіз.",
         "filename" : "NanoPassKit.strings",
         "language" : "kk"
       }
@@ -1445,23 +1445,6 @@
         "language" : "kk"
       }
     ],
-    "REMOTE_DELETE_FAILED_TITLE_NO_CARD_NAME_FOR_ACCOUNT" : [
-      {
-        "target" : "Your Account Could Not Be Removed from Apple Watch",
-        "filename" : "NanoPassKit.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Неуспешно премахване на вашата сметка от Apple Watch",
-        "filename" : "NanoPassKit.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Аккаунтыңызды Apple Watch қолданбасынан жою мүмкін болмады",
-        "filename" : "NanoPassKit.strings",
-        "language" : "kk"
-      }
-    ],
     "REMOTE_DELETE_FAILED_TITLE_NOT_NEARBY" : [
       {
         "target" : "This Card Could Not Be Removed",
@@ -1475,6 +1458,23 @@
       },
       {
         "target" : "Бұл картаны жою мүмкін болмады",
+        "filename" : "NanoPassKit.strings",
+        "language" : "kk"
+      }
+    ],
+    "REMOTE_SETUP_ALERT_TITLE" : [
+      {
+        "target" : "Set Up Apple Pay in the “Apple Watch” App",
+        "filename" : "NanoPassKit.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Настройте Apple Pay в приложението „Apple Watch“",
+        "filename" : "NanoPassKit.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Apple Watch қолданбасында Apple Pay сервисін баптау",
         "filename" : "NanoPassKit.strings",
         "language" : "kk"
       }
@@ -1493,23 +1493,6 @@
       {
         "target" : "iPhone құрылғыңызда «Apple Watch қолданбасы» > «Wallet және Apple Pay» реттеулері тармағына өтіп, %@ ұсынған келесі қадамдарды орындаңыз.",
         "filename" : "NanoPassKit-Identity.strings",
-        "language" : "kk"
-      }
-    ],
-    "GIZMO_ACCOUNT_REQUIRED_ALERT_BUTTON" : [
-      {
-        "target" : "Sign In",
-        "filename" : "NanoPassKit.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Вход",
-        "filename" : "NanoPassKit.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жүйеге кіру",
-        "filename" : "NanoPassKit.strings",
         "language" : "kk"
       }
     ],
@@ -1547,20 +1530,37 @@
         "language" : "kk"
       }
     ],
-    "REMOTE_SETUP_ALERT_TITLE" : [
+    "GIZMO_ACCOUNT_REQUIRED_ALERT_BUTTON" : [
       {
-        "target" : "Set Up Apple Pay in the “Apple Watch” App",
+        "target" : "Sign In",
         "filename" : "NanoPassKit.strings",
         "language" : "en"
       },
       {
-        "target" : "Настройте Apple Pay в приложението „Apple Watch“",
+        "target" : "Вход",
         "filename" : "NanoPassKit.strings",
         "language" : "bg"
       },
       {
-        "target" : "Apple Watch қолданбасында Apple Pay сервисін баптау",
+        "target" : "Жүйеге кіру",
         "filename" : "NanoPassKit.strings",
+        "language" : "kk"
+      }
+    ],
+    "APPLE_PAY" : [
+      {
+        "target" : "Apple Pay",
+        "filename" : "NPKNotificationProvider.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Apple Pay",
+        "filename" : "NPKNotificationProvider.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Apple Pay",
+        "filename" : "NPKNotificationProvider.strings",
         "language" : "kk"
       }
     ],
@@ -1598,20 +1598,20 @@
         "language" : "kk"
       }
     ],
-    "APPLE_PAY" : [
+    "REMOTE_DELETE_FAILED_TITLE_NO_CARD_NAME_FOR_ACCOUNT" : [
       {
-        "target" : "Apple Pay",
-        "filename" : "NPKNotificationProvider.strings",
+        "target" : "Your Account Could Not Be Removed from Apple Watch",
+        "filename" : "NanoPassKit.strings",
         "language" : "en"
       },
       {
-        "target" : "Apple Pay",
-        "filename" : "NPKNotificationProvider.strings",
+        "target" : "Неуспешно премахване на вашата сметка от Apple Watch",
+        "filename" : "NanoPassKit.strings",
         "language" : "bg"
       },
       {
-        "target" : "Apple Pay",
-        "filename" : "NPKNotificationProvider.strings",
+        "target" : "Аккаунтыңызды Apple Watch қолданбасынан жою мүмкін болмады",
+        "filename" : "NanoPassKit.strings",
         "language" : "kk"
       }
     ],

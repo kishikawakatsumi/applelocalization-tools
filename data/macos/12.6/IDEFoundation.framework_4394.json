@@ -1,16 +1,16 @@
 {
   "localizations" : {
-    "Xcode.IDEFoundation.IDETemplateFileTypeName" : [
-      {
-        "target" : "file",
-        "filename" : "PlugIn.strings",
-        "language" : "en"
-      }
-    ],
     "The file is a remote resource. Try making a local copy." : [
       {
         "target" : "The file is a remote resource. Try making a local copy.",
         "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.IDEFoundation.IDETemplateFileTypeName" : [
+      {
+        "target" : "file",
+        "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
@@ -70,9 +70,9 @@
         "language" : "en"
       }
     ],
-    "Test" : [
+    "Conflict line %d" : [
       {
-        "target" : "Test",
+        "target" : "Conflict line %d",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -84,9 +84,9 @@
         "language" : "en"
       }
     ],
-    "Conflict line %d" : [
+    "Test" : [
       {
-        "target" : "Conflict line %d",
+        "target" : "Test",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -175,10 +175,10 @@
         "language" : "en"
       }
     ],
-    "Building %@" : [
+    "Xcode.AlertEvent.RunPauses.Title" : [
       {
-        "target" : "Building %@",
-        "filename" : "Localizable.strings",
+        "target" : "Pauses",
+        "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
@@ -196,10 +196,10 @@
         "language" : "en"
       }
     ],
-    "Xcode.AlertEvent.RunPauses.Title" : [
+    "Building %@" : [
       {
-        "target" : "Pauses",
-        "filename" : "PlugIn.strings",
+        "target" : "Building %@",
+        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -238,16 +238,16 @@
         "language" : "en"
       }
     ],
-    "Could not unlock the parent folder. Make sure it is not marked as 'Locked' in the Finder 'Get Info' window. Also check that you have proper write access to the file, parent folder, and containing volume." : [
+    "%@ is not part of the build phase of any targets in the Xcode 3 projects in this workspace and so can’t be refactored." : [
       {
-        "target" : "Could not unlock the parent folder. Make sure it is not marked as ‘Locked’ in the Finder ‘Get Info’ window. Also check that you have proper write access to the file, parent folder, and containing volume.",
+        "target" : "%@ is not part of the build phase of any targets in the Xcode 3 projects in this workspace and so can’t be refactored.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "%@ is not part of the build phase of any targets in the Xcode 3 projects in this workspace and so can’t be refactored." : [
+    "Could not unlock the parent folder. Make sure it is not marked as 'Locked' in the Finder 'Get Info' window. Also check that you have proper write access to the file, parent folder, and containing volume." : [
       {
-        "target" : "%@ is not part of the build phase of any targets in the Xcode 3 projects in this workspace and so can’t be refactored.",
+        "target" : "Could not unlock the parent folder. Make sure it is not marked as ‘Locked’ in the Finder ‘Get Info’ window. Also check that you have proper write access to the file, parent folder, and containing volume.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -287,16 +287,16 @@
         "language" : "en"
       }
     ],
-    "Refactoring- or C" : [
+    "Unknown" : [
       {
-        "target" : " or C",
+        "target" : "Unknown",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "notice" : [
+    "Refactoring- or C" : [
       {
-        "target" : "notice",
+        "target" : " or C",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -308,9 +308,9 @@
         "language" : "en"
       }
     ],
-    "Unknown" : [
+    "notice" : [
       {
-        "target" : "Unknown",
+        "target" : "notice",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -595,17 +595,17 @@
         "language" : "en"
       }
     ],
-    "Xcode.AlertEvent.BuildSucceeds.Title" : [
-      {
-        "target" : "Succeeds",
-        "filename" : "PlugIn.strings",
-        "language" : "en"
-      }
-    ],
     "Refactoring-%@" : [
       {
         "target" : "%@",
         "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.AlertEvent.BuildSucceeds.Title" : [
+      {
+        "target" : "Succeeds",
+        "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
@@ -728,9 +728,9 @@
         "language" : "en"
       }
     ],
-    "The item does not support editing." : [
+    "Refactoring-%@ is%@ %@%@" : [
       {
-        "target" : "The item does not support editing.",
+        "target" : "%1$@ is%2$@ %3$@%4$@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -763,9 +763,9 @@
         "language" : "en"
       }
     ],
-    "Refactoring-%@ is%@ %@%@" : [
+    "The item does not support editing." : [
       {
-        "target" : "%1$@ is%2$@ %3$@%4$@",
+        "target" : "The item does not support editing.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1043,17 +1043,17 @@
         "language" : "en"
       }
     ],
-    "Xcode.AlertEvent.RunExitsUnexpectedly.Title" : [
-      {
-        "target" : "Exits unexpectedly",
-        "filename" : "PlugIn.strings",
-        "language" : "en"
-      }
-    ],
     "These items are currently locked because you do not have write permission for the parent folder." : [
       {
         "target" : "These items are currently locked because you do not have write permission for the parent folder.",
         "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.AlertEvent.RunExitsUnexpectedly.Title" : [
+      {
+        "target" : "Exits unexpectedly",
+        "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
@@ -1113,13 +1113,6 @@
         "language" : "en"
       }
     ],
-    "Xcode.FileDataType.path-based-mach-o-executable" : [
-      {
-        "target" : "Path-based Mach-O Executable",
-        "filename" : "PlugIn.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.AlertEvent.InstallFails.Title" : [
       {
         "target" : "Fails",
@@ -1130,6 +1123,13 @@
     "Xcode.AlertEvent.RunStart.Title" : [
       {
         "target" : "Starts",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.FileDataType.path-based-mach-o-executable" : [
+      {
+        "target" : "Path-based Mach-O Executable",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }

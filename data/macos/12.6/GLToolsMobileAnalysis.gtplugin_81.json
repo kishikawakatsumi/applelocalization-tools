@@ -960,6 +960,39 @@
         "language" : "en"
       }
     ],
+    "coords.z" : [
+      {
+        "target" : "coords.z",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "TEXTURE_LOD_BIAS only allowed when <target> is TEXTURE_FILTER_CONTROL" : [
+      {
+        "target" : "TEXTURE_LOD_BIAS only allowed when <target> is TEXTURE_FILTER_CONTROL",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "zfail" : [
+      {
+        "target" : "zfail",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKRecommendFourComponentsForByteData" : [
+      {
+        "target" : "When using byte format data, use a four component layout to ensure optimal alignment.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Your application used byte sized vertex data without using a four component layout. When using byte format data it is most efficient to use a four component layout to ensure optimal alignment.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFDKFragmentShaderDynamicBranching" : [
       {
         "target" : " contains dynamic branch instructions, which reduces the performance of the shader.",
@@ -977,25 +1010,6 @@
         "language" : "en"
       }
     ],
-    "TEXTURE_LOD_BIAS only allowed when <target> is TEXTURE_FILTER_CONTROL" : [
-      {
-        "target" : "TEXTURE_LOD_BIAS only allowed when <target> is TEXTURE_FILTER_CONTROL",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFDKRecommendFourComponentsForByteData" : [
-      {
-        "target" : "When using byte format data, use a four component layout to ensure optimal alignment.",
-        "filename" : "AnalyzerFindingShort.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Your application used byte sized vertex data without using a four component layout. When using byte format data it is most efficient to use a four component layout to ensure optimal alignment.",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFKOffChipMRT" : [
       {
         "target" : "Loss of Fast Path Rendering Due to Large Framebuffer Color Attachment Writes",
@@ -1004,20 +1018,6 @@
       },
       {
         "target" : "Loss of fast path rendering due to large framebuffer color attachment writes",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "coords.z" : [
-      {
-        "target" : "coords.z",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "zfail" : [
-      {
-        "target" : "zfail",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1036,6 +1036,13 @@
         "language" : "en"
       }
     ],
+    "attachment" : [
+      {
+        "target" : "attachment",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFKFragmentShaderDynamicBranching" : [
       {
         "target" : "Fragment Shader Dynamic Branching",
@@ -1044,13 +1051,6 @@
       },
       {
         "target" : "Dynamic branching in fragment shader",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "attachment" : [
-      {
-        "target" : "attachment",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1128,18 +1128,6 @@
         "language" : "en"
       }
     ],
-    "DYFKVertexShaderDynamicBranchingAndMemoryAccess" : [
-      {
-        "target" : "Vertex Shader Dynamic Branching + Memory Access",
-        "filename" : "AnalyzerFindingKinds.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Dynamic branching and main memory access in vertex shader",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFKProjectedTextureSampling" : [
       {
         "target" : "Projected Texture Sampling",
@@ -1148,6 +1136,18 @@
       },
       {
         "target" : "Projected texture samples",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKVertexShaderDynamicBranchingAndMemoryAccess" : [
+      {
+        "target" : "Vertex Shader Dynamic Branching + Memory Access",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Dynamic branching and main memory access in vertex shader",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1248,14 +1248,14 @@
         "language" : "en"
       }
     ],
-    "DYFURLLogicalBufferStore" : [
+    "DYFURLRecommendTwoOrFourComponentsForShortData" : [
       {
         "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFURLRecommendTwoOrFourComponentsForShortData" : [
+    "DYFURLLogicalBufferStore" : [
       {
         "target" : " ",
         "filename" : "AnalyzerFinding.strings",
@@ -1578,16 +1578,16 @@
         "language" : "en"
       }
     ],
-    "DYFURLRecommendNotUsingSignedByte" : [
+    "(MaxUnits==%d): Texture-Unit out of range" : [
       {
-        "target" : " ",
+        "target" : ": (MaxUnits==%d): Texture-Unit out of range",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "(MaxUnits==%d): Texture-Unit out of range" : [
+    "DYFURLRecommendNotUsingSignedByte" : [
       {
-        "target" : ": (MaxUnits==%d): Texture-Unit out of range",
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1784,9 +1784,14 @@
         "language" : "en"
       }
     ],
-    "w" : [
+    "DYFKUnoptimizedMSAAResolve" : [
       {
-        "target" : "w",
+        "target" : "Unoptimized MSAA Resolve",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Suboptimal MSAA buffer resolve operation",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1805,21 +1810,16 @@
         "language" : "en"
       }
     ],
-    "x" : [
+    "w" : [
       {
-        "target" : "x",
+        "target" : "w",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFKUnoptimizedMSAAResolve" : [
+    "x" : [
       {
-        "target" : "Unoptimized MSAA Resolve",
-        "filename" : "AnalyzerFindingKinds.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Suboptimal MSAA buffer resolve operation",
+        "target" : "x",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1920,9 +1920,9 @@
         "language" : "en"
       }
     ],
-    "DYFDKReportExtensionsUsed" : [
+    "units" : [
       {
-        "target" : "Extensions Used:\n",
+        "target" : "units",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1939,9 +1939,9 @@
         "language" : "en"
       }
     ],
-    "units" : [
+    "DYFURLRecommendUsingInterleavingForStaticVBOs" : [
       {
-        "target" : "units",
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1972,9 +1972,9 @@
         "language" : "en"
       }
     ],
-    "DYFURLRecommendUsingInterleavingForStaticVBOs" : [
+    "DYFDKReportExtensionsUsed" : [
       {
-        "target" : " ",
+        "target" : "Extensions Used:\n",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }

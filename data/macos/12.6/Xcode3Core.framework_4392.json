@@ -7,16 +7,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.HardenedRuntime.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.CommunicatesWithDrivers.Description" : [
       {
-        "target" : "Hardened Runtime defends your application by preventing modifications to its code and provides fine-grained controls over what can run in your process. Hardening the runtime also prevents access to sensitive resources unless your application pre-declares its intent to use them, which reduces the attack surface by eliminating unnecessary access. These properties help prevent exploitation of your application and this capability is required for your app to be notarized.",
+        "target" : "Allows communication between an app and DriverKit drivers.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.CommunicatesWithDrivers.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.HardenedRuntime.Description" : [
       {
-        "target" : "Allows communication between an app and DriverKit drivers.",
+        "target" : "Hardened Runtime defends your application by preventing modifications to its code and provides fine-grained controls over what can run in your process. Hardening the runtime also prevents access to sensitive resources unless your application pre-declares its intent to use them, which reduces the attack surface by eliminating unnecessary access. These properties help prevent exploitation of your application and this capability is required for your app to be notarized.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -84,6 +84,13 @@
         "language" : "en"
       }
     ],
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.WeatherKit.Description" : [
+      {
+        "target" : "WeatherKit provides current and forecasted weather information.",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
     "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitFamilyAudio.Description" : [
       {
         "target" : "Support for audio family drivers.",
@@ -91,9 +98,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.WeatherKit.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitFamilySerial.Description" : [
       {
-        "target" : "WeatherKit provides current and forecasted weather information.",
+        "target" : "Support for serial family drivers.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -105,13 +112,6 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.InterAppAudio.Description" : [
-      {
-        "target" : "Enabling Inter-App Audio allows your app to send audio to and receive audio from other Inter-App Audio-enabled apps.",
-        "filename" : "PlugIn.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.BackgroundModes.Description" : [
       {
         "target" : "Background Modes specifies that the app provides specific background services and must be allowed to continue running while in the background. These keys should be used sparingly and only by apps providing the indicated services. Where alternatives for running in the background exist, those alternatives should be used instead.",
@@ -119,9 +119,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitFamilySerial.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.InterAppAudio.Description" : [
       {
-        "target" : "Support for serial family drivers.",
+        "target" : "Enabling Inter-App Audio allows your app to send audio to and receive audio from other Inter-App Audio-enabled apps.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -294,16 +294,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.TimeSensitiveNotifications.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.Siri.Description" : [
       {
-        "target" : "Time Sensitive notifications deliver information that demand immediate attention and directly call on the individual to take action in the moment they receive them. Time Sensitive alerts are always delivered immediately, surfaced above other notifications, and allowed to break through Focus and Do Not Disturb.",
+        "target" : "Allows your application to handle Siri requests.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.Siri.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.TimeSensitiveNotifications.Description" : [
       {
-        "target" : "Allows your application to handle Siri requests.",
+        "target" : "Time Sensitive notifications deliver information that demand immediate attention and directly call on the individual to take action in the moment they receive them. Time Sensitive alerts are always delivered immediately, surfaced above other notifications, and allowed to break through Focus and Do Not Disturb.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -357,9 +357,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Container.Xcode3project" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.Sandbox.Description" : [
       {
-        "target" : "Xcode3 Project",
+        "target" : "App Sandbox employs services of the operating system to create a barrier between your application code and critical user data, network access, or other processes on the system. The sandbox helps to minimize risks from insecure code in your app, or in frameworks you link against.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -371,9 +371,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.Sandbox.Description" : [
+    "Xcode.Xcode3ProjectSupport.Container.Xcode3project" : [
       {
-        "target" : "App Sandbox employs services of the operating system to create a barrier between your application code and critical user data, network access, or other processes on the system. The sandbox helps to minimize risks from insecure code in your app, or in frameworks you link against.",
+        "target" : "Xcode3 Project",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -448,16 +448,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitTransportUSB.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitFamilyHIDEventService.Description" : [
       {
-        "target" : "Support for USB transport drivers.",
+        "target" : "Support for HID event service family drivers.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitFamilyHIDEventService.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.AppClipExtension.Description" : [
       {
-        "target" : "Support for HID event service family drivers.",
+        "target" : "Identifies this target as an app clip extension.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -469,9 +469,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.AppClipExtension.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitTransportUSB.Description" : [
       {
-        "target" : "Identifies this target as an app clip extension.",
+        "target" : "Support for USB transport drivers.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }

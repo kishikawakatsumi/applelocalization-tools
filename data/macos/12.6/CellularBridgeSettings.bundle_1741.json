@@ -12,18 +12,6 @@
         "language" : "kk"
       }
     ],
-    "AIRPLANE_MODE_TITLE" : [
-      {
-        "target" : "Режим Полет",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Ұшақ режимі",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "WIFI_ON_WLAN" : [
       {
         "target" : "WLAN",
@@ -32,6 +20,18 @@
       },
       {
         "target" : "WLAN",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "AIRPLANE_MODE_TITLE" : [
+      {
+        "target" : "Режим Полет",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Ұшақ режимі",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -84,26 +84,14 @@
         "language" : "kk"
       }
     ],
-    "WAITING_FOR_CARRIER_NAME" : [
+    "ALL_ON_SHORT_WLAN" : [
       {
-        "target" : "Оператор",
+        "target" : "WLAN и мобилни данни",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Ұялы байланыс операторы",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "CELLULAR_PLAN_STATUS_DELETING" : [
-      {
-        "target" : "Премахване",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жойылуда",
+        "target" : "WLAN және ұялы деректер",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -120,6 +108,18 @@
         "language" : "kk"
       }
     ],
+    "CELLULAR_PLAN_STATUS_DELETING" : [
+      {
+        "target" : "Премахване",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жойылуда",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "MISSING_SIM_TEXT_TINKER" : [
       {
         "target" : "Може да се добави мобилен план на iPhone, който е използван за настройване на този часовник.",
@@ -128,6 +128,18 @@
       },
       {
         "target" : "Ұялы тарифтік жоспарды осы сағатты баптау үшін пайдаланылған iPhone құрылғысына қосуға болады.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WAITING_FOR_CARRIER_NAME" : [
+      {
+        "target" : "Оператор",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Ұялы байланыс операторы",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -156,14 +168,14 @@
         "language" : "kk"
       }
     ],
-    "ALL_ON_SHORT_WLAN" : [
+    "CELLULAR_PLAN_STATUS_WAITING" : [
       {
-        "target" : "WLAN и мобилни данни",
+        "target" : "Изчакване",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "WLAN және ұялы деректер",
+        "target" : "Күтілуде",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -176,18 +188,6 @@
       },
       {
         "target" : "ҰЯЛЫ ДЕРЕКТЕР ҚОЛДАНЫСЫ",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "CELLULAR_PLAN_STATUS_WAITING" : [
-      {
-        "target" : "Изчакване",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Күтілуде",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -264,14 +264,14 @@
         "language" : "kk"
       }
     ],
-    "REPLACE_PLAN_CANCEL" : [
+    "RESET_STATISTICS_TITLE" : [
       {
-        "target" : "Отказ",
+        "target" : "Нулиране на статистиката",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бас тарту",
+        "target" : "Статистиканы бастапқы күйге қайтару",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -288,14 +288,14 @@
         "language" : "kk"
       }
     ],
-    "RESET_STATISTICS_TITLE" : [
+    "REPLACE_PLAN_CANCEL" : [
       {
-        "target" : "Нулиране на статистиката",
+        "target" : "Отказ",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Статистиканы бастапқы күйге қайтару",
+        "target" : "Бас тарту",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -408,18 +408,6 @@
         "language" : "kk"
       }
     ],
-    "DATA_OFF" : [
-      {
-        "target" : "Изкл.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Өшірулі",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "REMOVE_MULTILE_PLANS_ACTION" : [
       {
         "target" : "Премахни всички планове",
@@ -432,14 +420,14 @@
         "language" : "kk"
       }
     ],
-    "THERMAL_FOOTER_TEXT" : [
+    "DATA_OFF" : [
       {
-        "target" : "Мобилната услуга няма да бъде налична, докато Apple Watch не се охлади.",
+        "target" : "Изкл.",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Apple Watch суымағанша, ұялы байланыс қолжетімді болмайды.",
+        "target" : "Өшірулі",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -452,6 +440,18 @@
       },
       {
         "target" : "Бұл тек Apple Watch арқылы жүктеп алынған ұялы деректерді көрсетеді және онда iPhone арқылы жүктеп алынған деректер қамтылмайды. iPhone ұялы деректерін қолдану статистикасы «Реттеулер» қолданбасында қолжетімді.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "THERMAL_FOOTER_TEXT" : [
+      {
+        "target" : "Мобилната услуга няма да бъде налична, докато Apple Watch не се охлади.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Apple Watch суымағанша, ұялы байланыс қолжетімді болмайды.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -540,14 +540,14 @@
         "language" : "kk"
       }
     ],
-    "CONNECTIVITY_STATUS_CONNECTED" : [
+    "BRIDGE_APP_TITLE" : [
       {
-        "target" : "Свързано",
+        "target" : "Мобилни данни",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Қосылды",
+        "target" : "Ұялы байланыс",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -564,14 +564,14 @@
         "language" : "kk"
       }
     ],
-    "BRIDGE_APP_TITLE" : [
+    "CONNECTIVITY_STATUS_CONNECTED" : [
       {
-        "target" : "Мобилни данни",
+        "target" : "Свързано",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Ұялы байланыс",
+        "target" : "Қосылды",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -600,18 +600,6 @@
         "language" : "kk"
       }
     ],
-    "TWO_APP_DISPLAY_NAMES" : [
-      {
-        "target" : "%@ и %@",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%@ және %@",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "NOT_AVAILABLE" : [
       {
         "target" : "Не е налично",
@@ -620,6 +608,18 @@
       },
       {
         "target" : "Қолжетімсіз",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "TWO_APP_DISPLAY_NAMES" : [
+      {
+        "target" : "%@ и %@",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%@ және %@",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -660,6 +660,18 @@
         "language" : "kk"
       }
     ],
+    "CELLULAR_PLAN_BUTTON_SET_UP_CELLULAR" : [
+      {
+        "target" : "Настройване на мобилна услуга",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Ұялы байланысты баптау",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "WAITING_FOR_CARRIER_LOADING_PLAN_INFORMATION" : [
       {
         "target" : "Зареждане на плана",
@@ -680,18 +692,6 @@
       },
       {
         "target" : "Сымсыз деректер",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "CELLULAR_PLAN_BUTTON_SET_UP_CELLULAR" : [
-      {
-        "target" : "Настройване на мобилна услуга",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Ұялы байланысты баптау",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -780,30 +780,6 @@
         "language" : "kk"
       }
     ],
-    "UNINSTALLED_APPS" : [
-      {
-        "target" : "Деинсталирани приложения",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жойылған қолданбалар",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "ALL_ON_WLAN" : [
-      {
-        "target" : "WLAN и мобилни данни",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "WLAN және ұялы деректер",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "ALLOW_DATA_ACCESS_FORMAT" : [
       {
         "target" : "Разреши на „%@“ да използва данни",
@@ -824,6 +800,30 @@
       },
       {
         "target" : "Қамтамасыз ету қатесі",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "ALL_ON_WLAN" : [
+      {
+        "target" : "WLAN и мобилни данни",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "WLAN және ұялы деректер",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "UNINSTALLED_APPS" : [
+      {
+        "target" : "Деинсталирани приложения",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жойылған қолданбалар",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }

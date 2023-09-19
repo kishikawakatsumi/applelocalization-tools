@@ -1,22 +1,5 @@
 {
   "localizations" : {
-    "ERROR_SUBSCRIBER_BAD_TOKEN" : [
-      {
-        "target" : "The photo access token has expired.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Токънът за достъп на снимката е изтекъл.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Фотоға қол жеткізу токенінің мерзімі өтіп кетті.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "kk"
-      }
-    ],
     "UPDATE_STOPPED_SHARING_OUR_STREAM_P_NAME" : [
       {
         "target" : "%1$@ has stopped viewing the photos in your stream.",
@@ -30,6 +13,23 @@
       },
       {
         "target" : "%1$@ ағыныңыздағы фотоларды көруін тоқтатты.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "kk"
+      }
+    ],
+    "ERROR_SUBSCRIBER_BAD_TOKEN" : [
+      {
+        "target" : "The photo access token has expired.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Токънът за достъп на снимката е изтекъл.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Фотоға қол жеткізу токенінің мерзімі өтіп кетті.",
         "filename" : "CoreMediaStream.strings",
         "language" : "kk"
       }
@@ -119,23 +119,6 @@
         "language" : "kk"
       }
     ],
-    "ERROR_MSAS_PROT_LIMIT_SUBSCRIPTIONS_P_COUNT" : [
-      {
-        "target" : "You may not subscribe to more than %@ Shared Photo Streams.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Не може да се абонирате за повече от %@ споделени потока снимки.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%@ ортақ фото ағыннан артық жазылуға болмайды.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "kk"
-      }
-    ],
     "ERROR_CONNECTION_CORE_NO_URL_ERROR" : [
       {
         "target" : "A connection to the Photo Stream server could not be made.",
@@ -170,36 +153,19 @@
         "language" : "kk"
       }
     ],
-    "ERROR_SHARING_INVALID_TYPE" : [
+    "ERROR_MSAS_PROT_LIMIT_SUBSCRIPTIONS_P_COUNT" : [
       {
-        "target" : "The Shared Photo Streams server reported a sharing status of the wrong type.",
+        "target" : "You may not subscribe to more than %@ Shared Photo Streams.",
         "filename" : "CoreMediaStream.strings",
         "language" : "en"
       },
       {
-        "target" : "Сървърът за споделените потоци снимки съобщи за грешен тип състояние на споделяне.",
+        "target" : "Не може да се абонирате за повече от %@ споделени потока снимки.",
         "filename" : "CoreMediaStream.strings",
         "language" : "bg"
       },
       {
-        "target" : "Ортақ фото ағындар сервері бөлісу күйінің түрі қате екенін хабарлады.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "kk"
-      }
-    ],
-    "ERROR_PUT_CONNECTION_INVALID_ASSET_HASH" : [
-      {
-        "target" : "The Photo Stream server response did not include the correct upload authorization.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Отговорът на сървъра за функцията Поток снимки не включи правилната оторизация за качване.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Фото ағын серверінің жауабында дұрыс жүктеп салу авторизациясы болмады.",
+        "target" : "%@ ортақ фото ағыннан артық жазылуға болмайды.",
         "filename" : "CoreMediaStream.strings",
         "language" : "kk"
       }
@@ -221,6 +187,23 @@
         "language" : "kk"
       }
     ],
+    "ERROR_PUT_CONNECTION_INVALID_ASSET_HASH" : [
+      {
+        "target" : "The Photo Stream server response did not include the correct upload authorization.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Отговорът на сървъра за функцията Поток снимки не включи правилната оторизация за качване.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Фото ағын серверінің жауабында дұрыс жүктеп салу авторизациясы болмады.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "kk"
+      }
+    ],
     "ERROR_MSAS_PROT_HTTP_ERROR_P_CODE" : [
       {
         "target" : "The Shared Photo Streams server returned an error (%@).",
@@ -234,6 +217,23 @@
       },
       {
         "target" : "Ортақ фото ағындар сервері қатені қайтарды (%@).",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "kk"
+      }
+    ],
+    "ERROR_SHARING_INVALID_TYPE" : [
+      {
+        "target" : "The Shared Photo Streams server reported a sharing status of the wrong type.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Сървърът за споделените потоци снимки съобщи за грешен тип състояние на споделяне.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Ортақ фото ағындар сервері бөлісу күйінің түрі қате екенін хабарлады.",
         "filename" : "CoreMediaStream.strings",
         "language" : "kk"
       }
@@ -408,23 +408,6 @@
         "language" : "kk"
       }
     ],
-    "ERROR_STATE_PHOTO_REJECTED" : [
-      {
-        "target" : "The photo was not uploaded to Shared Photo Streams.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Снимката не е качена в споделените потоци снимки.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бұл фото ортақ фото ағындарға жүктеп салынбады.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "kk"
-      }
-    ],
     "ERROR_ASSET_TRANS_MISSING_MMCS_TOKEN" : [
       {
         "target" : "The photo could not be shared because an access token is missing.",
@@ -438,6 +421,23 @@
       },
       {
         "target" : "Қол жеткізу токенінің болмауына байланысты фотоны бөлісу мүмкін болмады.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "kk"
+      }
+    ],
+    "ERROR_STATE_PHOTO_REJECTED" : [
+      {
+        "target" : "The photo was not uploaded to Shared Photo Streams.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Снимката не е качена в споделените потоци снимки.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл фото ортақ фото ағындарға жүктеп салынбады.",
         "filename" : "CoreMediaStream.strings",
         "language" : "kk"
       }
@@ -493,23 +493,6 @@
         "language" : "kk"
       }
     ],
-    "ERROR_MODEL_INVALID_INVITATION" : [
-      {
-        "target" : "The invitation could not be accepted.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Поканата не може да бъде приета.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бұл шақыруды қабылдау мүмкін болмады.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "kk"
-      }
-    ],
     "ERROR_MODEL_INVALID_COMMENT" : [
       {
         "target" : "The comment could not be found.",
@@ -523,6 +506,23 @@
       },
       {
         "target" : "Комментарийді табу мүмкін болмады.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "kk"
+      }
+    ],
+    "ERROR_MODEL_INVALID_INVITATION" : [
+      {
+        "target" : "The invitation could not be accepted.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Поканата не може да бъде приета.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл шақыруды қабылдау мүмкін болмады.",
         "filename" : "CoreMediaStream.strings",
         "language" : "kk"
       }
@@ -544,6 +544,23 @@
         "language" : "kk"
       }
     ],
+    "ERROR_MSAS_PROT_LIMIT_BANDWIDTH" : [
+      {
+        "target" : "Server bandwidth limit exceeded, please try again later.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Превишен е лимитът за пропускателна способност на сървъра. Опитайте отново по-късно.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Сервердің өткізу мүмкіндігі шамадан асып кетті. Әрекетті кейінірек қайталаңыз.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "kk"
+      }
+    ],
     "ERROR_GET_CORE_CONNECTION_BAD_CHUNK_TYPE" : [
       {
         "target" : "The Photo Stream server returned a response with an invalid data block.",
@@ -557,23 +574,6 @@
       },
       {
         "target" : "Фото ағын сервері жарамсыз деректер блогы бар жауап қайтарды.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "kk"
-      }
-    ],
-    "ERROR_PUT_CONNECTION_INVALID_STREAMS_RESPONSE" : [
-      {
-        "target" : "The Photo Stream server has returned an invalid response during publication.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Сървърът за функцията Поток снимки върна невалиден отговор при публикуването.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Фото ағын сервері жариялау кезінде жарамсыз жауап қайтарды.",
         "filename" : "CoreMediaStream.strings",
         "language" : "kk"
       }
@@ -595,19 +595,19 @@
         "language" : "kk"
       }
     ],
-    "ERROR_MSAS_PROT_LIMIT_BANDWIDTH" : [
+    "ERROR_PUT_CONNECTION_INVALID_STREAMS_RESPONSE" : [
       {
-        "target" : "Server bandwidth limit exceeded, please try again later.",
+        "target" : "The Photo Stream server has returned an invalid response during publication.",
         "filename" : "CoreMediaStream.strings",
         "language" : "en"
       },
       {
-        "target" : "Превишен е лимитът за пропускателна способност на сървъра. Опитайте отново по-късно.",
+        "target" : "Сървърът за функцията Поток снимки върна невалиден отговор при публикуването.",
         "filename" : "CoreMediaStream.strings",
         "language" : "bg"
       },
       {
-        "target" : "Сервердің өткізу мүмкіндігі шамадан асып кетті. Әрекетті кейінірек қайталаңыз.",
+        "target" : "Фото ағын сервері жариялау кезінде жарамсыз жауап қайтарды.",
         "filename" : "CoreMediaStream.strings",
         "language" : "kk"
       }
@@ -646,23 +646,6 @@
         "language" : "kk"
       }
     ],
-    "ERROR_MSAS_PROT_SHUTTING_DOWN" : [
-      {
-        "target" : "Shared Photo Streams is shutting down.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Функцията за споделените потоци снимки е в процес на спиране.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "«Ортақ фото ағындар» функциясы өшірілуде.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "kk"
-      }
-    ],
     "ERROR_SUBSCRIBER_CANNOT_GET_VIDEO" : [
       {
         "target" : "The video file cannot be downloaded.",
@@ -676,6 +659,23 @@
       },
       {
         "target" : "Видеофайлды жүктеп алу мүмкін емес.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "kk"
+      }
+    ],
+    "ERROR_MSAS_PROT_SHUTTING_DOWN" : [
+      {
+        "target" : "Shared Photo Streams is shutting down.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Функцията за споделените потоци снимки е в процес на спиране.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«Ортақ фото ағындар» функциясы өшірілуде.",
         "filename" : "CoreMediaStream.strings",
         "language" : "kk"
       }
@@ -986,23 +986,6 @@
         "language" : "kk"
       }
     ],
-    "ERROR_PUBLISH_STORAGE_CANNOT_QUEUE" : [
-      {
-        "target" : "The photo file cannot be queued for upload.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Файлът на снимката не може да бъде поставен в опашката за изпращане.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Фотофайлды жүктеп салу кезегіне қою мүмкін емес.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "kk"
-      }
-    ],
     "ERROR_SUBSCRIBER_CANNOT_RETRIEVE" : [
       {
         "target" : "The photo file cannot be downloaded.",
@@ -1050,6 +1033,23 @@
       },
       {
         "target" : "Фото ағын сервері жарамсыз өлшемдегі жауап қайтарды.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "kk"
+      }
+    ],
+    "ERROR_MSAS_PROT_CANNOT_CREATE_ALBUM" : [
+      {
+        "target" : "The Shared Photo Stream “%@” could not be created.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Споделеният поток снимки „%@“ не успя да се създаде.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«%@» ортақ фото ағынын жасау мүмкін болмады.",
         "filename" : "CoreMediaStream.strings",
         "language" : "kk"
       }
@@ -1105,19 +1105,19 @@
         "language" : "kk"
       }
     ],
-    "ERROR_MSAS_PROT_CANNOT_CREATE_ALBUM" : [
+    "ERROR_PUBLISH_STORAGE_CANNOT_QUEUE" : [
       {
-        "target" : "The Shared Photo Stream “%@” could not be created.",
+        "target" : "The photo file cannot be queued for upload.",
         "filename" : "CoreMediaStream.strings",
         "language" : "en"
       },
       {
-        "target" : "Споделеният поток снимки „%@“ не успя да се създаде.",
+        "target" : "Файлът на снимката не може да бъде поставен в опашката за изпращане.",
         "filename" : "CoreMediaStream.strings",
         "language" : "bg"
       },
       {
-        "target" : "«%@» ортақ фото ағынын жасау мүмкін болмады.",
+        "target" : "Фотофайлды жүктеп салу кезегіне қою мүмкін емес.",
         "filename" : "CoreMediaStream.strings",
         "language" : "kk"
       }
@@ -1530,6 +1530,23 @@
         "language" : "kk"
       }
     ],
+    "ERROR_GET_CORE_CONNECTION_INCOMPLETE" : [
+      {
+        "target" : "The Photo Stream server returned an incomplete response.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Сървърът за функцията Поток снимки върна непълен отговор.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Фото ағын сервері толық емес жауап қайтарды.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "kk"
+      }
+    ],
     "ERROR_PUBLISHER_SEND_QUEUE_MISMATCH" : [
       {
         "target" : "Found mismatch between expecting sending queue count and actual count",
@@ -1543,23 +1560,6 @@
       },
       {
         "target" : "Кезектегі күтілетін және нақты мәндер арасында сәйкессіздік анықталды",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "kk"
-      }
-    ],
-    "ERROR_MSAS_PROT_BAD_FIELD" : [
-      {
-        "target" : "The Shared Photo Streams server returned an invalid field.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Сървърът за споделените потоци снимки върна невалидно поле.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Ортақ фото ағындар сервері жарамсыз өрісті қайтарды.",
         "filename" : "CoreMediaStream.strings",
         "language" : "kk"
       }
@@ -1598,19 +1598,19 @@
         "language" : "kk"
       }
     ],
-    "ERROR_GET_CORE_CONNECTION_INCOMPLETE" : [
+    "ERROR_MSAS_PROT_BAD_FIELD" : [
       {
-        "target" : "The Photo Stream server returned an incomplete response.",
+        "target" : "The Shared Photo Streams server returned an invalid field.",
         "filename" : "CoreMediaStream.strings",
         "language" : "en"
       },
       {
-        "target" : "Сървърът за функцията Поток снимки върна непълен отговор.",
+        "target" : "Сървърът за споделените потоци снимки върна невалидно поле.",
         "filename" : "CoreMediaStream.strings",
         "language" : "bg"
       },
       {
-        "target" : "Фото ағын сервері толық емес жауап қайтарды.",
+        "target" : "Ортақ фото ағындар сервері жарамсыз өрісті қайтарды.",
         "filename" : "CoreMediaStream.strings",
         "language" : "kk"
       }
@@ -1836,23 +1836,6 @@
         "language" : "kk"
       }
     ],
-    "UPDATE_STOPPED_SHARING_BOTH_WAYS_P_NAME" : [
-      {
-        "target" : "%1$@ has stopped sharing Photo Streams with you.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "%1$@ спря споделянето на потоци снимки с вас.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%1$@ сізбен фото ағындарды бөлісуді тоқтатты.",
-        "filename" : "CoreMediaStream.strings",
-        "language" : "kk"
-      }
-    ],
     "ERROR_MSAS_PROT_CANNOT_ENCODE" : [
       {
         "target" : "The Shared Photo Streams operation cannot be sent to the server.",
@@ -1870,19 +1853,19 @@
         "language" : "kk"
       }
     ],
-    "ERROR_MODEL_CANNOT_SET_PUBLIC" : [
+    "UPDATE_STOPPED_SHARING_BOTH_WAYS_P_NAME" : [
       {
-        "target" : "The Shared Photo Stream could not be made public",
+        "target" : "%1$@ has stopped sharing Photo Streams with you.",
         "filename" : "CoreMediaStream.strings",
         "language" : "en"
       },
       {
-        "target" : "Споделеният поток снимки не може да бъде зададен като публичен",
+        "target" : "%1$@ спря споделянето на потоци снимки с вас.",
         "filename" : "CoreMediaStream.strings",
         "language" : "bg"
       },
       {
-        "target" : "Бұл ортақ фото ағынды ашық етіп орнату мүмкін болмады",
+        "target" : "%1$@ сізбен фото ағындарды бөлісуді тоқтатты.",
         "filename" : "CoreMediaStream.strings",
         "language" : "kk"
       }
@@ -1900,6 +1883,23 @@
       },
       {
         "target" : "Фото ағын сервері сервер қатесі туралы хабарлады.",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "kk"
+      }
+    ],
+    "ERROR_MODEL_CANNOT_SET_PUBLIC" : [
+      {
+        "target" : "The Shared Photo Stream could not be made public",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Споделеният поток снимки не може да бъде зададен като публичен",
+        "filename" : "CoreMediaStream.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бұл ортақ фото ағынды ашық етіп орнату мүмкін болмады",
         "filename" : "CoreMediaStream.strings",
         "language" : "kk"
       }

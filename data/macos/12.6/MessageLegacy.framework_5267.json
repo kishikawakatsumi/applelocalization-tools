@@ -14,17 +14,17 @@
         "language" : "en"
       }
     ],
-    "MF_FAILED_SEND_INACTIVE_ACCOUNT" : [
-      {
-        "target" : "This account is inactive. Check the settings in Settings > Accounts & Passwords.",
-        "filename" : "Delayed.strings",
-        "language" : "en"
-      }
-    ],
     "NO_PASSWORD_PROVIDED_FOR_USER_FORMAT" : [
       {
         "target" : "No password provided for user “%1$@” on server “%2$@”.\n\nPlease go to Mail Account Settings and enter a password.",
         "filename" : "Message.strings",
+        "language" : "en"
+      }
+    ],
+    "MF_FAILED_SEND_INACTIVE_ACCOUNT" : [
+      {
+        "target" : "This account is inactive. Check the settings in Settings > Accounts & Passwords.",
+        "filename" : "Delayed.strings",
         "language" : "en"
       }
     ],
@@ -105,16 +105,16 @@
         "language" : "en"
       }
     ],
-    "SSL_GENERIC_READ_ERROR" : [
+    "SMIME_OTHER_ENCRYPTION_CERT_ERROR_MESSAGE" : [
       {
-        "target" : "An SSL error occurred while trying to read data from the server “%@”. Verify that this server supports SSL and that your account settings are correct.",
+        "target" : "An error occurred while searching for an encryption certificate for “%@” in your keychain.",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
     ],
-    "SMIME_OTHER_ENCRYPTION_CERT_ERROR_MESSAGE" : [
+    "SSL_GENERIC_READ_ERROR" : [
       {
-        "target" : "An error occurred while searching for an encryption certificate for “%@” in your keychain.",
+        "target" : "An SSL error occurred while trying to read data from the server “%@”. Verify that this server supports SSL and that your account settings are correct.",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
@@ -882,6 +882,13 @@
         "language" : "en"
       }
     ],
+    "AUTH_NOT_SUPPORTED_FORMAT" : [
+      {
+        "target" : "The %1$@ server “%2$@” doesn’t support %3$@ authentication. Please check your account settings and try again.",
+        "filename" : "Delayed.strings",
+        "language" : "en"
+      }
+    ],
     "CONNECTION_TIMED_OUT" : [
       {
         "target" : "The connection to the server “%1$@” on port %2$d timed out.",
@@ -892,27 +899,6 @@
     "INVALID_PASSWORD_FORMAT" : [
       {
         "target" : "Enter the password for the %1$@ account “%2$@”",
-        "filename" : "Delayed.strings",
-        "language" : "en"
-      }
-    ],
-    "AUTH_NOT_SUPPORTED_FORMAT" : [
-      {
-        "target" : "The %1$@ server “%2$@” doesn’t support %3$@ authentication. Please check your account settings and try again.",
-        "filename" : "Delayed.strings",
-        "language" : "en"
-      }
-    ],
-    "SSL_CERT_CHAIN_INVALID_FORMAT" : [
-      {
-        "target" : "The certificate for the server is invalid.",
-        "filename" : "Delayed.strings",
-        "language" : "en"
-      }
-    ],
-    "PASSWORD_PLACEHOLDER" : [
-      {
-        "target" : "Password",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
@@ -928,6 +914,20 @@
       {
         "target" : "Subject",
         "filename" : "Message.strings",
+        "language" : "en"
+      }
+    ],
+    "PASSWORD_PLACEHOLDER" : [
+      {
+        "target" : "Password",
+        "filename" : "Delayed.strings",
+        "language" : "en"
+      }
+    ],
+    "SSL_CERT_CHAIN_INVALID_FORMAT" : [
+      {
+        "target" : "The certificate for the server is invalid.",
+        "filename" : "Delayed.strings",
         "language" : "en"
       }
     ],
@@ -1036,9 +1036,9 @@
         "language" : "en"
       }
     ],
-    "CONNECT_FAILED_NO_REASON_FORMAT" : [
+    "SMIME_NO_RECIPIENTS" : [
       {
-        "target" : "There may be a problem with the mail server or network. Check the settings for account “%@” or try again.",
+        "target" : "There are no recipients in this message.",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
@@ -1050,9 +1050,9 @@
         "language" : "en"
       }
     ],
-    "SMIME_NO_RECIPIENTS" : [
+    "CONNECT_FAILED_NO_REASON_FORMAT" : [
       {
-        "target" : "There are no recipients in this message.",
+        "target" : "There may be a problem with the mail server or network. Check the settings for account “%@” or try again.",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
@@ -1071,16 +1071,16 @@
         "language" : "en"
       }
     ],
-    "CONNECTION_FAILED" : [
+    "MF_SSL_CONNECTION_FAILURE" : [
       {
-        "target" : "The mail server “%@” is not responding. Verify that you have entered the correct account info in Mail settings.",
+        "target" : "Mail was unable to connect to server “%1$@” using SSL on port %2$d. Verify that this server supports SSL and that your account settings are correct.",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
     ],
-    "MF_SSL_CONNECTION_FAILURE" : [
+    "CONNECTION_FAILED" : [
       {
-        "target" : "Mail was unable to connect to server “%1$@” using SSL on port %2$d. Verify that this server supports SSL and that your account settings are correct.",
+        "target" : "The mail server “%@” is not responding. Verify that you have entered the correct account info in Mail settings.",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
@@ -1190,13 +1190,6 @@
         "language" : "en"
       }
     ],
-    "MULTIPLE_ACCOUNT_ERRORS" : [
-      {
-        "target" : "Multiple Account Errors",
-        "filename" : "Message.strings",
-        "language" : "en"
-      }
-    ],
     "IMAP_UNAVAILABLE_SERVER" : [
       {
         "target" : "%@ is currently unavailable.",
@@ -1207,6 +1200,13 @@
     "Attachments" : [
       {
         "target" : "Attachments",
+        "filename" : "Message.strings",
+        "language" : "en"
+      }
+    ],
+    "MULTIPLE_ACCOUNT_ERRORS" : [
+      {
+        "target" : "Multiple Account Errors",
         "filename" : "Message.strings",
         "language" : "en"
       }

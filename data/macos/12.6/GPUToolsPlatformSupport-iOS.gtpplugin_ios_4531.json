@@ -42,13 +42,6 @@
         "language" : "en"
       }
     ],
-    "DYFKBoundBufferWasNotUsedByShader" : [
-      {
-        "target" : "Bound Buffer was not used in a Shader",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFURLMultipleNextDrawables" : [
       {
         "target" : "",
@@ -56,16 +49,16 @@
         "language" : "en"
       }
     ],
-    "DYFKTilerParameterBufferExceedsMemlessWarningThreshold" : [
+    "DYFDKEmptyEncoderDetected1" : [
       {
-        "target" : "Tiler Output Buffer Usage is Close to Exceeding Maximum Limit for Memoryless Render Target",
+        "target" : "Your application created a command encoder ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFDKEmptyEncoderDetected1" : [
+    "DYFKTilerParameterBufferExceedsMemlessWarningThreshold" : [
       {
-        "target" : "Your application created a command encoder ",
+        "target" : "Tiler Output Buffer Usage is Close to Exceeding Maximum Limit for Memoryless Render Target",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -80,6 +73,13 @@
     "DYFURLNewTexture" : [
       {
         "target" : "",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKBoundBufferWasNotUsedByShader" : [
+      {
+        "target" : "Bound Buffer was not used in a Shader",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -112,9 +112,9 @@
         "language" : "en"
       }
     ],
-    "DYFKNewDepthStencilState" : [
+    "DYFKResourceSmallBufferDetected" : [
       {
-        "target" : "New MTLDepthStencilState",
+        "target" : "Small Resources",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -126,9 +126,9 @@
         "language" : "en"
       }
     ],
-    "DYFKUnusedBufferDetected" : [
+    "DYFDKCommandBufferNotCommitted" : [
       {
-        "target" : "Unused Buffer",
+        "target" : "This command buffer was enqueued but not committed in this frame.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -140,16 +140,16 @@
         "language" : "en"
       }
     ],
-    "DYFDKCommandBufferNotCommitted" : [
+    "DYFKNewDepthStencilState" : [
       {
-        "target" : "This command buffer was enqueued but not committed in this frame.",
+        "target" : "New MTLDepthStencilState",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFKResourceSmallBufferDetected" : [
+    "DYFKUnusedBufferDetected" : [
       {
-        "target" : "Small Resources",
+        "target" : "Unused Buffer",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -231,13 +231,6 @@
         "language" : "en"
       }
     ],
-    "DYFKRecommendCoalesceEncoders" : [
-      {
-        "target" : "Inefficient use of Command Encoders",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFDKNewLibrary" : [
       {
         "target" : "Your application created a MTLLibrary object during GPU work. Create libraries at load time for best performance.",
@@ -252,6 +245,13 @@
         "language" : "en"
       }
     ],
+    "DYFKResourceMemoryResourceIssueDetected" : [
+      {
+        "target" : "Memory Usage",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFDKUnusedTextureDetected" : [
       {
         "target" : "Encoder writes to texture that is unused in later encoders",
@@ -259,9 +259,9 @@
         "language" : "en"
       }
     ],
-    "DYFKResourceMemoryResourceIssueDetected" : [
+    "DYFKRecommendCoalesceEncoders" : [
       {
-        "target" : "Memory Usage",
+        "target" : "Inefficient use of Command Encoders",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -336,9 +336,9 @@
         "language" : "en"
       }
     ],
-    "DYFKNewCommandQueue" : [
+    "DYFURLTilerParameterBufferExceedsMemfulMax" : [
       {
-        "target" : "New MTLCommandQueue",
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -350,9 +350,9 @@
         "language" : "en"
       }
     ],
-    "DYFURLTilerParameterBufferExceedsMemfulMax" : [
+    "DYFKNewCommandQueue" : [
       {
-        "target" : " ",
+        "target" : "New MTLCommandQueue",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -609,7 +609,7 @@
         "language" : "en"
       }
     ],
-    "DYFURLCommandBufferNotEnqueued" : [
+    "DYFURLNewDepthStencilState" : [
       {
         "target" : "",
         "filename" : "AnalyzerFinding.strings",
@@ -619,6 +619,13 @@
     "DYFDKTilerParameterBufferMRCRenderSplit" : [
       {
         "target" : "The tiler output buffer usage was exceeded for an encoder that uses explicit image block memory or threadgroup memory.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLCommandBufferNotEnqueued" : [
+      {
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -633,13 +640,6 @@
     "DYFNextDrawableNextDrawableSubfindingText" : [
       {
         "target" : "This is the location of the premature nextDrawable function",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFURLNewDepthStencilState" : [
-      {
-        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -679,16 +679,16 @@
         "language" : "en"
       }
     ],
-    "DYFDKNewDepthStencilState" : [
+    "DYFURLResourceMemoryResourceIssueDetected" : [
       {
-        "target" : "Your application created a MTLDepthStencilState object during your rendering loop. Create state objects at load time for best performance.",
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFURLResourceMemoryResourceIssueDetected" : [
+    "DYFDKNewDepthStencilState" : [
       {
-        "target" : "",
+        "target" : "Your application created a MTLDepthStencilState object during your rendering loop. Create state objects at load time for best performance.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -896,16 +896,16 @@
         "language" : "en"
       }
     ],
-    "DYFDKAttachmentTooLarge" : [
+    "DYFDKMultipleNextDrawables" : [
       {
-        "target" : "Your application rendered to a drawable texture attachment whose size exceeded the screen resolution of the device. For optimal performance and quality, scale the drawableSize of your CAMetalLayer by the nativeScale of the screen.",
+        "target" : "Your application called CAMetalLayer nextDrawable multiple times in a single frame for the same layer.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFDKMultipleNextDrawables" : [
+    "DYFDKAttachmentTooLarge" : [
       {
-        "target" : "Your application called CAMetalLayer nextDrawable multiple times in a single frame for the same layer.",
+        "target" : "Your application rendered to a drawable texture attachment whose size exceeded the screen resolution of the device. For optimal performance and quality, scale the drawableSize of your CAMetalLayer by the nativeScale of the screen.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }

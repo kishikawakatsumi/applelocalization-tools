@@ -1,18 +1,18 @@
 {
   "localizations" : {
-    "TREND_DETAIL_NO_DATA_VO2MAX" : [
+    "WORKOUT_SEGMENT_TIME_HEADER" : [
       {
-        "target" : "Para desbloquear esta tendencia, debes obtener al menos cinco lecturas de VO2 máx. en los tres últimos meses y diez lecturas en los últimos seis.",
+        "target" : "Tiempo\ntranscurrido",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "За да отключите тази тенденция, трябва да имате поне 5 отчитания на VO2 max в последните 3 месеца и 10 отчитания в последните 6 месеца.",
+        "target" : "Изминало\nвреме",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Соңғы 3 айда кемінде 5 VO₂ макс. мәні және соңғы 6 айда кемінде 10 мән жинақталса, бұл трендтің құлпы ашылады.",
+        "target" : "Өткен\nуақыт",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -34,6 +34,23 @@
         "language" : "kk"
       }
     ],
+    "TREND_EXPLANATION_EXERCISE" : [
+      {
+        "target" : "En tu caso, Ejercicio es el número de minutos en los que tu nivel de actividad es igual o mayor a una caminata rápida.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Тренировка е броят на минутите, в които нивото на вашата активност е равно или надвишава енергична за вас разходка.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«Жаттығу» функциясы белсенділігіңіз жылдам жүру қарқынына тең болған немесе одан асып кеткен минуттардың санын көрсетеді.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "SCORCHING_RAP_NON_TRACK_WORKOUT_HEADER" : [
       {
         "target" : "¿Qué problema quieres reportar sobre tu entrenamiento de carrera?",
@@ -51,19 +68,19 @@
         "language" : "kk"
       }
     ],
-    "TREND_EXPLANATION_EXERCISE" : [
+    "TREND_EXPLANATION_MOVE_METRIC" : [
       {
-        "target" : "En tu caso, Ejercicio es el número de minutos en los que tu nivel de actividad es igual o mayor a una caminata rápida.",
+        "target" : "Moverse es la cantidad de energía de actividad que quemas al moverte. Esto abarca desde tareas caseras sencillas y caminatas relajadas hasta ir en bici o entrenar en el gimnasio.",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Тренировка е броят на минутите, в които нивото на вашата активност е равно или надвишава енергична за вас разходка.",
+        "target" : "Движение е количеството активна енергия, която изгаряте от движение. Това отчита всичко от леки домакински задължения и бавни разходки до колоездене или трениране във фитнеса.",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "«Жаттығу» функциясы белсенділігіңіз жылдам жүру қарқынына тең болған немесе одан асып кеткен минуттардың санын көрсетеді.",
+        "target" : "«Қозғалыс» — қозғалыс кезінде жұмсайтын белсенді энергия мөлшері. Бұған барлық әрекет кіреді: жеңіл үй жұмыстары мен баяу серуендеуден бастап, велосипед тебуге немесе жаттығу залында жаттығу жасауға дейін.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -99,23 +116,6 @@
       {
         "target" : "Мүгедектер арбасы режимін жақсарту",
         "filename" : "ActivitySetup.strings",
-        "language" : "kk"
-      }
-    ],
-    "TREND_EXPLANATION_MOVE_METRIC" : [
-      {
-        "target" : "Moverse es la cantidad de energía de actividad que quemas al moverte. Esto abarca desde tareas caseras sencillas y caminatas relajadas hasta ir en bici o entrenar en el gimnasio.",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Движение е количеството активна енергия, която изгаряте от движение. Това отчита всичко от леки домакински задължения и бавни разходки до колоездене или трениране във фитнеса.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "«Қозғалыс» — қозғалыс кезінде жұмсайтын белсенді энергия мөлшері. Бұған барлық әрекет кіреді: жеңіл үй жұмыстары мен баяу серуендеуден бастап, велосипед тебуге немесе жаттығу залында жаттығу жасауға дейін.",
-        "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],
@@ -170,23 +170,6 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_SEGMENT_DISTANCE_HEADER_%@" : [
-      {
-        "target" : "Distancia\n(%@)",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Разстояние\n(%@)",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Қашықтық\n(%@)",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "TREND_EXPLANATION_FLIGHTS_METRIC" : [
       {
         "target" : "Un tramo de escaleras equivale a unos 3 metros de altura y 16 pasos.",
@@ -200,6 +183,23 @@
       },
       {
         "target" : "Бір баспалдақ аралығы шамамен 3 метр биіктікке және 16 баспалдаққа сәйкес келеді.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WORKOUT_SEGMENT_DISTANCE_HEADER_%@" : [
+      {
+        "target" : "Distancia\n(%@)",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Разстояние\n(%@)",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қашықтық\n(%@)",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -323,23 +323,6 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_TABLE_METRIC_SPEED_HEADER" : [
-      {
-        "target" : "Velocidad",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Скорост",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жылдамдық",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "TREND_NO_DATA_ROLL" : [
       {
         "target" : "Gana una hora de Rodar al rodar por lo menos un minuto cada hora.",
@@ -353,6 +336,23 @@
       },
       {
         "target" : "Әр сағат сайын кемінде бір минут арбаны итеру арқылы қозғалыс жасауға бір сағат арнаңыз.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WORKOUT_TABLE_METRIC_SPEED_HEADER" : [
+      {
+        "target" : "Velocidad",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Скорост",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жылдамдық",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -459,23 +459,6 @@
         "language" : "kk"
       }
     ],
-    "PACE_UNIT_FORMAT_%@" : [
-      {
-        "target" : "\/%@",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "\/%@",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "\/%@",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "WALK_SUGGESTION_FORMAT_%@_%@" : [
       {
         "target" : "%@%@",
@@ -489,6 +472,23 @@
       },
       {
         "target" : "%@%@",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "PACE_UNIT_FORMAT_%@" : [
+      {
+        "target" : "\/%@",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "\/%@",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "\/%@",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -646,23 +646,6 @@
         "language" : "kk"
       }
     ],
-    "TRENDS_DAILY_AVERAGES_TITLE" : [
-      {
-        "target" : "Promedios diarios",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Среднодневно",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Күніне орташа алғанда",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "SCORCHING_RAP_INCORRECT_LANE_COUNT" : [
       {
         "target" : "La cantidad de carriles es incorrecta",
@@ -677,6 +660,23 @@
       {
         "target" : "Жолақ саны қате",
         "filename" : "Localizable-scorching.strings",
+        "language" : "kk"
+      }
+    ],
+    "TRENDS_DAILY_AVERAGES_TITLE" : [
+      {
+        "target" : "Promedios diarios",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Среднодневно",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Күніне орташа алғанда",
+        "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],
@@ -850,19 +850,19 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_TABLE_METRIC_ZONE_TIME_DETAIL" : [
+    "DELETE_WORKOUT_ALERT_WORKOUT_ONLY" : [
       {
-        "target" : "Tiempo estimado en cada zona de frecuencia cardiaca.",
+        "target" : "Eliminar sólo el entrenamiento",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Изчислено време във всяка зона на сърдечна честота.",
+        "target" : "Изтрий само тренировка",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Әр жүрек соғу жиілігі аймағындағы болжалды уақыт.",
+        "target" : "Тек жаттығуды жою",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -884,19 +884,19 @@
         "language" : "kk"
       }
     ],
-    "DELETE_WORKOUT_ALERT_WORKOUT_ONLY" : [
+    "WORKOUT_TABLE_METRIC_ZONE_TIME_DETAIL" : [
       {
-        "target" : "Eliminar sólo el entrenamiento",
+        "target" : "Tiempo estimado en cada zona de frecuencia cardiaca.",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Изтрий само тренировка",
+        "target" : "Изчислено време във всяка зона на сърдечна честота.",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Тек жаттығуды жою",
+        "target" : "Әр жүрек соғу жиілігі аймағындағы болжалды уақыт.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -1139,23 +1139,6 @@
         "language" : "kk"
       }
     ],
-    "SET_UP_CONTINUE" : [
-      {
-        "target" : "Continuar",
-        "filename" : "ActivitySetup.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Продължи",
-        "filename" : "ActivitySetup.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жалғастыру",
-        "filename" : "ActivitySetup.strings",
-        "language" : "kk"
-      }
-    ],
     "TRENDS_TITLE" : [
       {
         "target" : "Tendencias",
@@ -1170,6 +1153,23 @@
       {
         "target" : "Трендтер",
         "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "SET_UP_CONTINUE" : [
+      {
+        "target" : "Continuar",
+        "filename" : "ActivitySetup.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Продължи",
+        "filename" : "ActivitySetup.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жалғастыру",
+        "filename" : "ActivitySetup.strings",
         "language" : "kk"
       }
     ],
@@ -1309,23 +1309,6 @@
         "language" : "kk"
       }
     ],
-    "TREND_WORKOUT_RUN_SPEED_WHEELCHAIR" : [
-      {
-        "target" : "Carrera en silla de ruedas",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Темпо на бягане с инвалидна количка",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Мүгедектер арбасын жүгіру жылдамдығымен итеру қарқыны",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "MINDFULNESS_MINDFULNESS" : [
       {
         "target" : "Atención Plena",
@@ -1339,6 +1322,23 @@
       },
       {
         "target" : "Зерделілік",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "TREND_WORKOUT_RUN_SPEED_WHEELCHAIR" : [
+      {
+        "target" : "Carrera en silla de ruedas",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Темпо на бягане с инвалидна количка",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Мүгедектер арбасын жүгіру жылдамдығымен итеру қарқыны",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -1496,6 +1496,23 @@
         "language" : "kk"
       }
     ],
+    "HEALTH_DETAIL_FYI" : [
+      {
+        "target" : "La app Actividad te ayuda a sentarte menos, moverte más y hacer algo de ejercicio. Tras establecer tus objetivos, usará notificaciones para ayudarte a cumplirlos.",
+        "filename" : "ActivitySetup.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Приложението Активност ви помага да седите по-малко и да правите повече упражнения. След като поставите целите си, приложението може да изпраща известия, за да ви помага да ги постигате.",
+        "filename" : "ActivitySetup.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«Белсенділік» қолданбасы аз отыруға, көбірек қозғалуға және біраз жаттығу жасауға көмектеседі. Мақсаттарыңызды қойғаннан кейін, оларға жетуге көмектесу үшін қолданбадан хабарландырулар келуі мүмкін.",
+        "filename" : "ActivitySetup.strings",
+        "language" : "kk"
+      }
+    ],
     "SCORCHING_RAP_NAME_OF_TRACK_HEADER" : [
       {
         "target" : "Nombre",
@@ -1513,20 +1530,20 @@
         "language" : "kk"
       }
     ],
-    "HEALTH_DETAIL_FYI" : [
+    "TRENDS_ONBOARDING_OKAY_BUTTON" : [
       {
-        "target" : "La app Actividad te ayuda a sentarte menos, moverte más y hacer algo de ejercicio. Tras establecer tus objetivos, usará notificaciones para ayudarte a cumplirlos.",
-        "filename" : "ActivitySetup.strings",
+        "target" : "OK",
+        "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Приложението Активност ви помага да седите по-малко и да правите повече упражнения. След като поставите целите си, приложението може да изпраща известия, за да ви помага да ги постигате.",
-        "filename" : "ActivitySetup.strings",
+        "target" : "ОК",
+        "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "«Белсенділік» қолданбасы аз отыруға, көбірек қозғалуға және біраз жаттығу жасауға көмектеседі. Мақсаттарыңызды қойғаннан кейін, оларға жетуге көмектесу үшін қолданбадан хабарландырулар келуі мүмкін.",
-        "filename" : "ActivitySetup.strings",
+        "target" : "OK",
+        "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],
@@ -1560,23 +1577,6 @@
       },
       {
         "target" : "ЭНЕРГИЯНЫҢ ӨЛШЕМ БІРЛІКТЕРІ",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "TRENDS_ONBOARDING_OKAY_BUTTON" : [
-      {
-        "target" : "OK",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "ОК",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "OK",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -1785,23 +1785,6 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_SHARING_SUBTITLE" : [
-      {
-        "target" : "Incluyendo la ruta",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Включен маршрут",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Бағдарды қосқанда",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "SET_UP_ROLL_GOAL" : [
       {
         "target" : "Tu objetivo diario de Rodar",
@@ -1816,6 +1799,23 @@
       {
         "target" : "Қозғалыс жасау бойынша күнделікті мақсат",
         "filename" : "ActivitySetup.strings",
+        "language" : "kk"
+      }
+    ],
+    "WORKOUT_SHARING_SUBTITLE" : [
+      {
+        "target" : "Incluyendo la ruta",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Включен маршрут",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Бағдарды қосқанда",
+        "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],
@@ -1836,23 +1836,6 @@
         "language" : "kk"
       }
     ],
-    "OFFERS_NOTIFICATION_TOPIC" : [
-      {
-        "target" : "Ofertas",
-        "filename" : "Localizable-seymour.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Оферти",
-        "filename" : "Localizable-seymour.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Ұсыныстар",
-        "filename" : "Localizable-seymour.strings",
-        "language" : "kk"
-      }
-    ],
     "WORKOUT_STEP_COUNT_TITLE" : [
       {
         "target" : "Conteo de pasos",
@@ -1867,6 +1850,23 @@
       {
         "target" : "Қадамдар саны",
         "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "OFFERS_NOTIFICATION_TOPIC" : [
+      {
+        "target" : "Ofertas",
+        "filename" : "Localizable-seymour.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Оферти",
+        "filename" : "Localizable-seymour.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Ұсыныстар",
+        "filename" : "Localizable-seymour.strings",
         "language" : "kk"
       }
     ],
@@ -1921,19 +1921,19 @@
         "language" : "kk"
       }
     ],
-    "SHARING_INVITE_ACCEPT" : [
+    "MINDFULNESS" : [
       {
-        "target" : "Aceptar",
+        "target" : "Atención Plena",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Приемам",
+        "target" : "Осъзнатост",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Қабылдау",
+        "target" : "Зерделілік",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -1972,23 +1972,6 @@
         "language" : "kk"
       }
     ],
-    "MINDFULNESS" : [
-      {
-        "target" : "Atención Plena",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Осъзнатост",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Зерделілік",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "TOTAL_ACTIVE_TIME" : [
       {
         "target" : "Tiempo total de actividad",
@@ -2002,6 +1985,23 @@
       },
       {
         "target" : "Жалпы белсенді уақыт",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "SHARING_INVITE_ACCEPT" : [
+      {
+        "target" : "Aceptar",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Приемам",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қабылдау",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -2261,20 +2261,20 @@
         "language" : "kk"
       }
     ],
-    "THREE_RING_ONBOARDING_ACCEPT_BUTTON" : [
+    "SHARING_INVITE_DECLINE_ERROR" : [
       {
-        "target" : "Siguiente",
-        "filename" : "ActivitySetup.strings",
+        "target" : "Ocurrió un error al eliminar la invitación. Reintenta.",
+        "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Напред",
-        "filename" : "ActivitySetup.strings",
+        "target" : "Възникна грешка при премахването на поканата. Моля, опитайте отново.",
+        "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Келесі",
-        "filename" : "ActivitySetup.strings",
+        "target" : "Шақыруды жою кезінде қате пайда болды. Әрекетті қайталаңыз.",
+        "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],
@@ -2346,20 +2346,20 @@
         "language" : "kk"
       }
     ],
-    "SHARING_INVITE_DECLINE_ERROR" : [
+    "THREE_RING_ONBOARDING_ACCEPT_BUTTON" : [
       {
-        "target" : "Ocurrió un error al eliminar la invitación. Reintenta.",
-        "filename" : "Localizable.strings",
+        "target" : "Siguiente",
+        "filename" : "ActivitySetup.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Възникна грешка при премахването на поканата. Моля, опитайте отново.",
-        "filename" : "Localizable.strings",
+        "target" : "Напред",
+        "filename" : "ActivitySetup.strings",
         "language" : "bg"
       },
       {
-        "target" : "Шақыруды жою кезінде қате пайда болды. Әрекетті қайталаңыз.",
-        "filename" : "Localizable.strings",
+        "target" : "Келесі",
+        "filename" : "ActivitySetup.strings",
         "language" : "kk"
       }
     ],
@@ -2380,23 +2380,6 @@
         "language" : "kk"
       }
     ],
-    "TREND_NO_DATA_WALK_PACE_WHEELCHAIR" : [
-      {
-        "target" : "Mide qué tan rápido te desplazas durante tus caminatas por tramos.",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Измерва колко е бързо темпото ви във вашите тренировки за темпо с инвалидна количка.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жүру қарқынымен жасалатын жаттығулар кезінде арбаны итеру жылдамдығы өлшенеді.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "FEEDBACK_WHEELCHAIR_MORE_INFO_DESCRIPTION" : [
       {
         "target" : "El modo de mejoras para silla de ruedas envía información a Apple sobre el ejercicio y la actividad desde el iPhone y el Apple Watch para ayudarnos a mejorar y comprender la eficacia de las funciones de salud y condición física en los dispositivos. Tus datos no se utilizarán con otro propósito ni se incluirá información que pudiera identificarte. Esta información incluye entrenamientos en silla de ruedas y datos de actividad (como horas de impulsos, minutos de ejercicio y porcentaje de llenado de los círculos de Moverse).\n\nAl permitir el modo de mejoras para silla de ruedas, aceptas y otorgas tu consentimiento para que Apple, sus subsidiarias y agentes recopilen, transmitan, den mantenimiento, procesen y usen esta información según se describe anteriormente.\n\nEn todo momento, la información que Apple reciba se tratará de conformidad con la política de privacidad de Apple, la cual puedes consultar en www.apple.com\/la\/privacy.",
@@ -2411,6 +2394,23 @@
       {
         "target" : "Apple құрылғыларында денсаулық пен фитнес функцияларын түсінуді жақсарту және тиімділігін арттыру үшін, «Мүгедектер арбасы» режимін жақсарту функциясы iPhone және Apple Watch құрылғысынан мүгедектер арбасындағы жаттығулар мен белсенділік туралы ақпаратты Apple компаниясына жібереді. Деректеріңіз басқа мақсаттарда қолданылмайды және жеке ақпарат қамтылмайды. Бұл ақпарат мүгедектер арбасындағы жаттығулар мен белсенділік (мысалы, қозғалыс кезіндегі сағаттар, арбаны итеру әрекеттерінің саны, жаттығу минуттары, сондай-ақ пайыз шамасындағы қозғалыс сақинасының толу мәні) туралы деректерді қамтиды.\n\nМүгедектер арбасын жақсарту режимін қоса отырып, барлық жоғарыда аталған ақпаратты Apple және оның еншілес кәсіпорындары мен агенттеріне беруге, жинауға, сақтауға, өңдеуге және пайдалануға келісім бересіз.\n\nApple жинаған ақпарат әрқашан Apple құпиялылық саясатына сәйкес өңделеді және оны келесі мекенжайдан таба аласыз: www.apple.com\/privacy.",
         "filename" : "ActivitySetup.strings",
+        "language" : "kk"
+      }
+    ],
+    "TREND_NO_DATA_WALK_PACE_WHEELCHAIR" : [
+      {
+        "target" : "Mide qué tan rápido te desplazas durante tus caminatas por tramos.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Измерва колко е бързо темпото ви във вашите тренировки за темпо с инвалидна количка.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жүру қарқынымен жасалатын жаттығулар кезінде арбаны итеру жылдамдығы өлшенеді.",
+        "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],
@@ -2652,36 +2652,19 @@
         "language" : "kk"
       }
     ],
-    "WEATHER" : [
+    "SHARING_INVITE_WITHDRAW" : [
       {
-        "target" : "Clima",
+        "target" : "Eliminar",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Времето",
+        "target" : "Изтрий",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Ауа райы",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "WATCH_URL" : [
-      {
-        "target" : "http:\/\/www.apple.com\/la\/watch\/features",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "http:\/\/www.apple.com\/watch\/features",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "http:\/\/www.apple.com\/watch\/features",
+        "target" : "Жою",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -2700,6 +2683,23 @@
       {
         "target" : "Мүгедектер арбасындағы қозғалысыңыз бен жаттығу деректеріңізді жіберу арқылы Apple компаниясына денсаулық пен фитнес мүмкіндіктерін жақсартуға көмектескіңіз келе ме? Бұл параметрді кейінірек «Реттеулер» бөлімінде өзгертуге болады.",
         "filename" : "ActivitySetup.strings",
+        "language" : "kk"
+      }
+    ],
+    "WATCH_URL" : [
+      {
+        "target" : "http:\/\/www.apple.com\/la\/watch\/features",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "http:\/\/www.apple.com\/watch\/features",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "http:\/\/www.apple.com\/watch\/features",
+        "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],
@@ -2737,19 +2737,19 @@
         "language" : "kk"
       }
     ],
-    "SHARING_INVITE_WITHDRAW" : [
+    "WEATHER" : [
       {
-        "target" : "Eliminar",
+        "target" : "Clima",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Изтрий",
+        "target" : "Времето",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Жою",
+        "target" : "Ауа райы",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -3077,23 +3077,6 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_MONTH_SUMMARY_WORKOUTS_WALKS" : [
-      {
-        "target" : "Caminatas",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Разходки",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жүрістер",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "HEART_RATE_NO_DATA_MODAL_TITLE" : [
       {
         "target" : "Gráfica no disponible",
@@ -3111,19 +3094,19 @@
         "language" : "kk"
       }
     ],
-    "TREND_EXPLANATION_MOVE_METRIC_WHEELCHAIR" : [
+    "WORKOUT_MONTH_SUMMARY_WORKOUTS_WALKS" : [
       {
-        "target" : "Moverse es la cantidad de energía activa que quemas al moverte. Esto abarca desde tareas caseras sencillas e impulsarte en tu silla hasta entrenar en el gimnasio.",
+        "target" : "Caminatas",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Движение е количеството активна енергия, която изгаряте от движение. Това отчита всичко от леки домакински задължения и избутването на индвалидната ви количка до трениране във фитнеса.",
+        "target" : "Разходки",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "«Қозғалыс» — қозғалыс кезінде жұмсайтын белсенді энергия мөлшері. Бұған барлық әрекет кіреді: жеңіл үй жұмыстары мен мүгедектер арбасын итеруден бастап, жаттығу залында жаттығу жасауға дейін.",
+        "target" : "Жүрістер",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -3141,6 +3124,23 @@
       },
       {
         "target" : "Тік тербеліс",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "TREND_EXPLANATION_MOVE_METRIC_WHEELCHAIR" : [
+      {
+        "target" : "Moverse es la cantidad de energía activa que quemas al moverte. Esto abarca desde tareas caseras sencillas e impulsarte en tu silla hasta entrenar en el gimnasio.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Движение е количеството активна енергия, която изгаряте от движение. Това отчита всичко от леки домакински задължения и избутването на индвалидната ви количка до трениране във фитнеса.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«Қозғалыс» — қозғалыс кезінде жұмсайтын белсенді энергия мөлшері. Бұған барлық әрекет кіреді: жеңіл үй жұмыстары мен мүгедектер арбасын итеруден бастап, жаттығу залында жаттығу жасауға дейін.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -3230,6 +3230,23 @@
         "language" : "kk"
       }
     ],
+    "TREND_FLIGHTS_UNIT_LONG" : [
+      {
+        "target" : "PISOS",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "ЕТАЖИ",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "БАСПАЛДАҚ АРАЛЫҚТАРЫ",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "SHARING_SETUP_UPGRADE_WATCH_DESCRIPTION" : [
       {
         "target" : "Compartir actividad requiere que hayas enlazado un Apple Watch con la versión más reciente de watchOS.",
@@ -3260,23 +3277,6 @@
       },
       {
         "target" : "Баспалдақ аралықтары",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "TREND_FLIGHTS_UNIT_LONG" : [
-      {
-        "target" : "PISOS",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "ЕТАЖИ",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "БАСПАЛДАҚ АРАЛЫҚТАРЫ",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -3383,19 +3383,19 @@
         "language" : "kk"
       }
     ],
-    "TREND_EXPLANATION_WHEELCHAIR_WALKING_PACE_METRIC" : [
+    "WORKOUT_MONTH_SUMMARY_AVG_PACE_TITLE" : [
       {
-        "target" : "El ritmo de caminata en silla de ruedas es el tiempo promedio que tardas en rodar un kilómetro durante un entrenamiento de caminata en silla de ruedas. Entre más rápido vas, más aumenta tu velocidad y disminuye tu ritmo.",
+        "target" : "Ritmo",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Темпото за движение с инвалидна количка е средното време, което ви отнема да изминете един километър по време на тренировка с инвалидна количка (темпо на ходене) на открито. Колкото по-бързи ставате, толкова повече ви се повишава скоростта и времето ви намалява.",
+        "target" : "Темпо",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Мүгедектер арбасын жүру жылдамдығымен итеру қарқыны — бұл сыртта арбаны жүру қарқынымен итеру жаттығуы кезінде бір километр өту үшін қажет орташа уақыт. Арбаны неғұрлым жылдамырақ итерсеңіз, жылдамдық соғұрлым артады және «бір километр бойынша қарқын» мәні төмендейді.",
+        "target" : "Қарқын",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -3417,40 +3417,6 @@
         "language" : "kk"
       }
     ],
-    "SHARING_NO_CONTACTS_ACCESS_SETTINGS" : [
-      {
-        "target" : "Configuración",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Настройки",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Реттеулер",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "TREND_DISTANCE" : [
-      {
-        "target" : "Distancia",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Разстояние",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Қашықтық",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "DAILY_EXERCISE_GOAL_DESCRIPTION_FITNESS_JR_TINKER" : [
       {
         "target" : "Para los niños, se recomienda alguna actividad intensa de 60 minutos como correr, saltar y jugar. Lo más importante es comenzar con un objetivo que sea adecuado para el menor.",
@@ -3468,36 +3434,19 @@
         "language" : "kk"
       }
     ],
-    "HOURS_OTHER" : [
+    "SHARING_NO_CONTACTS_ACCESS_SETTINGS" : [
       {
-        "target" : "h",
+        "target" : "Configuración",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "часа",
+        "target" : "Настройки",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "сағат",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "WORKOUT_MONTH_SUMMARY_WORKOUTS_HIKES" : [
-      {
-        "target" : "Senderismo",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Преходи",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жаяу жүру",
+        "target" : "Реттеулер",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -3519,54 +3468,20 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_MONTH_SUMMARY_AVG_PACE_TITLE" : [
+    "TREND_DISTANCE" : [
       {
-        "target" : "Ritmo",
+        "target" : "Distancia",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Темпо",
+        "target" : "Разстояние",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Қарқын",
+        "target" : "Қашықтық",
         "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "WEATHER_HUMIDITY" : [
-      {
-        "target" : "Humedad: %@",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Влажност: %@",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Ылғалдылық: %@",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "SET_UP_ACTIVITY" : [
-      {
-        "target" : "Personalizar Fitness y Salud",
-        "filename" : "ActivitySetup.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Персонализи­ране на Фитнес и Здраве",
-        "filename" : "ActivitySetup.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Фитнес пен денсаулықты дербестендіру",
-        "filename" : "ActivitySetup.strings",
         "language" : "kk"
       }
     ],
@@ -3600,6 +3515,91 @@
       },
       {
         "target" : "<%ld",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WORKOUT_MONTH_SUMMARY_WORKOUTS_HIKES" : [
+      {
+        "target" : "Senderismo",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Преходи",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жаяу жүру",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "TREND_EXPLANATION_WHEELCHAIR_WALKING_PACE_METRIC" : [
+      {
+        "target" : "El ritmo de caminata en silla de ruedas es el tiempo promedio que tardas en rodar un kilómetro durante un entrenamiento de caminata en silla de ruedas. Entre más rápido vas, más aumenta tu velocidad y disminuye tu ritmo.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Темпото за движение с инвалидна количка е средното време, което ви отнема да изминете един километър по време на тренировка с инвалидна количка (темпо на ходене) на открито. Колкото по-бързи ставате, толкова повече ви се повишава скоростта и времето ви намалява.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Мүгедектер арбасын жүру жылдамдығымен итеру қарқыны — бұл сыртта арбаны жүру қарқынымен итеру жаттығуы кезінде бір километр өту үшін қажет орташа уақыт. Арбаны неғұрлым жылдамырақ итерсеңіз, жылдамдық соғұрлым артады және «бір километр бойынша қарқын» мәні төмендейді.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "SET_UP_ACTIVITY" : [
+      {
+        "target" : "Personalizar Fitness y Salud",
+        "filename" : "ActivitySetup.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Персонализи­ране на Фитнес и Здраве",
+        "filename" : "ActivitySetup.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Фитнес пен денсаулықты дербестендіру",
+        "filename" : "ActivitySetup.strings",
+        "language" : "kk"
+      }
+    ],
+    "HOURS_OTHER" : [
+      {
+        "target" : "h",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "часа",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "сағат",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WEATHER_HUMIDITY" : [
+      {
+        "target" : "Humedad: %@",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Влажност: %@",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Ылғалдылық: %@",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -3961,23 +3961,6 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_CHART_FOOTER_LEARN_MORE_HEALTH_LINK_TEXT" : [
-      {
-        "target" : "Más información",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Научете повече",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Толығырақ ақпарат алу",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "COMPETITION_INBOX_INCOMING_HEADER" : [
       {
         "target" : "Invitaciones pendientes",
@@ -3991,6 +3974,23 @@
       },
       {
         "target" : "Жарысқа шақырулар бойынша жауап күтілуде",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WORKOUT_CHART_FOOTER_LEARN_MORE_HEALTH_LINK_TEXT" : [
+      {
+        "target" : "Más información",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Научете повече",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Толығырақ ақпарат алу",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -4029,23 +4029,6 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_SWIM_PACE_STROKECOUNT_FORMAT" : [
-      {
-        "target" : "%1$@\/%2$@",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "%1$@\/%2$@",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%1$@\/%2$@",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "TREND_VO2MAX_UNIT" : [
       {
         "target" : "VO2 MÁX.",
@@ -4059,6 +4042,23 @@
       },
       {
         "target" : "ОМТ",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WORKOUT_SWIM_PACE_STROKECOUNT_FORMAT" : [
+      {
+        "target" : "%1$@\/%2$@",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "%1$@\/%2$@",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%1$@\/%2$@",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -4097,23 +4097,6 @@
         "language" : "kk"
       }
     ],
-    "TV_CODE_TITLE" : [
-      {
-        "target" : "Código de TV",
-        "filename" : "Localizable-seymour.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "TV код",
-        "filename" : "Localizable-seymour.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Теледидар коды",
-        "filename" : "Localizable-seymour.strings",
-        "language" : "kk"
-      }
-    ],
     "TREND_EXPLANATION_RUNNING_PACE_IMPERIAL" : [
       {
         "target" : "El ritmo al correr es la cantidad de tiempo que tardas en correr una milla durante un entrenamiento de carrera. Entre más rápido vas, más aumenta tu velocidad y disminuye tu ritmo.",
@@ -4128,6 +4111,23 @@
       {
         "target" : "«Жүгіру қарқыны» — жүгіру жаттығулары кезінде бір миль жүгіруге кететін уақыт мөлшері. Неғұрлым жылдам жүгірсеңіз, жылдамдық соғұрлым артады және «бір миль бойынша қарқын» мәні төмендейді.",
         "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "TV_CODE_TITLE" : [
+      {
+        "target" : "Código de TV",
+        "filename" : "Localizable-seymour.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "TV код",
+        "filename" : "Localizable-seymour.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Теледидар коды",
+        "filename" : "Localizable-seymour.strings",
         "language" : "kk"
       }
     ],
@@ -4301,23 +4301,6 @@
         "language" : "kk"
       }
     ],
-    "TREND_ALL_UP_SECTION_HEADER_WITH_NAME_%@" : [
-      {
-        "target" : "Cada una de tus tendencias va bien, %@. ¡Increíble! No te rindas.",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Всичките ви тенденции изглеждат добре, %@. Страхотно! Не се отпускайте.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%@, барлық трендіңіз жақсы күйде сияқты. Керемет! Берілмеңіз.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "RECOMMENDED_MOVE_GOAL_DESCRIPTION" : [
       {
         "target" : "Actualiza tu objetivo de Moverse para que coincida con tu actividad diaria.",
@@ -4332,6 +4315,23 @@
       {
         "target" : "Қозғалыс бойынша мақсатыңызды күнделікті белсенділігіңізге сәйкес келетіндей етіп жаңартыңыз.",
         "filename" : "ActivitySetup.strings",
+        "language" : "kk"
+      }
+    ],
+    "TREND_ALL_UP_SECTION_HEADER_WITH_NAME_%@" : [
+      {
+        "target" : "Cada una de tus tendencias va bien, %@. ¡Increíble! No te rindas.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Всичките ви тенденции изглеждат добре, %@. Страхотно! Не се отпускайте.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "%@, барлық трендіңіз жақсы күйде сияқты. Керемет! Берілмеңіз.",
+        "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],
@@ -4369,6 +4369,23 @@
         "language" : "kk"
       }
     ],
+    "NSRegulatoryPrivacyDisclosureSummary" : [
+      {
+        "target" : "Para establecer conexión, compartir datos y realizar compras, Fitness podría acceder a sensores como tu cámara y a datos como tus contactos. Puedes obtener más información sobre cómo se usan tus datos o puedes continuar para empezar a usar Fitness.",
+        "filename" : "InfoPlist.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "За да свързвате, споделяте и правите покупки, приложението Фитнес може да използва достъп до сензори – например камерата ви, и до данни – например контактите ви. Можете да научите повече за това как се използват данните ви или да продължите, за да започнете да използвате приложението Фитнес.",
+        "filename" : "InfoPlist.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қосылу, бөлісу және сатып алу үшін «Фитнес» қолданбасы камера сияқты датчиктерге және контактілер сияқты деректерге қол жеткізуі мүмкін. Деректердің пайдаланылу тәсілі туралы толық ақпарат алуға немесе «Фитнес» қолданбасын пайдалануды жалғастыруға болады.",
+        "filename" : "InfoPlist.strings",
+        "language" : "kk"
+      }
+    ],
     "FEEDBACK_WHEELCHAIR_ALLOW" : [
       {
         "target" : "Permitir",
@@ -4403,23 +4420,6 @@
         "language" : "kk"
       }
     ],
-    "NSRegulatoryPrivacyDisclosureSummary" : [
-      {
-        "target" : "Para establecer conexión, compartir datos y realizar compras, Fitness podría acceder a sensores como tu cámara y a datos como tus contactos. Puedes obtener más información sobre cómo se usan tus datos o puedes continuar para empezar a usar Fitness.",
-        "filename" : "InfoPlist.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "За да свързвате, споделяте и правите покупки, приложението Фитнес може да използва достъп до сензори – например камерата ви, и до данни – например контактите ви. Можете да научите повече за това как се използват данните ви или да продължите, за да започнете да използвате приложението Фитнес.",
-        "filename" : "InfoPlist.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Қосылу, бөлісу және сатып алу үшін «Фитнес» қолданбасы камера сияқты датчиктерге және контактілер сияқты деректерге қол жеткізуі мүмкін. Деректердің пайдаланылу тәсілі туралы толық ақпарат алуға немесе «Фитнес» қолданбасын пайдалануды жалғастыруға болады.",
-        "filename" : "InfoPlist.strings",
-        "language" : "kk"
-      }
-    ],
     "TRENDS_LIST_FOOTER" : [
       {
         "target" : "Las tendencias comparan tus 90 días de actividad más recientes con los 365 días pasados. Si mantienes el mismo ritmo o uno mejor, la flecha apuntará hacia arriba; en caso contrario, apuntará hacia abajo. Obtén más información acerca de las tendencias %@.",
@@ -4433,6 +4433,23 @@
       },
       {
         "target" : "«Трендтер» функциясы соңғы 90 күндегі белсенділігіңізді соңғы 365 күндегі белсенділік деректеріне қатысты бағалайды. Белсенділік бірдей деңгейде немесе одан жоғары болса, көрсеткі жоғары қарай бағытталады. Белсенділік төмендеген кезде, көрсеткі төмен қарай бағытталады. Трендтер туралы толығырақ ақпаратты %@ алыңыз.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "VO2MAX_BUCKET_FAIR" : [
+      {
+        "target" : "aceptable",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Задоволително",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Орташа",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -4451,23 +4468,6 @@
       {
         "target" : "«Фитнес» қолданбасы контактілеріңізді белсенділік деректерін бөлісуді баптау және атыңыз бен суретіңізді қосу мақсатында пайдаланады.",
         "filename" : "InfoPlist.strings",
-        "language" : "kk"
-      }
-    ],
-    "VO2MAX_BUCKET_FAIR" : [
-      {
-        "target" : "aceptable",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Задоволително",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Орташа",
-        "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],
@@ -4624,23 +4624,6 @@
         "language" : "kk"
       }
     ],
-    "TREND_EXPLANATION_MOVE_IMPERIAL" : [
-      {
-        "target" : "Moverse es la cantidad de energía de actividad que quemas al moverte. Esto abarca desde tareas caseras sencillas y caminatas relajadas hasta ir en bici o entrenar en el gimnasio.",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Движение е броят на калориите, които изгаряте от движение. Това отчита всичко от леки домакински задължения и бавни разходки до колоездене или трениране във фитнеса.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "«Қозғалыс» — қозғалыс кезінде жұмсайтын калориялар саны. Бұған барлық әрекет кіреді: жеңіл үй жұмыстары мен баяу серуендеуден бастап, велосипед тебуге немесе жаттығу залында жаттығу жасауға дейін.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "COMPETITION_TOTAL_WINS_HEADER_ACTIVE" : [
       {
         "target" : "Victorias en total",
@@ -4654,6 +4637,23 @@
       },
       {
         "target" : "Жалпы жеңіс саны",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "TREND_EXPLANATION_MOVE_IMPERIAL" : [
+      {
+        "target" : "Moverse es la cantidad de energía de actividad que quemas al moverte. Esto abarca desde tareas caseras sencillas y caminatas relajadas hasta ir en bici o entrenar en el gimnasio.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Движение е броят на калориите, които изгаряте от движение. Това отчита всичко от леки домакински задължения и бавни разходки до колоездене или трениране във фитнеса.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "«Қозғалыс» — қозғалыс кезінде жұмсайтын калориялар саны. Бұған барлық әрекет кіреді: жеңіл үй жұмыстары мен баяу серуендеуден бастап, велосипед тебуге немесе жаттығу залында жаттығу жасауға дейін.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -4726,6 +4726,40 @@
         "language" : "kk"
       }
     ],
+    "TRENDS" : [
+      {
+        "target" : "Tendencias",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Тенденции",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Трендтер",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WORKOUT_FLIGHTS_CLIMBED_TITLE" : [
+      {
+        "target" : "Pisos subidos",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Изкачени етажи",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жүріп өткен баспалдақтар аралығы",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "WORKOUT_DESCRIPTION_INDOOR" : [
       {
         "target" : "%3$@ de %1$@ %2$@ bajo techo",
@@ -4756,40 +4790,6 @@
       },
       {
         "target" : "Күн сайын жүріп немесе жүгіріп өтетін жалпы қашықтық өлшенеді.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "WORKOUT_FLIGHTS_CLIMBED_TITLE" : [
-      {
-        "target" : "Pisos subidos",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Изкачени етажи",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жүріп өткен баспалдақтар аралығы",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "TRENDS" : [
-      {
-        "target" : "Tendencias",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Тенденции",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Трендтер",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -4947,23 +4947,6 @@
         "language" : "kk"
       }
     ],
-    "NSRegulatoryPrivacyDisclosureContacts" : [
-      {
-        "target" : "El acceso a la app Contactos te permite enviar invitaciones para compartir actividad a tus contactos. La app pedirá permiso antes acceder a tus contactos.",
-        "filename" : "InfoPlist.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Достъпът до Контакти ви позволява да изпращате покани за Споделяне на активност на вашите контакти. Приложението ще поиска разрешение, преди да получи достъп до контактите ви.",
-        "filename" : "InfoPlist.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Контактілерге қол жеткізу контактілеріңізге «Белсенділік деректерін бөлісу» шақыруларын жіберуге мүмкіндік береді. Қолданба контактілерге қол жеткізбес бұрын рұқсат сұрайды.",
-        "filename" : "InfoPlist.strings",
-        "language" : "kk"
-      }
-    ],
     "TREND_DETAIL_NO_DATA_RUN_PACE_WHEELCHAIR" : [
       {
         "target" : "Para desbloquear esa tendencia, corre por tramos en promedio por lo menos una semana durante seis meses.",
@@ -5012,6 +4995,23 @@
       {
         "target" : "Жаттығу сақиналары жабық",
         "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "NSRegulatoryPrivacyDisclosureContacts" : [
+      {
+        "target" : "El acceso a la app Contactos te permite enviar invitaciones para compartir actividad a tus contactos. La app pedirá permiso antes acceder a tus contactos.",
+        "filename" : "InfoPlist.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Достъпът до Контакти ви позволява да изпращате покани за Споделяне на активност на вашите контакти. Приложението ще поиска разрешение, преди да получи достъп до контактите ви.",
+        "filename" : "InfoPlist.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Контактілерге қол жеткізу контактілеріңізге «Белсенділік деректерін бөлісу» шақыруларын жіберуге мүмкіндік береді. Қолданба контактілерге қол жеткізбес бұрын рұқсат сұрайды.",
+        "filename" : "InfoPlist.strings",
         "language" : "kk"
       }
     ],
@@ -5168,23 +5168,6 @@
         "language" : "kk"
       }
     ],
-    "TREND_NO_DATA_RUN_PACE" : [
-      {
-        "target" : "Mide qué tan rápido te desplazas durante tus carreras.",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Измерва колко бързо се движите във вашите тренировки за бягане.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жүгіру жаттығуларындағы қозғалыс жылдамдығы өлшенеді.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "MAP" : [
       {
         "target" : "Mapa",
@@ -5198,6 +5181,23 @@
       },
       {
         "target" : "Карта",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "TREND_NO_DATA_RUN_PACE" : [
+      {
+        "target" : "Mide qué tan rápido te desplazas durante tus carreras.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Измерва колко бързо се движите във вашите тренировки за бягане.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жүгіру жаттығуларындағы қозғалыс жылдамдығы өлшенеді.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -5406,23 +5406,6 @@
         "language" : "kk"
       }
     ],
-    "TREND_STAND_RINGS_CLOSED" : [
-      {
-        "target" : "Círculos de Pararse cerrados",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Кръговете за изправяне са затворени",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Денені жазу сақиналары жабық",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "WORKOUT_TABLE_METRIC_PACE_HEADER" : [
       {
         "target" : "Ritmo",
@@ -5440,20 +5423,37 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_TABLE_METRIC_STROKE_HEADER" : [
+    "TREND_STAND_RINGS_CLOSED" : [
       {
-        "target" : "Brazada",
+        "target" : "Círculos de Pararse cerrados",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Загребване",
+        "target" : "Кръговете за изправяне са затворени",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Есу",
+        "target" : "Денені жазу сақиналары жабық",
         "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "SCORCHING_RAP_NONEXISTENT_TRACK" : [
+      {
+        "target" : "Recibí una alerta de pista cuando no estaba en una",
+        "filename" : "Localizable-scorching.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Получено предупреждение за пътека, когато не сте на пътека",
+        "filename" : "Localizable-scorching.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жолда болмаған кезде жол ескертуі алынды",
+        "filename" : "Localizable-scorching.strings",
         "language" : "kk"
       }
     ],
@@ -5491,20 +5491,20 @@
         "language" : "kk"
       }
     ],
-    "SCORCHING_RAP_NONEXISTENT_TRACK" : [
+    "WORKOUT_TABLE_METRIC_STROKE_HEADER" : [
       {
-        "target" : "Recibí una alerta de pista cuando no estaba en una",
-        "filename" : "Localizable-scorching.strings",
+        "target" : "Brazada",
+        "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Получено предупреждение за пътека, когато не сте на пътека",
-        "filename" : "Localizable-scorching.strings",
+        "target" : "Загребване",
+        "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Жолда болмаған кезде жол ескертуі алынды",
-        "filename" : "Localizable-scorching.strings",
+        "target" : "Есу",
+        "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],
@@ -5542,23 +5542,6 @@
         "language" : "kk"
       }
     ],
-    "TREND_UP_SECTION_HEADER" : [
-      {
-        "target" : "Sigue así",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Продължавайте",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Тек қана алға!",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "PACE_NOVALUE" : [
       {
         "target" : "--'--''",
@@ -5572,6 +5555,23 @@
       },
       {
         "target" : "--'--''",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "TREND_UP_SECTION_HEADER" : [
+      {
+        "target" : "Sigue así",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Продължавайте",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Тек қана алға!",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -5661,23 +5661,6 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_GROUND_ELEVATION_TITLE" : [
-      {
-        "target" : "Desnivel",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Изкачване",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Биіктік",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "WORKOUT_ROUTE_MAP_ACCESSIBILITY_LABEL_SATELLITE_VIEW" : [
       {
         "target" : "Visualización satelital",
@@ -5691,6 +5674,23 @@
       },
       {
         "target" : "Жерсеріктік көрініс",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WORKOUT_GROUND_ELEVATION_TITLE" : [
+      {
+        "target" : "Desnivel",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Изкачване",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Биіктік",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -5763,6 +5763,23 @@
         "language" : "kk"
       }
     ],
+    "FITNESS_CENT_YARD_METER_UNIT_FORMAT_%@" : [
+      {
+        "target" : "\/100%@",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "\/100%@",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "\/100%@",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "SHARING_SETUP_TERMS_AND_CONDITIONS_LINK" : [
       {
         "target" : "Acerca de Compartir actividad.",
@@ -5776,23 +5793,6 @@
       },
       {
         "target" : "Белсенділік деректерін бөлісу туралы ақпарат.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "MONTHLY_CHALLENGES" : [
-      {
-        "target" : "Retos mensuales",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Месечни предизвикателства",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Ай сайынғы жарыстар",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -5831,19 +5831,19 @@
         "language" : "kk"
       }
     ],
-    "FITNESS_CENT_YARD_METER_UNIT_FORMAT_%@" : [
+    "MONTHLY_CHALLENGES" : [
       {
-        "target" : "\/100%@",
+        "target" : "Retos mensuales",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "\/100%@",
+        "target" : "Месечни предизвикателства",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "\/100%@",
+        "target" : "Ай сайынғы жарыстар",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -6069,23 +6069,6 @@
         "language" : "kk"
       }
     ],
-    "TREND_NO_DATA_FLIGHTS" : [
-      {
-        "target" : "Representa los tramos de escaleras que subes cada día.",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Представя етажите, които изкачвате всеки ден.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Күн сайын өтетін баспалдақтар аралығын көрсетеді.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "TRENDS_AXIS_LABEL_365_DAY" : [
       {
         "target" : "365 días",
@@ -6099,6 +6082,23 @@
       },
       {
         "target" : "365 күн",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "TREND_NO_DATA_FLIGHTS" : [
+      {
+        "target" : "Representa los tramos de escaleras que subes cada día.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Представя етажите, които изкачвате всеки ден.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Күн сайын өтетін баспалдақтар аралығын көрсетеді.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -6375,23 +6375,6 @@
         "language" : "kk"
       }
     ],
-    "SKIP_LABEL" : [
-      {
-        "target" : "Omitir",
-        "filename" : "ActivitySetup.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Пропусни",
-        "filename" : "ActivitySetup.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Өткізіп жіберу",
-        "filename" : "ActivitySetup.strings",
-        "language" : "kk"
-      }
-    ],
     "ALL_WORKOUTS" : [
       {
         "target" : "Todos",
@@ -6406,6 +6389,23 @@
       {
         "target" : "Барлық жаттығу",
         "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "SKIP_LABEL" : [
+      {
+        "target" : "Omitir",
+        "filename" : "ActivitySetup.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Пропусни",
+        "filename" : "ActivitySetup.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Өткізіп жіберу",
+        "filename" : "ActivitySetup.strings",
         "language" : "kk"
       }
     ],
@@ -6509,19 +6509,19 @@
         "language" : "kk"
       }
     ],
-    "ACTIVE_ENERGY_KJ" : [
+    "TOGGLE_MOVE_MOVE_SETTINGS_DISABLE_CONFIRM_BUTTON_TEXT" : [
       {
-        "target" : "Kilojoules activos",
+        "target" : "Desactivar",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Активни килоджаули",
+        "target" : "Изключи",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Белсенді килоджоуль",
+        "target" : "Өшіру",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -6543,36 +6543,36 @@
         "language" : "kk"
       }
     ],
-    "TOGGLE_MOVE_MOVE_SETTINGS_DISABLE_CONFIRM_BUTTON_TEXT" : [
+    "ACTIVE_ENERGY_KJ" : [
       {
-        "target" : "Desactivar",
+        "target" : "Kilojoules activos",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Изключи",
+        "target" : "Активни килоджаули",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Өшіру",
+        "target" : "Белсенді килоджоуль",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],
-    "WORKOUT_ACTIVE_ENERGY_TITLE_KCAL" : [
+    "TRENDS_TRENDING_DOWN" : [
       {
-        "target" : "Kilocalorías activas",
+        "target" : "Tendencia descendente",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Активни килокалории",
+        "target" : "Негативна тенденция",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Белсенді килокалория",
+        "target" : "Төмендеу тренді",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -6611,6 +6611,23 @@
         "language" : "kk"
       }
     ],
+    "WORKOUT_ACTIVE_ENERGY_TITLE_KCAL" : [
+      {
+        "target" : "Kilocalorías activas",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Активни килокалории",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Белсенді килокалория",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "UNINSTALL_ICON_BODY_REMOVE_DATA" : [
       {
         "target" : "Quitar esta app de tu pantalla de inicio también eliminará tus datos de logros de Actividad.",
@@ -6641,23 +6658,6 @@
       },
       {
         "target" : "МИН\/САҒ",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "TRENDS_TRENDING_DOWN" : [
-      {
-        "target" : "Tendencia descendente",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Негативна тенденция",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Төмендеу тренді",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -6951,23 +6951,6 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_SEGMENT_PACE_HEADER_%@" : [
-      {
-        "target" : "Ritmo prom.\n(\/%@)",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Средно темпо\n(\/%@)",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Орт. қарқын\n(\/%@)",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "STEPS_LABEL" : [
       {
         "target" : "Pasos",
@@ -6981,6 +6964,23 @@
       },
       {
         "target" : "Қадамдар",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WORKOUT_SEGMENT_PACE_HEADER_%@" : [
+      {
+        "target" : "Ritmo prom.\n(\/%@)",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Средно темпо\n(\/%@)",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Орт. қарқын\n(\/%@)",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -7563,23 +7563,6 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_CHART_METRIC_STRIDE_LENGTH_TITLE" : [
-      {
-        "target" : "Longitud de la zancada",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Дължина на крачката",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жүгіру кезіндегі қадам ұзындығы",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "SHARING_SETUP_CLOUDKIT_DESCRIPTION" : [
       {
         "target" : "Inicia sesión en iCloud para poder compartir tu progreso de Actividad.",
@@ -7593,6 +7576,23 @@
       },
       {
         "target" : "Белсенділік барысын бөлісу үшін iCloud бұлтына кіру керек.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WORKOUT_CHART_METRIC_STRIDE_LENGTH_TITLE" : [
+      {
+        "target" : "Longitud de la zancada",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Дължина на крачката",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жүгіру кезіндегі қадам ұзындығы",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -7648,23 +7648,6 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_DETAIL_APPLE_WEATHER_SOURCE_FOOTER_LINK_TEXT" : [
-      {
-        "target" : "fuentes de datos de Clima",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "източници на данни за времето",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "ауа райы туралы дереккөздер",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "NOTIFICATION_CONSENT_TITLE" : [
       {
         "target" : "Mantente al corriente con las notificaciones",
@@ -7678,6 +7661,23 @@
       },
       {
         "target" : "Хабарландырулар арқылы барлық жаңалықтан хабардар болыңыз",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WORKOUT_DETAIL_APPLE_WEATHER_SOURCE_FOOTER_LINK_TEXT" : [
+      {
+        "target" : "fuentes de datos de Clima",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "източници на данни за времето",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "ауа райы туралы дереккөздер",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -7767,23 +7767,6 @@
         "language" : "kk"
       }
     ],
-    "SCORCHING_RAP_SEND_BUTTON" : [
-      {
-        "target" : "Enviar",
-        "filename" : "Localizable-scorching.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Изпрати",
-        "filename" : "Localizable-scorching.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жіберу",
-        "filename" : "Localizable-scorching.strings",
-        "language" : "kk"
-      }
-    ],
     "MOVE_MODE_CHANGE_PROMPT_UPGRADE_TO_MOVE_TIME_TITLE" : [
       {
         "target" : "Fitness a tu medida",
@@ -7798,6 +7781,23 @@
       {
         "target" : "Арнайы сіз үшін бейімделген «Фитнес» қолданбасы",
         "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "SCORCHING_RAP_SEND_BUTTON" : [
+      {
+        "target" : "Enviar",
+        "filename" : "Localizable-scorching.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Изпрати",
+        "filename" : "Localizable-scorching.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жіберу",
+        "filename" : "Localizable-scorching.strings",
         "language" : "kk"
       }
     ],
@@ -7835,23 +7835,6 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_HEART_RATE_RECOVERY_PAGE_RECOVERY" : [
-      {
-        "target" : "RECUPERACIÓN",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "ВЪЗСТАНОВЯВАНЕ",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "ҚАЛПЫНА КЕЛТІРУ",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "WORKOUT_WEATHER_HUMIDITY_TITLE" : [
       {
         "target" : "Humedad",
@@ -7865,6 +7848,23 @@
       },
       {
         "target" : "Ылғалдылық",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WORKOUT_HEART_RATE_RECOVERY_PAGE_RECOVERY" : [
+      {
+        "target" : "RECUPERACIÓN",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "ВЪЗСТАНОВЯВАНЕ",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "ҚАЛПЫНА КЕЛТІРУ",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -7886,23 +7886,6 @@
         "language" : "kk"
       }
     ],
-    "TOTAL_TIME" : [
-      {
-        "target" : "Tiempo total",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Общо време",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жалпы уақыт",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "IDLE_HOURS" : [
       {
         "target" : "Horas de inactividad",
@@ -7916,6 +7899,23 @@
       },
       {
         "target" : "Денені жазусыз сағаттар",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "TOTAL_TIME" : [
+      {
+        "target" : "Tiempo total",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Общо време",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жалпы уақыт",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -8022,6 +8022,23 @@
         "language" : "kk"
       }
     ],
+    "TOTAL_ENERGY_CAL" : [
+      {
+        "target" : "Calorías en total",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Общо калории",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жалпы калория",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "SHARING_REMOVE_ERROR" : [
       {
         "target" : "Ocurrió un error al eliminar a %@. Reintenta.",
@@ -8035,23 +8052,6 @@
       },
       {
         "target" : "%@ атты пайдаланушыны жою кезінде қате пайда болды. Әрекетті қайталаңыз.",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "SHARING_HIDING_ERROR" : [
-      {
-        "target" : "Ocurrió un error al intentar ocultar tus datos de actividad de %@. Reintenta.",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Въникна грешка при скриването на данните ви за активност от %@. Моля, опитайте отново.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "%@ атты пайдаланушыдан белсенділік деректерін жасыру кезінде қате орын алды. Әрекетті қайталаңыз.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -8073,19 +8073,19 @@
         "language" : "kk"
       }
     ],
-    "TOTAL_ENERGY_CAL" : [
+    "SHARING_HIDING_ERROR" : [
       {
-        "target" : "Calorías en total",
+        "target" : "Ocurrió un error al intentar ocultar tus datos de actividad de %@. Reintenta.",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Общо калории",
+        "target" : "Въникна грешка при скриването на данните ви за активност от %@. Моля, опитайте отново.",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Жалпы калория",
+        "target" : "%@ атты пайдаланушыдан белсенділік деректерін жасыру кезінде қате орын алды. Әрекетті қайталаңыз.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -8192,23 +8192,6 @@
         "language" : "kk"
       }
     ],
-    "SET_ROLL_GOAL" : [
-      {
-        "target" : "Definir objetivo de Rodar",
-        "filename" : "ActivitySetup.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Определяне на цел за Движение на колела",
-        "filename" : "ActivitySetup.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Қозғалыс жасау мақсатын орнату",
-        "filename" : "ActivitySetup.strings",
-        "language" : "kk"
-      }
-    ],
     "ACTIVITY_LEVEL_MODERATELY" : [
       {
         "target" : "Moderado",
@@ -8222,6 +8205,23 @@
       },
       {
         "target" : "Орташа",
+        "filename" : "ActivitySetup.strings",
+        "language" : "kk"
+      }
+    ],
+    "SET_ROLL_GOAL" : [
+      {
+        "target" : "Definir objetivo de Rodar",
+        "filename" : "ActivitySetup.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Определяне на цел за Движение на колела",
+        "filename" : "ActivitySetup.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қозғалыс жасау мақсатын орнату",
         "filename" : "ActivitySetup.strings",
         "language" : "kk"
       }
@@ -8600,36 +8600,19 @@
         "language" : "kk"
       }
     ],
-    "MINUTES_ONE" : [
+    "SHARING_INBOX_ACTIVE" : [
       {
-        "target" : "min",
+        "target" : "Compartiendo con",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "минута",
+        "target" : "Споделяне с",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "минут",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "TREND_EXPLANATION_DISTANCE_METRIC" : [
-      {
-        "target" : "La distancia representa los kilómetros que corres y caminas cada día.",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Дистанцията представя километрите, които бягате или ходите всеки ден.",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Қашықтық күн сайын жүріп немесе жүгіріп өткен километрді білдіреді.",
+        "target" : "Мына пайдаланушымен бөлісу:",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -8651,6 +8634,23 @@
         "language" : "kk"
       }
     ],
+    "WORKOUT_REST_TIME_TITLE" : [
+      {
+        "target" : "Descanso",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Почивка",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Демалу",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "BPM" : [
       {
         "target" : "LPM",
@@ -8664,6 +8664,23 @@
       },
       {
         "target" : "соқ\/мин",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WORKOUT_TABLE_METRIC_DISTANCE_HEADER" : [
+      {
+        "target" : "Distancia",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Разстояние",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қашықтық",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -8685,20 +8702,20 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_REST_TIME_TITLE" : [
+    "SCORCHING_RAP_TRACK_LANES_PICKER_LABEL" : [
       {
-        "target" : "Descanso",
-        "filename" : "Localizable.strings",
+        "target" : "Número de carriles",
+        "filename" : "Localizable-scorching.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Почивка",
-        "filename" : "Localizable.strings",
+        "target" : "Брой ленти",
+        "filename" : "Localizable-scorching.strings",
         "language" : "bg"
       },
       {
-        "target" : "Демалу",
-        "filename" : "Localizable.strings",
+        "target" : "Жолдар саны",
+        "filename" : "Localizable-scorching.strings",
         "language" : "kk"
       }
     ],
@@ -8732,6 +8749,40 @@
       },
       {
         "target" : "Бұл тренд арқылы қозғалыс кезінде жағылатын белсенді энергия өлшенеді.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "MINUTES_ONE" : [
+      {
+        "target" : "min",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "минута",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "минут",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "INTERVAL_STEP_COOL_DOWN" : [
+      {
+        "target" : "Enfriamiento",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Разпускане",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қалпына келу",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -8770,70 +8821,19 @@
         "language" : "kk"
       }
     ],
-    "INTERVAL_STEP_COOL_DOWN" : [
+    "ACTIVITY" : [
       {
-        "target" : "Enfriamiento",
+        "target" : "Cierra tus círculos",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Разпускане",
+        "target" : "Затворете кръговете си",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Қалпына келу",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "WORKOUT_TABLE_METRIC_DISTANCE_HEADER" : [
-      {
-        "target" : "Distancia",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Разстояние",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Қашықтық",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "WORKOUT_TOTAL_ENERGY_TITLE_CAL" : [
-      {
-        "target" : "Calorías en total",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Общо калории",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жалпы калория",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "DELETE_WORKOUT_ALERT_YES" : [
-      {
-        "target" : "Eliminar entrenamiento y datos",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Изтрий тренировката и данните",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жаттығу мен деректерді жою",
+        "target" : "Сақиналарды жабыңыз",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -8923,36 +8923,19 @@
         "language" : "kk"
       }
     ],
-    "ACTIVITY" : [
+    "DELETE_WORKOUT_ALERT_YES" : [
       {
-        "target" : "Cierra tus círculos",
+        "target" : "Eliminar entrenamiento y datos",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Затворете кръговете си",
+        "target" : "Изтрий тренировката и данните",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Сақиналарды жабыңыз",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
-    "SHARING_INBOX_ACTIVE" : [
-      {
-        "target" : "Compartiendo con",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Споделяне с",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Мына пайдаланушымен бөлісу:",
+        "target" : "Жаттығу мен деректерді жою",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -8974,20 +8957,37 @@
         "language" : "kk"
       }
     ],
-    "SCORCHING_RAP_TRACK_LANES_PICKER_LABEL" : [
+    "WORKOUT_TOTAL_ENERGY_TITLE_CAL" : [
       {
-        "target" : "Número de carriles",
-        "filename" : "Localizable-scorching.strings",
+        "target" : "Calorías en total",
+        "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Брой ленти",
-        "filename" : "Localizable-scorching.strings",
+        "target" : "Общо калории",
+        "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Жолдар саны",
-        "filename" : "Localizable-scorching.strings",
+        "target" : "Жалпы калория",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "TREND_EXPLANATION_DISTANCE_METRIC" : [
+      {
+        "target" : "La distancia representa los kilómetros que corres y caminas cada día.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Дистанцията представя километрите, които бягате или ходите всеки ден.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қашықтық күн сайын жүріп немесе жүгіріп өткен километрді білдіреді.",
+        "filename" : "Localizable.strings",
         "language" : "kk"
       }
     ],
@@ -9025,23 +9025,6 @@
         "language" : "kk"
       }
     ],
-    "UNIT_SETTINGS_ENERGY_UNITS_KILOJOULES_LABEL" : [
-      {
-        "target" : "Kilojoules",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Килоджаули",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Килоджоуль",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "PACE_SECTION_ORDER" : [
       {
         "target" : "%1$@ %2$@",
@@ -9055,6 +9038,23 @@
       },
       {
         "target" : "%1$@ %2$@",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "UNIT_SETTINGS_ENERGY_UNITS_KILOJOULES_LABEL" : [
+      {
+        "target" : "Kilojoules",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Килоджаули",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Килоджоуль",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -9144,23 +9144,6 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_SUMMARY_GOAL_TITLE" : [
-      {
-        "target" : "Objetivo: %1$@",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Цел: %1$@",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Мақсат: %1$@",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "RESTORING_FROM_ICLOUD" : [
       {
         "target" : "Restaurando datos de Actividad de iCloud...",
@@ -9195,23 +9178,6 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_MONTH_SUMMARY_WORKOUTS_TITLE" : [
-      {
-        "target" : "Entrenamientos",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Тренировки",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жаттығулар",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "WORKOUT_RACE_RUNNING_PACE_FORMAT" : [
       {
         "target" : "%1$@\/%2$@",
@@ -9229,6 +9195,23 @@
         "language" : "kk"
       }
     ],
+    "WORKOUT_MONTH_SUMMARY_WORKOUTS_TITLE" : [
+      {
+        "target" : "Entrenamientos",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Тренировки",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жаттығулар",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
     "SHARING_SETUP_FULL_DISCLAIMER_WHEELCHAIR" : [
       {
         "target" : "Los datos de Actividad y Entrenamiento que compartes con tus amigos pueden incluir: el estado de tu círculo de Moverse, los minutos de Ejercicio, las horas de rodar, tu zona horaria (para que tus amigos sepan cuándo comenzaste tu día) y la información sobre tus entrenamientos, como el tipo y duración de los mismos. La dirección de correo asociada a tu cuenta de iCloud será visible para quienes invites o cuya invitación aceptes. Si usas esta función, tus datos de Actividad se enviarán a Apple para que Apple pueda compartirlos de forma segura con quien elijas. Apple conservará tus datos de Actividad por un periodo corto de tiempo y sólo los usará para activar esta función de compartir. Tu lista de amigos con los que compartes tus datos de Actividad está asociada con tu cuenta de iCloud y se restaurará en cualquier dispositivo iOS en el que inicies sesión usando esta cuenta de iCloud.",
@@ -9242,6 +9225,23 @@
       },
       {
         "target" : "Жаттығуларыңыз және достарыңызбен бөлісетін белсенділік туралы деректер қозғалыс сақинаңыздың күйін, жаттығу минуттарын, қозғалыс жасауға арналған сағаттарды және уақыт белдеуі (достарыңыз күнді қашан бастағаныңызды білуі үшін) туралы ақпаратты қамтуы мүмкін. Сондай-ақ жаттығудың түрі мен ұзақтығы туралы ақпарат қамтылуы мүмкін. iCloud аккаунтыңызбен байланысты эл. пошта мекенжайы сіз шақыру жіберген барлық пайдаланушыға және сіз шақыруын қабылдаған пайдаланушыларға көрінеді. Бұл мүмкіндікті пайдалану кезінде белсенділік деректеріңіз Apple компаниясына жіберіледі, бұл компанияға деректеріңізді сіз таңдаған пайдаланушылармен қауіпсіз бөлісуге мүмкіндік береді. Apple компаниясы белсенділік деректерін қысқа уақыт сақтайды және бұл деректерді тек жоғарыда сипатталған функцияның жұмысы үшін пайдаланады. Белсенділік деректерін бөлісетін достарыңыздың тізімі iCloud аккаунтыңызбен байланысты және осы iCloud аккаунтының деректері қолданылатын кез келген iOS құрылғысында қалпына келтіріледі.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "WORKOUT_SUMMARY_GOAL_TITLE" : [
+      {
+        "target" : "Objetivo: %1$@",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Цел: %1$@",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Мақсат: %1$@",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -9552,23 +9552,6 @@
         "language" : "kk"
       }
     ],
-    "COMPETITIONS" : [
-      {
-        "target" : "Competencias",
-        "filename" : "Localizable.strings",
-        "language" : "es_419"
-      },
-      {
-        "target" : "Състезания",
-        "filename" : "Localizable.strings",
-        "language" : "bg"
-      },
-      {
-        "target" : "Жарыстар",
-        "filename" : "Localizable.strings",
-        "language" : "kk"
-      }
-    ],
     "ACHIEVEMENTS" : [
       {
         "target" : "Logros",
@@ -9582,6 +9565,23 @@
       },
       {
         "target" : "Жетістіктер",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      }
+    ],
+    "COMPETITIONS" : [
+      {
+        "target" : "Competencias",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Състезания",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Жарыстар",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }
@@ -9688,19 +9688,19 @@
         "language" : "kk"
       }
     ],
-    "WORKOUT_SEGMENT_TIME_HEADER" : [
+    "TREND_DETAIL_NO_DATA_VO2MAX" : [
       {
-        "target" : "Tiempo\ntranscurrido",
+        "target" : "Para desbloquear esta tendencia, debes obtener al menos cinco lecturas de VO2 máx. en los tres últimos meses y diez lecturas en los últimos seis.",
         "filename" : "Localizable.strings",
         "language" : "es_419"
       },
       {
-        "target" : "Изминало\nвреме",
+        "target" : "За да отключите тази тенденция, трябва да имате поне 5 отчитания на VO2 max в последните 3 месеца и 10 отчитания в последните 6 месеца.",
         "filename" : "Localizable.strings",
         "language" : "bg"
       },
       {
-        "target" : "Өткен\nуақыт",
+        "target" : "Соңғы 3 айда кемінде 5 VO₂ макс. мәні және соңғы 6 айда кемінде 10 мән жинақталса, бұл трендтің құлпы ашылады.",
         "filename" : "Localizable.strings",
         "language" : "kk"
       }

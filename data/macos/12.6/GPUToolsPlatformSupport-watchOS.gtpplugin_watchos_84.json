@@ -84,14 +84,14 @@
         "language" : "en"
       }
     ],
-    "DYFURLResourceShouldBePrivate" : [
+    "DYFURLTextureUsageShouldBePixelFormatView" : [
       {
         "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFURLTextureUsageShouldBePixelFormatView" : [
+    "DYFURLResourceShouldBePrivate" : [
       {
         "target" : "",
         "filename" : "AnalyzerFinding.strings",
@@ -105,13 +105,6 @@
         "language" : "en"
       }
     ],
-    "DYFNextDrawableViolatingSubfindingText" : [
-      {
-        "target" : "Defer nextDrawable until after this function",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFKNewDepthStencilState" : [
       {
         "target" : "New MTLDepthStencilState",
@@ -119,9 +112,16 @@
         "language" : "en"
       }
     ],
-    "DYFKResourceSmallBufferDetected" : [
+    "DYFKTilerParameterBufferExceedsMemlessMax" : [
       {
-        "target" : "Small Resources",
+        "target" : "Tiler Output Buffer Usage Exceeds Maximum Limit for Memoryless Render Target",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFNextDrawableViolatingSubfindingText" : [
+      {
+        "target" : "Defer nextDrawable until after this function",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -147,9 +147,9 @@
         "language" : "en"
       }
     ],
-    "DYFKTilerParameterBufferExceedsMemlessMax" : [
+    "DYFKResourceSmallBufferDetected" : [
       {
-        "target" : "Tiler Output Buffer Usage Exceeds Maximum Limit for Memoryless Render Target",
+        "target" : "Small Resources",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -336,6 +336,13 @@
         "language" : "en"
       }
     ],
+    "DYFURLTilerParameterBufferExceedsMemfulMax" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFKNewCommandQueue" : [
       {
         "target" : "New MTLCommandQueue",
@@ -346,13 +353,6 @@
     "DYFTilerParameterBufferExceedsActionItemForCorrectRending" : [
       {
         "target" : " Reduce scene geometry complexity for complete rendering.",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFURLTilerParameterBufferExceedsMemfulMax" : [
-      {
-        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -455,16 +455,16 @@
         "language" : "en"
       }
     ],
-    "DYFKResourceShouldBeBlittedFromShared" : [
+    "DYFDKResourceShouldInitWithMemcpy" : [
       {
-        "target" : "Blitting from a Managed Resource to a Private Resource is Inefficient",
+        "target" : "This managed resource is blitted into a shared resource. Changing the source storage mode to MTLStorageModeShared and replacing the blit operation with a memcpy call may improve performance.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFDKUnusedAttachmentTextureDetected" : [
+    "DYFURLResourceShouldBeManaged" : [
       {
-        "target" : "Encoder should use MTLStoreActionDontCare if results are not used",
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -476,16 +476,16 @@
         "language" : "en"
       }
     ],
-    "DYFDKResourceShouldInitWithMemcpy" : [
+    "DYFDKUnusedAttachmentTextureDetected" : [
       {
-        "target" : "This managed resource is blitted into a shared resource. Changing the source storage mode to MTLStorageModeShared and replacing the blit operation with a memcpy call may improve performance.",
+        "target" : "Encoder should use MTLStoreActionDontCare if results are not used",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFURLEmptyEncoderDetected" : [
+    "DYFKResourceShouldBeBlittedFromShared" : [
       {
-        "target" : "",
+        "target" : "Blitting from a Managed Resource to a Private Resource is Inefficient",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -504,7 +504,7 @@
         "language" : "en"
       }
     ],
-    "DYFURLResourceShouldBeManaged" : [
+    "DYFURLEmptyEncoderDetected" : [
       {
         "target" : "",
         "filename" : "AnalyzerFinding.strings",
@@ -609,7 +609,7 @@
         "language" : "en"
       }
     ],
-    "DYFURLNewDepthStencilState" : [
+    "DYFURLCommandBufferNotEnqueued" : [
       {
         "target" : "",
         "filename" : "AnalyzerFinding.strings",
@@ -623,16 +623,9 @@
         "language" : "en"
       }
     ],
-    "DYFURLCommandBufferNotEnqueued" : [
+    "DYFURLNewDepthStencilState" : [
       {
         "target" : "",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFKTextureUsageShouldBeShaderRead" : [
-      {
-        "target" : "Texture Usage Should be Flagged as MTLTextureUsageShaderRead",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -640,6 +633,13 @@
     "DYFNextDrawableNextDrawableSubfindingText" : [
       {
         "target" : "This is the location of the premature nextDrawable function",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKTextureUsageShouldBeShaderRead" : [
+      {
+        "target" : "Texture Usage Should be Flagged as MTLTextureUsageShaderRead",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -658,16 +658,16 @@
         "language" : "en"
       }
     ],
-    "DYFURLNewRenderPipelineState" : [
+    "DYFDKNewTexture" : [
       {
-        "target" : "",
+        "target" : "Your application created a MTLTexture object during GPU work. Create textures at load time for best performance.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFDKNewTexture" : [
+    "DYFURLNewRenderPipelineState" : [
       {
-        "target" : "Your application created a MTLTexture object during GPU work. Create textures at load time for best performance.",
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -847,16 +847,16 @@
         "language" : "en"
       }
     ],
-    "DYFDKPrematureNextDrawable" : [
+    "DYFURLTextureUsageShouldNotBeShaderWrite" : [
       {
-        "target" : "Your application called CAMetalLayer nextDrawable earlier than needed. This may block execution until a CAMetalDrawable is available. Delay the call to nextDrawable until the drawable is needed for encoding.",
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFURLTextureUsageShouldNotBeShaderWrite" : [
+    "DYFDKPrematureNextDrawable" : [
       {
-        "target" : "",
+        "target" : "Your application called CAMetalLayer nextDrawable earlier than needed. This may block execution until a CAMetalDrawable is available. Delay the call to nextDrawable until the drawable is needed for encoding.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
