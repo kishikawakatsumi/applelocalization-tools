@@ -130,17 +130,17 @@ func collectLocalizables(root: AbsolutePath) throws -> OrderedSet<Localizable> {
   for file in iterator {
     if file.extension == "strings" || file.extension == "loctable" {
       let bundlePath: AbsolutePath
-      if let ext = file.parentDirectory.extension, ext != "lproj", ext != "pass" {
+      if let ext = file.parentDirectory.extension, ext != "lproj", ext != "pass", ext.range(of: #"[0-9]+(\.[0-9]+)?"#, options: .regularExpression) == nil {
         bundlePath = file.parentDirectory
-      } else if let ext = file.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass" {
+      } else if let ext = file.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass", ext.range(of: #"[0-9]+(\.[0-9]+)?"#, options: .regularExpression) == nil {
         bundlePath = file.parentDirectory.parentDirectory
-      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass" {
+      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass", ext.range(of: #"[0-9]+(\.[0-9]+)?"#, options: .regularExpression) == nil {
         bundlePath = file.parentDirectory.parentDirectory.parentDirectory
-      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass" {
+      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass", ext.range(of: #"[0-9]+(\.[0-9]+)?"#, options: .regularExpression) == nil {
         bundlePath = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory
-      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass" {
+      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass", ext.range(of: #"[0-9]+(\.[0-9]+)?"#, options: .regularExpression) == nil {
         bundlePath = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory
-      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass" {
+      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass", ext.range(of: #"[0-9]+(\.[0-9]+)?"#, options: .regularExpression) == nil {
         bundlePath = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory
       } else if file.parentDirectory.extension == "lproj" {
         if let _ = Bundle(url: file.parentDirectory.parentDirectory.asURL) {
