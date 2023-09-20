@@ -1,21 +1,27 @@
 import XCTest
 @testable import AppleLocalization
 import TSCBasic
+import AppleArchive
+import System
+import os
 
 class AppleLocalizationTests: XCTestCase {
   func test() async throws {
+    let logger = Logger(subsystem: "com.kishikawakatsumi.AppleLocalizationTool", category: "main")
+
     var counter = 1
 
     let fileManager = FileManager()
 
     let documentDirectory = fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0]
-    let outputDirectory = documentDirectory.appendingPathComponent("\(Date().timeIntervalSince1970)")
+    let filename = "\(Date().timeIntervalSince1970)".replacingOccurrences(of: ".", with: "")
+    let outputDirectory = documentDirectory.appendingPathComponent(filename)
     try fileManager.createDirectory(
       at: outputDirectory,
       withIntermediateDirectories: true,
       attributes: nil
     )
-    print(outputDirectory)
+    logger.log("\(outputDirectory)")
 
     var localizables = OrderedSet<Localizable>()
     try collectLocalizables(root: AbsolutePath(validating: "/System/Library")).forEach {
@@ -104,12 +110,73 @@ class AppleLocalizationTests: XCTestCase {
       } else {
         outFile = outputDirectory.appendingPathComponent("\(localizable.framework)_\(counter)")
       }
-      print(outFile)
+      logger.log("\(outFile)")
       counter += 1
       try data.write(to: outFile.appendingPathExtension("json"))
     }
 
-    print("finished!")
+    let archiveDestination = documentDirectory.appendingPathComponent("\(filename).aar")
+    let archiveFilePath = FilePath(archiveDestination.path)
+
+    guard let writeFileStream = ArchiveByteStream.fileStream(
+      path: archiveFilePath,
+      mode: .writeOnly,
+      options: [.create, .truncate],
+      permissions: [.ownerReadWrite, .groupRead, .otherRead]) else {
+      return
+    }
+    defer {
+    }
+
+    guard let compressStream = ArchiveByteStream.compressionStream(
+      using: .lzfse,
+      writingTo: writeFileStream) else {
+      return
+    }
+
+    guard let encodeStream = ArchiveStream.encodeStream(writingTo: compressStream) else {
+      return
+    }
+
+    guard let keySet = ArchiveHeader.FieldKeySet("TYP,PAT,LNK,DEV,DAT,UID,GID,MOD,FLG,MTM,BTM,CTM") else {
+      return
+    }
+
+    let sourcePath = outputDirectory.path
+    let source = FilePath(sourcePath)
+
+    do {
+      try encodeStream.writeDirectoryContents(
+        archiveFrom: source,
+        keySet: keySet)
+    } catch {
+      fatalError("Write directory contents failed.")
+    }
+
+    try encodeStream.close()
+    try compressStream.close()
+    try writeFileStream.close()
+
+    let url = URL(string: "https://content.dropboxapi.com/2/files/upload")!
+    let headers = [
+      "Authorization": "Bearer <ACCESS_TOKEN>",
+      "Dropbox-API-Arg": "{\"autorename\":false,\"mode\":\"add\",\"mute\":false,\"path\":\"/\(filename).aar\",\"strict_conflict\":false}",
+      "Content-Type": "application/octet-stream"
+    ]
+
+    var request = URLRequest(url: url)
+    request.httpMethod = "POST"
+    request.allHTTPHeaderFields = headers
+    request.httpBody = try Data(contentsOf: archiveDestination)
+
+    let (data, response) = try await URLSession.shared.data(for: request)
+    let result = String(decoding: data, as: UTF8.self)
+    logger.log("\(result)")
+    guard let response = response as? HTTPURLResponse, response.statusCode >= 200 && response.statusCode < 300 else {
+      throw result
+    }
+
+    logger.log("finished!")
   }
 }
 
@@ -198,3 +265,5 @@ struct Localization: Codable {
   let target: String
   let filename: String
 }
+
+extension String: Error {}
