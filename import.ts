@@ -1,5 +1,5 @@
-import { path, Pool } from "./deps.ts";
-import "https://deno.land/x/dotenv/load.ts";
+import * as path from "https://deno.land/std/path/mod.ts";
+import { Pool } from "https://deno.land/x/postgres/mod.ts";
 
 const POOL_CONNECTIONS = 4;
 const dbPool = new Pool({

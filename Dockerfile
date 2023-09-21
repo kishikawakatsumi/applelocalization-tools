@@ -1,4 +1,4 @@
-FROM groonga/pgroonga:3.1.3-alpine-14
+FROM groonga/pgroonga:3.1.3-alpine-15
 
 COPY config/ /var/lib/postgresql/config/
 
