@@ -7,16 +7,16 @@
         "language" : "en"
       }
     ],
-    "DYFDKRedundantBindingDetected" : [
+    "DYFURLNewBuffer" : [
       {
-        "target" : "Binding the same resource to the same bind slot",
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFURLNewBuffer" : [
+    "DYFDKRedundantBindingDetected" : [
       {
-        "target" : "",
+        "target" : "Binding the same resource to the same bind slot",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -70,16 +70,16 @@
         "language" : "en"
       }
     ],
-    "DYFDKUnoptimizedMemoryAccessToBufferInShaderDetail" : [
+    "DYFURLNewTexture" : [
       {
-        "target" : "The compiler was not able to preload your buffer. Simplify your memory access pattern by using the constant address space, a struct, or a descriptor.",
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFURLNewTexture" : [
+    "DYFDKUnoptimizedMemoryAccessToBufferInShaderDetail" : [
       {
-        "target" : "",
+        "target" : "The compiler was not able to preload your buffer. Simplify your memory access pattern by using the constant address space, a struct, or a descriptor.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -126,16 +126,16 @@
         "language" : "en"
       }
     ],
-    "DYFKUnusedBufferDetected" : [
+    "DYFDKCommandBufferNotCommitted" : [
       {
-        "target" : "Unused Buffer",
+        "target" : "This command buffer was enqueued but not committed in this frame.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFDKCommandBufferNotCommitted" : [
+    "DYFKTextureUsageShouldNotBePixelFormatView" : [
       {
-        "target" : "This command buffer was enqueued but not committed in this frame.",
+        "target" : "Texture Usage Should not be Flagged as MTLTextureUsagePixelFormatView",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -147,9 +147,9 @@
         "language" : "en"
       }
     ],
-    "DYFKTextureUsageShouldNotBePixelFormatView" : [
+    "DYFKUnusedBufferDetected" : [
       {
-        "target" : "Texture Usage Should not be Flagged as MTLTextureUsagePixelFormatView",
+        "target" : "Unused Buffer",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -175,16 +175,16 @@
         "language" : "en"
       }
     ],
-    "DYFDKTextureUsageShouldBeRenderTarget" : [
+    "DYFKNewSamplerState" : [
       {
-        "target" : "This texture is a render target. Set the MTLTextureUsageRenderTarget bit flag in the texture usage options.",
+        "target" : "New MTLSamplerState",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFKNewSamplerState" : [
+    "DYFKUnnecessaryNextDrawable" : [
       {
-        "target" : "New MTLSamplerState",
+        "target" : "CAMetalLayer nextDrawable was Called Unnecessarily",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -203,9 +203,9 @@
         "language" : "en"
       }
     ],
-    "DYFKUnnecessaryNextDrawable" : [
+    "DYFDKTextureUsageShouldBeRenderTarget" : [
       {
-        "target" : "CAMetalLayer nextDrawable was Called Unnecessarily",
+        "target" : "This texture is a render target. Set the MTLTextureUsageRenderTarget bit flag in the texture usage options.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -224,6 +224,13 @@
         "language" : "en"
       }
     ],
+    "DYFKUnusedTextureDetected" : [
+      {
+        "target" : "Unused Texture",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFKRecommendCoalesceEncoders" : [
       {
         "target" : "Inefficient use of Command Encoders",
@@ -234,13 +241,6 @@
     "DYFDKNewLibrary" : [
       {
         "target" : "Your application created a MTLLibrary object during GPU work. Create libraries at load time for best performance.",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFDKTilerParameterBufferExceedsMemlessWarningThreshold" : [
-      {
-        "target" : "The tiler output buffer usage is close to exceeding the maximum space available for an encoder with a memoryless render target.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -259,9 +259,9 @@
         "language" : "en"
       }
     ],
-    "DYFKUnusedTextureDetected" : [
+    "DYFDKTilerParameterBufferExceedsMemlessWarningThreshold" : [
       {
-        "target" : "Unused Texture",
+        "target" : "The tiler output buffer usage is close to exceeding the maximum space available for an encoder with a memoryless render target.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -455,23 +455,9 @@
         "language" : "en"
       }
     ],
-    "DYFKResourceShouldBeBlittedFromShared" : [
+    "DYFDKResourceShouldInitWithMemcpy" : [
       {
-        "target" : "Blitting from a Managed Resource to a Private Resource is Inefficient",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFDKUnusedAttachmentTextureDetected" : [
-      {
-        "target" : "Encoder should use MTLStoreActionDontCare if results are not used",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFURLTextureUsageShouldNotBePixelFormatView" : [
-      {
-        "target" : "",
+        "target" : "This managed resource is blitted into a shared resource. Changing the source storage mode to MTLStorageModeShared and replacing the blit operation with a memcpy call may improve performance.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -483,9 +469,23 @@
         "language" : "en"
       }
     ],
-    "DYFURLEmptyEncoderDetected" : [
+    "DYFURLTextureUsageShouldNotBePixelFormatView" : [
       {
         "target" : "",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKUnusedAttachmentTextureDetected" : [
+      {
+        "target" : "Encoder should use MTLStoreActionDontCare if results are not used",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKResourceShouldBeBlittedFromShared" : [
+      {
+        "target" : "Blitting from a Managed Resource to a Private Resource is Inefficient",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -504,9 +504,9 @@
         "language" : "en"
       }
     ],
-    "DYFDKResourceShouldInitWithMemcpy" : [
+    "DYFURLEmptyEncoderDetected" : [
       {
-        "target" : "This managed resource is blitted into a shared resource. Changing the source storage mode to MTLStorageModeShared and replacing the blit operation with a memcpy call may improve performance.",
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -595,9 +595,9 @@
         "language" : "en"
       }
     ],
-    "DYFURLNewDepthStencilState" : [
+    "DYFDKTilerParameterBufferExceedsMemfulMax" : [
       {
-        "target" : "",
+        "target" : "The tiler output buffer usage for an encoder exceeds the maximum space available.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -623,6 +623,13 @@
         "language" : "en"
       }
     ],
+    "DYFURLNewDepthStencilState" : [
+      {
+        "target" : "",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFKTextureUsageShouldBeShaderRead" : [
       {
         "target" : "Texture Usage Should be Flagged as MTLTextureUsageShaderRead",
@@ -633,13 +640,6 @@
     "DYFNextDrawableNextDrawableSubfindingText" : [
       {
         "target" : "This is the location of the premature nextDrawable function",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFDKTilerParameterBufferExceedsMemfulMax" : [
-      {
-        "target" : "The tiler output buffer usage for an encoder exceeds the maximum space available.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }

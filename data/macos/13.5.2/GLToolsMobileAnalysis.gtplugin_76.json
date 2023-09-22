@@ -514,13 +514,6 @@
         "language" : "en"
       }
     ],
-    "DYFKBufferBindingVAODependency" : [
-      {
-        "target" : "Detected buffer binding dependency on current vertex array object",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFDKFragmentShaderDataSpill" : [
       {
         "target" : " spilled data to main memory because it used too many temporary registers or temporary arrays.",
@@ -535,6 +528,13 @@
       {
         "target" : "$ThisFSProg$ spilled data to main memory because $it$ used too many temporary registers or temporary arrays.",
         "filename" : "AnalyzerFindingSimplified.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKBufferBindingVAODependency" : [
+      {
+        "target" : "Detected buffer binding dependency on current vertex array object",
+        "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
@@ -1036,6 +1036,13 @@
         "language" : "en"
       }
     ],
+    "attachment" : [
+      {
+        "target" : "attachment",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFKFragmentShaderDynamicBranching" : [
       {
         "target" : "Fragment Shader Dynamic Branching",
@@ -1044,13 +1051,6 @@
       },
       {
         "target" : "Dynamic branching in fragment shader",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "attachment" : [
-      {
-        "target" : "attachment",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1076,16 +1076,16 @@
         "language" : "en"
       }
     ],
-    "sfactor" : [
+    "FramebufferTexture2D() level<%d> not supported without OES_fbo_render_mipmap extension" : [
       {
-        "target" : "sfactor",
+        "target" : "FramebufferTexture2D() level<%d> not supported without OES_fbo_render_mipmap extension",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "FramebufferTexture2D() level<%d> not supported without OES_fbo_render_mipmap extension" : [
+    "sfactor" : [
       {
-        "target" : "FramebufferTexture2D() level<%d> not supported without OES_fbo_render_mipmap extension",
+        "target" : "sfactor",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }

@@ -17,13 +17,6 @@
         "language" : "en"
       }
     ],
-    "CAF_AUDIO_FILE_KIND" : [
-      {
-        "target" : "CAF Audio",
-        "filename" : "MLLocalizable.loctable",
-        "language" : "en"
-      }
-    ],
     "AIFF_AUDIO_STREAM_KIND" : [
       {
         "target" : "AIFF audio stream",
@@ -34,6 +27,13 @@
     "MPEG4_PROTECTED_AUDIO_FILE_KIND_OLD" : [
       {
         "target" : "Protected MPEG-4 audio file",
+        "filename" : "MLLocalizable.loctable",
+        "language" : "en"
+      }
+    ],
+    "CAF_AUDIO_FILE_KIND" : [
+      {
+        "target" : "CAF Audio",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -52,9 +52,9 @@
         "language" : "en"
       }
     ],
-    "AAC_MATCHED_MASTERED_AUDIO_STREAM_KIND" : [
+    "NUMERIC_SECTION_HEADER" : [
       {
-        "target" : "AAC audio stream (matched, Mastered for iTunes)",
+        "target" : "#",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -66,9 +66,23 @@
         "language" : "en"
       }
     ],
+    "MP3_INTERNET_AUDIO_STREAM_KIND" : [
+      {
+        "target" : "MP3 Internet audio stream",
+        "filename" : "MLLocalizable.loctable",
+        "language" : "en"
+      }
+    ],
     "IPAD_APPLICATION_KIND" : [
       {
         "target" : "iPad app",
+        "filename" : "MLLocalizable.loctable",
+        "language" : "en"
+      }
+    ],
+    "AIFF_AUDIO_STREAM_KIND_OLD" : [
+      {
+        "target" : "AIFF audio stream",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -87,20 +101,6 @@
         "language" : "en"
       }
     ],
-    "AIFF_AUDIO_STREAM_KIND_OLD" : [
-      {
-        "target" : "AIFF audio stream",
-        "filename" : "MLLocalizable.loctable",
-        "language" : "en"
-      }
-    ],
-    "MP3_INTERNET_AUDIO_STREAM_KIND" : [
-      {
-        "target" : "MP3 Internet audio stream",
-        "filename" : "MLLocalizable.loctable",
-        "language" : "en"
-      }
-    ],
     "PLAYLIST_URL_KIND" : [
       {
         "target" : "Playlist URL",
@@ -108,9 +108,9 @@
         "language" : "en"
       }
     ],
-    "NUMERIC_SECTION_HEADER" : [
+    "AAC_MATCHED_MASTERED_AUDIO_STREAM_KIND" : [
       {
-        "target" : "#",
+        "target" : "AAC audio stream (matched, Mastered for iTunes)",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -157,16 +157,16 @@
         "language" : "en"
       }
     ],
-    "Small Speakers" : [
+    "LOSSLESS_PROTECTED_AUDIO_FILE_KIND_OLD" : [
       {
-        "target" : "Small Speakers",
+        "target" : "Protected Apple Lossless audio file",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
     ],
-    "LOSSLESS_PROTECTED_AUDIO_FILE_KIND_OLD" : [
+    "Small Speakers" : [
       {
-        "target" : "Protected Apple Lossless audio file",
+        "target" : "Small Speakers",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -185,9 +185,9 @@
         "language" : "en"
       }
     ],
-    "MPEG4_PURCHASED_AUDIO_FILE_KIND" : [
+    "AAC_PROTECTED_AUDIO_STREAM_KIND_OLD" : [
       {
-        "target" : "MPEG-4 audio (purchased)",
+        "target" : "Protected AAC audio stream",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -199,9 +199,9 @@
         "language" : "en"
       }
     ],
-    "AAC_MATCHED_AUDIO_STREAM_KIND_OLD" : [
+    "AAC_PROTECTED_AUDIO_FILE_KIND_OLD" : [
       {
-        "target" : "Matched AAC audio stream",
+        "target" : "Protected AAC audio file",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -213,16 +213,16 @@
         "language" : "en"
       }
     ],
-    "Acoustic" : [
+    "IPOD_GAME_KIND" : [
       {
-        "target" : "Acoustic",
+        "target" : "iPod game",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
     ],
-    "IPOD_GAME_KIND" : [
+    "MPEG4_PURCHASED_AUDIO_FILE_KIND" : [
       {
-        "target" : "iPod game",
+        "target" : "MPEG-4 audio (purchased)",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -234,16 +234,16 @@
         "language" : "en"
       }
     ],
-    "AAC_PROTECTED_AUDIO_STREAM_KIND_OLD" : [
+    "AAC_MATCHED_AUDIO_STREAM_KIND_OLD" : [
       {
-        "target" : "Protected AAC audio stream",
+        "target" : "Matched AAC audio stream",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
     ],
-    "AAC_PROTECTED_AUDIO_FILE_KIND_OLD" : [
+    "Acoustic" : [
       {
-        "target" : "Protected AAC audio file",
+        "target" : "Acoustic",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -318,16 +318,16 @@
         "language" : "en"
       }
     ],
-    "AAC_AUDIO_FILE_KIND_OLD" : [
+    "RINGTONE_AUDIO_FILE_KIND_OLD" : [
       {
-        "target" : "AAC audio file",
+        "target" : "Ringtone",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
     ],
-    "RINGTONE_AUDIO_FILE_KIND_OLD" : [
+    "AAC_AUDIO_FILE_KIND_OLD" : [
       {
-        "target" : "Ringtone",
+        "target" : "AAC audio file",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -486,44 +486,9 @@
         "language" : "en"
       }
     ],
-    "Deep" : [
-      {
-        "target" : "Deep",
-        "filename" : "MLLocalizable.loctable",
-        "language" : "en"
-      }
-    ],
-    "AAC_PURCHASED_AUDIO_FILE_KIND" : [
-      {
-        "target" : "AAC audio (purchased)",
-        "filename" : "MLLocalizable.loctable",
-        "language" : "en"
-      }
-    ],
-    "LOSSLESS_AUDIO_STREAM_KIND_OLD" : [
-      {
-        "target" : "Apple Lossless audio stream",
-        "filename" : "MLLocalizable.loctable",
-        "language" : "en"
-      }
-    ],
-    "IPAD_APPLICATION_KIND_OLD" : [
-      {
-        "target" : "iPad app",
-        "filename" : "MLLocalizable.loctable",
-        "language" : "en"
-      }
-    ],
     "PLAYLIST_URL_KIND_OLD" : [
       {
         "target" : "Playlist URL",
-        "filename" : "MLLocalizable.loctable",
-        "language" : "en"
-      }
-    ],
-    "QUICKTIME_MOVIE_URL_KIND_OLD" : [
-      {
-        "target" : "QuickTime movie url",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -535,6 +500,41 @@
         "language" : "en"
       }
     ],
+    "Deep" : [
+      {
+        "target" : "Deep",
+        "filename" : "MLLocalizable.loctable",
+        "language" : "en"
+      }
+    ],
+    "IPAD_APPLICATION_KIND_OLD" : [
+      {
+        "target" : "iPad app",
+        "filename" : "MLLocalizable.loctable",
+        "language" : "en"
+      }
+    ],
+    "LOSSLESS_AUDIO_STREAM_KIND_OLD" : [
+      {
+        "target" : "Apple Lossless audio stream",
+        "filename" : "MLLocalizable.loctable",
+        "language" : "en"
+      }
+    ],
+    "AAC_PURCHASED_AUDIO_FILE_KIND" : [
+      {
+        "target" : "AAC audio (purchased)",
+        "filename" : "MLLocalizable.loctable",
+        "language" : "en"
+      }
+    ],
+    "QUICKTIME_MOVIE_URL_KIND_OLD" : [
+      {
+        "target" : "QuickTime movie url",
+        "filename" : "MLLocalizable.loctable",
+        "language" : "en"
+      }
+    ],
     "Flat" : [
       {
         "target" : "Flat",
@@ -542,16 +542,16 @@
         "language" : "en"
       }
     ],
-    "MP3_AUDIO_FILE_KIND_OLD" : [
+    "AAC_INTERNET_AUDIO_STREAM_KIND" : [
       {
-        "target" : "MPEG audio file",
+        "target" : "AAC Internet audio stream",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
     ],
-    "AAC_INTERNET_AUDIO_STREAM_KIND" : [
+    "MP3_AUDIO_FILE_KIND_OLD" : [
       {
-        "target" : "AAC Internet audio stream",
+        "target" : "MPEG audio file",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -619,16 +619,16 @@
         "language" : "en"
       }
     ],
-    "HEAAC_INTERNET_AUDIO_STREAM_KIND_OLD" : [
+    "INTERNET_AUDIO_FILE_KIND" : [
       {
-        "target" : "HE-AAC Internet audio stream",
+        "target" : "Internet audio",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
     ],
-    "INTERNET_AUDIO_FILE_KIND" : [
+    "HEAAC_INTERNET_AUDIO_STREAM_KIND_OLD" : [
       {
-        "target" : "Internet audio",
+        "target" : "HE-AAC Internet audio stream",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -724,16 +724,16 @@
         "language" : "en"
       }
     ],
-    "Treble Booster" : [
+    "Recently Played" : [
       {
-        "target" : "Treble Booster",
+        "target" : "Recently Played",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
     ],
-    "Recently Played" : [
+    "Treble Booster" : [
       {
-        "target" : "Recently Played",
+        "target" : "Treble Booster",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -941,9 +941,9 @@
         "language" : "en"
       }
     ],
-    "AAC_PURCHASED_AUDIO_FILE_KIND_OLD" : [
+    "SD2_AUDIO_FILE_KIND" : [
       {
-        "target" : "Purchased AAC audio file",
+        "target" : "Sound Designer II audio",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -955,9 +955,9 @@
         "language" : "en"
       }
     ],
-    "SD2_AUDIO_FILE_KIND" : [
+    "AAC_PURCHASED_AUDIO_FILE_KIND_OLD" : [
       {
-        "target" : "Sound Designer II audio",
+        "target" : "Purchased AAC audio file",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -990,9 +990,9 @@
         "language" : "en"
       }
     ],
-    "Late Night Mode" : [
+    "IPOD_GAME_KIND_OLD" : [
       {
-        "target" : "Late Night",
+        "target" : "iPod game",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -1011,9 +1011,9 @@
         "language" : "en"
       }
     ],
-    "IPOD_GAME_KIND_OLD" : [
+    "Late Night Mode" : [
       {
-        "target" : "iPod game",
+        "target" : "Late Night",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
@@ -1025,16 +1025,16 @@
         "language" : "en"
       }
     ],
-    "AAC_AUDIO_FILE_KIND" : [
+    "WAV_AUDIO_STREAM_KIND_OLD" : [
       {
-        "target" : "AAC audio",
+        "target" : "WAV audio stream",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }
     ],
-    "WAV_AUDIO_STREAM_KIND_OLD" : [
+    "AAC_AUDIO_FILE_KIND" : [
       {
-        "target" : "WAV audio stream",
+        "target" : "AAC audio",
         "filename" : "MLLocalizable.loctable",
         "language" : "en"
       }

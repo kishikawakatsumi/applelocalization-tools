@@ -1,22 +1,8 @@
 {
   "localizations" : {
-    "DYGLEFKFBColorWriteLimited" : [
-      {
-        "target" : "Performance limited by Color Writes",
-        "filename" : "PerfDetective.strings",
-        "language" : "English"
-      }
-    ],
     "DYGLEFKVertexFetchOrShaderLimited" : [
       {
         "target" : "Performance limited by GPU Vertex Processing",
-        "filename" : "PerfDetective.strings",
-        "language" : "English"
-      }
-    ],
-    "kDYGLExpertErrorDisplayLinkZeroInterval" : [
-      {
-        "target" : "The interval of the appʼs CADisplayLink is 0. Using the default target frame rate",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -28,9 +14,23 @@
         "language" : "English"
       }
     ],
+    "kDYGLExpertErrorDisplayLinkZeroInterval" : [
+      {
+        "target" : "The interval of the appʼs CADisplayLink is 0. Using the default target frame rate",
+        "filename" : "PerfDetective.strings",
+        "language" : "English"
+      }
+    ],
     "DYGLEBNonGLLimited" : [
       {
         "target" : "Your performance is not limited by the OpenGL ES commands issued. Use the Instruments tool to investigate where your application is bottlenecked.",
+        "filename" : "PerfDetective.strings",
+        "language" : "English"
+      }
+    ],
+    "DYGLEFKFBColorWriteLimited" : [
+      {
+        "target" : "Performance limited by Color Writes",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -56,9 +56,9 @@
         "language" : "English"
       }
     ],
-    "DYGLERCompressTextures" : [
+    "DYGLEFRPutIndicesInVBO" : [
       {
-        "target" : "Use compressed textures.",
+        "target" : "Index data is not stored in a vertex buffer object (VBO). Use VBOs for this, particularly for static index data.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -77,9 +77,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFKCPUStateLimited" : [
+    "DYGLERCompressTextures" : [
       {
-        "target" : "Performance limited by OpenGL ES State Processing",
+        "target" : "Use compressed textures.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -87,6 +87,13 @@
     "DYGLEFKRecommendAlphaToCoverageObservation" : [
       {
         "target" : "Use alpha-to-coverage instead of alpha testing (or discard)",
+        "filename" : "PerfDetective.strings",
+        "language" : "English"
+      }
+    ],
+    "DYGLEFKCPUStateLimited" : [
+      {
+        "target" : "Performance limited by OpenGL ES State Processing",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -105,13 +112,6 @@
         "language" : "English"
       }
     ],
-    "DYGLEPDone" : [
-      {
-        "target" : "Performance analysis complete",
-        "filename" : "PerfDetective.strings",
-        "language" : "English"
-      }
-    ],
     "DYGLERNonGLLimitedMCA" : [
       {
         "target" : "Playback of your app is not limited by the graphics pipeline",
@@ -119,9 +119,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFRPutIndicesInVBO" : [
+    "DYGLEPDone" : [
       {
-        "target" : "Index data is not stored in a vertex buffer object (VBO). Use VBOs for this, particularly for static index data.",
+        "target" : "Performance analysis complete",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -175,16 +175,16 @@
         "language" : "English"
       }
     ],
-    "DYGLERAvoidHighP" : [
+    "DYGLEPPostprocess" : [
       {
-        "target" : "Avoid using higher precision levels than necessary. For example, you only need to use lowp for RGB565 texture data.",
+        "target" : "Compiling case file",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
     ],
-    "DYGLEPPostprocess" : [
+    "DYGLERAvoidHighP" : [
       {
-        "target" : "Compiling case file",
+        "target" : "Avoid using higher precision levels than necessary. For example, you only need to use lowp for RGB565 texture data.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -217,9 +217,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFKSwapTargetRateOverRecommended" : [
+    "DYGLEFKSwapTargetRateHeadRoom" : [
       {
-        "target" : "Target rate is over recommended rate",
+        "target" : "Head room for target frame rate",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -238,9 +238,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFKSwapTargetRateHeadRoom" : [
+    "DYGLEFKSwapTargetRateOverRecommended" : [
       {
-        "target" : "Head room for target frame rate",
+        "target" : "Target rate is over recommended rate",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -308,13 +308,6 @@
         "language" : "English"
       }
     ],
-    "DYGLERGLLimited" : [
-      {
-        "target" : "Frame rate of your app is limited by the graphics pipeline",
-        "filename" : "PerfDetective.strings",
-        "language" : "English"
-      }
-    ],
     "DYGLEFRUseShortIndices" : [
       {
         "target" : "Use 16-bit (GL_UNSIGNED_SHORT) instead of 8-bit (GL_UNSIGNED_BYTE) vertex indices for greater efficiency. GL_UNSIGNED_SHORT is the smallest native size for vertex indices on iOS devices.",
@@ -325,6 +318,13 @@
     "DYGLEFRTilingLimited" : [
       {
         "target" : "Performance is limited by the tiling processor of the GPU. Tiling processes the triangles you submit splitting them across tiles before processing each tile in turn.",
+        "filename" : "PerfDetective.strings",
+        "language" : "English"
+      }
+    ],
+    "DYGLERGLLimited" : [
+      {
+        "target" : "Frame rate of your app is limited by the graphics pipeline",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -378,16 +378,16 @@
         "language" : "English"
       }
     ],
-    "DYGLERSlowPlaybackUnknownMCA" : [
+    "DYGLEFDTilingLimited" : [
       {
-        "target" : "OpenGL ES Performance Analysis can not replay your app at its original frame rate",
+        "target" : "Performance is limited by the tiler",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
     ],
-    "DYGLEFDTilingLimited" : [
+    "DYGLERSlowPlaybackUnknownMCA" : [
       {
-        "target" : "Performance is limited by the tiler",
+        "target" : "OpenGL ES Performance Analysis can not replay your app at its original frame rate",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -420,9 +420,9 @@
         "language" : "English"
       }
     ],
-    "DYGLERCullObjects" : [
+    "DYGLEFKGPULimitedGeneral" : [
       {
-        "target" : "Perform coarse object culling on the CPU.",
+        "target" : "Performance limited by the GPU",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -434,9 +434,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFKGPULimitedGeneral" : [
+    "DYGLEFDVertexArrayUse" : [
       {
-        "target" : "Performance limited by the GPU",
+        "target" : "App is not storing vertex data in vertex buffer objects",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -462,9 +462,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFDVertexArrayUse" : [
+    "DYGLERCullObjects" : [
       {
-        "target" : "App is not storing vertex data in vertex buffer objects",
+        "target" : "Perform coarse object culling on the CPU.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -483,16 +483,16 @@
         "language" : "English"
       }
     ],
-    "DYGLERTextureLookupLimited" : [
+    "DYGLEFDRendererLimited" : [
       {
-        "target" : "Performance is limited by the cost of sampling textures in a fragment shader.",
+        "target" : "Performance is limited by primitive rasterization or fragment rendering",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
     ],
-    "DYGLEFDRendererLimited" : [
+    "DYGLERTextureLookupLimited" : [
       {
-        "target" : "Performance is limited by primitive rasterization or fragment rendering",
+        "target" : "Performance is limited by the cost of sampling textures in a fragment shader.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -539,9 +539,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFDObsoleteFinding" : [
+    "DYGLEFDNotUsingVAO" : [
       {
-        "target" : "This finding is from a .gputrace file which was generated on a device which is no longer supported.",
+        "target" : "App is not using vertex array objects",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -553,16 +553,16 @@
         "language" : "English"
       }
     ],
-    "DYGLEFDSwapRecommendedRateHeadRoom" : [
+    "DYGLEFDObsoleteFinding" : [
       {
-        "target" : "Rendering can draw more and still maintain the recommended frame rate",
+        "target" : "This finding is from a .gputrace file which was generated on a device which is no longer supported.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
     ],
-    "DYGLEFDNotUsingVAO" : [
+    "DYGLEFDSwapRecommendedRateHeadRoom" : [
       {
-        "target" : "App is not using vertex array objects",
+        "target" : "Rendering can draw more and still maintain the recommended frame rate",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -665,16 +665,16 @@
         "language" : "English"
       }
     ],
-    "DYGLERInterleaveVertices" : [
+    "DYGLEFRSortState" : [
       {
-        "target" : "Rearrange your vertex data so that the attributes of each vertex are consecutive in memory.",
+        "target" : "Use state sorting, that is, render all objects with a certain state together, then switch to the next state and render all objects that use that state, and so on.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
     ],
-    "DYGLEFRSortState" : [
+    "DYGLERInterleaveVertices" : [
       {
-        "target" : "Use state sorting, that is, render all objects with a certain state together, then switch to the next state and render all objects that use that state, and so on.",
+        "target" : "Rearrange your vertex data so that the attributes of each vertex are consecutive in memory.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -728,16 +728,16 @@
         "language" : "English"
       }
     ],
-    "DYGLEFRSwapMissingTargetRateFormat" : [
+    "DYGLEFKIndexArrayUse" : [
       {
-        "target" : "You are missing your target frame rate by %0.1f ms (%0.1f%%). Reduce the amount of drawing in order to achieve your desired frame rate.",
+        "target" : "Element arrays not in VBOs",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
     ],
-    "DYGLEFKImprovementMSAA" : [
+    "DYGLEFRSwapMissingTargetRateFormat" : [
       {
-        "target" : "Your app could use multisampling to improve image quality.",
+        "target" : "You are missing your target frame rate by %0.1f ms (%0.1f%%). Reduce the amount of drawing in order to achieve your desired frame rate.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -770,16 +770,9 @@
         "language" : "English"
       }
     ],
-    "kDYGLExpertErrorRedundantFrameStats" : [
+    "DYGLEFRConfirmFinding" : [
       {
-        "target" : "Redundant frame statistics",
-        "filename" : "PerfDetective.strings",
-        "language" : "English"
-      }
-    ],
-    "DYGLEFKIndexArrayUse" : [
-      {
-        "target" : "Element arrays not in VBOs",
+        "target" : "This has been confirmed by experimentation.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -791,16 +784,23 @@
         "language" : "English"
       }
     ],
-    "kDYGLExpertErrorOverviewVertexProcessTime" : [
+    "kDYGLExpertErrorRedundantFrameStats" : [
       {
-        "target" : "Vertex process time exceeded total GL time",
+        "target" : "Redundant frame statistics",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
     ],
-    "DYGLEFRConfirmFinding" : [
+    "DYGLEFKImprovementMSAA" : [
       {
-        "target" : "This has been confirmed by experimentation.",
+        "target" : "Your app could use multisampling to improve image quality.",
+        "filename" : "PerfDetective.strings",
+        "language" : "English"
+      }
+    ],
+    "kDYGLExpertErrorOverviewVertexProcessTime" : [
+      {
+        "target" : "Vertex process time exceeded total GL time",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -868,9 +868,9 @@
         "language" : "English"
       }
     ],
-    "DYGLERMinimizePrimitives" : [
+    "DYGLEFRSwapTargetRateHeadRoomFormat" : [
       {
-        "target" : "Employ a polygon reduction algorithm.",
+        "target" : "You have %0.1f ms per frame on the GPU to draw more content before reaching the target frame rate of %0.1f fps. For example, you may be able to use more complex shaders, larger textures or multi-sampled anti-aliasing. Keep in mind that doing this may consume more power.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -889,9 +889,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFRSwapTargetRateHeadRoomFormat" : [
+    "DYGLERMinimizePrimitives" : [
       {
-        "target" : "You have %0.1f ms per frame on the GPU to draw more content before reaching the target frame rate of %0.1f fps. For example, you may be able to use more complex shaders, larger textures or multi-sampled anti-aliasing. Keep in mind that doing this may consume more power.",
+        "target" : "Employ a polygon reduction algorithm.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -931,9 +931,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFDIndexArrayUse" : [
+    "HereAreSomeAdditionalThings" : [
       {
-        "target" : "App is not storing index in vertex buffer objects",
+        "target" : "Here are some additional things you can do that may improve performance:",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -945,16 +945,9 @@
         "language" : "English"
       }
     ],
-    "HereAreSomeAdditionalThings" : [
+    "DYGLERSlowPlaybackVBOMCA" : [
       {
-        "target" : "Here are some additional things you can do that may improve performance:",
-        "filename" : "PerfDetective.strings",
-        "language" : "English"
-      }
-    ],
-    "DYGLEFDCPULimited" : [
-      {
-        "target" : "Performance is limited by the CPU",
+        "target" : "Your app uses vertex array data that is not encapsulated within vertex buffer objects (VBOs). This prevents us from performing a complete investigation of your app",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -966,9 +959,16 @@
         "language" : "English"
       }
     ],
-    "DYGLERSlowPlaybackVBOMCA" : [
+    "DYGLEFDCPULimited" : [
       {
-        "target" : "Your app uses vertex array data that is not encapsulated within vertex buffer objects (VBOs). This prevents us from performing a complete investigation of your app",
+        "target" : "Performance is limited by the CPU",
+        "filename" : "PerfDetective.strings",
+        "language" : "English"
+      }
+    ],
+    "DYGLEFDIndexArrayUse" : [
+      {
+        "target" : "App is not storing index in vertex buffer objects",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -994,16 +994,16 @@
         "language" : "English"
       }
     ],
-    "DYGLERReduceTotalTextureSize" : [
+    "DYGLEFKSwapMissingTargetRate" : [
       {
-        "target" : "Reduce the total amount of texture memory used by your application.",
+        "target" : "Missing target frame rate",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
     ],
-    "DYGLEFKSwapMissingTargetRate" : [
+    "DYGLERReduceTotalTextureSize" : [
       {
-        "target" : "Missing target frame rate",
+        "target" : "Reduce the total amount of texture memory used by your application.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -1050,16 +1050,16 @@
         "language" : "English"
       }
     ],
-    "DYGLERCantDecideMCA" : [
+    "kDYGLExpertErrorInvalidCapture" : [
       {
-        "target" : "Graphics performance of app playback is balanced",
+        "target" : "Capture is invalid",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
     ],
-    "kDYGLExpertErrorInvalidCapture" : [
+    "DYGLERCantDecideMCA" : [
       {
-        "target" : "Capture is invalid",
+        "target" : "Graphics performance of app playback is balanced",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }

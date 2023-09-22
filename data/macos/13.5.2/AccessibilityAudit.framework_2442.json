@@ -35,13 +35,6 @@
         "language" : "en"
       }
     ],
-    "elementMissingTraitNotEnabled.suggestion" : [
-      {
-        "target" : "Add the UIAccessibilityTraitNotEnabled trait to this element.",
-        "filename" : "AuditIssues.strings",
-        "language" : "en"
-      }
-    ],
     "Attribute-AXIncrementButton" : [
       {
         "target" : "Increment Button",
@@ -63,17 +56,17 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXVerticalUnitDescription" : [
+    "textIsClipped.suggestion" : [
       {
-        "target" : "Vertical Unit Description",
-        "filename" : "LocalizableOSX.strings",
+        "target" : "Use flexible and stackable layouts, word wrap and hyphenate, or increase row heights.",
+        "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
-    "Attribute-AXSplitters" : [
+    "elementMissingTraitNotEnabled.suggestion" : [
       {
-        "target" : "Splitters",
-        "filename" : "LocalizableOSX.strings",
+        "target" : "Add the UIAccessibilityTraitNotEnabled trait to this element.",
+        "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
@@ -91,9 +84,16 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXLinkUIElements" : [
+    "Attribute-AXVerticalUnitDescription" : [
       {
-        "target" : "Link UIElements",
+        "target" : "Vertical Unit Description",
+        "filename" : "LocalizableOSX.strings",
+        "language" : "en"
+      }
+    ],
+    "Attribute-AXSplitters" : [
+      {
+        "target" : "Splitters",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -112,10 +112,10 @@
         "language" : "en"
       }
     ],
-    "textIsClipped.suggestion" : [
+    "Attribute-AXLinkUIElements" : [
       {
-        "target" : "Use flexible and stackable layouts, word wrap and hyphenate, or increase row heights.",
-        "filename" : "AuditIssues.strings",
+        "target" : "Link UIElements",
+        "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
     ],
@@ -126,9 +126,9 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXFullScreenButton" : [
+    "Attribute-AXTotalPages" : [
       {
-        "target" : "Full Screen Button",
+        "target" : "Total Pages",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -140,9 +140,9 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXTotalPages" : [
+    "Attribute-AXFullScreenButton" : [
       {
-        "target" : "Total Pages",
+        "target" : "Full Screen Button",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -203,17 +203,17 @@
         "language" : "en"
       }
     ],
-    "numOfIssuesFound" : [
-      {
-        "target" : "Number of Issues Found",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Attribute-AXLinkedUIElements" : [
       {
         "target" : "Linked UIElements",
         "filename" : "LocalizableOSX.strings",
+        "language" : "en"
+      }
+    ],
+    "numOfIssuesFound" : [
+      {
+        "target" : "Number of Issues Found",
+        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -301,6 +301,13 @@
         "language" : "en"
       }
     ],
+    "Attribute-AXExpanded" : [
+      {
+        "target" : "Expanded",
+        "filename" : "LocalizableOSX.strings",
+        "language" : "en"
+      }
+    ],
     "Attribute-AXHandles" : [
       {
         "target" : "Handles",
@@ -315,16 +322,16 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXExpanded" : [
+    "Attribute-AXShownMenu" : [
       {
-        "target" : "Expanded",
+        "target" : "Shown Menu",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
     ],
-    "Attribute-AXFrontmost" : [
+    "Attribute-AXDefaultButton" : [
       {
-        "target" : "Frontmost",
+        "target" : "Default Button",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -336,16 +343,9 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXDefaultButton" : [
+    "Attribute-AXHasPopup" : [
       {
-        "target" : "Default Button",
-        "filename" : "LocalizableOSX.strings",
-        "language" : "en"
-      }
-    ],
-    "Attribute-AXShownMenu" : [
-      {
-        "target" : "Shown Menu",
+        "target" : "Has Popup",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -357,13 +357,6 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXMarkerGroupUIElement" : [
-      {
-        "target" : "Marker Group UIElement",
-        "filename" : "LocalizableOSX.strings",
-        "language" : "en"
-      }
-    ],
     "contrastAAAFail.longDesc" : [
       {
         "target" : "Contrast failed for %@.",
@@ -371,9 +364,16 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXHasPopup" : [
+    "Attribute-AXFrontmost" : [
       {
-        "target" : "Has Popup",
+        "target" : "Frontmost",
+        "filename" : "LocalizableOSX.strings",
+        "language" : "en"
+      }
+    ],
+    "Attribute-AXMarkerGroupUIElement" : [
+      {
+        "target" : "Marker Group UIElement",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -406,17 +406,17 @@
         "language" : "en"
       }
     ],
-    "elementCouldUseTitle.suggestion" : [
+    "elementImageHasNoLabel.suggestion" : [
       {
-        "target" : "If a static text label is nearby to provide context for this element, reference that label as the accessibilityTitleUIElement. Otherwise, provide an accessibilityLabel.",
+        "target" : "Consider setting the accessibilityLabel.",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
-    "Attribute-AXARIALive" : [
+    "elementCouldUseTitle.suggestion" : [
       {
-        "target" : "ARIA Live",
-        "filename" : "LocalizableOSX.strings",
+        "target" : "If a static text label is nearby to provide context for this element, reference that label as the accessibilityTitleUIElement. Otherwise, provide an accessibilityLabel.",
+        "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
@@ -441,9 +441,9 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXApplicationIsIgnored" : [
+    "Attribute-AXEnhancedUserInterface" : [
       {
-        "target" : "Application Is Ignored",
+        "target" : "Enhanced User Interface",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -462,23 +462,23 @@
         "language" : "en"
       }
     ],
-    "elementImageHasNoLabel.suggestion" : [
+    "Attribute-AXApplicationIsIgnored" : [
       {
-        "target" : "Consider setting the accessibilityLabel.",
-        "filename" : "AuditIssues.strings",
+        "target" : "Application Is Ignored",
+        "filename" : "LocalizableOSX.strings",
+        "language" : "en"
+      }
+    ],
+    "Attribute-AXARIALive" : [
+      {
+        "target" : "ARIA Live",
+        "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
     ],
     "Attribute-AXDOMIdentifier" : [
       {
         "target" : "DOM Identifier",
-        "filename" : "LocalizableOSX.strings",
-        "language" : "en"
-      }
-    ],
-    "Attribute-AXEnhancedUserInterface" : [
-      {
-        "target" : "Enhanced User Interface",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -525,9 +525,9 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXSelectedRows" : [
+    "Attribute-AXARIACurrent" : [
       {
-        "target" : "Selected Rows",
+        "target" : "ARIA Current",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -546,9 +546,9 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXConfirm" : [
+    "Attribute-AXSelectedRows" : [
       {
-        "target" : "Confirm",
+        "target" : "Selected Rows",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -557,6 +557,13 @@
       {
         "target" : "Consider choosing a string that can be understood when presented visually and when spoken verbally.",
         "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "Attribute-AXConfirm" : [
+      {
+        "target" : "Confirm",
+        "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
     ],
@@ -570,13 +577,6 @@
     "Attribute-AXMaxValue" : [
       {
         "target" : "Max Value",
-        "filename" : "LocalizableOSX.strings",
-        "language" : "en"
-      }
-    ],
-    "Attribute-AXARIACurrent" : [
-      {
-        "target" : "ARIA Current",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -637,16 +637,16 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXURL" : [
+    "Attribute-AXDecrementButton" : [
       {
-        "target" : "URL",
+        "target" : "Decrement Button",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
     ],
-    "Attribute-AXDecrementButton" : [
+    "Attribute-AXURL" : [
       {
-        "target" : "Decrement Button",
+        "target" : "URL",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -763,9 +763,9 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXValue" : [
+    "Attribute-AXWindow" : [
       {
-        "target" : "Value",
+        "target" : "Window",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -777,9 +777,9 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXWindow" : [
+    "Attribute-AXValue" : [
       {
-        "target" : "Window",
+        "target" : "Value",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -847,6 +847,13 @@
         "language" : "en"
       }
     ],
+    "Attribute-AXContents" : [
+      {
+        "target" : "Contents",
+        "filename" : "LocalizableOSX.strings",
+        "language" : "en"
+      }
+    ],
     "Attribute-_AXIOSMACTraits" : [
       {
         "target" : "Traits",
@@ -854,9 +861,16 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXContents" : [
+    "Attribute-AXLayoutCount" : [
       {
-        "target" : "Contents",
+        "target" : "Layout Count",
+        "filename" : "LocalizableOSX.strings",
+        "language" : "en"
+      }
+    ],
+    "Attribute-AXCloseButton" : [
+      {
+        "target" : "Close Button",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -868,23 +882,9 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXCloseButton" : [
-      {
-        "target" : "Close Button",
-        "filename" : "LocalizableOSX.strings",
-        "language" : "en"
-      }
-    ],
     "Attribute-AXVisibleColumns" : [
       {
         "target" : "Visible Columns",
-        "filename" : "LocalizableOSX.strings",
-        "language" : "en"
-      }
-    ],
-    "Attribute-AXLayoutCount" : [
-      {
-        "target" : "Layout Count",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -987,16 +987,16 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXContainsProtectedContent" : [
+    "Hierarchy" : [
       {
-        "target" : "Contains Protected Content",
+        "target" : "Hierarchy",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
     ],
-    "Hierarchy" : [
+    "Attribute-AXContainsProtectedContent" : [
       {
-        "target" : "Hierarchy",
+        "target" : "Contains Protected Content",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -1029,17 +1029,17 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXValueDescription" : [
-      {
-        "target" : "Value Description",
-        "filename" : "LocalizableOSX.strings",
-        "language" : "en"
-      }
-    ],
     "elementLabelAndValueEmptyWithMLGeneratedDesc.title.formatter" : [
       {
         "target" : "Element has no description, looks like: %@",
         "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "Attribute-AXValueDescription" : [
+      {
+        "target" : "Value Description",
+        "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
     ],
@@ -1106,6 +1106,13 @@
         "language" : "en"
       }
     ],
+    "elementImageHasNoLabel.longDesc" : [
+      {
+        "target" : "This %@ is missing useful accessibility information.",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
     "Attribute-AXLanguageText" : [
       {
         "target" : "Language Text",
@@ -1120,9 +1127,9 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXFilename" : [
+    "Attribute-AXWindows" : [
       {
-        "target" : "Filename",
+        "target" : "Windows",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -1130,13 +1137,6 @@
     "Attribute-AXScreenSizeForLayoutSize" : [
       {
         "target" : "Screen Size For Layout Size",
-        "filename" : "LocalizableOSX.strings",
-        "language" : "en"
-      }
-    ],
-    "Attribute-AXWindows" : [
-      {
-        "target" : "Windows",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -1169,17 +1169,17 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXRangeForIndex" : [
+    "Attribute-AXLoadingProgress" : [
       {
-        "target" : "Range For Index",
+        "target" : "Loading Progress",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
     ],
-    "defaultIOSSuggestion" : [
+    "Attribute-AXRangeForIndex" : [
       {
-        "target" : "Review the UIAccessibility protocol",
-        "filename" : "AuditIssues.strings",
+        "target" : "Range For Index",
+        "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
     ],
@@ -1197,9 +1197,9 @@
         "language" : "en"
       }
     ],
-    "Advanced" : [
+    "Attribute-AXUntouchable" : [
       {
-        "target" : "Advanced",
+        "target" : "Untouchable",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -1211,16 +1211,16 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXLoadingProgress" : [
+    "defaultIOSSuggestion" : [
       {
-        "target" : "Loading Progress",
-        "filename" : "LocalizableOSX.strings",
+        "target" : "Review the UIAccessibility protocol",
+        "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
-    "Attribute-AXUntouchable" : [
+    "Attribute-AXFilename" : [
       {
-        "target" : "Untouchable",
+        "target" : "Filename",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -1267,10 +1267,10 @@
         "language" : "en"
       }
     ],
-    "elementImageHasNoLabel.longDesc" : [
+    "Advanced" : [
       {
-        "target" : "This %@ is missing useful accessibility information.",
-        "filename" : "AuditIssues.strings",
+        "target" : "Advanced",
+        "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
     ],
@@ -1288,16 +1288,9 @@
         "language" : "en"
       }
     ],
-    "contrastAAAFail.suggestion" : [
+    "elementValueDuplicateTraitString.suggestion" : [
       {
-        "target" : "To ensure higher contrast for readability, try adjusting either the text color or the background color so the contrast ratio is above 4.4.",
-        "filename" : "AuditIssues.strings",
-        "language" : "en"
-      }
-    ],
-    "notChildOfParent.title" : [
-      {
-        "target" : "Parent\/Child mismatch",
+        "target" : "The accessibilityValue represents the dynamic value of the element. For example, a slider’s numeric value or a text field’s contents. The accessibilityLabel is the function or content of that specific element. For example, ‘Volume’ or ‘Mailing Address.’",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }
@@ -1305,6 +1298,13 @@
     "Attribute-AXTabs" : [
       {
         "target" : "Tabs",
+        "filename" : "LocalizableOSX.strings",
+        "language" : "en"
+      }
+    ],
+    "Attribute-_AXIOSMACHint" : [
+      {
+        "target" : "Hint",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -1330,17 +1330,17 @@
         "language" : "en"
       }
     ],
-    "elementValueDuplicateTraitString.suggestion" : [
+    "notChildOfParent.title" : [
       {
-        "target" : "The accessibilityValue represents the dynamic value of the element. For example, a slider’s numeric value or a text field’s contents. The accessibilityLabel is the function or content of that specific element. For example, ‘Volume’ or ‘Mailing Address.’",
+        "target" : "Parent\/Child mismatch",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
-    "Attribute-_AXIOSMACHint" : [
+    "contrastAAAFail.suggestion" : [
       {
-        "target" : "Hint",
-        "filename" : "LocalizableOSX.strings",
+        "target" : "To ensure higher contrast for readability, try adjusting either the text color or the background color so the contrast ratio is above 4.4.",
+        "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
@@ -1498,10 +1498,10 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXPreviousContentSibling" : [
+    "elementValueDuplicateTraitString.title" : [
       {
-        "target" : "Previous Content Sibling",
-        "filename" : "LocalizableOSX.strings",
+        "target" : "Value duplicates traits",
+        "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
@@ -1512,10 +1512,10 @@
         "language" : "en"
       }
     ],
-    "elementValueDuplicateTraitString.title" : [
+    "Attribute-AXPreviousContentSibling" : [
       {
-        "target" : "Value duplicates traits",
-        "filename" : "AuditIssues.strings",
+        "target" : "Previous Content Sibling",
+        "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
     ],
@@ -1568,9 +1568,9 @@
         "language" : "en"
       }
     ],
-    "elementLabelNotHumanReadable.longDesc" : [
+    "auditTestType.contrast" : [
       {
-        "target" : "The accessibilityLabel of this %@ is not human-readable.",
+        "target" : "Contrast",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }
@@ -1589,10 +1589,10 @@
         "language" : "en"
       }
     ],
-    "auditTestType.contrast" : [
+    "Attribute-AXEndTextMarker" : [
       {
-        "target" : "Contrast",
-        "filename" : "AuditIssues.strings",
+        "target" : "End Text Marker",
+        "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
     ],
@@ -1610,10 +1610,10 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXEndTextMarker" : [
+    "elementLabelNotHumanReadable.longDesc" : [
       {
-        "target" : "End Text Marker",
-        "filename" : "LocalizableOSX.strings",
+        "target" : "The accessibilityLabel of this %@ is not human-readable.",
+        "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
@@ -1715,17 +1715,17 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXNumberOfCharacters" : [
-      {
-        "target" : "Number Of Characters",
-        "filename" : "LocalizableOSX.strings",
-        "language" : "en"
-      }
-    ],
     "hitRegionTooSmall.longDesc" : [
       {
         "target" : "The size of this %@ is too small for user to interact.",
         "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "Attribute-AXNumberOfCharacters" : [
+      {
+        "target" : "Number Of Characters",
+        "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
     ],
@@ -1799,6 +1799,13 @@
         "language" : "en"
       }
     ],
+    "Attribute-AXSharedCharacterRange" : [
+      {
+        "target" : "Shared Character Range",
+        "filename" : "LocalizableOSX.strings",
+        "language" : "en"
+      }
+    ],
     "Attribute-AXStringForRange" : [
       {
         "target" : "String For Range",
@@ -1809,13 +1816,6 @@
     "Attribute-AXLayoutSizeForScreenSize" : [
       {
         "target" : "Layout Size For Screen Size",
-        "filename" : "LocalizableOSX.strings",
-        "language" : "en"
-      }
-    ],
-    "Attribute-AXSharedCharacterRange" : [
-      {
-        "target" : "Shared Character Range",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -1918,17 +1918,17 @@
         "language" : "en"
       }
     ],
-    "axAuditReport" : [
-      {
-        "target" : "Accessibility Audit Report",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "contrastAAAFail.title" : [
       {
         "target" : "Contrast failed",
         "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "axAuditReport" : [
+      {
+        "target" : "Accessibility Audit Report",
+        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -2051,23 +2051,16 @@
         "language" : "en"
       }
     ],
-    "elementLabelUsesImageName.title" : [
-      {
-        "target" : "Image name used in description",
-        "filename" : "AuditIssues.strings",
-        "language" : "en"
-      }
-    ],
-    "auditTestType.swipeOrder" : [
-      {
-        "target" : "Swipe Order",
-        "filename" : "AuditIssues.strings",
-        "language" : "en"
-      }
-    ],
     "unknownRole.longDesc" : [
       {
         "target" : "This %@ is missing a valid role to identify its type.",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "elementLabelUsesImageName.title" : [
+      {
+        "target" : "Image name used in description",
         "filename" : "AuditIssues.strings",
         "language" : "en"
       }
@@ -2079,13 +2072,6 @@
         "language" : "en"
       }
     ],
-    "elementLabelUsesImageName.suggestion" : [
-      {
-        "target" : "Set a human-readable, localized accessibilityLabel.",
-        "filename" : "AuditIssues.strings",
-        "language" : "en"
-      }
-    ],
     "contrastAAPartialPass.suggestion" : [
       {
         "target" : "Make sure the text font size is at least 18 point regular or 14 point bold. Else pick a different color with contrast ratio above 4.4 to ensure better contrast.",
@@ -2093,9 +2079,9 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXSortDirection" : [
+    "Attribute-AXMinValue" : [
       {
-        "target" : "Sort Direction",
+        "target" : "Min Value",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -2107,10 +2093,24 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXMinValue" : [
+    "Attribute-AXSortDirection" : [
       {
-        "target" : "Min Value",
+        "target" : "Sort Direction",
         "filename" : "LocalizableOSX.strings",
+        "language" : "en"
+      }
+    ],
+    "elementLabelUsesImageName.suggestion" : [
+      {
+        "target" : "Set a human-readable, localized accessibilityLabel.",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "auditTestType.swipeOrder" : [
+      {
+        "target" : "Swipe Order",
+        "filename" : "AuditIssues.strings",
         "language" : "en"
       }
     ],
@@ -2170,16 +2170,16 @@
         "language" : "en"
       }
     ],
-    "Attribute-AXMakeScreenRectVisible" : [
+    "Attribute-AXOwns" : [
       {
-        "target" : "Make Screen Rect Visible",
+        "target" : "Owns",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
     ],
-    "Attribute-AXOwns" : [
+    "Attribute-AXMakeScreenRectVisible" : [
       {
-        "target" : "Owns",
+        "target" : "Make Screen Rect Visible",
         "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
@@ -2247,17 +2247,17 @@
         "language" : "en"
       }
     ],
-    "Element" : [
-      {
-        "target" : "Element",
-        "filename" : "LocalizableOSX.strings",
-        "language" : "en"
-      }
-    ],
     "textIsClipped.longDesc" : [
       {
         "target" : "Text of this %@ may be clipped at larger Dynamic Type sizes.",
         "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "Element" : [
+      {
+        "target" : "Element",
+        "filename" : "LocalizableOSX.strings",
         "language" : "en"
       }
     ],

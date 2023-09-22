@@ -1,12 +1,5 @@
 {
   "localizations" : {
-    "Xcode.SwiftPackage.Capability.MediaLibrary.LibraryDescription" : [
-      {
-        "target" : "Required if your app wants to use the user’s iCloud Music library or Apple Music catalog.",
-        "filename" : "PlugIn.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.SwiftPackage.Capability.NearbyInteractionAllowOnce.LibraryDescription" : [
       {
         "target" : "Required if your app uses the Nearby Interaction framework.",
@@ -14,16 +7,23 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEKit.CmdDefinition.NewLibraryPackage" : [
+    "Xcode.IDEKit.CmdDefinition.UpdateToLatestPackageVersions" : [
       {
-        "target" : "Package…",
+        "target" : "Update to Latest Package Versions",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.Motion.LibraryDescription" : [
+    "Xcode.SwiftPackage.Capability.MediaLibrary.LibraryDescription" : [
       {
-        "target" : "Required if your app accesses the motion data.",
+        "target" : "Required if your app wants to use the user’s iCloud Music library or Apple Music catalog.",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.SwiftPackage.Capability.UserTracking.LibraryDescription" : [
+      {
+        "target" : "Required if your app uses the AppTrackingTransparency framework to collect data about end users and shares it with other companies for purposes of tracking across apps and websites.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -42,9 +42,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.UserTracking.LibraryDescription" : [
+    "Xcode.SwiftPackage.Capability.Motion.LibraryDescription" : [
       {
-        "target" : "Required if your app uses the AppTrackingTransparency framework to collect data about end users and shares it with other companies for purposes of tracking across apps and websites.",
+        "target" : "Required if your app accesses the motion data.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -91,16 +91,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDESwiftPackageUI.PlaygroundProjectEditor" : [
+    "Xcode.IDEKit.CmdDefinition.NewPackageContextual" : [
       {
-        "target" : "Playground Project Editor",
+        "target" : "New Package…",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEKit.CmdDefinition.NewPackageContextual" : [
+    "Xcode.IDESwiftPackageUI.PlaygroundProjectEditor" : [
       {
-        "target" : "New Package…",
+        "target" : "Playground Project Editor",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -112,16 +112,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.Bluetooth.LibraryDescription" : [
+    "Xcode.SwiftPackage.Capability.FaceID.LibraryDescription" : [
       {
-        "target" : "Required if your app uses Bluetooth.",
+        "target" : "Required if your app wants to authenticate using Face ID.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.FaceID.LibraryDescription" : [
+    "Xcode.SwiftPackage.Capability.Bluetooth.LibraryDescription" : [
       {
-        "target" : "Required if your app wants to authenticate using Face ID.",
+        "target" : "Required if your app uses Bluetooth.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -203,9 +203,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEKit.CmdDefinition.UpdateToLatestPackageVersions" : [
+    "Xcode.IDEKit.CmdDefinition.NewLibraryPackage" : [
       {
-        "target" : "Update to Latest Package Versions",
+        "target" : "Package…",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }

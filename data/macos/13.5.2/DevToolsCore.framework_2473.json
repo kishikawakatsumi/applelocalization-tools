@@ -42,10 +42,10 @@
         "language" : "en"
       }
     ],
-    "Composite SDKs" : [
+    "Extension" : [
       {
-        "target" : "Composite SDKs",
-        "filename" : "PBXCore.strings",
+        "target" : "Extension",
+        "filename" : "PBXSymbolNames.strings",
         "language" : "en"
       }
     ],
@@ -56,10 +56,10 @@
         "language" : "en"
       }
     ],
-    "Extension" : [
+    "Composite SDKs" : [
       {
-        "target" : "Extension",
-        "filename" : "PBXSymbolNames.strings",
+        "target" : "Composite SDKs",
+        "filename" : "PBXCore.strings",
         "language" : "en"
       }
     ],
@@ -210,16 +210,16 @@
         "language" : "en"
       }
     ],
-    "New file \"%@\" cannot be made because referenced file \"%@\" is not in project." : [
+    "Target: %@" : [
       {
-        "target" : "New file “%@” cannot be made because referenced file “%@” is not in project.",
+        "target" : "Target: %@",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
     ],
-    "Target: %@" : [
+    "New file \"%@\" cannot be made because referenced file \"%@\" is not in project." : [
       {
-        "target" : "Target: %@",
+        "target" : "New file “%@” cannot be made because referenced file “%@” is not in project.",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
@@ -530,16 +530,16 @@
         "language" : "en"
       }
     ],
-    "In file included from %@:%u:" : [
+    "Conflicts" : [
       {
-        "target" : "In file included from %@:%u:",
+        "target" : "Conflicts",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
     ],
-    "Conflicts" : [
+    "In file included from %@:%u:" : [
       {
-        "target" : "Conflicts",
+        "target" : "In file included from %@:%u:",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
@@ -586,17 +586,17 @@
         "language" : "en"
       }
     ],
-    "File \"%@\" does not exist on disk." : [
-      {
-        "target" : "File “%@” does not exist on disk.",
-        "filename" : "PBXCore.strings",
-        "language" : "en"
-      }
-    ],
     "login %@" : [
       {
         "target" : "login %@",
         "filename" : "SCMCore.strings",
+        "language" : "en"
+      }
+    ],
+    "File \"%@\" does not exist on disk." : [
+      {
+        "target" : "File “%@” does not exist on disk.",
+        "filename" : "PBXCore.strings",
         "language" : "en"
       }
     ],
@@ -677,13 +677,6 @@
         "language" : "en"
       }
     ],
-    "Left side of return type \"%@\"" : [
-      {
-        "target" : "Left side of return type “%@”",
-        "filename" : "PBXCore.strings",
-        "language" : "en"
-      }
-    ],
     "Only Roman letters, digits, and underscores are permitted" : [
       {
         "target" : "Only Roman letters, digits, and underscores are permitted",
@@ -698,9 +691,9 @@
         "language" : "en"
       }
     ],
-    "Can't extract expression, possibly due to the presence of macros." : [
+    "Left side of return type \"%@\"" : [
       {
-        "target" : "Can’t extract expression, possibly due to the presence of macros.",
+        "target" : "Left side of return type “%@”",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
@@ -708,6 +701,13 @@
     "1 warning" : [
       {
         "target" : "1 warning",
+        "filename" : "PBXCore.strings",
+        "language" : "en"
+      }
+    ],
+    "Can't extract expression, possibly due to the presence of macros." : [
+      {
+        "target" : "Can’t extract expression, possibly due to the presence of macros.",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
@@ -873,17 +873,17 @@
         "language" : "en"
       }
     ],
-    "%@ using %@" : [
-      {
-        "target" : "%@ using %@",
-        "filename" : "PBXCore.strings",
-        "language" : "en"
-      }
-    ],
     "Function" : [
       {
         "target" : "Function",
         "filename" : "PBXSymbolNames.strings",
+        "language" : "en"
+      }
+    ],
+    "%@ using %@" : [
+      {
+        "target" : "%@ using %@",
+        "filename" : "PBXCore.strings",
         "language" : "en"
       }
     ],
@@ -999,6 +999,13 @@
         "language" : "en"
       }
     ],
+    "Uncommittable Conflict" : [
+      {
+        "target" : "Uncommittable Conflict",
+        "filename" : "PBXCore.strings",
+        "language" : "en"
+      }
+    ],
     "Class Extension" : [
       {
         "target" : "Class Extension",
@@ -1016,13 +1023,6 @@
     "Indeterminate" : [
       {
         "target" : "Indeterminate",
-        "filename" : "PBXCore.strings",
-        "language" : "en"
-      }
-    ],
-    "Uncommittable Conflict" : [
-      {
-        "target" : "Uncommittable Conflict",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
@@ -1111,16 +1111,16 @@
         "language" : "en"
       }
     ],
-    "The selection is not an Objective-C class's method or instance variable." : [
+    "Updated %@" : [
       {
-        "target" : "The selection is not an Objective-C class’s method or instance variable.",
-        "filename" : "PBXCore.strings",
+        "target" : "Updated %@",
+        "filename" : "SCMCore.strings",
         "language" : "en"
       }
     ],
-    "invalid rule action '%4$@' found in build output parse rule at index %2$u for '%3$@' key in dictionary for Jambase rule '%1$@'" : [
+    "The selection is not an Objective-C class's method or instance variable." : [
       {
-        "target" : "invalid rule action '%4$@' found in build output parse rule at index %2$u for '%3$@' key in dictionary for Jambase rule '%1$@'",
+        "target" : "The selection is not an Objective-C class’s method or instance variable.",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
@@ -1132,10 +1132,10 @@
         "language" : "en"
       }
     ],
-    "Updated %@" : [
+    "invalid rule action '%4$@' found in build output parse rule at index %2$u for '%3$@' key in dictionary for Jambase rule '%1$@'" : [
       {
-        "target" : "Updated %@",
-        "filename" : "SCMCore.strings",
+        "target" : "invalid rule action '%4$@' found in build output parse rule at index %2$u for '%3$@' key in dictionary for Jambase rule '%1$@'",
+        "filename" : "PBXCore.strings",
         "language" : "en"
       }
     ],
@@ -1480,9 +1480,9 @@
         "language" : "en"
       }
     ],
-    "Embed Public Headers" : [
+    "No build settings converted." : [
       {
-        "target" : "Embed Public Headers",
+        "target" : "No build settings converted.",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
@@ -1501,9 +1501,9 @@
         "language" : "en"
       }
     ],
-    "No build settings converted." : [
+    "Embed Public Headers" : [
       {
-        "target" : "No build settings converted.",
+        "target" : "Embed Public Headers",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
@@ -1655,10 +1655,10 @@
         "language" : "en"
       }
     ],
-    "setting \"Build independent targets in parallel\"" : [
+    "Constant" : [
       {
-        "target" : "setting \"Build independent targets in parallel\"",
-        "filename" : "PBXCore.strings",
+        "target" : "Constant",
+        "filename" : "PBXSymbolNames.strings",
         "language" : "en"
       }
     ],
@@ -1690,10 +1690,10 @@
         "language" : "en"
       }
     ],
-    "Constant" : [
+    "setting \"Build independent targets in parallel\"" : [
       {
-        "target" : "Constant",
-        "filename" : "PBXSymbolNames.strings",
+        "target" : "setting \"Build independent targets in parallel\"",
+        "filename" : "PBXCore.strings",
         "language" : "en"
       }
     ],
@@ -1774,16 +1774,16 @@
         "language" : "en"
       }
     ],
-    "ENTER CPP CATCH BP" : [
+    "Can't make changes to %lu system-owned files." : [
       {
-        "target" : "Enter the name of the caught C++ exception you would like to break on ('$' indicates all exceptions)",
+        "target" : "Can’t make changes to %lu system-owned files.",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
     ],
-    "Can't make changes to %lu system-owned files." : [
+    "ENTER CPP CATCH BP" : [
       {
-        "target" : "Can’t make changes to %lu system-owned files.",
+        "target" : "Enter the name of the caught C++ exception you would like to break on ('$' indicates all exceptions)",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
@@ -1837,17 +1837,17 @@
         "language" : "en"
       }
     ],
-    "Class Method" : [
-      {
-        "target" : "Class Method",
-        "filename" : "PBXSymbolNames.strings",
-        "language" : "en"
-      }
-    ],
     "Extra characters after signature" : [
       {
         "target" : "Extra characters after signature",
         "filename" : "PBXCore.strings",
+        "language" : "en"
+      }
+    ],
+    "Class Method" : [
+      {
+        "target" : "Class Method",
+        "filename" : "PBXSymbolNames.strings",
         "language" : "en"
       }
     ],
@@ -2215,16 +2215,16 @@
         "language" : "en"
       }
     ],
-    "New file \"%@\" location, \"%@\", does not exist." : [
+    "weak role of build file \"%@\"" : [
       {
-        "target" : "New file “%@” location, “%@”, does not exist.",
+        "target" : "weak role of build file \"%@\"",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
     ],
-    "weak role of build file \"%@\"" : [
+    "New file \"%@\" location, \"%@\", does not exist." : [
       {
-        "target" : "weak role of build file \"%@\"",
+        "target" : "New file “%@” location, “%@”, does not exist.",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
@@ -2257,16 +2257,16 @@
         "language" : "en"
       }
     ],
-    "New file \"%@\" was created and added to the project but could not be added to the repository due to an unknown SCM error." : [
+    "To be safe, please save your work and quit and restart Xcode." : [
       {
-        "target" : "New file “%@” was created and added to the project but could not be added to the repository due to an unknown SCM error.",
+        "target" : "To be safe, please save your work and quit and restart Xcode.",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
     ],
-    "To be safe, please save your work and quit and restart Xcode." : [
+    "New file \"%@\" was created and added to the project but could not be added to the repository due to an unknown SCM error." : [
       {
-        "target" : "To be safe, please save your work and quit and restart Xcode.",
+        "target" : "New file “%@” was created and added to the project but could not be added to the repository due to an unknown SCM error.",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
@@ -2313,16 +2313,16 @@
         "language" : "en"
       }
     ],
-    "Method name" : [
+    "Must be different than original" : [
       {
-        "target" : "Method name",
+        "target" : "Must be different than original",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
     ],
-    "Must be different than original" : [
+    "Method name" : [
       {
-        "target" : "Must be different than original",
+        "target" : "Method name",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
@@ -2761,6 +2761,13 @@
         "language" : "en"
       }
     ],
+    "New Group" : [
+      {
+        "target" : "New Group",
+        "filename" : "PBXCore.strings",
+        "language" : "en"
+      }
+    ],
     "The selection is not a field in a C structure or union or an Objective-C class's instance variable." : [
       {
         "target" : "The selection is not a field in a C structure or union or an Objective-C class’s instance variable.",
@@ -2772,13 +2779,6 @@
       {
         "target" : "C",
         "filename" : "PBXSymbolNames.strings",
-        "language" : "en"
-      }
-    ],
-    "New Group" : [
-      {
-        "target" : "New Group",
-        "filename" : "PBXCore.strings",
         "language" : "en"
       }
     ],
@@ -2908,13 +2908,6 @@
         "language" : "en"
       }
     ],
-    "Completed Updating %@" : [
-      {
-        "target" : "Completed Updating %@",
-        "filename" : "SCMCore.strings",
-        "language" : "en"
-      }
-    ],
     "Build succeeded for target \"%@\" of project \"%@\"" : [
       {
         "target" : "Build succeeded for target \"%@\" of project \"%@\"",
@@ -2926,6 +2919,13 @@
       {
         "target" : "There was an internal error.",
         "filename" : "PBXCore.strings",
+        "language" : "en"
+      }
+    ],
+    "Completed Updating %@" : [
+      {
+        "target" : "Completed Updating %@",
+        "filename" : "SCMCore.strings",
         "language" : "en"
       }
     ],
@@ -2957,6 +2957,13 @@
         "language" : "en"
       }
     ],
+    "Move existing file or choose another name." : [
+      {
+        "target" : "Move existing file or choose another name.",
+        "filename" : "PBXCore.strings",
+        "language" : "en"
+      }
+    ],
     "Union" : [
       {
         "target" : "Union",
@@ -2967,13 +2974,6 @@
     "Add file to a group." : [
       {
         "target" : "Add file to a group.",
-        "filename" : "PBXCore.strings",
-        "language" : "en"
-      }
-    ],
-    "Move existing file or choose another name." : [
-      {
-        "target" : "Move existing file or choose another name.",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
@@ -3006,16 +3006,16 @@
         "language" : "en"
       }
     ],
-    "ENTER CPP THROW BP" : [
+    "Public Headers" : [
       {
-        "target" : "Enter the name of the thrown C++ exception you would like to break on ('$' indicates all exceptions)",
+        "target" : "Public Headers",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }
     ],
-    "Public Headers" : [
+    "ENTER CPP THROW BP" : [
       {
-        "target" : "Public Headers",
+        "target" : "Enter the name of the thrown C++ exception you would like to break on ('$' indicates all exceptions)",
         "filename" : "PBXCore.strings",
         "language" : "en"
       }

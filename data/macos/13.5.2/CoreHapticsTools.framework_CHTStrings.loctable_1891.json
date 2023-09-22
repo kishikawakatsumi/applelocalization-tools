@@ -33,7 +33,7 @@
     ],
     "TRANSIENT_EVENT_COUNT" : [
       {
-        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@haptic_transient_count@\";\n    \"haptic_transient_count\" =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = u;\n        one = \"%u Transient\";\n        other = \"%u Transients\";\n    };\n}",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@haptic_transient_count@\",\"haptic_transient_count\":{\"one\":\"%u Transient\",\"other\":\"%u Transients\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
         "filename" : "CHTStrings.loctable",
         "language" : "en"
       }
@@ -52,16 +52,16 @@
         "language" : "en"
       }
     ],
-    "HAPTIC_SECTION_LABEL_AUDITIONING" : [
+    "INVALID_PARAMETER_TYPE_ERROR" : [
       {
-        "target" : "Haptic",
+        "target" : "This pattern contains an invalid ParameterID.",
         "filename" : "CHTStrings.loctable",
         "language" : "en"
       }
     ],
-    "INVALID_PARAMETER_TYPE_ERROR" : [
+    "HAPTIC_SECTION_LABEL_AUDITIONING" : [
       {
-        "target" : "This pattern contains an invalid ParameterID.",
+        "target" : "Haptic",
         "filename" : "CHTStrings.loctable",
         "language" : "en"
       }
@@ -80,9 +80,9 @@
         "language" : "en"
       }
     ],
-    "AUDITIONING_PLAY_BUTTON_AX_LABEL" : [
+    "NOT_SUPPORTED_ERROR" : [
       {
-        "target" : "Play",
+        "target" : "This pattern uses an unsupported AHAP version.",
         "filename" : "CHTStrings.loctable",
         "language" : "en"
       }
@@ -108,9 +108,9 @@
         "language" : "en"
       }
     ],
-    "NOT_SUPPORTED_ERROR" : [
+    "AUDITIONING_PLAY_BUTTON_AX_LABEL" : [
       {
-        "target" : "This pattern uses an unsupported AHAP version.",
+        "target" : "Play",
         "filename" : "CHTStrings.loctable",
         "language" : "en"
       }
@@ -131,7 +131,7 @@
     ],
     "PARAMETER_CURVE_COUNT" : [
       {
-        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@parameter_curve_count@\";\n    \"parameter_curve_count\" =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = u;\n        one = \"%u ParameterCurve\";\n        other = \"%u ParameterCurves\";\n    };\n}",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@parameter_curve_count@\",\"parameter_curve_count\":{\"one\":\"%u ParameterCurve\",\"other\":\"%u ParameterCurves\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
         "filename" : "CHTStrings.loctable",
         "language" : "en"
       }
@@ -152,14 +152,14 @@
     ],
     "CUSTOM_EVENT_COUNT" : [
       {
-        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@audio_custom_count@\";\n    \"audio_custom_count\" =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = u;\n        one = \"%u Custom\";\n        other = \"%u Custom\";\n    };\n}",
+        "target" : "{\"audio_custom_count\":{\"one\":\"%u Custom\",\"other\":\"%u Custom\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@audio_custom_count@\"}",
         "filename" : "CHTStrings.loctable",
         "language" : "en"
       }
     ],
     "CONTINUOUS_HAPTIC_COUNT" : [
       {
-        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@continuous_event_count@\";\n    \"continuous_event_count\" =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = u;\n        one = \"%u Continuous\";\n        other = \"%u Continuous\";\n    };\n}",
+        "target" : "{\"continuous_event_count\":{\"one\":\"%u Continuous\",\"other\":\"%u Continuous\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@continuous_event_count@\"}",
         "filename" : "CHTStrings.loctable",
         "language" : "en"
       }
@@ -178,9 +178,9 @@
         "language" : "en"
       }
     ],
-    "MISSING_AUDIO_REFS_SINGLE" : [
+    "AUDIO_CUSTOM_ONLY" : [
       {
-        "target" : "An audio reference could not be loaded: %@",
+        "target" : "This file contains only AudioCustom Events, which are not playable in QuickLook.",
         "filename" : "CHTStrings.loctable",
         "language" : "en"
       }
@@ -192,9 +192,9 @@
         "language" : "en"
       }
     ],
-    "AUDIO_CUSTOM_ONLY" : [
+    "AUDITIONING_NO_AUDIO_CUSTOM" : [
       {
-        "target" : "This file contains only AudioCustom Events, which are not playable in QuickLook.",
+        "target" : "AudioCustom events cannot be played in QuickLook.",
         "filename" : "CHTStrings.loctable",
         "language" : "en"
       }
@@ -206,9 +206,9 @@
         "language" : "en"
       }
     ],
-    "AUDITIONING_NO_AUDIO_CUSTOM" : [
+    "MISSING_AUDIO_REFS_SINGLE" : [
       {
-        "target" : "AudioCustom events cannot be played in QuickLook.",
+        "target" : "An audio reference could not be loaded: %@",
         "filename" : "CHTStrings.loctable",
         "language" : "en"
       }
@@ -222,7 +222,7 @@
     ],
     "CONTINUOUS_AUDIO_COUNT" : [
       {
-        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@continuous_event_count@\";\n    \"continuous_event_count\" =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = u;\n        one = \"%u Continuous\";\n        other = \"%u Continuous\";\n    };\n}",
+        "target" : "{\"continuous_event_count\":{\"one\":\"%u Continuous\",\"other\":\"%u Continuous\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@continuous_event_count@\"}",
         "filename" : "CHTStrings.loctable",
         "language" : "en"
       }
@@ -278,7 +278,7 @@
     ],
     "PARAMETER_COUNT" : [
       {
-        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@parameter_count@\";\n    \"parameter_count\" =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = u;\n        one = \"%u Parameter\";\n        other = \"%u Parameters\";\n    };\n}",
+        "target" : "{\"parameter_count\":{\"one\":\"%u Parameter\",\"other\":\"%u Parameters\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@parameter_count@\"}",
         "filename" : "CHTStrings.loctable",
         "language" : "en"
       }

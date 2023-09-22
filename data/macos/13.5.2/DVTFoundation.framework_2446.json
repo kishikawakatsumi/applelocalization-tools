@@ -1,14 +1,9 @@
 {
   "localizations" : {
-    "Err3-C" : [
+    "Error parsing regex at line %d offset %d %@^%@" : [
       {
-        "target" : "Plug-in class not found.",
-        "filename" : "DeveloperToolsPlugInErrors.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Unsupported device specifier option.",
-        "filename" : "DVTDeviceErrors.strings",
+        "target" : "Error parsing regex at line %1$d offset %2$d %3$@^%4$@",
+        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -26,10 +21,10 @@
         "language" : "en"
       }
     ],
-    "Instance method" : [
+    "Err5" : [
       {
-        "target" : "Instance method",
-        "filename" : "Localizable.strings",
+        "target" : "The parameters to the extension “%1$@” in the plug-in “%2$@” could not be parsed because they are malformed.",
+        "filename" : "DeveloperToolsPlugInErrors.strings",
         "language" : "en"
       }
     ],
@@ -40,10 +35,15 @@
         "language" : "en"
       }
     ],
-    "Err5" : [
+    "Err4-R" : [
       {
-        "target" : "The parameters to the extension “%1$@” in the plug-in “%2$@” could not be parsed because they are malformed.",
+        "target" : "The plug-in may be damaged and may need to be reinstalled.",
         "filename" : "DeveloperToolsPlugInErrors.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Please supply either “%2$@” or “%3$@”.",
+        "filename" : "DVTDeviceErrors.strings",
         "language" : "en"
       }
     ],
@@ -66,15 +66,10 @@
         "language" : "en"
       }
     ],
-    "Err4-R" : [
+    "Instance method" : [
       {
-        "target" : "The plug-in may be damaged and may need to be reinstalled.",
-        "filename" : "DeveloperToolsPlugInErrors.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Please supply either “%2$@” or “%3$@”.",
-        "filename" : "DVTDeviceErrors.strings",
+        "target" : "Instance method",
+        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -208,17 +203,17 @@
         "language" : "en"
       }
     ],
-    "Err100-R" : [
-      {
-        "target" : "For best performance, check permissions on your cache directory and ensure Xcode can write its plug-in cache file.",
-        "filename" : "DeveloperToolsPlugInErrors.strings",
-        "language" : "en"
-      }
-    ],
     "unknownSDK" : [
       {
         "target" : "Unknown OS",
         "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Err100-R" : [
+      {
+        "target" : "For best performance, check permissions on your cache directory and ensure Xcode can write its plug-in cache file.",
+        "filename" : "DeveloperToolsPlugInErrors.strings",
         "language" : "en"
       }
     ],
@@ -234,18 +229,6 @@
         "language" : "en"
       }
     ],
-    "Err2-C" : [
-      {
-        "target" : "Loading a plug-in failed.",
-        "filename" : "DeveloperToolsPlugInErrors.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Unsupported architecture.",
-        "filename" : "DVTDeviceErrors.strings",
-        "language" : "en"
-      }
-    ],
     "Err7" : [
       {
         "target" : "Components required by Xcode are missing or damaged.",
@@ -254,6 +237,18 @@
       },
       {
         "target" : "The device type “%1$@” requires that either “%2$@” or “%3$@” be specified, but not both.",
+        "filename" : "DVTDeviceErrors.strings",
+        "language" : "en"
+      }
+    ],
+    "Err2-C" : [
+      {
+        "target" : "Loading a plug-in failed.",
+        "filename" : "DeveloperToolsPlugInErrors.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Unsupported architecture.",
         "filename" : "DVTDeviceErrors.strings",
         "language" : "en"
       }
@@ -317,16 +312,16 @@
         "language" : "en"
       }
     ],
-    "Class" : [
+    "%@: failed attempting to match %@" : [
       {
-        "target" : "Class",
+        "target" : "%1$@: failed attempting to match %2$@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Typedef" : [
+    "Class" : [
       {
-        "target" : "Typedef",
+        "target" : "Class",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -338,16 +333,9 @@
         "language" : "en"
       }
     ],
-    "%@: failed attempting to match %@" : [
+    "Typedef" : [
       {
-        "target" : "%1$@: failed attempting to match %2$@",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Macro" : [
-      {
-        "target" : "Macro",
+        "target" : "Typedef",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -364,6 +352,13 @@
         "language" : "en"
       }
     ],
+    "Syntax Type" : [
+      {
+        "target" : "Syntax Type",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Err6-R" : [
       {
         "target" : "Completely uninstall Xcode before installing a new version in the same location.",
@@ -374,13 +369,6 @@
     "language" : [
       {
         "target" : "language",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Syntax Type" : [
-      {
-        "target" : "Syntax Type",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -404,6 +392,13 @@
         "language" : "en"
       }
     ],
+    "Macro" : [
+      {
+        "target" : "Macro",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Enum constant" : [
       {
         "target" : "Enum constant",
@@ -411,10 +406,15 @@
         "language" : "en"
       }
     ],
-    "Error parsing regex at line %d offset %d %@^%@" : [
+    "Err3-C" : [
       {
-        "target" : "Error parsing regex at line %1$d offset %2$d %3$@^%4$@",
-        "filename" : "Localizable.strings",
+        "target" : "Plug-in class not found.",
+        "filename" : "DeveloperToolsPlugInErrors.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Unsupported device specifier option.",
+        "filename" : "DVTDeviceErrors.strings",
         "language" : "en"
       }
     ]

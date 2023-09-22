@@ -10,16 +10,16 @@
         "language" : "en"
       }
     ],
-    "DUR2MINUTES" : [
+    "The requested STOCKH attribute is invalid." : [
       {
-        "target" : "DUR2MINUTES",
+        "target" : "The requested STOCKH attribute is invalid.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "NORMINV" : [
+    "DUR2MINUTES" : [
       {
-        "target" : "NORMINV",
+        "target" : "DUR2MINUTES",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -31,13 +31,6 @@
         "language" : "en"
       }
     ],
-    "PRICEMAT" : [
-      {
-        "target" : "PRICEMAT",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
     "PLAINTEXT" : [
       {
         "target" : "PLAINTEXT",
@@ -45,9 +38,16 @@
         "language" : "en"
       }
     ],
-    "The requested STOCKH attribute is invalid." : [
+    "PRICEMAT" : [
       {
-        "target" : "The requested STOCKH attribute is invalid.",
+        "target" : "PRICEMAT",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "NORMINV" : [
+      {
+        "target" : "NORMINV",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -55,13 +55,6 @@
     "DDB" : [
       {
         "target" : "DDB",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "VARA" : [
-      {
-        "target" : "VARA",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -76,6 +69,13 @@
     "TANH" : [
       {
         "target" : "TANH",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "VARA" : [
+      {
+        "target" : "VARA",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -234,16 +234,16 @@
         "language" : "en"
       }
     ],
-    "PERCENTRANK requires that argument 2 be within the range specified in argument 1." : [
+    "TEXTBEFORE" : [
       {
-        "target" : "PERCENTRANK requires that argument 2 be within the range specified in argument 1.",
+        "target" : "TEXTBEFORE",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "TEXTBEFORE" : [
+    "PERCENTRANK requires that argument 2 be within the range specified in argument 1." : [
       {
-        "target" : "TEXTBEFORE",
+        "target" : "PERCENTRANK requires that argument 2 be within the range specified in argument 1.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -367,51 +367,9 @@
         "language" : "en"
       }
     ],
-    "%@ requested occurrence %d of the regular expression “%@” after finding a match for the regular expression “%@”, but only %d match(es) was found." : [
-      {
-        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@function@%#@occurrence@%#@value@%#@value2@%#@times@\";\n    function =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    occurrence =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    times =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        one = \"%1$@ requested occurrence %2$d of the regular expression \\U201c%3$@\\U201d after finding a match for the regular expression \\U201c%4$@\\U201d, but only 1 match was found.\";\n        other = \"%1$@ requested occurrence %2$d of the regular expression \\U201c%3$@\\U201d after finding a match for the regular expression \\U201c%4$@\\U201d, but only %5$d matches were found.\";\n    };\n    value =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    value2 =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n}",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "EFFECT" : [
-      {
-        "target" : "EFFECT",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
     "INTERSECT.RANGES" : [
       {
         "target" : "INTERSECT.RANGES",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "ASIN" : [
-      {
-        "target" : "ASIN",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "BEARING" : [
-      {
-        "target" : "BEARING",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "Bid Size data is not available." : [
-      {
-        "target" : "Bid Size data is not available.",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "1 and 2" : [
-      {
-        "target" : "1 and 2",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -423,9 +381,37 @@
         "language" : "en"
       }
     ],
-    "%@ requires all arguments to be of the same type, either dates, numbers, or durations." : [
+    "%@ requested occurrence %d of the regular expression “%@” after finding a match for the regular expression “%@”, but only %d match(es) was found." : [
       {
-        "target" : "%@ requires all arguments to be of the same type, either dates, numbers, or durations.",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@function@%#@occurrence@%#@value@%#@value2@%#@times@\",\"times\":{\"one\":\"%1$@ requested occurrence %2$d of the regular expression “%3$@” after finding a match for the regular expression “%4$@”, but only 1 match was found.\",\"other\":\"%1$@ requested occurrence %2$d of the regular expression “%3$@” after finding a match for the regular expression “%4$@”, but only %5$d matches were found.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"value\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"value2\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"occurrence\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"function\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "ASIN" : [
+      {
+        "target" : "ASIN",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "Bid Size data is not available." : [
+      {
+        "target" : "Bid Size data is not available.",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "BEARING" : [
+      {
+        "target" : "BEARING",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "1 and 2" : [
+      {
+        "target" : "1 and 2",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -437,9 +423,23 @@
         "language" : "en"
       }
     ],
+    "%@ requires all arguments to be of the same type, either dates, numbers, or durations." : [
+      {
+        "target" : "%@ requires all arguments to be of the same type, either dates, numbers, or durations.",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
     "COLUMN" : [
       {
         "target" : "COLUMN",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "EFFECT" : [
+      {
+        "target" : "EFFECT",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -458,16 +458,16 @@
         "language" : "en"
       }
     ],
-    "a number" : [
+    "% of Row Total" : [
       {
-        "target" : "a number",
+        "target" : "% of Row Total",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "XMATCH" : [
+    "a number" : [
       {
-        "target" : "XMATCH",
+        "target" : "a number",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -500,9 +500,16 @@
         "language" : "en"
       }
     ],
-    "% of Row Total" : [
+    "VLOOKUP" : [
       {
-        "target" : "% of Row Total",
+        "target" : "VLOOKUP",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "TTEST" : [
+      {
+        "target" : "TTEST",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -514,13 +521,6 @@
         "language" : "en"
       }
     ],
-    "VLOOKUP" : [
-      {
-        "target" : "VLOOKUP",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
     "ISDATE" : [
       {
         "target" : "ISDATE",
@@ -528,9 +528,9 @@
         "language" : "en"
       }
     ],
-    "TTEST" : [
+    "XMATCH" : [
       {
-        "target" : "TTEST",
+        "target" : "XMATCH",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -682,9 +682,9 @@
         "language" : "en"
       }
     ],
-    "HEX2BIN" : [
+    "LEN" : [
       {
-        "target" : "HEX2BIN",
+        "target" : "LEN",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -696,9 +696,9 @@
         "language" : "en"
       }
     ],
-    "LEN" : [
+    "HEX2BIN" : [
       {
-        "target" : "LEN",
+        "target" : "HEX2BIN",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -822,9 +822,9 @@
         "language" : "en"
       }
     ],
-    "COUPDAYS" : [
+    "%@ in %@ must be greater than %g." : [
       {
-        "target" : "COUPDAYS",
+        "target" : "%1$@ in %2$@ must be greater than %3$g.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -843,9 +843,23 @@
         "language" : "en"
       }
     ],
-    "%@ in %@ must be greater than %g." : [
+    "COUPDAYS" : [
       {
-        "target" : "%1$@ in %2$@ must be greater than %3$g.",
+        "target" : "COUPDAYS",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "TRUNC" : [
+      {
+        "target" : "TRUNC",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "Arguments %d and later of %@ can\\U2019t contain currency or duration values." : [
+      {
+        "target" : "Arguments %1$d and later of %2$@ can’t contain currency or duration values.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -857,9 +871,16 @@
         "language" : "en"
       }
     ],
-    "Arguments %d and later of %@ can\\U2019t contain currency or duration values." : [
+    "Max." : [
       {
-        "target" : "Arguments %1$d and later of %2$@ can’t contain currency or duration values.",
+        "target" : "Max.",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "RANDBETWEEN requires that both durations have the same maximum unit." : [
+      {
+        "target" : "RANDBETWEEN requires that both durations have the same maximum unit.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -878,23 +899,9 @@
         "language" : "en"
       }
     ],
-    "RANDBETWEEN requires that both durations have the same maximum unit." : [
+    "TRANSPOSE" : [
       {
-        "target" : "RANDBETWEEN requires that both durations have the same maximum unit.",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "Max." : [
-      {
-        "target" : "Max.",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "TRUNC" : [
-      {
-        "target" : "TRUNC",
+        "target" : "TRANSPOSE",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -902,13 +909,6 @@
     "%@ requires a string specifying a number, but found \\U201C%@\\U201D instead." : [
       {
         "target" : "%1$@ requires a string specifying a number, but found “%2$@” instead.",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "TRANSPOSE" : [
-      {
-        "target" : "TRANSPOSE",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -948,13 +948,6 @@
         "language" : "en"
       }
     ],
-    "Average (All)" : [
-      {
-        "target" : "Average (All)",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
     "Logical & Info" : [
       {
         "target" : "Logical & Info",
@@ -962,9 +955,9 @@
         "language" : "en"
       }
     ],
-    "Argument %d of %@ must sum to 1." : [
+    "Average (All)" : [
       {
-        "target" : "Argument %1$d of %2$@ must sum to 1.",
+        "target" : "Average (All)",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -979,6 +972,13 @@
     "%@ must begin searching from a number within the length of the search text." : [
       {
         "target" : "%@ must begin searching from a number within the length of the search text.",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "Argument %d of %@ must sum to 1." : [
+      {
+        "target" : "Argument %1$d of %2$@ must sum to 1.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -1004,16 +1004,16 @@
         "language" : "en"
       }
     ],
-    "Argument %d of %@ must be equal to 0 or 1." : [
+    "% of Grand Total" : [
       {
-        "target" : "Argument %1$d of %2$@ must be equal to 0 or 1.",
+        "target" : "% of Grand Total",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "%@ in %@ must be greater than or equal to %g and less than or equal to %g." : [
+    "MOD" : [
       {
-        "target" : "%1$@ in %2$@ must be greater than or equal to %3$g and less than or equal to %4$g.",
+        "target" : "MOD",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -1025,16 +1025,16 @@
         "language" : "en"
       }
     ],
-    "% of Grand Total" : [
+    "Argument %d of %@ must be equal to 0 or 1." : [
       {
-        "target" : "% of Grand Total",
+        "target" : "Argument %1$d of %2$@ must be equal to 0 or 1.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "MOD" : [
+    "%@ in %@ must be greater than or equal to %g and less than or equal to %g." : [
       {
-        "target" : "MOD",
+        "target" : "%1$@ in %2$@ must be greater than or equal to %3$g and less than or equal to %4$g.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -1060,9 +1060,9 @@
         "language" : "en"
       }
     ],
-    "Argument %d of %@ is invalid." : [
+    "SUMIF" : [
       {
-        "target" : "Argument %1$d of %2$@ is invalid.",
+        "target" : "SUMIF",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -1088,13 +1088,6 @@
         "language" : "en"
       }
     ],
-    "The formula uses a Boolean in place of a number." : [
-      {
-        "target" : "The formula uses a Boolean in place of a number.",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
     "DURATION" : [
       {
         "target" : "DURATION",
@@ -1102,9 +1095,16 @@
         "language" : "en"
       }
     ],
-    "SUMIF" : [
+    "The formula uses a Boolean in place of a number." : [
       {
-        "target" : "SUMIF",
+        "target" : "The formula uses a Boolean in place of a number.",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "Argument %d of %@ is invalid." : [
+      {
+        "target" : "Argument %1$d of %2$@ is invalid.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -1137,16 +1137,16 @@
         "language" : "en"
       }
     ],
-    "Prefixes require metric units. The unit \\U201C%@\\U201D isn\\U2019t metric." : [
+    "%@ requires dates to be on or after the starting date." : [
       {
-        "target" : "Prefixes require metric units. The unit “%@” isn’t metric.",
+        "target" : "%@ requires dates to be on or after the starting date.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "%@ requires dates to be on or after the starting date." : [
+    "Prefixes require metric units. The unit \\U201C%@\\U201D isn\\U2019t metric." : [
       {
-        "target" : "%@ requires dates to be on or after the starting date.",
+        "target" : "Prefixes require metric units. The unit “%@” isn’t metric.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -1214,16 +1214,16 @@
         "language" : "en"
       }
     ],
-    "LOWER" : [
+    "IF" : [
       {
-        "target" : "LOWER",
+        "target" : "IF",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "IF" : [
+    "LOWER" : [
       {
-        "target" : "IF",
+        "target" : "LOWER",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -1235,9 +1235,9 @@
         "language" : "en"
       }
     ],
-    "EDATE" : [
+    "Text" : [
       {
-        "target" : "EDATE",
+        "target" : "Text",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -1249,9 +1249,9 @@
         "language" : "en"
       }
     ],
-    "Text" : [
+    "EDATE" : [
       {
-        "target" : "Text",
+        "target" : "EDATE",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -1361,9 +1361,9 @@
         "language" : "en"
       }
     ],
-    "PERCENTILE" : [
+    "Argument %d of %@ can\\U2019t be a duration." : [
       {
-        "target" : "PERCENTILE",
+        "target" : "Argument %1$d of %2$@ can’t be a duration.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -1389,9 +1389,9 @@
         "language" : "en"
       }
     ],
-    "Argument %d of %@ can\\U2019t be a duration." : [
+    "PERCENTILE" : [
       {
-        "target" : "Argument %1$d of %2$@ can’t be a duration.",
+        "target" : "PERCENTILE",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -1641,16 +1641,16 @@
         "language" : "en"
       }
     ],
-    "GAMMAINV" : [
+    "SECOND" : [
       {
-        "target" : "GAMMAINV",
+        "target" : "SECOND",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "SECOND" : [
+    "GAMMAINV" : [
       {
-        "target" : "SECOND",
+        "target" : "GAMMAINV",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -1865,13 +1865,6 @@
         "language" : "en"
       }
     ],
-    "CONCATENATE" : [
-      {
-        "target" : "CONCATENATE",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
     "BIN2DEC" : [
       {
         "target" : "BIN2DEC",
@@ -1879,9 +1872,9 @@
         "language" : "en"
       }
     ],
-    "The number to convert has units that conflict with the units to convert from." : [
+    "CONCATENATE" : [
       {
-        "target" : "The number to convert has units that conflict with the units to convert from.",
+        "target" : "CONCATENATE",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -1893,6 +1886,13 @@
         "language" : "en"
       }
     ],
+    "The number to convert has units that conflict with the units to convert from." : [
+      {
+        "target" : "The number to convert has units that conflict with the units to convert from.",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
     "MID" : [
       {
         "target" : "MID",
@@ -1900,16 +1900,16 @@
         "language" : "en"
       }
     ],
-    "VALUE" : [
+    "The formula refers to cells without numbers." : [
       {
-        "target" : "VALUE",
+        "target" : "The formula refers to cells without numbers.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "The formula refers to cells without numbers." : [
+    "VALUE" : [
       {
-        "target" : "The formula refers to cells without numbers.",
+        "target" : "VALUE",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -1972,7 +1972,7 @@
     ],
     "%@ requested occurrence %d of the value “%@”, but only %d match(es) was found." : [
       {
-        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@function@%#@occurrence@%#@value@%#@times@\";\n    function =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    occurrence =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    times =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        one = \"%1$@ requested occurrence %2$d of the value \\U201c%3$@\\U201d, but only 1 match was found.\";\n        other = \"%1$@ requested occurrence %2$d of the value \\U201c%3$@\\U201d, but only %4$d matches were found.\";\n    };\n    value =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n}",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@function@%#@occurrence@%#@value@%#@times@\",\"times\":{\"one\":\"%1$@ requested occurrence %2$d of the value “%3$@”, but only 1 match was found.\",\"other\":\"%1$@ requested occurrence %2$d of the value “%3$@”, but only %4$d matches were found.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"value\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"occurrence\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"function\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -1991,16 +1991,16 @@
         "language" : "en"
       }
     ],
-    "ISBLANK" : [
+    "The x and y arrays must have the same length and width." : [
       {
-        "target" : "ISBLANK",
+        "target" : "The x and y arrays must have the same length and width.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "The x and y arrays must have the same length and width." : [
+    "ISBLANK" : [
       {
-        "target" : "The x and y arrays must have the same length and width.",
+        "target" : "ISBLANK",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2019,16 +2019,16 @@
         "language" : "en"
       }
     ],
-    "WEEKDAY" : [
+    "ADDRESS" : [
       {
-        "target" : "WEEKDAY",
+        "target" : "ADDRESS",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "ADDRESS" : [
+    "WEEKDAY" : [
       {
-        "target" : "ADDRESS",
+        "target" : "WEEKDAY",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2054,9 +2054,9 @@
         "language" : "en"
       }
     ],
-    "%@ in %@ must be greater than or equal to %g." : [
+    "Arguments %d and later of %@ can\\U2019t be currency values." : [
       {
-        "target" : "%1$@ in %2$@ must be greater than or equal to %3$g.",
+        "target" : "Arguments %1$d and later of %2$@ can’t be currency values.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2068,16 +2068,16 @@
         "language" : "en"
       }
     ],
-    "IPMT" : [
+    "%@ in %@ must be greater than or equal to %g." : [
       {
-        "target" : "IPMT",
+        "target" : "%1$@ in %2$@ must be greater than or equal to %3$g.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "Arguments %d and later of %@ can\\U2019t be currency values." : [
+    "IPMT" : [
       {
-        "target" : "Arguments %1$d and later of %2$@ can’t be currency values.",
+        "target" : "IPMT",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2327,16 +2327,16 @@
         "language" : "en"
       }
     ],
-    "Unknown error." : [
+    "Running Total In requires field to be a grouping column." : [
       {
-        "target" : "Unknown error.",
+        "target" : "Running Total In requires field to be a grouping column.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "Running Total In requires field to be a grouping column." : [
+    "Unknown error." : [
       {
-        "target" : "Running Total In requires field to be a grouping column.",
+        "target" : "Unknown error.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2348,9 +2348,9 @@
         "language" : "en"
       }
     ],
-    "The requested CURRENCYH attribute is invalid." : [
+    "Argument %d of %@ can\\U2019t be a currency." : [
       {
-        "target" : "The requested CURRENCYH attribute is invalid.",
+        "target" : "Argument %1$d of %2$@ can’t be a currency.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2362,9 +2362,16 @@
         "language" : "en"
       }
     ],
-    "Argument %d of %@ can\\U2019t be a currency." : [
+    "The requested CURRENCYH attribute is invalid." : [
       {
-        "target" : "Argument %1$d of %2$@ can’t be a currency.",
+        "target" : "The requested CURRENCYH attribute is invalid.",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "Argument %d of %@ must be equal to 1, 2, or 4." : [
+      {
+        "target" : "Argument %1$d of %2$@ must be equal to 1, 2, or 4.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2376,9 +2383,9 @@
         "language" : "en"
       }
     ],
-    "INTRATE" : [
+    "OFFSET" : [
       {
-        "target" : "INTRATE",
+        "target" : "OFFSET",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2390,16 +2397,9 @@
         "language" : "en"
       }
     ],
-    "OFFSET" : [
+    "INTRATE" : [
       {
-        "target" : "OFFSET",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "Argument %d of %@ must be equal to 1, 2, or 4." : [
-      {
-        "target" : "Argument %1$d of %2$@ must be equal to 1, 2, or 4.",
+        "target" : "INTRATE",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2418,13 +2418,6 @@
         "language" : "en"
       }
     ],
-    "VDB" : [
-      {
-        "target" : "VDB",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
     "DEVSQ" : [
       {
         "target" : "DEVSQ",
@@ -2432,9 +2425,23 @@
         "language" : "en"
       }
     ],
+    "VDB" : [
+      {
+        "target" : "VDB",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
     "Logical and Information" : [
       {
         "target" : "Logical and Information",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "BITOR" : [
+      {
+        "target" : "BITOR",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2448,14 +2455,7 @@
     ],
     "%@ requested occurrence %d of the regular expression “%@”, but only %d match(es) was found." : [
       {
-        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@function@%#@occurrence@%#@value@%#@times@\";\n    function =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    occurrence =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    times =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        one = \"%1$@ requested occurrence %2$d of the regular expression \\U201c%3$@\\U201d, but only 1 match was found.\";\n        other = \"%1$@ requested occurrence %2$d of the regular expression \\U201c%3$@\\U201d, but only %4$d matches were found.\";\n    };\n    value =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n}",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "BITOR" : [
-      {
-        "target" : "BITOR",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@function@%#@occurrence@%#@value@%#@times@\",\"times\":{\"one\":\"%1$@ requested occurrence %2$d of the regular expression “%3$@”, but only 1 match was found.\",\"other\":\"%1$@ requested occurrence %2$d of the regular expression “%3$@”, but only %4$d matches were found.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"value\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"occurrence\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"function\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2523,6 +2523,13 @@
         "language" : "en"
       }
     ],
+    "The operator \\U201C-\\U201D can\\U2019t subtract a date from a number." : [
+      {
+        "target" : "The operator “-” can’t subtract a date from a number.",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
     "CLEAN" : [
       {
         "target" : "CLEAN",
@@ -2533,13 +2540,6 @@
     "PPMT" : [
       {
         "target" : "PPMT",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "The operator \\U201C-\\U201D can\\U2019t subtract a date from a number." : [
-      {
-        "target" : "The operator “-” can’t subtract a date from a number.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2586,16 +2586,16 @@
         "language" : "en"
       }
     ],
-    "HEX2DEC" : [
+    "AVERAGEA" : [
       {
-        "target" : "HEX2DEC",
+        "target" : "AVERAGEA",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "AVERAGEA" : [
+    "HEX2DEC" : [
       {
-        "target" : "AVERAGEA",
+        "target" : "HEX2DEC",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2614,13 +2614,6 @@
         "language" : "en"
       }
     ],
-    "Location service is unable to obtain a location value right now." : [
-      {
-        "target" : "Location service is unable to obtain a location value right now.",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
     "1, 3, and 4" : [
       {
         "target" : "1, 3, and 4",
@@ -2631,6 +2624,13 @@
     "CONFIDENCE" : [
       {
         "target" : "CONFIDENCE",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "Location service is unable to obtain a location value right now." : [
+      {
+        "target" : "Location service is unable to obtain a location value right now.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2684,16 +2684,9 @@
         "language" : "en"
       }
     ],
-    "%@ in %@ must be less than %g." : [
+    "The formula contains a list where a single argument is expected." : [
       {
-        "target" : "%1$@ in %2$@ must be less than %3$g.",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    " can\\U2019t take %@." : [
-      {
-        "target" : " can’t take %@.",
+        "target" : "The formula contains a list where a single argument is expected.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2701,6 +2694,13 @@
     "BIN2OCT" : [
       {
         "target" : "BIN2OCT",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "ACOSH" : [
+      {
+        "target" : "ACOSH",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2726,16 +2726,16 @@
         "language" : "en"
       }
     ],
-    "The formula contains a list where a single argument is expected." : [
+    " can\\U2019t take %@." : [
       {
-        "target" : "The formula contains a list where a single argument is expected.",
+        "target" : " can’t take %@.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "COVAR" : [
+    "%@ in %@ must be less than %g." : [
       {
-        "target" : "COVAR",
+        "target" : "%1$@ in %2$@ must be less than %3$g.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2747,16 +2747,9 @@
         "language" : "en"
       }
     ],
-    "ACOSH" : [
+    "COVAR" : [
       {
-        "target" : "ACOSH",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "The index position in the array must contain data." : [
-      {
-        "target" : "The index position in the array must contain data.",
+        "target" : "COVAR",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2768,9 +2761,9 @@
         "language" : "en"
       }
     ],
-    "DUR2HOURS" : [
+    "The index position in the array must contain data." : [
       {
-        "target" : "DUR2HOURS",
+        "target" : "The index position in the array must contain data.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2778,6 +2771,13 @@
     "CORREL" : [
       {
         "target" : "CORREL",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "DUR2HOURS" : [
+      {
+        "target" : "DUR2HOURS",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2803,16 +2803,16 @@
         "language" : "en"
       }
     ],
-    "RIGHT" : [
+    "Average" : [
       {
-        "target" : "RIGHT",
+        "target" : "Average",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "Average" : [
+    "RIGHT" : [
       {
-        "target" : "Average",
+        "target" : "RIGHT",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2838,13 +2838,6 @@
         "language" : "en"
       }
     ],
-    "%@ requires that all arguments be between 0 and 1." : [
-      {
-        "target" : "%@ requires that all arguments be between 0 and 1.",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
     "SYD" : [
       {
         "target" : "SYD",
@@ -2852,9 +2845,16 @@
         "language" : "en"
       }
     ],
-    "SIGN" : [
+    "%@ requires that all arguments be between 0 and 1." : [
       {
-        "target" : "SIGN",
+        "target" : "%@ requires that all arguments be between 0 and 1.",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "An empty string can\\U2019t be used as an argument of %@." : [
+      {
+        "target" : "An empty string can’t be used as an argument of %@.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2873,16 +2873,16 @@
         "language" : "en"
       }
     ],
-    "Engineering" : [
+    "EXACT" : [
       {
-        "target" : "Engineering",
+        "target" : "EXACT",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "Count Blank" : [
+    "Engineering" : [
       {
-        "target" : "Count Blank",
+        "target" : "Engineering",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -2894,16 +2894,16 @@
         "language" : "en"
       }
     ],
-    "An empty string can\\U2019t be used as an argument of %@." : [
+    "Count Blank" : [
       {
-        "target" : "An empty string can’t be used as an argument of %@.",
+        "target" : "Count Blank",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "EXACT" : [
+    "SIGN" : [
       {
-        "target" : "EXACT",
+        "target" : "SIGN",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3027,16 +3027,16 @@
         "language" : "en"
       }
     ],
-    "SINH" : [
+    "Min." : [
       {
-        "target" : "SINH",
+        "target" : "Min.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "Min." : [
+    "SINH" : [
       {
-        "target" : "Min.",
+        "target" : "SINH",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3078,14 +3078,7 @@
     ],
     "%@ requested occurrence %d of the value “%@” after finding a match for the value “%@”, but only %d match(es) was found." : [
       {
-        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@function@%#@occurrence@%#@value@%#@value2@%#@times@\";\n    function =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    occurrence =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    times =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        one = \"%1$@ requested occurrence %2$d of the value \\U201c%3$@\\U201d after finding a match for the value \\U201c%4$@\\U201d, but only 1 match was found.\";\n        other = \"%1$@ requested occurrence %2$d of the value \\U201c%3$@\\U201d after finding a match for the value \\U201c%4$@\\U201d, but only %5$d matches were found.\";\n    };\n    value =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    value2 =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n}",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "FINV" : [
-      {
-        "target" : "FINV",
+        "target" : "{\"times\":{\"one\":\"%1$@ requested occurrence %2$d of the value “%3$@” after finding a match for the value “%4$@”, but only 1 match was found.\",\"other\":\"%1$@ requested occurrence %2$d of the value “%3$@” after finding a match for the value “%4$@”, but only %5$d matches were found.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"value\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"value2\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"function\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%#@function@%#@occurrence@%#@value@%#@value2@%#@times@\",\"occurrence\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3093,6 +3086,13 @@
     "“%@” isn’t a valid regular expression." : [
       {
         "target" : "“%@” isn’t a valid regular expression.",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "FINV" : [
+      {
+        "target" : "FINV",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3113,7 +3113,7 @@
     ],
     "%@ requested occurrence %d of the regular expression “%@” after finding a match for the value “%@”, but only %d match(es) was found." : [
       {
-        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@function@%#@occurrence@%#@value@%#@value2@%#@times@\";\n    function =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    occurrence =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    times =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        one = \"%1$@ requested occurrence %2$d of the regular expression \\U201c%3$@\\U201d after finding a match for the value \\U201c%4$@\\U201d, but only 1 match was found.\";\n        other = \"%1$@ requested occurrence %2$d of the regular expression \\U201c%3$@\\U201d after finding a match for the value \\U201c%4$@\\U201d, but only %5$d matches were found.\";\n    };\n    value =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    value2 =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n}",
+        "target" : "{\"times\":{\"one\":\"%1$@ requested occurrence %2$d of the regular expression “%3$@” after finding a match for the value “%4$@”, but only 1 match was found.\",\"other\":\"%1$@ requested occurrence %2$d of the regular expression “%3$@” after finding a match for the value “%4$@”, but only %5$d matches were found.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"value\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"value2\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"function\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%#@function@%#@occurrence@%#@value@%#@value2@%#@times@\",\"occurrence\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3265,16 +3265,16 @@
         "language" : "en"
       }
     ],
-    "STANDARDIZE" : [
+    "a reference" : [
       {
-        "target" : "STANDARDIZE",
+        "target" : "a reference",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "a reference" : [
+    "SUBSTITUTE" : [
       {
-        "target" : "a reference",
+        "target" : "SUBSTITUTE",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3286,9 +3286,9 @@
         "language" : "en"
       }
     ],
-    "SUBSTITUTE" : [
+    "STANDARDIZE" : [
       {
-        "target" : "SUBSTITUTE",
+        "target" : "STANDARDIZE",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3349,16 +3349,16 @@
         "language" : "en"
       }
     ],
-    "%@ can\\U2019t be given multiple durations." : [
+    "COLUMNS" : [
       {
-        "target" : "%@ can’t be given multiple durations.",
+        "target" : "COLUMNS",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "COLUMNS" : [
+    "%@ can\\U2019t be given multiple durations." : [
       {
-        "target" : "COLUMNS",
+        "target" : "%@ can’t be given multiple durations.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3419,16 +3419,16 @@
         "language" : "en"
       }
     ],
-    "ROWS" : [
+    "%@ couldn’t find a match for the regular expression “%@”." : [
       {
-        "target" : "ROWS",
+        "target" : "%1$@ couldn’t find a match for the regular expression “%2$@”.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "%@ couldn’t find a match for the regular expression “%@”." : [
+    "ROWS" : [
       {
-        "target" : "%1$@ couldn’t find a match for the regular expression “%2$@”.",
+        "target" : "ROWS",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3447,9 +3447,9 @@
         "language" : "en"
       }
     ],
-    "%@ requires %@, but none were found." : [
+    "%@ in %@ must be greater than %g and less than or equal to %g." : [
       {
-        "target" : "%1$@ requires %2$@, but none were found.",
+        "target" : "%1$@ in %2$@ must be greater than %3$g and less than or equal to %4$g.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3461,16 +3461,9 @@
         "language" : "en"
       }
     ],
-    "The requested historical date is invalid or is in the future." : [
+    "%@ requires %@, but none were found." : [
       {
-        "target" : "The requested historical date is invalid or is in the future.",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "%@ in %@ must be greater than %g and less than or equal to %g." : [
-      {
-        "target" : "%1$@ in %2$@ must be greater than %3$g and less than or equal to %4$g.",
+        "target" : "%1$@ requires %2$@, but none were found.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3478,6 +3471,13 @@
     "Values being summed by %@ must be either all durations or all numbers, unless one value is a date." : [
       {
         "target" : "Values being summed by %@ must be either all durations or all numbers, unless one value is a date.",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "The requested historical date is invalid or is in the future." : [
+      {
+        "target" : "The requested historical date is invalid or is in the future.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3517,9 +3517,9 @@
         "language" : "en"
       }
     ],
-    "All arguments to %@ must be the same length." : [
+    "MROUND" : [
       {
-        "target" : "All arguments to %@ must be the same length.",
+        "target" : "MROUND",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3531,16 +3531,9 @@
         "language" : "en"
       }
     ],
-    "MROUND" : [
+    "All arguments to %@ must be the same length." : [
       {
-        "target" : "MROUND",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "DEC2OCT" : [
-      {
-        "target" : "DEC2OCT",
+        "target" : "All arguments to %@ must be the same length.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3552,9 +3545,9 @@
         "language" : "en"
       }
     ],
-    "WEEKNUM" : [
+    "DEC2OCT" : [
       {
-        "target" : "WEEKNUM",
+        "target" : "DEC2OCT",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3566,6 +3559,13 @@
         "language" : "en"
       }
     ],
+    "%@ requested occurrence %d of the value “%@” after finding a match for the regular expression “%@”, but only %d match(es) was found." : [
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@function@%#@occurrence@%#@value@%#@value2@%#@times@\",\"times\":{\"one\":\"%1$@ requested occurrence %2$d of the value “%3$@” after finding a match for the regular expression “%4$@”, but only 1 match was found.\",\"other\":\"%1$@ requested occurrence %2$d of the value “%3$@” after finding a match for the regular expression “%4$@”, but only %5$d matches were found.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"value\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"value2\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"occurrence\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"function\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
     "The requested CURRENCY attribute is invalid." : [
       {
         "target" : "The requested CURRENCY attribute is invalid.",
@@ -3573,9 +3573,9 @@
         "language" : "en"
       }
     ],
-    "%@ requested occurrence %d of the value “%@” after finding a match for the regular expression “%@”, but only %d match(es) was found." : [
+    "WEEKNUM" : [
       {
-        "target" : "{\n    NSStringLocalizedFormatKey = \"%#@function@%#@occurrence@%#@value@%#@value2@%#@times@\";\n    function =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    occurrence =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    times =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        one = \"%1$@ requested occurrence %2$d of the value \\U201c%3$@\\U201d after finding a match for the regular expression \\U201c%4$@\\U201d, but only 1 match was found.\";\n        other = \"%1$@ requested occurrence %2$d of the value \\U201c%3$@\\U201d after finding a match for the regular expression \\U201c%4$@\\U201d, but only %5$d matches were found.\";\n    };\n    value =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n    value2 =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = d;\n        other = \"\";\n    };\n}",
+        "target" : "WEEKNUM",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3615,13 +3615,6 @@
         "language" : "en"
       }
     ],
-    "The x and y arrays must have the same length." : [
-      {
-        "target" : "The x and y arrays must have the same length.",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
     "% of Parent Row Total" : [
       {
         "target" : "% of Parent Row Total",
@@ -3629,9 +3622,9 @@
         "language" : "en"
       }
     ],
-    "Bearing information can\\U2019t be determined right now." : [
+    "The x and y arrays must have the same length." : [
       {
-        "target" : "Bearing information can’t be determined right now.",
+        "target" : "The x and y arrays must have the same length.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3639,6 +3632,13 @@
     "LCM" : [
       {
         "target" : "LCM",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "Bearing information can\\U2019t be determined right now." : [
+      {
+        "target" : "Bearing information can’t be determined right now.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3713,13 +3713,6 @@
         "language" : "en"
       }
     ],
-    "LOGINV" : [
-      {
-        "target" : "LOGINV",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
     "All arguments must be equal to or larger than zero." : [
       {
         "target" : "All arguments must be equal to or larger than zero.",
@@ -3727,9 +3720,9 @@
         "language" : "en"
       }
     ],
-    "no bigger than" : [
+    "LOGINV" : [
       {
-        "target" : "no bigger than",
+        "target" : "LOGINV",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3737,6 +3730,13 @@
     "%@ requires that arguments %@ use the same type of unit." : [
       {
         "target" : "%1$@ requires that arguments %2$@ use the same type of unit.",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "no bigger than" : [
+      {
+        "target" : "no bigger than",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3790,13 +3790,6 @@
         "language" : "en"
       }
     ],
-    "PERMUT" : [
-      {
-        "target" : "PERMUT",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
     "Average All" : [
       {
         "target" : "Average All",
@@ -3807,6 +3800,13 @@
     "Number suffix - trillions" : [
       {
         "target" : "T",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "PERMUT" : [
+      {
+        "target" : "PERMUT",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3832,13 +3832,6 @@
         "language" : "en"
       }
     ],
-    "Count" : [
-      {
-        "target" : "Count",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
     "The ranges given to SUMIF have different sizes." : [
       {
         "target" : "The ranges given to SUMIF have different sizes.",
@@ -3846,23 +3839,9 @@
         "language" : "en"
       }
     ],
-    "PERCENTILE.EXC" : [
+    "Count" : [
       {
-        "target" : "PERCENTILE.EXC",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "TINV" : [
-      {
-        "target" : "TINV",
-        "filename" : "TSCalculationEngine.loctable",
-        "language" : "en"
-      }
-    ],
-    "FORECAST" : [
-      {
-        "target" : "FORECAST",
+        "target" : "Count",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3874,9 +3853,30 @@
         "language" : "en"
       }
     ],
-    "The function doesn\\U2019t allow empty arguments." : [
+    "TINV" : [
       {
-        "target" : "The function doesn’t allow empty arguments.",
+        "target" : "TINV",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "PERCENTILE.EXC" : [
+      {
+        "target" : "PERCENTILE.EXC",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "CUMIPMT" : [
+      {
+        "target" : "CUMIPMT",
+        "filename" : "TSCalculationEngine.loctable",
+        "language" : "en"
+      }
+    ],
+    "FORECAST" : [
+      {
+        "target" : "FORECAST",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3888,9 +3888,9 @@
         "language" : "en"
       }
     ],
-    "CUMIPMT" : [
+    "The function doesn\\U2019t allow empty arguments." : [
       {
-        "target" : "CUMIPMT",
+        "target" : "The function doesn’t allow empty arguments.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3937,16 +3937,16 @@
         "language" : "en"
       }
     ],
-    "COUNTIFS" : [
+    "The time returned by the formula isn\\U2019t valid." : [
       {
-        "target" : "COUNTIFS",
+        "target" : "The time returned by the formula isn’t valid.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    " can\\U2019t be %@." : [
+    "COUNTIFS" : [
       {
-        "target" : " can’t be %@.",
+        "target" : "COUNTIFS",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -3958,16 +3958,16 @@
         "language" : "en"
       }
     ],
-    "ROUNDUP" : [
+    " can\\U2019t be %@." : [
       {
-        "target" : "ROUNDUP",
+        "target" : " can’t be %@.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "The time returned by the formula isn\\U2019t valid." : [
+    "ROUNDUP" : [
       {
-        "target" : "The time returned by the formula isn’t valid.",
+        "target" : "ROUNDUP",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
@@ -4035,16 +4035,16 @@
         "language" : "en"
       }
     ],
-    "The units of all arguments were converted to match the units of the first argument." : [
+    "%@ requires at least %@." : [
       {
-        "target" : "The units of all arguments were converted to match the units of the first argument.",
+        "target" : "%1$@ requires at least %2$@.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }
     ],
-    "%@ requires at least %@." : [
+    "The units of all arguments were converted to match the units of the first argument." : [
       {
-        "target" : "%1$@ requires at least %2$@.",
+        "target" : "The units of all arguments were converted to match the units of the first argument.",
         "filename" : "TSCalculationEngine.loctable",
         "language" : "en"
       }

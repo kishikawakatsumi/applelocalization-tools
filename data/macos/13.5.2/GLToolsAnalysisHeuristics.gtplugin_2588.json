@@ -149,18 +149,6 @@
         "language" : "en"
       }
     ],
-    "DYFDKReadPixelsSuboptimalFormat" : [
-      {
-        "target" : "Use the format and type returned from get calls using IMPLEMENTATION_COLOR_READ_FORMAT and IMPLEMENTATION_COLOR_READ_TYPE.",
-        "filename" : "AnalyzerFindingShort.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "For optimal performance for this ReadPixels call, the format and type should match those returned from a get call using the IMPLEMENTATION_COLOR_READ_FORMAT and IMPLEMENTATION_COLOR_READ_TYPE enums respectively. This will help to avoid any expensive pixel format conversions during readback.",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFKUninitializedTextureData" : [
       {
         "target" : "Uninitialized Texture Data",
@@ -173,10 +161,32 @@
         "language" : "en"
       }
     ],
-    "DYFURLClearWithRasterizerDiscard" : [
+    "DYFDKReadPixelsSuboptimalPacking" : [
       {
-        "target" : " ",
+        "target" : "For optimal performance for this ReadPixels call, the PixelStore setting for PACK_ALIGNMENT should be set to 4 or 8.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "For optimal performance for this ReadPixels call, the PixelStore setting for PACK_ALIGNMENT should be set to 4 or 8.",
         "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKMipmappingWithNPOT" : [
+      {
+        "target" : " has mipmapping enabled, but it is not supported on this GPU for non-power of two textures.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Mipmapping has been enabled for this texture, but it is not supported on this GPU for non-power of two textures. You should either scale your texture to a power of two size, or disable mipmapping. See documentation on TexImage2D, and TexParameteriv for more information.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "$ThisTex$ $has$ mipmapping enabled, but $it$ $is$ not supported on this GPU for non-power of two textures.",
+        "filename" : "AnalyzerFindingSimplified.strings",
         "language" : "en"
       }
     ],
@@ -204,20 +214,10 @@
         "language" : "en"
       }
     ],
-    "DYFDKMipmappingWithNPOT" : [
+    "DYFURLClearWithRasterizerDiscard" : [
       {
-        "target" : " has mipmapping enabled, but it is not supported on this GPU for non-power of two textures.",
-        "filename" : "AnalyzerFindingShort.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Mipmapping has been enabled for this texture, but it is not supported on this GPU for non-power of two textures. You should either scale your texture to a power of two size, or disable mipmapping. See documentation on TexImage2D, and TexParameteriv for more information.",
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "$ThisTex$ $has$ mipmapping enabled, but $it$ $is$ not supported on this GPU for non-power of two textures.",
-        "filename" : "AnalyzerFindingSimplified.strings",
         "language" : "en"
       }
     ],
@@ -240,14 +240,14 @@
         "language" : "en"
       }
     ],
-    "DYFDKReadPixelsSuboptimalPacking" : [
+    "DYFDKReadPixelsSuboptimalFormat" : [
       {
-        "target" : "For optimal performance for this ReadPixels call, the PixelStore setting for PACK_ALIGNMENT should be set to 4 or 8.",
+        "target" : "Use the format and type returned from get calls using IMPLEMENTATION_COLOR_READ_FORMAT and IMPLEMENTATION_COLOR_READ_TYPE.",
         "filename" : "AnalyzerFindingShort.strings",
         "language" : "en"
       },
       {
-        "target" : "For optimal performance for this ReadPixels call, the PixelStore setting for PACK_ALIGNMENT should be set to 4 or 8.",
+        "target" : "For optimal performance for this ReadPixels call, the format and type should match those returned from a get call using the IMPLEMENTATION_COLOR_READ_FORMAT and IMPLEMENTATION_COLOR_READ_TYPE enums respectively. This will help to avoid any expensive pixel format conversions during readback.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -326,38 +326,14 @@
         "language" : "en"
       }
     ],
-    "DYFKUseOfNonExistentProgram" : [
+    "DYFKIndexedDrawTransformFeedbackActiveNotPaused" : [
       {
-        "target" : "Use of Non-Existent Program",
+        "target" : "Indexed Draw Called During Active and Not Paused Transform Feedback",
         "filename" : "AnalyzerFindingKinds.strings",
         "language" : "en"
       },
       {
-        "target" : "Use of non-existent program",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFKStencilAttachmentInternalFormatIsNotStencilRenderable" : [
-      {
-        "target" : "Framebuffer Stencil Attachment Internal Format is not Stencil-Renderable",
-        "filename" : "AnalyzerFindingKinds.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Framebuffer stencil attachment internal format is not stencil-renderable",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFKInconsistentMipchainSizes" : [
-      {
-        "target" : "Inconsistent Mipchain Sizes",
-        "filename" : "AnalyzerFindingKinds.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Mip-chain has inconsistent sizes",
+        "target" : "Indexed draw called during active and not paused transform feedback",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -374,38 +350,21 @@
         "language" : "en"
       }
     ],
-    "DYFDKClearWithRasterizerDiscard" : [
+    "DYFKInconsistentMipchainSizes" : [
       {
-        "target" : "RASTERIZER_DISCARD enabled during clear. The framebuffer will not be cleared.",
-        "filename" : "AnalyzerFindingShort.strings",
+        "target" : "Inconsistent Mipchain Sizes",
+        "filename" : "AnalyzerFindingKinds.strings",
         "language" : "en"
       },
       {
-        "target" : "Your application called Clear while RASTERIZER_DISCARD was enabled. The clear will not be rendered.",
+        "target" : "Mip-chain has inconsistent sizes",
         "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "RASTERIZER_DISCARD enabled during clear. Nothing will be rendered.",
-        "filename" : "AnalyzerFindingSimplified.strings",
         "language" : "en"
       }
     ],
     "DYFURLQueryStillActiveAtEndOfFrame" : [
       {
         "target" : "",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFKIndexedDrawTransformFeedbackActiveNotPaused" : [
-      {
-        "target" : "Indexed Draw Called During Active and Not Paused Transform Feedback",
-        "filename" : "AnalyzerFindingKinds.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Indexed draw called during active and not paused transform feedback",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -427,6 +386,47 @@
         "language" : "en"
       }
     ],
+    "DYFDKClearWithRasterizerDiscard" : [
+      {
+        "target" : "RASTERIZER_DISCARD enabled during clear. The framebuffer will not be cleared.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Your application called Clear while RASTERIZER_DISCARD was enabled. The clear will not be rendered.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "RASTERIZER_DISCARD enabled during clear. Nothing will be rendered.",
+        "filename" : "AnalyzerFindingSimplified.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKStencilAttachmentInternalFormatIsNotStencilRenderable" : [
+      {
+        "target" : "Framebuffer Stencil Attachment Internal Format is not Stencil-Renderable",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Framebuffer stencil attachment internal format is not stencil-renderable",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKUseOfNonExistentProgram" : [
+      {
+        "target" : "Use of Non-Existent Program",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Use of non-existent program",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFDKBufferBindingVAODependency" : [
       {
         "target" : "After binding a VAO explicitly call BindBuffer(ARRAY_BUFFER, <name>) prior to any subsequent call that uses the current buffer binding.",
@@ -439,18 +439,6 @@
         "language" : "en"
       }
     ],
-    "DYFKIneffectiveSetUniformCall" : [
-      {
-        "target" : "Ineffective Set Uniform Call",
-        "filename" : "AnalyzerFindingKinds.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Ineffective set uniform call",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFDKDrawExceededArrayBufferSize" : [
       {
         "target" : "This draw call accessed a vertex outside the range of an array buffer in use.",
@@ -459,6 +447,18 @@
       },
       {
         "target" : "A draw call accessed a vertex outside the range of an array buffer in use. This is a serious error, and may result in a crash.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKIneffectiveSetUniformCall" : [
+      {
+        "target" : "Ineffective Set Uniform Call",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Ineffective set uniform call",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -619,20 +619,15 @@
         "language" : "en"
       }
     ],
-    "DYFDKMulticontextBufferUsageWithoutRebindingWarning" : [
+    "DYFDKRedundantAttribLocationQuery" : [
       {
-        "target" : " possibly has been updated in a different context without a subsequent post-flush bind operation in the context it is being used in.",
+        "target" : " has been queried more than once after linking. For better performance cache attrib locations.",
         "filename" : "AnalyzerFindingShort.strings",
         "language" : "en"
       },
       {
-        "target" : "Your application used a portion of a buffer object that possibly has been updated in a different context without a subsequent post-flush bind operation in the context it is being used in. \nTo ensure defined results of updates to shared objects across contexts in the sharegroup, your application must perform the following tasks, in this order: \n\n1.Change the state of an object. \n2.Call Flush on the rendering context that issues the state-modifying routines. \n3.Each context must rebind the object to see the changes.",
+        "target" : "The location of the same attrib has been queried more than once after linking. It is more efficient to call GetAttribLocation once per-attrib per-program after linking and to cache the retrieved uniform locations in your application. This will help to eliminate unnecessary string processing.",
         "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "$ThisBuf$ possibly $has$ been updated in a different context without a subsequent post-flush bind operation in the context $it$ $is$ being used in.",
-        "filename" : "AnalyzerFindingSimplified.strings",
         "language" : "en"
       }
     ],
@@ -653,25 +648,6 @@
         "language" : "en"
       }
     ],
-    "DYFDKRedundantAttribLocationQuery" : [
-      {
-        "target" : " has been queried more than once after linking. For better performance cache attrib locations.",
-        "filename" : "AnalyzerFindingShort.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "The location of the same attrib has been queried more than once after linking. It is more efficient to call GetAttribLocation once per-attrib per-program after linking and to cache the retrieved uniform locations in your application. This will help to eliminate unnecessary string processing.",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFURLGetQueryObjectuivQueryIsActive" : [
-      {
-        "target" : "",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFDKMipmappingWithoutCompleteMipchain" : [
       {
         "target" : " has mipmapping enabled, but is missing levels of the mip-chain.",
@@ -689,9 +665,45 @@
         "language" : "en"
       }
     ],
+    "DYFURLGetQueryObjectuivQueryIsActive" : [
+      {
+        "target" : "",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKMulticontextBufferUsageWithoutRebindingWarning" : [
+      {
+        "target" : " possibly has been updated in a different context without a subsequent post-flush bind operation in the context it is being used in.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Your application used a portion of a buffer object that possibly has been updated in a different context without a subsequent post-flush bind operation in the context it is being used in. \nTo ensure defined results of updates to shared objects across contexts in the sharegroup, your application must perform the following tasks, in this order: \n\n1.Change the state of an object. \n2.Call Flush on the rendering context that issues the state-modifying routines. \n3.Each context must rebind the object to see the changes.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "$ThisBuf$ possibly $has$ been updated in a different context without a subsequent post-flush bind operation in the context $it$ $is$ being used in.",
+        "filename" : "AnalyzerFindingSimplified.strings",
+        "language" : "en"
+      }
+    ],
     "DYFURLNonExistentUniform" : [
       {
         "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKMultithreadedContextUsageError" : [
+      {
+        "target" : "Your app used a context from more than one thread simultaneously.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Your application used a context from more than one thread simultaneously. This is an error that will likely lead to a crash. OpenGL ES provides no thread safety, so if you want to use the same context on multiple threads, you must employ some form of thread synchronization to prevent simultaneous access to the same context from multiple threads which could lead to a crash. See documentation on Grand Central Dispatch (GCD) for more information. Another option for multithreaded GL usage is to create an OpenGL context per thread, and to have each of these contexts use the same sharegroup when resources need to be shared across threads.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -711,18 +723,6 @@
     "DYFURLVertexBufferObjectDataAlignmentIssue" : [
       {
         "target" : " ",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFDKMultithreadedContextUsageError" : [
-      {
-        "target" : "Your app used a context from more than one thread simultaneously.",
-        "filename" : "AnalyzerFindingShort.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Your application used a context from more than one thread simultaneously. This is an error that will likely lead to a crash. OpenGL ES provides no thread safety, so if you want to use the same context on multiple threads, you must employ some form of thread synchronization to prevent simultaneous access to the same context from multiple threads which could lead to a crash. See documentation on Grand Central Dispatch (GCD) for more information. Another option for multithreaded GL usage is to create an OpenGL context per thread, and to have each of these contexts use the same sharegroup when resources need to be shared across threads.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -806,13 +806,6 @@
         "language" : "en"
       }
     ],
-    "DYFURLUseOfIncompletePipeline" : [
-      {
-        "target" : " ",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFDKTextureInternalFormatIsNotTextureFilterable" : [
       {
         "target" : " uses a texture with an invalid internal format for filtering.",
@@ -827,6 +820,13 @@
       {
         "target" : "$ThisTex$ $has$ an invalid internal format for texture filtering.",
         "filename" : "AnalyzerFindingSimplified.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLUseOfIncompletePipeline" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
@@ -1038,21 +1038,21 @@
         "language" : "en"
       }
     ],
-    "DYFURLPresentNonLayerBackedRenderbuffer" : [
+    "DYFKRecommendUsingInterleavingForStaticVBOs" : [
       {
-        "target" : " ",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFKExtraneousShaderForPipelineStage" : [
-      {
-        "target" : "Extraneous Shader for Program Pipeline Stage",
+        "target" : "Recommend Using Interleaving for Static VBOs",
         "filename" : "AnalyzerFindingKinds.strings",
         "language" : "en"
       },
       {
-        "target" : "Extraneous shader for program pipeline stage",
+        "target" : "Non-interleaved vertex arrays in static buffer object(s)",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLUninitializedBufferData" : [
+      {
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1069,7 +1069,7 @@
         "language" : "en"
       }
     ],
-    "DYFURLUninitializedBufferData" : [
+    "DYFURLPresentNonLayerBackedRenderbuffer" : [
       {
         "target" : " ",
         "filename" : "AnalyzerFinding.strings",
@@ -1090,14 +1090,14 @@
         "language" : "en"
       }
     ],
-    "DYFKRecommendUsingInterleavingForStaticVBOs" : [
+    "DYFKExtraneousShaderForPipelineStage" : [
       {
-        "target" : "Recommend Using Interleaving for Static VBOs",
+        "target" : "Extraneous Shader for Program Pipeline Stage",
         "filename" : "AnalyzerFindingKinds.strings",
         "language" : "en"
       },
       {
-        "target" : "Non-interleaved vertex arrays in static buffer object(s)",
+        "target" : "Extraneous shader for program pipeline stage",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1207,13 +1207,6 @@
         "language" : "en"
       }
     ],
-    "DYFURLNonExistentAttachment" : [
-      {
-        "target" : " ",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFKReadPixelsSuboptimalFormat" : [
       {
         "target" : "Recommend Optimal Format\/Type for ReadPixels Call",
@@ -1222,6 +1215,13 @@
       },
       {
         "target" : "Recommend optimal format\/type for ReadPixels call",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLNonExistentAttachment" : [
+      {
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1250,13 +1250,6 @@
         "language" : "en"
       }
     ],
-    "DYFURLTransformFeedbackNoVaryings" : [
-      {
-        "target" : " ",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFKUniformBufferTooSmallForUniformBlock" : [
       {
         "target" : "Uniform Buffer Bound to Block is Too Small",
@@ -1265,6 +1258,13 @@
       },
       {
         "target" : "Uniform buffer bound to block is too small",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLTransformFeedbackNoVaryings" : [
+      {
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1321,21 +1321,7 @@
         "language" : "en"
       }
     ],
-    "DYFURLGLDeprecated" : [
-      {
-        "target" : " ",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFURLUseProgramTransformFeedbackActiveNotPaused" : [
-      {
-        "target" : " ",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFURLRecommendUsingVAO" : [
       {
         "target" : " ",
         "filename" : "AnalyzerFinding.strings",
@@ -1350,6 +1336,20 @@
       },
       {
         "target" : "Draw call after ReadPixels",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLRecommendUsingVAO" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLGLDeprecated" : [
+      {
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1489,18 +1489,6 @@
         "language" : "en"
       }
     ],
-    "DYFKDrawExceededArrayBufferSize" : [
-      {
-        "target" : "Draw Call Exceeded Array Buffer Bounds",
-        "filename" : "AnalyzerFindingKinds.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Draw call exceeded array buffer bounds",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFKMonolithicProgramWithProgramSeparable" : [
       {
         "target" : "Monolithic Program With PROGRAM_SEPARABLE Set to TRUE",
@@ -1513,6 +1501,25 @@
         "language" : "en"
       }
     ],
+    "DYFKDrawExceededArrayBufferSize" : [
+      {
+        "target" : "Draw Call Exceeded Array Buffer Bounds",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Draw call exceeded array buffer bounds",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLEndQueryWithoutActiveQuery" : [
+      {
+        "target" : "",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFKRecommendUsingElementBuffers" : [
       {
         "target" : "Recommend Using Element Array Buffers",
@@ -1521,13 +1528,6 @@
       },
       {
         "target" : "Element array not contained in buffer object",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFURLEndQueryWithoutActiveQuery" : [
-      {
-        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1671,6 +1671,13 @@
         "language" : "en"
       }
     ],
+    "DYFURLAttachmentInternalFormatIsNotTextureFilterable" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFDKGetQueryObjectuivQueryIsActive" : [
       {
         "target" : ": QueryObjectuiv was called when there was already an active query.",
@@ -1685,13 +1692,6 @@
       {
         "target" : ": QueryObjectuiv was called when there was already an active query on the target.",
         "filename" : "AnalyzerFindingSimplified.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFURLAttachmentInternalFormatIsNotTextureFilterable" : [
-      {
-        "target" : " ",
-        "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
@@ -1810,13 +1810,6 @@
         "language" : "en"
       }
     ],
-    "DYFURLQueryIsAlreadyActive" : [
-      {
-        "target" : "",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFKQueryIsAlreadyActive" : [
       {
         "target" : "BeginQueryʼs Query Already Active",
@@ -1829,19 +1822,26 @@
         "language" : "en"
       }
     ],
-    "DYFDKRecommendFourComponentsForByteData" : [
+    "DYFURLQueryIsAlreadyActive" : [
       {
-        "target" : "When using byte format data, use a four component layout to ensure optimal alignment.",
+        "target" : "",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKRecommendCompressedTexture" : [
+      {
+        "target" : " is an uncompressed static texture. Improve performance and save memory by using a compressed texture format such as PVRTC.",
         "filename" : "AnalyzerFindingShort.strings",
         "language" : "en"
       },
       {
-        "target" : "Byte sized data which is not using a four component layout has been detected. When using byte format data it is most efficient to use a four component layout to ensure optimal alignment.",
+        "target" : "Your application used a static texture which is not compressed. Improve the performance of the application and save memory by using a hardware-supported compressed texture format such as PVRTC. See documentation on CompressedTexImage2D for more details.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       },
       {
-        "target" : "You are not using a four component (e.g. rgba) layout for your byte-sized vertex data. It is faster to use a four component layout.",
+        "target" : "$ThisTex$ $isan$ uncompressed static $texture$. Improve performance and save memory by using a compressed texture format such as PVRTC.",
         "filename" : "AnalyzerFindingSimplified.strings",
         "language" : "en"
       }
@@ -1865,19 +1865,19 @@
         "language" : "en"
       }
     ],
-    "DYFDKRecommendCompressedTexture" : [
+    "DYFDKRecommendFourComponentsForByteData" : [
       {
-        "target" : " is an uncompressed static texture. Improve performance and save memory by using a compressed texture format such as PVRTC.",
+        "target" : "When using byte format data, use a four component layout to ensure optimal alignment.",
         "filename" : "AnalyzerFindingShort.strings",
         "language" : "en"
       },
       {
-        "target" : "Your application used a static texture which is not compressed. Improve the performance of the application and save memory by using a hardware-supported compressed texture format such as PVRTC. See documentation on CompressedTexImage2D for more details.",
+        "target" : "Byte sized data which is not using a four component layout has been detected. When using byte format data it is most efficient to use a four component layout to ensure optimal alignment.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       },
       {
-        "target" : "$ThisTex$ $isan$ uncompressed static $texture$. Improve performance and save memory by using a compressed texture format such as PVRTC.",
+        "target" : "You are not using a four component (e.g. rgba) layout for your byte-sized vertex data. It is faster to use a four component layout.",
         "filename" : "AnalyzerFindingSimplified.strings",
         "language" : "en"
       }
@@ -1918,18 +1918,6 @@
         "language" : "en"
       }
     ],
-    "DYFKOverlappingVertexData" : [
-      {
-        "target" : "Draw Call Accessed Overlapping Vertex Data",
-        "filename" : "AnalyzerFindingKinds.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Draw call accessed overlapping vertex data",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFDKPipelineValidateError" : [
       {
         "target" : " failed validation. Ensure that any programs used for this pipeline object have PROGRAM_SEPARABLE set to TRUE",
@@ -1938,6 +1926,13 @@
       },
       {
         "target" : "A program pipeline object failed validation. Ensure that any programs used for this pipeline object have PROGRAM_SEPARABLE set to TRUE, and have been successfully linked after this. Also verify that vertex and fragment shaders have been successfully compiled and attached where used.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLIndexedDrawExceededArrayBufferSize" : [
+      {
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1954,9 +1949,14 @@
         "language" : "en"
       }
     ],
-    "DYFURLIndexedDrawExceededArrayBufferSize" : [
+    "DYFKOverlappingVertexData" : [
       {
-        "target" : " ",
+        "target" : "Draw Call Accessed Overlapping Vertex Data",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Draw call accessed overlapping vertex data",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -2186,13 +2186,6 @@
         "language" : "en"
       }
     ],
-    "DYFURLNoBufferData" : [
-      {
-        "target" : "",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFDKMulticontextBufferUsageWithoutRebindingError" : [
       {
         "target" : " has been updated in a different context without a subsequent post-flush bind operation in the context it is being used in.",
@@ -2207,6 +2200,13 @@
       {
         "target" : "$ThisBuf$ $has$ been updated in a different context without a subsequent post-flush bind operation in the context $it$ $is$ being used in.",
         "filename" : "AnalyzerFindingSimplified.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLNoBufferData" : [
+      {
+        "target" : "",
+        "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
@@ -2432,14 +2432,9 @@
         "language" : "en"
       }
     ],
-    "DYFKPipelineValidateError" : [
+    "DYFURLExtraneousShaderForPipelineStage" : [
       {
-        "target" : "Program Pipeline Validation Failure",
-        "filename" : "AnalyzerFindingKinds.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "A program pipeline object failed validation",
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -2482,9 +2477,14 @@
         "language" : "en"
       }
     ],
-    "DYFURLExtraneousShaderForPipelineStage" : [
+    "DYFKBlitFramebufferReadFromUninitializedAttachment" : [
       {
-        "target" : " ",
+        "target" : "BlitFramebuffer read from uninitialized attachment",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "BlitFramebuffer read from uninitialized attachment",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -2513,14 +2513,9 @@
         "language" : "en"
       }
     ],
-    "DYFKBlitFramebufferReadFromUninitializedAttachment" : [
+    "DYFURLReadPixelsSuboptimalFormat" : [
       {
-        "target" : "BlitFramebuffer read from uninitialized attachment",
-        "filename" : "AnalyzerFindingKinds.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "BlitFramebuffer read from uninitialized attachment",
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -2599,9 +2594,14 @@
         "language" : "en"
       }
     ],
-    "DYFURLReadPixelsSuboptimalFormat" : [
+    "DYFKPipelineValidateError" : [
       {
-        "target" : " ",
+        "target" : "Program Pipeline Validation Failure",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "A program pipeline object failed validation",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -2778,6 +2778,18 @@
         "language" : "en"
       }
     ],
+    "DYFKUseOfNonExistentPipeline" : [
+      {
+        "target" : "Use of Non-Existent Program Pipeline Object",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Use of non-existent program pipeline object",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFDKUniformBufferTooSmallForUniformBlock" : [
       {
         "target" : " has a named uniform block bound to a buffer and the block requires more data than is available in the buffer.",
@@ -2798,18 +2810,6 @@
     "DYFURLQueryingOcclusionQueryLaunchedInThisFrame" : [
       {
         "target" : "",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFKUseOfNonExistentPipeline" : [
-      {
-        "target" : "Use of Non-Existent Program Pipeline Object",
-        "filename" : "AnalyzerFindingKinds.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Use of non-existent program pipeline object",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -3015,6 +3015,18 @@
         "language" : "en"
       }
     ],
+    "DYFDKIncorrectMulticontextObjectUsage" : [
+      {
+        "target" : "An object being used in a multicontext scenario with a potential race condition has been detected.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "An object being used in a multicontext scenario with a potential race condition has been detected.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFDKExtraneousShaderForPipelineStage" : [
       {
         "target" : " has been linked with a shader which is not currently used by the program pipeline.",
@@ -3047,18 +3059,6 @@
       },
       {
         "target" : "Multi-context buffer usage without flush",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFDKIncorrectMulticontextObjectUsage" : [
-      {
-        "target" : "An object being used in a multicontext scenario with a potential race condition has been detected.",
-        "filename" : "AnalyzerFindingShort.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "An object being used in a multicontext scenario with a potential race condition has been detected.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -3120,13 +3120,6 @@
         "language" : "en"
       }
     ],
-    "DYFURLClearBufferInvalidBufferType" : [
-      {
-        "target" : " ",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFDKDrawExceededElementArrayBufferSize" : [
       {
         "target" : "This draw call accessed an index outside the range of an element array buffer in use.",
@@ -3135,13 +3128,6 @@
       },
       {
         "target" : "A draw call accessed an index outside the range of an element array buffer in use. This is a serious error, and may result in a crash.",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFURLRecommendShortElementData" : [
-      {
-        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -3163,6 +3149,13 @@
         "language" : "en"
       }
     ],
+    "DYFURLRecommendShortElementData" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFKRecommendUsingVAO" : [
       {
         "target" : "Recommend Using VAO",
@@ -3171,6 +3164,13 @@
       },
       {
         "target" : "Lack of vertex array objects",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLClearBufferInvalidBufferType" : [
+      {
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -3206,6 +3206,13 @@
         "language" : "en"
       }
     ],
+    "DYFURLReadPixelsUninitializedColorAttachment" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFDKDrawCallWithIncompletePrimitives" : [
       {
         "target" : "A draw call was made with incomplete primitives.",
@@ -3218,6 +3225,13 @@
         "language" : "en"
       }
     ],
+    "DYFURLStencilTestEnabledWithoutStencilBuffer" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFDKIndexedDrawExceededArrayBufferSize" : [
       {
         "target" : "This draw call accessed a vertex outside the range of an array buffer in use.",
@@ -3226,20 +3240,6 @@
       },
       {
         "target" : "A draw call accessed a vertex outside the range of an array buffer in use. This is a serious error, and may result in a crash.",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFURLStencilTestEnabledWithoutStencilBuffer" : [
-      {
-        "target" : " ",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFURLReadPixelsUninitializedColorAttachment" : [
-      {
-        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -3273,14 +3273,14 @@
         "language" : "en"
       }
     ],
-    "DYFURLGLErrorInvalidValue" : [
+    "DYFURLReadPixelsSuboptimalDimensions" : [
       {
         "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFURLReadPixelsSuboptimalDimensions" : [
+    "DYFURLGLErrorInvalidValue" : [
       {
         "target" : " ",
         "filename" : "AnalyzerFinding.strings",
@@ -3419,9 +3419,14 @@
         "language" : "en"
       }
     ],
-    "DYFURLGLErrorOutOfMemory" : [
+    "DYFDKMonolithicProgramWithProgramSeparable" : [
       {
-        "target" : " ",
+        "target" : " is being used for rendering with PROGRAM_SEPARABLE set to TRUE without being part of a program pipeline.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "A program is being used for rendering with PROGRAM_SEPARABLE set to TRUE without being part of a program pipeline. This combination of render states is in conflict and the draw call will have no result. PROGRAM_SEPARABLE should only be set to true when a program is used as part of a program pipeline.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -3450,14 +3455,9 @@
         "language" : "en"
       }
     ],
-    "DYFDKMonolithicProgramWithProgramSeparable" : [
+    "DYFURLGLErrorOutOfMemory" : [
       {
-        "target" : " is being used for rendering with PROGRAM_SEPARABLE set to TRUE without being part of a program pipeline.",
-        "filename" : "AnalyzerFindingShort.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "A program is being used for rendering with PROGRAM_SEPARABLE set to TRUE without being part of a program pipeline. This combination of render states is in conflict and the draw call will have no result. PROGRAM_SEPARABLE should only be set to true when a program is used as part of a program pipeline.",
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -3709,13 +3709,6 @@
         "language" : "en"
       }
     ],
-    "DYURLDepthAttachmentInternalFormatIsNotDepthRenderable" : [
-      {
-        "target" : " ",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFDKGLErrorInvalidValue" : [
       {
         "target" : "A numeric argument to the function call has an unacceptable value.",
@@ -3724,6 +3717,13 @@
       },
       {
         "target" : "A numeric argument to the function call has an unacceptable value. Due to this error, the function call has no effect.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYURLDepthAttachmentInternalFormatIsNotDepthRenderable" : [
+      {
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -3829,14 +3829,14 @@
         "language" : "en"
       }
     ],
-    "DYFDKInefficientStateUpdate" : [
+    "DYFKClientSidePerVertexDataAlignmentIssue" : [
       {
-        "target" : " sets a piece of GL state more than once before it is used by a clear or a draw call.",
-        "filename" : "AnalyzerFindingShort.strings",
+        "target" : "Client Side Per-vertex Data Alignment Issue",
+        "filename" : "AnalyzerFindingKinds.strings",
         "language" : "en"
       },
       {
-        "target" : "A GL function call that sets a piece of GL state more than once before it is used by a clear or a draw call has been detected. Minimize the number of these inefficient state calls, since these calls are performing unnecessary work.",
+        "target" : "Misaligned per-vertex data array element",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -3858,14 +3858,14 @@
         "language" : "en"
       }
     ],
-    "DYFKClientSidePerVertexDataAlignmentIssue" : [
+    "DYFDKInefficientStateUpdate" : [
       {
-        "target" : "Client Side Per-vertex Data Alignment Issue",
-        "filename" : "AnalyzerFindingKinds.strings",
+        "target" : " sets a piece of GL state more than once before it is used by a clear or a draw call.",
+        "filename" : "AnalyzerFindingShort.strings",
         "language" : "en"
       },
       {
-        "target" : "Misaligned per-vertex data array element",
+        "target" : "A GL function call that sets a piece of GL state more than once before it is used by a clear or a draw call has been detected. Minimize the number of these inefficient state calls, since these calls are performing unnecessary work.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -3913,18 +3913,6 @@
         "language" : "en"
       }
     ],
-    "DYFKNonExistentBufferUsage" : [
-      {
-        "target" : "Draw Call Accessed Non-Existent Buffer Object",
-        "filename" : "AnalyzerFindingKinds.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Draw call accessed non-existent buffer object",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFKMipmappingWithoutCompleteMipchain" : [
       {
         "target" : "Mipmapping Without Complete Mipchain",
@@ -3933,6 +3921,18 @@
       },
       {
         "target" : "Mipmapping enabled without a complete mip-chain",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKNonExistentBufferUsage" : [
+      {
+        "target" : "Draw Call Accessed Non-Existent Buffer Object",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Draw call accessed non-existent buffer object",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -3985,6 +3985,13 @@
         "language" : "en"
       }
     ],
+    "DYFURLMissingShaderTypeForPipelineStage" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFDKGLErrorInvalidFramebufferOperation" : [
       {
         "target" : "The current framebuffer is invalid.",
@@ -3993,13 +4000,6 @@
       },
       {
         "target" : "The specified render or read operation is invalid due to the current framebuffer being invalid. Due to this error, the function call has no effect.",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFURLMissingShaderTypeForPipelineStage" : [
-      {
-        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }

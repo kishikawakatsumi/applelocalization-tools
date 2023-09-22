@@ -112,9 +112,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIButton.PopupWithZeroCommands" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.MKLookAroundViewController.Availability" : [
       {
-        "target" : "Popup button menu must contain at least 1 menu command.",
+        "target" : "MKLookAroundViewController before iOS 16.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -126,9 +126,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.MKLookAroundViewController.Availability" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIButton.PopupWithZeroCommands" : [
       {
-        "target" : "MKLookAroundViewController before iOS 16.0",
+        "target" : "Popup button menu must contain at least 1 menu command.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -196,6 +196,13 @@
         "language" : "en"
       }
     ],
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.MacCatalyst.UILabel.ShowsExpansionTextWhenTruncated" : [
+      {
+        "target" : "Shows Expansion Text When Truncated before macCatalyst 15.0",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Xcode.IDEInterfaceBuilder.CocoaTouch.UIVisualEffectView" : [
       {
         "target" : "UIVisualEffectView before iOS 8.0",
@@ -206,13 +213,6 @@
     "Xcode.IDEInterfaceBuilder.CocoaTouch.IBCocoaTouchStoryboardPopoverSegue.UnsupportedCustomClass" : [
       {
         "target" : "Legacy popover segues do not support custom classes.",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.MacCatalyst.UILabel.ShowsExpansionTextWhenTruncated" : [
-      {
-        "target" : "Shows Expansion Text When Truncated before macCatalyst 15.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -357,13 +357,6 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIButton.CustomTitle" : [
-      {
-        "target" : "Title unsupported by this button type",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.IDEInterfaceBuilder.CocoaTouch.UIActivityIndicatorView.StyleMedium" : [
       {
         "target" : "Medium Style before iOS 13.0",
@@ -374,6 +367,13 @@
     "Xcode.IDEInterfaceBuilder.CocoaTouch.UIButton.CustomBackgroundImage" : [
       {
         "target" : "Background Image unsupported by this button type",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIButton.CustomTitle" : [
+      {
+        "target" : "Title unsupported by this button type",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -406,16 +406,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIView.SafeAreaLayoutGuide" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UISegmentedControl.segmentedControlStyle" : [
       {
-        "target" : "Safe area layout guide before iOS 11.0",
+        "target" : "Segmented control style is deprecated since iOS 7.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UISegmentedControl.segmentedControlStyle" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIView.SafeAreaLayoutGuide" : [
       {
-        "target" : "Segmented control style is deprecated since iOS 7.0",
+        "target" : "Safe area layout guide before iOS 11.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -763,16 +763,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.TintColor.PatternColors" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UITableViewCell.MissingReuseIdentifier" : [
       {
-        "target" : "Tint color specifies pattern colors",
+        "target" : "Prototype table cells must have reuse identifiers",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UITableViewCell.MissingReuseIdentifier" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.TintColor.PatternColors" : [
       {
-        "target" : "Prototype table cells must have reuse identifiers",
+        "target" : "Tint color specifies pattern colors",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -805,16 +805,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIPickerView.MacIdiomUnsupported" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIPanGestureRecognizer.MinTouchesExceedsMax" : [
       {
-        "target" : "UIPickerView is not supported when running Catalyst apps in the Mac idiom. Use trait variations to uninstall the picker for the Mac idiom.",
+        "target" : "Pan gesture recognizer minimum touches should not exceed maximum touches.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIPanGestureRecognizer.MinTouchesExceedsMax" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIPickerView.MacIdiomUnsupported" : [
       {
-        "target" : "Pan gesture recognizer minimum touches should not exceed maximum touches.",
+        "target" : "UIPickerView is not supported when running Catalyst apps in the Mac idiom. Use trait variations to uninstall the picker for the Mac idiom.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -847,16 +847,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIView.IllegalRestorationIdentifier" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UINavigationItem.CenterItemGroups" : [
       {
-        "target" : "Restoration identifier %1$@ contains reserved character '%2$@'.",
+        "target" : "Center Item Groups before iOS 16.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UINavigationItem.CenterItemGroups" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIView.IllegalRestorationIdentifier" : [
       {
-        "target" : "Center Item Groups before iOS 16.0",
+        "target" : "Restoration identifier %1$@ contains reserved character '%2$@'.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -924,9 +924,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.MacCatalyst.ARView" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.ARView" : [
       {
-        "target" : "ARView before macCatalyst 14.0",
+        "target" : "ARView before iOS 13.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -938,9 +938,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.ARView" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.MacCatalyst.ARView" : [
       {
-        "target" : "ARView before iOS 13.0",
+        "target" : "ARView before macCatalyst 14.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1078,9 +1078,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UITextView.DataDetectors.EditableTextView" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.ARSKView" : [
       {
-        "target" : "Data Detection and Editable (These attributes are mutually exclusive)",
+        "target" : "ARSKView before iOS 11.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1092,9 +1092,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIColorWell" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UITextView.DataDetectors.EditableTextView" : [
       {
-        "target" : "UIColorWell before iOS 14.0",
+        "target" : "Data Detection and Editable (These attributes are mutually exclusive)",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1106,9 +1106,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.ARSKView" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIColorWell" : [
       {
-        "target" : "ARSKView before iOS 11.0",
+        "target" : "UIColorWell before iOS 14.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1141,16 +1141,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.MacCatalyst.RoomCaptureView" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UITableViewCell.ContentConfiguration" : [
       {
-        "target" : "RoomCaptureView before macCatalyst 16.0",
+        "target" : "Content Configuration before iOS 14.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UITableViewCell.ContentConfiguration" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.ARSCNView" : [
       {
-        "target" : "Content Configuration before iOS 14.0",
+        "target" : "ARSCNView before iOS 11.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1197,9 +1197,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.ARSCNView" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.MacCatalyst.RoomCaptureView" : [
       {
-        "target" : "ARSCNView before iOS 11.0",
+        "target" : "RoomCaptureView before macCatalyst 16.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }

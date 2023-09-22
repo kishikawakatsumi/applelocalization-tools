@@ -66,16 +66,16 @@
         "language" : "en"
       }
     ],
-    "defaultMacOSSuggestion" : [
+    "contrastAAAPass.suggestion" : [
       {
-        "target" : "Review the NSAccessibility protocol",
+        "target" : "Excellent. No change needed.",
         "filename" : "AuditIssues.loctable",
         "language" : "en"
       }
     ],
-    "contrastAAAPass.suggestion" : [
+    "defaultMacOSSuggestion" : [
       {
-        "target" : "Excellent. No change needed.",
+        "target" : "Review the NSAccessibility protocol",
         "filename" : "AuditIssues.loctable",
         "language" : "en"
       }
@@ -297,9 +297,9 @@
         "language" : "en"
       }
     ],
-    "elementValueDuplicateTraitString.longDesc" : [
+    "contrastUnknown.title" : [
       {
-        "target" : "The accessibilityValue of this %@ duplicates information that is available in the traits.",
+        "target" : "Unknown contrast",
         "filename" : "AuditIssues.loctable",
         "language" : "en"
       }
@@ -346,9 +346,9 @@
         "language" : "en"
       }
     ],
-    "contrastUnknown.title" : [
+    "elementValueDuplicateTraitString.longDesc" : [
       {
-        "target" : "Unknown contrast",
+        "target" : "The accessibilityValue of this %@ duplicates information that is available in the traits.",
         "filename" : "AuditIssues.loctable",
         "language" : "en"
       }
@@ -493,13 +493,6 @@
         "language" : "en"
       }
     ],
-    "elementLabelAndValueEmpty.title" : [
-      {
-        "target" : "Element has no description",
-        "filename" : "AuditIssues.loctable",
-        "language" : "en"
-      }
-    ],
     "element" : [
       {
         "target" : "element",
@@ -507,9 +500,16 @@
         "language" : "en"
       }
     ],
-    "missingParent.longDesc" : [
+    "elementLabelAndValueEmpty.title" : [
       {
-        "target" : "This %@ is missing an accessibility parent element.",
+        "target" : "Element has no description",
+        "filename" : "AuditIssues.loctable",
+        "language" : "en"
+      }
+    ],
+    "contrastUnknown.longDesc" : [
+      {
+        "target" : "Unable to determine the contrast in this region.",
         "filename" : "AuditIssues.loctable",
         "language" : "en"
       }
@@ -528,16 +528,16 @@
         "language" : "en"
       }
     ],
-    "contrastUnknown.longDesc" : [
+    "contrastAAAFail.title" : [
       {
-        "target" : "Unable to determine the contrast in this region.",
+        "target" : "Contrast failed",
         "filename" : "AuditIssues.loctable",
         "language" : "en"
       }
     ],
-    "contrastAAAFail.title" : [
+    "missingParent.longDesc" : [
       {
-        "target" : "Contrast failed",
+        "target" : "This %@ is missing an accessibility parent element.",
         "filename" : "AuditIssues.loctable",
         "language" : "en"
       }
@@ -570,13 +570,6 @@
         "language" : "en"
       }
     ],
-    "elementMissingTraitNotEnabled.suggestion" : [
-      {
-        "target" : "Add the UIAccessibilityTraitNotEnabled trait to this element.",
-        "filename" : "AuditIssues.loctable",
-        "language" : "en"
-      }
-    ],
     "actionMissing.suggestion.formatter" : [
       {
         "target" : "Consider implementing the following method(s): %@",
@@ -584,9 +577,9 @@
         "language" : "en"
       }
     ],
-    "actionMissing.longDesc" : [
+    "elementMissingTraitNotEnabled.suggestion" : [
       {
-        "target" : "This %@ is missing accessibility action support equivalent to click\/tap inputs.",
+        "target" : "Add the UIAccessibilityTraitNotEnabled trait to this element.",
         "filename" : "AuditIssues.loctable",
         "language" : "en"
       }
@@ -594,6 +587,13 @@
     "elementLabelDuplicateTraitString.longDesc" : [
       {
         "target" : "The accessibilityLabel of this %@ duplicates information that is available in the traits.",
+        "filename" : "AuditIssues.loctable",
+        "language" : "en"
+      }
+    ],
+    "actionMissing.longDesc" : [
+      {
+        "target" : "This %@ is missing accessibility action support equivalent to click\/tap inputs.",
         "filename" : "AuditIssues.loctable",
         "language" : "en"
       }
@@ -619,13 +619,6 @@
         "language" : "en"
       }
     ],
-    "contrastAAAPass.longDesc" : [
-      {
-        "target" : "Contrast passed.",
-        "filename" : "AuditIssues.loctable",
-        "language" : "en"
-      }
-    ],
     "hitTestButNotInSwipeOrder.suggestion" : [
       {
         "target" : "A user may be able to touch to select this element, but it is not accessible in linear navigation order. It will not be accessible to those using linear navigation techniques such as swipes or keyboard shortcuts.",
@@ -633,16 +626,16 @@
         "language" : "en"
       }
     ],
-    "textIsClipped.longDesc" : [
+    "contrastAAAPass.longDesc" : [
       {
-        "target" : "Text of this %@ may be clipped at larger Dynamic Text sizes.",
+        "target" : "Contrast passed.",
         "filename" : "AuditIssues.loctable",
         "language" : "en"
       }
     ],
-    "elementMissingTraitNotEnabled.longDesc" : [
+    "textIsClipped.longDesc" : [
       {
-        "target" : "This %@ is disabled, but it is missing the UIAccessibilityTraitNotEnabled trait.",
+        "target" : "Text of this %@ may be clipped at larger Dynamic Text sizes.",
         "filename" : "AuditIssues.loctable",
         "language" : "en"
       }
@@ -657,6 +650,13 @@
     "elementImageHasNoLabel.suggestion" : [
       {
         "target" : "Consider setting the accessibilityLabel.",
+        "filename" : "AuditIssues.loctable",
+        "language" : "en"
+      }
+    ],
+    "elementMissingTraitNotEnabled.longDesc" : [
+      {
+        "target" : "This %@ is disabled, but it is missing the UIAccessibilityTraitNotEnabled trait.",
         "filename" : "AuditIssues.loctable",
         "language" : "en"
       }

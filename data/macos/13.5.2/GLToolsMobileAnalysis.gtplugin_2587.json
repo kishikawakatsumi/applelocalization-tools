@@ -981,6 +981,18 @@
         "language" : "en"
       }
     ],
+    "DYFDKRecommendFourComponentsForByteData" : [
+      {
+        "target" : "When using byte format data, use a four component layout to ensure optimal alignment.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Your application used byte sized vertex data without using a four component layout. When using byte format data it is most efficient to use a four component layout to ensure optimal alignment.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFDKFragmentShaderDynamicBranching" : [
       {
         "target" : " contains dynamic branch instructions, which reduces the performance of the shader.",
@@ -1006,18 +1018,6 @@
       },
       {
         "target" : "Loss of fast path rendering due to large framebuffer color attachment writes",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFDKRecommendFourComponentsForByteData" : [
-      {
-        "target" : "When using byte format data, use a four component layout to ensure optimal alignment.",
-        "filename" : "AnalyzerFindingShort.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Your application used byte sized vertex data without using a four component layout. When using byte format data it is most efficient to use a four component layout to ensure optimal alignment.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1069,6 +1069,13 @@
         "language" : "en"
       }
     ],
+    "array" : [
+      {
+        "target" : "array",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "FramebufferTexture2D() level<%d> not supported without OES_fbo_render_mipmap extension" : [
       {
         "target" : "FramebufferTexture2D() level<%d> not supported without OES_fbo_render_mipmap extension",
@@ -1079,13 +1086,6 @@
     "sfactor" : [
       {
         "target" : "sfactor",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "array" : [
-      {
-        "target" : "array",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1248,14 +1248,14 @@
         "language" : "en"
       }
     ],
-    "DYFURLRecommendTwoOrFourComponentsForShortData" : [
+    "DYFURLLogicalBufferStore" : [
       {
         "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFURLLogicalBufferStore" : [
+    "DYFURLRecommendTwoOrFourComponentsForShortData" : [
       {
         "target" : " ",
         "filename" : "AnalyzerFinding.strings",
@@ -1372,13 +1372,6 @@
         "language" : "en"
       }
     ],
-    "DYFURLVertexShaderDataSpill" : [
-      {
-        "target" : " ",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "pname(aka value)" : [
       {
         "target" : "pname(aka value)",
@@ -1389,6 +1382,13 @@
     "dfactor" : [
       {
         "target" : "dfactor",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLVertexShaderDataSpill" : [
+      {
+        "target" : " ",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1459,14 +1459,14 @@
         "language" : "en"
       }
     ],
-    "DYFDKRecommendIndexedRendering" : [
+    "DYFDKNotPrewarmedShaderCompilationES11" : [
       {
-        "target" : "For best performance, render lines & triangles using indexed rendering through DrawElements.",
+        "target" : "Where possible, prewarm any state combinations used for rendering.",
         "filename" : "AnalyzerFindingShort.strings",
         "language" : "en"
       },
       {
-        "target" : "Your application contains a draw call that renders without using indexed primitives. When rendering lines or triangles use indexed rendering through DrawElements.",
+        "target" : "Your application caused a pipeline reconfiguration that is not part of an initial prewarming phase. Pipeline reconfigurations are caused by rendering with state configurations that have never been used by the application. Pipeline reconfigurations can be a time consuming operation. To avoid them, prewarm any state combinations used for rendering. To do this, make a prewarming pass when your application launches and execute a drawing call for each of the state combinations used. Alpha test, blending, color mask, lighting, logic ops, multisampling, texture formats, texture environment, and point primitive state can cause pipeline reconfigurations.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1483,14 +1483,14 @@
         "language" : "en"
       }
     ],
-    "DYFDKNotPrewarmedShaderCompilationES11" : [
+    "DYFDKRecommendIndexedRendering" : [
       {
-        "target" : "Where possible, prewarm any state combinations used for rendering.",
+        "target" : "For best performance, render lines & triangles using indexed rendering through DrawElements.",
         "filename" : "AnalyzerFindingShort.strings",
         "language" : "en"
       },
       {
-        "target" : "Your application caused a pipeline reconfiguration that is not part of an initial prewarming phase. Pipeline reconfigurations are caused by rendering with state configurations that have never been used by the application. Pipeline reconfigurations can be a time consuming operation. To avoid them, prewarm any state combinations used for rendering. To do this, make a prewarming pass when your application launches and execute a drawing call for each of the state combinations used. Alpha test, blending, color mask, lighting, logic ops, multisampling, texture formats, texture environment, and point primitive state can cause pipeline reconfigurations.",
+        "target" : "Your application contains a draw call that renders without using indexed primitives. When rendering lines or triangles use indexed rendering through DrawElements.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1526,16 +1526,16 @@
         "language" : "en"
       }
     ],
-    "nx" : [
+    "(invalid plane=%d: Clipping plane out of range[0..%d]" : [
       {
-        "target" : "nx",
+        "target" : ": (invalid plane=%d: Clipping plane out of range[0..%d]",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "(invalid plane=%d: Clipping plane out of range[0..%d]" : [
+    "nx" : [
       {
-        "target" : ": (invalid plane=%d: Clipping plane out of range[0..%d]",
+        "target" : "nx",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1803,13 +1803,6 @@
         "language" : "en"
       }
     ],
-    "usage" : [
-      {
-        "target" : "usage",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "w" : [
       {
         "target" : "w",
@@ -1820,6 +1813,13 @@
     "x" : [
       {
         "target" : "x",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "usage" : [
+      {
+        "target" : "usage",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1946,13 +1946,6 @@
         "language" : "en"
       }
     ],
-    "units" : [
-      {
-        "target" : "units",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFKFragmentShaderDynamicBranchingAndMemoryAccess" : [
       {
         "target" : "Fragment Shader Dynamic Branching + Memory Access",
@@ -1965,6 +1958,13 @@
         "language" : "en"
       }
     ],
+    "DYFURLOffChipMRT" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFURLValidationError" : [
       {
         "target" : " ",
@@ -1972,9 +1972,9 @@
         "language" : "en"
       }
     ],
-    "DYFURLOffChipMRT" : [
+    "units" : [
       {
-        "target" : " ",
+        "target" : "units",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }

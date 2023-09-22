@@ -112,16 +112,16 @@
         "language" : "en"
       }
     ],
-    "Device %@ has unknown productClass" : [
+    "Developer directory '%@' is not actually a directory" : [
       {
-        "target" : "Device %@ has unknown productClass",
+        "target" : "Developer directory '%@' is not actually a directory",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Developer directory '%@' is not actually a directory" : [
+    "Device %@ has unknown productClass" : [
       {
-        "target" : "Developer directory '%@' is not actually a directory",
+        "target" : "Device %@ has unknown productClass",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -217,6 +217,13 @@
         "language" : "en"
       }
     ],
+    "No matching device pair (%@) in set at %@" : [
+      {
+        "target" : "No matching device pair (%1$@) in set at %2$@",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Device %@ has unknown supportedProductFamilyIDs" : [
       {
         "target" : "Device %@ has unknown supportedProductFamilyIDs",
@@ -231,13 +238,6 @@
         "language" : "en"
       }
     ],
-    "No matching device pair (%@) in set at %@" : [
-      {
-        "target" : "No matching device pair (%1$@) in set at %2$@",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Failed to find service %@ in session %@" : [
       {
         "target" : "Failed to find service %1$@ in session %2$@",
@@ -245,16 +245,16 @@
         "language" : "en"
       }
     ],
-    "Invalid request: device type bundle not specified." : [
+    "Invalid request, message_dict is not a dictionary" : [
       {
-        "target" : "Invalid request: device type bundle not specified.",
+        "target" : "Invalid request, message_dict is not a dictionary",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Invalid request: Failed to load requested device type bundle (%@)." : [
+    "Invalid request: device type bundle not specified." : [
       {
-        "target" : "Invalid request: Failed to load requested device type bundle (%@).",
+        "target" : "Invalid request: device type bundle not specified.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -273,9 +273,9 @@
         "language" : "en"
       }
     ],
-    "Invalid request, message_dict is not a dictionary" : [
+    "Invalid request: Failed to load requested device type bundle (%@)." : [
       {
-        "target" : "Invalid request, message_dict is not a dictionary",
+        "target" : "Invalid request: Failed to load requested device type bundle (%@).",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -350,6 +350,13 @@
         "language" : "en"
       }
     ],
+    "Allocation or initialization failed." : [
+      {
+        "target" : "Allocation or initialization failed.",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Failed to get path to capabilities.plist in bundle %@." : [
       {
         "target" : "Failed to get path to capabilities.plist in bundle %@.",
@@ -360,13 +367,6 @@
     "Invalid device: The specified device is not available for spawning processes." : [
       {
         "target" : "Invalid device: The specified device is not available for spawning processes.",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Allocation or initialization failed." : [
-      {
-        "target" : "Allocation or initialization failed.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -735,13 +735,6 @@
         "language" : "en"
       }
     ],
-    "Device %@ has unknown modelIdentifier" : [
-      {
-        "target" : "Device %@ has unknown modelIdentifier",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Error creating profile path monitor" : [
       {
         "target" : "Error creating profile path monitor",
@@ -752,6 +745,13 @@
     "Unknown color space (%@) in %@." : [
       {
         "target" : "Unknown color space (%1$@) in %2$@.",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Device %@ has unknown modelIdentifier" : [
+      {
+        "target" : "Device %@ has unknown modelIdentifier",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -777,16 +777,16 @@
         "language" : "en"
       }
     ],
-    "Invalid request: Device type identifier mismatch: %@ vs %@" : [
+    "Invalid SDK Canonical Name: %@" : [
       {
-        "target" : "Invalid request: Device type identifier mismatch: %1$@ vs %2$@",
+        "target" : "Invalid SDK Canonical Name: %@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Invalid SDK Canonical Name: %@" : [
+    "Invalid request: Device type identifier mismatch: %@ vs %@" : [
       {
-        "target" : "Invalid SDK Canonical Name: %@",
+        "target" : "Invalid request: Device type identifier mismatch: %1$@ vs %2$@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -868,16 +868,16 @@
         "language" : "en"
       }
     ],
-    "Failed to subscribe to notifications from CoreSimulatorService." : [
+    "No known supported architectures in %@. Supported archs: %@" : [
       {
-        "target" : "Failed to subscribe to notifications from CoreSimulatorService.",
+        "target" : "No known supported architectures in %1$@. Supported archs: %2$@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "No known supported architectures in %@. Supported archs: %@" : [
+    "Incompatible device" : [
       {
-        "target" : "No known supported architectures in %1$@. Supported archs: %2$@",
+        "target" : "Incompatible device",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -896,9 +896,9 @@
         "language" : "en"
       }
     ],
-    "Incompatible device" : [
+    "Failed to subscribe to notifications from CoreSimulatorService." : [
       {
-        "target" : "Incompatible device",
+        "target" : "Failed to subscribe to notifications from CoreSimulatorService.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1071,9 +1071,9 @@
         "language" : "en"
       }
     ],
-    "unsupported framework version" : [
+    "Unable to restore.  Devices must belong to the same set." : [
       {
-        "target" : "unsupported framework version",
+        "target" : "Unable to restore.  Devices must belong to the same set.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1085,16 +1085,16 @@
         "language" : "en"
       }
     ],
-    "Unable to restore.  Devices must belong to the same set." : [
+    "Unable to upgrade device in current state: %@" : [
       {
-        "target" : "Unable to restore.  Devices must belong to the same set.",
+        "target" : "Unable to upgrade device in current state: %@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Unable to upgrade device in current state: %@" : [
+    "unsupported framework version" : [
       {
-        "target" : "Unable to upgrade device in current state: %@",
+        "target" : "unsupported framework version",
         "filename" : "Localizable.strings",
         "language" : "en"
       }

@@ -1,16 +1,16 @@
 {
   "localizations" : {
-    "Xcode.IDEFoundation.IDETemplateFileTypeName" : [
-      {
-        "target" : "file",
-        "filename" : "PlugIn.strings",
-        "language" : "en"
-      }
-    ],
     "The file is a remote resource. Try making a local copy." : [
       {
         "target" : "The file is a remote resource. Try making a local copy.",
         "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.IDEFoundation.IDETemplateFileTypeName" : [
+      {
+        "target" : "file",
+        "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
@@ -70,9 +70,9 @@
         "language" : "en"
       }
     ],
-    "Test" : [
+    "Conflict line %d" : [
       {
-        "target" : "Test",
+        "target" : "Conflict line %d",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -84,9 +84,9 @@
         "language" : "en"
       }
     ],
-    "Conflict line %d" : [
+    "Test" : [
       {
-        "target" : "Conflict line %d",
+        "target" : "Test",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -154,9 +154,9 @@
         "language" : "en"
       }
     ],
-    "Building %@" : [
+    "BASE" : [
       {
-        "target" : "Building %@",
+        "target" : "BASE",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -168,9 +168,9 @@
         "language" : "en"
       }
     ],
-    "%@ is currently locked because its parent folder is marked as 'Locked' in the Finder." : [
+    "Building %@" : [
       {
-        "target" : "%@ is currently locked because its parent folder is marked as ‘Locked’ in the Finder.",
+        "target" : "Building %@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -196,16 +196,9 @@
         "language" : "en"
       }
     ],
-    "BASE" : [
+    "%@ is currently locked because its parent folder is marked as 'Locked' in the Finder." : [
       {
-        "target" : "BASE",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "These items are currently locked because they are temporary items." : [
-      {
-        "target" : "These items are currently locked because they are temporary items.",
+        "target" : "%@ is currently locked because its parent folder is marked as ‘Locked’ in the Finder.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -214,6 +207,13 @@
       {
         "target" : "Starts",
         "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "These items are currently locked because they are temporary items." : [
+      {
+        "target" : "These items are currently locked because they are temporary items.",
+        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -357,13 +357,6 @@
         "language" : "en"
       }
     ],
-    "Add the file to the build phase of a target in an Xcode 3 project in this workspace, or make a selection in another file." : [
-      {
-        "target" : "Add the file to the build phase of a target in an Xcode 3 project in this workspace, or make a selection in another file.",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.AlertEvent.PGOSucceeds" : [
       {
         "target" : "Succeeds",
@@ -378,6 +371,13 @@
         "language" : "en"
       }
     ],
+    "Xcode.AlertEvent.BuildNewIssues.Title" : [
+      {
+        "target" : "Generates new issues",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
     "Multiple errors occurred while copying the files." : [
       {
         "target" : "Multiple errors occurred while copying the files.",
@@ -385,10 +385,10 @@
         "language" : "en"
       }
     ],
-    "Xcode.AlertEvent.BuildNewIssues.Title" : [
+    "Add the file to the build phase of a target in an Xcode 3 project in this workspace, or make a selection in another file." : [
       {
-        "target" : "Generates new issues",
-        "filename" : "PlugIn.strings",
+        "target" : "Add the file to the build phase of a target in an Xcode 3 project in this workspace, or make a selection in another file.",
+        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -546,13 +546,6 @@
         "language" : "en"
       }
     ],
-    "Couldn't load project" : [
-      {
-        "target" : "Couldn't load project",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "These items are currently locked because you do not have write permission." : [
       {
         "target" : "These items are currently locked because you do not have write permission.",
@@ -567,9 +560,16 @@
         "language" : "en"
       }
     ],
-    "The file is stored in a read-only volume. Try making the volume writable or copying the file to another volume." : [
+    "%@ is currently locked because it is marked as 'Locked' in the Finder." : [
       {
-        "target" : "The file is stored in a read-only volume. Try making the volume writable or copying the file to another volume.",
+        "target" : "%@ is currently locked because it is marked as ‘Locked’ in the Finder.",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Couldn't load project" : [
+      {
+        "target" : "Couldn't load project",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -602,9 +602,9 @@
         "language" : "en"
       }
     ],
-    "%@ is currently locked because it is marked as 'Locked' in the Finder." : [
+    "The file is stored in a read-only volume. Try making the volume writable or copying the file to another volume." : [
       {
-        "target" : "%@ is currently locked because it is marked as ‘Locked’ in the Finder.",
+        "target" : "The file is stored in a read-only volume. Try making the volume writable or copying the file to another volume.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -644,6 +644,13 @@
         "language" : "en"
       }
     ],
+    "Xcode.AlertEvent.TestingStart.Title" : [
+      {
+        "target" : "Starts",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
     "Multiple errors occurred while moving the files." : [
       {
         "target" : "Multiple errors occurred while moving the files.",
@@ -655,13 +662,6 @@
       {
         "target" : "%@ is currently locked because you do not own the parent folder and have no write permission for it.",
         "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Xcode.AlertEvent.TestingStart.Title" : [
-      {
-        "target" : "Starts",
-        "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],

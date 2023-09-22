@@ -91,20 +91,6 @@
         "language" : "en"
       }
     ],
-    "Log to message Splunk" : [
-      {
-        "target" : "Log to message Splunk",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Unable to find swinfo." : [
-      {
-        "target" : "Unable to find swinfo.",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Unable to extract archive. Please make sure %@ is a valid zip or ipa archive." : [
       {
         "target" : "Unable to extract archive. Please make sure %@ is a valid zip or ipa archive.",
@@ -115,6 +101,20 @@
     "Look up software applications with hosted content on App Store Connect" : [
       {
         "target" : "Look up software applications with hosted content on App Store Connect",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Log to message Splunk" : [
+      {
+        "target" : "Log to message Splunk",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Unable to find swinfo." : [
+      {
+        "target" : "Unable to find swinfo.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -210,6 +210,13 @@
         "language" : "en"
       }
     ],
+    "This version of %@ cannot determine your application type. Please update to a newer version." : [
+      {
+        "target" : "This version of %@ cannot determine your application type. Please update to a newer version.",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "The package could not be unpacked because of the following error: %@\n%@" : [
       {
         "target" : "The package could not be unpacked because of the following error: %1$@\n%2$@",
@@ -220,13 +227,6 @@
     "Fetched %@ software applications with hosted content" : [
       {
         "target" : "Fetched %@ software applications with hosted content",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "This version of %@ cannot determine your application type. Please update to a newer version." : [
-      {
-        "target" : "This version of %@ cannot determine your application type. Please update to a newer version.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -301,16 +301,16 @@
         "language" : "en"
       }
     ],
-    "a %@" : [
+    "Product verification cancelled" : [
       {
-        "target" : "a %@",
+        "target" : "Product verification cancelled",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Product verification cancelled" : [
+    "a %@" : [
       {
-        "target" : "Product verification cancelled",
+        "target" : "a %@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -532,16 +532,16 @@
         "language" : "en"
       }
     ],
-    "Application support area is not a directory: %@" : [
+    "Created App Store Connect API analysis file" : [
       {
-        "target" : "Application support area is not a directory: %@",
+        "target" : "Created App Store Connect API analysis file",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Created App Store Connect API analysis file" : [
+    "Application support area is not a directory: %@" : [
       {
-        "target" : "Created App Store Connect API analysis file",
+        "target" : "Application support area is not a directory: %@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -553,16 +553,16 @@
         "language" : "en"
       }
     ],
-    "Could not find swinfo because the software update file could not be found." : [
+    "Could not find an application matching CFBundleIdentifier: %@. Make sure you have created the application in App Store Connect." : [
       {
-        "target" : "Could not find swinfo because the software update file could not be found.",
+        "target" : "Could not find an application matching CFBundleIdentifier: %@. Make sure you have created the application in App Store Connect.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Could not find an application matching CFBundleIdentifier: %@. Make sure you have created the application in App Store Connect." : [
+    "Could not find swinfo because the software update file could not be found." : [
       {
-        "target" : "Could not find an application matching CFBundleIdentifier: %@. Make sure you have created the application in App Store Connect.",
+        "target" : "Could not find swinfo because the software update file could not be found.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -588,9 +588,9 @@
         "language" : "en"
       }
     ],
-    "Failed to write the asset description to file “%@”." : [
+    "You must provide an archive extraction destination path." : [
       {
-        "target" : "Failed to write the asset description to file “%@”.",
+        "target" : "You must provide an archive extraction destination path.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -616,9 +616,9 @@
         "language" : "en"
       }
     ],
-    "You must provide an archive extraction destination path." : [
+    "Failed to write the asset description to file “%@”." : [
       {
-        "target" : "You must provide an archive extraction destination path.",
+        "target" : "Failed to write the asset description to file “%@”.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -637,16 +637,16 @@
         "language" : "en"
       }
     ],
-    "Look up in-app purchases with content hosted on App Store Connect" : [
+    "Your application must specify a bundle identifier" : [
       {
-        "target" : "Look up in-app purchases with content hosted on App Store Connect",
+        "target" : "Your application must specify a bundle identifier",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Your application must specify a bundle identifier" : [
+    "Look up in-app purchases with content hosted on App Store Connect" : [
       {
-        "target" : "Your application must specify a bundle identifier",
+        "target" : "Look up in-app purchases with content hosted on App Store Connect",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1162,16 +1162,16 @@
         "language" : "en"
       }
     ],
-    "Fetched %@ in-app purchases" : [
+    "%@: icon is not in the proper device format. The icon file must be built with COMPRESS_PNG_FILES enabled" : [
       {
-        "target" : "Fetched %@ in-app purchases",
+        "target" : "%@: icon is not in the proper device format. The icon file must be built with COMPRESS_PNG_FILES enabled",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "%@: icon is not in the proper device format. The icon file must be built with COMPRESS_PNG_FILES enabled" : [
+    "Fetched %@ in-app purchases" : [
       {
-        "target" : "%@: icon is not in the proper device format. The icon file must be built with COMPRESS_PNG_FILES enabled",
+        "target" : "Fetched %@ in-app purchases",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1204,16 +1204,16 @@
         "language" : "en"
       }
     ],
-    "Retrieving notarization history…" : [
+    "Could not find the main bundle or the Info.plist is missing a CFBundleIdentifier in ‘%@’." : [
       {
-        "target" : "Retrieving notarization history…",
+        "target" : "Could not find the main bundle or the Info.plist is missing a CFBundleIdentifier in ‘%@’.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Could not find the main bundle or the Info.plist is missing a CFBundleIdentifier in ‘%@’." : [
+    "Retrieving notarization history…" : [
       {
-        "target" : "Could not find the main bundle or the Info.plist is missing a CFBundleIdentifier in ‘%@’.",
+        "target" : "Retrieving notarization history…",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1239,16 +1239,16 @@
         "language" : "en"
       }
     ],
-    "Validated application attributes on App Store Connect" : [
+    "The Info.plist in the package must contain the CFBundleIdentifier key." : [
       {
-        "target" : "Validated application attributes on App Store Connect",
+        "target" : "The Info.plist in the package must contain the CFBundleIdentifier key.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "The Info.plist in the package must contain the CFBundleIdentifier key." : [
+    "Validated application attributes on App Store Connect" : [
       {
-        "target" : "The Info.plist in the package must contain the CFBundleIdentifier key.",
+        "target" : "Validated application attributes on App Store Connect",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1267,16 +1267,16 @@
         "language" : "en"
       }
     ],
-    "a dictionary" : [
+    "%@: %@" : [
       {
-        "target" : "a dictionary",
+        "target" : "%1$@: %2$@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "%@: %@" : [
+    "a dictionary" : [
       {
-        "target" : "%1$@: %2$@",
+        "target" : "a dictionary",
         "filename" : "Localizable.strings",
         "language" : "en"
       }

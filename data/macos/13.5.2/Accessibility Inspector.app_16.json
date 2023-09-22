@@ -35,16 +35,16 @@
         "language" : "en"
       }
     ],
-    "headerSectionDisclosure.title.hide" : [
+    "inspector.pointer.tooltip.start" : [
       {
-        "target" : "Hide",
+        "target" : "Start inspection follows point",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "inspector.pointer.tooltip.start" : [
+    "headerSectionDisclosure.title.hide" : [
       {
-        "target" : "Start inspection follows point",
+        "target" : "Hide",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -70,9 +70,9 @@
         "language" : "en"
       }
     ],
-    "inspectEventMode" : [
+    "locationLabel" : [
       {
-        "target" : "inspect event mode",
+        "target" : "loc=",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -84,9 +84,9 @@
         "language" : "en"
       }
     ],
-    "locationLabel" : [
+    "inspectEventMode" : [
       {
-        "target" : "loc=",
+        "target" : "inspect event mode",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -140,16 +140,16 @@
         "language" : "en"
       }
     ],
-    "deviceSetting.ON_OFF_LABELS" : [
+    "emptyDate" : [
       {
-        "target" : "On\/Off labels",
+        "target" : "Empty date",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "emptyDate" : [
+    "deviceSetting.ON_OFF_LABELS" : [
       {
-        "target" : "Empty date",
+        "target" : "On\/Off labels",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -315,16 +315,16 @@
         "language" : "en"
       }
     ],
-    "DeviceCell.accessibilityLabel" : [
+    "clearAudit.title" : [
       {
-        "target" : "Device",
+        "target" : "Clear results?",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "clearAudit.title" : [
+    "DeviceCell.accessibilityLabel" : [
       {
-        "target" : "Clear results?",
+        "target" : "Device",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -399,6 +399,13 @@
         "language" : "en"
       }
     ],
+    "internalAttributes.hide" : [
+      {
+        "target" : "Hide Internal Attributes",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "inspector.false" : [
       {
         "target" : "False",
@@ -406,9 +413,16 @@
         "language" : "en"
       }
     ],
-    "internalAttributes.hide" : [
+    "headerSection.opened" : [
       {
-        "target" : "Hide Internal Attributes",
+        "target" : "Opened section",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "pointInspection.enable" : [
+      {
+        "target" : "Enable Point to Inspect",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -427,23 +441,9 @@
         "language" : "en"
       }
     ],
-    "headerSection.opened" : [
-      {
-        "target" : "Opened section",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "lengthLabel" : [
       {
         "target" : "len=",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "groupBy.audit" : [
-      {
-        "target" : "Group by Audit",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -455,16 +455,16 @@
         "language" : "en"
       }
     ],
-    "pointInspection.enable" : [
+    "nilPlaceholder" : [
       {
-        "target" : "Enable Point to Inspect",
+        "target" : "None",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "nilPlaceholder" : [
+    "groupBy.audit" : [
       {
-        "target" : "None",
+        "target" : "Group by Audit",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -490,16 +490,9 @@
         "language" : "en"
       }
     ],
-    "targetMenu.catalyst" : [
+    "goToButton.tooltip" : [
       {
-        "target" : "Catalyst",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "AuditIssues.waitingToConnect" : [
-      {
-        "target" : "Connecting to target...",
+        "target" : "Change focus to the associated element",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -511,9 +504,16 @@
         "language" : "en"
       }
     ],
-    "goToButton.tooltip" : [
+    "targetMenu.catalyst" : [
       {
-        "target" : "Change focus to the associated element",
+        "target" : "Catalyst",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "AuditIssues.waitingToConnect" : [
+      {
+        "target" : "Connecting to target...",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -609,9 +609,9 @@
         "language" : "en"
       }
     ],
-    "AuditIssues.requiresTargetDevice" : [
+    "lengthFormatter" : [
       {
-        "target" : "Select a target to view accessibility warnings and audit information.",
+        "target" : "len=%@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -623,9 +623,9 @@
         "language" : "en"
       }
     ],
-    "lengthFormatter" : [
+    "AuditIssues.requiresTargetDevice" : [
       {
-        "target" : "len=%@",
+        "target" : "Select a target to view accessibility warnings and audit information.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -714,9 +714,9 @@
         "language" : "en"
       }
     ],
-    "previousButton.toolTipWithCtrl" : [
+    "ProcessCell.accessibilityLabel" : [
       {
-        "target" : "Jump to last element",
+        "target" : "Process",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -728,16 +728,16 @@
         "language" : "en"
       }
     ],
-    "ProcessCell.accessibilityLabel" : [
+    "runButton.title.running" : [
       {
-        "target" : "Process",
+        "target" : "Auditing...",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "runButton.title.running" : [
+    "previousButton.toolTipWithCtrl" : [
       {
-        "target" : "Auditing...",
+        "target" : "Jump to last element",
         "filename" : "Localizable.strings",
         "language" : "en"
       }

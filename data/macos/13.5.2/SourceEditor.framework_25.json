@@ -21,16 +21,16 @@
         "language" : "en"
       }
     ],
-    "com.apple.SourceEditor.EditingOperation.MakeUpperCase" : [
+    "com.apple.SourceEditor.Accessibility.MarksRotorTitle" : [
       {
-        "target" : "Make Upper Case",
+        "target" : "Marks in Current File",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "com.apple.SourceEditor.Accessibility.MarksRotorTitle" : [
+    "com.apple.SourceEditor.EditingOperation.MakeUpperCase" : [
       {
-        "target" : "Marks in Current File",
+        "target" : "Make Upper Case",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -63,9 +63,9 @@
         "language" : "en"
       }
     ],
-    "com.apple.SourceEditor.EditingOperation.AddProperty" : [
+    "com.apple.SourceEditor.EditingOperation.Paste" : [
       {
-        "target" : "Add Property",
+        "target" : "Paste",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -98,13 +98,6 @@
         "language" : "en"
       }
     ],
-    "com.apple.SourceEditor.EditingOperation.Paste" : [
-      {
-        "target" : "Paste",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "com.apple.SourceEditor.EditingOperation.Typing" : [
       {
         "target" : "Typing",
@@ -119,9 +112,9 @@
         "language" : "en"
       }
     ],
-    "com.apple.SourceEditor.EditingOperation.MakeLowerCaseLetter" : [
+    "com.apple.SourceEditor.EditingOperation.AddProperty" : [
       {
-        "target" : "Make Lower Case Letter",
+        "target" : "Add Property",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -136,6 +129,13 @@
     "com.apple.SourceEditor.EditingOperation.ReplaceAll" : [
       {
         "target" : "Replace All",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "com.apple.SourceEditor.EditingOperation.MakeLowerCaseLetter" : [
+      {
+        "target" : "Make Lower Case Letter",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -168,9 +168,9 @@
         "language" : "en"
       }
     ],
-    "com.apple.SourceEditor.EditingOperation.MakeUpperCaseLetter" : [
+    "com.apple.SourceEditor.EditingOperation.AndElseIfStatement" : [
       {
-        "target" : "Make Upper Case Letter",
+        "target" : "Add “else if” Statement",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -182,13 +182,6 @@
         "language" : "en"
       }
     ],
-    "com.apple.SourceEditor.EditingOperation.ChangeCaseOfLetter" : [
-      {
-        "target" : "Toggle Case",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "com.apple.SourceEditor.EditingOperation.ReIndent" : [
       {
         "target" : "Re-Indent",
@@ -196,9 +189,16 @@
         "language" : "en"
       }
     ],
-    "com.apple.SourceEditor.EditingOperation.AndElseIfStatement" : [
+    "com.apple.SourceEditor.EditingOperation.ChangeCaseOfLetter" : [
       {
-        "target" : "Add “else if” Statement",
+        "target" : "Toggle Case",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "com.apple.SourceEditor.EditingOperation.MakeUpperCaseLetter" : [
+      {
+        "target" : "Make Upper Case Letter",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -210,9 +210,9 @@
         "language" : "en"
       }
     ],
-    "com.apple.SourceEditor.EditingOperation.AddType" : [
+    "com.apple.SourceEditor.EditingOperation.Copy" : [
       {
-        "target" : "Add Type",
+        "target" : "Copy",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -224,51 +224,16 @@
         "language" : "en"
       }
     ],
-    "com.apple.SourceEditor.EditingOperation.Copy" : [
+    "com.apple.SourceEditor.EditingOperation.AddType" : [
       {
-        "target" : "Copy",
+        "target" : "Add Type",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "com.apple.SourceEditor.EditingOperation.ShiftLeft" : [
+    "com.apple.SourceEditor.EditingOperation.Rename" : [
       {
-        "target" : "Shift Left",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "com.apple.SourceEditor.EditingOperation.BracketDragToResize" : [
-      {
-        "target" : "Bracket drag to resize",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "com.apple.SourceEditor.Accessibility.ErrorsRotorTitle" : [
-      {
-        "target" : "Errors in Current File",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "com.apple.SourceEditor.EditingOperation.Replace" : [
-      {
-        "target" : "Replace",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "com.apple.SourceEditor.EditingOperation.AddCaseStatement" : [
-      {
-        "target" : "Add “case” Statement",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "com.apple.SourceEditor.EditingOperation.JoinParagraphs" : [
-      {
-        "target" : "Join Paragraphs",
+        "target" : "Rename",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -280,9 +245,44 @@
         "language" : "en"
       }
     ],
-    "com.apple.SourceEditor.EditingOperation.Rename" : [
+    "com.apple.SourceEditor.EditingOperation.ShiftLeft" : [
       {
-        "target" : "Rename",
+        "target" : "Shift Left",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "com.apple.SourceEditor.Accessibility.ErrorsRotorTitle" : [
+      {
+        "target" : "Errors in Current File",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "com.apple.SourceEditor.EditingOperation.JoinParagraphs" : [
+      {
+        "target" : "Join Paragraphs",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "com.apple.SourceEditor.EditingOperation.Replace" : [
+      {
+        "target" : "Replace",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "com.apple.SourceEditor.EditingOperation.BracketDragToResize" : [
+      {
+        "target" : "Bracket drag to resize",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "com.apple.SourceEditor.EditingOperation.AddCaseStatement" : [
+      {
+        "target" : "Add “case” Statement",
         "filename" : "Localizable.strings",
         "language" : "en"
       }

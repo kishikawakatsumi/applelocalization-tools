@@ -52,9 +52,9 @@
         "language" : "en"
       }
     ],
-    "faceMetricsReminderMessage" : [
+    "SRErrorDataInaccessibleRecovery" : [
       {
-        "target" : "Study data captured by your camera this week will be submitted soon. Learn more in Settings.",
+        "target" : "Unlock the device to access data",
         "filename" : "Localizable.loctable",
         "language" : "en"
       }
@@ -66,16 +66,9 @@
         "language" : "en"
       }
     ],
-    "SRErrorDataInaccessibleRecovery" : [
+    "faceMetricsReminderMessage" : [
       {
-        "target" : "Unlock the device to access data",
-        "filename" : "Localizable.loctable",
-        "language" : "en"
-      }
-    ],
-    "REMINDER_ALERT_STUDIES" : [
-      {
-        "target" : "{\n    NSStringLocalizedFormatKey = \"You\\U2019re contributing data to %#@NUM_STUDIES@. You can manage study access to your data in Settings.\";\n    \"NUM_STUDIES\" =     {\n        NSStringFormatSpecTypeKey = NSStringPluralRuleType;\n        NSStringFormatValueTypeKey = u;\n        few = \"%u studies\";\n        many = \"%u studies\";\n        one = \"1 study\";\n        other = \"%u studies\";\n        two = \"%u studies\";\n    };\n}",
+        "target" : "Study data captured by your camera this week will be submitted soon. Learn more in Settings.",
         "filename" : "Localizable.loctable",
         "language" : "en"
       }
@@ -83,6 +76,13 @@
     "SRErrorFetchRequestInvalid" : [
       {
         "target" : "Fetch request contained invalid values",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      }
+    ],
+    "REMINDER_ALERT_STUDIES" : [
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"You’re contributing data to %#@NUM_STUDIES@. You can manage study access to your data in Settings.\",\"NUM_STUDIES\":{\"one\":\"1 study\",\"few\":\"%u studies\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"two\":\"%u studies\",\"many\":\"%u studies\",\"other\":\"%u studies\",\"NSStringFormatValueTypeKey\":\"u\"}}",
         "filename" : "Localizable.loctable",
         "language" : "en"
       }

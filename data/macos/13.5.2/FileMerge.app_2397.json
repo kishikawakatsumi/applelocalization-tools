@@ -1,8 +1,8 @@
 {
   "localizations" : {
-    "Not found" : [
+    "OK" : [
       {
-        "target" : "Not found",
+        "target" : "OK",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -14,9 +14,9 @@
         "language" : "en"
       }
     ],
-    "OK" : [
+    "Unable to find ancestor file: %@" : [
       {
-        "target" : "OK",
+        "target" : "Unable to find ancestor file: %@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -70,23 +70,23 @@
         "language" : "en"
       }
     ],
-    "Filtered" : [
-      {
-        "target" : "Filtered",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "binary files" : [
-      {
-        "target" : "binary files",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Redo compare" : [
       {
         "target" : "Redo compare",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "conflicts" : [
+      {
+        "target" : "conflicts",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Filtered" : [
+      {
+        "target" : "Filtered",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -98,9 +98,9 @@
         "language" : "en"
       }
     ],
-    "conflicts" : [
+    "binary files" : [
       {
-        "target" : "conflicts",
+        "target" : "binary files",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -133,9 +133,9 @@
         "language" : "en"
       }
     ],
-    "The merge file contents cannot be converted to the encoding of either the left or right input files (%@ or %@)." : [
+    "Windows (CRLF)" : [
       {
-        "target" : "The merge file contents cannot be converted to the encoding of either the left or right input files (%1$@ or %2$@).",
+        "target" : "Windows (CRLF)",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -147,9 +147,9 @@
         "language" : "en"
       }
     ],
-    "Windows (CRLF)" : [
+    "The merge file contents cannot be converted to the encoding of either the left or right input files (%@ or %@)." : [
       {
-        "target" : "Windows (CRLF)",
+        "target" : "The merge file contents cannot be converted to the encoding of either the left or right input files (%1$@ or %2$@).",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -189,9 +189,9 @@
         "language" : "en"
       }
     ],
-    "Untitled" : [
+    "added to right" : [
       {
-        "target" : "Untitled",
+        "target" : "added to right",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -210,9 +210,9 @@
         "language" : "en"
       }
     ],
-    "added to right" : [
+    "Untitled" : [
       {
-        "target" : "added to right",
+        "target" : "Untitled",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -266,9 +266,9 @@
         "language" : "en"
       }
     ],
-    "processing\\u2026 " : [
+    "mixed" : [
       {
-        "target" : "processing… ",
+        "target" : "mixed",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -280,9 +280,9 @@
         "language" : "en"
       }
     ],
-    "mixed" : [
+    "processing\\u2026 " : [
       {
-        "target" : "mixed",
+        "target" : "processing… ",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -308,16 +308,16 @@
         "language" : "en"
       }
     ],
-    "initializing\\u2026" : [
+    "Save" : [
       {
-        "target" : "initializing…",
+        "target" : "Save",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Save" : [
+    "initializing\\u2026" : [
       {
-        "target" : "Save",
+        "target" : "initializing…",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -350,13 +350,6 @@
         "language" : "en"
       }
     ],
-    "   Line endings differ - left: %@,  right: %@" : [
-      {
-        "target" : "   Line endings differ - left: %1$@,  right: %2$@",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "(with Ancestor)" : [
       {
         "target" : "(with Ancestor)",
@@ -364,9 +357,30 @@
         "language" : "en"
       }
     ],
+    "In order to compare files both the left and right files must exist." : [
+      {
+        "target" : "In order to compare files both the left and right files must exist.",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Don\\u2019t Save" : [
       {
         "target" : "Don’t Save",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Close" : [
+      {
+        "target" : "Close",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "   Line endings differ - left: %@,  right: %@" : [
+      {
+        "target" : "   Line endings differ - left: %1$@,  right: %2$@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -385,20 +399,6 @@
         "language" : "en"
       }
     ],
-    "Close" : [
-      {
-        "target" : "Close",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "In order to compare files both the left and right files must exist." : [
-      {
-        "target" : "In order to compare files both the left and right files must exist.",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "conflict" : [
       {
         "target" : "conflict",
@@ -409,13 +409,6 @@
     "none" : [
       {
         "target" : "none",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "removed from right" : [
-      {
-        "target" : "removed from right",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -434,16 +427,23 @@
         "language" : "en"
       }
     ],
-    "Files are not ascii." : [
+    "removed from right" : [
       {
-        "target" : "Files are not ascii.",
+        "target" : "removed from right",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "directory contains modified files" : [
+    "modified" : [
       {
-        "target" : "directory contains modified files",
+        "target" : "modified",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Files are not ascii." : [
+      {
+        "target" : "Files are not ascii.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -462,16 +462,16 @@
         "language" : "en"
       }
     ],
-    "removed from left" : [
+    "directory contains modified files" : [
       {
-        "target" : "removed from left",
+        "target" : "directory contains modified files",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "modified" : [
+    "removed from left" : [
       {
-        "target" : "modified",
+        "target" : "removed from left",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -525,9 +525,9 @@
         "language" : "en"
       }
     ],
-    "Unable to find ancestor file: %@" : [
+    "Not found" : [
       {
-        "target" : "Unable to find ancestor file: %@",
+        "target" : "Not found",
         "filename" : "Localizable.strings",
         "language" : "en"
       }

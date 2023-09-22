@@ -56,6 +56,13 @@
         "language" : "en"
       }
     ],
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.WAC.Description" : [
+      {
+        "target" : "Enabling Wireless Accessory Configuration allows your app to configure MFi Wi-Fi accessories.",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
     "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.AppAttest.Description" : [
       {
         "target" : "With App Attest, you can generate a special cryptographic key on device and use it to validate the integrity of your app before your server provides access to sensitive data.",
@@ -70,23 +77,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.WAC.Description" : [
-      {
-        "target" : "Enabling Wireless Accessory Configuration allows your app to configure MFi Wi-Fi accessories.",
-        "filename" : "PlugIn.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.AutoFillCredentialProvider.Description" : [
       {
         "target" : "AutoFill Credential Provider allows your app, with user permission, to provide user names and passwords for AutoFill into apps and Safari.",
-        "filename" : "PlugIn.strings",
-        "language" : "en"
-      }
-    ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.WeatherKit.Description" : [
-      {
-        "target" : "WeatherKit provides current and forecasted weather information.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -98,9 +91,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.MDMManagedAssociatedDomains.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.WeatherKit.Description" : [
       {
-        "target" : "Allows MDM to supplement the Associated Domains that are included with your app with values such as server names that are unique for an environment.",
+        "target" : "WeatherKit provides current and forecasted weather information.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -112,16 +105,23 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.BackgroundModes.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.VPNLite.Description" : [
       {
-        "target" : "Background Modes specifies that the app provides specific background services and must be allowed to continue running while in the background. These keys should be used sparingly and only by apps providing the indicated services. Where alternatives for running in the background exist, those alternatives should be used instead.",
+        "target" : "Enabling Personal VPN allows your app to create and control a custom system VPN configuration.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.VPNLite.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.InterAppAudio.Description" : [
       {
-        "target" : "Enabling Personal VPN allows your app to create and control a custom system VPN configuration.",
+        "target" : "Enabling Inter-App Audio allows your app to send audio to and receive audio from other Inter-App Audio-enabled apps.",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.BackgroundModes.Description" : [
+      {
+        "target" : "Background Modes specifies that the app provides specific background services and must be allowed to continue running while in the background. These keys should be used sparingly and only by apps providing the indicated services. Where alternatives for running in the background exist, those alternatives should be used instead.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -133,9 +133,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.InterAppAudio.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.MDMManagedAssociatedDomains.Description" : [
       {
-        "target" : "Enabling Inter-App Audio allows your app to send audio to and receive audio from other Inter-App Audio-enabled apps.",
+        "target" : "Allows MDM to supplement the Associated Domains that are included with your app with values such as server names that are unique for an environment.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -182,16 +182,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.Keychain.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.AppClip.Description" : [
       {
-        "target" : "Allows this application to share passwords from its keychain with other applications made by your team.",
+        "target" : "Identifies this target as an app clip.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.AppClip.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.Keychain.Description" : [
       {
-        "target" : "Identifies this target as an app clip.",
+        "target" : "Allows this application to share passwords from its keychain with other applications made by your team.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -441,16 +441,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.ApplicationGroups.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitTransportUSB.Description" : [
       {
-        "target" : "Allows access to group containers that are shared among multiple related apps, and allows certain additional interprocess communication between the apps.",
+        "target" : "Support for USB transport drivers.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitFamilyHIDEventService.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.ApplicationGroups.Description" : [
       {
-        "target" : "Support for HID event service family drivers.",
+        "target" : "Allows access to group containers that are shared among multiple related apps, and allows certain additional interprocess communication between the apps.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -469,9 +469,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitTransportUSB.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitFamilyHIDEventService.Description" : [
       {
-        "target" : "Support for USB transport drivers.",
+        "target" : "Support for HID event service family drivers.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }

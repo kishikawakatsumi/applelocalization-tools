@@ -105,6 +105,13 @@
         "language" : "en"
       }
     ],
+    "DYFNextDrawableViolatingSubfindingText" : [
+      {
+        "target" : "Defer nextDrawable until after this function",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFKNewDepthStencilState" : [
       {
         "target" : "New MTLDepthStencilState",
@@ -119,16 +126,9 @@
         "language" : "en"
       }
     ],
-    "DYFKTilerParameterBufferExceedsMemlessMax" : [
+    "DYFDKCommandBufferNotCommitted" : [
       {
-        "target" : "Tiler Output Buffer Usage Exceeds Maximum Limit for Memoryless Render Target",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFKUnusedBufferDetected" : [
-      {
-        "target" : "Unused Buffer",
+        "target" : "This command buffer was enqueued but not committed in this frame.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -140,16 +140,16 @@
         "language" : "en"
       }
     ],
-    "DYFDKCommandBufferNotCommitted" : [
+    "DYFKTilerParameterBufferExceedsMemlessMax" : [
       {
-        "target" : "This command buffer was enqueued but not committed in this frame.",
+        "target" : "Tiler Output Buffer Usage Exceeds Maximum Limit for Memoryless Render Target",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFNextDrawableViolatingSubfindingText" : [
+    "DYFKUnusedBufferDetected" : [
       {
-        "target" : "Defer nextDrawable until after this function",
+        "target" : "Unused Buffer",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -175,23 +175,9 @@
         "language" : "en"
       }
     ],
-    "DYFDKTextureUsageShouldBeRenderTarget" : [
-      {
-        "target" : "This texture is a render target. Set the MTLTextureUsageRenderTarget bit flag in the texture usage options.",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFKNewSamplerState" : [
       {
         "target" : "New MTLSamplerState",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFDKResourceShouldBeBlittedFromShared" : [
-      {
-        "target" : "This managed resource is blitted into a private resource. Changing the source storage mode to MTLStorageModeShared may improve performance.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -203,9 +189,23 @@
         "language" : "en"
       }
     ],
+    "DYFDKResourceShouldBeBlittedFromShared" : [
+      {
+        "target" : "This managed resource is blitted into a private resource. Changing the source storage mode to MTLStorageModeShared may improve performance.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFKNewComputePipelineState" : [
       {
         "target" : "New MTLComputePipelineState",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKTextureUsageShouldBeRenderTarget" : [
+      {
+        "target" : "This texture is a render target. Set the MTLTextureUsageRenderTarget bit flag in the texture usage options.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -224,16 +224,16 @@
         "language" : "en"
       }
     ],
-    "DYFKRecommendCoalesceEncoders" : [
+    "DYFKUnusedTextureDetected" : [
       {
-        "target" : "Inefficient use of Command Encoders",
+        "target" : "Unused Texture",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFDKTilerParameterBufferExceedsMemlessWarningThreshold" : [
+    "DYFKRecommendCoalesceEncoders" : [
       {
-        "target" : "The tiler output buffer usage is close to exceeding the maximum space available for an encoder with a memoryless render target.",
+        "target" : "Inefficient use of Command Encoders",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -259,9 +259,9 @@
         "language" : "en"
       }
     ],
-    "DYFKUnusedTextureDetected" : [
+    "DYFDKTilerParameterBufferExceedsMemlessWarningThreshold" : [
       {
-        "target" : "Unused Texture",
+        "target" : "The tiler output buffer usage is close to exceeding the maximum space available for an encoder with a memoryless render target.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -602,14 +602,14 @@
         "language" : "en"
       }
     ],
-    "DYFURLCommandBufferNotEnqueued" : [
+    "DYFKTilerParameterBufferExceedsMemfulMax" : [
       {
-        "target" : "",
+        "target" : "Tiler Output Buffer Usage Exceeds Maximum",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFURLNewDepthStencilState" : [
+    "DYFURLCommandBufferNotEnqueued" : [
       {
         "target" : "",
         "filename" : "AnalyzerFinding.strings",
@@ -619,6 +619,13 @@
     "DYFDKTilerParameterBufferMRCRenderSplit" : [
       {
         "target" : "The tiler output buffer usage was exceeded for an encoder that uses explicit image block memory or threadgroup memory.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLNewDepthStencilState" : [
+      {
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -633,13 +640,6 @@
     "DYFNextDrawableNextDrawableSubfindingText" : [
       {
         "target" : "This is the location of the premature nextDrawable function",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFKTilerParameterBufferExceedsMemfulMax" : [
-      {
-        "target" : "Tiler Output Buffer Usage Exceeds Maximum",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -896,16 +896,16 @@
         "language" : "en"
       }
     ],
-    "DYFDKMultipleNextDrawables" : [
+    "DYFDKAttachmentTooLarge" : [
       {
-        "target" : "Your application called CAMetalLayer nextDrawable multiple times in a single frame for the same layer.",
+        "target" : "Your application rendered to a drawable texture attachment whose size exceeded the screen resolution of the device. For optimal performance and quality, scale the drawableSize of your CAMetalLayer by the nativeScale of the screen.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFDKAttachmentTooLarge" : [
+    "DYFDKMultipleNextDrawables" : [
       {
-        "target" : "Your application rendered to a drawable texture attachment whose size exceeded the screen resolution of the device. For optimal performance and quality, scale the drawableSize of your CAMetalLayer by the nativeScale of the screen.",
+        "target" : "Your application called CAMetalLayer nextDrawable multiple times in a single frame for the same layer.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
