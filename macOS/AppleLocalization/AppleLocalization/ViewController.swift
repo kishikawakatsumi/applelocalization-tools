@@ -2,10 +2,10 @@ import Cocoa
 import TSCBasic
 
 class ViewController: NSViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        try! AppleLocalization().run()
-    }
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    try! AppleLocalization().run()
+  }
 }
 
 class AppleLocalization {
