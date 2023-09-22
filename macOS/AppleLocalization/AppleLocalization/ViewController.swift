@@ -46,12 +46,18 @@ class AppleLocalization {
           if let plist = dictionary as? [String: [String: Any]] {
             for (localization, value) in plist {
               for (key, target) in value {
+                let localized: String
+                if let target = target as? [String: Any], let data = try? JSONSerialization.data(withJSONObject: target) {
+                  localized = String(decoding: data, as: UTF8.self)
+                } else {
+                  localized = "\(target)"
+                }
                 if var localizations = localizable.localizations[key] {
-                  localizations.append(Localization(language: localization, target: "\(target)", filename: fileUrl.lastPathComponent))
+                  localizations.append(Localization(language: localization, target: localized, filename: fileUrl.lastPathComponent))
                   localizable.localizations[key] = localizations
                 } else {
                   var localizations = [Localization]()
-                  localizations.append(Localization(language: localization, target: "\(target)", filename: fileUrl.lastPathComponent))
+                  localizations.append(Localization(language: localization, target: localized, filename: fileUrl.lastPathComponent))
                   localizable.localizations[key] = localizations
                 }
               }
