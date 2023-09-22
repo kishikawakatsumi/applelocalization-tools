@@ -658,16 +658,16 @@
         "language" : "en"
       }
     ],
-    "WARNING_TITLE" : [
+    "SSL_ALERT_TITLE_FORMAT" : [
       {
-        "target" : "Warning",
+        "target" : "Unable to verify SSL server %@",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
     ],
-    "SSL_ALERT_TITLE_FORMAT" : [
+    "WARNING_TITLE" : [
       {
-        "target" : "Unable to verify SSL server %@",
+        "target" : "Warning",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
@@ -763,16 +763,16 @@
         "language" : "en"
       }
     ],
-    "DEFAULT_SIGNATURE_IPAD" : [
+    "NO_SUBJECT" : [
       {
-        "target" : "Sent from my iPad",
+        "target" : "No subject",
         "filename" : "Message.strings",
         "language" : "en"
       }
     ],
-    "NO_SUBJECT" : [
+    "DEFAULT_SIGNATURE_IPAD" : [
       {
-        "target" : "No subject",
+        "target" : "Sent from my iPad",
         "filename" : "Message.strings",
         "language" : "en"
       }
@@ -882,13 +882,6 @@
         "language" : "en"
       }
     ],
-    "AUTH_NOT_SUPPORTED_FORMAT" : [
-      {
-        "target" : "The %1$@ server “%2$@” doesn’t support %3$@ authentication. Please check your account settings and try again.",
-        "filename" : "Delayed.strings",
-        "language" : "en"
-      }
-    ],
     "CONNECTION_TIMED_OUT" : [
       {
         "target" : "The connection to the server “%1$@” on port %2$d timed out.",
@@ -899,6 +892,13 @@
     "INVALID_PASSWORD_FORMAT" : [
       {
         "target" : "Enter the password for the %1$@ account “%2$@”",
+        "filename" : "Delayed.strings",
+        "language" : "en"
+      }
+    ],
+    "AUTH_NOT_SUPPORTED_FORMAT" : [
+      {
+        "target" : "The %1$@ server “%2$@” doesn’t support %3$@ authentication. Please check your account settings and try again.",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
@@ -1029,16 +1029,16 @@
         "language" : "en"
       }
     ],
-    "SMIME_NO_RECIPIENTS" : [
+    "INVALID_USER_TITLE" : [
       {
-        "target" : "There are no recipients in this message.",
+        "target" : "Invalid User Name",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
     ],
-    "CONNECT_FAILED_NO_REASON_FORMAT" : [
+    "SMIME_NO_RECIPIENTS" : [
       {
-        "target" : "There may be a problem with the mail server or network. Check the settings for account “%@” or try again.",
+        "target" : "There are no recipients in this message.",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
@@ -1050,9 +1050,9 @@
         "language" : "en"
       }
     ],
-    "INVALID_USER_TITLE" : [
+    "CONNECT_FAILED_NO_REASON_FORMAT" : [
       {
-        "target" : "Invalid User Name",
+        "target" : "There may be a problem with the mail server or network. Check the settings for account “%@” or try again.",
         "filename" : "Delayed.strings",
         "language" : "en"
       }
@@ -1190,13 +1190,6 @@
         "language" : "en"
       }
     ],
-    "MULTIPLE_ACCOUNT_ERRORS" : [
-      {
-        "target" : "Multiple Account Errors",
-        "filename" : "Message.strings",
-        "language" : "en"
-      }
-    ],
     "IMAP_UNAVAILABLE_SERVER" : [
       {
         "target" : "%@ is currently unavailable.",
@@ -1207,6 +1200,13 @@
     "Attachments" : [
       {
         "target" : "Attachments",
+        "filename" : "Message.strings",
+        "language" : "en"
+      }
+    ],
+    "MULTIPLE_ACCOUNT_ERRORS" : [
+      {
+        "target" : "Multiple Account Errors",
         "filename" : "Message.strings",
         "language" : "en"
       }
@@ -1239,10 +1239,10 @@
         "language" : "en"
       }
     ],
-    "OUTBOX_SPECIAL_MAILBOX_NAME" : [
+    "HOST_UNREACHABLE" : [
       {
-        "target" : "Outbox",
-        "filename" : "Message.strings",
+        "target" : "The server “%1$@” cannot be contacted on port %2$d.",
+        "filename" : "Delayed.strings",
         "language" : "en"
       }
     ],
@@ -1253,16 +1253,16 @@
         "language" : "en"
       }
     ],
-    "MF_SSL_CERT_VERIFICATION_FAILED_MESSAGE" : [
+    "OUTBOX_SPECIAL_MAILBOX_NAME" : [
       {
-        "target" : "Mail was unable to verify the identity of this server, which has a certificate issued to “%1$@”. The error was:\n\n%2$@\n\nYou might be connecting to a computer that is pretending to be “%3$@”, and putting your confidential information at risk.",
-        "filename" : "Delayed.strings",
+        "target" : "Outbox",
+        "filename" : "Message.strings",
         "language" : "en"
       }
     ],
-    "HOST_UNREACHABLE" : [
+    "MF_SSL_CERT_VERIFICATION_FAILED_MESSAGE" : [
       {
-        "target" : "The server “%1$@” cannot be contacted on port %2$d.",
+        "target" : "Mail was unable to verify the identity of this server, which has a certificate issued to “%1$@”. The error was:\n\n%2$@\n\nYou might be connecting to a computer that is pretending to be “%3$@”, and putting your confidential information at risk.",
         "filename" : "Delayed.strings",
         "language" : "en"
       }

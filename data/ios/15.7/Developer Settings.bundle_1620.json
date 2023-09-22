@@ -14,16 +14,16 @@
         "language" : "en"
       }
     ],
-    "SIRI_EVENT_SUGGESTIONS_TESTING_FOOTER" : [
+    "MEDIA_SERVICES_TESTING" : [
       {
-        "target" : "These settings affect Siri Event Suggestions from Mail and Safari. Enable Allow Any Domain to allow e-mails or web pages which have not yet been approved for Siri Event Suggestions by Apple. Enable Allow Unverified Sources to bypass DKIM or SSL authenticity verification for Siri Event Suggestions in Mail and Safari.",
+        "target" : "Media Services Testing",
         "filename" : "DTSettings.strings",
         "language" : "en"
       }
     ],
-    "MEDIA_SERVICES_TESTING" : [
+    "SIRI_EVENT_SUGGESTIONS_TESTING_FOOTER" : [
       {
-        "target" : "Media Services Testing",
+        "target" : "These settings affect Siri Event Suggestions from Mail and Safari. Enable Allow Any Domain to allow e-mails or web pages which have not yet been approved for Siri Event Suggestions by Apple. Enable Allow Unverified Sources to bypass DKIM or SSL authenticity verification for Siri Event Suggestions in Mail and Safari.",
         "filename" : "DTSettings.strings",
         "language" : "en"
       }
@@ -133,17 +133,17 @@
         "language" : "en"
       }
     ],
-    "LEARN_SECTION3_TEXT" : [
-      {
-        "target" : "Responsiveness is a new way of measuring your network's quality, focusing primarily on the reactivity of your network during simultaneous use by multiple devices or multiple services. While other tests measure throughput or ping latency, responsiveness adds another dimension to enable you to evaluate the network quality.",
-        "filename" : "DTNetQualSettings.strings",
-        "language" : "en"
-      }
-    ],
     "D2A_SUGGESTION_TEST_MODE_ALWAYS_USE" : [
       {
         "target" : "Always Use Suggested TV",
         "filename" : "D2ASettings.strings",
+        "language" : "en"
+      }
+    ],
+    "LEARN_SECTION3_TEXT" : [
+      {
+        "target" : "Responsiveness is a new way of measuring your network's quality, focusing primarily on the reactivity of your network during simultaneous use by multiple devices or multiple services. While other tests measure throughput or ping latency, responsiveness adds another dimension to enable you to evaluate the network quality.",
+        "filename" : "DTNetQualSettings.strings",
         "language" : "en"
       }
     ],
@@ -161,13 +161,6 @@
         "language" : "en"
       }
     ],
-    "FAILURE_TEXT" : [
-      {
-        "target" : "Could not reach the test server. Try again later.",
-        "filename" : "DTNetQualSettings.strings",
-        "language" : "en"
-      }
-    ],
     "SIRI_ACTIONS_FOOTER_LOCKSCREEN" : [
       {
         "target" : "When turned on, the most recently donated shortcuts will be shown on the Lock Screen.",
@@ -178,6 +171,13 @@
     "MIDI_CI_API_BETA_ENABLE" : [
       {
         "target" : "Enable MIDI-CI",
+        "filename" : "DTSettings.strings",
+        "language" : "en"
+      }
+    ],
+    "PLAYABLE_CONTENT_API" : [
+      {
+        "target" : "Playable Content API",
         "filename" : "DTSettings.strings",
         "language" : "en"
       }
@@ -196,17 +196,10 @@
         "language" : "en"
       }
     ],
-    "PLAYABLE_CONTENT_API" : [
+    "FAILURE_TEXT" : [
       {
-        "target" : "Playable Content API",
-        "filename" : "DTSettings.strings",
-        "language" : "en"
-      }
-    ],
-    "THROUGHPUT_FOOTER" : [
-      {
-        "target" : "Throughput Test provides average results to and from the server.  This tool is intended for use during development to obtain quick network performance estimates. Network configuration, including radio access technology (e.g. Wi-Fi, LTE, 5G) and distance to the server affect results.",
-        "filename" : "DTSettings.strings",
+        "target" : "Could not reach the test server. Try again later.",
+        "filename" : "DTNetQualSettings.strings",
         "language" : "en"
       }
     ],
@@ -220,6 +213,13 @@
     "NFC_PASS_KEY_OPTIONAL" : [
       {
         "target" : "NFC Pass Key Optional",
+        "filename" : "DTSettings.strings",
+        "language" : "en"
+      }
+    ],
+    "THROUGHPUT_FOOTER" : [
+      {
+        "target" : "Throughput Test provides average results to and from the server.  This tool is intended for use during development to obtain quick network performance estimates. Network configuration, including radio access technology (e.g. Wi-Fi, LTE, 5G) and distance to the server affect results.",
         "filename" : "DTSettings.strings",
         "language" : "en"
       }
@@ -308,10 +308,10 @@
         "language" : "en"
       }
     ],
-    "APP_CLIPS_CLEAR_CACHES" : [
+    "FAILURE_OK" : [
       {
-        "target" : "Clear Experience Cache",
-        "filename" : "DTSettings.strings",
+        "target" : "OK",
+        "filename" : "DTNetQualSettings.strings",
         "language" : "en"
       }
     ],
@@ -322,10 +322,10 @@
         "language" : "en"
       }
     ],
-    "FAILURE_OK" : [
+    "APP_CLIPS_CLEAR_CACHES" : [
       {
-        "target" : "OK",
-        "filename" : "DTNetQualSettings.strings",
+        "target" : "Clear Experience Cache",
+        "filename" : "DTSettings.strings",
         "language" : "en"
       }
     ],
@@ -357,13 +357,6 @@
         "language" : "en"
       }
     ],
-    "DUPLICATE_PROFILE" : [
-      {
-        "target" : "Duplicate Profile…",
-        "filename" : "NLCSettings.strings",
-        "language" : "en"
-      }
-    ],
     "ADDITIONAL_LOGGING" : [
       {
         "target" : "Additional Logging",
@@ -382,6 +375,13 @@
       {
         "target" : "Run Throughput Test",
         "filename" : "DTSettings.strings",
+        "language" : "en"
+      }
+    ],
+    "DUPLICATE_PROFILE" : [
+      {
+        "target" : "Duplicate Profile…",
+        "filename" : "NLCSettings.strings",
         "language" : "en"
       }
     ],
@@ -406,6 +406,13 @@
         "language" : "en"
       }
     ],
+    "SIRI_ACTIONS_FOOTER_SPOTLIGHT" : [
+      {
+        "target" : "When turned on, Siri Suggestions in Search & Siri Watch Face show the most recently provided shortcuts rather than current predictions.",
+        "filename" : "DTSettings.strings",
+        "language" : "en"
+      }
+    ],
     "WIDGET_TESTING" : [
       {
         "target" : "Widget Testing",
@@ -416,13 +423,6 @@
     "PASSKIT_TESTING" : [
       {
         "target" : "PassKit Testing",
-        "filename" : "DTSettings.strings",
-        "language" : "en"
-      }
-    ],
-    "SIRI_ACTIONS_FOOTER_SPOTLIGHT" : [
-      {
-        "target" : "When turned on, Siri Suggestions in Search & Siri Watch Face show the most recently provided shortcuts rather than current predictions.",
         "filename" : "DTSettings.strings",
         "language" : "en"
       }
@@ -539,17 +539,17 @@
         "language" : "en"
       }
     ],
-    "DISPLAY_ZOOM_DESCRIPTION_IPHONE" : [
-      {
-        "target" : "Choose a view for iPhone. Zoomed shows larger controls. Standard shows more content.",
-        "filename" : "DTSettings.strings",
-        "language" : "en"
-      }
-    ],
     "INPUT_DELAY" : [
       {
         "target" : "In Delay",
         "filename" : "NLCSettings.strings",
+        "language" : "en"
+      }
+    ],
+    "DISPLAY_ZOOM_DESCRIPTION_IPHONE" : [
+      {
+        "target" : "Choose a view for iPhone. Zoomed shows larger controls. Standard shows more content.",
+        "filename" : "DTSettings.strings",
         "language" : "en"
       }
     ],
@@ -651,20 +651,6 @@
         "language" : "en"
       }
     ],
-    "INTERFACE_WLAN" : [
-      {
-        "target" : "WLAN",
-        "filename" : "NLCSettings.strings",
-        "language" : "en"
-      }
-    ],
-    "PROTOCOL" : [
-      {
-        "target" : "Protocol",
-        "filename" : "NLCSettings.strings",
-        "language" : "en"
-      }
-    ],
     "AUTHENTICATION_SERVICES_ICLOUD_KEYCHAIN_WARNING_FOOTER" : [
       {
         "target" : "iCloud Keychain must be turned on to sync platform credentials.",
@@ -672,9 +658,9 @@
         "language" : "en"
       }
     ],
-    "ENABLE" : [
+    "INTERFACE_WLAN" : [
       {
-        "target" : "Enable",
+        "target" : "WLAN",
         "filename" : "NLCSettings.strings",
         "language" : "en"
       }
@@ -691,9 +677,9 @@
         "language" : "en"
       }
     ],
-    "INVALID_ENTRY_TITLE" : [
+    "ENABLE" : [
       {
-        "target" : "\"%@\" is not a valid value",
+        "target" : "Enable",
         "filename" : "NLCSettings.strings",
         "language" : "en"
       }
@@ -702,6 +688,20 @@
       {
         "target" : "Display Donations on Lock Screen",
         "filename" : "DTSettings.strings",
+        "language" : "en"
+      }
+    ],
+    "INVALID_ENTRY_TITLE" : [
+      {
+        "target" : "\"%@\" is not a valid value",
+        "filename" : "NLCSettings.strings",
+        "language" : "en"
+      }
+    ],
+    "PROTOCOL" : [
+      {
+        "target" : "Protocol",
+        "filename" : "NLCSettings.strings",
         "language" : "en"
       }
     ],
@@ -857,6 +857,13 @@
         "language" : "en"
       }
     ],
+    "EXPOSURE_NOTIFICATION" : [
+      {
+        "target" : "Exposure Notification",
+        "filename" : "DTSettings.strings",
+        "language" : "en"
+      }
+    ],
     "ON" : [
       {
         "target" : "On",
@@ -876,10 +883,10 @@
         "language" : "en"
       }
     ],
-    "EXPOSURE_NOTIFICATION" : [
+    "CONFIRMATION_USE_STANDARD_IPAD" : [
       {
-        "target" : "Exposure Notification",
-        "filename" : "DTSettings.strings",
+        "target" : "Use Standard?",
+        "filename" : "DTDisplayZoom.strings",
         "language" : "en"
       }
     ],
@@ -887,13 +894,6 @@
       {
         "target" : "Cancel test",
         "filename" : "DTSettings.strings",
-        "language" : "en"
-      }
-    ],
-    "CONFIRMATION_USE_STANDARD_IPAD" : [
-      {
-        "target" : "Use Standard?",
-        "filename" : "DTDisplayZoom.strings",
         "language" : "en"
       }
     ],
@@ -974,41 +974,6 @@
         "language" : "en"
       }
     ],
-    "NLC_NO_EFFECT_MESSAGE" : [
-      {
-        "target" : "A Network Link device condition has been detected on this device. Toggling '%@' has no effect. Please disable the condition before trying to use this",
-        "filename" : "NLCSettings.strings",
-        "language" : "en"
-      }
-    ],
-    "START_THROUGHPUT_TEST" : [
-      {
-        "target" : "Start test",
-        "filename" : "DTSettings.strings",
-        "language" : "en"
-      }
-    ],
-    "BANDWIDTH_EXPLANATION_FOOTER" : [
-      {
-        "target" : "Bandwidth in Kbps, packet loss rate in percentage, and delay in milliseconds",
-        "filename" : "NLCSettings.strings",
-        "language" : "en"
-      }
-    ],
-    "THROUGHPUT_ALERT_TITLE" : [
-      {
-        "target" : "Data Rates May Apply",
-        "filename" : "DTSettings.strings",
-        "language" : "en"
-      }
-    ],
-    "OUTPUT_BANDWIDTH" : [
-      {
-        "target" : "Out Bandwidth",
-        "filename" : "NLCSettings.strings",
-        "language" : "en"
-      }
-    ],
     "REINDEX_ALL_ITEMS" : [
       {
         "target" : "Reindex All Items",
@@ -1020,6 +985,41 @@
       {
         "target" : "Interactive",
         "filename" : "DTDmstSettings.strings",
+        "language" : "en"
+      }
+    ],
+    "THROUGHPUT_ALERT_TITLE" : [
+      {
+        "target" : "Data Rates May Apply",
+        "filename" : "DTSettings.strings",
+        "language" : "en"
+      }
+    ],
+    "NLC_NO_EFFECT_MESSAGE" : [
+      {
+        "target" : "A Network Link device condition has been detected on this device. Toggling '%@' has no effect. Please disable the condition before trying to use this",
+        "filename" : "NLCSettings.strings",
+        "language" : "en"
+      }
+    ],
+    "OUTPUT_BANDWIDTH" : [
+      {
+        "target" : "Out Bandwidth",
+        "filename" : "NLCSettings.strings",
+        "language" : "en"
+      }
+    ],
+    "BANDWIDTH_EXPLANATION_FOOTER" : [
+      {
+        "target" : "Bandwidth in Kbps, packet loss rate in percentage, and delay in milliseconds",
+        "filename" : "NLCSettings.strings",
+        "language" : "en"
+      }
+    ],
+    "START_THROUGHPUT_TEST" : [
+      {
+        "target" : "Start test",
+        "filename" : "DTSettings.strings",
         "language" : "en"
       }
     ],
@@ -1079,16 +1079,16 @@
         "language" : "en"
       }
     ],
-    "UNIVERSAL_LINKS_GROUP" : [
+    "PAIRED_DEVICES_FOOTER" : [
       {
-        "target" : "Universal Links",
+        "target" : "Removing trusted computers will delete all of the records of computers that you have paired with previously.",
         "filename" : "DTSettings.strings",
         "language" : "en"
       }
     ],
-    "PAIRED_DEVICES_FOOTER" : [
+    "UNIVERSAL_LINKS_GROUP" : [
       {
-        "target" : "Removing trusted computers will delete all of the records of computers that you have paired with previously.",
+        "target" : "Universal Links",
         "filename" : "DTSettings.strings",
         "language" : "en"
       }
@@ -1121,16 +1121,16 @@
         "language" : "en"
       }
     ],
-    "DISPLAY_UPCOMING_MEDIA" : [
+    "D2A_AIRPLAY_SUGGESTIONS" : [
       {
-        "target" : "Display Upcoming Media",
+        "target" : "AirPlay Suggestions",
         "filename" : "DTSettings.strings",
         "language" : "en"
       }
     ],
-    "D2A_AIRPLAY_SUGGESTIONS" : [
+    "DISPLAY_UPCOMING_MEDIA" : [
       {
-        "target" : "AirPlay Suggestions",
+        "target" : "Display Upcoming Media",
         "filename" : "DTSettings.strings",
         "language" : "en"
       }
@@ -1142,16 +1142,16 @@
         "language" : "en"
       }
     ],
-    "NLC_DISABLED_TITLE" : [
+    "OUTPUT_DELAY" : [
       {
-        "target" : "%@ is Disabled",
+        "target" : "Out Delay",
         "filename" : "NLCSettings.strings",
         "language" : "en"
       }
     ],
-    "OUTPUT_DELAY" : [
+    "NLC_DISABLED_TITLE" : [
       {
-        "target" : "Out Delay",
+        "target" : "%@ is Disabled",
         "filename" : "NLCSettings.strings",
         "language" : "en"
       }

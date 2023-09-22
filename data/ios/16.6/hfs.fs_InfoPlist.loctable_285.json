@@ -5,376 +5,216 @@
   "localizations" : {
     "FSPersonalities" : [
       {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS pro\\U0161ireno (osjetljivo na veli\\U010dinu slova)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS pro\\U0161ireno (osjetljivo na veli\\U010dinu slova, \\U017eurnalirano, kriptirano)\";\n        FSName = \"Mac OS pro\\U0161ireno (osjetljivo na veli\\U010dinu slova, journaled)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS standardno\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS pro\\U0161ireno\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS pro\\U0161ireno (\\U017eurnalirano, kriptirano)\";\n        FSName = \"Mac OS pro\\U0161ireno (journaled)\";\n    };\n}",
+        "target" : "{\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (Case-sensitive)\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Case-sensitive, Journaled, Encrypted)\",\"FSName\":\"Mac OS Extended (Case-sensitive, Journaled)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"},\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Journaled, Encrypted)\",\"FSName\":\"Mac OS Extended (Journaled)\"}}",
         "filename" : "InfoPlist.loctable",
-        "language" : "hr"
+        "language" : "en_GB"
       },
       {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Plus (may\\U00fas.\/min\\U00fas.)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Plus (may\\U00fas.\/min\\U00fas., con registro, encriptado)\";\n        FSName = \"Mac OS Plus (may\\U00fas.\/min\\U00fas., con registro)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Est\\U00e1ndar\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Plus\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Plus (con registro, encriptado)\";\n        FSName = \"Mac OS Plus (con registro)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "es"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (\\U03bc\\U03b5 \\U03b4\\U03b9\\U03ac\\U03ba\\U03c1\\U03b9\\U03c3\\U03b7 \\U03c0\\U03b5\\U03b6\\U03ce\\U03bd-\\U03ba\\U03b5\\U03c6\\U03b1\\U03bb\\U03b1\\U03af\\U03c9\\U03bd)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (\\U03bc\\U03b5 \\U03b4\\U03b9\\U03ac\\U03ba\\U03c1\\U03b9\\U03c3\\U03b7 \\U03c0\\U03b5\\U03b6\\U03ce\\U03bd-\\U03ba\\U03b5\\U03c6\\U03b1\\U03bb\\U03b1\\U03af\\U03c9\\U03bd, Journaled, \\U03ba\\U03c1\\U03c5\\U03c0\\U03c4\\U03bf\\U03b3\\U03c1\\U03b1\\U03c6\\U03b7\\U03bc\\U03ad\\U03bd\\U03bf)\";\n        FSName = \"Mac OS Extended (\\U03bc\\U03b5 \\U03b4\\U03b9\\U03ac\\U03ba\\U03c1\\U03b9\\U03c3\\U03b7 \\U03c0\\U03b5\\U03b6\\U03ce\\U03bd-\\U03ba\\U03b5\\U03c6\\U03b1\\U03bb\\U03b1\\U03af\\U03c9\\U03bd, Journaled)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS \\U0392\\U03b1\\U03c3\\U03b9\\U03ba\\U03ac\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Journaled, \\U03ba\\U03c1\\U03c5\\U03c0\\U03c4\\U03bf\\U03b3\\U03c1\\U03b1\\U03c6\\U03b7\\U03bc\\U03ad\\U03bd\\U03bf)\";\n        FSName = \"Mac OS Extended (Journaled)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "el"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (\\U0437 \\U0443\\U0440\\U0430\\U0445\\U0443\\U0432\\U0430\\U043d\\U043d\\U044f\\U043c \\U0440\\U0435\\U0433\\U0456\\U0441\\U0442\\U0440\\U0443)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (\\U0437 \\U0443\\U0440\\U0430\\U0445\\U0443\\U0432\\U0430\\U043d\\U043d\\U044f\\U043c \\U0440\\U0435\\U0433\\U0456\\U0441\\U0442\\U0440\\U0443, \\U0432\\U0435\\U0434\\U0435\\U043d\\U043d\\U044f \\U0436\\U0443\\U0440\\U043d\\U0430\\U043b\\U0443, \\U0448\\U0438\\U0444\\U0440\\U0443\\U0432\\U0430\\U043d\\U043d\\U044f)\";\n        FSName = \"Mac OS Extended (\\U0437 \\U0443\\U0440\\U0430\\U0445\\U0443\\U0432\\U0430\\U043d\\U043d\\U044f\\U043c \\U0440\\U0435\\U0433\\U0456\\U0441\\U0442\\U0440\\U0443, \\U0432\\U0435\\U0434\\U0435\\U043d\\U043d\\U044f \\U0436\\U0443\\U0440\\U043d\\U0430\\U043b\\U0443)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (\\U0432\\U0435\\U0434\\U0435\\U043d\\U043d\\U044f \\U0436\\U0443\\U0440\\U043d\\U0430\\U043b\\U0443, \\U0448\\U0438\\U0444\\U0440\\U0443\\U0432\\U0430\\U043d\\U043d\\U044f)\";\n        FSName = \"Mac OS Extended (\\U0432\\U0435\\U0434\\U0435\\U043d\\U043d\\U044f \\U0436\\U0443\\U0440\\U043d\\U0430\\U043b\\U0443)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "uk"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (Gro\\U00df-\/Kleinschreibung)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Gro\\U00df-\/Kleinschreibung, Journaled, Verschl\\U00fcsselt)\";\n        FSName = \"Mac OS Extended (Gro\\U00df-\/Kleinschreibung und Journaled)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Journaled, Verschl\\U00fcsselt)\";\n        FSName = \"Mac OS Extended (Journaled)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "de"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac\\U00a0OS \\Ud655\\Uc7a5(\\Ub300\\Uc18c\\Ubb38\\Uc790 \\Uad6c\\Ubd84)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac\\U00a0OS \\Ud655\\Uc7a5(\\Ub300\\Uc18c\\Ubb38\\Uc790 \\Uad6c\\Ubd84, \\Uc800\\Ub110\\Ub9c1, \\Uc554\\Ud638\\Ud654)\";\n        FSName = \"Mac\\U00a0OS \\Ud655\\Uc7a5(\\Ub300\\Uc18c\\Ubb38\\Uc790 \\Uad6c\\Ubd84, \\Uc800\\Ub110\\Ub9c1)\";\n    };\n    HFS =     {\n        FSName = \"Mac\\U00a0OS \\Ud45c\\Uc900\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac\\U00a0OS \\Ud655\\Uc7a5\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac\\U00a0OS \\Ud655\\Uc7a5(\\Uc800\\Ub110\\Ub9c1, \\Uc554\\Ud638\\Ud654)\";\n        FSName = \"Mac\\U00a0OS \\Ud655\\Uc7a5(\\Uc800\\Ub110\\Ub9c1)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "ko"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS \\U00e9tendu (sensible \\U00e0 la casse)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS \\U00e9tendu (sensible \\U00e0 la casse, journalis\\U00e9, chiffr\\U00e9)\";\n        FSName = \"Mac OS \\U00e9tendu (sensible \\U00e0 la casse, journalis\\U00e9)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS \\U00e9tendu\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS \\U00e9tendu (journalis\\U00e9, chiffr\\U00e9)\";\n        FSName = \"Mac OS \\U00e9tendu (journalis\\U00e9)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "fr"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS - udvidet (forskel p\\U00e5 store\/sm\\U00e5)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS - udvidet (forskel p\\U00e5 store\/sm\\U00e5, Journaled, krypteret)\";\n        FSName = \"Mac OS - udvidet (forskel p\\U00e5 store\/sm\\U00e5, Journaled)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS - standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS - udvidet\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS - udvidet (Journaled, krypteret)\";\n        FSName = \"Mac OS - udvidet (Journaled)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "da"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS roz\\U0161\\U00ed\\U0159en\\U00fd (velikost p\\U00edsmen)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS roz\\U0161\\U00ed\\U0159en\\U00fd (velikost p\\U00edsmen, \\U017eurn\\U00e1lovan\\U00fd, \\U0161ifrovan\\U00fd)\";\n        FSName = \"Mac OS roz\\U0161\\U00ed\\U0159en\\U00fd (velikost p\\U00edsmen, \\U017eurn\\U00e1lovan\\U00fd)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS standardn\\U00ed\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS roz\\U0161\\U00ed\\U0159en\\U00fd\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS roz\\U0161\\U00ed\\U0159en\\U00fd (\\U017eurn\\U00e1lovan\\U00fd, \\U0161ifrovan\\U00fd)\";\n        FSName = \"Mac OS roz\\U0161\\U00ed\\U0159en\\U00fd (\\U017eurn\\U00e1lovan\\U00fd)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "cs"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS\\U6269\\U5c55\\Uff08\\U533a\\U5206\\U5927\\U5c0f\\U5199\\Uff09\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS\\U6269\\U5c55\\Uff08\\U533a\\U5206\\U5927\\U5c0f\\U5199\\Uff0c\\U65e5\\U5fd7\\U5f0f\\Uff0c\\U52a0\\U5bc6\\Uff09\";\n        FSName = \"Mac OS\\U6269\\U5c55\\Uff08\\U533a\\U5206\\U5927\\U5c0f\\U5199\\Uff0c\\U65e5\\U5fd7\\U5f0f\\Uff09\";\n    };\n    HFS =     {\n        FSName = \"Mac OS\\U6807\\U51c6\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS\\U6269\\U5c55\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS\\U6269\\U5c55\\Uff08\\U65e5\\U5fd7\\U5f0f\\Uff0c\\U52a0\\U5bc6\\Uff09\";\n        FSName = \"Mac OS\\U6269\\U5c55\\Uff08\\U65e5\\U5fd7\\U5f0f\\Uff09\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "zh_CN"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS \\U00e9tendu (sensible \\U00e0 la casse)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS \\U00e9tendu (sensible \\U00e0 la casse, journalis\\U00e9, chiffr\\U00e9)\";\n        FSName = \"Mac OS \\U00e9tendu (sensible \\U00e0 la casse, journalis\\U00e9)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS \\U00e9tendu\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS \\U00e9tendu (journalis\\U00e9, chiffr\\U00e9)\";\n        FSName = \"Mac OS \\U00e9tendu (journalis\\U00e9)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "fr_CA"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Lanjutan (Peka Huruf Besar\/Kecil)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Lanjutan (Peka Huruf Besar\/Kecil, Berjurnal, Disulitkan)\";\n        FSName = \"Mac OS Lanjutan (Peka Huruf Besar\/Kecil, Berjurnal)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Lanjutan\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Lanjutan (Berjurnal, Disulitkan)\";\n        FSName = \"Mac OS Lanjutan (Berjurnal)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "ms"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (\\U062d\\U0633\\U0627\\U0633 \\U0644\\U062d\\U0627\\U0644\\U0629 \\U0627\\U0644\\U0623\\U062d\\U0631\\U0641)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"\\U200fMac\\U00a0OS\\U00a0Extended (\\U062d\\U0633\\U0627\\U0633 \\U0644\\U062d\\U0627\\U0644\\U0629 \\U0627\\U0644\\U0623\\U062d\\U0631\\U0641\\U060c Journaled\\U060c \\U0645\\U0634\\U0641\\U0631)\";\n        FSName = \"\\U200fMac\\U00a0OS\\U00a0Extended (\\U062d\\U0633\\U0627\\U0633 \\U0644\\U062d\\U0627\\U0644\\U0629 \\U0627\\U0644\\U0623\\U062d\\U0631\\U0641\\U060c Journaled)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"\\U200fMac\\U00a0OS\\U00a0Extended \\U200f(Journaled\\U060c \\U0645\\U0634\\U0641\\U0631)\";\n        FSName = \"\\U200fMac\\U00a0OS\\U00a0Extended \\U200f(Journaled)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "ar"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS\\U64f4\\U5145\\U683c\\U5f0f\\Uff08\\U5340\\U5206\\U5927\\U5c0f\\U5beb\\Uff09\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS\\U64f4\\U5145\\U683c\\U5f0f\\Uff08\\U5340\\U5206\\U5927\\U5c0f\\U5beb\\U3001\\U65e5\\U8a8c\\U5f0f\\U3001\\U5df2\\U52a0\\U5bc6\\Uff09\";\n        FSName = \"Mac OS\\U64f4\\U5145\\U683c\\U5f0f\\Uff08\\U5340\\U5206\\U5927\\U5c0f\\U5beb\\U3001\\U65e5\\U8a8c\\U5f0f\\Uff09\";\n    };\n    HFS =     {\n        FSName = \"Mac OS\\U6a19\\U6e96\\U683c\\U5f0f\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS\\U64f4\\U5145\\U683c\\U5f0f\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS\\U64f4\\U5145\\U683c\\U5f0f\\Uff08\\U65e5\\U8a8c\\U5f0f\\U3001\\U5df2\\U52a0\\U5bc6\\Uff09\";\n        FSName = \"Mac OS\\U64f4\\U5145\\U683c\\U5f0f\\Uff08\\U65e5\\U8a8c\\U5f0f\\Uff09\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "zh_TW"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (Citliv\\U00fd na ve\\U013ekos\\U0165)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Citliv\\U00fd na ve\\U013ekos\\U0165, Journaled, \\U0160ifrovan\\U00fd)\";\n        FSName = \"Mac OS Extended (Citliv\\U00fd na ve\\U013ekos\\U0165, Journaled)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Journaled, \\U0160ifrovan\\U00fd)\";\n        FSName = \"Mac OS Extended (Journaled)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "sk"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (skiftl\\U00e4gesk\\U00e4nslig)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (skiftl\\U00e4gesk\\U00e4nslig, journalf\\U00f6rd, krypterad)\";\n        FSName = \"Mac OS Extended (skiftl\\U00e4gesk\\U00e4nslig, journalf\\U00f6rd)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (journalf\\U00f6rd, krypterad)\";\n        FSName = \"Mac OS Extended (journalf\\U00f6rd)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "sv"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (wielko\\U015b\\U0107 liter istotna)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (wielko\\U015b\\U0107 liter istotna, kronikowany, szyfrowany)\";\n        FSName = \"Mac OS Extended (wielko\\U015b\\U0107 liter istotna, kronikowany)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (kronikowany, szyfrowany)\";\n        FSName = \"Mac OS Extended (kronikowany)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "pl"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (Case-sensitive)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Case-sensitive, journalf\\U00f8rt, kryptert)\";\n        FSName = \"Mac OS Extended (Case-sensitive, journalf\\U00f8rt)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (journalf\\U00f8rt, kryptert)\";\n        FSName = \"Mac OS Extended (journalf\\U00f8rt)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "no"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (Ph\\U00e2n bi\\U1ec7t ch\\U1eef hoa ch\\U1eef th\\U01b0\\U1eddng)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Ph\\U00e2n bi\\U1ec7t ch\\U1eef hoa ch\\U1eef th\\U01b0\\U1eddng, Ghi nh\\U1eadt k\\U00fd, M\\U00e3 h\\U00f3a)\";\n        FSName = \"Mac OS Extended (Case-sensitive, Journaled)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Ghi nh\\U1eadt k\\U00fd, M\\U00e3 h\\U00f3a)\";\n        FSName = \"Mac OS Extended (Journaled)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "vi"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (\\U0443\\U0447\\U0435\\U0442 \\U0440\\U0435\\U0433\\U0438\\U0441\\U0442\\U0440\\U0430 \\U043a\\U043b\\U0430\\U0432\\U0438\\U0430\\U0442\\U0443\\U0440\\U044b)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (\\U0443\\U0447\\U0435\\U0442 \\U0440\\U0435\\U0433. \\U043a\\U043b\\U0430\\U0432\\U0438\\U0430\\U0442\\U0443\\U0440\\U044b, \\U0436\\U0443\\U0440\\U043d\\U0430\\U043b\\U0438\\U0440\\U0443\\U0435\\U043c\\U044b\\U0439, \\U0437\\U0430\\U0448\\U0438\\U0444\\U0440\\U043e\\U0432\\U0430\\U043d\\U043d\\U044b\\U0439)\";\n        FSName = \"Mac OS Extended (\\U0443\\U0447\\U0435\\U0442 \\U0440\\U0435\\U0433. \\U043a\\U043b\\U0430\\U0432\\U0438\\U0430\\U0442\\U0443\\U0440\\U044b, \\U0436\\U0443\\U0440\\U043d\\U0430\\U043b\\U0438\\U0440\\U0443\\U0435\\U043c\\U044b\\U0439)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (\\U0436\\U0443\\U0440\\U043d\\U0430\\U043b\\U0438\\U0440\\U0443\\U0435\\U043c\\U044b\\U0439, \\U0437\\U0430\\U0448\\U0438\\U0444\\U0440\\U043e\\U0432\\U0430\\U043d\\U043d\\U044b\\U0439)\";\n        FSName = \"Mac OS Extended (\\U0436\\U0443\\U0440\\U043d\\U0430\\U043b\\U0438\\U0440\\U0443\\U0435\\U043c\\U044b\\U0439)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "ru"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Plus (maj\\U00fasc.\/min\\U00fasc.)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Plus (maj\\U00fasc.\/min\\U00fasc., amb registre, encriptat)\";\n        FSName = \"Mac OS Plus (maj\\U00fasc.\/min\\U00fasc., amb registre)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS est\\U00e0ndard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Plus\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Plus (amb registre, encriptat)\";\n        FSName = \"Mac OS Plus (amb registre)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "ca"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Geni\\U015fletilmi\\U015f (B\\U00fcy\\U00fck-K\\U00fc\\U00e7\\U00fck Harfe Duyarl\\U0131)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Geni\\U015fletilmi\\U015f (B\\U00fcy\\U00fck-K\\U00fc\\U00e7\\U00fck Harfe Duyarl\\U0131, G\\U00fcnl\\U00fckl\\U00fc, \\U015eifreli)\";\n        FSName = \"Mac OS Geni\\U015fletilmi\\U015f (B\\U00fcy\\U00fck-K\\U00fc\\U00e7\\U00fck Harfe Duyarl\\U0131, G\\U00fcnl\\U00fckl\\U00fc)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standart\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Geni\\U015fletilmi\\U015f\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Geni\\U015fletilmi\\U015f (G\\U00fcnl\\U00fckl\\U00fc, \\U015eifreli)\";\n        FSName = \"Mac OS Geni\\U015fletilmi\\U015f (G\\U00fcnl\\U00fckl\\U00fc)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "tr"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Diperpanjang (Sensitif huruf besar)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Diperpanjang (Sensitif huruf besar, Terjurnal, Terenkripsi)\";\n        FSName = \"Mac OS Diperpanjang (Sensitif huruf besar, Terjurnal)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standar\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Diperpanjang\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Diperpanjang (Terjurnal, Terenkripsi)\";\n        FSName = \"Mac OS Diperpanjang (Terjurnal)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "id"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Uitgebreid (hoofdlettergevoelig)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Uitgebreid (hoofdlettergevoelig, journaled, versleuteld)\";\n        FSName = \"Mac OS Uitgebreid (hoofdlettergev.\/journaled)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standaard (HFS)\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Uitgebreid (HFS+)\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Uitgebreid (journaled, versleuteld)\";\n        FSName = \"Mac OS Uitgebreid (journaled)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "nl"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (Case-sensitive)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Case-sensitive, Journaled, Encrypted)\";\n        FSName = \"Mac OS Extended (Case-sensitive, Journaled)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Journaled, Encrypted)\";\n        FSName = \"Mac OS Extended (Journaled)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "en_AU"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Expandido (diferencia\\U00e7\\U00e3o de mai\\U00fasculas)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Expandido (distin\\U00e7\\U00e3o mai\\U00fasculas\/min\\U00fasculas, com journaling, cifrado)\";\n        FSName = \"Mac OS Expandido (distin\\U00e7\\U00e3o mai\\U00fasculas\/min\\U00fasculas, com journaling)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Expandido\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Expandido (com journaling, cifrado)\";\n        FSName = \"Mac OS Expandido (com journaling)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "pt_PT"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (Case-sensitive)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Case-sensitive, Journaled, Encrypted)\";\n        FSName = \"Mac OS Extended (Case-sensitive, Journaled)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Journaled, Encrypted)\";\n        FSName = \"Mac OS Extended (Journaled)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "bg"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS \\U0935\\U093f\\U0938\\U094d\\U0924\\U093e\\U0930\\U093f\\U0924 (\\U0915\\U0947\\U0938-\\U0938\\U0902\\U0935\\U0947\\U0926\\U0940)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS \\U0935\\U093f\\U0938\\U094d\\U0924\\U093e\\U0930\\U093f\\U0924 (\\U0915\\U0947\\U0938-\\U0938\\U0902\\U0935\\U0947\\U0926\\U0940, \\U091c\\U0930\\U094d\\U0928\\U0932\\U094d\\U0921, \\U090f\\U0902\\U0915\\U094d\\U0930\\U093f\\U092a\\U094d\\U091f\\U0947\\U0921)\";\n        FSName = \"Mac OS \\U0935\\U093f\\U0938\\U094d\\U0924\\U093e\\U0930\\U093f\\U0924 (\\U0915\\U0947\\U0938-\\U0938\\U0902\\U0935\\U0947\\U0926\\U0940, \\U091c\\U0930\\U094d\\U0928\\U0932\\U094d\\U0921)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS \\U092e\\U093e\\U0928\\U0915\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS \\U0935\\U093f\\U0938\\U094d\\U0924\\U093e\\U0930\\U093f\\U0924\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS \\U0935\\U093f\\U0938\\U094d\\U0924\\U093e\\U0930\\U093f\\U0924 (\\U091c\\U0930\\U094d\\U0928\\U0932\\U094d\\U0921, \\U090f\\U0902\\U0915\\U094d\\U0930\\U093f\\U092a\\U094d\\U091f\\U0947\\U0921)\";\n        FSName = \"Mac OS \\U0935\\U093f\\U0938\\U094d\\U0924\\U093e\\U0930\\U093f\\U0924 (\\U091c\\U0930\\U094d\\U0928\\U0932\\U094d\\U0921)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "hi"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS\\U64f4\\U5145\\U683c\\U5f0f\\Uff08\\U5340\\U5206\\U5927\\U5c0f\\U5beb\\Uff09\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS\\U64f4\\U5145\\U683c\\U5f0f\\Uff08\\U5340\\U5206\\U5927\\U5c0f\\U5beb\\U3001\\U65e5\\U8a8c\\U5f0f\\U3001\\U5df2\\U52a0\\U5bc6\\Uff09\";\n        FSName = \"Mac OS\\U64f4\\U5145\\U683c\\U5f0f\\Uff08\\U5340\\U5206\\U5927\\U5c0f\\U5beb\\U3001\\U65e5\\U8a8c\\U5f0f\\Uff09\";\n    };\n    HFS =     {\n        FSName = \"Mac OS\\U6a19\\U6e96\\U683c\\U5f0f\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS\\U64f4\\U5145\\U683c\\U5f0f\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS\\U64f4\\U5145\\U683c\\U5f0f\\Uff08\\U65e5\\U8a8c\\U5f0f\\U3001\\U5df2\\U52a0\\U5bc6\\Uff09\";\n        FSName = \"Mac OS\\U64f4\\U5145\\U683c\\U5f0f\\Uff08\\U65e5\\U8a8c\\U5f0f\\Uff09\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "zh_HK"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Expandido (Distin\\U00e7\\U00e3o de mai\\U00fasculas)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Expandido (Distin\\U00e7\\U00e3o de mai\\U00fasculas, Journaling, Criptografado)\";\n        FSName = \"Mac OS Expandido (Distin\\U00e7\\U00e3o de mai\\U00fasculas, Journaling)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Padr\\U00e3o\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Expandido\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Expandido (Journaling, Criptografado)\";\n        FSName = \"Mac OS Expandido (Journaling)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "pt"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac\\U00a0OS\\U00a0Extended (\\U0442\\U0430\\U04a3\\U0431\\U0430\\U043b\\U0430\\U0440 \\U0440\\U0435\\U0433\\U0438\\U0441\\U0442\\U0440\\U0456\\U043d\\U0435 \\U0441\\U0435\\U0437\\U0456\\U043c\\U0442\\U0430\\U043b)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac\\U00a0OS\\U00a0Extended (\\U0442\\U0430\\U04a3\\U0431\\U0430\\U043b\\U0430\\U0440 \\U0440\\U0435\\U0433\\U0438\\U0441\\U0442\\U0440\\U0456\\U043d\\U0435 \\U0441\\U0435\\U0437\\U0456\\U043c\\U0442\\U0430\\U043b, \\U0436\\U0443\\U0440\\U043d\\U0430\\U043b\\U0493\\U0430 \\U0436\\U0430\\U0437\\U044b\\U043b\\U0430\\U0442\\U044b\\U043d, \\U0448\\U0438\\U0444\\U0440\\U043b\\U0430\\U043d\\U0493\\U0430\\U043d)\";\n        FSName = \"Mac\\U00a0OS\\U00a0Extended (\\U0442\\U0430\\U04a3\\U0431\\U0430\\U043b\\U0430\\U0440 \\U0440\\U0435\\U0433\\U0438\\U0441\\U0442\\U0440\\U0456\\U043d\\U0435 \\U0441\\U0435\\U0437\\U0456\\U043c\\U0442\\U0430\\U043b, \\U0436\\U0443\\U0440\\U043d\\U0430\\U043b\\U0493\\U0430 \\U0436\\U0430\\U0437\\U044b\\U043b\\U0430\\U0442\\U044b\\U043d)\";\n    };\n    HFS =     {\n        FSName = \"Mac\\U00a0OS\\U00a0Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac\\U00a0OS\\U00a0Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac\\U00a0OS\\U00a0Extended (\\U0436\\U0443\\U0440\\U043d\\U0430\\U043b\\U0493\\U0430 \\U0436\\U0430\\U0437\\U044b\\U043b\\U0430\\U0442\\U044b\\U043d, \\U0448\\U0438\\U0444\\U0440\\U043b\\U0430\\U043d\\U0493\\U0430\\U043d)\";\n        FSName = \"Mac\\U00a0OS\\U00a0Extended (\\U0436\\U0443\\U0440\\U043d\\U0430\\U043b\\U0493\\U0430 \\U0436\\U0430\\U0437\\U044b\\U043b\\U0430\\U0442\\U044b\\U043d)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "kk"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS\\U62e1\\U5f35\\Uff08\\U5927\\U6587\\U5b57\/\\U5c0f\\U6587\\U5b57\\U3092\\U533a\\U5225\\Uff09\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS\\U62e1\\U5f35\\Uff08\\U5927\\U6587\\U5b57\/\\U5c0f\\U6587\\U5b57\\U3092\\U533a\\U5225\\U3001\\U30b8\\U30e3\\U30fc\\U30ca\\U30ea\\U30f3\\U30b0\\U3001\\U6697\\U53f7\\U5316\\Uff09\";\n        FSName = \"Mac OS\\U62e1\\U5f35\\Uff08\\U5927\\U6587\\U5b57\/\\U5c0f\\U6587\\U5b57\\U3092\\U533a\\U5225\\U3001\\U30b8\\U30e3\\U30fc\\U30ca\\U30ea\\U30f3\\U30b0\\Uff09\";\n    };\n    HFS =     {\n        FSName = \"Mac OS \\U6a19\\U6e96\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS \\U62e1\\U5f35\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS\\U62e1\\U5f35\\Uff08\\U30b8\\U30e3\\U30fc\\U30ca\\U30ea\\U30f3\\U30b0\\U3001\\U6697\\U53f7\\U5316\\Uff09\";\n        FSName = \"Mac OS \\U62e1\\U5f35\\Uff08\\U30b8\\U30e3\\U30fc\\U30ca\\U30ea\\U30f3\\U30b0\\Uff09\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "ja"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS kiterjesztett (kis- \\U00e9s nagybet\\U0171\\U00e9rz\\U00e9keny)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS kiterjesztett (kis- \\U00e9s nagybet\\U0171\\U00e9rz\\U00e9keny, napl\\U00f3zott, titkos\\U00edtott)\";\n        FSName = \"Mac OS kiterjesztett (kis- \\U00e9s nagybet\\U0171\\U00e9rz\\U00e9keny, napl\\U00f3zott)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS szabv\\U00e1nyos\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS kiterjesztett\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS kiterjesztett (napl\\U00f3zott, titkos\\U00edtott)\";\n        FSName = \"Mac OS kiterjesztett (napl\\U00f3zott)\";\n    };\n}",
-        "filename" : "InfoPlist.loctable",
-        "language" : "hu"
-      },
-      {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"\\U200fMac OS \\U05de\\U05d5\\U05e8\\U05d7\\U05d1 (\\U05e8\\U05d2\\U05d9\\U05e9 \\U05dc\\U05d0\\U05d5\\U05ea\\U05d9\\U05d5\\U05ea \\U05d2\\U05d3\\U05d5\\U05dc\\U05d5\\U05ea\/\\U05e7\\U05d8\\U05e0\\U05d5\\U05ea)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"\\U200fMac OS \\U05de\\U05d5\\U05e8\\U05d7\\U05d1 (\\U05e8\\U05d2\\U05d9\\U05e9 \\U05dc\\U05d0\\U05d5\\U05ea\\U05d9\\U05d5\\U05ea \\U05d2\\U05d3\\U05d5\\U05dc\\U05d5\\U05ea\/\\U05e7\\U05d8\\U05e0\\U05d5\\U05ea, \\U05de\\U05ea\\U05d5\\U05e2\\U05d3, \\U05de\\U05d5\\U05e6\\U05e4\\U05df)\";\n        FSName = \"\\U200fMac OS \\U05de\\U05d5\\U05e8\\U05d7\\U05d1 (\\U05e8\\U05d2\\U05d9\\U05e9 \\U05dc\\U05d0\\U05d5\\U05ea\\U05d9\\U05d5\\U05ea \\U05d2\\U05d3\\U05d5\\U05dc\\U05d5\\U05ea\/\\U05e7\\U05d8\\U05e0\\U05d5\\U05ea, \\U05de\\U05ea\\U05d5\\U05e2\\U05d3)\";\n    };\n    HFS =     {\n        FSName = \"\\U200fMac OS \\U05e8\\U05d2\\U05d9\\U05dc\";\n    };\n    \"HFS+\" =     {\n        FSName = \"\\U200fMac OS \\U05de\\U05d5\\U05e8\\U05d7\\U05d1\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"\\U200fMac OS \\U05de\\U05d5\\U05e8\\U05d7\\U05d1 (\\U05de\\U05ea\\U05d5\\U05e2\\U05d3, \\U05de\\U05d5\\U05e6\\U05e4\\U05df)\";\n        FSName = \"\\U200fMac OS \\U05de\\U05d5\\U05e8\\U05d7\\U05d1 (\\U05de\\U05ea\\U05d5\\U05e2\\U05d3)\";\n    };\n}",
+        "target" : "{\"Case-sensitive HFS+\":{\"FSName\":\"‏Mac OS מורחב (רגיש לאותיות גדולות\\\/קטנות)\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"‏Mac OS מורחב (רגיש לאותיות גדולות\\\/קטנות, מתועד, מוצפן)\",\"FSName\":\"‏Mac OS מורחב (רגיש לאותיות גדולות\\\/קטנות, מתועד)\"},\"HFS\":{\"FSName\":\"‏Mac OS רגיל\"},\"HFS+\":{\"FSName\":\"‏Mac OS מורחב\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"‏Mac OS מורחב (מתועד, מוצפן)\",\"FSName\":\"‏Mac OS מורחב (מתועד)\"}}",
         "filename" : "InfoPlist.loctable",
         "language" : "he"
       },
       {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (sensibil la majuscule\/minuscule)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (sensibil la majuscule\/minuscule, jurnalizat, criptat)\";\n        FSName = \"Mac OS Extended (sensibil la majuscule\/minuscule, jurnalizat)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (jurnalizat, criptat)\";\n        FSName = \"Mac OS Extended (jurnalizat)\";\n    };\n}",
+        "target" : "{\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS擴充格式（區分大小寫）\"},\"HFS\":{\"FSName\":\"Mac OS標準格式\"},\"HFS+\":{\"FSName\":\"Mac OS擴充格式\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS擴充格式（日誌式、已加密）\",\"FSName\":\"Mac OS擴充格式（日誌式）\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS擴充格式（區分大小寫、日誌式、已加密）\",\"FSName\":\"Mac OS擴充格式（區分大小寫、日誌式）\"}}",
         "filename" : "InfoPlist.loctable",
-        "language" : "ro"
+        "language" : "zh_HK"
       },
       {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (Case-sensitive)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Case-sensitive, Journaled, Encrypted)\";\n        FSName = \"Mac OS Extended (Case-sensitive, Journaled)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Journaled, Encrypted)\";\n        FSName = \"Mac OS Extended (Journaled)\";\n    };\n}",
+        "target" : "{\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS rozšířený (velikost písmen)\"},\"HFS\":{\"FSName\":\"Mac OS standardní\"},\"HFS+\":{\"FSName\":\"Mac OS rozšířený\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS rozšířený (žurnálovaný, šifrovaný)\",\"FSName\":\"Mac OS rozšířený (žurnálovaný)\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS rozšířený (velikost písmen, žurnálovaný, šifrovaný)\",\"FSName\":\"Mac OS rozšířený (velikost písmen, žurnálovaný)\"}}",
         "filename" : "InfoPlist.loctable",
-        "language" : "en"
+        "language" : "cs"
       },
       {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (Case-sensitive)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Case-sensitive, Journaled, Encrypted)\";\n        FSName = \"Mac OS Extended (Case-sensitive, Journaled)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Journaled, Encrypted)\";\n        FSName = \"Mac OS Extended (Journaled)\";\n    };\n}",
+        "target" : "{\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS拡張（大文字\\\/小文字を区別）\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS拡張（大文字\\\/小文字を区別、ジャーナリング、暗号化）\",\"FSName\":\"Mac OS拡張（大文字\\\/小文字を区別、ジャーナリング）\"},\"HFS\":{\"FSName\":\"Mac OS 標準\"},\"HFS+\":{\"FSName\":\"Mac OS 拡張\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS拡張（ジャーナリング、暗号化）\",\"FSName\":\"Mac OS 拡張（ジャーナリング）\"}}",
         "filename" : "InfoPlist.loctable",
-        "language" : "th"
+        "language" : "ja"
       },
       {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS esteso (distingue tra maiuscole e minuscole)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS esteso (distingue tra maiuscole e minuscole, journaled, crittografato)\";\n        FSName = \"Mac OS esteso (distingue tra maiuscole e minuscole, journaled)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS esteso\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS esteso (journaled, crittografato)\";\n        FSName = \"Mac OS esteso (Journaled)\";\n    };\n}",
+        "target" : "{\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (wielkość liter istotna)\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (wielkość liter istotna, kronikowany, szyfrowany)\",\"FSName\":\"Mac OS Extended (wielkość liter istotna, kronikowany)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"},\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (kronikowany, szyfrowany)\",\"FSName\":\"Mac OS Extended (kronikowany)\"}}",
         "filename" : "InfoPlist.loctable",
-        "language" : "it"
+        "language" : "pl"
       },
       {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Plus (may\\U00fas.\/min\\U00fas.)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Plus (may\\U00fas.\/min\\U00fas., con registro, encriptado)\";\n        FSName = \"Mac OS Plus (may\\U00fas.\/min\\U00fas., con registro)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Est\\U00e1ndar\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Plus\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Plus (con registro, encriptado)\";\n        FSName = \"Mac OS Plus (con registro)\";\n    };\n}",
+        "target" : "{\"HFS\":{\"FSName\":\"Mac OS standard\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS étendu (journalisé, chiffré)\",\"FSName\":\"Mac OS étendu (journalisé)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS étendu (sensible à la casse)\"},\"HFS+\":{\"FSName\":\"Mac OS étendu\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS étendu (sensible à la casse, journalisé, chiffré)\",\"FSName\":\"Mac OS étendu (sensible à la casse, journalisé)\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "{\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (حساس لحالة الأحرف)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"},\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"‏Mac OS Extended ‏(Journaled، مشفر)\",\"FSName\":\"‏Mac OS Extended ‏(Journaled)\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"‏Mac OS Extended (حساس لحالة الأحرف، Journaled، مشفر)\",\"FSName\":\"‏Mac OS Extended (حساس لحالة الأحرف، Journaled)\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "{\"HFS\":{\"FSName\":\"Mac OS Standard\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (журналға жазылатын, шифрланған)\",\"FSName\":\"Mac OS Extended (журналға жазылатын)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (таңбалар регистріне сезімтал)\"},\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (таңбалар регистріне сезімтал, журналға жазылатын, шифрланған)\",\"FSName\":\"Mac OS Extended (таңбалар регистріне сезімтал, журналға жазылатын)\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "kk"
+      },
+      {
+        "target" : "{\"HFS\":{\"FSName\":\"Mac OS Standard\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Ghi nhật ký, Mã hóa)\",\"FSName\":\"Mac OS Extended (Journaled)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (Phân biệt chữ hoa chữ thường)\"},\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Phân biệt chữ hoa chữ thường, Ghi nhật ký, Mã hóa)\",\"FSName\":\"Mac OS Extended (Case-sensitive, Journaled)\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Expandido\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Expandido (distinção maiúsculas\\\/minúsculas, com journaling, cifrado)\",\"FSName\":\"Mac OS Expandido (distinção maiúsculas\\\/minúsculas, com journaling)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Expandido (com journaling, cifrado)\",\"FSName\":\"Mac OS Expandido (com journaling)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Expandido (diferenciação de maiúsculas)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS擴充格式\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS擴充格式（區分大小寫、日誌式、已加密）\",\"FSName\":\"Mac OS擴充格式（區分大小寫、日誌式）\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS擴充格式（日誌式、已加密）\",\"FSName\":\"Mac OS擴充格式（日誌式）\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS擴充格式（區分大小寫）\"},\"HFS\":{\"FSName\":\"Mac OS標準格式\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Case-sensitive, journalført, kryptert)\",\"FSName\":\"Mac OS Extended (Case-sensitive, journalført)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (journalført, kryptert)\",\"FSName\":\"Mac OS Extended (journalført)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (Case-sensitive)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS扩展\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS扩展（区分大小写，日志式，加密）\",\"FSName\":\"Mac OS扩展（区分大小写，日志式）\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS扩展（日志式，加密）\",\"FSName\":\"Mac OS扩展（日志式）\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS扩展（区分大小写）\"},\"HFS\":{\"FSName\":\"Mac OS标准\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Diperpanjang\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Diperpanjang (Sensitif huruf besar, Terjurnal, Terenkripsi)\",\"FSName\":\"Mac OS Diperpanjang (Sensitif huruf besar, Terjurnal)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Diperpanjang (Terjurnal, Terenkripsi)\",\"FSName\":\"Mac OS Diperpanjang (Terjurnal)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Diperpanjang (Sensitif huruf besar)\"},\"HFS\":{\"FSName\":\"Mac OS Standar\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Expandido\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Expandido (Distinção de maiúsculas, Journaling, Criptografado)\",\"FSName\":\"Mac OS Expandido (Distinção de maiúsculas, Journaling)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Expandido (Journaling, Criptografado)\",\"FSName\":\"Mac OS Expandido (Journaling)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Expandido (Distinção de maiúsculas)\"},\"HFS\":{\"FSName\":\"Mac OS Padrão\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (με διάκριση πεζών-κεφαλαίων, Journaled, κρυπτογραφημένο)\",\"FSName\":\"Mac OS Extended (με διάκριση πεζών-κεφαλαίων, Journaled)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Journaled, κρυπτογραφημένο)\",\"FSName\":\"Mac OS Extended (Journaled)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (με διάκριση πεζών-κεφαλαίων)\"},\"HFS\":{\"FSName\":\"Mac OS Βασικά\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS prošireno\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS prošireno (osjetljivo na veličinu slova, žurnalirano, kriptirano)\",\"FSName\":\"Mac OS prošireno (osjetljivo na veličinu slova, journaled)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS prošireno (žurnalirano, kriptirano)\",\"FSName\":\"Mac OS prošireno (journaled)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS prošireno (osjetljivo na veličinu slova)\"},\"HFS\":{\"FSName\":\"Mac OS standardno\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Plus\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Plus (mayús.\\\/minús., con registro, encriptado)\",\"FSName\":\"Mac OS Plus (mayús.\\\/minús., con registro)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Plus (con registro, encriptado)\",\"FSName\":\"Mac OS Plus (con registro)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Plus (mayús.\\\/minús.)\"},\"HFS\":{\"FSName\":\"Mac OS Estándar\"}}",
         "filename" : "InfoPlist.loctable",
         "language" : "es_419"
       },
       {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS laajennettu (isot ja pienet kirjaimet erotteleva)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS laajennettu (isot ja pienet kirjaimet erotteleva, kirjaava, salattu)\";\n        FSName = \"Mac OS laajennettu (isot ja pienet kirjaimet erotteleva, kirjaava)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS vakio\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS laajennettu\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS laajennettu (kirjaava, salattu)\";\n        FSName = \"Mac OS laajennettu (kirjaava)\";\n    };\n}",
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Plus\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Plus (mayús.\\\/minús., con registro, encriptado)\",\"FSName\":\"Mac OS Plus (mayús.\\\/minús., con registro)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Plus (con registro, encriptado)\",\"FSName\":\"Mac OS Plus (con registro)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Plus (mayús.\\\/minús.)\"},\"HFS\":{\"FSName\":\"Mac OS Estándar\"}}",
         "filename" : "InfoPlist.loctable",
-        "language" : "fi"
+        "language" : "es"
       },
       {
-        "target" : "{\n    \"Case-sensitive HFS+\" =     {\n        FSName = \"Mac OS Extended (Case-sensitive)\";\n    };\n    \"Case-sensitive Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Case-sensitive, Journaled, Encrypted)\";\n        FSName = \"Mac OS Extended (Case-sensitive, Journaled)\";\n    };\n    HFS =     {\n        FSName = \"Mac OS Standard\";\n    };\n    \"HFS+\" =     {\n        FSName = \"Mac OS Extended\";\n    };\n    \"Journaled HFS+\" =     {\n        FSCoreStorageEncryptionName = \"Mac OS Extended (Journaled, Encrypted)\";\n        FSName = \"Mac OS Extended (Journaled)\";\n    };\n}",
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (sensibil la majuscule\\\/minuscule, jurnalizat, criptat)\",\"FSName\":\"Mac OS Extended (sensibil la majuscule\\\/minuscule, jurnalizat)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (jurnalizat, criptat)\",\"FSName\":\"Mac OS Extended (jurnalizat)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (sensibil la majuscule\\\/minuscule)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"}}",
         "filename" : "InfoPlist.loctable",
-        "language" : "en_GB"
+        "language" : "ro"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Lanjutan\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Lanjutan (Peka Huruf Besar\\\/Kecil, Berjurnal, Disulitkan)\",\"FSName\":\"Mac OS Lanjutan (Peka Huruf Besar\\\/Kecil, Berjurnal)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Lanjutan (Berjurnal, Disulitkan)\",\"FSName\":\"Mac OS Lanjutan (Berjurnal)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Lanjutan (Peka Huruf Besar\\\/Kecil)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS esteso\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS esteso (distingue tra maiuscole e minuscole, journaled, crittografato)\",\"FSName\":\"Mac OS esteso (distingue tra maiuscole e minuscole, journaled)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS esteso (journaled, crittografato)\",\"FSName\":\"Mac OS esteso (Journaled)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS esteso (distingue tra maiuscole e minuscole)\"},\"HFS\":{\"FSName\":\"Mac OS standard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS 확장\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS 확장(대소문자 구분, 저널링, 암호화)\",\"FSName\":\"Mac OS 확장(대소문자 구분, 저널링)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS 확장(저널링, 암호화)\",\"FSName\":\"Mac OS 확장(저널링)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS 확장(대소문자 구분)\"},\"HFS\":{\"FSName\":\"Mac OS 표준\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (з урахуванням регістру, ведення журналу, шифрування)\",\"FSName\":\"Mac OS Extended (з урахуванням регістру, ведення журналу)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (ведення журналу, шифрування)\",\"FSName\":\"Mac OS Extended (ведення журналу)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (з урахуванням регістру)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS étendu\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS étendu (sensible à la casse, journalisé, chiffré)\",\"FSName\":\"Mac OS étendu (sensible à la casse, journalisé)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS étendu (journalisé, chiffré)\",\"FSName\":\"Mac OS étendu (journalisé)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS étendu (sensible à la casse)\"},\"HFS\":{\"FSName\":\"Mac OS standard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS kiterjesztett\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS kiterjesztett (kis- és nagybetűérzékeny, naplózott, titkosított)\",\"FSName\":\"Mac OS kiterjesztett (kis- és nagybetűérzékeny, naplózott)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS kiterjesztett (naplózott, titkosított)\",\"FSName\":\"Mac OS kiterjesztett (naplózott)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS kiterjesztett (kis- és nagybetűérzékeny)\"},\"HFS\":{\"FSName\":\"Mac OS szabványos\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Case-sensitive, Journaled, Encrypted)\",\"FSName\":\"Mac OS Extended (Case-sensitive, Journaled)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Journaled, Encrypted)\",\"FSName\":\"Mac OS Extended (Journaled)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (Case-sensitive)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Uitgebreid (HFS+)\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Uitgebreid (hoofdlettergevoelig, journaled, versleuteld)\",\"FSName\":\"Mac OS Uitgebreid (hoofdlettergev.\\\/journaled)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Uitgebreid (journaled, versleuteld)\",\"FSName\":\"Mac OS Uitgebreid (journaled)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Uitgebreid (hoofdlettergevoelig)\"},\"HFS\":{\"FSName\":\"Mac OS Standaard (HFS)\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Case-sensitive, Journaled, Encrypted)\",\"FSName\":\"Mac OS Extended (Case-sensitive, Journaled)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Journaled, Encrypted)\",\"FSName\":\"Mac OS Extended (Journaled)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (Case-sensitive)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Groß-\\\/Kleinschreibung, Journaled, Verschlüsselt)\",\"FSName\":\"Mac OS Extended (Groß-\\\/Kleinschreibung und Journaled)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Journaled, Verschlüsselt)\",\"FSName\":\"Mac OS Extended (Journaled)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (Groß-\\\/Kleinschreibung)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Citlivý na veľkosť, Journaled, Šifrovaný)\",\"FSName\":\"Mac OS Extended (Citlivý na veľkosť, Journaled)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Journaled, Šifrovaný)\",\"FSName\":\"Mac OS Extended (Journaled)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (Citlivý na veľkosť)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (учет рег. клавиатуры, журналируемый, зашифрованный)\",\"FSName\":\"Mac OS Extended (учет рег. клавиатуры, журналируемый)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (журналируемый, зашифрованный)\",\"FSName\":\"Mac OS Extended (журналируемый)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (учет регистра клавиатуры)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS - udvidet\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS - udvidet (forskel på store\\\/små, Journaled, krypteret)\",\"FSName\":\"Mac OS - udvidet (forskel på store\\\/små, Journaled)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS - udvidet (Journaled, krypteret)\",\"FSName\":\"Mac OS - udvidet (Journaled)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS - udvidet (forskel på store\\\/små)\"},\"HFS\":{\"FSName\":\"Mac OS - standard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS विस्तारित\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS विस्तारित (केस-संवेदी, जर्नल्ड, एंक्रिप्टेड)\",\"FSName\":\"Mac OS विस्तारित (केस-संवेदी, जर्नल्ड)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS विस्तारित (जर्नल्ड, एंक्रिप्टेड)\",\"FSName\":\"Mac OS विस्तारित (जर्नल्ड)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS विस्तारित (केस-संवेदी)\"},\"HFS\":{\"FSName\":\"Mac OS मानक\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Case-sensitive, Journaled, Encrypted)\",\"FSName\":\"Mac OS Extended (Case-sensitive, Journaled)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Journaled, Encrypted)\",\"FSName\":\"Mac OS Extended (Journaled)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (Case-sensitive)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "bg"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Plus\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Plus (majúsc.\\\/minúsc., amb registre, encriptat)\",\"FSName\":\"Mac OS Plus (majúsc.\\\/minúsc., amb registre)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Plus (amb registre, encriptat)\",\"FSName\":\"Mac OS Plus (amb registre)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Plus (majúsc.\\\/minúsc.)\"},\"HFS\":{\"FSName\":\"Mac OS estàndard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (skiftlägeskänslig, journalförd, krypterad)\",\"FSName\":\"Mac OS Extended (skiftlägeskänslig, journalförd)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Extended (journalförd, krypterad)\",\"FSName\":\"Mac OS Extended (journalförd)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (skiftlägeskänslig)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Extended\"},\"Case-sensitive Journaled HFS+\":{\"FSName\":\"Mac OS Extended (Case-sensitive, Journaled)\",\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Case-sensitive, Journaled, Encrypted)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Extended (Case-sensitive)\"},\"Journaled HFS+\":{\"FSName\":\"Mac OS Extended (Journaled)\",\"FSCoreStorageEncryptionName\":\"Mac OS Extended (Journaled, Encrypted)\"},\"HFS\":{\"FSName\":\"Mac OS Standard\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS Genişletilmiş\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Genişletilmiş (Büyük-Küçük Harfe Duyarlı, Günlüklü, Şifreli)\",\"FSName\":\"Mac OS Genişletilmiş (Büyük-Küçük Harfe Duyarlı, Günlüklü)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS Genişletilmiş (Günlüklü, Şifreli)\",\"FSName\":\"Mac OS Genişletilmiş (Günlüklü)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS Genişletilmiş (Büyük-Küçük Harfe Duyarlı)\"},\"HFS\":{\"FSName\":\"Mac OS Standart\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "{\"HFS+\":{\"FSName\":\"Mac OS laajennettu\"},\"Case-sensitive Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS laajennettu (isot ja pienet kirjaimet erotteleva, kirjaava, salattu)\",\"FSName\":\"Mac OS laajennettu (isot ja pienet kirjaimet erotteleva, kirjaava)\"},\"Journaled HFS+\":{\"FSCoreStorageEncryptionName\":\"Mac OS laajennettu (kirjaava, salattu)\",\"FSName\":\"Mac OS laajennettu (kirjaava)\"},\"Case-sensitive HFS+\":{\"FSName\":\"Mac OS laajennettu (isot ja pienet kirjaimet erotteleva)\"},\"HFS\":{\"FSName\":\"Mac OS vakio\"}}",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
       }
     ],
     "CFBundleName" : [
       {
         "target" : "hfs",
         "filename" : "InfoPlist.loctable",
-        "language" : "hr"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "es"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "el"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "uk"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "de"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "ko"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "fr"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "da"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "cs"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "zh_CN"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "fr_CA"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "ms"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "ar"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "zh_TW"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "sk"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "sv"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "pl"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "no"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "vi"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "ru"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "ca"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "tr"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "id"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "nl"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "en_AU"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "pt_PT"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "bg"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "hi"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "zh_HK"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "pt"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "kk"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "ja"
-      },
-      {
-        "target" : "hfs",
-        "filename" : "InfoPlist.loctable",
-        "language" : "hu"
+        "language" : "en_GB"
       },
       {
         "target" : "hfs",
@@ -384,22 +224,82 @@
       {
         "target" : "hfs",
         "filename" : "InfoPlist.loctable",
-        "language" : "ro"
+        "language" : "zh_HK"
       },
       {
         "target" : "hfs",
         "filename" : "InfoPlist.loctable",
-        "language" : "en"
+        "language" : "cs"
       },
       {
         "target" : "hfs",
         "filename" : "InfoPlist.loctable",
-        "language" : "th"
+        "language" : "ja"
       },
       {
         "target" : "hfs",
         "filename" : "InfoPlist.loctable",
-        "language" : "it"
+        "language" : "pl"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "kk"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
       },
       {
         "target" : "hfs",
@@ -409,12 +309,112 @@
       {
         "target" : "hfs",
         "filename" : "InfoPlist.loctable",
-        "language" : "fi"
+        "language" : "es"
       },
       {
         "target" : "hfs",
         "filename" : "InfoPlist.loctable",
-        "language" : "en_GB"
+        "language" : "ro"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "bg"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "hfs",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
       }
     ]
   }

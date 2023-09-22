@@ -3,16 +3,16 @@
   "bundlePath" : "\/System\/Library\/Filesystems\/ntfs.fs",
   "framework" : "ntfs.fs",
   "localizations" : {
-    "FSPersonalities" : [
+    "CFBundleName" : [
       {
-        "target" : "{\n    NTFS =     {\n        FSName = \"Windows NT File System (NTFS)\";\n    };\n}",
+        "target" : "ntfs",
         "filename" : "InfoPlist.loctable",
         "language" : "en"
       }
     ],
-    "CFBundleName" : [
+    "FSPersonalities" : [
       {
-        "target" : "ntfs",
+        "target" : "{\"NTFS\":{\"FSName\":\"Windows NT File System (NTFS)\"}}",
         "filename" : "InfoPlist.loctable",
         "language" : "en"
       }
