@@ -43,12 +43,18 @@ class AppleLocalizationTests: XCTestCase {
           if let plist = dictionary as? [String: [String: Any]] {
             for (localization, value) in plist {
               for (key, target) in value {
+                let localized: String
+                if let target = target as? [String: Any], let data = try? JSONSerialization.data(withJSONObject: target) {
+                  localized = String(decoding: data, as: UTF8.self)
+                } else {
+                  localized = "\(target)"
+                }
                 if var localizations = localizable.localizations[key] {
-                  localizations.append(Localization(language: localization, target: "\(target)", filename: fileUrl.lastPathComponent))
+                  localizations.append(Localization(language: localization, target: localized, filename: fileUrl.lastPathComponent))
                   localizable.localizations[key] = localizations
                 } else {
                   var localizations = [Localization]()
-                  localizations.append(Localization(language: localization, target: "\(target)", filename: fileUrl.lastPathComponent))
+                  localizations.append(Localization(language: localization, target: localized, filename: fileUrl.lastPathComponent))
                   localizable.localizations[key] = localizations
                 }
               }
@@ -188,17 +194,17 @@ func collectLocalizables(root: AbsolutePath) throws -> OrderedSet<Localizable> {
   for file in iterator {
     if file.extension == "strings" || file.extension == "loctable" {
       let bundlePath: AbsolutePath
-      if let ext = file.parentDirectory.extension, ext != "lproj", ext != "pass" {
+      if let ext = file.parentDirectory.extension, ext != "lproj", ext != "pass", ext.range(of: #"[0-9]+(\.[0-9]+)?"#, options: .regularExpression) == nil {
         bundlePath = file.parentDirectory
-      } else if let ext = file.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass" {
+      } else if let ext = file.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass", ext.range(of: #"[0-9]+(\.[0-9]+)?"#, options: .regularExpression) == nil {
         bundlePath = file.parentDirectory.parentDirectory
-      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass" {
+      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass", ext.range(of: #"[0-9]+(\.[0-9]+)?"#, options: .regularExpression) == nil {
         bundlePath = file.parentDirectory.parentDirectory.parentDirectory
-      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass" {
+      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass", ext.range(of: #"[0-9]+(\.[0-9]+)?"#, options: .regularExpression) == nil {
         bundlePath = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory
-      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass" {
+      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass", ext.range(of: #"[0-9]+(\.[0-9]+)?"#, options: .regularExpression) == nil {
         bundlePath = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory
-      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass" {
+      } else if let ext = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory.extension, ext != "lproj", ext != "pass", ext.range(of: #"[0-9]+(\.[0-9]+)?"#, options: .regularExpression) == nil {
         bundlePath = file.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory.parentDirectory
       } else if file.parentDirectory.extension == "lproj" {
         if let _ = Bundle(url: file.parentDirectory.parentDirectory.asURL) {

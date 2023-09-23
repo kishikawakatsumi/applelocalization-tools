@@ -1,4 +1,5 @@
 #!/bin/sh
 set -ex
 
-split -b 90M data.sql data.sql.
+mkdir temp
+split -b 90M data.sql temp/data.sql.
