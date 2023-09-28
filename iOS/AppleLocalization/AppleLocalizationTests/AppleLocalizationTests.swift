@@ -259,10 +259,11 @@ class Localizable: Codable, Hashable {
 
   func hash(into hasher: inout Hasher) {
     hasher.combine(bundlePath)
+    hasher.combine(loctablePath)
   }
 
   static func == (lhs: Localizable, rhs: Localizable) -> Bool {
-    lhs.bundlePath == rhs.bundlePath
+    lhs.bundlePath == rhs.bundlePath && lhs.loctablePath == rhs.loctablePath
   }
 }
 
