@@ -49,20 +49,6 @@
         "language" : "en"
       }
     ],
-    "DYFURLMultipleNextDrawables" : [
-      {
-        "target" : "",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFKTilerParameterBufferExceedsMemlessWarningThreshold" : [
-      {
-        "target" : "Tiler Output Buffer Usage is Close to Exceeding Maximum Limit for Memoryless Render Target",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFDKEmptyEncoderDetected1" : [
       {
         "target" : "Your application created a command encoder ",
@@ -77,7 +63,21 @@
         "language" : "en"
       }
     ],
+    "DYFKTilerParameterBufferExceedsMemlessWarningThreshold" : [
+      {
+        "target" : "Tiler Output Buffer Usage is Close to Exceeding Maximum Limit for Memoryless Render Target",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFURLNewTexture" : [
+      {
+        "target" : "",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLMultipleNextDrawables" : [
       {
         "target" : "",
         "filename" : "AnalyzerFinding.strings",
@@ -119,9 +119,9 @@
         "language" : "en"
       }
     ],
-    "DYFKTilerParameterBufferExceedsMemlessMax" : [
+    "DYFKResourceSmallBufferDetected" : [
       {
-        "target" : "Tiler Output Buffer Usage Exceeds Maximum Limit for Memoryless Render Target",
+        "target" : "Small Resources",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -133,13 +133,6 @@
         "language" : "en"
       }
     ],
-    "DYFKTextureUsageShouldNotBePixelFormatView" : [
-      {
-        "target" : "Texture Usage Should not be Flagged as MTLTextureUsagePixelFormatView",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFDKCommandBufferNotCommitted" : [
       {
         "target" : "This command buffer was enqueued but not committed in this frame.",
@@ -147,9 +140,16 @@
         "language" : "en"
       }
     ],
-    "DYFKResourceSmallBufferDetected" : [
+    "DYFKTilerParameterBufferExceedsMemlessMax" : [
       {
-        "target" : "Small Resources",
+        "target" : "Tiler Output Buffer Usage Exceeds Maximum Limit for Memoryless Render Target",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKTextureUsageShouldNotBePixelFormatView" : [
+      {
+        "target" : "Texture Usage Should not be Flagged as MTLTextureUsagePixelFormatView",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -469,6 +469,13 @@
         "language" : "en"
       }
     ],
+    "DYFURLTextureUsageShouldNotBePixelFormatView" : [
+      {
+        "target" : "",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFDKUnusedAttachmentTextureDetected" : [
       {
         "target" : "Encoder should use MTLStoreActionDontCare if results are not used",
@@ -479,13 +486,6 @@
     "DYFKResourceShouldBeBlittedFromShared" : [
       {
         "target" : "Blitting from a Managed Resource to a Private Resource is Inefficient",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFURLEmptyEncoderDetected" : [
-      {
-        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -504,7 +504,7 @@
         "language" : "en"
       }
     ],
-    "DYFURLTextureUsageShouldNotBePixelFormatView" : [
+    "DYFURLEmptyEncoderDetected" : [
       {
         "target" : "",
         "filename" : "AnalyzerFinding.strings",
@@ -581,16 +581,16 @@
         "language" : "en"
       }
     ],
-    "DYFURLUnusedTextureDetected" : [
+    "DYFDKResourceShouldBePrivate" : [
       {
-        "target" : "",
+        "target" : "This resource is only accessed by the GPU. Change the storage mode to MTLStorageModePrivate.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFDKResourceShouldBePrivate" : [
+    "DYFURLUnusedTextureDetected" : [
       {
-        "target" : "This resource is only accessed by the GPU. Change the storage mode to MTLStorageModePrivate.",
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -602,16 +602,16 @@
         "language" : "en"
       }
     ],
-    "DYFURLNewDepthStencilState" : [
+    "DYFKTilerParameterBufferExceedsMemfulMax" : [
       {
-        "target" : "",
+        "target" : "Tiler Output Buffer Usage Exceeds Maximum",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFKTilerParameterBufferExceedsMemfulMax" : [
+    "DYFURLCommandBufferNotEnqueued" : [
       {
-        "target" : "Tiler Output Buffer Usage Exceeds Maximum",
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -623,9 +623,9 @@
         "language" : "en"
       }
     ],
-    "DYFKTextureUsageShouldBeShaderRead" : [
+    "DYFURLNewDepthStencilState" : [
       {
-        "target" : "Texture Usage Should be Flagged as MTLTextureUsageShaderRead",
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -637,9 +637,9 @@
         "language" : "en"
       }
     ],
-    "DYFURLCommandBufferNotEnqueued" : [
+    "DYFKTextureUsageShouldBeShaderRead" : [
       {
-        "target" : "",
+        "target" : "Texture Usage Should be Flagged as MTLTextureUsageShaderRead",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -875,9 +875,9 @@
         "language" : "en"
       }
     ],
-    "DYFKCommandBufferNotEnqueued" : [
+    "DYFKResourceShouldInitWithMemcpy" : [
       {
-        "target" : "Command Buffer was not Enqueued and Committed in this Frame",
+        "target" : "Blitting from a Managed Resource to a Shared Resource is Inefficient",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -889,9 +889,9 @@
         "language" : "en"
       }
     ],
-    "DYFKResourceShouldInitWithMemcpy" : [
+    "DYFKCommandBufferNotEnqueued" : [
       {
-        "target" : "Blitting from a Managed Resource to a Shared Resource is Inefficient",
+        "target" : "Command Buffer was not Enqueued and Committed in this Frame",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }

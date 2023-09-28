@@ -455,13 +455,6 @@
         "language" : "en"
       }
     ],
-    "DYFURLGPUWaitOnBuffer" : [
-      {
-        "target" : " ",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "coords.w" : [
       {
         "target" : "coords.w",
@@ -470,6 +463,13 @@
       }
     ],
     "DYFURLSlowTextureUploadPalettedTexture" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLGPUWaitOnBuffer" : [
       {
         "target" : " ",
         "filename" : "AnalyzerFinding.strings",
@@ -514,6 +514,13 @@
         "language" : "en"
       }
     ],
+    "DYFKBufferBindingVAODependency" : [
+      {
+        "target" : "Detected buffer binding dependency on current vertex array object",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFDKFragmentShaderDataSpill" : [
       {
         "target" : " spilled data to main memory because it used too many temporary registers or temporary arrays.",
@@ -528,13 +535,6 @@
       {
         "target" : "$ThisFSProg$ spilled data to main memory because $it$ used too many temporary registers or temporary arrays.",
         "filename" : "AnalyzerFindingSimplified.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFKBufferBindingVAODependency" : [
-      {
-        "target" : "Detected buffer binding dependency on current vertex array object",
-        "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
@@ -1360,14 +1360,9 @@
         "language" : "en"
       }
     ],
-    "DYFKValidationError" : [
+    "pname(aka value)" : [
       {
-        "target" : "Validation Error",
-        "filename" : "AnalyzerFindingKinds.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Invalid OpenGL ES API usage detected",
+        "target" : "pname(aka value)",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -1379,16 +1374,21 @@
         "language" : "en"
       }
     ],
-    "pname(aka value)" : [
+    "dfactor" : [
       {
-        "target" : "pname(aka value)",
+        "target" : "dfactor",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "dfactor" : [
+    "DYFKValidationError" : [
       {
-        "target" : "dfactor",
+        "target" : "Validation Error",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Invalid OpenGL ES API usage detected",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }

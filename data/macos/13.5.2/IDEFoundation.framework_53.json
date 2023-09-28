@@ -70,9 +70,9 @@
         "language" : "en"
       }
     ],
-    "Test" : [
+    "Conflict line %d" : [
       {
-        "target" : "Test",
+        "target" : "Conflict line %d",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -84,9 +84,9 @@
         "language" : "en"
       }
     ],
-    "Conflict line %d" : [
+    "Test" : [
       {
-        "target" : "Conflict line %d",
+        "target" : "Test",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -182,9 +182,9 @@
         "language" : "en"
       }
     ],
-    "Building %@" : [
+    "Profile" : [
       {
-        "target" : "Building %@",
+        "target" : "Profile",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -196,9 +196,9 @@
         "language" : "en"
       }
     ],
-    "Profile" : [
+    "Building %@" : [
       {
-        "target" : "Profile",
+        "target" : "Building %@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -280,16 +280,16 @@
         "language" : "en"
       }
     ],
-    "Refactoring- or C" : [
+    "Unknown" : [
       {
-        "target" : " or C",
+        "target" : "Unknown",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "notice" : [
+    "Refactoring- or C" : [
       {
-        "target" : "notice",
+        "target" : " or C",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -301,9 +301,9 @@
         "language" : "en"
       }
     ],
-    "Unknown" : [
+    "notice" : [
       {
-        "target" : "Unknown",
+        "target" : "notice",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -371,13 +371,6 @@
         "language" : "en"
       }
     ],
-    "Xcode.AlertEvent.BuildNewIssues.Title" : [
-      {
-        "target" : "Generates new issues",
-        "filename" : "PlugIn.strings",
-        "language" : "en"
-      }
-    ],
     "These items are currently locked because you are not the owner of the files and do not have write permission." : [
       {
         "target" : "These items are currently locked because you are not the owner of the files and do not have write permission.",
@@ -389,6 +382,13 @@
       {
         "target" : "Multiple errors occurred while copying the files.",
         "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.AlertEvent.BuildNewIssues.Title" : [
+      {
+        "target" : "Generates new issues",
+        "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
@@ -406,16 +406,16 @@
         "language" : "en"
       }
     ],
-    "Refactoring- compiled as" : [
+    "%lu items" : [
       {
-        "target" : " compiled as",
+        "target" : "%lu items",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "%lu items" : [
+    "Refactoring- compiled as" : [
       {
-        "target" : "%lu items",
+        "target" : " compiled as",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -539,6 +539,20 @@
         "language" : "en"
       }
     ],
+    "%@ is imported or included by %@%@ not Objective-C%@: %@." : [
+      {
+        "target" : "%1$@ is imported or included by %2$@%3$@ not Objective-C%4$@: %5$@.",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Couldn't load project" : [
+      {
+        "target" : "Couldn't load project",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "These items are currently locked because you do not have write permission." : [
       {
         "target" : "These items are currently locked because you do not have write permission.",
@@ -567,20 +581,6 @@
         "language" : "en"
       }
     ],
-    "%@ is imported or included by %@%@ not Objective-C%@: %@." : [
-      {
-        "target" : "%1$@ is imported or included by %2$@%3$@ not Objective-C%4$@: %5$@.",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Refactoring-%@" : [
-      {
-        "target" : "%@",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.AlertEvent.BuildSucceeds.Title" : [
       {
         "target" : "Succeeds",
@@ -602,9 +602,9 @@
         "language" : "en"
       }
     ],
-    "Couldn't load project" : [
+    "Refactoring-%@" : [
       {
-        "target" : "Couldn't load project",
+        "target" : "%@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -651,16 +651,16 @@
         "language" : "en"
       }
     ],
-    "Multiple errors occurred while moving the files." : [
+    "%@ is currently locked because you do not own the parent folder and have no write permission for it." : [
       {
-        "target" : "Multiple errors occurred while moving the files.",
+        "target" : "%@ is currently locked because you do not own the parent folder and have no write permission for it.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "%@ is currently locked because you do not own the parent folder and have no write permission for it." : [
+    "Multiple errors occurred while moving the files." : [
       {
-        "target" : "%@ is currently locked because you do not own the parent folder and have no write permission for it.",
+        "target" : "Multiple errors occurred while moving the files.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -728,9 +728,9 @@
         "language" : "en"
       }
     ],
-    "The backing file has been modified outside of Xcode" : [
+    "Build" : [
       {
-        "target" : "The backing file has been modified outside of Xcode",
+        "target" : "Build",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -749,9 +749,9 @@
         "language" : "en"
       }
     ],
-    "Build" : [
+    "The backing file has been modified outside of Xcode" : [
       {
-        "target" : "Build",
+        "target" : "The backing file has been modified outside of Xcode",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1015,17 +1015,17 @@
         "language" : "en"
       }
     ],
-    "These items are currently locked because you do not have write permission for the parent folder." : [
-      {
-        "target" : "These items are currently locked because you do not have write permission for the parent folder.",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.AlertEvent.RunExitsUnexpectedly.Title" : [
       {
         "target" : "Exits unexpectedly",
         "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "These items are currently locked because you do not have write permission for the parent folder." : [
+      {
+        "target" : "These items are currently locked because you do not have write permission for the parent folder.",
+        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],

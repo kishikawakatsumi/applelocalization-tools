@@ -203,16 +203,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.IBCocoaTouchStoryboardPopoverSegue.UnsupportedCustomClass" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIVisualEffectView" : [
       {
-        "target" : "Legacy popover segues do not support custom classes.",
+        "target" : "UIVisualEffectView before iOS 8.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIVisualEffectView" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.IBCocoaTouchStoryboardPopoverSegue.UnsupportedCustomClass" : [
       {
-        "target" : "UIVisualEffectView before iOS 8.0",
+        "target" : "Legacy popover segues do not support custom classes.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -392,16 +392,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UISegmentedControl.segmentedControlStyle" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UITableView.EstimatedSectionFooterHeight" : [
       {
-        "target" : "Segmented control style is deprecated since iOS 7.0",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIView.SafeAreaLayoutGuide" : [
-      {
-        "target" : "Safe area layout guide before iOS 11.0",
+        "target" : "Estimated section footer height before iOS 11.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -413,9 +406,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UITableView.EstimatedSectionFooterHeight" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UISegmentedControl.segmentedControlStyle" : [
       {
-        "target" : "Estimated section footer height before iOS 11.0",
+        "target" : "Segmented control style is deprecated since iOS 7.0",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIView.SafeAreaLayoutGuide" : [
+      {
+        "target" : "Safe area layout guide before iOS 11.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -476,16 +476,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UISearchDisplayController.Availability" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.EventConnection.ActionSelectorUndefined" : [
       {
-        "target" : "UISearchDisplayController is unavailable when deploying to iOS 13.0 or later",
+        "target" : "The action of %1$@ is connected to the %2$@ selector of %3$@, but %4$@ is no longer defined",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.EventConnection.ActionSelectorUndefined" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UISearchDisplayController.Availability" : [
       {
-        "target" : "The action of %1$@ is connected to the %2$@ selector of %3$@, but %4$@ is no longer defined",
+        "target" : "UISearchDisplayController is unavailable when deploying to iOS 13.0 or later",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -525,9 +525,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIViewController.UnexpectedNIBName" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIButton.CustomAttributedTitle" : [
       {
-        "target" : "%1$@ NIB Name set to %2$@ (This view controller is not intended to have its view set in this manner)",
+        "target" : "Attributed title unsupported by this button type",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -539,16 +539,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIButton.CustomAttributedTitle" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIViewController.UnexpectedNIBName" : [
       {
-        "target" : "Attributed title unsupported by this button type",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIButton.Configuration.Plain.ImagePadding" : [
-      {
-        "target" : "Image padding for Plain Button Style before iOS 15.0",
+        "target" : "%1$@ NIB Name set to %2$@ (This view controller is not intended to have its view set in this manner)",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -556,6 +549,13 @@
     "Xcode.IDEInterfaceBuilder.CocoaTouch.TriggeredStoryboardSegue.Deprecated" : [
       {
         "target" : "%1$@ segues are deprecated since iOS 8.0",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIButton.Configuration.Plain.ImagePadding" : [
+      {
+        "target" : "Image padding for Plain Button Style before iOS 15.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -637,6 +637,13 @@
         "language" : "en"
       }
     ],
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.WKWebView.FindInteractionEnabled" : [
+      {
+        "target" : "Find Interaction before iOS 16.0",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Xcode.IDEInterfaceBuilder.CocoaTouch.UIButton.ButtonTypeLargeDefault" : [
       {
         "target" : "Large Default Button Type before iOS 14.0",
@@ -651,13 +658,6 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UICollectionViewCell.DuplicateReuseIdentifiers" : [
-      {
-        "target" : "Multiple prototype collection view cells have the same identifier: %1$@",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.IDEInterfaceBuilder.CocoaTouch.UIBarButtonItem.hidden" : [
       {
         "target" : "Hidden before iOS 16.0",
@@ -665,9 +665,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.WKWebView.FindInteractionEnabled" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UICollectionViewCell.DuplicateReuseIdentifiers" : [
       {
-        "target" : "Find Interaction before iOS 16.0",
+        "target" : "Multiple prototype collection view cells have the same identifier: %1$@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -742,16 +742,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UINavigationBar.BarAppearances" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIViewController.UnexpectedOutlet" : [
       {
-        "target" : "Navigation Bar Appearances before iOS 13.0",
+        "target" : "The %1$@ outlet of %2$@ is connected to %3$@ (This view controller is not intended to have its view set in this manner)",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIViewController.UnexpectedOutlet" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UINavigationBar.BarAppearances" : [
       {
-        "target" : "The %1$@ outlet of %2$@ is connected to %3$@ (This view controller is not intended to have its view set in this manner)",
+        "target" : "Navigation Bar Appearances before iOS 13.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -763,6 +763,13 @@
         "language" : "en"
       }
     ],
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UITableViewCell.MissingReuseIdentifier" : [
+      {
+        "target" : "Prototype table cells must have reuse identifiers",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Xcode.IDEInterfaceBuilder.CocoaTouch.TintColor.PatternColors" : [
       {
         "target" : "Tint color specifies pattern colors",
@@ -770,9 +777,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UITableViewCell.MissingReuseIdentifier" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.EventConnection.SelectorUndefined" : [
       {
-        "target" : "Prototype table cells must have reuse identifiers",
+        "target" : "The %1$@ event of %2$@ is connected to the %3$@ selector of %4$@, but %5$@ is no longer defined",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -787,13 +794,6 @@
     "Xcode.IDEInterfaceBuilder.CocoaTouch.UITextInputTraits.keyboardType.ASCIICapableNumberPad" : [
       {
         "target" : "ASCII Capable Number Pad keyboard type before iOS 10.0",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.EventConnection.SelectorUndefined" : [
-      {
-        "target" : "The %1$@ event of %2$@ is connected to the %3$@ selector of %4$@, but %5$@ is no longer defined",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1078,9 +1078,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UITextView.DataDetectors.EditableTextView" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.ARSKView" : [
       {
-        "target" : "Data Detection and Editable (These attributes are mutually exclusive)",
+        "target" : "ARSKView before iOS 11.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1106,9 +1106,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.ARSKView" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UITextView.DataDetectors.EditableTextView" : [
       {
-        "target" : "ARSKView before iOS 11.0",
+        "target" : "Data Detection and Editable (These attributes are mutually exclusive)",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1148,20 +1148,6 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UITableViewCell.ContentConfiguration" : [
-      {
-        "target" : "Content Configuration before iOS 14.0",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIBarButtonItem.systemItemIdentifier.PageCurl" : [
-      {
-        "target" : "UIBarButtonItem bar button system item Page Curl is unsupported since iOS 11.0",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Xcode.IDEInterfaceBuilder.CocoaTouch.ARSCNView" : [
       {
         "target" : "ARSCNView before iOS 11.0",
@@ -1176,9 +1162,23 @@
         "language" : "en"
       }
     ],
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UITableViewCell.ContentConfiguration" : [
+      {
+        "target" : "Content Configuration before iOS 14.0",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Xcode.IDEInterfaceBuilder.CocoaTouch.UINavigationItem.NonNavigatorStyle" : [
       {
         "target" : "Non-Navigator Style before iOS 16.0",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.TriggeredStoryboardSegue.CustomClassAvailability" : [
+      {
+        "target" : "Only Custom segues support class names prior to iOS 9.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1197,9 +1197,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEInterfaceBuilder.CocoaTouch.TriggeredStoryboardSegue.CustomClassAvailability" : [
+    "Xcode.IDEInterfaceBuilder.CocoaTouch.UIBarButtonItem.systemItemIdentifier.PageCurl" : [
       {
-        "target" : "Only Custom segues support class names prior to iOS 9.0",
+        "target" : "UIBarButtonItem bar button system item Page Curl is unsupported since iOS 11.0",
         "filename" : "Localizable.strings",
         "language" : "en"
       }

@@ -7,13 +7,6 @@
         "language" : "en"
       }
     ],
-    "deviceSetting.INVERT_COLORS" : [
-      {
-        "target" : "Invert colors",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "inspector.pointer.tooltip.stop" : [
       {
         "target" : "Stop inspection follows point",
@@ -24,6 +17,13 @@
     "EmptyDeviceDisplayName" : [
       {
         "target" : "Generic device",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "inspector" : [
+      {
+        "target" : "inspector",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -70,6 +70,13 @@
         "language" : "en"
       }
     ],
+    "inspectEventMode" : [
+      {
+        "target" : "inspect event mode",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "locationLabel" : [
       {
         "target" : "loc=",
@@ -80,13 +87,6 @@
     "clearAudit.cancel" : [
       {
         "target" : "Cancel",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "inspectEventMode" : [
-      {
-        "target" : "inspect event mode",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -140,16 +140,16 @@
         "language" : "en"
       }
     ],
-    "emptyDate" : [
+    "deviceSetting.ON_OFF_LABELS" : [
       {
-        "target" : "Empty date",
+        "target" : "On\/Off labels",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "deviceSetting.ON_OFF_LABELS" : [
+    "emptyDate" : [
       {
-        "target" : "On\/Off labels",
+        "target" : "Empty date",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -315,16 +315,16 @@
         "language" : "en"
       }
     ],
-    "clearAudit.title" : [
+    "DeviceCell.accessibilityLabel" : [
       {
-        "target" : "Clear results?",
+        "target" : "Device",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "DeviceCell.accessibilityLabel" : [
+    "clearAudit.title" : [
       {
-        "target" : "Device",
+        "target" : "Clear results?",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -399,13 +399,6 @@
         "language" : "en"
       }
     ],
-    "internalAttributes.hide" : [
-      {
-        "target" : "Hide Internal Attributes",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "inspector.false" : [
       {
         "target" : "False",
@@ -413,23 +406,9 @@
         "language" : "en"
       }
     ],
-    "headerSection.opened" : [
+    "internalAttributes.hide" : [
       {
-        "target" : "Opened section",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "pointInspection.enable" : [
-      {
-        "target" : "Enable Point to Inspect",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "DeviceErrorFormatter" : [
-      {
-        "target" : "%1$@ (%2$@)",
+        "target" : "Hide Internal Attributes",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -441,9 +420,30 @@
         "language" : "en"
       }
     ],
+    "headerSection.opened" : [
+      {
+        "target" : "Opened section",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "groupBy.audit" : [
+      {
+        "target" : "Group by Audit",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "lengthLabel" : [
       {
         "target" : "len=",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "pointInspection.enable" : [
+      {
+        "target" : "Enable Point to Inspect",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -462,9 +462,9 @@
         "language" : "en"
       }
     ],
-    "groupBy.audit" : [
+    "DeviceErrorFormatter" : [
       {
-        "target" : "Group by Audit",
+        "target" : "%1$@ (%2$@)",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -472,27 +472,6 @@
     "inspector.eventNextAction" : [
       {
         "target" : "Inspect on next action only",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "contrastFail" : [
-      {
-        "target" : "Fails for all text sizes. ",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "descriptionUnavailable" : [
-      {
-        "target" : "Description for element unavailable",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "goToButton.tooltip" : [
-      {
-        "target" : "Change focus to the associated element",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -511,9 +490,30 @@
         "language" : "en"
       }
     ],
+    "contrastFail" : [
+      {
+        "target" : "Fails for all text sizes. ",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "AuditIssues.waitingToConnect" : [
       {
         "target" : "Connecting to target...",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "goToButton.tooltip" : [
+      {
+        "target" : "Change focus to the associated element",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "descriptionUnavailable" : [
+      {
+        "target" : "Description for element unavailable",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -581,9 +581,9 @@
         "language" : "en"
       }
     ],
-    "endEditButton.title" : [
+    "widthLabel" : [
       {
-        "target" : "End editing",
+        "target" : "w=",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -595,9 +595,9 @@
         "language" : "en"
       }
     ],
-    "widthLabel" : [
+    "lengthFormatter" : [
       {
-        "target" : "w=",
+        "target" : "len=%@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -609,9 +609,9 @@
         "language" : "en"
       }
     ],
-    "lengthFormatter" : [
+    "AuditIssues.requiresTargetDevice" : [
       {
-        "target" : "len=%@",
+        "target" : "Select a target to view accessibility warnings and audit information.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -623,9 +623,9 @@
         "language" : "en"
       }
     ],
-    "AuditIssues.requiresTargetDevice" : [
+    "endEditButton.title" : [
       {
-        "target" : "Select a target to view accessibility warnings and audit information.",
+        "target" : "End editing",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -714,9 +714,9 @@
         "language" : "en"
       }
     ],
-    "ProcessCell.accessibilityLabel" : [
+    "previousButton.toolTipWithCtrl" : [
       {
-        "target" : "Process",
+        "target" : "Jump to last element",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -728,16 +728,16 @@
         "language" : "en"
       }
     ],
-    "runButton.title.running" : [
+    "ProcessCell.accessibilityLabel" : [
       {
-        "target" : "Auditing...",
+        "target" : "Process",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "previousButton.toolTipWithCtrl" : [
+    "runButton.title.running" : [
       {
-        "target" : "Jump to last element",
+        "target" : "Auditing...",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -798,9 +798,9 @@
         "language" : "en"
       }
     ],
-    "inspector" : [
+    "deviceSetting.INVERT_COLORS" : [
       {
-        "target" : "inspector",
+        "target" : "Invert colors",
         "filename" : "Localizable.strings",
         "language" : "en"
       }

@@ -7,23 +7,23 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDEKit.CmdDefinition.UpdateToLatestPackageVersions" : [
+    "Xcode.SwiftPackage.Capability.Calendar.LibraryDescription" : [
       {
-        "target" : "Update to Latest Package Versions",
+        "target" : "Required if your app accesses the user’s Calendar.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.MediaLibrary.LibraryDescription" : [
+    "Xcode.SwiftPackage.Capability.IncomingNetworkConnections.LibraryDescription" : [
       {
-        "target" : "Required if your app wants to use the user’s iCloud Music library or Apple Music catalog.",
+        "target" : "Required if your app wants to receive incoming network connections.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.UserTracking.LibraryDescription" : [
+    "Xcode.SwiftPackage.Capability.Motion.LibraryDescription" : [
       {
-        "target" : "Required if your app uses the AppTrackingTransparency framework to collect data about end users and shares it with other companies for purposes of tracking across apps and websites.",
+        "target" : "Required if your app accesses the motion data.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -42,16 +42,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.Motion.LibraryDescription" : [
+    "Xcode.SwiftPackage.Capability.UserTracking.LibraryDescription" : [
       {
-        "target" : "Required if your app accesses the motion data.",
+        "target" : "Required if your app uses the AppTrackingTransparency framework to collect data about end users and shares it with other companies for purposes of tracking across apps and websites.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.Calendar.LibraryDescription" : [
+    "Xcode.SwiftPackage.Capability.MediaLibrary.LibraryDescription" : [
       {
-        "target" : "Required if your app accesses the user’s Calendar.",
+        "target" : "Required if your app wants to use the user’s iCloud Music library or Apple Music catalog.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -112,16 +112,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.FaceID.LibraryDescription" : [
+    "Xcode.SwiftPackage.Capability.Bluetooth.LibraryDescription" : [
       {
-        "target" : "Required if your app wants to authenticate using Face ID.",
+        "target" : "Required if your app uses Bluetooth.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.Bluetooth.LibraryDescription" : [
+    "Xcode.SwiftPackage.Capability.FaceID.LibraryDescription" : [
       {
-        "target" : "Required if your app uses Bluetooth.",
+        "target" : "Required if your app wants to authenticate using Face ID.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -140,16 +140,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.IDESwiftPackageUI.IDETemplatePlaygroundsAppTypeName" : [
+    "Xcode.SwiftPackage.Capability.LocationAlwaysAndWhenInUse.LibraryDescription" : [
       {
-        "target" : "App Playground",
+        "target" : "Required if your app needs access to the user’s location at all times.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.SwiftPackage.Capability.LocationAlwaysAndWhenInUse.LibraryDescription" : [
+    "Xcode.IDESwiftPackageUI.IDETemplatePlaygroundsAppTypeName" : [
       {
-        "target" : "Required if your app needs access to the user’s location at all times.",
+        "target" : "App Playground",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -196,6 +196,13 @@
         "language" : "en"
       }
     ],
+    "Xcode.IDEKit.CmdDefinition.UpdateToLatestPackageVersions" : [
+      {
+        "target" : "Update to Latest Package Versions",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
     "Xcode.SwiftPackage.Capability.Camera.LibraryDescription" : [
       {
         "target" : "Required if your app wants to use any of the cameras on the user’s device.",
@@ -206,13 +213,6 @@
     "Xcode.IDEKit.CmdDefinition.NewLibraryPackage" : [
       {
         "target" : "Package…",
-        "filename" : "PlugIn.strings",
-        "language" : "en"
-      }
-    ],
-    "Xcode.SwiftPackage.Capability.IncomingNetworkConnections.LibraryDescription" : [
-      {
-        "target" : "Required if your app wants to receive incoming network connections.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }

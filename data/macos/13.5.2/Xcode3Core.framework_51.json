@@ -7,16 +7,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.HardenedRuntime.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.CommunicatesWithDrivers.Description" : [
       {
-        "target" : "Hardened Runtime defends your application by preventing modifications to its code and provides fine-grained controls over what can run in your process. Hardening the runtime also prevents access to sensitive resources unless your application pre-declares its intent to use them, which reduces the attack surface by eliminating unnecessary access. These properties help prevent exploitation of your application and this capability is required for your app to be notarized.",
+        "target" : "Allows communication between an app and DriverKit drivers.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.CommunicatesWithDrivers.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.HardenedRuntime.Description" : [
       {
-        "target" : "Allows communication between an app and DriverKit drivers.",
+        "target" : "Hardened Runtime defends your application by preventing modifications to its code and provides fine-grained controls over what can run in your process. Hardening the runtime also prevents access to sensitive resources unless your application pre-declares its intent to use them, which reduces the attack surface by eliminating unnecessary access. These properties help prevent exploitation of your application and this capability is required for your app to be notarized.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -63,16 +63,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.AppAttest.Description" : [
+    "Xcode.Xcode3ProjectSupport.Container.Xcode3target" : [
       {
-        "target" : "With App Attest, you can generate a special cryptographic key on device and use it to validate the integrity of your app before your server provides access to sensitive data.",
+        "target" : "Xcode3 Target",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Container.Xcode3target" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.AppAttest.Description" : [
       {
-        "target" : "Xcode3 Target",
+        "target" : "With App Attest, you can generate a special cryptographic key on device and use it to validate the integrity of your app before your server provides access to sensitive data.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -84,16 +84,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitFamilyAudio.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.WeatherKit.Description" : [
       {
-        "target" : "Support for audio family drivers.",
+        "target" : "WeatherKit provides current and forecasted weather information.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.WeatherKit.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitFamilyAudio.Description" : [
       {
-        "target" : "WeatherKit provides current and forecasted weather information.",
+        "target" : "Support for audio family drivers.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -161,16 +161,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.AccessWiFi.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitFamilyHIDDevice.Description" : [
       {
-        "target" : "Enabling Access Wi-Fi Information allows your app to obtain information about the currently connected Wi-Fi network",
+        "target" : "Support for HID device family drivers.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitFamilyHIDDevice.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.AccessWiFi.Description" : [
       {
-        "target" : "Support for HID device family drivers.",
+        "target" : "Enabling Access Wi-Fi Information allows your app to obtain information about the currently connected Wi-Fi network",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -182,16 +182,16 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.Keychain.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.AppClip.Description" : [
       {
-        "target" : "Allows this application to share passwords from its keychain with other applications made by your team.",
+        "target" : "Identifies this target as an app clip.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.AppClip.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.Keychain.Description" : [
       {
-        "target" : "Identifies this target as an app clip.",
+        "target" : "Allows this application to share passwords from its keychain with other applications made by your team.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -287,9 +287,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.TimeSensitiveNotifications.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitFamilySCSIController.Description" : [
       {
-        "target" : "Time Sensitive notifications deliver information that demand immediate attention and directly call on the individual to take action in the moment they receive them. Time Sensitive alerts are always delivered immediately, surfaced above other notifications, and allowed to break through Focus and Do Not Disturb.",
+        "target" : "Support for SCSI controller drivers.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -301,17 +301,17 @@
         "language" : "en"
       }
     ],
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.TimeSensitiveNotifications.Description" : [
+      {
+        "target" : "Time Sensitive notifications deliver information that demand immediate attention and directly call on the individual to take action in the moment they receive them. Time Sensitive alerts are always delivered immediately, surfaced above other notifications, and allowed to break through Focus and Do Not Disturb.",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
     "Dependencies" : [
       {
         "target" : "Dependencies",
         "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitFamilySCSIController.Description" : [
-      {
-        "target" : "Support for SCSI controller drivers.",
-        "filename" : "PlugIn.strings",
         "language" : "en"
       }
     ],
@@ -357,6 +357,13 @@
         "language" : "en"
       }
     ],
+    "Xcode.Xcode3ProjectSupport.Container.Xcode3project" : [
+      {
+        "target" : "Xcode3 Project",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
     "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.Sandbox.Description" : [
       {
         "target" : "App Sandbox employs services of the operating system to create a barrier between your application code and critical user data, network access, or other processes on the system. The sandbox helps to minimize risks from insecure code in your app, or in frameworks you link against.",
@@ -367,13 +374,6 @@
     "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.PushToTalk.Description" : [
       {
         "target" : "Enables your app to report Push to Talk channels to the system so that it can handle transmitting and receiving audio in the background.",
-        "filename" : "PlugIn.strings",
-        "language" : "en"
-      }
-    ],
-    "Xcode.Xcode3ProjectSupport.Container.Xcode3project" : [
-      {
-        "target" : "Xcode3 Project",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -441,9 +441,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.ApplicationGroups.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitTransportUSB.Description" : [
       {
-        "target" : "Allows access to group containers that are shared among multiple related apps, and allows certain additional interprocess communication between the apps.",
+        "target" : "Support for USB transport drivers.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }
@@ -469,9 +469,9 @@
         "language" : "en"
       }
     ],
-    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.DriverKitTransportUSB.Description" : [
+    "Xcode.Xcode3ProjectSupport.Xcode3CapabilityItem.ApplicationGroups.Description" : [
       {
-        "target" : "Support for USB transport drivers.",
+        "target" : "Allows access to group containers that are shared among multiple related apps, and allows certain additional interprocess communication between the apps.",
         "filename" : "PlugIn.strings",
         "language" : "en"
       }

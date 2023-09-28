@@ -84,14 +84,14 @@
         "language" : "en"
       }
     ],
-    "DYFURLTextureUsageShouldBePixelFormatView" : [
+    "DYFURLResourceShouldBePrivate" : [
       {
         "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFURLResourceShouldBePrivate" : [
+    "DYFURLTextureUsageShouldBePixelFormatView" : [
       {
         "target" : "",
         "filename" : "AnalyzerFinding.strings",
@@ -126,9 +126,9 @@
         "language" : "en"
       }
     ],
-    "DYFDKCommandBufferNotCommitted" : [
+    "DYFKUnusedBufferDetected" : [
       {
-        "target" : "This command buffer was enqueued but not committed in this frame.",
+        "target" : "Unused Buffer",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -147,9 +147,9 @@
         "language" : "en"
       }
     ],
-    "DYFKUnusedBufferDetected" : [
+    "DYFDKCommandBufferNotCommitted" : [
       {
-        "target" : "Unused Buffer",
+        "target" : "This command buffer was enqueued but not committed in this frame.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -175,6 +175,13 @@
         "language" : "en"
       }
     ],
+    "DYFDKTextureUsageShouldBeRenderTarget" : [
+      {
+        "target" : "This texture is a render target. Set the MTLTextureUsageRenderTarget bit flag in the texture usage options.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
     "DYFKNewSamplerState" : [
       {
         "target" : "New MTLSamplerState",
@@ -189,13 +196,6 @@
         "language" : "en"
       }
     ],
-    "DYFDKResourceShouldBeBlittedFromShared" : [
-      {
-        "target" : "This managed resource is blitted into a private resource. Changing the source storage mode to MTLStorageModeShared may improve performance.",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFKNewComputePipelineState" : [
       {
         "target" : "New MTLComputePipelineState",
@@ -203,9 +203,9 @@
         "language" : "en"
       }
     ],
-    "DYFDKTextureUsageShouldBeRenderTarget" : [
+    "DYFDKResourceShouldBeBlittedFromShared" : [
       {
-        "target" : "This texture is a render target. Set the MTLTextureUsageRenderTarget bit flag in the texture usage options.",
+        "target" : "This managed resource is blitted into a private resource. Changing the source storage mode to MTLStorageModeShared may improve performance.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -462,9 +462,9 @@
         "language" : "en"
       }
     ],
-    "DYFURLResourceShouldBeManaged" : [
+    "DYFDKUnusedAttachmentTextureDetected" : [
       {
-        "target" : "",
+        "target" : "Encoder should use MTLStoreActionDontCare if results are not used",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -476,16 +476,16 @@
         "language" : "en"
       }
     ],
-    "DYFDKUnusedAttachmentTextureDetected" : [
+    "DYFKResourceShouldBeBlittedFromShared" : [
       {
-        "target" : "Encoder should use MTLStoreActionDontCare if results are not used",
+        "target" : "Blitting from a Managed Resource to a Private Resource is Inefficient",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFKResourceShouldBeBlittedFromShared" : [
+    "DYFURLEmptyEncoderDetected" : [
       {
-        "target" : "Blitting from a Managed Resource to a Private Resource is Inefficient",
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -504,7 +504,7 @@
         "language" : "en"
       }
     ],
-    "DYFURLEmptyEncoderDetected" : [
+    "DYFURLResourceShouldBeManaged" : [
       {
         "target" : "",
         "filename" : "AnalyzerFinding.strings",

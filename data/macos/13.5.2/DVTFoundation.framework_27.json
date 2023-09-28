@@ -1,8 +1,8 @@
 {
   "localizations" : {
-    "Error parsing regex at line %d offset %d %@^%@" : [
+    "Enum constant" : [
       {
-        "target" : "Error parsing regex at line %1$d offset %2$d %3$@^%4$@",
+        "target" : "Enum constant",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -28,6 +28,13 @@
         "language" : "en"
       }
     ],
+    "Binding" : [
+      {
+        "target" : "Binding",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Err4-R" : [
       {
         "target" : "The plug-in may be damaged and may need to be reinstalled.",
@@ -47,6 +54,13 @@
         "language" : "en"
       }
     ],
+    "Err6-C" : [
+      {
+        "target" : "Some installed components are from different versions of Xcode.",
+        "filename" : "DeveloperToolsPlugInErrors.strings",
+        "language" : "en"
+      }
+    ],
     "Err1" : [
       {
         "target" : "Scanning for plug-ins was aborted due to an unknown error",
@@ -56,20 +70,6 @@
       {
         "target" : "The device type “%1$@” is not recognized. Supported device types are: %2$@",
         "filename" : "DVTDeviceErrors.strings",
-        "language" : "en"
-      }
-    ],
-    "Err6-C" : [
-      {
-        "target" : "Some installed components are from different versions of Xcode.",
-        "filename" : "DeveloperToolsPlugInErrors.strings",
-        "language" : "en"
-      }
-    ],
-    "Binding" : [
-      {
-        "target" : "Binding",
-        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -137,17 +137,17 @@
         "language" : "en"
       }
     ],
-    "Err6" : [
-      {
-        "target" : "Components from a different version of Xcode are installed in the same folder as this version.",
-        "filename" : "DeveloperToolsPlugInErrors.strings",
-        "language" : "en"
-      }
-    ],
     "Category" : [
       {
         "target" : "Category",
         "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Err6" : [
+      {
+        "target" : "Components from a different version of Xcode are installed in the same folder as this version.",
+        "filename" : "DeveloperToolsPlugInErrors.strings",
         "language" : "en"
       }
     ],
@@ -196,6 +196,13 @@
         "language" : "en"
       }
     ],
+    "iphonesimulator" : [
+      {
+        "target" : "iOS Simulator",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "unknownSDK" : [
       {
         "target" : "Unknown OS",
@@ -207,13 +214,6 @@
       {
         "target" : "For best performance, check permissions on your cache directory and ensure Xcode can write its plug-in cache file.",
         "filename" : "DeveloperToolsPlugInErrors.strings",
-        "language" : "en"
-      }
-    ],
-    "iphonesimulator" : [
-      {
-        "target" : "iOS Simulator",
-        "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
@@ -229,18 +229,6 @@
         "language" : "en"
       }
     ],
-    "Err2-C" : [
-      {
-        "target" : "Loading a plug-in failed.",
-        "filename" : "DeveloperToolsPlugInErrors.strings",
-        "language" : "en"
-      },
-      {
-        "target" : "Unsupported architecture.",
-        "filename" : "DVTDeviceErrors.strings",
-        "language" : "en"
-      }
-    ],
     "Err7" : [
       {
         "target" : "Components required by Xcode are missing or damaged.",
@@ -249,6 +237,18 @@
       },
       {
         "target" : "The device type “%1$@” requires that either “%2$@” or “%3$@” be specified, but not both.",
+        "filename" : "DVTDeviceErrors.strings",
+        "language" : "en"
+      }
+    ],
+    "Err2-C" : [
+      {
+        "target" : "Loading a plug-in failed.",
+        "filename" : "DeveloperToolsPlugInErrors.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Unsupported architecture.",
         "filename" : "DVTDeviceErrors.strings",
         "language" : "en"
       }
@@ -312,23 +312,23 @@
         "language" : "en"
       }
     ],
-    "Class" : [
-      {
-        "target" : "Class",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "%@: failed attempting to match %@" : [
-      {
-        "target" : "%1$@: failed attempting to match %2$@",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Typedef" : [
       {
         "target" : "Typedef",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "macosx" : [
+      {
+        "target" : "OS X",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Class" : [
+      {
+        "target" : "Class",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -366,9 +366,9 @@
         "language" : "en"
       }
     ],
-    "language" : [
+    "%@: failed attempting to match %@" : [
       {
-        "target" : "language",
+        "target" : "%1$@: failed attempting to match %2$@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -385,6 +385,13 @@
         "language" : "en"
       }
     ],
+    "language" : [
+      {
+        "target" : "language",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Enum" : [
       {
         "target" : "Enum",
@@ -392,16 +399,9 @@
         "language" : "en"
       }
     ],
-    "macosx" : [
+    "Error parsing regex at line %d offset %d %@^%@" : [
       {
-        "target" : "OS X",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Enum constant" : [
-      {
-        "target" : "Enum constant",
+        "target" : "Error parsing regex at line %1$d offset %2$d %3$@^%4$@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }

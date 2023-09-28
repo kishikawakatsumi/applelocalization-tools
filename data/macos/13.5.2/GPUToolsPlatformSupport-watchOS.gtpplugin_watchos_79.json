@@ -7,16 +7,16 @@
         "language" : "en"
       }
     ],
-    "DYFURLNewBuffer" : [
+    "DYFDKRedundantBindingDetected" : [
       {
-        "target" : "",
+        "target" : "Binding the same resource to the same bind slot",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFDKRedundantBindingDetected" : [
+    "DYFURLNewBuffer" : [
       {
-        "target" : "Binding the same resource to the same bind slot",
+        "target" : "",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -112,30 +112,9 @@
         "language" : "en"
       }
     ],
-    "DYFKNewDepthStencilState" : [
-      {
-        "target" : "New MTLDepthStencilState",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
     "DYFKResourceSmallBufferDetected" : [
       {
         "target" : "Small Resources",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFDKCommandBufferNotCommitted" : [
-      {
-        "target" : "This command buffer was enqueued but not committed in this frame.",
-        "filename" : "AnalyzerFinding.strings",
-        "language" : "en"
-      }
-    ],
-    "DYFKTextureUsageShouldNotBePixelFormatView" : [
-      {
-        "target" : "Texture Usage Should not be Flagged as MTLTextureUsagePixelFormatView",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -150,6 +129,27 @@
     "DYFKUnusedBufferDetected" : [
       {
         "target" : "Unused Buffer",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKTextureUsageShouldNotBePixelFormatView" : [
+      {
+        "target" : "Texture Usage Should not be Flagged as MTLTextureUsagePixelFormatView",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKCommandBufferNotCommitted" : [
+      {
+        "target" : "This command buffer was enqueued but not committed in this frame.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKNewDepthStencilState" : [
+      {
+        "target" : "New MTLDepthStencilState",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -175,16 +175,16 @@
         "language" : "en"
       }
     ],
-    "DYFKNewSamplerState" : [
+    "DYFDKTextureUsageShouldBeRenderTarget" : [
       {
-        "target" : "New MTLSamplerState",
+        "target" : "This texture is a render target. Set the MTLTextureUsageRenderTarget bit flag in the texture usage options.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
     ],
-    "DYFKUnnecessaryNextDrawable" : [
+    "DYFKNewSamplerState" : [
       {
-        "target" : "CAMetalLayer nextDrawable was Called Unnecessarily",
+        "target" : "New MTLSamplerState",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -203,9 +203,9 @@
         "language" : "en"
       }
     ],
-    "DYFDKTextureUsageShouldBeRenderTarget" : [
+    "DYFKUnnecessaryNextDrawable" : [
       {
-        "target" : "This texture is a render target. Set the MTLTextureUsageRenderTarget bit flag in the texture usage options.",
+        "target" : "CAMetalLayer nextDrawable was Called Unnecessarily",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -245,9 +245,9 @@
         "language" : "en"
       }
     ],
-    "DYFKResourceMemoryResourceIssueDetected" : [
+    "DYFDKTilerParameterBufferExceedsMemlessWarningThreshold" : [
       {
-        "target" : "Memory Usage",
+        "target" : "The tiler output buffer usage is close to exceeding the maximum space available for an encoder with a memoryless render target.",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -259,9 +259,9 @@
         "language" : "en"
       }
     ],
-    "DYFDKTilerParameterBufferExceedsMemlessWarningThreshold" : [
+    "DYFKResourceMemoryResourceIssueDetected" : [
       {
-        "target" : "The tiler output buffer usage is close to exceeding the maximum space available for an encoder with a memoryless render target.",
+        "target" : "Memory Usage",
         "filename" : "AnalyzerFinding.strings",
         "language" : "en"
       }
@@ -609,7 +609,7 @@
         "language" : "en"
       }
     ],
-    "DYFURLCommandBufferNotEnqueued" : [
+    "DYFURLNewDepthStencilState" : [
       {
         "target" : "",
         "filename" : "AnalyzerFinding.strings",
@@ -623,7 +623,7 @@
         "language" : "en"
       }
     ],
-    "DYFURLNewDepthStencilState" : [
+    "DYFURLCommandBufferNotEnqueued" : [
       {
         "target" : "",
         "filename" : "AnalyzerFinding.strings",

@@ -63,9 +63,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFRIncreaseBatchSizes" : [
+    "DYGLEPGetGLTiming" : [
       {
-        "target" : "Increase batch sizes to reduce the number of drawing calls it takes to render a frame. For example, you can stitch together separate triangle strips into a single triangle strip using degenerate triangles.",
+        "target" : "Measuring CPU timing",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -77,9 +77,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFKCPUStateLimited" : [
+    "DYGLEFKTextureLookupLimited" : [
       {
-        "target" : "Performance limited by OpenGL ES State Processing",
+        "target" : "Performance limited by Texture Lookup in Fragment Shaders",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -87,6 +87,20 @@
     "DYGLEFKRecommendAlphaToCoverageObservation" : [
       {
         "target" : "Use alpha-to-coverage instead of alpha testing (or discard)",
+        "filename" : "PerfDetective.strings",
+        "language" : "English"
+      }
+    ],
+    "DYGLEFKCPUStateLimited" : [
+      {
+        "target" : "Performance limited by OpenGL ES State Processing",
+        "filename" : "PerfDetective.strings",
+        "language" : "English"
+      }
+    ],
+    "DYGLEFDVertexFetchOrShaderLimited" : [
+      {
+        "target" : "Performance is limited by GPU vertex fetch or shader",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -105,23 +119,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFDVertexFetchOrShaderLimited" : [
+    "DYGLEFRIncreaseBatchSizes" : [
       {
-        "target" : "Performance is limited by GPU vertex fetch or shader",
-        "filename" : "PerfDetective.strings",
-        "language" : "English"
-      }
-    ],
-    "DYGLEPGetGLTiming" : [
-      {
-        "target" : "Measuring CPU timing",
-        "filename" : "PerfDetective.strings",
-        "language" : "English"
-      }
-    ],
-    "DYGLEFKTextureLookupLimited" : [
-      {
-        "target" : "Performance limited by Texture Lookup in Fragment Shaders",
+        "target" : "Increase batch sizes to reduce the number of drawing calls it takes to render a frame. For example, you can stitch together separate triangle strips into a single triangle strip using degenerate triangles.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -133,16 +133,16 @@
         "language" : "English"
       }
     ],
-    "DYGLEFDGPULimitedGeneral" : [
+    "DYGLEFKSwapRecommendedRateHeadRoom" : [
       {
-        "target" : "Performance is limited by the GPU",
+        "target" : "Head room for recommended frame rate",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
     ],
-    "DYGLEFKSwapRecommendedRateHeadRoom" : [
+    "DYGLEFDGPULimitedGeneral" : [
       {
-        "target" : "Head room for recommended frame rate",
+        "target" : "Performance is limited by the GPU",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -210,6 +210,13 @@
         "language" : "English"
       }
     ],
+    "DYGLEPPreprocess" : [
+      {
+        "target" : "Processing evidence",
+        "filename" : "PerfDetective.strings",
+        "language" : "English"
+      }
+    ],
     "DYGLEFKSwapTargetRateOverRecommended" : [
       {
         "target" : "Target rate is over recommended rate",
@@ -220,13 +227,6 @@
     "DYGLEPGenerateFindings" : [
       {
         "target" : "Deducing findings",
-        "filename" : "PerfDetective.strings",
-        "language" : "English"
-      }
-    ],
-    "DYGLEPPreprocess" : [
-      {
-        "target" : "Processing evidence",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -252,13 +252,6 @@
         "language" : "English"
       }
     ],
-    "HereAreSomeThings" : [
-      {
-        "target" : "Here are some things you can do that may improve performance:",
-        "filename" : "PerfDetective.strings",
-        "language" : "English"
-      }
-    ],
     "DYGLEPTryImprovements" : [
       {
         "target" : "Testing visual quality improvements",
@@ -269,6 +262,13 @@
     "DYGLEFRUseIndexedDraws" : [
       {
         "target" : "Use indexed draws.",
+        "filename" : "PerfDetective.strings",
+        "language" : "English"
+      }
+    ],
+    "HereAreSomeThings" : [
+      {
+        "target" : "Here are some things you can do that may improve performance:",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -308,9 +308,9 @@
         "language" : "English"
       }
     ],
-    "DYGLERGLLimited" : [
+    "DYGLEFRTilingLimited" : [
       {
-        "target" : "Frame rate of your app is limited by the graphics pipeline",
+        "target" : "Performance is limited by the tiling processor of the GPU. Tiling processes the triangles you submit splitting them across tiles before processing each tile in turn.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -322,9 +322,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFRTilingLimited" : [
+    "DYGLERGLLimited" : [
       {
-        "target" : "Performance is limited by the tiling processor of the GPU. Tiling processes the triangles you submit splitting them across tiles before processing each tile in turn.",
+        "target" : "Frame rate of your app is limited by the graphics pipeline",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -357,9 +357,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEPGenerateRecommendations" : [
+    "DYGLEPPerformConcurrencyAnalysis" : [
       {
-        "target" : "Making recommendations",
+        "target" : "Analyzing GPU\/CPU concurrency",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -371,16 +371,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEPPerformConcurrencyAnalysis" : [
+    "DYGLEPGenerateRecommendations" : [
       {
-        "target" : "Analyzing GPU\/CPU concurrency",
-        "filename" : "PerfDetective.strings",
-        "language" : "English"
-      }
-    ],
-    "DYGLEFDTilingLimited" : [
-      {
-        "target" : "Performance is limited by the tiler",
+        "target" : "Making recommendations",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -388,6 +381,13 @@
     "DYGLERSlowPlaybackUnknownMCA" : [
       {
         "target" : "OpenGL ES Performance Analysis can not replay your app at its original frame rate",
+        "filename" : "PerfDetective.strings",
+        "language" : "English"
+      }
+    ],
+    "DYGLEFDTilingLimited" : [
+      {
+        "target" : "Performance is limited by the tiler",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -441,9 +441,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFDVertexArrayUse" : [
+    "DYGLEPPerformCPUAnalysis" : [
       {
-        "target" : "App is not storing vertex data in vertex buffer objects",
+        "target" : "Analyzing CPU performance",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -455,16 +455,16 @@
         "language" : "English"
       }
     ],
-    "kDYGLExpertErrorTriedToVerifyUnverifiableFinding" : [
+    "DYGLEFDVertexArrayUse" : [
       {
-        "target" : "This tool tried to verify a suspect that cannot be verified",
+        "target" : "App is not storing vertex data in vertex buffer objects",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
     ],
-    "DYGLEPPerformCPUAnalysis" : [
+    "kDYGLExpertErrorTriedToVerifyUnverifiableFinding" : [
       {
-        "target" : "Analyzing CPU performance",
+        "target" : "This tool tried to verify a suspect that cannot be verified",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -483,16 +483,16 @@
         "language" : "English"
       }
     ],
-    "DYGLEFDRendererLimited" : [
+    "DYGLERTextureLookupLimited" : [
       {
-        "target" : "Performance is limited by primitive rasterization or fragment rendering",
+        "target" : "Performance is limited by the cost of sampling textures in a fragment shader.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
     ],
-    "DYGLERTextureLookupLimited" : [
+    "DYGLEFDRendererLimited" : [
       {
-        "target" : "Performance is limited by the cost of sampling textures in a fragment shader.",
+        "target" : "Performance is limited by primitive rasterization or fragment rendering",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -553,16 +553,16 @@
         "language" : "English"
       }
     ],
-    "DYGLERMostCostlyProgramHasFollowingIssues" : [
+    "DYGLEFDObsoleteFinding" : [
       {
-        "target" : "The program with the most costly fragment shading has the following issues:",
+        "target" : "This finding is from a .gputrace file which was generated on a device which is no longer supported.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
     ],
-    "DYGLEFDObsoleteFinding" : [
+    "DYGLERMostCostlyProgramHasFollowingIssues" : [
       {
-        "target" : "This finding is from a .gputrace file which was generated on a device which is no longer supported.",
+        "target" : "The program with the most costly fragment shading has the following issues:",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -658,16 +658,16 @@
         "language" : "English"
       }
     ],
-    "DYGLEFDFragShaderRestLimited" : [
+    "DYGLEFRSortState" : [
       {
-        "target" : "Performance is limited by fragment shaders",
+        "target" : "Use state sorting, that is, render all objects with a certain state together, then switch to the next state and render all objects that use that state, and so on.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
     ],
-    "DYGLEFRSortState" : [
+    "DYGLEFDFragShaderRestLimited" : [
       {
-        "target" : "Use state sorting, that is, render all objects with a certain state together, then switch to the next state and render all objects that use that state, and so on.",
+        "target" : "Performance is limited by fragment shaders",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -735,9 +735,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFRSwapMissingTargetRateFormat" : [
+    "DYGLEFKImprovementMSAA" : [
       {
-        "target" : "You are missing your target frame rate by %0.1f ms (%0.1f%%). Reduce the amount of drawing in order to achieve your desired frame rate.",
+        "target" : "Your app could use multisampling to improve image quality.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -749,9 +749,9 @@
         "language" : "English"
       }
     ],
-    "DYGLERMinimizeTexelSize" : [
+    "DYGLEFRSwapMissingTargetRateFormat" : [
       {
-        "target" : "Minimize texel size; avoid 8-bit per channel texel sizes whenever possible.",
+        "target" : "You are missing your target frame rate by %0.1f ms (%0.1f%%). Reduce the amount of drawing in order to achieve your desired frame rate.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -777,16 +777,16 @@
         "language" : "English"
       }
     ],
-    "kDYGLExpertErrorRedundantFrameStats" : [
+    "DYGLEFDFBColorWriteLimited" : [
       {
-        "target" : "Redundant frame statistics",
+        "target" : "Performance is limited by color writes to the frame buffer",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
     ],
-    "DYGLEFDFBColorWriteLimited" : [
+    "kDYGLExpertErrorRedundantFrameStats" : [
       {
-        "target" : "Performance is limited by color writes to the frame buffer",
+        "target" : "Redundant frame statistics",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -798,9 +798,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFKImprovementMSAA" : [
+    "DYGLERMinimizeTexelSize" : [
       {
-        "target" : "Your app could use multisampling to improve image quality.",
+        "target" : "Minimize texel size; avoid 8-bit per channel texel sizes whenever possible.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -868,9 +868,9 @@
         "language" : "English"
       }
     ],
-    "DYGLEFRSwapTargetRateHeadRoomFormat" : [
+    "DYGLERMinimizePrimitives" : [
       {
-        "target" : "You have %0.1f ms per frame on the GPU to draw more content before reaching the target frame rate of %0.1f fps. For example, you may be able to use more complex shaders, larger textures or multi-sampled anti-aliasing. Keep in mind that doing this may consume more power.",
+        "target" : "Employ a polygon reduction algorithm.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -889,9 +889,9 @@
         "language" : "English"
       }
     ],
-    "DYGLERMinimizePrimitives" : [
+    "DYGLEFRSwapTargetRateHeadRoomFormat" : [
       {
-        "target" : "Employ a polygon reduction algorithm.",
+        "target" : "You have %0.1f ms per frame on the GPU to draw more content before reaching the target frame rate of %0.1f fps. For example, you may be able to use more complex shaders, larger textures or multi-sampled anti-aliasing. Keep in mind that doing this may consume more power.",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -938,9 +938,9 @@
         "language" : "English"
       }
     ],
-    "kDYGLExpertErrorMixedAPILevelContextsNotSupported" : [
+    "HereAreSomeAdditionalThings" : [
       {
-        "target" : "This tool does not support contexts with different OpenGL ES API levels",
+        "target" : "Here are some additional things you can do that may improve performance:",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }
@@ -966,9 +966,9 @@
         "language" : "English"
       }
     ],
-    "HereAreSomeAdditionalThings" : [
+    "kDYGLExpertErrorMixedAPILevelContextsNotSupported" : [
       {
-        "target" : "Here are some additional things you can do that may improve performance:",
+        "target" : "This tool does not support contexts with different OpenGL ES API levels",
         "filename" : "PerfDetective.strings",
         "language" : "English"
       }

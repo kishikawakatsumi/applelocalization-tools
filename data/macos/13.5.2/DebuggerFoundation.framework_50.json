@@ -28,16 +28,16 @@
         "language" : "en"
       }
     ],
-    "DBGViewDebugger.Issue.AmbiguousSizeVertical" : [
+    "DBGViewDebugger.Issue.AmbiguousPositionVerticalSizeHorizontal" : [
       {
-        "target" : "Height is ambiguous for \"%1$@\".",
+        "target" : "Width and vertical position are ambiguous for \"%1$@\".",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "DBGViewDebugger.Issue.AmbiguousPositionVerticalSizeHorizontal" : [
+    "DBGViewDebugger.Issue.AmbiguousSizeVertical" : [
       {
-        "target" : "Width and vertical position are ambiguous for \"%1$@\".",
+        "target" : "Height is ambiguous for \"%1$@\".",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -56,16 +56,16 @@
         "language" : "en"
       }
     ],
-    "concurrent" : [
+    "DBGViewDebugger.Issue.AmbiguousPositionBothSizeBothScrollingSize" : [
       {
-        "target" : "concurrent",
+        "target" : "Position, size, and scrollable content size are ambiguous for \"%1$@\".",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "DBGViewDebugger.Issue.AmbiguousPositionBothSizeBothScrollingSize" : [
+    "concurrent" : [
       {
-        "target" : "Position, size, and scrollable content size are ambiguous for \"%1$@\".",
+        "target" : "concurrent",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -112,6 +112,13 @@
         "language" : "en"
       }
     ],
+    "Paused" : [
+      {
+        "target" : "Paused",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
     "Invalid Summary" : [
       {
         "target" : "Invalid Summary",
@@ -122,13 +129,6 @@
     "%@ %@" : [
       {
         "target" : "%1$@ %2$@",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
-    "Paused" : [
-      {
-        "target" : "Paused",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -182,13 +182,6 @@
         "language" : "en"
       }
     ],
-    "DBGViewDebugger.Issue.AmbiguousSizeBothScrollingSize" : [
-      {
-        "target" : "Size and scrollable content size are ambiguous for \"%1$@\".",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "DBGViewDebugger.Issue.AmbiguousScrollingSize" : [
       {
         "target" : "Scrollable content size is ambiguous for \"%1$@\".",
@@ -196,9 +189,16 @@
         "language" : "en"
       }
     ],
-    "DBGViewDebugger.Issue.AmbiguousPositionVerticalScrollingSize" : [
+    "DBGViewDebugger.Issue.AmbiguousSizeBothScrollingSize" : [
       {
-        "target" : "Vertical position and scrollable content size are ambiguous for \"%1$@\".",
+        "target" : "Size and scrollable content size are ambiguous for \"%1$@\".",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "Thread %@%@%@" : [
+      {
+        "target" : "Thread %1$@%2$@%3$@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -210,9 +210,9 @@
         "language" : "en"
       }
     ],
-    "Thread %@%@%@" : [
+    "DBGViewDebugger.Issue.AmbiguousPositionVerticalScrollingSize" : [
       {
-        "target" : "Thread %1$@%2$@%3$@",
+        "target" : "Vertical position and scrollable content size are ambiguous for \"%1$@\".",
         "filename" : "Localizable.strings",
         "language" : "en"
       }

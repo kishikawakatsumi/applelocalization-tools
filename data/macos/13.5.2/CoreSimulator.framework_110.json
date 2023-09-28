@@ -112,16 +112,16 @@
         "language" : "en"
       }
     ],
-    "Device %@ has unknown productClass" : [
+    "Developer directory '%@' is not actually a directory" : [
       {
-        "target" : "Device %@ has unknown productClass",
+        "target" : "Developer directory '%@' is not actually a directory",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Developer directory '%@' is not actually a directory" : [
+    "Device %@ has unknown productClass" : [
       {
-        "target" : "Developer directory '%@' is not actually a directory",
+        "target" : "Device %@ has unknown productClass",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -238,9 +238,9 @@
         "language" : "en"
       }
     ],
-    "Invalid request: Failed to load requested device type bundle (%@)." : [
+    "Failed to find service %@ in session %@" : [
       {
-        "target" : "Invalid request: Failed to load requested device type bundle (%@).",
+        "target" : "Failed to find service %1$@ in session %2$@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -266,16 +266,16 @@
         "language" : "en"
       }
     ],
-    "Failed to find service %@ in session %@" : [
+    "Device creation failed due to missing runtime bundle %@" : [
       {
-        "target" : "Failed to find service %1$@ in session %2$@",
+        "target" : "Device creation failed due to missing runtime bundle %@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Device creation failed due to missing runtime bundle %@" : [
+    "Invalid request: Failed to load requested device type bundle (%@)." : [
       {
-        "target" : "Device creation failed due to missing runtime bundle %@",
+        "target" : "Invalid request: Failed to load requested device type bundle (%@).",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -644,16 +644,16 @@
         "language" : "en"
       }
     ],
-    "A Rosetta update is required" : [
+    "Unable to determine name of runtime (%@)" : [
       {
-        "target" : "A Rosetta update is required",
+        "target" : "Unable to determine name of runtime (%@)",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Unable to determine name of runtime (%@)" : [
+    "A Rosetta update is required" : [
       {
-        "target" : "Unable to determine name of runtime (%@)",
+        "target" : "A Rosetta update is required",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -735,9 +735,9 @@
         "language" : "en"
       }
     ],
-    "Device %@ has unknown modelIdentifier" : [
+    "Error creating profile path monitor" : [
       {
-        "target" : "Device %@ has unknown modelIdentifier",
+        "target" : "Error creating profile path monitor",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -749,9 +749,9 @@
         "language" : "en"
       }
     ],
-    "Error creating profile path monitor" : [
+    "Device %@ has unknown modelIdentifier" : [
       {
-        "target" : "Error creating profile path monitor",
+        "target" : "Device %@ has unknown modelIdentifier",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -777,16 +777,16 @@
         "language" : "en"
       }
     ],
-    "Invalid SDK Canonical Name: %@" : [
+    "Invalid request: Device type identifier mismatch: %@ vs %@" : [
       {
-        "target" : "Invalid SDK Canonical Name: %@",
+        "target" : "Invalid request: Device type identifier mismatch: %1$@ vs %2$@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Invalid request: Device type identifier mismatch: %@ vs %@" : [
+    "Invalid SDK Canonical Name: %@" : [
       {
-        "target" : "Invalid request: Device type identifier mismatch: %1$@ vs %2$@",
+        "target" : "Invalid SDK Canonical Name: %@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -812,13 +812,6 @@
         "language" : "en"
       }
     ],
-    "The %@ simulator runtime is not supported with this version of CoreSimulator.framework." : [
-      {
-        "target" : "The %@ simulator runtime is not supported with this version of CoreSimulator.framework.",
-        "filename" : "Localizable.strings",
-        "language" : "en"
-      }
-    ],
     "Invalid death port" : [
       {
         "target" : "Invalid death port",
@@ -829,6 +822,13 @@
     "The runtime is corrupt or missing required files." : [
       {
         "target" : "The runtime is corrupt or missing required files.",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "The %@ simulator runtime is not supported with this version of CoreSimulator.framework." : [
+      {
+        "target" : "The %@ simulator runtime is not supported with this version of CoreSimulator.framework.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1085,16 +1085,16 @@
         "language" : "en"
       }
     ],
-    "Unable to upgrade device in current state: %@" : [
+    "Unable to restore.  Devices must belong to the same set." : [
       {
-        "target" : "Unable to upgrade device in current state: %@",
+        "target" : "Unable to restore.  Devices must belong to the same set.",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
     ],
-    "Unable to restore.  Devices must belong to the same set." : [
+    "Unable to upgrade device in current state: %@" : [
       {
-        "target" : "Unable to restore.  Devices must belong to the same set.",
+        "target" : "Unable to upgrade device in current state: %@",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1183,9 +1183,9 @@
         "language" : "en"
       }
     ],
-    "Cannot update device position for NearbyInteraction: the device is not booted" : [
+    "CoreSimulator.framework was changed while the process was running.  This is not a supported configuration and can occur if Xcode.app was updated while the process was running.  Service version (%@) does not match expected service version (%s)." : [
       {
-        "target" : "Cannot update device position for NearbyInteraction: the device is not booted",
+        "target" : "CoreSimulator.framework was changed while the process was running.  This is not a supported configuration and can occur if Xcode.app was updated while the process was running.  Service version (%1$@) does not match expected service version (%2$s).",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
@@ -1197,9 +1197,9 @@
         "language" : "en"
       }
     ],
-    "CoreSimulator.framework was changed while the process was running.  This is not a supported configuration and can occur if Xcode.app was updated while the process was running.  Service version (%@) does not match expected service version (%s)." : [
+    "Cannot update device position for NearbyInteraction: the device is not booted" : [
       {
-        "target" : "CoreSimulator.framework was changed while the process was running.  This is not a supported configuration and can occur if Xcode.app was updated while the process was running.  Service version (%1$@) does not match expected service version (%2$s).",
+        "target" : "Cannot update device position for NearbyInteraction: the device is not booted",
         "filename" : "Localizable.strings",
         "language" : "en"
       }
