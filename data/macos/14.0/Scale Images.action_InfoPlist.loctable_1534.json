@@ -1,0 +1,2568 @@
+{
+  "bundlePath" : "\/System\/Library\/Automator\/Scale Images.action",
+  "framework" : "Scale Images.action",
+  "localizations" : {
+    "Message" : [
+      {
+        "language" : "zh_HK",
+        "target" : "此動作將變更傳送到其中的影像檔。你要加入「複製Finder項目」的動作，讓副本變更時保留原來的檔案嗎？",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "פעולה זו תשנה את קבצי התמונה המועברים אליה.  האם ברצונך להוסיף פעולת העתקה של פריטי Finder על-מנת שהעותקים שלך ישתנו והקבצים המקוריים יישמרו?",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "Aquesta acció canviarà el format d’arxiu de les imatges que hi siguin transferides. Vols afegir una acció “Copiar ítems del Finder” per tal que les còpies es modifiquin i els originals es conservin?",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Met deze taak wijzig je de afbeeldingsbestanden die aan de taak worden doorgegeven. Wil je de taak 'Kopieer Finder-onderdelen' toevoegen, zodat de kopieën worden gewijzigd en de originelen behouden blijven?",
+        "language" : "nl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Bei dieser Aktion werden die übergebenen Bilddateien geändert. Möchtest du die Aktion „Finder-Objekte kopieren“ hinzufügen, damit die Kopien geändert werden und die Originale unverändert bleiben?",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Denne handling vil ændre de billedarkiver, den omfatter. Vil du tilføje en handling kaldet Kopier Finderemner, så alle kopier ændres, og originalerne bevares?",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv",
+        "target" : "Åtgärden ändrar överförda bildfiler. Vill du lägga till åtgärden Kopiera Finder-objekt så att ändringarna görs i kopior och originalen bevaras?"
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Esta ação altera os ficheiros de imagem passados. Gostaria de adicionar uma ação “Copiar elementos do Finder” para que sejam alteradas as cópias e preservados os originais?"
+      },
+      {
+        "language" : "sk",
+        "target" : "Táto akcia zmení posunuté obrázkové súbory.  Chcete pridať akciu Kopírovať položky Findera, takže budú zmenené kópie a pôvodné súbory ostanú zachované?",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "इस क्रिया द्वारा इसमें पास की गई इमेज फ़ाइलों को बदला जाएगा।  क्या आप Finder आइटम कॉपी करें क्रिया जोड़ना चाहेंगे ताकि कॉपी बदल जाएँ और आपकी मूल कॉपी संरक्षित रहें?",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR",
+        "target" : "Esta ação modificará os arquivos de imagem fornecidos a ela. Deseja adicionar uma ação \"Copiar Itens do Finder\" de forma que as cópias sejam modificadas e os originais preservados?"
+      },
+      {
+        "target" : "การทำงานนี้จะเปลี่ยนแปลงไฟล์ภาพที่ส่งผ่านเข้ามา คุณต้องการเพิ่มการทำงานการคัดลอกรายการ Finder เพื่อให้สำเนาต่างๆ ได้รับการเปลี่ยนแปลงและต้นฉบับของคุณได้รับการเก็บรักษาไว้ใช่หรือไม่",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "language" : "ko",
+        "filename" : "InfoPlist.loctable",
+        "target" : "이 동작은 전달된 이미지 파일을 변경합니다.  Finder 항목 복사하기 동작을 추가하여 복사본은 변경하고 원본은 보존하겠습니까?"
+      },
+      {
+        "target" : "Tác vụ này sẽ thay đổi các tệp hình ảnh được chuyển vào.  Bạn có muốn thêm tác vụ Sao chép các Mục Finder để các bản sao được thay đổi và bản gốc của bạn được giữ lại không?",
+        "language" : "vi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "此操作将更改那些传给它的图像文件。你要增加一个“拷贝访达项目”操作以便更改副本而保留原文件吗？",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "This action will change the image files passed into it. Would you like to add a Copy Finder Items action so that the copies are changed and your originals are preserved?",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Tindakan ini akan mengubah file gambar yang diteruskan ke dalamnya.  Apakah Anda ingin menambahkan tindakan Salin Item Finder sehingga salinan yang diubah dan yang asli dilindungi?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "This action will change the image files passed into it.  Would you like to add a Copy Finder Items action so that the copies are changed and your originals are preserved?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "This action will change the image files passed into it. Would you like to add a Copy Finder Items action so that the copies are changed and your originals are preserved?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "Данное действие изменит файлы изображений, переданные в него. Добавить действие «Скопировать объекты Finder», чтобы копии изменились и исходные файлы были сохранены?",
+        "language" : "ru",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Cette action modifie les fichiers image qui lui sont transmis. Voulez-vous ajouter une action Copier des éléments du Finder afin de modifier les copies et conserver les originaux?",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Denne handlingen endrer bildefiler som sendes til den. Vil du legge til en Kopier Finder-objekter-handling slik at kopiene endres og originalene forblir uendret?",
+        "language" : "no",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "سيقوم هذا الإجراء بتغيير ملفات الصور التي تم تمريرها إليه.  هل ترغب في إضافة إجراء نسخ عناصر فايندر بحيث يتم تغيير النُسخ مع الاحتفاظ بالعناصر الأصلية؟",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Με αυτήν την ενέργεια, αλλάζουν τα αρχεία εικόνας που διαβιβάζονται σε αυτή. Θέλετε να προσθέσετε μια ενέργεια αντιγραφής στοιχείων Finder, ώστε τα αντίγραφα να αλλάζουν και τα πρωτότυπα να διατηρούνται;"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "it",
+        "target" : "Questa azione modificherà le immagini processate. Desideri aggiungere un’azione Copia elementi del Finder in modo da modificare le copie e conservare gli originali?"
+      },
+      {
+        "language" : "tr",
+        "target" : "Bu işlem kendisine verilen görüntü dosyalarını değiştirecektir. Özgün dosyaların değişmeden korunması ve yalnızca kopyaların değiştirilmesi için Finder Öğelerini Kopyala işleminin eklenmesini ister misiniz?",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW",
+        "target" : "這項動作會更改傳送到其中的影像檔案。你要加入「拷貝Finder項目」動作，更改拷貝的項目並保留原始檔案嗎？"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs",
+        "target" : "Tato akce změní obrázkové soubory, které jí budou předány. Chcete přidat akci „Kopírovat položky Finderu“? Změněny tak budou pouze kopie souborů a původní soubory zůstanou zachovány."
+      },
+      {
+        "target" : "Ця дія змінить файли зображень, які до неї передано. Хочете додати дію «Скопіювати елементи Finder», щоб зберегти оригінали, а зміни застосувати до копій?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "language" : "hr",
+        "target" : "Ovim se postupkom mijenjaju slikovne datoteke koje su u njega prenesene. Želite li dodati postupak “Kopiraj stavke Findera” tako da se kopije promijene, a vaši originali ostanu sačuvani?",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi",
+        "target" : "Toiminto muuttaa sille annettuja kuvatiedostoja. Haluatko lisätä Kopioi Finder-kohteita -toiminnon, jolloin vain kopioita muutetaan ja alkuperäiset kuvat säilytetään?"
+      },
+      {
+        "language" : "es",
+        "target" : "Esta acción modificará los archivos de imagen a los que se aplique. ¿Quieres añadir la acción “Copiar ítems del Finder” para que se modifiquen las copias y los originales se conserven tal cual?",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ja",
+        "filename" : "InfoPlist.loctable",
+        "target" : "渡された画像ファイルを変更します。“Finder項目をコピー”アクションを追加して、オリジナルを変更しないでコピーを変更するようにしますか?"
+      },
+      {
+        "language" : "hu",
+        "target" : "Ez a művelet módosítja a hozzá továbbított képeket. Szeretne hozzáadni egy Finder elemek másolása műveletet, hogy a másolatokat módosítsa és az eredetiket megőrizze?",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ms",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Tindakan ini akan mengubah fail imej yang diberi kepadanya.  Adakah anda ingin tambah tindakan Salin Item Finder supaya hanya salinan yang diubah manakala salinan asal dikekalkan?"
+      },
+      {
+        "target" : "Cette action modifie les fichiers image qui lui sont transmis. Voulez-vous ajouter une action Copier des éléments du Finder afin de modifier les copies mais conserver les originaux ?",
+        "language" : "fr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Esta acción modificará los archivos de imagen a los que se aplique. ¿Quieres agregar la acción Copiar elementos del Finder para que se modifiquen las copias y los originales se conserven tal cual?"
+      },
+      {
+        "language" : "ro",
+        "target" : "Această acțiune va modifica fișierele de imagine care îi sunt transmise.  Doriți să adăugați o acțiune Copiere articole Finder, astfel încât copiile să fie modificate, iar originalele să fie păstrate?",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Ta czynność zmieni pliki obrazków przekazywane na wejściu. Czy chcesz dodać czynność Kopiuj rzeczy Findera, aby zmieniane były kopie plików, a oryginały pozostawały bez zmian?",
+        "language" : "pl"
+      }
+    ],
+    "CFBundleName" : [
+      {
+        "language" : "zh_HK",
+        "target" : "縮放影像",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "התאם את גודל התמונה",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "language" : "ca",
+        "target" : "Ajustar la mida de la imatge",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Vergroot\/verklein afbeelding"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "de",
+        "target" : "Bild skalieren"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Skaler billede",
+        "language" : "da"
+      },
+      {
+        "language" : "sv",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Skala bild"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Redimensionar imagem",
+        "language" : "pt_PT"
+      },
+      {
+        "language" : "sk",
+        "target" : "Zmeniť veľkosť obrázka",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "इमेज स्केल करें",
+        "language" : "hi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Ajustar Imagem",
+        "language" : "pt_BR",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "th",
+        "target" : "ปรับสัดส่วนภาพ",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "이미지 크기 조절",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi",
+        "target" : "Định tỷ lệ Hình ảnh"
+      },
+      {
+        "target" : "缩放图像",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB",
+        "target" : "Scale Image"
+      },
+      {
+        "target" : "Skalakan Gambar",
+        "language" : "id",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Scale Image",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Scale Image",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru",
+        "target" : "Изменить масштаб изображений"
+      },
+      {
+        "target" : "Redimensionner l’image",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "language" : "no",
+        "target" : "Skaler bilde",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "تحجيم الصورة",
+        "language" : "ar",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Κλιμάκωση εικόνας",
+        "language" : "el"
+      },
+      {
+        "language" : "it",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Ridimensiona immagine"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Görüntüleri Ölçekle",
+        "language" : "tr"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "縮放影像",
+        "language" : "zh_TW"
+      },
+      {
+        "language" : "cs",
+        "target" : "Měřítko obrázku",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "uk",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Масштабувати зображення"
+      },
+      {
+        "target" : "Podesi veličinu slike",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi",
+        "target" : "Skaalaa kuvaa"
+      },
+      {
+        "target" : "Ajustar tamaño de la imagen",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "language" : "ja",
+        "filename" : "InfoPlist.loctable",
+        "target" : "画像をサイズ調整"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu",
+        "target" : "Kép méretezése"
+      },
+      {
+        "language" : "ms",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Skala Imej"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr",
+        "target" : "Redimensionner l’image"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419",
+        "target" : "Ajustar tamaño de la imagen"
+      },
+      {
+        "target" : "Redimensionare la scară imagine",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Skaluj obrazek",
+        "language" : "pl",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "ApplyButton" : [
+      {
+        "target" : "新增",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "הוסף",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Afegir",
+        "language" : "ca"
+      },
+      {
+        "language" : "nl",
+        "target" : "Voeg toe",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "de",
+        "target" : "Anwenden"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "da",
+        "target" : "Tilføj"
+      },
+      {
+        "target" : "Lägg till",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT",
+        "target" : "Adicionar"
+      },
+      {
+        "language" : "sk",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Pridať"
+      },
+      {
+        "language" : "hi",
+        "target" : "जोड़ें",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR",
+        "target" : "Adicionar"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "th",
+        "target" : "เพิ่ม"
+      },
+      {
+        "language" : "ko",
+        "filename" : "InfoPlist.loctable",
+        "target" : "추가"
+      },
+      {
+        "language" : "vi",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Thêm"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "InfoPlist.loctable",
+        "target" : "添加"
+      },
+      {
+        "target" : "Add",
+        "language" : "en_GB",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Tambah",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "en",
+        "target" : "Add"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Add",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru",
+        "target" : "Добавить"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Ajouter",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "no",
+        "target" : "Legg til"
+      },
+      {
+        "language" : "ar",
+        "target" : "إضافة",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Προσθήκη",
+        "language" : "el",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Aggiungi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Ekle",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "加入",
+        "language" : "zh_TW"
+      },
+      {
+        "language" : "cs",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Přidat"
+      },
+      {
+        "language" : "uk",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Додати"
+      },
+      {
+        "language" : "hr",
+        "target" : "Dodaj",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Lisää",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "es",
+        "target" : "Añadir"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja",
+        "target" : "追加"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu",
+        "target" : "Hozzáadás"
+      },
+      {
+        "language" : "ms",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Tambah"
+      },
+      {
+        "target" : "Ajouter",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Agregar",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro",
+        "target" : "Adaugă"
+      },
+      {
+        "language" : "pl",
+        "target" : "Dodaj",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "Preview" : [
+      {
+        "target" : "預覽",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "he",
+        "target" : "תצוגה מקדימה"
+      },
+      {
+        "language" : "ca",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Previsualitzar"
+      },
+      {
+        "target" : "Voorvertoning",
+        "language" : "nl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Vorschau",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Billedfremviser",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Förhandsvisning",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Pré‑visualizar",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk",
+        "target" : "Náhľad"
+      },
+      {
+        "language" : "hi",
+        "target" : "प्रीव्यू",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Pré-Visualizar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "language" : "th",
+        "target" : "แสดงตัวอย่าง",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "미리보기",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi",
+        "target" : "Xem trước"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN",
+        "target" : "预览"
+      },
+      {
+        "target" : "Preview",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "language" : "id",
+        "target" : "Pratinjau",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "Preview",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Preview",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "language" : "ru",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Просмотр"
+      },
+      {
+        "target" : "Aperçu",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "language" : "no",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Forhåndsvisning"
+      },
+      {
+        "language" : "ar",
+        "filename" : "InfoPlist.loctable",
+        "target" : "معاينة"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "el",
+        "target" : "Προεπισκόπηση"
+      },
+      {
+        "language" : "it",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Anteprima"
+      },
+      {
+        "language" : "tr",
+        "target" : "Önizleme",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "預覽程式",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs",
+        "target" : "Náhled"
+      },
+      {
+        "target" : "Оглядач",
+        "language" : "uk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Pregled",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Esikatselu",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "language" : "es",
+        "target" : "Vista Previa",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "プレビュー",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Megtekintő",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Pratonton",
+        "language" : "ms",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Aperçu",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Previsualización",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro",
+        "target" : "Previzualizare"
+      },
+      {
+        "language" : "pl",
+        "target" : "Podgląd",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "Image" : [
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "影像",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "he",
+        "target" : "תמונה"
+      },
+      {
+        "target" : "Imatge",
+        "language" : "ca",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Afbeelding",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Bild",
+        "language" : "de"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Billede",
+        "language" : "da"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv",
+        "target" : "Bild"
+      },
+      {
+        "target" : "Imagem",
+        "language" : "pt_PT",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Obrázok",
+        "language" : "sk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "इमेज",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Imagem",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "ภาพ",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "이미지",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi",
+        "target" : "Hình ảnh"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "图像",
+        "language" : "zh_CN"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Image"
+      },
+      {
+        "language" : "id",
+        "target" : "Gambar",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "en",
+        "target" : "Image"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Image",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Изображение",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Image",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Bilde",
+        "language" : "no",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "صورة",
+        "language" : "ar"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "el",
+        "target" : "Εικόνα"
+      },
+      {
+        "language" : "it",
+        "target" : "Immagine",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "Görüntü",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "影像",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "language" : "cs",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Obrázek"
+      },
+      {
+        "target" : "Зображення",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Slika",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi",
+        "target" : "Kuva"
+      },
+      {
+        "language" : "es",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Imagen"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja",
+        "target" : "画像"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu",
+        "target" : "Kép"
+      },
+      {
+        "language" : "ms",
+        "target" : "Imej",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Image",
+        "language" : "fr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Imagen",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro",
+        "target" : "Imagine"
+      },
+      {
+        "language" : "pl",
+        "target" : "Obraz",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "AMDSummary" : [
+      {
+        "language" : "zh_HK",
+        "filename" : "InfoPlist.loctable",
+        "target" : "此動作會調整所選影像的大小。新的大小可能是影像較長邊的像素長度，或是目前影像尺寸的百分比。"
+      },
+      {
+        "target" : "פעולה זו משנה את גודל התמונות שצוינו. הגודל החדש יכול להיות אורך בפיקסלים עבור החלק הארוך יותר של התמונה, או אחוז מגודל התמונה הנוכחית.",
+        "language" : "he",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "Aquesta acció redimensiona les imatges especificades. La nova mida pot ser la longitud en píxels de la vora més llarga de la imatge o un percentatge de la mida de la imatge actual.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Met deze taak pas je de grootte van de opgegeven afbeeldingen aan. De nieuwe grootte wordt bepaald door een lengte in pixels voor het lange gedeelte van de afbeelding of een percentage van de huidige afbeeldingsgrootte op te geven.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Bei dieser Aktion wird die Größe der angegebenen Bilder geändert. Die neue Größe kann als Länge der langen Seite des Bilds in Pixeln oder als Prozentwert der aktuellen Größe des Bilds angegeben werden.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Denne handling ændrer størrelse på anførte billeder. Den nye størrelse kan være en længde i pixel på billedets lange kant eller en procent af den aktuelle billedstørrelse.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Åtgärden ändrar storlek på valda bilder. Den nya storleken kan vara en längd i pixlar för den längre sidan på bilden, eller en procentandel av den nuvarande bildstorleken.",
+        "language" : "sv"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Esta ação redimensiona as imagens especificadas. O novo tamanho pode ser um comprimento em píxeis para o lado mais comprido da imagem ou uma percentagem do tamanho atual da imagem.",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Táto akcia zmení veľkosť špecifikovaných obrázkov. Nová veľkosť je buď dĺžka dlhšej strany obrázka v pixeloch alebo percentuálna zmena aktuálnej veľkosti obrázka.",
+        "language" : "sk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "यह क्रिया निर्दिष्ट इमेज का आकार बदलती है। नया आकार इमेज के लंबे हिस्से का पिक्सेल में एक भाग हो सकता है या वर्तमान इमेज आकार का एक प्रतिशत हो सकता है।",
+        "language" : "hi"
+      },
+      {
+        "target" : "Esta ação redimensiona as imagens especificadas. O novo tamanho de imagem pode ser um comprimento em pixels para a maior lateral da imagem ou um percentual do tamanho atual da imagem.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "การทำงานนี้ปรับขนาดภาพที่ระบุ ขนาดใหม่อาจเป็นความยาวในพิกเซลเพื่อให้ภาพยาวขึ้น หรือจะเป็นเปอร์เซ็นต์ก็ได้",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "language" : "ko",
+        "filename" : "InfoPlist.loctable",
+        "target" : "이 동작은 지정된 이미지의 크기를 조절합니다. 새로운 크기는 이미지에서 더 긴 면의 픽셀 길이일 수도 있고 현재 이미지 크기의 퍼센트일 수도 있습니다."
+      },
+      {
+        "language" : "vi",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Tác vụ này định cỡ lại hình ảnh được chỉ định. Kích cỡ mới có thể là độ dài tính bằng điểm ảnh cho cạnh dài hơn của hình ảnh hoặc phần trăm của kích cỡ hình ảnh hiện tại."
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "此操作会调整指定图像的大小。新大小可能是图像较长一边的长度（以像素为单位），也可能是当前图像大小的百分比。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "InfoPlist.loctable",
+        "target" : "This action resizes the specified images. The new size may be a length in pixels for the longer side of the image, or a percentage of the current image size."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "id",
+        "target" : "Tindakan ini mengubah ukuran gambar yang ditetapkan. Ukuran baru dapat berupa panjang dalam piksel untuk sisi gambar yang lebih panjang, atau persentase ukuran gambar saat ini."
+      },
+      {
+        "target" : "This action resizes the specified images. The new size may be a length in pixels for the longer side of the image, or a percentage of the current image size.",
+        "language" : "en",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "This action resizes the specified images. The new size may be a length in pixels for the longer side of the image, or a percentage of the current image size.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "language" : "ru",
+        "target" : "Данное действие изменяет размер указанных изображений. Новый размер может быть указан как длина в пикселях длинной стороны изображения или в процентах от текущего размера изображения.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Cette action redimensionne les images indiquées. La nouvelle taille peut correspondre à la taille en pixels du côté le plus long de l’image ou à un pourcentage de la taille de l’image actuelle.",
+        "language" : "fr_CA",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Denne handlingen endrer størrelsen på den angitte bildene. Den nye størrelsen kan være en lengde oppgitt i bildepunkter for den lengste siden av bildet, eller en prosentandel av den nåværende bildestørrelsen.",
+        "language" : "no",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "يقوم هذا الإجراء بتغيير حجم الصور التي تم اختيارها. الحجم الجديد قد يكون طول بالبكسل للجانب الأطول من الصورة، أو نسبة مئوية من حجم الصورة الحالي.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Με αυτήν την ενέργεια, γίνεται αλλαγή μεγέθους των καθορισμένων εικόνων. Το νέο μέγεθος είναι δυνατό να είναι μήκος σε pixel για τη μεγάλη πλευρά της εικόνας ή ποσοστό του τρέχοντος μεγέθους εικόνας."
+      },
+      {
+        "language" : "it",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Questa azione ridimensiona le immagini specificate. Le nuove dimensioni potrebbero essere una lunghezza in pixel del lato più lungo dell’immagine o una percentuale delle dimensioni attuali dell’immagine."
+      },
+      {
+        "target" : "Bu işlem, belirtilen görüntülerin boyutunu değiştirir. Yeni boyut piksel olarak veya şu anki görüntü boyutunun bir yüzdesi olarak ayarlanabilir.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "這項動作會調整所選影像的大小。新的大小可能是影像較長邊的像素長度，或是目前影像大小的百分比。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Tato akce změní velikost vybraných obrázků. Novou velikost lze zadat jako rozměr delší strany v pixelech nebo procentech aktuální velikosti obrázku.",
+        "language" : "cs",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Ця дія змінює розмір зазначених зображень. Новий розмір може бути довжиною в пікселях довшої сторони зображення або відсотком поточного розміру зображення.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Ovim se postupkom mijenja veličina navedenih slika. Nova veličina može biti duljina u pikselima za dulju stranu slike ili postotak aktualne veličine slike.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Toiminto muuttaa määritettyjen kuvien kokoa. Uusi koko voi olla kuvan pidemmän sivun pituus pikseleinä tai prosenttiosuus nykyisen kuvan koosta.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "language" : "es",
+        "target" : "Esta acción cambia el tamaño de las imágenes especificadas. El nuevo tamaño puede ser la longitud en píxeles del lado más largo de la imagen o un porcentaje del tamaño actual de la imagen.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja",
+        "target" : "指定した画像のサイズを調整します。調整後のサイズは、画像の長辺の長さ（ピクセル単位）、または現在の画像サイズに対する比率（パーセント）で指定します。"
+      },
+      {
+        "language" : "hu",
+        "target" : "Ez a művelet átméretezi a megadott képeket. Az új méret lehet a kép hosszabb oldalának pixelekben megadott hossza vagy az aktuális képméret százalékos aránya.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Tindakan ini mensaiz semula imej yang ditentukan. Saiz baharu mungkin panjang dalam piksel untuk sisi imej yang lebih panjang, atau peratusan saiz imej semasa.",
+        "language" : "ms",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Cette action redimensionne les images indiquées. La nouvelle taille peut correspondre à la taille en pixels du côté le plus long de l’image ou à un pourcentage de la taille de l’image actuelle.",
+        "language" : "fr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Esta acción cambia el tamaño de las imágenes especificadas. El nuevo tamaño puede ser la longitud en pixeles del lado más largo de la imagen o un porcentaje del tamaño actual de la imagen.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "language" : "ro",
+        "target" : "Această acțiune redimensionează imaginile specificate. Noua dimensiune poate fi o lungime în pixeli pentru latura mai lungă a imaginii sau un procent din dimensiunea actuală a imaginii.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl",
+        "target" : "Ta czynność zmienia wielkość obrazków. Nowa wielkość może być podana jako liczba pikseli dłuższej krawędzi lub procent bieżącej wielkości obrazka."
+      }
+    ],
+    "IgnoreButton" : [
+      {
+        "language" : "zh_HK",
+        "target" : "不要加入",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "אל תוסיף",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "No afegir",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl",
+        "target" : "Voeg niet toe"
+      },
+      {
+        "language" : "de",
+        "target" : "Nicht anwenden",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Tilføj ikke",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Lägg inte till",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Não adicionar"
+      },
+      {
+        "target" : "Nepridávať",
+        "language" : "sk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "न जोड़ें",
+        "language" : "hi"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR",
+        "target" : "Não Adicionar"
+      },
+      {
+        "target" : "ไม่เพิ่ม",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "language" : "ko",
+        "filename" : "InfoPlist.loctable",
+        "target" : "추가하지 않음"
+      },
+      {
+        "target" : "Không Thêm",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN",
+        "target" : "不添加"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB",
+        "target" : "Don‘t Add"
+      },
+      {
+        "language" : "id",
+        "target" : "Jangan Tambahkan",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "Don't Add",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU",
+        "target" : "Don't Add"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru",
+        "target" : "Не добавлять"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA",
+        "target" : "Ne pas ajouter"
+      },
+      {
+        "language" : "no",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Ikke legg til"
+      },
+      {
+        "target" : "عدم الإضافة",
+        "language" : "ar",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Να μη γίνει προσθήκη",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Non aggiungere",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "Ekleme",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "不要加入",
+        "language" : "zh_TW",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs",
+        "target" : "Nepřidávat"
+      },
+      {
+        "target" : "Не додавати",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "language" : "hr",
+        "target" : "Nemoj dodati",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Älä lisää",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "No añadir",
+        "language" : "es"
+      },
+      {
+        "language" : "ja",
+        "target" : "追加しない",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Hozzáadás mellőzése",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Jangan Tambah",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Ne pas ajouter"
+      },
+      {
+        "language" : "es_419",
+        "target" : "No agregar",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Nu adăuga",
+        "language" : "ro",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Nie dodawaj",
+        "language" : "pl"
+      }
+    ],
+    "AMName" : [
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "縮放影像",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "התאם את גודל התמונות",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca",
+        "target" : "Ajustar la mida de les imatges"
+      },
+      {
+        "target" : "Vergroot\/verklein afbeeldingen",
+        "language" : "nl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "de",
+        "target" : "Bilder skalieren"
+      },
+      {
+        "language" : "da",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Skaler billeder"
+      },
+      {
+        "target" : "Skala bilder",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "Redimensionar imagens",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk",
+        "target" : "Zmeniť veľkosť obrázkov"
+      },
+      {
+        "language" : "hi",
+        "target" : "इमेज स्केल करें",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Ajustar Imagens",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "ปรับสัดส่วนภาพ",
+        "language" : "th",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "이미지 크기 조절",
+        "language" : "ko"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Định tỷ lệ Hình ảnh",
+        "language" : "vi"
+      },
+      {
+        "target" : "缩放图像",
+        "language" : "zh_CN",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Scale Images",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Skalakan Gambar",
+        "language" : "id",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Scale Images"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Scale Images"
+      },
+      {
+        "language" : "ru",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Изменить масштаб изображений"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Redimensionner les images"
+      },
+      {
+        "language" : "no",
+        "target" : "Skaler bilder",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "تحجيم الصور",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "el",
+        "target" : "Κλιμάκωση εικόνων"
+      },
+      {
+        "target" : "Ridimensiona immagini",
+        "language" : "it",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr",
+        "target" : "Görüntüleri Ölçekle"
+      },
+      {
+        "target" : "縮放影像",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Upravit velikost obrázků",
+        "language" : "cs",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk",
+        "target" : "Масштабувати зображення"
+      },
+      {
+        "target" : "Podešavanje veličine slika",
+        "language" : "hr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi",
+        "target" : "Skaalaa kuvia"
+      },
+      {
+        "target" : "Ajustar tamaño de las imágenes",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "画像をサイズ調整",
+        "language" : "ja",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Képek méretezése",
+        "language" : "hu",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ms",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Skalakan Imej"
+      },
+      {
+        "language" : "fr",
+        "target" : "Redimensionner les images",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Ajustar tamaño de las imágenes",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Redimensionare la scară imagini",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Skaluj obrazki",
+        "language" : "pl",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "Change" : [
+      {
+        "target" : "更改",
+        "language" : "zh_HK",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "שנה",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Canviar",
+        "language" : "ca",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl",
+        "target" : "Wijzig"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Ändern",
+        "language" : "de"
+      },
+      {
+        "language" : "da",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Skift"
+      },
+      {
+        "target" : "Ändra",
+        "language" : "sv",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Alterar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Zmeniť",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "language" : "hi",
+        "target" : "बदलें",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Alterar",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "เปลี่ยนแปลง",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko",
+        "target" : "변경"
+      },
+      {
+        "target" : "Thay đổi",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "更改",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB",
+        "target" : "Change"
+      },
+      {
+        "language" : "id",
+        "target" : "Ubah",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Change",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Change",
+        "language" : "en_AU"
+      },
+      {
+        "language" : "ru",
+        "target" : "Заменить",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Changer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Endre",
+        "language" : "no"
+      },
+      {
+        "language" : "ar",
+        "target" : "تغيير",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Αλλαγή",
+        "language" : "el",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Cambia",
+        "language" : "it"
+      },
+      {
+        "language" : "tr",
+        "target" : "Değiştir",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "更改",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "language" : "cs",
+        "target" : "Změnit",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "uk",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Змінити"
+      },
+      {
+        "language" : "hr",
+        "target" : "Promijeni",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi",
+        "target" : "Muuta"
+      },
+      {
+        "target" : "Cambiar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "変更",
+        "language" : "ja",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Módosítás",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Tukar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr",
+        "target" : "Changer"
+      },
+      {
+        "target" : "Cambiar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "language" : "ro",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Schimbă"
+      },
+      {
+        "target" : "Zmień",
+        "language" : "pl",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "Pictures" : [
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "圖片",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "תמונות",
+        "language" : "he",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Imatges",
+        "language" : "ca"
+      },
+      {
+        "language" : "nl",
+        "target" : "Afbeeldingen",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Bilder",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "da",
+        "target" : "Billeder"
+      },
+      {
+        "language" : "sv",
+        "target" : "Bilder",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Imagens",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Obrázky",
+        "language" : "sk"
+      },
+      {
+        "language" : "hi",
+        "filename" : "InfoPlist.loctable",
+        "target" : "तस्वीरें"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR",
+        "target" : "Imagens"
+      },
+      {
+        "language" : "th",
+        "target" : "รูปภาพ",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "그림",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Ảnh",
+        "language" : "vi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "图片",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Pictures"
+      },
+      {
+        "target" : "Gambar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Pictures",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Pictures",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru",
+        "target" : "Картинки"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Images"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Bilder",
+        "language" : "no"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar",
+        "target" : "صور"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Εικόνες",
+        "language" : "el"
+      },
+      {
+        "target" : "Immagini",
+        "filename" : "InfoPlist.loctable",
+        "language" : "it"
+      },
+      {
+        "language" : "tr",
+        "target" : "Resimler",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "InfoPlist.loctable",
+        "target" : "圖片"
+      },
+      {
+        "language" : "cs",
+        "target" : "Obrázky",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Зображення",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr",
+        "target" : "Slike"
+      },
+      {
+        "language" : "fi",
+        "target" : "Kuvat",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Imágenes",
+        "language" : "es",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ja",
+        "filename" : "InfoPlist.loctable",
+        "target" : "ピクチャ"
+      },
+      {
+        "target" : "Képek",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Gambar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "language" : "fr",
+        "target" : "Images",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Imágenes",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Imagini",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Obrazki",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl"
+      }
+    ],
+    "NSHumanReadableCopyright" : [
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Copyright © 2004–2012 Apple Inc. 保留一切權利。",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "‏© 2004–2012 Apple Inc.‎ כל הזכויות שמורות.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "language" : "ca",
+        "target" : "Copyright © 2004–2012 Apple Inc. Tots els drets reservats.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl",
+        "target" : "Copyright © 2004–2012 Apple Inc. Alle rechten voorbehouden."
+      },
+      {
+        "language" : "de",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Copyright © 2004–2012 Apple Inc. Alle Rechte vorbehalten."
+      },
+      {
+        "language" : "da",
+        "target" : "Copyright © 2004-2012 Apple Inc. Alle rettigheder forbeholdes.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv",
+        "target" : "Copyright © 2004–2012 Apple Inc. Alla rättigheter förbehålls."
+      },
+      {
+        "target" : "Copyright © 2004–2012 Apple Inc. Todos os direitos reservados.",
+        "language" : "pt_PT",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Copyright © 2004 – 2012 Apple Inc. Všetky práva vyhradené.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "कॉपीराइट © 2004–2012 Apple Inc.  सर्वाधिकार सुरक्षित।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2004–2012 Apple Inc. Todos os direitos reservados.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "language" : "th",
+        "target" : "Copyright © 2004–2012 Apple Inc.  สงวนสิทธิ์ทุกประการ",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ko",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Copyright © 2004–2012 Apple Inc.  모든 권리 보유."
+      },
+      {
+        "language" : "vi",
+        "target" : "Copyright © 2004–2012 Apple Inc.  Mọi quyền được bảo lưu.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Copyright © 2004–2012 Apple Inc. 保留一切权利。",
+        "language" : "zh_CN"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Copyright © 2004–2012 Apple Inc. All rights reserved.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Hak Cipta © 2004–2012 Apple Inc.  Semua hak cipta dilindungi undang-undang.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "en",
+        "target" : "Copyright © 2004–2012 Apple Inc.  All rights reserved."
+      },
+      {
+        "target" : "Copyright © 2004–2012 Apple Inc.  All rights reserved.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru",
+        "target" : "Copyright © 2004–2012 Apple Inc. Все права защищены."
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Copyright © 2004–2012 Apple Inc. Tous droits réservés.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2004–2012 Apple Inc. Alle rettigheter forbeholdes.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "language" : "ar",
+        "target" : "‏‏‎Copyright © 2004–2012 Apple Inc.‎\n‏ جميع الحقوق محفوظة.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Πνευματικά δικαιώματα © 2004–2012 Apple Inc. Με επιφύλαξη κάθε δικαιώματος.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2004–2012 Apple Inc. Tutti i diritti riservati.",
+        "language" : "it",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "Copyright © 2004–2012 Apple Inc. Tüm hakları saklıdır.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2004–2012 Apple Inc. 保留一切權利。",
+        "language" : "zh_TW",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2004–2012 Apple Inc. Všechna práva vyhrazena.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "© 2004–2012 Apple Inc.  Усі права захищено.",
+        "language" : "uk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Autorsko pravo © 2004. – 2012. Apple Inc.  Sva prava pridržana.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi",
+        "target" : "Copyright © 2004–2012 Apple Inc. Kaikki oikeudet pidätetään."
+      },
+      {
+        "language" : "es",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Copyright © 2004–2012 Apple Inc. Todos los derechos reservados."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja",
+        "target" : "Copyright © 2004–2012 Apple Inc.  All rights reserved."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu",
+        "target" : "Copyright © 2004–2012 Apple Inc. Minden jog fenntartva."
+      },
+      {
+        "language" : "ms",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Hak Cipta © 2004–2012 Apple Inc.  Hak cipta terpelihara."
+      },
+      {
+        "language" : "fr",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Copyright © 2004–2012 Apple Inc. Tous droits réservés."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419",
+        "target" : "Copyright © 2004–2012 Apple Inc. Todos los derechos reservados."
+      },
+      {
+        "language" : "ro",
+        "target" : "Copyright © 2004-2012 Apple Inc. Toate drepturile rezervate.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Copyright © 2004–2012 Apple Inc. Wszystkie prawa zastrzeżone.",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "Photo" : [
+      {
+        "target" : "相片",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "תמונה",
+        "language" : "he",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Foto",
+        "language" : "ca",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Foto",
+        "language" : "nl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Foto",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Foto",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "Bild",
+        "language" : "sv",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Fotografia",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "language" : "sk",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Fotka"
+      },
+      {
+        "target" : "तस्वीर",
+        "language" : "hi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR",
+        "target" : "Foto"
+      },
+      {
+        "language" : "th",
+        "filename" : "InfoPlist.loctable",
+        "target" : "รูปภาพ"
+      },
+      {
+        "target" : "사진",
+        "language" : "ko",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Ảnh",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "照片",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Photo",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "language" : "id",
+        "target" : "Foto",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Photo"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Photo",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Фото",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Photo",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Bilde",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "صورة فوتوغرافية",
+        "language" : "ar"
+      },
+      {
+        "target" : "Φωτογραφία",
+        "filename" : "InfoPlist.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Foto",
+        "filename" : "InfoPlist.loctable",
+        "language" : "it"
+      },
+      {
+        "language" : "tr",
+        "target" : "Fotoğraf",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "照片",
+        "language" : "zh_TW",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Fotografie",
+        "language" : "cs"
+      },
+      {
+        "language" : "uk",
+        "target" : "Фото",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Fotografija",
+        "language" : "hr"
+      },
+      {
+        "language" : "fi",
+        "target" : "Kuva",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "Foto",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "写真",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Fotó",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Foto",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr",
+        "target" : "Photo"
+      },
+      {
+        "target" : "Foto",
+        "language" : "es_419",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Poză",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Zdjęcie",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "Scale" : [
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK",
+        "target" : "縮放"
+      },
+      {
+        "language" : "he",
+        "target" : "קנה מידה",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ca",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Escala"
+      },
+      {
+        "target" : "Vergroot\/verklein",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "de",
+        "target" : "Skalieren"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "da",
+        "target" : "Skalering"
+      },
+      {
+        "target" : "Skala",
+        "language" : "sv",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Escala",
+        "language" : "pt_PT",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk",
+        "target" : "Mierka"
+      },
+      {
+        "target" : "स्केल",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Escala",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "language" : "th",
+        "target" : "มาตราส่วน",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "크기",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "vi",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Tỷ lệ"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "缩放",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Scale",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Skala",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "en",
+        "target" : "Scale"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Scale",
+        "language" : "en_AU"
+      },
+      {
+        "language" : "ru",
+        "target" : "Изменить масштаб",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Dimensionner",
+        "language" : "fr_CA",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Skaler",
+        "language" : "no",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ar",
+        "filename" : "InfoPlist.loctable",
+        "target" : "تحجيم"
+      },
+      {
+        "target" : "Κλίμακα",
+        "filename" : "InfoPlist.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Scala",
+        "language" : "it",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "Ölçekle",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "縮放比例",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Měřítko",
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Масштаб",
+        "language" : "uk"
+      },
+      {
+        "target" : "Podesi veličinu",
+        "language" : "hr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Skaalaa",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Escala",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "language" : "ja",
+        "filename" : "InfoPlist.loctable",
+        "target" : "サイズ調整"
+      },
+      {
+        "target" : "Méretezés",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms",
+        "target" : "Skala"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Dimensionner",
+        "language" : "fr"
+      },
+      {
+        "target" : "Escalar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "language" : "ro",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Scară"
+      },
+      {
+        "language" : "pl",
+        "target" : "Skala",
+        "filename" : "InfoPlist.loctable"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/Automator\/Scale Images.action\/Contents\/Resources\/InfoPlist.loctable"
+}

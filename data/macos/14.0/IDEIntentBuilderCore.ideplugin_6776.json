@@ -1,0 +1,391 @@
+{
+  "framework" : "IDEIntentBuilderCore.ideplugin",
+  "bundlePath" : "\/System\/Volumes\/Data\/Applications\/Xcode.app\/Contents\/PlugIns\/IDEIntentBuilderCore.ideplugin",
+  "localizations" : {
+    "ValidationError.NilName" : [
+      {
+        "target" : "%@ must contain characters.",
+        "language" : "en",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationError.PositiveNumber" : [
+      {
+        "filename" : "Validation.strings",
+        "language" : "en",
+        "target" : "%@ must be a positive number."
+      }
+    ],
+    "ValidationField.INType.Name" : [
+      {
+        "target" : "Type name",
+        "filename" : "Validation.strings",
+        "language" : "en"
+      }
+    ],
+    "ValidationError.TypeUsingEnumWithoutHeader" : [
+      {
+        "target" : "To be able to use an enum as the type of a property here, it must generate a separate header file.",
+        "language" : "en",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationError.IntentResponseCodeFormatStringContainsInvalidProperties" : [
+      {
+        "language" : "en",
+        "target" : "The ‘%@’ voice-only intent response template contains invalid properties.",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationError.UnsupportedReasonFormatStringContainsInvalidParameters" : [
+      {
+        "target" : "Validation error template contains invalid parameters.",
+        "filename" : "Validation.strings",
+        "language" : "en"
+      }
+    ],
+    "ValidationField.IntentParameterUnsupportedReason.FormatString" : [
+      {
+        "language" : "en",
+        "target" : "Validation error template",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationField.INIntent.Name" : [
+      {
+        "language" : "en",
+        "target" : "Intent name",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationError.Empty" : [
+      {
+        "language" : "en",
+        "filename" : "Validation.strings",
+        "target" : "%@ can’t be empty."
+      }
+    ],
+    "ValidationError.EnumRequiresDisplayName" : [
+      {
+        "filename" : "Validation.strings",
+        "language" : "en",
+        "target" : "Enum must have a display name."
+      }
+    ],
+    "ValidationField.INEnum.Name" : [
+      {
+        "target" : "Enum name",
+        "filename" : "Validation.strings",
+        "language" : "en"
+      }
+    ],
+    "ValidationError.PromptDialog.DisambiguationSelection.ContainsInvalidParameters" : [
+      {
+        "filename" : "Validation.strings",
+        "language" : "en",
+        "target" : "Disambiguation Prompt contains invalid parameters."
+      }
+    ],
+    "ValidationError.PromptDialog.Primary.ContainsInvalidParameters" : [
+      {
+        "filename" : "Validation.strings",
+        "language" : "en",
+        "target" : "Voice-Only Prompt contains invalid parameters."
+      }
+    ],
+    "ValidationField.EnumValue.Index" : [
+      {
+        "language" : "en",
+        "target" : "Index",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationError.ParameterCombinationSubtitleContainsInvalidParameters" : [
+      {
+        "language" : "en",
+        "target" : "The description for the shortcut suggestion with ‘%@’ parameter combination contains invalid parameters.",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationError.ReservedName" : [
+      {
+        "target" : "‘%@’ is a reserved %@.",
+        "filename" : "Validation.strings",
+        "language" : "en"
+      }
+    ],
+    "ValidationField.Parameter.Name" : [
+      {
+        "language" : "en",
+        "target" : "Parameter name",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationError.ParameterCombinationRequiresTitle" : [
+      {
+        "target" : "The shortcut suggestion with ‘%@’ parameter combination must have a summary.",
+        "filename" : "Validation.strings",
+        "language" : "en"
+      }
+    ],
+    "ValidationError.IntentRequiresCategory" : [
+      {
+        "language" : "en",
+        "target" : "‘%@ \/ %@’ is not a valid category.",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationField.Property.Output.DisplayName" : [
+      {
+        "language" : "en",
+        "filename" : "Validation.strings",
+        "target" : "Output property display name"
+      }
+    ],
+    "ValidationField.IntentParameter.DisplayName" : [
+      {
+        "target" : "Parameter display name",
+        "filename" : "Validation.strings",
+        "language" : "en"
+      }
+    ],
+    "ValidationError.DuplicateParameterCombination" : [
+      {
+        "target" : "Duplicate shortcut suggestion ‘%@’.",
+        "language" : "en",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationField.INType.GeneratedName" : [
+      {
+        "filename" : "Validation.strings",
+        "language" : "en",
+        "target" : "Type class name"
+      }
+    ],
+    "ValidationField.WindowSize" : [
+      {
+        "target" : "The number of items to paginate",
+        "filename" : "Validation.strings",
+        "language" : "en"
+      }
+    ],
+    "ValidationError.ParameterCombinationTitleContainsInvalidParameters" : [
+      {
+        "target" : "The summary for the shortcut suggestion with ‘%@’ parameter combination contains invalid parameters.",
+        "filename" : "Validation.strings",
+        "language" : "en"
+      }
+    ],
+    "ValidationError.ConfigurableParameterCombinationTitleContainsInvalidParameters" : [
+      {
+        "language" : "en",
+        "filename" : "Validation.strings",
+        "target" : "The summary for the user-configurable shortcut with ‘%@’ parameter combination contains invalid parameters."
+      }
+    ],
+    "ValidationField.Parameter.DisplayName" : [
+      {
+        "language" : "en",
+        "target" : "Parameter display name",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationError.NotLowerFirst" : [
+      {
+        "target" : "%@ must begin with lower case letter.",
+        "filename" : "Validation.strings",
+        "language" : "en"
+      }
+    ],
+    "ValidationError.MaximumValue" : [
+      {
+        "language" : "en",
+        "target" : "%@ can’t be higher than %@.",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationField.IntentParameterUnsupportedReason.Code" : [
+      {
+        "language" : "en",
+        "target" : "Validation error code",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationField.Property.Name" : [
+      {
+        "filename" : "Validation.strings",
+        "language" : "en",
+        "target" : "Property name"
+      }
+    ],
+    "ValidationField.INEnum.GeneratedName" : [
+      {
+        "language" : "en",
+        "target" : "Enum type name",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationError.PromptDialog.DisambiguationIntroduction.ContainsInvalidParameters" : [
+      {
+        "language" : "en",
+        "target" : "Disambiguation Introduction contains invalid parameters.",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationError.IntentRequiresTitle" : [
+      {
+        "language" : "en",
+        "filename" : "Validation.strings",
+        "target" : "Intent must have a title."
+      }
+    ],
+    "ValidationError.PromptDialog.Concise.ContainsInvalidParameters" : [
+      {
+        "language" : "en",
+        "target" : "Printed Prompt contains invalid parameters.",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationField.ArraySize.Size" : [
+      {
+        "filename" : "Validation.strings",
+        "language" : "en",
+        "target" : "Array size"
+      }
+    ],
+    "ValidationError.NotBeginWithLetter" : [
+      {
+        "language" : "en",
+        "filename" : "Validation.strings",
+        "target" : "%@ must begin with a letter."
+      }
+    ],
+    "ValidationField.EnumValue.Name" : [
+      {
+        "language" : "en",
+        "target" : "Enum case",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationField.INIntent.GeneratedName" : [
+      {
+        "target" : "Intent class name",
+        "filename" : "Validation.strings",
+        "language" : "en"
+      }
+    ],
+    "ValidationField.IntentParameter.PromptDialog.Primary" : [
+      {
+        "filename" : "Validation.strings",
+        "target" : "Parameter voice-only prompt dialog",
+        "language" : "en"
+      }
+    ],
+    "ValidationField.EnumValueSynonym.Synonym" : [
+      {
+        "filename" : "Validation.strings",
+        "target" : "Enum case synonym",
+        "language" : "en"
+      }
+    ],
+    "ValidationError.TypeRequiresDisplayName" : [
+      {
+        "target" : "Type must have a display name.",
+        "filename" : "Validation.strings",
+        "language" : "en"
+      }
+    ],
+    "ValidationField.IntentResponseCode.Name" : [
+      {
+        "language" : "en",
+        "filename" : "Validation.strings",
+        "target" : "Intent response code"
+      }
+    ],
+    "ValidationError.UnknownEnumValueOverride" : [
+      {
+        "filename" : "Validation.strings",
+        "target" : "Enum value at index 0 should be ‘unknown’.",
+        "language" : "en"
+      }
+    ],
+    "ValidationError.NonUnique" : [
+      {
+        "target" : "%@ must be unique.",
+        "filename" : "Validation.strings",
+        "language" : "en"
+      }
+    ],
+    "ValidationField.TypeProperty.Name" : [
+      {
+        "target" : "Property name",
+        "language" : "en",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationError.PromptDialog.SubsequentIntroduction.ContainsInvalidParameters" : [
+      {
+        "filename" : "Validation.strings",
+        "target" : "Subsequent Window Introduction contains invalid parameters.",
+        "language" : "en"
+      }
+    ],
+    "ValidationError.InvalidNameCharacter" : [
+      {
+        "filename" : "Validation.strings",
+        "language" : "en",
+        "target" : "%@ must only contain letters, digits, or underscore with no spaces."
+      }
+    ],
+    "ValidationError.NotUpperFirst" : [
+      {
+        "language" : "en",
+        "target" : "%@ must begin with upper case letter.",
+        "filename" : "Validation.strings"
+      }
+    ],
+    "ValidationError.IntentResponseCodeConciseFormatStringContainsInvalidProperties" : [
+      {
+        "filename" : "Validation.strings",
+        "target" : "The ‘%@’ printed intent response template contains invalid properties.",
+        "language" : "en"
+      }
+    ],
+    "ValidationError.ResolveEnumWithoutHeader" : [
+      {
+        "language" : "en",
+        "filename" : "Validation.strings",
+        "target" : "Enums used as the type of a parameter that supports voice and Shortcuts app input, must generate a separate header file."
+      }
+    ],
+    "ValidationError.EnumCaseRequiresDisplayName" : [
+      {
+        "target" : "Enum case must have a display name.",
+        "filename" : "Validation.strings",
+        "language" : "en"
+      }
+    ],
+    "ValidationError.PromptDialog.Confirmation.ContainsInvalidParameters" : [
+      {
+        "filename" : "Validation.strings",
+        "language" : "en",
+        "target" : "Confirmation Dialog contains invalid parameters."
+      }
+    ],
+    "ValidationField.Property.DisplayName" : [
+      {
+        "language" : "en",
+        "filename" : "Validation.strings",
+        "target" : "Property display name"
+      }
+    ],
+    "ValidationField.Intent.Phrase" : [
+      {
+        "filename" : "Validation.strings",
+        "language" : "en",
+        "target" : "Phrase"
+      }
+    ]
+  }
+}

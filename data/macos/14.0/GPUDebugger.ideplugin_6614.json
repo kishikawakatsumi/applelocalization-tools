@@ -1,0 +1,923 @@
+{
+  "framework" : "GPUDebugger.ideplugin",
+  "bundlePath" : "\/System\/Volumes\/Data\/Applications\/Xcode.app\/Contents\/PlugIns\/GPUDebugger.ideplugin",
+  "localizations" : {
+    "Xcode.GPUToolsKit.NavigatorOnlyInterestingContentsTooltip" : [
+      {
+        "filename" : "PlugIn.strings",
+        "target" : "Show only markers and commands",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.SelectNextLayer.Title" : [
+      {
+        "target" : "Select next Slice",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.DependencyViewer.ZoomToFit.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Zoom to Fit"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.ReleaseGPUFrame" : [
+      {
+        "target" : "Release GPU Workload",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUDebugger.EditorDocument.GPUProfilingTimelineDocument.title" : [
+      {
+        "target" : "Performance",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUDebugger.EditorDocument.GPUSummaryPageDocument.title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Summary"
+      }
+    ],
+    "Xcode.IDEKit.EditorDocument.GPUTrace-title" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "GPU Frame Debugger"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.ShowWireframe" : [
+      {
+        "target" : "Show Wireframe",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.SelectPreviousLayer.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "target" : "Select previous Slice",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUToolsKit.NavigatorOnlyIssuesAXDescription" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Show only calls with issues"
+      }
+    ],
+    "Xcode.GPUDebugger.EditorDocument.GPUTraceCountersDocument.title" : [
+      {
+        "target" : "GPU Counters",
+        "language" : "en",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUDependencyViewer.FilterFieldToolTip" : [
+      {
+        "language" : "en",
+        "target" : "Filter the dependency graph",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUTraceResourcesSubEditor.NavigatorFilterFieldAXDescriptor" : [
+      {
+        "target" : "Filter the resource list",
+        "language" : "en",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.ZoomIn" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Zoom In"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.dumpImagesAssistantEditors" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "Dump Images in Assistant Editors"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.StepNextCall" : [
+      {
+        "language" : "en",
+        "target" : "Step to Next GPU Call",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.DependencyViewer.ZoomIn.Title" : [
+      {
+        "target" : "Zoom In",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.GPUTimeline.ZoomToFit.Title" : [
+      {
+        "target" : "Zoom to Fit",
+        "language" : "en",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.GPUCounters.EditorMenuDefinition.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Editor"
+      }
+    ],
+    "GPUDebugger.GeniusCategory.BoundResources.Title" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "Bound Resources"
+      }
+    ],
+    "GPUDebugger.MenuDefinition.Submenu.RenderBuffer.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Render Buffers"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.StepPreviousDisplayableCall" : [
+      {
+        "language" : "en",
+        "target" : "Step to Previous Draw\/Dispatch Call",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.MemoryReport.Export.Title" : [
+      {
+        "language" : "en",
+        "target" : "Export Memory Report…",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.ExportBuffer.Title" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "Export Buffer…"
+      }
+    ],
+    "Xcode.AlertEvent.OpenGLCaptureStarts.Title" : [
+      {
+        "target" : "Starts",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.GPUTimeline.ZoomOut.Title" : [
+      {
+        "language" : "en",
+        "target" : "Zoom Out",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.GPUTimeline.ExportCounters.Title" : [
+      {
+        "target" : "Export GPU Counters…",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.ZoomToActual.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "target" : "Zoom to Actual Size",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.OutlineOnDevice.Hide.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Hide Outline on Device"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.GPUCounters.ExportCounters.Title" : [
+      {
+        "language" : "en",
+        "target" : "Export GPU Counters…",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.IDEKit.EditorDocument.GPUTraceResources-title" : [
+      {
+        "target" : "GPU Frame Debugger Resources",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUTraceCounterGraphTableView.NavigatorFilterFieldAXDescriptor" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Filter the counter table"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.GPUCounters.SelectNextItem.Title" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "Select Next Draw\/Encoder"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.ZoomOut.Title" : [
+      {
+        "target" : "Zoom Out",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.SelectPreviousLevel.Title" : [
+      {
+        "language" : "en",
+        "target" : "Select previous Level",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUToolsKit.MenuDefinition.Debug" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "GPU Frame Debugger"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.ZoomOut" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Zoom Out"
+      }
+    ],
+    "Xcode.GPUTraceMainEditor.MenuDefinition.Editor.ImageView" : [
+      {
+        "target" : "Select Level",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUBufferViewer.SearchFieldAXDescriptor" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "Search the buffer viewer"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.OutlineInDebugger.Hide.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Hide Outline"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.SelectNextFace.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Select next Face"
+      }
+    ],
+    "Xcode.GPUTraceCounterGraph.NavigatorFilterFieldAXDescriptor" : [
+      {
+        "target" : "Filter the counter graph",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.GeniusCategory.Framebuffer.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "target" : "Attachments",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.Stencil" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Show Stencil Buffer"
+      }
+    ],
+    "GPUDebugger.GeniusCategory.AllResources.Title" : [
+      {
+        "target" : "All Resources",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.ShowWireframeOnDevice" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "Show Wireframe On Device"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.Auto" : [
+      {
+        "target" : "Auto Show Render Buffers",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.ExportPDF.Title" : [
+      {
+        "language" : "en",
+        "target" : "Export PDF…",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.InspectPixels.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Inspect Pixels"
+      }
+    ],
+    "Xcode.GPUToolsKit.NavigatorFilterFieldToolTip" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Filter the trace list"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.WireframeInDebugger.Show.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "target" : "Show Wireframe",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUToolsKit.NavigatorOnlyIssuesTooltip" : [
+      {
+        "target" : "Show only calls with issues",
+        "language" : "en",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.StepNextDisplayableCall" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Step to Next Draw\/Dispatch Call"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.GPUTimeline.Export.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "target" : "Export GPU Timeline…",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.ZoomToFit" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Zoom To Fit"
+      }
+    ],
+    "Xcode.GPUTraceMainEditor.MenuDefinition.Editor.Trace" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "Editor"
+      }
+    ],
+    "Xcode.GPUTraceCounterGraph.NavigatorFilterFieldToolTip" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Filter the counter graph"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.SelectPreviousFace.Title" : [
+      {
+        "language" : "en",
+        "target" : "Select previous Face",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.GPUCounters.HideEmptyCounters.Title" : [
+      {
+        "language" : "en",
+        "target" : "Hide Empty Counters",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.dumpRawImagesMainEditor" : [
+      {
+        "target" : "Dump Raw Images in Main Editor",
+        "language" : "en",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.GeniusCategory.PipelineStatistics.Title" : [
+      {
+        "target" : "Pipeline Statistics",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.Depth" : [
+      {
+        "target" : "Show Depth Buffer",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.Color" : [
+      {
+        "target" : "Show Color Buffer",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.SelectNextLevel.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "target" : "Select next Level",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.ExportMetrics.Title" : [
+      {
+        "target" : "Export Metrics",
+        "language" : "en",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.ExportResource.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "target" : "Export Resource",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.GPUTimeline.ZoomIn.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "target" : "Zoom In",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUDebugger.EditorDocument.GPUDependencyViewerDocument.title" : [
+      {
+        "language" : "en",
+        "target" : "Dependencies",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.displayGPUPerformance" : [
+      {
+        "language" : "en",
+        "target" : "Display GPU Performance",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.ImportExternalDebugFile" : [
+      {
+        "language" : "en",
+        "target" : "Import Metallib Debug Info…",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.GPUCounters.ShowEmptyCounters.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "target" : "Show Empty Counters",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUDebugger.EditorDocument.GPUMemoryReportDocument.title" : [
+      {
+        "target" : "Memory",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.AnalyzeGPUFrame" : [
+      {
+        "target" : "Analyze GPU Performance",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUProfilingTimeline.FilterFieldAXDescriptor" : [
+      {
+        "target" : "Filter the profiling timeline",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.Editor.EditorMenuDefinition.Title" : [
+      {
+        "target" : "Editor",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUProfilingTimeline.FilterFieldToolTip" : [
+      {
+        "target" : "Filter the profiling timeline",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUToolsKit.NavigatorFilterShowCompressedStackFramesAXDescription" : [
+      {
+        "target" : "Show only related stack frames",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUTracePerformanceSubEditor.NavigatorFilterFieldAXDescriptor" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "Filter the counter list"
+      }
+    ],
+    "Xcode.AlertEvent.OpenGLCaptureCompletes.Title" : [
+      {
+        "target" : "Completes",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.ASVCSubEditor.NavigatorFilterFieldToolTip" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Filter the Acceleration Structure hierarchy"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.GPUCounters.ZoomIn.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Zoom In"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.GPUCounters.SelectPrevItem.Title" : [
+      {
+        "language" : "en",
+        "target" : "Select Prev Draw\/Encoder",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUTraceResourcesSubEditor.NavigatorFilterFieldToolTip" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "Filter the resource list"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.FlipVertical.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Flip Vertical"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.SelectNextDepth.Title" : [
+      {
+        "language" : "en",
+        "target" : "Select next Depth",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.RotateCCW" : [
+      {
+        "language" : "en",
+        "target" : "Rotate Counter-Clockwise",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUTraceCounterGraphTableView.NavigatorFilterFieldToolTip" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "Filter the counter table"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.ZoomActual" : [
+      {
+        "target" : "Zoom Actual",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUToolsKit.NavigatorOnlyInterestingContentsAXDescription" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "Show only markers and commands"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.UpdateShaders" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "Reload Shaders"
+      }
+    ],
+    "GPUDebugger.GeniusCategory.Geometry.Title" : [
+      {
+        "target" : "Geometry",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.StepPreviousCall" : [
+      {
+        "language" : "en",
+        "target" : "Step to Previous GPU Call",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUTraceMainEditor.MenuDefinition.Editor.Wireframe" : [
+      {
+        "filename" : "PlugIn.strings",
+        "target" : "Wireframe",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.SelectPreviousDepth.Title" : [
+      {
+        "language" : "en",
+        "target" : "Select previous Depth",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUTraceMainEditor.MenuDefinition.Editor" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Editor"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.RenderBuffer.Auto.Title" : [
+      {
+        "target" : "Auto",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUTraceMainEditor.MenuDefinition.Editor.Resources" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Editor"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.FlipVert" : [
+      {
+        "target" : "Flip Vertically",
+        "language" : "en",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.GPUCounters.ZoomOut.Title" : [
+      {
+        "target" : "Zoom Out",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.ASVCSubEditor.NavigatorFilterFieldAXDescriptor" : [
+      {
+        "language" : "en",
+        "target" : "Filter the Acceleration Structure hierarchy",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUTraceMainEditor.MenuDefinition.Editor.BufferView" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "View Render Buffers"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.RotateCW" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Rotate Clockwise"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.dumpRuntimeReport" : [
+      {
+        "target" : "Dump Runtime Report",
+        "language" : "en",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.OutlineOnDevice.Show.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "target" : "Show Outline on Device",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUToolsKit.NavigatorFilterShowCompressedStackFramesToolTip" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Show only related stack frames"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.WireframeOnDevice.Show.Title" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "Show Wireframe on Device"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.dumpImagesMainEditor" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Dump Images in Main Editor"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.WireframeInDebugger.Hide.Title" : [
+      {
+        "target" : "Hide Wireframe",
+        "language" : "en",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUTraceDependencySubEditor.NavigatorFilterFieldAXDescriptor" : [
+      {
+        "target" : "Filter the dependency graph",
+        "language" : "en",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.MenuDefinition.Submenu.Wireframe.Title" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "Wireframe"
+      }
+    ],
+    "Xcode.GPUDependencyViewer.FilterFieldAXDescriptor" : [
+      {
+        "language" : "en",
+        "target" : "Filter the dependency graph",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.OutlineInDebugger.Show.Title" : [
+      {
+        "target" : "Show Outline",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUTracePerformanceSubEditor.NavigatorFilterFieldToolTip" : [
+      {
+        "target" : "Filter the counter list",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.MenuDefinition.Submenu.Outline.Title" : [
+      {
+        "language" : "en",
+        "filename" : "PlugIn.strings",
+        "target" : "Outline"
+      }
+    ],
+    "GPUDebugger.GeniusCategory.Performance.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "target" : "Performance",
+        "language" : "en"
+      }
+    ],
+    "Xcode.GPUFilterViewControlBarTarget.NavigatorFilterFieldAXDescriptor" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Filter view"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.FlipHorz" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Flip Horizontally"
+      }
+    ],
+    "GPUDebugger.GeniusCategory.Automatic.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "target" : "Automatic",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.DependencyViewer.ZoomOut.Title" : [
+      {
+        "language" : "en",
+        "target" : "Zoom Out",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUFilterViewControlBarTarget.NavigatorFilterFieldToolTip" : [
+      {
+        "target" : "Filter view",
+        "language" : "en",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.ReplayCapture.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Replay GPU Frame Capture"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.FlipHorizontal.Title" : [
+      {
+        "target" : "Flip Horizontal",
+        "language" : "en",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUTraceDependencySubEditor.NavigatorFilterFieldToolTip" : [
+      {
+        "target" : "Filter the dependency graph",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.ZoomIn.Title" : [
+      {
+        "filename" : "PlugIn.strings",
+        "language" : "en",
+        "target" : "Zoom In"
+      }
+    ],
+    "Xcode.GPUBufferViewer.SearchFieldToolTip" : [
+      {
+        "language" : "en",
+        "target" : "Search the buffer viewer",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.MenuDefinition.Submenu.VisibleAttachments.Title" : [
+      {
+        "target" : "Visible Attachments",
+        "language" : "en",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUToolsKit.CmdDefinition.dumpRawImagesAssistantEditors" : [
+      {
+        "target" : "Dump Raw Images in Assistant Editors",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.WireframeOnDevice.Hide.Title" : [
+      {
+        "language" : "en",
+        "target" : "Hide Wireframe on Device",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "Xcode.GPUToolsKit.NavigatorFilterFieldAXDescriptor" : [
+      {
+        "target" : "Filter the trace list",
+        "filename" : "PlugIn.strings",
+        "language" : "en"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.GPUCounters.ScaleToFit.Title" : [
+      {
+        "language" : "en",
+        "target" : "Scale to Fit",
+        "filename" : "PlugIn.strings"
+      }
+    ],
+    "GPUDebugger.CmdDefinition.ZoomToFit.Title" : [
+      {
+        "language" : "en",
+        "target" : "Zoom to Fit",
+        "filename" : "PlugIn.strings"
+      }
+    ]
+  }
+}
