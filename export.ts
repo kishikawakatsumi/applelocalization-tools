@@ -6,7 +6,7 @@ await writeln(
   "CREATE EXTENSION IF NOT EXISTS pgroonga;",
 );
 
-const tables = ["macos12", "macos13", "macos14", "ios15", "ios16"];
+const tables = ["macos12", "macos13", "macos14", "ios15", "ios16", "ios17"];
 
 for (const table of tables) {
   await writeln(
@@ -24,6 +24,7 @@ for (const table of tables) {
     macos14: "data/macos/14.0",
     ios15: "data/ios/15.7",
     ios16: "data/ios/16.6",
+    ios17: "data/ios/17.7",
   }[table];
   const platform = {
     macos12: "macOS",
@@ -31,6 +32,7 @@ for (const table of tables) {
     macos14: "macOS",
     ios15: "iOS",
     ios16: "iOS",
+    ios17: "iOS",
   }[table];
 
   await writeln(
