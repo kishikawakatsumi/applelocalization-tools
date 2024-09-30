@@ -1,0 +1,992 @@
+{
+  "framework" : "CryptoTokenKit.framework",
+  "bundlePath" : "\/System\/Library\/Frameworks\/CryptoTokenKit.framework",
+  "loctablePath" : "\/System\/Library\/Frameworks\/CryptoTokenKit.framework\/Versions\/A\/Resources\/Localizable.loctable",
+  "localizations" : {
+    "VERIFY_TRY_LEFT" : [
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "th",
+        "target" : "{\"tries\":{\"other\":\"การตรวจสอบยืนยันรหัส PIN ไม่สำเร็จ ลองได้อีก %d ครั้ง\",\"zero\":\"การตรวจสอบยืนยันรหัส PIN ไม่สำเร็จ รหัส PIN ถูกปิดกั้นไม่ให้ใช้\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"other\":\"Pengesahan PIN gagal, tinggal %d percubaan\",\"zero\":\"Pengesahan PIN gagal, PIN disekat\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"few\":\"Nije uspjela PIN provjera, preostala su još %d pokušaja\",\"one\":\"Nije uspjela PIN provjera, preostao je još %d pokušaj\",\"other\":\"Nije uspjela PIN provjera, preostalo je još %d pokušaja\",\"zero\":\"Nije uspjela PIN provjera, PIN je blokiran\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"one\":\"Error al verificar el PIN, queda un intento\",\"other\":\"Error al verificar el PIN, quedan %d intentos\",\"zero\":\"Error al verificar el PIN y ahora está bloqueado\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"tries\":{\"other\":\"PIN 확인에 실패함. %d번 더 시도할 수 있음\",\"zero\":\"PIN 확인에 실패함. PIN이 차단됨\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "pl",
+        "target" : "{\"tries\":{\"one\":\"Błąd weryfikacji kodu PIN; pozostała 1 próba\",\"few\":\"Błąd weryfikacji kodu PIN; pozostały %d próby\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"Błąd weryfikacji kodu PIN; pozostało %d prób\",\"other\":\"Błąd weryfikacji kodu PIN; pozostało %d próby\",\"NSStringFormatValueTypeKey\":\"d\",\"zero\":\"Błąd weryfikacji kodu PIN; kod PIN zablokowany\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"one\":\"La verificación con PIN ha fallado, queda un intento.\",\"other\":\"La verificación con PIN ha fallado, quedan %d intentos.\",\"zero\":\"La verificación con PIN ha fallado, PIN bloqueado.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
+        "language" : "es"
+      },
+      {
+        "language" : "ja",
+        "filename" : "Localizable.loctable",
+        "target" : "{\"tries\":{\"other\":\"PINの検証に失敗しました。あと%d回試すことができます\",\"zero\":\"PINの検証に失敗しました。PINがブロックされました\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"tries\":{\"other\":\"PIN驗證無效，可再試%d次\",\"zero\":\"PIN驗證失敗，已阻擋PIN輸入\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}",
+        "language" : "zh_TW"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"one\":\"A PIN ellenőrzése nem sikerült, egy próbálkozás maradt\",\"other\":\"A PIN ellenőrzése nem sikerült, %d próbálkozás maradt\",\"zero\":\"A PIN-kód ellenőrzése sikertelen volt. PIN-kód blokkolva.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "el",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"one\":\"Απέτυχε η επαλήθευση PIN, απομένει μία απόπειρα\",\"other\":\"Απέτυχε η επαλήθευση PIN, απομένουν %d απόπειρες\",\"zero\":\"Απέτυχε η επαλήθευση PIN, αποκλείστηκε ο κωδικός PIN\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"one\":\"Overovanie PIN kódu zlyhalo, zostáva jeden pokus\",\"few\":\"Overovanie PIN kódu zlyhalo, zostávajú %d pokusy\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"Overovanie PIN kódu zlyhalo, zostáva %d pokusov\",\"other\":\"Overovanie PIN kódu zlyhalo, zostáva %d pokusov\",\"NSStringFormatValueTypeKey\":\"d\",\"zero\":\"Overovanie PIN kódu zlyhalo, PIN je zablokovaný\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "{\"tries\":{\"one\":\"PIN-verifisering mislyktes, ett forsøk igjen\",\"other\":\"PIN-verifisering mislyktes, %d forsøk igjen\",\"zero\":\"PIN-verifisering mislyktes, PIN er blokkert\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "nl",
+        "target" : "{\"tries\":{\"one\":\"Verificatie van pincode is mislukt, één poging resterend\",\"other\":\"Verificatie van pincode is mislukt, %d pogingen resterend\",\"zero\":\"Verificatie van pincode is mislukt, pincode geblokkeerd\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA",
+        "target" : "{\"tries\":{\"one\":\"Échec de vérification du NIP : un essai restant\",\"other\":\"Échec de vérification du NIP : %d essais restants\",\"zero\":\"Échec de vérification du NIP : NIP bloqué\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}"
+      },
+      {
+        "target" : "{\"tries\":{\"one\":\"Überprüfung der PIN fehlgeschlagen, noch ein Versuch\",\"other\":\"Überprüfung der PIN fehlgeschlagen, %d Versuche übrig\",\"zero\":\"Überprüfung der PIN fehlgeschlagen, PIN gesperrt\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"tries\":{\"one\":\"PIN-godkendelse mislykkedes, et forsøg tilbage\",\"other\":\"PIN-godkendelse mislykkedes, %d forsøg tilbage\",\"zero\":\"PIN-godkendelse mislykkedes, PIN blokeret\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"tries\":{\"other\":\"Không thể xác minh PIN, còn %d lần thử\",\"zero\":\"Không thể xác minh PIN, PIN bị chặn\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB",
+        "target" : "{\"tries\":{\"one\":\"PIN verification failed, one try left\",\"other\":\"PIN verification failed, %d tries left\",\"zero\":\"PIN verification failed, PIN blocked\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"tries\":{\"one\":\"La verifica del codice PIN non è riuscita, rimane un solo tentativo\",\"other\":\"La verifica del codice PIN non è riuscita, rimangono %d tentativi\",\"zero\":\"Verifica PIN non riuscita. PIN bloccato\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "{\"tries\":{\"one\":\"PINin varmistus epäonnistui, yksi yritys jäljellä\",\"other\":\"PINin varmistus epäonnistui, %d yritystä jäljellä\",\"zero\":\"PINin varmistus epäonnistui, PIN lukittu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"tries\":{\"other\":\"PIN驗證無效，可再試%d次\",\"zero\":\"PIN驗證失敗，已封鎖PIN\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "{\"tries\":{\"one\":\"PIN doğrulanamadı, bir kez daha denenebilir\",\"other\":\"PIN doğrulanamadı, %d kez daha denenebilir\",\"zero\":\"PIN doğrulanamadı, PIN bloke oldu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "{\"tries\":{\"one\":\"A verificação do PIN falhou, uma tentativa restante\",\"other\":\"A verificação do PIN falhou, %d tentativas restantes\",\"zero\":\"A verificação do PIN falhou, PIN bloqueado\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "{\"tries\":{\"one\":\"Помилка перевірки PIN-коду, залишилася %d спроба\",\"few\":\"Помилка перевірки PIN-коду, залишилося %d спроби\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"Помилка перевірки PIN-коду, залишилося %d спроб\",\"other\":\"Помилка перевірки PIN-коду, залишилося %d спроби\",\"NSStringFormatValueTypeKey\":\"d\",\"zero\":\"Помилка перевірки PIN-коду: PIN-код заблоковано\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"tries\":{\"one\":\"PIN सत्यापन विफल, एक कोशिश शेष\",\"other\":\"PIN सत्यापन विफल, %d कोशिश शेष\",\"zero\":\"PIN सत्यापन विफल, PIN ब्लॉक किया गया\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "ca",
+        "target" : "{\"tries\":{\"one\":\"La verificació del PIN ha fallat; queda un intent\",\"other\":\"La verificació del PIN ha fallat; queden %d intents\",\"zero\":\"La verificació del PIN ha fallat; PIN bloquejat\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%1$#@tries@\"}"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"one\":\"فشل التحقق من رمز PIN، يتبقى محاولة واحدة\",\"few\":\"فشل التحقق من رمز PIN، يتبقى %d محاولات\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"فشل التحقق من رمز PIN، يتبقى %d محاولة\",\"two\":\"فشل التحقق من رمز PIN، يتبقى محاولتان\",\"other\":\"فشل التحقق من رمز PIN، يتبقى %d محاولة\",\"NSStringFormatValueTypeKey\":\"d\",\"zero\":\"فشل التحقق من رمز PIN، تم حظر رمز PIN\"}}",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"one\":\"Ověření pomocí PIN se nezdařilo, zbývá poslední pokus\",\"few\":\"Ověření pomocí PIN se nezdařilo, zbývají %d pokusy\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"Ověření pomocí PIN se nezdařilo, zbývá %d pokusu\",\"other\":\"Ověření pomocí PIN se nezdařilo, zbývá %d pokusů\",\"NSStringFormatValueTypeKey\":\"d\",\"zero\":\"Ověření pomocí PIN se nezdařilo; PIN byl zablokován\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"one\":\"PIN verification failed, one try left\",\"other\":\"PIN verification failed, %d tries left\",\"zero\":\"PIN verification failed, PIN blocked\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"one\":\"PIN verification failed, one try left\",\"zero\":\"PIN verification failed, PIN blocked\",\"other\":\"PIN verification failed, %d tries left\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"other\":\"PIN码验证失败，还可尝试%d次\",\"zero\":\"PIN码验证失败，PIN码已被阻止\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"one\":\"Не удалось проверить PIN, осталась %d попытка\",\"few\":\"Не удалось проверить PIN, осталось %d попытки\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"Не удалось проверить PIN, осталось %d попыток\",\"other\":\"Не удалось проверить PIN, осталось %d попытки\",\"NSStringFormatValueTypeKey\":\"d\",\"zero\":\"Не удалось проверить PIN. PIN заблокирован\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"one\":\"PIN-kodsverifiering misslyckades, ett försök kvar\",\"other\":\"PIN-kodsverifiering misslyckades, %d försök kvar\",\"zero\":\"PIN-kodsverifiering misslyckades, PIN-kod blockerad\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"‏%1$#@tries@\",\"tries\":{\"one\":\"אימות ה-PIN נכשל, נותר ניסיון אחד\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"two\":\"אימות ה-PIN נכשל, נותרו עוד שני ניסיונות\",\"many\":\"אימות ה-PIN נכשל, נותרו עוד %d ניסיונות\",\"NSStringFormatValueTypeKey\":\"d\",\"other\":\"אימות ה-PIN נכשל, נותרו עוד %d ניסיונות\",\"zero\":\"אימות ה-PIN נכשל, ה-PIN נחסם\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"few\":\"Verificarea PIN-ului a eșuat, %d încercări rămase\",\"one\":\"Verificarea PIN-ului a eșuat, o încercare rămasă\",\"other\":\"Verificarea PIN-ului a eșuat, %d de încercări rămase\",\"zero\":\"Verificarea PIN-ului a eșuat, PIN-ul a fost blocat\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"other\":\"Verifikasi PIN gagal, tersisa %d percobaan\",\"zero\":\"Verifikasi PIN gagal, PIN diblokir\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "fr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"one\":\"Échec de la vérification du code PIN, un essai restant\",\"other\":\"Échec de la vérification du code PIN, %d essais restants\",\"zero\":\"Échec de la vérification du code PIN, code PIN bloqué\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%1$#@tries@\",\"tries\":{\"one\":\"A verificação do PIN falhou; resta 1 tentativa\",\"other\":\"A verificação do PIN falhou; restam %d tentativas\",\"zero\":\"A verificação falhou; PIN bloqueado\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"}}",
+        "filename" : "Localizable.loctable"
+      }
+    ],
+    "INVALID_PIN" : [
+      {
+        "language" : "th",
+        "target" : "รหัส PIN มีรูปแบบที่ไม่ถูกต้อง",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "PIN mempunyai format tidak sah",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "PIN ima nevažeći format",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "El PIN no tiene un formato válido",
+        "language" : "es_419"
+      },
+      {
+        "language" : "ko",
+        "target" : "PIN의 포맷이 유효하지 않음",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Nieprawidłowy format kodu PIN",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "language" : "es",
+        "filename" : "Localizable.loctable",
+        "target" : "El PIN tiene un formato no válido"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "PINのフォーマットが無効です",
+        "language" : "ja"
+      },
+      {
+        "target" : "PIN的格式無效",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "hu",
+        "target" : "A PIN formátuma érvénytelen"
+      },
+      {
+        "language" : "el",
+        "target" : "Ο κωδικός PIN δεν έχει έγκυρη μορφή",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "sk",
+        "target" : "PIN má neplatný formát"
+      },
+      {
+        "language" : "no",
+        "target" : "PIN har ugyldig format",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "nl",
+        "target" : "Structuur van pincode is onjuist"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Le format du NIP n’est pas valide.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "PIN besitzt ungültiges Format",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "PIN har ugyldigt format",
+        "language" : "da",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "vi",
+        "filename" : "Localizable.loctable",
+        "target" : "PIN có định dạng không hợp lệ"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable",
+        "target" : "PIN has invalid format"
+      },
+      {
+        "language" : "it",
+        "target" : "Formato PIN non valido",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "fi",
+        "filename" : "Localizable.loctable",
+        "target" : "PINin muoto on virheellinen"
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "Localizable.loctable",
+        "target" : "PIN的格式無效"
+      },
+      {
+        "language" : "tr",
+        "target" : "PIN biçimi geçersiz",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "Formato do PIN inválido",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "uk",
+        "target" : "Цей PIN-код має неправильний формат"
+      },
+      {
+        "language" : "hi",
+        "target" : "PIN का फ़ॉर्मैट अमान्य है",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "ca",
+        "target" : "El PIN té un format no vàlid"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "ar",
+        "target" : "تنسيق رمز PIN غير صالح"
+      },
+      {
+        "language" : "cs",
+        "target" : "Neplatný formát PIN",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU",
+        "target" : "PIN has invalid format"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "en",
+        "target" : "PIN has invalid format"
+      },
+      {
+        "target" : "PIN码格式无效",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "ru",
+        "target" : "Некорректный формат PIN"
+      },
+      {
+        "language" : "sv",
+        "target" : "PIN-koden har ogiltigt format",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "he",
+        "filename" : "Localizable.loctable",
+        "target" : "ה-PIN במבנה לא תקין"
+      },
+      {
+        "language" : "ro",
+        "target" : "Formatul PIN-ului nu este valid",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "PIN memiliki format yang tidak sah",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Format du code PIN invalide",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT",
+        "target" : "PIN com formato inválido"
+      }
+    ],
+    "SIGN_DATA" : [
+      {
+        "target" : "ลงชื่อข้อมูล",
+        "language" : "th",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "menandatangani data",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "hr",
+        "target" : "potpisati podatke"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "Localizable.loctable",
+        "target" : "firmar datos"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "데이터 서명",
+        "language" : "ko"
+      },
+      {
+        "target" : "podpisać dane",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "language" : "es",
+        "target" : "firmar los datos",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "ja",
+        "target" : "データに署名"
+      },
+      {
+        "target" : "簽署資料",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "hu",
+        "target" : "adatok aláírása"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "el",
+        "target" : "υπογραφή δεδομένων"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "sk",
+        "target" : "podpísať dáta"
+      },
+      {
+        "language" : "no",
+        "filename" : "Localizable.loctable",
+        "target" : "signere data"
+      },
+      {
+        "target" : "onderteken gegevens",
+        "language" : "nl",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA",
+        "target" : "signer des données"
+      },
+      {
+        "language" : "de",
+        "target" : "Daten signieren",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "da",
+        "filename" : "Localizable.loctable",
+        "target" : "signere data"
+      },
+      {
+        "target" : "xác nhận dữ liệu",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB",
+        "target" : "sign data"
+      },
+      {
+        "target" : "firma dati",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "language" : "fi",
+        "target" : "allekirjoita data",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "簽署資料",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "verileri imzalama",
+        "language" : "tr"
+      },
+      {
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable",
+        "target" : "assinar dados"
+      },
+      {
+        "language" : "uk",
+        "target" : "підписати дані",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "डेटा साइन करें",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "signar les dades",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "توقيع البيانات",
+        "language" : "ar",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "podepsat data",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "sign data",
+        "language" : "en_AU",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "sign data",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "给数据签名",
+        "language" : "zh_CN"
+      },
+      {
+        "language" : "ru",
+        "filename" : "Localizable.loctable",
+        "target" : "подписать данные"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "sv",
+        "target" : "signera data"
+      },
+      {
+        "language" : "he",
+        "target" : "לחתום על נתונים",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "ro",
+        "target" : "să semneze date"
+      },
+      {
+        "target" : "menandatangani data",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "language" : "fr",
+        "filename" : "Localizable.loctable",
+        "target" : "signer les données"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT",
+        "target" : "assinar dados"
+      }
+    ],
+    "READ_DATA" : [
+      {
+        "language" : "th",
+        "filename" : "Localizable.loctable",
+        "target" : "อ่านข้อมูล"
+      },
+      {
+        "language" : "ms",
+        "filename" : "Localizable.loctable",
+        "target" : "membaca data"
+      },
+      {
+        "language" : "hr",
+        "target" : "čitati podatke",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "leer datos",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "language" : "ko",
+        "filename" : "Localizable.loctable",
+        "target" : "데이터 읽기"
+      },
+      {
+        "target" : "odczytać dane",
+        "language" : "pl",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "leer los datos",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "データの読み込み",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "讀取資料",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "adatok olvasása",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "el",
+        "filename" : "Localizable.loctable",
+        "target" : "ανάγνωση δεδομένων"
+      },
+      {
+        "target" : "čítať dáta",
+        "language" : "sk",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "no",
+        "target" : "lese data"
+      },
+      {
+        "language" : "nl",
+        "target" : "lees gegevens",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "lire des données",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Daten lesen",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "da",
+        "target" : "læse data"
+      },
+      {
+        "language" : "vi",
+        "filename" : "Localizable.loctable",
+        "target" : "đọc dữ liệu"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable",
+        "target" : "read data"
+      },
+      {
+        "target" : "leggi dati",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "fi",
+        "target" : "lue data"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK",
+        "target" : "讀取資料"
+      },
+      {
+        "language" : "tr",
+        "target" : "verileri okuma",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "ler dados",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "uk",
+        "filename" : "Localizable.loctable",
+        "target" : "прочитати дані"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "hi",
+        "target" : "डेटा रीड करें"
+      },
+      {
+        "language" : "ca",
+        "filename" : "Localizable.loctable",
+        "target" : "llegir les dades"
+      },
+      {
+        "language" : "ar",
+        "filename" : "Localizable.loctable",
+        "target" : "قراءة البيانات"
+      },
+      {
+        "language" : "cs",
+        "target" : "přečíst data",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "read data",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "en",
+        "target" : "read data"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN",
+        "target" : "读取数据"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "ru",
+        "target" : "прочитать данные"
+      },
+      {
+        "language" : "sv",
+        "filename" : "Localizable.loctable",
+        "target" : "läsa data"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "לקרוא נתונים",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "să citească date",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "id",
+        "target" : "membaca data"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "lire les données",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "ler dados",
+        "language" : "pt_PT"
+      }
+    ],
+    "DECRYPT_DATA" : [
+      {
+        "target" : "ถอดรหัสข้อมูล",
+        "language" : "th",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "menyahsulitkan data",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "dekriptirati podatke",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "es_419",
+        "target" : "desencriptar datos"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "데이터 암호화 해제",
+        "language" : "ko"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "pl",
+        "target" : "odszyfrować dane"
+      },
+      {
+        "target" : "desencriptar los datos",
+        "language" : "es",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "データを復号化",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "解密資料",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "adatok titkosításának feloldása",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "αποκρυπτογράφηση δεδομένων",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "sk",
+        "target" : "dešifrovať dáta"
+      },
+      {
+        "language" : "no",
+        "target" : "dekryptere data",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "ontsleutel gegevens",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "déchiffrer des données",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Daten entschlüsseln",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "dekryptere data",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "language" : "vi",
+        "target" : "giải mã dữ liệu",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "decrypt data",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "esegui decrittografia dati",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "fi",
+        "target" : "pura data"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "解密資料",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "verilerin şifresini çözme",
+        "language" : "tr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "descriptografar dados",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "розшифрувати дані",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "language" : "hi",
+        "target" : "डेटा डीक्रिप्ट करें",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "desencriptar les dades",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "فك تشفير البيانات",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "dešifrovat data",
+        "language" : "cs"
+      },
+      {
+        "target" : "decrypt data",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "language" : "en",
+        "target" : "decrypt data",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "解密数据",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "расшифровать данные",
+        "language" : "ru",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "sv",
+        "target" : "avkryptera data"
+      },
+      {
+        "language" : "he",
+        "target" : "לפענח נתונים",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "să decripteze date",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "id",
+        "target" : "mendekripsi data"
+      },
+      {
+        "target" : "déchiffrer les données",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT",
+        "target" : "decifrar dados"
+      }
+    ]
+  }
+}

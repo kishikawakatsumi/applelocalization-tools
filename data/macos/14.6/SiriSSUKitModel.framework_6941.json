@@ -1,0 +1,246 @@
+{
+  "framework" : "SiriSSUKitModel.framework",
+  "localizations" : {
+    "mismatch_expression" : [
+      {
+        "filename" : "Localizable.strings",
+        "target" : "%@ must match regular expression %@",
+        "language" : "en"
+      },
+      {
+        "language" : "nl",
+        "filename" : "Localizable.strings",
+        "target" : "`%@` moet overeenkomen met `%@`"
+      }
+    ],
+    "too_long" : [
+      {
+        "language" : "en",
+        "target" : "must be %d or fewer characters long",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "moet %d of minder tekens lang zijn",
+        "language" : "nl"
+      }
+    ],
+    "expect" : [
+      {
+        "target" : "expected %@ instead of %@",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "verwachtte `%@` in plaats van `%@`",
+        "filename" : "Localizable.strings",
+        "language" : "nl"
+      }
+    ],
+    "too_short" : [
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en",
+        "target" : "must be %d or more characters long"
+      },
+      {
+        "target" : "moet %d of meer tekens lang zijn",
+        "filename" : "Localizable.strings",
+        "language" : "nl"
+      }
+    ],
+    "not_empty" : [
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en",
+        "target" : "may not be empty"
+      },
+      {
+        "language" : "nl",
+        "filename" : "Localizable.strings",
+        "target" : "mag niet leeg zijn"
+      }
+    ],
+    "invalid_missing_key" : [
+      {
+        "language" : "en",
+        "filename" : "Localizable.strings",
+        "target" : "invalid SSU serialized data. Missing key %@. Check https:\/\/developer.apple.com\/documentation\/appintents\/ssudata for more details"
+      },
+      {
+        "target" : "ongeldige SSU data. Miste de sleutel %@. Controleer https:\/\/developer.apple.com\/documentation\/appintents\/ssudata voor meer informatie",
+        "language" : "nl",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "missing_definitions" : [
+      {
+        "language" : "en",
+        "filename" : "Localizable.strings",
+        "target" : "missing the definition of %@"
+      },
+      {
+        "target" : "mis de definities van %@",
+        "filename" : "Localizable.strings",
+        "language" : "nl"
+      }
+    ],
+    "invalid_values" : [
+      {
+        "target" : "the values %@ are invalid. Valid values are: %@",
+        "language" : "en",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "nl",
+        "target" : "de waardes %@ zijn ongeldig. Geldige waardes zijn: %@"
+      }
+    ],
+    "error" : [
+      {
+        "target" : "error",
+        "language" : "en",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "nl",
+        "filename" : "Localizable.strings",
+        "target" : "fout"
+      }
+    ],
+    "invalid_key" : [
+      {
+        "filename" : "Localizable.strings",
+        "target" : "the key %@ is invalid. Valid keys are: %@",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "de dictionary key %@ is ongeldig. Geldige dictionary keys zijn: %@",
+        "language" : "nl"
+      }
+    ],
+    "warning" : [
+      {
+        "language" : "en",
+        "target" : "warning",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "waarschuwing",
+        "language" : "nl",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "duplicate" : [
+      {
+        "filename" : "Localizable.strings",
+        "target" : "%@ is a duplicate value",
+        "language" : "en"
+      },
+      {
+        "target" : "`%@` moet uniek zijn",
+        "language" : "nl",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "invalid_value" : [
+      {
+        "target" : "the value %@ is invalid. Valid values are: %@",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "de waarde %@ is ongeldig. Geldige waardes zijn: %@",
+        "language" : "nl"
+      }
+    ],
+    "is_empty" : [
+      {
+        "language" : "en",
+        "filename" : "Localizable.strings",
+        "target" : "must be empty"
+      },
+      {
+        "language" : "nl",
+        "target" : "moet leeg zijn",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "unresolved_variables" : [
+      {
+        "filename" : "Localizable.strings",
+        "target" : "unresolved variable(s) found: %@",
+        "language" : "en"
+      },
+      {
+        "language" : "nl",
+        "target" : "ongedefinieerde variable referenties gevonden: %@",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "invalid_variable_syntax" : [
+      {
+        "language" : "en",
+        "target" : "String contains an invalid variable syntax",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "nl",
+        "target" : "String bevat een foute variabel syntax",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "unsupported_validation_type" : [
+      {
+        "language" : "en",
+        "filename" : "Localizable.strings",
+        "target" : "Unsupported validation type: %@ for version %@"
+      },
+      {
+        "target" : "Niet ondersteunde validatie type: %@ voor versie %@",
+        "filename" : "Localizable.strings",
+        "language" : "nl"
+      }
+    ],
+    "invalid_struct" : [
+      {
+        "language" : "en",
+        "target" : "invalid SSU serialized data: %@. Check https:\/\/developer.apple.com\/documentation\/appintents\/ssudata for more details",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "nl",
+        "target" : "ongeldige SSU data: %@. Controleer  https:\/\/developer.apple.com\/documentation\/appintents\/ssudata voor meer informatie"
+      }
+    ],
+    "invalid_type" : [
+      {
+        "language" : "en",
+        "target" : "invalid SSU serialized data. Expected a %@ at %@. Check https:\/\/developer.apple.com\/documentation\/appintents\/ssudata for more details",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "ongeldige SSU data. Verwachtte een %@ op %@. Controleer  https:\/\/developer.apple.com\/documentation\/appintents\/ssudata voor meer informatie",
+        "language" : "nl",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "unresolvable" : [
+      {
+        "language" : "en",
+        "target" : "unresolvable because: %@",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "nl",
+        "filename" : "Localizable.strings",
+        "target" : "kan definities niet vinden want: %@"
+      }
+    ]
+  },
+  "bundlePath" : "\/System\/Volumes\/Data\/Applications\/Xcode.app\/Contents\/PrivateFrameworks\/SiriSSUKitModel.framework"
+}

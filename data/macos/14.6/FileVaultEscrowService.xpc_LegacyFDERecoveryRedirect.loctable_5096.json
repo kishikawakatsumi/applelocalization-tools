@@ -1,0 +1,2371 @@
+{
+  "bundlePath" : "\/System\/Library\/PrivateFrameworks\/ConfigurationProfiles.framework\/XPCServices\/FileVaultEscrowService.xpc",
+  "framework" : "FileVaultEscrowService.xpc",
+  "localizations" : {
+    "CPPayloadCountStringsDictKey_CountFirst" : [
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "no",
+        "target" : "{\"PayloadType\":{\"one\":\"Omdirigering av eldre FileVault-gjenopprettingsnøkkel\",\"other\":\"%lu omdirigeringer av eldre FileVault-gjenopprettingsnøkkel\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Redireccionamiento de la clave de recuperación de FileVault antigua\",\"other\":\"%lu redireccionamientos de la clave de recuperación de FileVault antigua\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "es",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"PayloadType\":{\"one\":\"حمولة واحدة من \\\"إعادة توجيه مفتاح استرداد خزنة الملفات القديم\\\"\",\"few\":\"‏%lu حمولات من \\\"إعادة توجيه مفتاح استرداد خزنة الملفات القديم\\\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"‏%lu حمولة من \\\"إعادة توجيه مفتاح استرداد خزنة الملفات القديم\\\"\",\"two\":\"حمولتان من \\\"إعادة توجيه مفتاح استرداد خزنة الملفات القديم\\\"\",\"other\":\"‏%lu حمولة من \\\"إعادة توجيه مفتاح استرداد خزنة الملفات القديم\\\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"لا توجد حمولات من \\\"إعادة توجيه مفتاح استرداد خزنة الملفات القديم\\\"\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"PayloadType\":{\"one\":\"Legacy FileVault Recovery Key Redirection\",\"other\":\"%lu Legacy FileVault Recovery Key Redirections\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"ניתוב מחדש של מפתח שחזור עבור FileVault מדור קודם\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"%lu מטעני ניתוב מחדש של מפתח שחזור עבור FileVault מדור קודם\",\"two\":\"שני מטעני ניתוב מחדש של מפתח שחזור עבור FileVault מדור קודם\",\"many\":\"%lu מטעני ניתוב מחדש של מפתח שחזור עבור FileVault מדור קודם\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Äldre omdirigering av FileVault-återställningsnyckel\",\"other\":\"%lu äldre omdirigeringar av FileVault-återställningsnyckel\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "sv",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"PayloadType\":{\"one\":\"Reinizializzazione della chiave di recupero di Legacy FileVault\",\"other\":\"%lu reindirizzamenti chiave di recupero Legacy FileVault\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "th",
+        "target" : "{\"PayloadType\":{\"other\":\"การเปลี่ยนทิศทางรหัสการกู้คืน FileVault ดอกเดิม %lu รายการ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"other\":\"%lu個のレガシーFileVault復旧キーリダイレクション\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ja"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"PayloadType\":{\"few\":\"%lu preusmjeravanja ključa za oporavak starije verzije FileVaulta\",\"one\":\"%lu preusmjeravanje ključa za oporavak starije verzije FileVaulta\",\"other\":\"%lu preusmjeravanja ključa za oporavak starije verzije FileVaulta\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Redireccionamiento de la clave de recuperación de FileVault antiguo\",\"other\":\"%lu redireccionamientos de la clave de recuperación de FileVault antiguo\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Omdirigering af gammel FileVault-gendannelsesnøgle\",\"other\":\"%lu omdirigeringer af gammel FileVault-gendannelsesnøgle\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "el",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ανακατεύθυνση κλειδιού ανάκτησης FileVault παλαιού τύπου\",\"other\":\"%lu ανακατευθύνσεις κλειδιού ανάκτησης FileVault παλαιού τύπου\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ca",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Redireccionament des la clau antiga de recuperació del FileVault\",\"other\":\"Redireccionaments a %lu claus de recuperació del FileVault\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Korábbi FileVault helyreállítási kulcs átirányítása\",\"other\":\"%lu korábbi FileVault helyreállítási kulcs átirányítása\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Pengubahan Hala Kunci Pemulihan FileVault Legasi\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ms"
+      },
+      {
+        "language" : "ru",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Перенаправление устаревших ключей восстановления FileVault (%lu)\",\"one\":\"Перенаправление устаревших ключей восстановления FileVault (%lu)\",\"other\":\"Перенаправление устаревших ключей восстановления FileVault (%lu)\",\"many\":\"Перенаправление устаревших ключей восстановления FileVault (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "uk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu переадресації застарілого ключа відновлення FileVault\",\"one\":\"%lu набір корисних даних переадресування попереднього ключа відновлення FileVault\",\"other\":\"%lu переадресації застарілого ключа відновлення FileVault\",\"many\":\"%lu переадресацій застарілого ключа відновлення FileVault\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Umleitung des FileVault-Wiederherstellungsschlüssels (Ältere Version)\",\"other\":\"%lu FileVault-Wiederherstellungsschlüsselumleitungen (Ältere Version)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Redirecionamento da chave de recuperação da versão antiga do FileVault\",\"other\":\"%lu redirecionamentos de chave de recuperação da versão antiga do FileVault\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "pt_PT"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Eski FileVault Kurtarma Anahtarı Yönlendirmesi\",\"other\":\"%lu Eski FileVault Kurtarma Anahtarı Yönlendirmesi\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "fr",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Ancienne redirection de clé de secours FileVault\",\"other\":\"%lu anciennes redirections de clé de secours FileVault\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"PayloadType\":{\"few\":\"%lux starší verze přesměrování obnovovacího klíče pro FileVault\",\"one\":\"1x starší verze přesměrování obnovovacího klíče pro FileVault\",\"other\":\"%lux starší verze přesměrování obnovovacího klíče pro FileVault\",\"many\":\"%lux starší verze přesměrování obnovovacího klíče pro FileVault\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Redirecionamento de Chave Reserva do FileVault Legado\",\"other\":\"%lu Redirecionamentos de Chave Reserva do FileVault Legado\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Oude FileVault-herstelsleutel-doorverwijzing\",\"other\":\"%lu oude FileVault-herstelsleutel-doorverwijzingen\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "nl"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu個舊的「檔案保險箱」還原密鑰重新導向\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu개의 레거시 FileVault 복구 키 재전송\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "ko"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ancienne redirection de clé de secours FileVault\",\"other\":\"%lu anciennes redirections de clé de secours FileVault\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Legacy FileVault Recovery Key Redirection\",\"other\":\"%lu Legacy FileVault Recovery Key Redirections\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "language" : "vi",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Chuyển hướng khóa khôi phục FileVault kế thừa\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Legacy FileVault Recovery Key Redirection\",\"other\":\"%lu Legacy FileVault Recovery Key Redirections\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu redirecționări cheie de recuperare Legacy FileVault\",\"one\":\"Redirecționare cheie de recuperare Legacy FileVault\",\"other\":\"%lu de redirecționări cheie de recuperare Legacy FileVault\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu個舊的「檔案保險箱」復原密鑰重新導向\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu starsze przekierowania kluczy odzyskiwania FileVault\",\"one\":\"Starsze przekierowanie klucza odzyskiwania FileVault\",\"other\":\"%lu starszego przekierowania kluczy odzyskiwania FileVault\",\"many\":\"%lu starszych przekierowań kluczy odzyskiwania FileVault\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "pl",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu个旧文件保险箱恢复密钥重新定向\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"लेगसी FileVault रिकवरी-की रीडाइरेक्शन\",\"other\":\"%lu लेगसी FileVault रिकवरी-की रीडाइरेक्शन\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "hi",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "id",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Pengalihan Kunci Pemulihan FileVault Versi Lama\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Vanhan FileVaultin palautusavaimen uudelleenohjaus\",\"other\":\"%lu vanhan FileVaultin palautusavaimen uudelleenohjausta\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu presmerovania starej verzie kľúča obnovy FileVaultu\",\"one\":\"Presmerovanie starej verzie kľúča obnovy FileVaultu\",\"other\":\"%lu presmerovaní starej verzie kľúča obnovy FileVaultu\",\"many\":\"%lu presmerovaní starej verzie kľúča obnovy FileVaultu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_SingularOnly" : [
+      {
+        "language" : "no",
+        "target" : "{\"PayloadType\":{\"one\":\"Omdirigering av eldre FileVault-gjenopprettingsnøkkel\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Redireccionamiento de la clave de recuperación de FileVault antigua\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "es",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"PayloadType\":{\"one\":\"حمولة واحدة من \\\"إعادة توجيه مفتاح استرداد خزنة الملفات القديم\\\"\",\"few\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"\",\"two\":\"\",\"other\":\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Legacy FileVault Recovery Key Redirection\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "en_GB",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "{\"PayloadType\":{\"one\":\"ניתוב מחדש של מפתח שחזור עבור FileVault מדור קודם\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"\",\"two\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Äldre omdirigering av FileVault-återställningsnyckel\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "sv"
+      },
+      {
+        "language" : "it",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Reinizializzazione della chiave di recupero di Legacy FileVault\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "th"
+      },
+      {
+        "language" : "ja",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Preusmjeravanje ključa za oporavak starije verzije FileVaulta\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Redireccionamiento de la clave de recuperación de FileVault antiguo\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Omdirigering af gammel FileVault-gendannelsesnøgle\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ανακατεύθυνση κλειδιού ανάκτησης FileVault παλαιού τύπου\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "el"
+      },
+      {
+        "language" : "ca",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Redireccionament des la clau antiga de recuperació del FileVault\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Korábbi FileVault helyreállítási kulcs átirányítása\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ms"
+      },
+      {
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Перенаправление устаревших ключей восстановления FileVault\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "uk",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Переадресування попереднього ключа відновлення FileVault\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Umleitung des FileVault-Wiederherstellungsschlüssels (Ältere Version)\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Redirecionamento da chave de recuperação da versão antiga do FileVault\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Eski FileVault Kurtarma Anahtarı Yönlendirmesi\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Ancienne redirection de clé de secours FileVault\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Starší verze přesměrování obnovovacího klíče pro FileVault\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "cs",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Redirecionamento de Chave Reserva do FileVault Legado\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Oude FileVault-herstelsleutel-doorverwijzing\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "nl",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ancienne redirection de clé de secours FileVault\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "en_AU",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Legacy FileVault Recovery Key Redirection\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "vi",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Legacy FileVault Recovery Key Redirection\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ro",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Redirecționare cheie de recuperare Legacy FileVault\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "zh_TW",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "pl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Starsze przekierowanie klucza odzyskiwania FileVault\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"लेगसी FileVault रिकवरी-की रीडाइरेक्शन\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "id",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Vanhan FileVaultin palautusavaimen uudelleenohjaus\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Presmerovanie starej verzie kľúča obnovy FileVaultu\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      }
+    ],
+    "str_LegacyFDERedirect_DetailValue" : [
+      {
+        "language" : "no",
+        "target" : "Denne nyttelasten støttes ikke lenger. Dette betyr at du ikke kan aktivere FileVault med en personlig gjenopprettingsnøkkel før du enten fjerner denne profilen eller installerer en profil med den nye gjenopprettingsnøkkeldepotnyttelasten av typen «%@».",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "Esta carga útil ya no es compatible y no te permitirá activar FileVault con una clave de recuperación personal hasta que elimines este perfil o instales un perfil con la nueva carga útil de custodia de la clave de recuperación de tipo “%@”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "لم تعد هذه الحمولة مدعومة وسوف تمنعك من تمكين خزنة الملفات باستخدام مفتاح استرداد شخصي حتى تقوم إما بإزالة ملف التعريف هذا أو تثبيت ملف تعريف يحتوي على حمولة تأمين مفتاح الاسترداد الجديدة من النوع \"%@\".",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "en_GB",
+        "target" : "This payload is no longer supported and will prevent you from enabling FileVault with a Personal Recovery Key until you either remove this profile or install a profile with the new recovery key escrow payload of type ‘%@’."
+      },
+      {
+        "target" : "מטען זה אינו נתמך יותר והוא ימנע ממך להפעיל את FileVault עם מפתח שחזור אישי עד להסרת את הפרופיל הזה, או עד להתקנת פרופיל עם המטען החדש לשמירת מפתח שחזור בפיקדון מסוג ״%@״.",
+        "language" : "he",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "sv",
+        "target" : "Den här nyttolasten stöds inte längre och förhindrar att du aktiverar FileVault med en personlig återställningsnyckel tills du antingen tar bort den här profilen eller installerar en ny profil med den nya deponeringsnyttolasten för återställningsnyckel av typen ”%@”."
+      },
+      {
+        "language" : "it",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Questo payload non è più supportato e ti impedirà di abilitare FileVault con una chiave di recupero personale finché non rimuoverai il profilo o non ne installerai uno con il nuovo payload escrow chiave di recupero del tipo “%@”."
+      },
+      {
+        "target" : "ไม่รองรับเพย์โหลดนี้อีกต่อไป และคุณจะไม่สามารถเปิดใช้งาน FileVault โดยใช้รหัสการกู้คืนส่วนบุคคลได้จนกว่าคุณจะเอาโปรไฟล์นี้ออกหรือติดตั้งโปรไฟล์ที่มีเพย์โหลดการฝากรหัสการกู้คืนใหม่ที่เป็นประเภท ‘%@’",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "th"
+      },
+      {
+        "language" : "ja",
+        "target" : "このペイロードは現在サポートされていません。パーソナル復旧キーでFileVaultを有効にするには、このプロファイルを削除するか、タイプ“%@”の新しい復旧キーエスクローペイロードでプロファイルをインストールする必要があります。",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Ovi podaci više nisu podržani i nećete moći omogućiti FileVault s Osobnim ključem za oporavak dok ne uklonite ovaj profil ili instalirate profil s novim zalogom s podacima za oporavak ključa vrste “%@“.",
+        "language" : "hr"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Esta carga útil ya no es compatible y evitará que actives FileVault con una clave de recuperación personal hasta que elimines este perfil o instales uno que tenga una carga útil de depósito de la clave de recuperación nueva del tipo %@.",
+        "language" : "es_419"
+      },
+      {
+        "language" : "da",
+        "target" : "Disse data understøttes ikke længere og vil forhindre dig i at slå FileVault til med en personlig gendannelsesnøgle, indtil du enten fjerner denne profil eller installerer en profil med det nye depot med gendannelsesnøgle af datatypen “%@”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Το φορτίο αυτό δεν υποστηρίζεται πλέον και δεν θα σας επιτρέψει να ενεργοποιήσετε το FileVault με ένα προσωπικό κλειδί ανάκτησης μέχρι να αφαιρέσετε αυτό το προφίλ ή να εγκαταστήσετε ένα προφίλ με το νέο φορτίο καταπιστεύματος κλειδιού ανάκτησης τύπου «%@».",
+        "language" : "el",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Aquesta càrrega ja no és compatible i això impedirà que puguis activar el FileVault amb una clau de recuperació personal fins que eliminis aquest perfil o instal·lis un perfil amb la nova càrrega útil de custòdia de la clau de recuperació de tipus “%@”.",
+        "language" : "ca",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Ez az adatcsomag már nem támogatott, és megakadályozza a FileVault engedélyezését személyes helyreállítási kulccsal, amíg nem távolítja el ezt a profilt és nem telepít egy új profilt új, „%@” típusú helyreállítási kulcs adatcsomaggal.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Muat beban ini tidak lagi disokong dan akan menghalang anda daripada mendayakan FileVault dengan Kunci Pemulihan Peribadi sehingga anda mengeluarkan profil ini atau memasang profil dengan muat beban escrow kunci pemulihan baharu daripada jenis ‘%@’.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ms"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ru",
+        "target" : "Эта полезная нагрузка больше не поддерживается и не позволит Вам включить FileVault с помощью Личного ключа восстановления, пока Вы не удалите этот профиль либо не установите профиль с новой полезной нагрузкой депонирования ключей восстановления, относящейся к типу «%@»."
+      },
+      {
+        "language" : "uk",
+        "target" : "Цей пакет більше не підтримується, і ви не зможете ввімкнути FileVault із персональним ключем відновлення, доки не видалите цей профіль або інсталюєте новий із пакетом для депонування ключа відновлення типу «%@».",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Diese Payload wird nicht mehr unterstützt und verhindert das Aktivieren von FileVault mit einem persönlichen Wiederherstellungsschlüssel, bis entweder dieses Profil entfernt oder ein Profil mit der neuen Wiederherstellungsschlüsselhinterlegungs-Payload des Typs „%@“ installiert wird.",
+        "language" : "de"
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Esta carga útil já não é suportada. Para poder ativar o FileVault com uma chave de recuperação pessoal, primeiro tem de remover este perfil ou instalá‑lo com a nova carga útil de depósito seguro de chaves de recuperação do tipo “%@”."
+      },
+      {
+        "language" : "tr",
+        "target" : "Bu veri artık desteklenmiyor ve bu profili silene veya “%@” türündeki yeni kurtarma anahtarı emanet verisini içeren bir profil yükleyene dek Kişisel Kurtarma Anahtarlı FileVault’u etkinleştirmenizi engelleyecektir.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "fr",
+        "target" : "Ces données utiles ne sont plus prises en charge et vous empêcheront d’activer FileVault avec une clé de secours personnelle tant que vous n’aurez pas supprimé ce profil ou installé un profil comportant les nouvelles données utiles d’autorité de séquestre de clé de secours de type « %@ »."
+      },
+      {
+        "language" : "cs",
+        "target" : "Tato datová část už není podporována a nemůžete s ní zapnout FileVault s osobním obnovovacím klíčem, dokud tento profil neodstraníte nebo nenainstalujete profil s novou datovou částí úschovy obnovovacího klíče typu „%@“.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Não há mais suporte para este payload e ele impedirá a ativação do FileVault com uma Chave Reserva Pessoal até que você o remova ou instale um perfil com o novo payload de guarda de chave reserva do tipo “%@”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Deze payload wordt niet meer ondersteund en verhindert het activeren van FileVault met een persoonlijke herstelsleutel totdat je dit profiel verwijdert of een profiel installeert met de nieuwe herstelsleutelbewaringspayload van het type '%@'.",
+        "language" : "nl"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "已不支援此承載資料，並將會阻止你使用「個人還原密鑰」來啟用「檔案保險箱」，直到你移除此描述檔，或安裝「%@」類型的新還原密鑰託管承載資料。",
+        "language" : "zh_HK"
+      },
+      {
+        "language" : "ko",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "이 페이로드는 더 이상 지원되지 않습니다. 이 프로파일을 삭제하거나 ‘%@’ 유형의 새로운 복구 키 에스크로 페이로드를 사용하여 프로파일을 설치할 때까지 개인 복구 키를 사용하여 FileVault를 활성화할 수 없습니다."
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Ces données utiles ne sont plus prises en charge et vous empêcheront d’activer FileVault avec une clé de secours personnelle tant que vous n’aurez pas supprimé ce profil ou installé un profil comportant les nouvelles données utiles d’autorité de séquestre de clé de secours de type « %@ »."
+      },
+      {
+        "language" : "en_AU",
+        "target" : "This payload is no longer supported and will prevent you from enabling FileVault with a Personal Recovery Key until you either remove this profile or install a profile with the new recovery key escrow payload of type ‘%@’.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "vi",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Phần tải này không còn được hỗ trợ nữa và sẽ ngăn bạn bật FileVault bằng Khóa khôi phục cá nhân cho đến khi bạn xóa cấu hình này hoặc cài đặt cấu hình bằng phần tải ủy thác khóa khôi phục mới của loại ‘%@’."
+      },
+      {
+        "target" : "This payload is no longer supported and will prevent you from enabling FileVault with a Personal Recovery Key until you either remove this profile or install a profile with the new recovery key escrow payload of type ‘%@’.",
+        "language" : "en",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Această sarcină nu mai este acceptată și nu vă va permite să activați FileVault cu o cheie de recuperare personală până nu eliminați acest profil sau instalați un profil cu o nouă sarcină de custodie a cheii de recuperare de tipul “%@”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ro"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "已不支援此承載資料，並將會阻止你使用「個人復原密鑰」來啟用「檔案保險箱」，直到你移除此描述檔，或安裝「%@」類型的新復原密鑰託管承載資料。"
+      },
+      {
+        "language" : "pl",
+        "target" : "Ten pakiet danych nie jest już obsługiwany i będzie uniemożliwiać włączenie FileVault z osobistym kluczem odzyskiwania do czasu usunięcia profilu lub zainstalowania profilu z nowym pakietem danych depozytu klucza odzyskiwania typu „%@”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "此有效负载将不再受支持且会阻止你使用个人恢复密钥启用文件保险箱，除非你移除此描述文件或安装有效负载类型为“%@”且包含新恢复密钥托管有效负载的描述文件。"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "hi",
+        "target" : "यह पेलोड अब समर्थित नहीं है और उसके द्वारा व्यक्तिगत रिकवरी-की से FileVault सक्षम करने से तब तक रोका जाएगा जब तक आप यह प्रोफ़ाइल नहीं हटाते या ‘%@’ प्रकार का नया वाली प्रोफ़ाइल इंस्टॉल नहीं करते हैं।"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "id",
+        "target" : "Muatan ini tidak lagi didukung dan akan menghalangi Anda mengaktifkan FileVault dengan Kunci Pemulihan Pribadi hingga Anda menghapus profil ini atau menginstal profil dengan muatan eskrow kunci pemulihan jenis ‘%@’ baru."
+      },
+      {
+        "target" : "Tätä tietosisältöä ei enää tueta, ja se estää ottamasta käyttöön FileVaultia henkilökohtaisella palautusavaimella, niin kauan kunnes profiili poistetaan tai asennetaan profiili, joka sisältää uuden palautusavainten tallenne -tietosisällön, joka on tyyppiä ”%@”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "fi"
+      },
+      {
+        "language" : "sk",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Tento objem dát už nie je podporovaný a kým tento profil neodstránite alebo nenainštalujete profil s novým objemom dát úschovy kľúča obnovy typu „%@“, bude vám brániť v povolení FileVaultu použitím osobného kľúča obnovy."
+      }
+    ],
+    "str_LegacyFDERedirect_NotSystemProfile" : [
+      {
+        "language" : "no",
+        "target" : "Profilen er en brukerprofil, men den inneholder en «%@»-nyttelast som bare gjelder for enhetsprofiler.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "El perfil es un perfil del usuario, pero contiene una carga útil “%@” que solo es válida en perfiles de dispositivo.",
+        "language" : "es",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "ملف التعريف هو ملف تعريف للمستخدم ولكنه يحتوي على حمولة \"%@\"، والتي تُعد صالحة في ملفات تعريف الأجهزة فقط.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "The profile is a user profile but contains a “%@” payload which is only valid in device profiles.",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "הפרופיל הוא פרופיל משתמש, אך הוא מכיל מטען ״%@״ שתקף רק בפרופילים של התקנים.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Profilen är en användarprofil, men innehåller en nyttolast av typen ”%@” vilket endast är giltigt i enhetsprofiler.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "sv"
+      },
+      {
+        "language" : "it",
+        "target" : "Il profilo è un profilo utente, ma contiene un payload “%@” valido solo nei profili dispositivo.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "th",
+        "target" : "โปรไฟล์คือโปรไฟล์ผู้ใช้แต่มีเพย์โหลด “%@” ซึ่งใช้ได้ในโปรไฟล์อุปกรณ์เท่านั้น",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ja",
+        "target" : "このプロファイルはユーザプロファイルですが、“%@”ペイロードが含まれています。このペイロードはデバイスプロファイルでのみ有効です。"
+      },
+      {
+        "language" : "hr",
+        "target" : "Ovaj je profil korisnički profil, ali sadržava podatke “%@“ koji vrijede samo u profilima uređaja.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "El perfil es un perfil de usuario pero contiene una carga útil “%@” que sólo es válida en perfiles de dispositivos.",
+        "language" : "es_419",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "da",
+        "target" : "Profilen er en brugerprofil, men indeholder “%@”-data, der kun er gyldig i enhedsprofiler."
+      },
+      {
+        "target" : "Το προφίλ είναι προφίλ χρήστη όμως περιέχει ένα φορτίο «%@» το οποίο είναι έγκυρο μόνο σε προφίλ συσκευών.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "El perfil és un perfil d’usuari però conté una càrrega útil “%@” que només és vàlida als perfils de dispositiu.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ca"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "A profil egy felhasználói profil, de egy „%@” adatcsomagot tartalmaz, mely csak eszközprofilok esetén érvényes.",
+        "language" : "hu"
+      },
+      {
+        "language" : "ms",
+        "target" : "Profil ialah profil pengguna tetapi mengandungi muat beban “%@“ yang hanya sah dalam profil peranti.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ru",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Этот профиль является пользовательским профилем, но содержит полезную нагрузку «%@», которая может быть использована только в профилях устройств."
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Це профіль користувача, який однак містить пакет «%@», дійсний лише для профілів пристрою.",
+        "language" : "uk"
+      },
+      {
+        "language" : "de",
+        "target" : "Dies ist ein Benutzerprofil, das jedoch eine „%@“-Payload enthält, die nur in Geräteprofilen gültig ist.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "O perfil é um perfil de utilizador, mas contém uma carga útil “%@” que só é válida em perfis de dispositivos.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "tr",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Profil bir kullanıcı profili ama yalnızca aygıt profillerinde geçerli olan “%@” verisini içeriyor."
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Le profil est un profil utilisateur, mais il contient des données utiles « %@ » valides uniquement pour les profils d’appareil.",
+        "language" : "fr"
+      },
+      {
+        "target" : "Profil je uživatelský, ale obsahuje datovou část „%@“, která je platná pouze v profilech zařízení.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "cs"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "O perfil é um perfil de usuário, mas contém um payload “%@” que é válido somente em perfis de dispositivo.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "nl",
+        "target" : "Het profiel is een gebruikersprofiel, maar bevat de payload '%@' die alleen geldig is in apparaatprofielen."
+      },
+      {
+        "target" : "描述檔是用户描述檔，但包括只能在裝置描述檔中生效的「%@」承載資料。",
+        "language" : "zh_HK",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "해당 프로파일은 사용자 프로파일이지만 기기 프로파일에서만 유효한 '%@' 페이로드가 포함되어 있습니다.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Le profil est un profil utilisateur, mais il contient des données utiles « %@ » valides uniquement pour les profils d’appareil.",
+        "language" : "fr_CA",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "The profile is a user profile but contains a “%@” payload which is only valid in device profiles.",
+        "language" : "en_AU",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Hồ sơ là hồ sơ người dùng nhưng chứa phần tải “%@” chỉ hợp lệ trong hồ sơ thiết bị.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "vi"
+      },
+      {
+        "language" : "en",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "The profile is a user profile but contains a “%@” payload which is only valid in device profiles."
+      },
+      {
+        "target" : "Acesta este un profil de utilizator, dar conține o sarcină “%@” care este validă doar în profilurile de dispozitiv.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "描述檔是使用者描述檔，但包含只能在裝置描述檔中生效的「%@」承載資料。",
+        "language" : "zh_TW",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Profil jest profilem użytkownika, ale zawiera pakiet danych „%@”, który jest ważny tylko w profilach urządzeń.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "zh_CN",
+        "target" : "该描述文件是一个用户描述文件，但包含的“%@”有效负载仅适用于设备描述文件。"
+      },
+      {
+        "language" : "hi",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "प्रोफ़ाइल यूज़र प्रोफ़ाइल है लेकिन इसमें “%@” पेलोड शामिल है जो केवल डिवाइस प्रोफ़ाइलों में मान्य है।"
+      },
+      {
+        "language" : "id",
+        "target" : "Profil adalah profil pengguna tetapi berisi muatan “%@” yang hanya sah di profil perangkat.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Profiili on käyttäjäprofiili, mutta siinä on tietosisältö ”%@”, joka kelpaa vain laiteprofiileille.",
+        "language" : "fi"
+      },
+      {
+        "target" : "Profil je užívateľským profilom, obsahuje však objem dát „%@“, ktorý je platný len v profiloch zariadení.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "sk"
+      }
+    ],
+    "str_LegacyFDERecoveryRedirect_RedirectURLMustBeHTTPS" : [
+      {
+        "target" : "Omdirigerings-URL-en i %@-nyttelasten må begynne med «https».",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "no"
+      },
+      {
+        "language" : "es",
+        "target" : "La URL de redireccionamiento en la carga útil “%@” debe empezar por “https”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "يجب أن يبدأ عنوان URL لإعادة التوجيه في حمولة %@ بـ \"https\".",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "The redirection URL in the %@ payload must start with ‘https’.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "כתובת האינטרנט לניתוב מחדש במטען %@ צריכה להתחיל ב-״https״.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "he"
+      },
+      {
+        "language" : "sv",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Omdirigeringsadressen i nyttolasten %@ måste börja med ”https”."
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "L’URL di reindirizzamento nel payload %@ deve iniziare con “https”.",
+        "language" : "it"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "URL การเปลี่ยนทิศทางในเพย์โหลด%[tt]@ต้องขึ้นต้นด้วย ‘https’",
+        "language" : "th"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "%@ペイロードのリダイレクションURLは“https”で始まる必要があります。",
+        "language" : "ja"
+      },
+      {
+        "target" : "URL za preusmjeravanje u podacima %@ mora započeti s ”https”.",
+        "language" : "hr",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "La URL de redireccionamiento en la carga útil %@ debe empezar con https.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "URL’en til omdirigering i %@-payloaden skal starte med “https”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "el",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Η ανακατεύθυνση URL στο φορτίο %@ πρέπει να ξεκινά με «https»."
+      },
+      {
+        "language" : "ca",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "L’URL de redireccionament de la càrrega %@ ha de començar amb “https”."
+      },
+      {
+        "target" : "A(z) %@ adatcsomagban lévő átirányítási URL-nek „https” betűkkel kell kezdődnie.",
+        "language" : "hu",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "URL pengubahan hala dalam muat beban %@ mesti bermula dengan ‘https’.",
+        "language" : "ms",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "URL перенаправления в полезной нагрузке «%@» должен начинаться с https.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "URL-адреса переадресування в навантаженні %@ має починатися з «https».",
+        "language" : "uk",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Die Weiterleitungs-URL in der %@-Payload muss mit „https“ beginnen.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "pt_PT",
+        "target" : "O URL de redirecionamento na carga útil %@ tem de começar por “https”."
+      },
+      {
+        "target" : "%@ verisindeki yeniden yönlendirme URL’sinin “https” ile başlaması gerekir.",
+        "language" : "tr",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "L’URL de redirection des données utiles %@ doit commencer par « https ».",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Přesměrovací URL v datové části %@ musí začínat na „https“.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "O URL de redirecionamento do payload %@ deve começar com “https”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "nl",
+        "target" : "De doorverwijzings-URL in de payload '%@' moet met 'https' beginnen."
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "%@承載資料中的重新導向URL必須以「https」開頭。",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "%@ 페이로드의 재이동 URL은 ‘https’로 시작해야 합니다.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "L’URL de redirection des données utiles %@ doit commencer par « https ».",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "The redirection URL in the %@ payload must start with ‘https’.",
+        "language" : "en_AU",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "URL chuyển hướng trong phần tải %@ phải bắt đầu bằng ‘https’.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "vi"
+      },
+      {
+        "language" : "en",
+        "target" : "The redirection URL in the %@ payload must start with ‘https’.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ro",
+        "target" : "URL-ul de redirecționare din sarcina %@ trebuie să înceapă cu “https”."
+      },
+      {
+        "target" : "「%@」承載資料中的重新導向URL必須以「https」開頭。",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Adres URL przekierowania w pakiecie danych %@ musi zaczynać się od „https”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "pl"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "“%@”有效负载中的重新定向URL必须以“https”开头。",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "hi",
+        "target" : "%@ पेलोड में रीडाइरेक्शन URL ‘https’ से शुरू होना चाहिए।"
+      },
+      {
+        "language" : "id",
+        "target" : "URL pengalihan di muatan %@ harus dimulai dengan ‘https’.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Tietosisällön %@ uudelleenohjausosoitteen on alettava ”https”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Adresa URL presmerovania v objeme dát „%@“ musí začínať na „https“.",
+        "language" : "sk",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      }
+    ],
+    "str_LegacyFDERedirect_MissingEncryptionCert" : [
+      {
+        "language" : "no",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Krypteringssertifikatet som %@-nyttelasten henviser til, mangler."
+      },
+      {
+        "target" : "Falta el certificado de encriptación al que hace referencia la carga útil “%@”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "شهادة التشفير المشار إليها من قِبل الحمولة %@ مفقودة.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "The encryption certificate referenced by the %@ payload is missing.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "language" : "he",
+        "target" : "אישור ההצפנה שאליו מתייחס המטען %@ לא נמצא.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "sv",
+        "target" : "Krypteringscertifikatet som nyttolasten %@ refererar till saknas."
+      },
+      {
+        "language" : "it",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Il certificato di crittografia a cui fa riferimento il payload %@ non è presente."
+      },
+      {
+        "language" : "th",
+        "target" : "ใบรับรองการเข้ารหัสที่อ้างอิงโดยเพย์โหลด%[tt]@นั้นขาดไป",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "“%@”ペイロードで参照される暗号化証明書が見つかりません。",
+        "language" : "ja"
+      },
+      {
+        "target" : "Nema enkripcijskog certifikata koji je naveden u podacima %@.",
+        "language" : "hr",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Falta el certificado de encriptación al que hace referencia la carga útil %@.",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Det krypteringscertifikat, der henvises til af %@-dataene, mangler.",
+        "language" : "da",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "el",
+        "target" : "Το πιστοποιητικό κρυπτογράφησης που αναφέρεται από το φορτίο %@ λείπει."
+      },
+      {
+        "language" : "ca",
+        "target" : "Falta el certificat d’encriptació referenciat per la càrrega %@.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "A titkosítási tanúsítvány melyre a(z) %@ adatcsomag hivatkozik hiányzik.",
+        "language" : "hu"
+      },
+      {
+        "language" : "ms",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Sijil penyulitan dirujuk oleh muat beban %@ telah hilang."
+      },
+      {
+        "language" : "ru",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Сертификат шифрования, на который ссылается полезная нагрузка «%@», отсутствует."
+      },
+      {
+        "language" : "uk",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Сертифікат шифрування, на який посилається пакет %@, відсутній."
+      },
+      {
+        "language" : "de",
+        "target" : "Das Verschlüsselungszertifikat, auf die sich die Payload „%@“ bezieht, fehlt.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "O certificado de cifragem referenciado pela carga útil %@ não foi encontrado.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "language" : "tr",
+        "target" : "%@ verisinin referans verdiği şifreleme sertifikası yok.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Le certificat de chiffrement référencé par les données utiles %@ est manquant.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "fr"
+      },
+      {
+        "language" : "cs",
+        "target" : "Chybí šifrovací certifikát, na který odkazuje datová část %@.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Falta o certificado de criptografia referenciado pelo payload %@.",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Het versleutelingscertificaat waarnaar wordt verwezen door de payload '%@' ontbreekt.",
+        "language" : "nl",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "欠缺「%@」承載資料參照的加密證書。",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "language" : "ko",
+        "target" : "%@ 페이로드가 참조하는 암호화 인증서가 유실되었습니다.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Le certificat de chiffrement référencé par les données utiles %@ est manquant.",
+        "language" : "fr_CA",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "The encryption certificate referenced by the %@ payload is missing.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Chứng nhận mã hóa được tham chiếu bởi phần tải %@ bị thiếu.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "vi"
+      },
+      {
+        "language" : "en",
+        "target" : "The encryption certificate referenced by the %@ payload is missing.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Certificatul de criptare la care se face referire prin sarcina %@ lipsește.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ro"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "「%@」承載資料參照的加密憑證遺失。"
+      },
+      {
+        "target" : "Brak certyfikatu szyfrowania, do którego odwołuje się pakiet danych %@.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "pl"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "“%@”有效负载引用的加密证书已丢失。"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "%@ पेलोड द्वारा संदर्भित एंक्रिप्शन सर्टिफ़िकेट अनुपलब्ध है।",
+        "language" : "hi"
+      },
+      {
+        "target" : "Sertifikat enkripsi yang dirujuk oleh muatan %@ hilang.",
+        "language" : "id",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Tietosisällössä %@ viitattu salausvarmenne puuttuu.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "fi"
+      },
+      {
+        "language" : "sk",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Šifrovací certifikát, na ktorý odkazuje objem dát %@, chýba."
+      }
+    ],
+    "str_LegacyFDERedirect_DetailTitle" : [
+      {
+        "language" : "no",
+        "target" : "Advarsel!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "es",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Advertencia"
+      },
+      {
+        "language" : "ar",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "تحذير!"
+      },
+      {
+        "target" : "Warning!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "אזהרה!",
+        "language" : "he"
+      },
+      {
+        "language" : "sv",
+        "target" : "Varning!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "it",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Attenzione!"
+      },
+      {
+        "language" : "th",
+        "target" : "คำเตือน!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "警告!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Upozorenje!",
+        "language" : "hr"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "es_419",
+        "target" : "Advertencia"
+      },
+      {
+        "target" : "Advarsel!",
+        "language" : "da",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Προειδοποίηση!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "Avís",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Figyelmeztetés!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ms",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Amaran!"
+      },
+      {
+        "target" : "Внимание!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ru"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Увага!",
+        "language" : "uk"
+      },
+      {
+        "target" : "Achtung!",
+        "language" : "de",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "pt_PT",
+        "target" : "Aviso!"
+      },
+      {
+        "target" : "Uyarı!",
+        "language" : "tr",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Attention !",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Varování!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "cs"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "pt_BR",
+        "target" : "Aviso!"
+      },
+      {
+        "language" : "nl",
+        "target" : "Waarschuwing!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "警告！",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ko",
+        "target" : "경고!"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Avertissement!"
+      },
+      {
+        "target" : "Warning!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "Cảnh báo!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Warning!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "en"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ro",
+        "target" : "Avertisment!"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "警告！",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Ostrzeżenie!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "警告！",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "चेतावनी!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "hi"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Peringatan!",
+        "language" : "id"
+      },
+      {
+        "language" : "fi",
+        "target" : "Varoitus!",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Upozornenie!",
+        "language" : "sk"
+      }
+    ],
+    "str_LegacyFDERedirect_SummaryNote" : [
+      {
+        "target" : "Denne nyttelasten støttes ikke lenger (se mer informasjon nedenfor).",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "Esta carga útil ya no es compatible (consulta la información detallada a continuación).",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "لم تعد هذه الحمولة مدعومة (انظر التفاصيل أدناه).",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ar"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "This payload is no longer supported (see details below).",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "מטען זה אינו נתמך יותר (ניתן לעיין בפרטים למטה).",
+        "language" : "he",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Den här nyttolasten stöds inte längre (se detaljer nedan).",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "it",
+        "target" : "Questo payload non è più supportato (vedi dettagli qui sotto)."
+      },
+      {
+        "target" : "ไม่รองรับเพย์โหลดนี้อีกต่อไป (ดูรายละเอียดด้านล่าง)",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "th"
+      },
+      {
+        "language" : "ja",
+        "target" : "このペイロードは現在サポートされていません（下の詳細を参照してください）。",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Ovi podaci više nisu podržani (pogledajte detalje ispod).",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "La carga útil ya no es compatible (revisa los detalles abajo).",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Disse data understøttes ikke længere (se oplysninger nedenfor).",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "Το φορτίο αυτό δεν υποστηρίζεται πλέον (δείτε λεπτομέρειες πιο κάτω).",
+        "language" : "el",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "La càrrega ja no és compatible (veure els detalls a sota).",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ca"
+      },
+      {
+        "language" : "hu",
+        "target" : "Ez az adatcsomag már nem támogatott (a további tudnivalókat lásd alább)",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Muat beban ini tidak lagi disokong (lihat butiran di bawah).",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ru",
+        "target" : "Эта полезная нагрузка больше не поддерживается (см. дополнительные сведения ниже)."
+      },
+      {
+        "language" : "uk",
+        "target" : "Цей пакет більше не підтримується (деталі наведено нижче).",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Diese Payload wird nicht mehr unterstützt (Details siehe unten).",
+        "language" : "de",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Esta carga útil já não é suportada (ver informação detalhada abaixo).",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Bu veri artık desteklenmiyor (aşağıdaki ayrıntılara bakın).",
+        "language" : "tr",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "fr",
+        "target" : "Ces données utiles ne sont plus prises en charge (voir détails ci-dessous)."
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Tato datová část už není podporována (podrobnosti najdete níže).",
+        "language" : "cs"
+      },
+      {
+        "target" : "Não há mais suporte para este payload (consulte os detalhes abaixo).",
+        "language" : "pt_BR",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "nl",
+        "target" : "Deze payload wordt niet meer ondersteund (zie informatie hieronder)."
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "zh_HK",
+        "target" : "已不支援此承載資料（請見下方詳細資料）。"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ko",
+        "target" : "이 페이로드는 더 이상 지원되지 않습니다(자세한 내용은 아래 참조)."
+      },
+      {
+        "target" : "Ces données utiles ne sont plus prises en charge (voir détails ci-dessous).",
+        "language" : "fr_CA",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "en_AU",
+        "target" : "This payload is no longer supported (see details below)."
+      },
+      {
+        "target" : "Phần tải này không còn được hỗ trợ nữa (xem chi tiết bên dưới).",
+        "language" : "vi",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "This payload is no longer supported (see details below).",
+        "language" : "en",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ro",
+        "target" : "Această sarcină nu mai este acceptată (consultați detaliile mai jos)."
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "已不支援此承載資料（請見下方詳細資訊）。",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Ten pakiet danych nie jest już obsługiwany (zobacz szczegóły poniżej).",
+        "language" : "pl",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "zh_CN",
+        "target" : "不再支持此有效负载（请参阅以下详细信息）。"
+      },
+      {
+        "language" : "hi",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "यह पेलोड अब समर्थित नहीं है (विवरण नीचे देखें)।"
+      },
+      {
+        "language" : "id",
+        "target" : "Muatan ini tidak lagi didukung (lihat detail di bawah).",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Tätä tietosisältöä ei enää tueta (lisätietoja alla).",
+        "language" : "fi"
+      },
+      {
+        "language" : "sk",
+        "target" : "Objem dát už nie je podporovaný (podrobnosti sú uvedené nižšie).",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      }
+    ],
+    "str_LegacyFDERecoveryRedirect_BadRedirectURL" : [
+      {
+        "target" : "Omdirigerings-URL-en i %@-nyttelasten er ugyldig.",
+        "language" : "no",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "La URL de redireccionamiento en la carga útil “%@” no es válida.",
+        "language" : "es",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "عنوان URL لإعادة التوجيه في حمولة %@ غير صالح.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ar"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "The redirection URL in the %@ payload is invalid.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "כתובת האינטרנט לניתוב מחדש במטען %@ אינה תקינה.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Omdirigeringsadressen i nyttolasten %@ är ogiltig.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "L’URL di reindirizzamento nel payload %@ non è valido.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "it"
+      },
+      {
+        "language" : "th",
+        "target" : "URL การเปลี่ยนทิศทางในเพย์โหลด%[tt]@ไม่ถูกต้อง",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ja",
+        "target" : "%@ペイロードのリダイレクションURLが無効です。"
+      },
+      {
+        "target" : "URL za preusmjeravanje u podacima %@ nije važeći.",
+        "language" : "hr",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "La URL de redireccionamiento en la carga útil %@ no es válida.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "URL’en til omdirigering i %@-payloaden er ugyldig.",
+        "language" : "da",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Η ανακατεύθυνση URL στο φορτίο %@ δεν είναι έγκυρη.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "L’URL de redireccionament de la càrrega %@ no és vàlid.",
+        "language" : "ca"
+      },
+      {
+        "language" : "hu",
+        "target" : "A(z) %@ adatcsomagban lévő átirányítási URL érvénytelen.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "URL pengubahan hala dalam muat beban %@ tidak sah.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ru",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "URL перенаправления в полезной нагрузке «%@» недействителен."
+      },
+      {
+        "language" : "uk",
+        "target" : "URL-адреса переадресування в навантаженні %@ недійсна.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "de",
+        "target" : "Die weiterleitende URL in der %@-Payload ist ungültig."
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "pt_PT",
+        "target" : "O URL de redirecionamento na carga útil %@ não é válido."
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "tr",
+        "target" : "%@ verisindeki yeniden yönlendirme URL’si geçersiz."
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "L’URL de redirection des données utiles %@ est invalide.",
+        "language" : "fr"
+      },
+      {
+        "language" : "cs",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Přesměrovací URL v datové části %@ je neplatné."
+      },
+      {
+        "target" : "O URL de redirecionamento do payload %@ é inválido.",
+        "language" : "pt_BR",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "nl",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "De doorverwijzings-URL in de payload '%@' is ongeldig."
+      },
+      {
+        "target" : "%@承載資料中的重新導向URL無效。",
+        "language" : "zh_HK",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ko",
+        "target" : "%@ 페이로드의 재이동 URL이 유효하지 않습니다."
+      },
+      {
+        "target" : "L’URL de redirection des données utiles %@ n’est pas valide.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "The redirection URL in the %@ payload is invalid.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "language" : "vi",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "URL chuyển hướng trong phần tải %@ không hợp lệ."
+      },
+      {
+        "target" : "The redirection URL in the %@ payload is invalid.",
+        "language" : "en",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "URL-ul de redirecționare din sarcina %@ nu este valid.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "「%@」承載資料中的重新導向URL無效。",
+        "language" : "zh_TW",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "pl",
+        "target" : "Adres URL przekierowania w pakiecie danych %@ jest nieprawidłowy."
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "“%@”有效负载中的重新定向URL无效。"
+      },
+      {
+        "language" : "hi",
+        "target" : "%@ पेलोड में रीडाइरेक्शन URL अमान्य है।",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "URL pengalihan di muatan %@ tidak sah.",
+        "language" : "id"
+      },
+      {
+        "target" : "Tietosisällön %@ uudelleenohjausosoite on virheellinen.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "fi"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Adresa URL presmerovania v objeme dát „%@“ je neplatná.",
+        "language" : "sk"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_CountLast" : [
+      {
+        "language" : "no",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Omdirigering av eldre FileVault-gjenopprettingsnøkkel\",\"other\":\"Omdirigeringer av eldre FileVault-gjenopprettingsnøkkel (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Redireccionamiento de la clave de recuperación de FileVault antigua\",\"other\":\"Redireccionamientos de la clave de recuperación de FileVault antigua (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "es"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"PayloadType\":{\"one\":\"حمولة واحدة من \\\"إعادة توجيه مفتاح استرداد خزنة الملفات القديم\\\"\",\"few\":\"إعادة توجيه مفتاح استرداد خزنة الملفات القديم (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"إعادة توجيه مفتاح استرداد خزنة الملفات القديم (%lu)\",\"two\":\"إعادة توجيه مفتاح استرداد خزنة الملفات القديم (%lu)\",\"other\":\"إعادة توجيه مفتاح استرداد خزنة الملفات القديم (%lu)\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"إعادة توجيه مفتاح استرداد خزنة الملفات القديم (%lu)\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Legacy FileVault Recovery Key Redirection\",\"other\":\"Legacy FileVault Recovery Key Redirections (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "en_GB",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"ניתוב מחדש של מפתח שחזור עבור FileVault מדור קודם\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"ניתובים מחדש של מפתחות שחזור עבור FileVault מדור קודם (%lu)\",\"two\":\"ניתובים מחדש של מפתחות שחזור עבור FileVault מדור קודם (%lu)\",\"many\":\"ניתובים מחדש של מפתחות שחזור עבור FileVault מדור קודם (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "he",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"PayloadType\":{\"one\":\"Äldre omdirigering av FileVault-återställningsnyckel\",\"other\":\"Äldre omdirigeringar av FileVault-återställningsnyckel (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Reinizializzazione della chiave di recupero di Legacy FileVault\",\"other\":\"Reindirizzamenti chiave di recupero Legacy FileVault (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "it"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "th",
+        "target" : "{\"PayloadType\":{\"other\":\"การเปลี่ยนทิศทางรหัสการกู้คืน FileVault ดอกเดิม (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "ja",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"レガシーFileVault復旧キーリダイレクション（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"few\":\"Preusmjeravanja ključa za oporavak starije verzije FileVaulta (%lu)\",\"one\":\"Preusmjeravanje ključa za oporavak starije verzije FileVaulta (%lu)\",\"other\":\"Preusmjeravanja ključa za oporavak starije verzije FileVaulta (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "hr",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "es_419",
+        "target" : "{\"PayloadType\":{\"one\":\"Redireccionamiento de la clave de recuperación de FileVault antiguo\",\"other\":\"Redireccionamientos de la clave de recuperación de FileVault antiguos (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Omdirigering af gammel FileVault-gendannelsesnøgle\",\"other\":\"Omdirigeringer af gammel FileVault-gendannelsesnøgle (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "da"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ανακατεύθυνση κλειδιού ανάκτησης FileVault παλαιού τύπου\",\"other\":\"Ανακατευθύνσεις κλειδιού ανάκτησης FileVault παλαιού τύπου (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Redireccionament des la clau antiga de recuperació del FileVault\",\"other\":\"Redireccionaments a (%lu) claus de recuperació del FileVault\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "ca"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Korábbi FileVault helyreállítási kulcs átirányítása\",\"other\":\"Korábbi FileVault helyreállítási kulcsok átirányítása (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Pengubahan Hala Kunci Pemulihan FileVault Legasi (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Перенаправление устаревших ключей восстановления FileVault (%lu)\",\"one\":\"Перенаправление устаревших ключей восстановления FileVault (%lu)\",\"other\":\"Перенаправление устаревших ключей восстановления FileVault (%lu)\",\"many\":\"Перенаправление устаревших ключей восстановления FileVault (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "ru",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Переадресація застарілого ключа відновлення FileVault (%lu)\",\"one\":\"Переадресування попереднього ключа відновлення FileVault (%lu)\",\"other\":\"Переадресація застарілого ключа відновлення FileVault (%lu)\",\"many\":\"Переадресація застарілого ключа відновлення FileVault (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "de",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Umleitung des FileVault-Wiederherstellungsschlüssels (Ältere Version)\",\"other\":\"FileVault-Wiederherstellungsschlüsselumleitungen (Ältere Version – %lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Redirecionamento da chave de recuperação da versão antiga do FileVault\",\"other\":\"Redirecionamentos de chave de recuperação da versão antiga do FileVault (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Eski FileVault Kurtarma Anahtarı Yönlendirmesi\",\"other\":\"Eski FileVault Kurtarma Anahtarı Yönlendirmeleri (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "tr",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ancienne redirection de clé de secours FileVault\",\"other\":\"Anciennes redirections de clé de secours FileVault (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "cs",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"PayloadType\":{\"few\":\"Starší verze přesměrování obnovovacího klíče pro FileVault (%lu)\",\"one\":\"Starší verze přesměrování obnovovacího klíče pro FileVault\",\"other\":\"Starší verze přesměrování obnovovacího klíče pro FileVault (%lu)\",\"many\":\"Starší verze přesměrování obnovovacího klíče pro FileVault (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Redirecionamento de Chave Reserva do FileVault Legado\",\"other\":\"Redirecionamentos de Chave Reserva do FileVault Legado (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Oude FileVault-herstelsleutel-doorverwijzing\",\"other\":\"Oude FileVault-herstelsleutel-doorverwijzingen (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "zh_HK",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"舊的「檔案保險箱」還原密鑰重新導向（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ko",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"레거시 FileVault 복구 키 재전송(%lu개)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ancienne redirection de clé de secours FileVault\",\"other\":\"Anciennes redirections de clé de secours FileVault (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Legacy FileVault Recovery Key Redirection\",\"other\":\"Legacy FileVault Recovery Key Redirections (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "vi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Chuyển hướng khóa khôi phục FileVault kế thừa (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "en",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Legacy FileVault Recovery Key Redirection\",\"other\":\"Legacy FileVault Recovery Key Redirections (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ro",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Redirecționări cheie de recuperare Legacy FileVault (%lu)\",\"one\":\"Redirecționare cheie de recuperare Legacy FileVault\",\"other\":\"Redirecționări cheie de recuperare Legacy FileVault (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"舊的「檔案保險箱」復原密鑰重新導向（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "pl",
+        "target" : "{\"PayloadType\":{\"few\":\"Starsze przekierowania kluczy odzyskiwania FileVault (%lu)\",\"one\":\"Starsze przekierowanie klucza odzyskiwania FileVault\",\"other\":\"Starsze przekierowania kluczy odzyskiwania FileVault (%lu)\",\"many\":\"Starsze przekierowania kluczy odzyskiwania FileVault (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "zh_CN",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"旧文件保险箱恢复密钥重新定向(%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"लेगसी FileVault रिकवरी-की रीडाइरेक्शन\",\"other\":\"लेगसी FileVault रिकवरी-की रीडाइरेक्शन (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "hi",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "id",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Pengalihan Kunci Pemulihan FileVault Versi Lama (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Vanhan FileVaultin palautusavaimen uudelleenohjaus\",\"other\":\"Vanhan FileVaultin palautusavaimen uudelleenohjaukset (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "fi"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Presmerovania starej verzie kľúča obnovy FileVaultu (%lu)\",\"one\":\"Presmerovanie starej verzie kľúča obnovy FileVaultu\",\"other\":\"Presmerovania starej verzie kľúča obnovy FileVaultu (%lu)\",\"many\":\"Presmerovania starej verzie kľúča obnovy FileVaultu (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      }
+    ],
+    "str_LegacyFDERedirect_InvalidEncryptionCert" : [
+      {
+        "target" : "Krypteringssertifikatet som %@-nyttelasten henviser til, er ugyldig eller har ikke støtte for kryptering.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "no"
+      },
+      {
+        "language" : "es",
+        "target" : "El certificado de encriptación al que hace referencia la carga útil “%@” no es válido o no admite encriptación.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ar",
+        "target" : "شهادة التشفير المشار إليها من قِبل الحمولة %@ غير صالحة أو لا تدعم التشفير."
+      },
+      {
+        "target" : "The encryption certificate referenced by the %@ payload is invalid or does not support encryption.",
+        "language" : "en_GB",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "אישור ההצפנה שאליו מתייחס המטען %@ אינו חוקי או שאינו תומך בהצפנה.",
+        "language" : "he",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Krypteringscertifikatet som nyttolasten %@ refererar till är ogiltigt eller stöder inte kryptering.",
+        "language" : "sv",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Il certificato di crittografia a cui fa riferimento il payload %@ non è valido o non supporta la crittografia.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "ใบรับรองการเข้ารหัสที่อ้างอิงโดยเพย์โหลด%[tt]@นั้นไม่ถูกต้องหรือไม่รองรับการเข้ารหัส",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "“%@”ペイロードで参照される暗号化証明書が無効であるか、暗号化をサポートしていません。",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ja"
+      },
+      {
+        "language" : "hr",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Enkripcijski certifikat koji se nalazi u %@ podacima nevažeći je ili ne podržava enkripciju."
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "es_419",
+        "target" : "El certificado de encriptación al que hace referencia la carga útil %@ no es válido o no es compatible con la encriptación."
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "da",
+        "target" : "Det krypteringscertifikat, der henvises til af %@-dataene, er ugyldigt eller understøtter ikke kryptering."
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Το πιστοποιητικό κρυπτογράφησης που αναφέρεται από το φορτίο %@ δεν είναι έγκυρο ή δεν υποστηρίζει κρυπτογράφηση.",
+        "language" : "el"
+      },
+      {
+        "target" : "El certificat d’encriptació referenciat per la càrrega %@ no és vàlid i no admet encriptació.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "A titkosítási tanúsítvány melyre a(z) %@ adatcsomag hivatkozik nem érvényes, vagy nem támogatja a titkosítást.",
+        "language" : "hu",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Sijil penyulitan dirujuk oleh muat beban %@ tidak sah atau tidak menyokong penyulitan.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ms"
+      },
+      {
+        "language" : "ru",
+        "target" : "Сертификат шифрования, на который ссылается полезная нагрузка «%@», недействителен или не поддерживает шифрование.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Сертифікат шифрування, на який посилається пакет %@, недійсний або не підтримує шифрування.",
+        "language" : "uk",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Das Verschlüsselungszertifikat, auf die sich die Payload „%@“ bezieht, ist ungültig oder unterstützt keine Verschlüsselung.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "de"
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "O certificado de cifragem referenciado pela carga útil %@ não é válido ou não suporta cifragem."
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "tr",
+        "target" : "%@ verisinin referans verdiği şifreleme sertifikası geçersiz veya şifrelemeyi desteklemiyor."
+      },
+      {
+        "language" : "fr",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Le certificat de chiffrement référencé par les données utiles %@ n’est pas valide ou ne prend pas en charge le chiffrement."
+      },
+      {
+        "target" : "Šifrovací certifikát, na který odkazuje datová část %@, je neplatný nebo nepodporuje šifrování.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "cs"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "O certificado de criptografia referenciado pelo payload %@ ou não oferece suporte à criptografia.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "nl",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Het versleutelingscertificaat waarnaar wordt verwezen door de payload '%@' is ongeldig of ondersteunt geen encryptie."
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "zh_HK",
+        "target" : "「%@」承載資料參照的加密證書無效，或是不支援加密。"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "%@ 페이로드가 참조하는 암호화 인증서는 유효하지 않거나 암호화가 지원되지 않습니다.",
+        "language" : "ko"
+      },
+      {
+        "target" : "Le certificat de chiffrement référencé par les données utiles %@ n’est pas valide ou ne prend pas en charge le chiffrement.",
+        "language" : "fr_CA",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "The encryption certificate referenced by the %@ payload is invalid or does not support encryption.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "vi",
+        "target" : "Chứng nhận mã hóa được tham chiếu bởi phần tải %@ sẽ không hợp lệ hoặc không hỗ trợ quá trình mã hóa."
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "The encryption certificate referenced by the %@ payload is invalid or does not support encryption.",
+        "language" : "en"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Certificatul de criptare la care se face referire prin sarcina %@ este nevalid sau nu acceptă criptarea.",
+        "language" : "ro"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "「%@」承載資料參照的加密憑證無效，或是不支援加密。",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Certyfikat szyfrowania, do którego odwołuje się pakiet danych %@, jest nieprawidłowy lub nie obsługuje szyfrowania.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "“%@”有效负载引用的加密证书无效或不支持加密。",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "language" : "hi",
+        "target" : "%@ पेलोड द्वारा संदर्भित एंक्रिप्शन सर्टिफ़िकेट अमान्य है या एंक्रिप्शन का समर्थन नहीं करता है।",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Sertifikat enkripsi yang dirujuk oleh muatan %@ tidak sah atau tidak mendukung enkripsi.",
+        "language" : "id"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "fi",
+        "target" : "Tietosisällössä %@ viitattu salausvarmenne on virheellinen tai se ei tue salausta."
+      },
+      {
+        "target" : "Šifrovací certifikát, na ktorý odkazuje objem dát %@, je neplatný alebo nepodporuje šifrovanie.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "sk"
+      }
+    ],
+    "str_MissingRequiredKey" : [
+      {
+        "language" : "no",
+        "target" : "Nyttelasten «%@» mangler den obligatoriske nøkkelen «%@».",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "La carga útil “%@” no tiene la clave “%@” necesaria.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "الحمولة \"%@\" ينقصها المفتاح \"%@\" المطلوب.",
+        "language" : "ar",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "en_GB",
+        "target" : "The payload “%@” is missing the required key “%@”."
+      },
+      {
+        "target" : "המפתח הנדרש “%2$@” לא נמצא במטען “%1$@”.",
+        "language" : "he",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Nyttolasten ”%@” saknar den krävda nyckeln ”%@”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Il payload “%@” non presenta la chiave richiesta “%@”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "เพย์โหลด “%@” ขาดกุญแจ “%@” ที่ต้องใช้",
+        "language" : "th",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "ja",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "ペイロード“%@”に、必要なキー“%@”がありません。"
+      },
+      {
+        "target" : "Podacima “%@“ nedostaje potrebni ključ “%@“.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "La carga útil “%@” no tiene la clave necesaria “%@”.",
+        "language" : "es_419",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Dataene “%@” mangler den nødvendige nøgle “%@”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "da"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "el",
+        "target" : "Το απαιτούμενο κλειδί «%2$@» λείπει από το φορτίο «%1$@»."
+      },
+      {
+        "target" : "A la càrrega útil “%@” li falta la clau necessària “%@”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ca"
+      },
+      {
+        "language" : "hu",
+        "target" : "A(z) „%@” adatcsomagból hiányzik a szükséges „%@” kulcs.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Muat beban “%@” hilang kunci “%@” yang diperlukan.",
+        "language" : "ms"
+      },
+      {
+        "target" : "В полезной нагрузке «%@» отсутствует обязательный ключ «%@».",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ru"
+      },
+      {
+        "language" : "uk",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "У пакеті «%@» немає потрібного ключа «%@»."
+      },
+      {
+        "language" : "de",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Der Payload „%@“ fehlt der erforderliche Schlüssel „%@“."
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "A carga útil “%@” não tem a chave necessária “%@”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "“%@” verisinde gerekli “%@” anahtarı yok.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Il manque la clé requise « %@ » aux données utiles « %@ ».",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "V datové části „%@“ chybí povinný klíč „%@“.",
+        "language" : "cs",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "Falta a chave “%2$@” necessária no payload “%1$@”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "In de payload '%@' ontbreekt de vereiste sleutel '%@'.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "承載資料「%@」欠缺必需的密鑰「%@」。",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "ko",
+        "target" : "'%@' 페이로드에 필수 키인 '%@'이(가) 유실되었습니다."
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Il manque la clé requise « %@ » aux données utiles « %@ ».",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "The payload “%@” is missing the required key “%@”.",
+        "language" : "en_AU",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "Phần tải “%@” thiếu khóa bắt buộc “%@”.",
+        "language" : "vi"
+      },
+      {
+        "target" : "The payload “%@” is missing the required key “%@”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Sarcina “%@” nu conține cheia necesară “%@”.",
+        "language" : "ro",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "承載資料「%@」遺失必需的密鑰「%@」。",
+        "language" : "zh_TW",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "language" : "pl",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "target" : "W pakiecie danych „%@” nie ma wymaganego klucza „%@”."
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "有效负载“%@”缺少必需的密钥“%@”。",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "पेलोड “%@” में आवश्यक “की” “%@” अनुपलब्ध है।",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Muatan “%@” kehilangan kunci “%@” yang diperlukan.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "id"
+      },
+      {
+        "language" : "fi",
+        "target" : "Tietosisällöstä %@ puuttuu vaadittu avain ”%@”.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable"
+      },
+      {
+        "target" : "V objeme dát „%@“ chýba požadovaný kľúč „%@“.",
+        "filename" : "LegacyFDERecoveryRedirect.loctable",
+        "language" : "sk"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/PrivateFrameworks\/ConfigurationProfiles.framework\/XPCServices\/FileVaultEscrowService.xpc\/Contents\/Resources\/LegacyFDERecoveryRedirect.loctable"
+}

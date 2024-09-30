@@ -1,0 +1,795 @@
+{
+  "framework" : "Filter iTunes Items 2.action",
+  "bundlePath" : "\/System\/Library\/Automator\/Filter iTunes Items 2.action",
+  "localizations" : {
+    "AMDSummary" : [
+      {
+        "language" : "tr",
+        "target" : "Bu işlem, giriş öğelerinin belirtilen ölçüte uyup uymadığını belirler.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "th",
+        "filename" : "InfoPlist.loctable",
+        "target" : "การทำงานนี้กำหนดว่ารายการข้อมูลเข้าตรงกับเกณฑ์ที่ระบุหรือไม่"
+      },
+      {
+        "language" : "da",
+        "target" : "Denne handling afgør, om de tilføjede emner opfylder de anførte kriterier.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "id",
+        "target" : "Tindakan ini menentukan apakah item memenuhi kriteria yang ditetapkan atau tidak."
+      },
+      {
+        "language" : "ar",
+        "target" : "يقوم هذا الإجراء بتحديد ما إذا كانت عناصر الإدخال تفي بالمعايير التي تم اختيارها.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "此操作会确定输入项目是否符合指定的标准。",
+        "language" : "zh_CN",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "入力項目が指定条件に一致するかどうかを判定します。",
+        "language" : "ja"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk",
+        "target" : "Táto akcia stanoví, či vstupné položky spĺňajú špecifikované kritériá."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT",
+        "target" : "Esta ação determina se os elementos introduzidos satisfazem os critérios especificados."
+      },
+      {
+        "target" : "Esta ação determina se os itens de entrada cumprem os critérios especificados.",
+        "language" : "pt_BR",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru",
+        "target" : "Данное действие определяет, соответствуют ли входные объекты выбранным критериям."
+      },
+      {
+        "target" : "Tindakan ini menentukan sama ada item input memenuhi kriteria yang ditentukan.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB",
+        "target" : "This action determines if the input items meet the specified criteria."
+      },
+      {
+        "target" : "Ovaj postupak određuje zadovoljavaju li ulazne stavke određene kriterije.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "language" : "cs",
+        "target" : "Tato akce určí, zda vstup vyhovuje zadaným kritériím.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Toiminto määrittää, täyttävätkö syötetyt kohteet määritetyt ehdot.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Aquesta acció determina si els ítems d’entrada satisfan els criteris especificats.",
+        "language" : "ca"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "此動作決定輸入的項目是否符合指定原則。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "이 동작은 입력된 항목이 지정된 기준에 부합하는지 결정합니다.",
+        "language" : "ko",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Esta acción determina si los elementos de entrada cumplen los criterios especificados.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Cette action détermine si les éléments entrés répondent aux critères indiqués.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "language" : "de",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Bei dieser Aktion wird bestimmt, ob die Eingabeobjekte den angegebenen Kriterien entsprechen."
+      },
+      {
+        "target" : "This action determines if the input items meet the specified criteria.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "這項動作決定輸入的項目是否符合指定原則。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl",
+        "target" : "Met deze taak bepaal je of de ingevoerde onderdelen voldoen aan de opgegeven criteria."
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Cette action détermine si les éléments entrés répondent aux critères indiqués.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Tác vụ này xác định xem các mục đầu vào có đáp ứng các tiêu chí được chỉ định không.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "language" : "hu",
+        "target" : "Ez a művelet meghatározza, hogy a beviteli elemek megfelelnek-e a megadott feltételeknek.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Με αυτήν την ενέργεια, προσδιορίζεται αν τα στοιχεία εισόδου πληρούν τα καθορισμένα κριτήρια.",
+        "language" : "el"
+      },
+      {
+        "target" : "Această acțiune determină dacă articolele de intrare îndeplinesc criteriile specificate.",
+        "language" : "ro",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "This action determines if the input items meet the specified criteria.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Questa azione determina se gli elementi dell’input corrispondono ai criteri specificati.",
+        "language" : "it",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Ta czynność określa, czy rzeczy wejściowe spełniają określone kryteria.",
+        "language" : "pl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Ця дія відбирає ввідні елементи за заданими критеріями.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Esta acción determina si los ítems de entrada cumplen los criterios especificados.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "language" : "hi",
+        "target" : "यह क्रिया निर्धारित करती है कि इनपुट आइटम निर्दिष्ट मानदंडों को पूरा करते हैं या नहीं।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "no",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Denne handlingen finner ut om inn-objektene tilfredsstiller de angitte kriteriene."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv",
+        "target" : "Åtgärden avgör om indataobjekten uppfyller angivna villkor."
+      },
+      {
+        "language" : "he",
+        "target" : "פעולה זו קובעת אם פריטי הקלט עונים על הקריטריונים שצוינו.",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "NSHumanReadableCopyright" : [
+      {
+        "language" : "tr",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Copyright © 2008–2012 Apple Inc. Tüm hakları saklıdır."
+      },
+      {
+        "target" : "Copyright © 2008–2012 Apple Inc.  สงวนสิทธิ์ทุกประการ",
+        "language" : "th",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2008-2012 Apple Inc. Alle rettigheder forbeholdes.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Hak Cipta © 2008–2012 Apple Inc.  Semua hak cipta dilindungi undang-undang.",
+        "language" : "id"
+      },
+      {
+        "target" : "‏‏‎Copyright © 2008–2012 Apple Inc.‎\n‏ جميع الحقوق محفوظة.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "Copyright © 2008–2012 Apple Inc. 保留一切权利。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "Copyright © 2008–2012 Apple Inc.  All rights reserved.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2008 – 2012 Apple Inc. Všetky práva vyhradené.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Copyright © 2008–2012 Apple Inc. Todos os direitos reservados.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Copyright © 2008–2012 Apple Inc. Todos os direitos reservados.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Copyright © 2008–2012 Apple Inc. Все права защищены.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru"
+      },
+      {
+        "language" : "ms",
+        "target" : "Hak Cipta © 2008–2012 Apple Inc.  Hak cipta terpelihara.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Copyright © 2008–2012 Apple Inc. All rights reserved.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Autorsko pravo © 2008. – 2012. Apple Inc.  Sva prava pridržana.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "language" : "cs",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Copyright © 2008–2012 Apple Inc. Všechna práva vyhrazena."
+      },
+      {
+        "language" : "fi",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Copyright © 2008–2012 Apple Inc. Kaikki oikeudet pidätetään."
+      },
+      {
+        "target" : "Copyright © 2008–2012 Apple Inc. Tots els drets reservats.",
+        "language" : "ca",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2008–2012 Apple Inc. 保留一切權利。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Copyright © 2008–2012 Apple Inc.  모든 권리 보유.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Copyright © 2008–2012 Apple Inc. Todos los derechos reservados.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Copyright © 2008–2012 Apple Inc. Tous droits réservés.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Copyright © 2008–2012 Apple Inc. Alle Rechte vorbehalten.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "de"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "en",
+        "target" : "Copyright © 2008–2012 Apple Inc.  All rights reserved."
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Copyright © 2008–2012 Apple Inc. 保留一切權利。"
+      },
+      {
+        "target" : "Copyright © 2008–2012 Apple Inc. Alle rechten voorbehouden.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Copyright © 2008–2012 Apple Inc. Tous droits réservés.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Copyright © 2008–2012 Apple Inc.  Mọi quyền được bảo lưu.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu",
+        "target" : "Copyright © 2008–2012 Apple Inc. Minden jog fenntartva."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Πνευματικά δικαιώματα © 2008–2012 Apple Inc. Με επιφύλαξη κάθε δικαιώματος.",
+        "language" : "el"
+      },
+      {
+        "language" : "ro",
+        "target" : "Copyright © 2008-2012 Apple Inc. Toate drepturile rezervate.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Copyright © 2008–2012 Apple Inc.  All rights reserved.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "it",
+        "target" : "Copyright © 2008–2012 Apple Inc. Tutti i diritti riservati."
+      },
+      {
+        "target" : "Copyright © 2008–2012 Apple Inc. Wszystkie prawa zastrzeżone.",
+        "language" : "pl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk",
+        "target" : "© 2008–2012 Apple Inc.  Усі права захищено."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "es",
+        "target" : "Copyright © 2008–2012 Apple Inc. Todos los derechos reservados."
+      },
+      {
+        "target" : "कॉपीराइट © 2008–2012 Apple Inc.  सर्वाधिकार सुरक्षित।",
+        "language" : "hi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "no",
+        "target" : "Copyright © 2008–2012 Apple Inc. Alle rettigheter forbeholdes."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv",
+        "target" : "Copyright © 2008–2012 Apple Inc. Alla rättigheter förbehålls."
+      },
+      {
+        "language" : "he",
+        "target" : "‏© 2008–2012 Apple Inc.‎ כל הזכויות שמורות.",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "AMName" : [
+      {
+        "language" : "tr",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Müzik Öğelerini Filtrele"
+      },
+      {
+        "target" : "ฟิลเตอร์รายการเพลง",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "language" : "da",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Filtrer emner i Musik"
+      },
+      {
+        "language" : "id",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Filter Item Musik"
+      },
+      {
+        "language" : "ar",
+        "target" : "تصفية عناصر الموسيقى",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "过滤音乐项目",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja",
+        "target" : "ミュージック項目にフィルタを適用"
+      },
+      {
+        "language" : "sk",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Filtrovať hudobné položky"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT",
+        "target" : "Filtrar elementos de Música"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Filtrar Itens do app Música",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru",
+        "target" : "Фильтровать объекты Музыки"
+      },
+      {
+        "target" : "Tapis Item Muzik",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB",
+        "target" : "Filter Music Items"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr",
+        "target" : "Filtriranje glazbenih stavki"
+      },
+      {
+        "language" : "cs",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Filtrovat položky aplikace Hudba"
+      },
+      {
+        "target" : "Suodata Musiikki-kohteita",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Filtrar ítems de l’app Música",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK",
+        "target" : "過濾音樂項目"
+      },
+      {
+        "language" : "ko",
+        "filename" : "InfoPlist.loctable",
+        "target" : "음악 앱의 항목 필터"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419",
+        "target" : "Filtrar elementos de Música"
+      },
+      {
+        "language" : "fr",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Filtrer les éléments Musique"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "de",
+        "target" : "„Musik“-Objekte filtern"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Filter Music Items",
+        "language" : "en"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW",
+        "target" : "過濾「音樂」項目"
+      },
+      {
+        "language" : "nl",
+        "target" : "Filter Muziek-onderdelen",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Filtrer les éléments de Musique",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Lọc mục Nhạc",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "A Zene elemeinek szűrése",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Φιλτράρισμα στοιχείων Μουσικής"
+      },
+      {
+        "target" : "Filtrare articole Muzică",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Filter Music Items",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Filtra elementi di Musica",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pl",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Filtruj rzeczy aplikacji Muzyka"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk",
+        "target" : "Фільтрувати елементи Музики"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "es",
+        "target" : "Filtrar ítems de Música"
+      },
+      {
+        "target" : "संगीत आइटम फ़िल्टर करें",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "language" : "no",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Filtrer objekter i Musikk"
+      },
+      {
+        "language" : "sv",
+        "target" : "Filtrera Musik-objekt",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "סנן פריטים של ״מוזיקה״",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      }
+    ],
+    "CFBundleName" : [
+      {
+        "target" : "Müzik Öğelerini Filtrele",
+        "language" : "tr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "ฟิลเตอร์รายการเพลง",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "Filtrer emner i Musik",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "Filter Item Musik",
+        "language" : "id",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "تصفية عناصر الموسيقى",
+        "language" : "ar",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "过滤音乐项目",
+        "language" : "zh_CN",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "ミュージック項目にフィルタを適用",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja"
+      },
+      {
+        "language" : "sk",
+        "target" : "Filtrovať hudobné položky",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Filtrar elementos de Música",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Filtrar Itens do app Música",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "language" : "ru",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Фильтровать объекты Музыки"
+      },
+      {
+        "language" : "ms",
+        "target" : "Tapis Item Muzik",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Filter Music Items",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Filtriranje glazbenih stavki",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Filtrovat položky aplikace Hudba",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Suodata Musiikki-kohteita",
+        "language" : "fi"
+      },
+      {
+        "language" : "ca",
+        "target" : "Filtrar ítems de l’app Música",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "過濾音樂項目",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "음악 앱의 항목 필터",
+        "language" : "ko",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Filtrar elementos de Música",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr",
+        "target" : "Filtrer les éléments Musique"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "de",
+        "target" : "„Musik“-Objekte filtern"
+      },
+      {
+        "language" : "en",
+        "target" : "Filter Music Items",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW",
+        "target" : "過濾「音樂」項目"
+      },
+      {
+        "target" : "Filter Muziek-onderdelen",
+        "language" : "nl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Filtrer les éléments de Musique",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "language" : "vi",
+        "target" : "Lọc mục Nhạc",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "A Zene elemeinek szűrése",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Φιλτράρισμα στοιχείων Μουσικής",
+        "language" : "el",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro",
+        "target" : "Filtrare articole Muzică"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Filter Music Items"
+      },
+      {
+        "language" : "it",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Filtra elementi di Musica"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl",
+        "target" : "Filtruj rzeczy aplikacji Muzyka"
+      },
+      {
+        "target" : "Фільтрувати елементи Музики",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "es",
+        "target" : "Filtrar ítems de Música"
+      },
+      {
+        "target" : "संगीत आइटम फ़िल्टर करें",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "language" : "no",
+        "target" : "Filtrer objekter i Musikk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Filtrera Musik-objekt",
+        "language" : "sv"
+      },
+      {
+        "language" : "he",
+        "filename" : "InfoPlist.loctable",
+        "target" : "סנן פריטים של ״מוזיקה״"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/Automator\/Filter iTunes Items 2.action\/Contents\/Resources\/InfoPlist.loctable"
+}
