@@ -1,0 +1,528 @@
+{
+  "framework" : "HeartRateBridgePlugin.bundle",
+  "localizations" : {
+    "HR_LOW_NOTIFICATIONS_FEATURE_TITLE" : [
+      {
+        "target" : "Niedr. Herzfrequenz-Mitteilungen",
+        "filename" : "Localizable.strings",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en_AU",
+        "target" : "Low Heart Rate Notifications"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "ar",
+        "target" : "إشعارات انخفاض معدل نبض القلب"
+      },
+      {
+        "language" : "ja",
+        "filename" : "Localizable.strings",
+        "target" : "低心拍数の通知"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en",
+        "target" : "Low Heart Rate Notifications"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "Localizable.strings",
+        "target" : "Notificaciones de frecuencia baja"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN",
+        "target" : "低心率通知"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Notificaciones de frecuencia cardiaca baja",
+        "language" : "es"
+      },
+      {
+        "language" : "it",
+        "filename" : "Localizable.strings",
+        "target" : "Notifiche frequenza ridotta"
+      },
+      {
+        "language" : "en_IN",
+        "filename" : "Localizable.strings",
+        "target" : "Low Heart Rate Notifications"
+      },
+      {
+        "language" : "ko",
+        "target" : "저심박수 알림",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "低心率通知",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "低心率通知",
+        "language" : "zh_TW",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es_US",
+        "target" : "Notificaciones de frecuencia baja"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Low Heart Rate Notifications",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Notif. de fréquence cardiaque faible",
+        "language" : "fr_CA",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Notif. de fréquence cardiaque faible",
+        "filename" : "Localizable.strings",
+        "language" : "fr"
+      }
+    ],
+    "HR_HIGH_NOTIFICATIONS_FEATURE_MESSAGE" : [
+      {
+        "language" : "de",
+        "target" : "Du erhältst eine Mitteilung, falls die Apple Watch eine Herzfrequenz erfasst, die auf mehr als 120 BPM ansteigt, wenn du 10 Minuten inaktiv warst.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "Localizable.strings",
+        "target" : "Receive a notification if Apple Watch detects a heart rate that rises above 120 BPM while you’re inactive for 10 minutes."
+      },
+      {
+        "target" : "ستتلقى إشعارًا إذا اكتشفت Apple Watch ارتفاعًا في معدل نبض القلب فوق\n١٢٠ نبضة\/د عندما تكون غير نشط لمدة ١٠ دقائق.",
+        "filename" : "Localizable.strings",
+        "language" : "ar"
+      },
+      {
+        "language" : "ja",
+        "filename" : "Localizable.strings",
+        "target" : "安静時が10分間続いているときに、心拍数が120拍\/分より上がっている状態がApple Watchで検出された場合に通知が送信されます。"
+      },
+      {
+        "language" : "en",
+        "target" : "Receive a notification if Apple Watch detects a heart rate that rises above 120 BPM while you’re inactive for 10 minutes.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Recibirás una notificación si el Apple Watch detecta una frecuencia cardiaca superior a 120 LPM cuando no tienes actividad durante 10 minutos.",
+        "language" : "es_419"
+      },
+      {
+        "target" : "如果Apple Watch检测到非活跃状态下心率超过每分钟120次达10分钟时，接收通知。",
+        "language" : "zh_CN",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "es",
+        "filename" : "Localizable.strings",
+        "target" : "Recibe una notificación si el Apple Watch registra una frecuencia cardiaca superior a 120 lpm y no detecta actividad durante 10 minutos."
+      },
+      {
+        "language" : "it",
+        "target" : "Apple Watch ti invia una notifica se rileva che la frequenza cardiaca quando sei a riposo per 10 minuti consecutivi supera i 120 BPM.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "Receive a notification if Apple Watch detects a heart rate that rises above 120 bpm while you’re inactive for 10 minutes.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "ko",
+        "target" : "10분 동안 활동이 없는 것으로 보이는 상태에서 심박수가 120BPM 이상으로 오른 것을 Apple Watch가 감지하는 경우 알림을 받습니다.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "Localizable.strings",
+        "target" : "如果你已進行靜態活動10分鐘，而Apple Watch檢測到心率超過120次\/分，你將收到通知。"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "Localizable.strings",
+        "target" : "在你從事靜態活動期間，若Apple Watch偵測到心率超過120下\/分長達10分鐘時，即會傳送通知。"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es_US",
+        "target" : "Recibirás una notificación si el Apple Watch detecta una frecuencia cardiaca superior a 120 LPM cuando no tienes actividad durante 10 minutos."
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Receive a notification if Apple Watch detects a heart rate that rises above 120 bpm while you’re inactive for 10 minutes.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Recevez une notification lorsque l’Apple Watch détecte une fréquence cardiaque supérieure à 120 bpm alors que vous êtes au repos depuis 10 minutes.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "fr",
+        "target" : "Recevez une notification si votre Apple Watch détecte une fréquence cardiaque supérieure à 120 BPM après 10 minutes d’inactivité.",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "HR_LOW_NOTIFICATIONS_FEATURE_MESSAGE" : [
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Du erhältst eine Mitteilung, falls die Apple Watch eine Herzfrequenz erfasst, die 10 Minuten lang unter 40 BPM abfällt.",
+        "language" : "de"
+      },
+      {
+        "target" : "Receive a notification if Apple Watch detects a heart rate that falls below 40 BPM for 10 minutes.",
+        "filename" : "Localizable.strings",
+        "language" : "en_AU"
+      },
+      {
+        "language" : "ar",
+        "target" : "ستتلقى إشعارًا إذا اكتشفت Apple Watch انخفاضًا في معدل نبض القلب إلى أقل من ٤٠ نبضة\/د لمدة ١٠ دقائق.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "心拍数が40拍\/分より下がっている状態が10分間続いたことがApple Watchで検出された場合に通知が送信されます。",
+        "language" : "ja"
+      },
+      {
+        "target" : "Receive a notification if Apple Watch detects a heart rate that falls below 40 BPM for 10 minutes.",
+        "language" : "en",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es_419",
+        "target" : "Recibirás una notificación si el Apple Watch detecta una frecuencia cardiaca que sea inferior a 40 LPM durante 10 minutos."
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "Localizable.strings",
+        "target" : "如果Apple Watch检测到心率低于每分钟40次达10分钟时，接收通知。"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es",
+        "target" : "Recibe una notificación si el Apple Watch detecta una frecuencia cardiaca inferior a 40 lpm durante 10 minutos."
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Apple Watch ti invia una notifica se rileva che la tua frequenza cardiaca è inferiore a 40 BPM per 10 minuti.",
+        "language" : "it"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "Receive a notification if Apple Watch detects a heart rate that falls below 40 bpm for 10 minutes.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "ko",
+        "filename" : "Localizable.strings",
+        "target" : "10분 동안 심박수가 40BPM 미만으로 떨어진 것을 Apple Watch가 감지하는 경우 알림을 받습니다."
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "Localizable.strings",
+        "target" : "如Apple Watch檢測到心率每分鐘低於40次並持續長達10分鐘，你會收到通知。"
+      },
+      {
+        "target" : "若Apple Watch偵測到心率低於40下\/分長達10分鐘時，即會傳送通知。",
+        "language" : "zh_TW",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "es_US",
+        "target" : "Recibirás una notificación si el Apple Watch detecta una frecuencia cardiaca que sea inferior a 40 LPM durante 10 minutos.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en_GB",
+        "target" : "Receive a notification if Apple Watch detects a heart rate that falls below 40 bpm for 10 minutes."
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Recevez une notification lorsque l’Apple Watch détecte une fréquence cardiaque inférieure à 40 bpm pendant 10 minutes.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "fr",
+        "filename" : "Localizable.strings",
+        "target" : "Recevez une notification si votre Apple Watch détecte une fréquence cardiaque inférieure à 40 BPM pendant 10 minutes."
+      }
+    ],
+    "HR_HIGH_NOTIFICATIONS_FEATURE_TITLE" : [
+      {
+        "language" : "de",
+        "filename" : "Localizable.strings",
+        "target" : "Hohe Herzfrequenz-Mitteilungen"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en_AU",
+        "target" : "High Heart Rate Notifications"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "ar",
+        "target" : "إشعارات ارتفاع معدل نبض القلب"
+      },
+      {
+        "target" : "高心拍数の通知",
+        "language" : "ja",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en",
+        "target" : "High Heart Rate Notifications"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "Localizable.strings",
+        "target" : "Notificaciones de frecuencia alta"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN",
+        "target" : "高心率通知"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Notificaciones de frecuencia cardiaca alta",
+        "language" : "es"
+      },
+      {
+        "target" : "Notifiche frequenza elevata",
+        "language" : "it",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "High Heart Rate Notifications",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "고심박수 알림",
+        "filename" : "Localizable.strings",
+        "language" : "ko"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "高心率通知",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "高心率通知",
+        "filename" : "Localizable.strings",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Notificaciones de frecuencia alta",
+        "language" : "es_US"
+      },
+      {
+        "target" : "High Heart Rate Notifications",
+        "filename" : "Localizable.strings",
+        "language" : "en_GB"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "Localizable.strings",
+        "target" : "Notif. de fréquence cardiaque élevée"
+      },
+      {
+        "language" : "fr",
+        "target" : "Notif. de fréquence cardiaque élevée",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "HR_MODE_GETTING_STARTED_GET_STARTED" : [
+      {
+        "language" : "de",
+        "filename" : "Localizable.strings",
+        "target" : "Fortfahren"
+      },
+      {
+        "target" : "Continue",
+        "filename" : "Localizable.strings",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "متابعة",
+        "filename" : "Localizable.strings",
+        "language" : "ar"
+      },
+      {
+        "target" : "続ける",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en",
+        "target" : "Continue"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Continuar",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "继续",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Continuar",
+        "language" : "es"
+      },
+      {
+        "language" : "it",
+        "target" : "Continua",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en_IN",
+        "target" : "Continue"
+      },
+      {
+        "language" : "ko",
+        "target" : "계속",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "繼續",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "zh_TW",
+        "target" : "繼續"
+      },
+      {
+        "language" : "es_US",
+        "filename" : "Localizable.strings",
+        "target" : "Continuar"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Continue",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Continuer",
+        "language" : "fr_CA",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "fr",
+        "filename" : "Localizable.strings",
+        "target" : "Continuer"
+      }
+    ],
+    "HR_MODE_GETTING_STARTED_TITLE" : [
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Herzfrequenz-Mitteilungen",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en_AU",
+        "target" : "Heart Rate Notifications"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "ar",
+        "target" : "إشعارات معدل نبض القلب"
+      },
+      {
+        "language" : "ja",
+        "filename" : "Localizable.strings",
+        "target" : "心拍数の通知"
+      },
+      {
+        "target" : "Heart Rate Notifications",
+        "language" : "en",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Notificaciones de frecuencia cardiaca",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN",
+        "target" : "心率通知"
+      },
+      {
+        "target" : "Notificaciones de frecuencia cardiaca",
+        "filename" : "Localizable.strings",
+        "language" : "es"
+      },
+      {
+        "target" : "Notifiche frequenza cardiaca",
+        "language" : "it",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en_IN",
+        "target" : "Heart Rate Notifications"
+      },
+      {
+        "language" : "ko",
+        "filename" : "Localizable.strings",
+        "target" : "심박수 알림"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "心率通知",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "心率通知",
+        "filename" : "Localizable.strings",
+        "language" : "zh_TW"
+      },
+      {
+        "language" : "es_US",
+        "filename" : "Localizable.strings",
+        "target" : "Notificaciones de frecuencia cardiaca"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Heart Rate Notifications",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Notifications de fréquence cardiaque",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Notifications de fréquence cardiaque",
+        "language" : "fr"
+      }
+    ]
+  },
+  "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N840\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.2.simruntime\/Contents\/Resources\/RuntimeRoot\/System\/Library\/NanoPreferenceBundles\/SetupBundles\/HeartRateBridgePlugin.bundle"
+}

@@ -1,0 +1,776 @@
+{
+  "framework" : "MediaControlsModuleWolf.bundle",
+  "localizations" : {
+    "TRANSPORT_BUTTON_PAUSE_AX_LABEL" : [
+      {
+        "target" : "Anhalten",
+        "language" : "de",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en_AU",
+        "target" : "Pause"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "ar",
+        "target" : "إيقاف مؤقت"
+      },
+      {
+        "target" : "一時停止",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "language" : "en",
+        "filename" : "Localizable.strings",
+        "target" : "Pause"
+      },
+      {
+        "target" : "Pausar",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "暂停",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es",
+        "target" : "Pausar"
+      },
+      {
+        "language" : "it",
+        "filename" : "Localizable.strings",
+        "target" : "Metti in pausa"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "ko",
+        "target" : "일시 정지"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "暫停",
+        "language" : "zh_HK"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "Localizable.strings",
+        "target" : "暫停"
+      },
+      {
+        "target" : "Pause",
+        "filename" : "Localizable.strings",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "fr_CA",
+        "target" : "Pause"
+      },
+      {
+        "language" : "fr",
+        "target" : "Mettre en pause",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "VOLUME_SLIDER_AX_LABEL" : [
+      {
+        "language" : "de",
+        "target" : "Lautstärke",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Volume",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "ar",
+        "target" : "مستوى الصوت",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "ja",
+        "target" : "音量"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en",
+        "target" : "Volume"
+      },
+      {
+        "target" : "Volumen",
+        "language" : "es_419",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "音量",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Volumen",
+        "filename" : "Localizable.strings",
+        "language" : "es"
+      },
+      {
+        "language" : "it",
+        "filename" : "Localizable.strings",
+        "target" : "Volume"
+      },
+      {
+        "language" : "ko",
+        "target" : "음량",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "音量",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "音量",
+        "filename" : "Localizable.strings",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en_GB",
+        "target" : "Volume"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "fr_CA",
+        "target" : "Volume"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Volume",
+        "language" : "fr"
+      }
+    ],
+    "TRACK_POSITION_AX_VALUE" : [
+      {
+        "language" : "de",
+        "target" : "%@ von %@",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "Localizable.strings",
+        "target" : "%@ of %@"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "ar",
+        "target" : "%@ من %@"
+      },
+      {
+        "target" : "%2$@のうちの%1$@経過",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "language" : "en",
+        "filename" : "Localizable.strings",
+        "target" : "%@ of %@"
+      },
+      {
+        "language" : "es_419",
+        "target" : "%@ de %@",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "%@（共%@）",
+        "language" : "zh_CN",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "%@ de %@",
+        "language" : "es",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "it",
+        "target" : "%@ di %@",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "%2$@ 중 %1$@",
+        "filename" : "Localizable.strings",
+        "language" : "ko"
+      },
+      {
+        "target" : "%@\/%@",
+        "filename" : "Localizable.strings",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "zh_TW",
+        "target" : "%@（共%@）"
+      },
+      {
+        "target" : "%@ of %@",
+        "language" : "en_GB",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "Localizable.strings",
+        "target" : "%@ sur %@"
+      },
+      {
+        "target" : "%@ sur %@",
+        "filename" : "Localizable.strings",
+        "language" : "fr"
+      }
+    ],
+    "TRANSPORT_BUTTON_PLAY_AX_LABEL" : [
+      {
+        "target" : "Wiedergabe",
+        "filename" : "Localizable.strings",
+        "language" : "de"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Play",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "لعب",
+        "filename" : "Localizable.strings",
+        "language" : "ar"
+      },
+      {
+        "language" : "ja",
+        "filename" : "Localizable.strings",
+        "target" : "再生"
+      },
+      {
+        "language" : "en",
+        "target" : "Play",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Reproducir",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "Localizable.strings",
+        "target" : "播放"
+      },
+      {
+        "target" : "Reproducir",
+        "filename" : "Localizable.strings",
+        "language" : "es"
+      },
+      {
+        "language" : "it",
+        "target" : "Riproduci",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "ko",
+        "target" : "재생",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "播放",
+        "filename" : "Localizable.strings",
+        "language" : "zh_HK"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "Localizable.strings",
+        "target" : "播放"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Play",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "fr_CA",
+        "target" : "Lecture"
+      },
+      {
+        "language" : "fr",
+        "filename" : "Localizable.strings",
+        "target" : "Lire"
+      }
+    ],
+    "TRANSPORT_BUTTON_STOP_AX_LABEL" : [
+      {
+        "language" : "de",
+        "filename" : "Localizable.strings",
+        "target" : "Stoppen"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "Localizable.strings",
+        "target" : "Stop"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "إيقاف",
+        "language" : "ar"
+      },
+      {
+        "language" : "ja",
+        "target" : "停止",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en",
+        "target" : "Stop"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Detener",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN",
+        "target" : "停止"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Detener",
+        "language" : "es"
+      },
+      {
+        "target" : "Interrompi",
+        "filename" : "Localizable.strings",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "중단",
+        "language" : "ko"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "停止",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "停止",
+        "language" : "zh_TW",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Stop",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Arrêt",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Arrêter",
+        "language" : "fr",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "MEDIA_CONTROLS_TOOLTIP" : [
+      {
+        "target" : "Jetzt läuft",
+        "language" : "de",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "Localizable.strings",
+        "target" : "Now Playing"
+      },
+      {
+        "language" : "ar",
+        "target" : "يتم الآن تشغيل",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "ja",
+        "target" : "再生中",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Now Playing",
+        "language" : "en"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "Localizable.strings",
+        "target" : "En reproducción"
+      },
+      {
+        "target" : "播放中",
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es",
+        "target" : "Ahora suena"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "it",
+        "target" : "In riproduzione"
+      },
+      {
+        "target" : "지금 재생 중",
+        "filename" : "Localizable.strings",
+        "language" : "ko"
+      },
+      {
+        "target" : "播放中",
+        "filename" : "Localizable.strings",
+        "language" : "zh_HK"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "播放中",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Now Playing",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "En lecture",
+        "language" : "fr_CA"
+      },
+      {
+        "language" : "fr",
+        "target" : "À l’écoute",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "TRANSPORT_BUTTON_FORWARD_AX_LABEL" : [
+      {
+        "filename" : "Localizable.strings",
+        "language" : "de",
+        "target" : "Nächster Titel"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Next Track",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "ar",
+        "filename" : "Localizable.strings",
+        "target" : "المسار التالي"
+      },
+      {
+        "language" : "ja",
+        "target" : "次のトラック",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Next Track",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es_419",
+        "target" : "Siguiente pista"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "下一首",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "es",
+        "filename" : "Localizable.strings",
+        "target" : "Pista siguiente"
+      },
+      {
+        "language" : "it",
+        "target" : "Traccia successiva",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "다음 트랙",
+        "language" : "ko"
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "Localizable.strings",
+        "target" : "下一首"
+      },
+      {
+        "target" : "下一首",
+        "filename" : "Localizable.strings",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Next Track",
+        "filename" : "Localizable.strings",
+        "language" : "en_GB"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "Localizable.strings",
+        "target" : "Piste suivante"
+      },
+      {
+        "language" : "fr",
+        "filename" : "Localizable.strings",
+        "target" : "Piste suivante"
+      }
+    ],
+    "TRACK_POSITION_AX_LABEL" : [
+      {
+        "target" : "Spur-Position",
+        "language" : "de",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en_AU",
+        "target" : "Track Position"
+      },
+      {
+        "language" : "ar",
+        "filename" : "Localizable.strings",
+        "target" : "موضع المسار"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "トラックの位置",
+        "language" : "ja"
+      },
+      {
+        "language" : "en",
+        "target" : "Track Position",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es_419",
+        "target" : "Posición de la pista"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN",
+        "target" : "音轨位置"
+      },
+      {
+        "target" : "Posición en la pista",
+        "filename" : "Localizable.strings",
+        "language" : "es"
+      },
+      {
+        "language" : "it",
+        "target" : "Posizione traccia",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "ko",
+        "target" : "트랙 위치"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "zh_HK",
+        "target" : "音軌位置"
+      },
+      {
+        "target" : "音軌位置",
+        "language" : "zh_TW",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Track Position",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "fr_CA",
+        "target" : "Position de la piste"
+      },
+      {
+        "target" : "Position de la piste",
+        "filename" : "Localizable.strings",
+        "language" : "fr"
+      }
+    ],
+    "MEDIA_CONTROLS_TITLE" : [
+      {
+        "target" : "Jetzt läuft",
+        "language" : "de",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en_AU",
+        "target" : "Now Playing"
+      },
+      {
+        "target" : "يتم الآن تشغيل",
+        "filename" : "Localizable.strings",
+        "language" : "ar"
+      },
+      {
+        "language" : "ja",
+        "target" : "再生中",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en",
+        "target" : "Now Playing"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "Localizable.strings",
+        "target" : "En reproducción"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "Localizable.strings",
+        "target" : "播放中"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es",
+        "target" : "Ahora suena"
+      },
+      {
+        "language" : "it",
+        "filename" : "Localizable.strings",
+        "target" : "In riproduzione"
+      },
+      {
+        "language" : "ko",
+        "filename" : "Localizable.strings",
+        "target" : "지금 재생 중"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "播放中",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "播放中",
+        "language" : "zh_TW",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Now Playing",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "fr_CA",
+        "target" : "En lecture"
+      },
+      {
+        "target" : "À l’écoute",
+        "language" : "fr",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "TRANSPORT_BUTTON_BACKWARD_AX_LABEL" : [
+      {
+        "filename" : "Localizable.strings",
+        "language" : "de",
+        "target" : "Vorheriger Titel"
+      },
+      {
+        "target" : "Previous Track",
+        "language" : "en_AU",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "ar",
+        "target" : "المسار السابق",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "前のトラック",
+        "filename" : "Localizable.strings",
+        "language" : "ja"
+      },
+      {
+        "language" : "en",
+        "filename" : "Localizable.strings",
+        "target" : "Previous Track"
+      },
+      {
+        "target" : "Pista anterior",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "上一首",
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Pista anterior",
+        "language" : "es"
+      },
+      {
+        "language" : "it",
+        "target" : "Traccia precedente",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "이전 트랙",
+        "language" : "ko",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "Localizable.strings",
+        "target" : "上一首"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "上一首",
+        "language" : "zh_TW"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Previous Track",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Piste précédente",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "fr",
+        "target" : "Piste précédente"
+      }
+    ]
+  },
+  "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N840\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.2.simruntime\/Contents\/Resources\/RuntimeRoot\/System\/Library\/ControlCenter\/Bundles\/Muse\/MediaControlsModuleWolf.bundle"
+}

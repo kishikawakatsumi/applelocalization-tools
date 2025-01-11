@@ -1,0 +1,83 @@
+{
+  "framework" : "IntelligenceFlowPlannerRuntime.framework",
+  "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22K154\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.2.simruntime\/Contents\/Resources\/RuntimeRoot\/System\/Library\/PrivateFrameworks\/IntelligenceFlowPlannerRuntime.framework",
+  "localizations" : {
+    "failure" : [
+      {
+        "language" : "en",
+        "target" : "The tool has produced an error.",
+        "filename" : "ResponseGenerationPromptReasoning.strings"
+      }
+    ],
+    "successSearch" : [
+      {
+        "language" : "en",
+        "target" : "This is a successful result from the search tool. Both query and response manifest can be used to form the response.",
+        "filename" : "ResponseGenerationPromptReasoning.strings"
+      }
+    ],
+    "successAll" : [
+      {
+        "filename" : "ResponseGenerationPromptReasoning.strings",
+        "language" : "en",
+        "target" : "This is a successful result where most or all information from the response manifest is necessary."
+      }
+    ],
+    "parameterDisambiguation" : [
+      {
+        "target" : "This result is a simple case of value disambiguation.",
+        "filename" : "ResponseGenerationPromptReasoning.strings",
+        "language" : "en"
+      }
+    ],
+    "successEmpty" : [
+      {
+        "target" : "This is a successful result with an empty response manifest. So tool name and description will be used to form the response.",
+        "language" : "en",
+        "filename" : "ResponseGenerationPromptReasoning.strings"
+      }
+    ],
+    "parameterNeedsValue" : [
+      {
+        "language" : "en",
+        "target" : "This is a request value result. The response needs to request a value from the user.",
+        "filename" : "ResponseGenerationPromptReasoning.strings"
+      }
+    ],
+    "toolDisambiguation" : [
+      {
+        "target" : "This result contains multiple tools, so names of all tools will be used to form the response.",
+        "language" : "en",
+        "filename" : "ResponseGenerationPromptReasoning.strings"
+      }
+    ],
+    "parameterConfirmation" : [
+      {
+        "language" : "en",
+        "target" : "This is a confirm value result. The response needs to confirm the given value with the user.",
+        "filename" : "ResponseGenerationPromptReasoning.strings"
+      }
+    ],
+    "successSelective" : [
+      {
+        "target" : "This is a successful result with many parameter values, so selecting information from the response manifest may be necessary.",
+        "filename" : "ResponseGenerationPromptReasoning.strings",
+        "language" : "en"
+      }
+    ],
+    "reasonSuffix" : [
+      {
+        "target" : "The final response is as follows:",
+        "language" : "en",
+        "filename" : "ResponseGenerationPromptReasoning.strings"
+      }
+    ],
+    "actionConfirmation" : [
+      {
+        "filename" : "ResponseGenerationPromptReasoning.strings",
+        "language" : "en",
+        "target" : "This is a confirm action result. The response needs to confirm the given action with the user."
+      }
+    ]
+  }
+}

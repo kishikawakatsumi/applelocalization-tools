@@ -1,0 +1,942 @@
+{
+  "framework" : "DMCEnrollmentProvider.framework",
+  "localizations" : {
+    "DMC_PROFILE_EXPIRING_CERT_REENROLL" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en",
+        "target" : "This profile contains a certificate that will expire in less than 14 days. Update this profile for a newer version."
+      },
+      {
+        "language" : "sl",
+        "target" : "Ta profil vsebuje potrdilo, ki bo poteklo v manj kot 14 dneh. Posodobite ga na novejšo različico.",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_ORGANIZATION" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en",
+        "target" : "Organization"
+      },
+      {
+        "language" : "sl",
+        "target" : "Organizacija",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_PROFILE_REMOVAL_PASSWORD" : [
+      {
+        "target" : "Profile Removal Password",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Geslo za odstranitev profila",
+        "language" : "sl"
+      }
+    ],
+    "DMC_CONFIGURATIONS_SECTION_PROFILES" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en",
+        "target" : "Profiles"
+      },
+      {
+        "target" : "Profili",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_MANAGED_BOOK_HAS_NO_RESTRICTIONS" : [
+      {
+        "target" : "This book is not restricted in any way.",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "sl",
+        "target" : "Ta knjiga ni omejena na noben način.",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_CONSENT_NOTICES_%@" : [
+      {
+        "target" : "%@ Consent Notices",
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Obvestila o soglasju za %@"
+      }
+    ],
+    "DMC_MANAGED_APP_CANNOT_BE_HIDDEN" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "App cannot be hidden.",
+        "language" : "en"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "App cannot be hidden.",
+        "language" : "sl"
+      }
+    ],
+    "DMC_MANAGED_APP_TAP_TO_SCREEN_LOCK_ENABLED" : [
+      {
+        "target" : "Tap to Pay screen lock is enabled for this app.",
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Za to aplikacijo je omogočeno zaklepanje zaslona funkcije Tap to Pay."
+      }
+    ],
+    "DMC_INSTALL_CONSENT_MESSAGE_FROM_%@" : [
+      {
+        "target" : "Message from “%@”",
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "target" : "Sporočilo od »%@«",
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_CONFIGURATIONS_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Configurations",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Konfiguracije",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_PROFILE_TRUST_NOT_VERIFIED" : [
+      {
+        "target" : "Not Verified",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "sl",
+        "target" : "Ni preverjeno",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_PROFILE_EXPIRED_REENROLL" : [
+      {
+        "target" : "This profile has expired. Update this profile for a newer version.",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "sl",
+        "target" : "Ta profil je potekel. Posodobite ga na novejšo različico.",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_POLL_HRN_TITLE" : [
+      {
+        "target" : "Poll Now",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Anketiraj zdaj",
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_GENERAL_NEXT" : [
+      {
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Next"
+      },
+      {
+        "language" : "sl",
+        "target" : "Naprej",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_MANAGED_BOOK_WILL_BE_REMOVED" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en",
+        "target" : "Book, notes, and highlights will be removed when device is no longer managed."
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Ko naprava ne bo več upravljana, bodo knjiga, zapiski in označbe odstranjene."
+      }
+    ],
+    "DMC_MANAGED_APP_USES_CELLULAR_SLICE" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en",
+        "target" : "App will use a cellular slice for network access."
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Aplikacija bo za omrežni dostop uporabila mobilni segment."
+      }
+    ],
+    "DMC_CONFIGURATIONS_SECTION_PASSCODE" : [
+      {
+        "target" : "Passcode",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Koda za dostop",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_GENERAL_DETAILS" : [
+      {
+        "target" : "Details",
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "target" : "Podrobnosti",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_MANAGED_APP_HAS_NO_RESTRICTIONS" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "This app is not restricted in any way.",
+        "language" : "en"
+      },
+      {
+        "target" : "Ta aplikacija ni omejena na noben način.",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_PROFILE_REMOVE_UNINSTALLED_TITLE" : [
+      {
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Remove Downloaded Profile"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Odstranjevanje prenesenega profila"
+      }
+    ],
+    "DMC_PROFILE_DETAILS_APPS" : [
+      {
+        "target" : "Apps",
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Aplikacije",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_MDM_LEAVE_REMOTE_MANAGEMENT" : [
+      {
+        "target" : "Leave Remote Management",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "sl",
+        "target" : "Zapusti oddaljeno upravljanje",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_MANAGED_APP_CANNOT_BE_LOCKED" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "App cannot be locked.",
+        "language" : "en"
+      },
+      {
+        "target" : "App cannot be locked.",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_CONSENT_NOTICES" : [
+      {
+        "target" : "Consent Notices",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Obvestila o soglasju"
+      }
+    ],
+    "DMC_SIGNING_CERTIFICATES" : [
+      {
+        "target" : "Signing Certificates",
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Potrdila o podpisovanju"
+      }
+    ],
+    "DMC_SIGNING_CERTIFICATE" : [
+      {
+        "target" : "Signing Certificate",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Potrdilo o podpisovanju",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_APPLE_ACCOUNT_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Apple Account",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "target" : "Applov račun",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_MANAGED_APP_RESTRICTIONS" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Restrictions",
+        "language" : "en"
+      },
+      {
+        "target" : "Omejitve",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_ISSUED_BY" : [
+      {
+        "language" : "en",
+        "target" : "Issued by:",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Izdajatelj:",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_GENERAL_RETRY" : [
+      {
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Retry"
+      },
+      {
+        "target" : "Poskusi znova",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_DEVICE_CONFIGURATIONS_TITLE" : [
+      {
+        "target" : "Device Configurations",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Device Configurations",
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_MANAGED_APP_CANNOT_IMPORT_UNMANAGED_DATA" : [
+      {
+        "target" : "App will not import data from unmanaged apps and accounts.",
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Aplikacija ne bo uvažala podatkov iz neupravljanih aplikacij in računov."
+      }
+    ],
+    "DMC_MIS_VERIFIED_APP" : [
+      {
+        "target" : "Verified",
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "target" : "Preverjeno",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_MANAGED_APP_CANNOT_EXPORT_DATA_TO_UNMANAGED" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en",
+        "target" : "App will not export data to unmanaged apps and accounts."
+      },
+      {
+        "language" : "sl",
+        "target" : "Aplikacija ne bo izvažala podatkov v neupravljane aplikacije in račune.",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_GENERAL_IGNORE" : [
+      {
+        "language" : "en",
+        "target" : "Ignore",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Prezri",
+        "language" : "sl"
+      }
+    ],
+    "DMC_PROFILE_REMOVE_TITLE" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en",
+        "target" : "Remove Profile"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Odstranjevanje profila"
+      }
+    ],
+    "DMC_DESCRIPTION_TITLE" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en",
+        "target" : "Description"
+      },
+      {
+        "target" : "Opis",
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_UPDATE_PROFILE_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Update Profile",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "target" : "Posodabljanje profila",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_PROFILE_EXPIRING_CERT" : [
+      {
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "This profile contains a certificate that will expire in less than 14 days."
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Ta profil vsebuje potrdilo, ki bo poteklo v manj kot 14 dneh."
+      }
+    ],
+    "DMC_MDM_REMOVE_TITLE" : [
+      {
+        "target" : "Remove Management",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Odstranjevanje upravljanja",
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_MORE_DETAILS_TITLE" : [
+      {
+        "target" : "More Details",
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Več podrobnosti"
+      }
+    ],
+    "DMC_PROFILE_EXPIRED" : [
+      {
+        "target" : "This profile has expired.",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Ta profil je potekel.",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_GENERAL_DONE" : [
+      {
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Done"
+      },
+      {
+        "target" : "Dokončano",
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_MANAGED_APP_CANNOT_BACKUP" : [
+      {
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "App data will not be backed up."
+      },
+      {
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Podatki aplikacij ne bodo varnostno kopirani."
+      }
+    ],
+    "DMC_MANAGED_APP_USES_DNS_PROXY" : [
+      {
+        "language" : "en",
+        "target" : "App will use a DNS proxy for network access.",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Aplikacija bo za omrežni dostop uporabila posredniški strežnik DNS."
+      }
+    ],
+    "DMC_MANAGED_BOOK_RESTRICTIONS" : [
+      {
+        "language" : "en",
+        "target" : "Restrictions",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "target" : "Omejitve",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_CONFIGURATIONS_SECTION_OTHERS" : [
+      {
+        "target" : "Others",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Drugo"
+      }
+    ],
+    "DMC_MANAGED_BOOKS_PLURAL" : [
+      {
+        "target" : "Managed Books",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Upravljane knjige"
+      }
+    ],
+    "DMC_MANAGED_BOOK_CANNOT_BACKUP" : [
+      {
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Book, notes, and highlights will not be backed up."
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Knjiga, zapiski in označbe ne bodo varnostno kopirane."
+      }
+    ],
+    "DMC_GENERAL_CANCEL" : [
+      {
+        "language" : "en",
+        "target" : "Cancel",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Prekliči",
+        "language" : "sl"
+      }
+    ],
+    "DMC_SIGNED_BY" : [
+      {
+        "language" : "en",
+        "target" : "Signed by",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Podpisnik"
+      }
+    ],
+    "DMC_MANAGED_APP_CANNOT_USE_ROAMING_CELL_DATA" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en",
+        "target" : "App will not use cellular data while roaming."
+      },
+      {
+        "target" : "Aplikacija ne bo uporabljala mobilnih podatkov med gostovanjem.",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_MANAGED_APP_CANNOT_USE_CELL_DATA" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "App will not use cellular data.",
+        "language" : "en"
+      },
+      {
+        "language" : "sl",
+        "target" : "Aplikacija ne bo uporabljala mobilnih podatkov.",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_PROFILE_DETAILS_ACCOUNTS" : [
+      {
+        "target" : "Accounts",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "sl",
+        "target" : "Računi",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_MANAGED_BOOK_CANNOT_EXPORT_DATA_TO_UNMANAGED" : [
+      {
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Book, notes, and highlights can not be exported to unmanaged apps and accounts."
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Knjige, zapiskov in označb ni mogoče izvoziti v neupravljane aplikacije in račune."
+      }
+    ],
+    "DMC_GENERAL_SKIP" : [
+      {
+        "target" : "Skip",
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "target" : "Preskoči",
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_CONFIGURATIONS_SECTION_ACCOUNTS" : [
+      {
+        "target" : "Accounts",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Računi"
+      }
+    ],
+    "DMC_EXPIRED" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Expired:",
+        "language" : "en"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Poteklo:"
+      }
+    ],
+    "DMC_MANAGED_APP_USES_CONTENT_FILTER" : [
+      {
+        "language" : "en",
+        "target" : "App will use a content filter for network access.",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "target" : "Aplikacija bo za omrežni dostop uporabila filter vsebine.",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_MANAGED_BOOKS_SINGULAR" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en",
+        "target" : "Managed Book"
+      },
+      {
+        "language" : "sl",
+        "target" : "Upravljana knjiga",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_PROFILE_DETAILS_RESTRICTIONS" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en",
+        "target" : "Restrictions"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Omejitve"
+      }
+    ],
+    "DMC_MANAGED_APP_USES_VPN" : [
+      {
+        "language" : "en",
+        "target" : "App will use a VPN for network access.",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Aplikacija bo za omrežni dostop uporabila omrežje VPN.",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_MANAGED_BOOK_CANNOT_CLOUD_SYNC" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Book, notes, and highlights will not sync with iCloud.",
+        "language" : "en"
+      },
+      {
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Knjiga, zapiski in označbe ne bodo sinhronizirane s storitvijo iCloud."
+      }
+    ],
+    "DMC_GENERAL_OK" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en",
+        "target" : "OK"
+      },
+      {
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "V redu"
+      }
+    ],
+    "DMC_USER_CONFIGURATIONS_TITLE" : [
+      {
+        "target" : "User Configurations",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "sl",
+        "target" : "User Configurations",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_PROFILE_DETAILS_BOOKS" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Books",
+        "language" : "en"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Knjige"
+      }
+    ],
+    "DMC_MANAGED_APP_USES_RELAY" : [
+      {
+        "target" : "App will use a relay for network access.",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Aplikacija bo za omrežni dostop uporabila posredovanje.",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_MANAGED_APP_WILL_BE_REMOVED" : [
+      {
+        "language" : "en",
+        "target" : "App and data will be removed when device is no longer managed.",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "target" : "Ko naprava ne bo več upravljana, bodo aplikacija in podatki odstranjeni.",
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_MANAGED_APP_ADDS_ASSOCIATED_DOMAINS" : [
+      {
+        "target" : "Associated domains added.",
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "target" : "Dodane so povezane domene.",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_MANAGED_APP_CANNOT_BE_REMOVED" : [
+      {
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "App cannot be removed."
+      },
+      {
+        "target" : "Aplikacije ni mogoče odstraniti.",
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_MANAGED_APPS_PLURAL" : [
+      {
+        "target" : "Managed Apps",
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "target" : "Upravljane aplikacije",
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ],
+    "DMC_EXPIRES" : [
+      {
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Expires:"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl",
+        "target" : "Poteče:"
+      }
+    ],
+    "DMC_MIS_NOT_VERIFIED_APP" : [
+      {
+        "target" : "Not Verified",
+        "language" : "en",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Ni preverjeno",
+        "language" : "sl"
+      }
+    ],
+    "DMC_PROFILE_TRUST_NOT_SIGNED" : [
+      {
+        "language" : "en",
+        "target" : "Not Signed",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Ni podpisano",
+        "language" : "sl"
+      }
+    ],
+    "DMC_MANAGED_APPS_SINGULAR" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Managed App",
+        "language" : "en"
+      },
+      {
+        "language" : "sl",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Upravljana aplikacija"
+      }
+    ],
+    "DMC_CONSENT_NOTICE" : [
+      {
+        "language" : "en",
+        "target" : "Consent Notice",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "target" : "Obvestilo o soglasju",
+        "filename" : "DMCEnrollmentProvider.strings",
+        "language" : "sl"
+      }
+    ],
+    "DMC_MANAGED_APP_CANNOT_CLOUD_SYNC" : [
+      {
+        "language" : "en",
+        "target" : "App will not sync with iCloud.",
+        "filename" : "DMCEnrollmentProvider.strings"
+      },
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Aplikacija se ne bo sinhronizirala s storitvijo iCloud.",
+        "language" : "sl"
+      }
+    ],
+    "DMC_CONTAINS_TITLE" : [
+      {
+        "filename" : "DMCEnrollmentProvider.strings",
+        "target" : "Contains",
+        "language" : "en"
+      },
+      {
+        "language" : "sl",
+        "target" : "Vsebuje",
+        "filename" : "DMCEnrollmentProvider.strings"
+      }
+    ]
+  },
+  "bundlePath" : "\/System\/Volumes\/Data\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22S99\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.2.simruntime\/Contents\/Resources\/RuntimeRoot\/System\/Library\/PrivateFrameworks\/DMCEnrollmentProvider.framework"
+}

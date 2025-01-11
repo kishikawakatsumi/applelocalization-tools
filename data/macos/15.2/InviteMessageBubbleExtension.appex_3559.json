@@ -1,0 +1,617 @@
+{
+  "framework" : "InviteMessageBubbleExtension.appex",
+  "localizations" : {
+    "%@ %@" : [
+      {
+        "filename" : "Localizable.strings",
+        "target" : "%2$@ %1$@",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "%1$@ %2$@",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "ar",
+        "target" : "%1$@ %2$@"
+      },
+      {
+        "language" : "ja",
+        "target" : "%1$@%2$@",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "es_419",
+        "target" : "%1$@ %2$@",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "%1$@%2$@",
+        "language" : "zh_CN",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es",
+        "target" : "%1$@ %2$@"
+      },
+      {
+        "target" : "%1$@ %2$@",
+        "language" : "it",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "ko",
+        "target" : "%1$@ %2$@",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "Localizable.strings",
+        "target" : "%1$@%2$@"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "%1$@%2$@",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "%1$@ %2$@",
+        "filename" : "Localizable.strings",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "%1$@ %2$@",
+        "filename" : "Localizable.strings",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "fr",
+        "target" : "%1$@ %2$@"
+      }
+    ],
+    "ALERT_TITLE" : [
+      {
+        "target" : "Ein Fehler ist aufgetreten",
+        "language" : "de",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Something Went Wrong",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "حدث خطأ ما",
+        "filename" : "Localizable.strings",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "問題が起きました",
+        "language" : "ja"
+      },
+      {
+        "language" : "en",
+        "target" : "Something Went Wrong",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Ocurrió un error",
+        "language" : "es_419",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN",
+        "target" : "出错了"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es",
+        "target" : "Se ha producido un error"
+      },
+      {
+        "language" : "it",
+        "filename" : "Localizable.strings",
+        "target" : "Si è verificato un errore"
+      },
+      {
+        "target" : "문제가 발생함",
+        "filename" : "Localizable.strings",
+        "language" : "ko"
+      },
+      {
+        "target" : "發生錯誤",
+        "filename" : "Localizable.strings",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "發生錯誤",
+        "language" : "zh_TW",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Something Went Wrong",
+        "filename" : "Localizable.strings",
+        "language" : "en_GB"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Un problème est survenu",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Une erreur s’est produite",
+        "filename" : "Localizable.strings",
+        "language" : "fr"
+      }
+    ],
+    "InviteDeclineAlertSheetTitle" : [
+      {
+        "language" : "de",
+        "target" : "Möchtest du wirklich ablehnen?",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en_AU",
+        "target" : "Are you sure you want to decline?"
+      },
+      {
+        "language" : "ar",
+        "target" : "هل ترغب بالتأكيد في الرفض؟",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "本当に承認しなくてよろしいですか?",
+        "language" : "ja",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Are you sure you want to decline?",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es_419",
+        "target" : "¿Quieres declinar la invitación?"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN",
+        "target" : "你确定要拒绝吗？"
+      },
+      {
+        "language" : "es",
+        "filename" : "Localizable.strings",
+        "target" : "¿Seguro que quieres rechazar la invitación?"
+      },
+      {
+        "language" : "it",
+        "filename" : "Localizable.strings",
+        "target" : "Confermi di voler rifiutare?"
+      },
+      {
+        "target" : "거절하겠습니까?",
+        "filename" : "Localizable.strings",
+        "language" : "ko"
+      },
+      {
+        "target" : "確定要拒絕嗎？",
+        "filename" : "Localizable.strings",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "zh_TW",
+        "target" : "確定要拒絕嗎？"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Are you sure you want to decline?",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Voulez-vous vraiment refuser?",
+        "filename" : "Localizable.strings",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Voulez-vous vraiment refuser ?",
+        "language" : "fr"
+      }
+    ],
+    "DEVICE_NOT_SUPPORTED_DESCRIPTION" : [
+      {
+        "target" : "Sieh dir Details zu dieser Anfrage auf deinem iPhone, iPad oder Mac an.",
+        "filename" : "Localizable.strings",
+        "language" : "de"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "Localizable.strings",
+        "target" : "See details about this request on your iPhone, iPad or Mac."
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "ar",
+        "target" : "اطلع على تفاصيل حول هذا الطلب على iPhone أو iPad أو Mac."
+      },
+      {
+        "language" : "ja",
+        "filename" : "Localizable.strings",
+        "target" : "iPhone、iPad、またはMacでこのリクエストの詳細を確認してください。"
+      },
+      {
+        "language" : "en",
+        "target" : "See details about this request on your iPhone, iPad, or Mac.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Consulta los detalles de esta solicitud en tu iPhone, iPad o Mac.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "Localizable.strings",
+        "target" : "请在iPhone、iPad或Mac上查看此请求的详细信息。"
+      },
+      {
+        "language" : "es",
+        "target" : "Puedes consultar los detalles sobre esta solicitud en tu iPhone, iPad o Mac.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "it",
+        "filename" : "Localizable.strings",
+        "target" : "Visualizza i dettagli della richiesta su iPhone, su iPad o sul Mac."
+      },
+      {
+        "target" : "iPhone, iPad 또는 Mac에서 이 요청의 세부사항을 확인하십시오.",
+        "filename" : "Localizable.strings",
+        "language" : "ko"
+      },
+      {
+        "target" : "在你的iPhone、iPad或Mac上查看此要求的詳細資料。",
+        "language" : "zh_HK",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "zh_TW",
+        "target" : "在iPhone、iPad或Mac上查看此要求的詳細資訊。"
+      },
+      {
+        "target" : "See details about this request on your iPhone, iPad or Mac.",
+        "filename" : "Localizable.strings",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Consultez les détails de cette demande sur votre iPhone, iPad ou Mac.",
+        "filename" : "Localizable.strings",
+        "language" : "fr_CA"
+      },
+      {
+        "language" : "fr",
+        "target" : "Consultez les détails relatifs à cette demande sur votre iPhone, iPad ou Mac.",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "InviteDeclineAlertSheetMessage" : [
+      {
+        "target" : "Du kannst kostenlos einer Familie beitreten und hast Zugriff auf geteilte Käufe ohne zusätzliche Kosten.",
+        "language" : "de",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Joining a Family is free and lets you access shared purchases at no additional cost.",
+        "language" : "en_AU",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "الانضمام إلى عائلة ما مجاني، ويتيح لك الوصول إلى المشتريات المشتركة دون أي تكلفة إضافية.",
+        "language" : "ar",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "ja",
+        "target" : "ファミリーへの参加は無料で、追加料金なしで共有されている購入した項目にアクセスできるようになります。",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "en",
+        "target" : "Joining a Family is free and lets you access shared purchases at no additional cost.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Entrar a un grupo familiar es gratis y te permite acceder a las compras compartidas sin costo adicional.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "免费加入家人共享。无需额外付费，即可访问共享的购买项目。",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es",
+        "target" : "Puedes unirte a una familia de forma totalmente gratuita, lo que te permitirá acceder a las compras compartidas sin ningún coste adicional."
+      },
+      {
+        "target" : "Unirsi a “In famiglia” è gratis e ti permette di accedere agli acquisti condivisi senza costi aggiuntivi.",
+        "language" : "it",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "ko",
+        "filename" : "Localizable.strings",
+        "target" : "가족 구성원으로 참여하는 것은 무료이며, 공유 구입 항목을 추가 비용 없이 이용할 수 있습니다."
+      },
+      {
+        "target" : "加入「家人共享」是免費的，無需額外付費即可取用共享購買項目。",
+        "filename" : "Localizable.strings",
+        "language" : "zh_HK"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "Localizable.strings",
+        "target" : "你可以免費加入「家人共享」，無需額外付費即可取用共享的購買項目。"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "Localizable.strings",
+        "target" : "Joining a Family is free and lets you access shared purchases at no additional cost."
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "Localizable.strings",
+        "target" : "Se joindre à une famille est gratuit et permet d’accéder sans frais supplémentaires aux achats partagés."
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Rejoignez une famille gratuitement pour accéder aux achats partagés sans surcoût.",
+        "language" : "fr"
+      }
+    ],
+    "DeclineAlertButtonTitle" : [
+      {
+        "filename" : "Localizable.strings",
+        "language" : "de",
+        "target" : "Einladung ablehnen"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Decline Invitation",
+        "language" : "en_AU"
+      },
+      {
+        "language" : "ar",
+        "filename" : "Localizable.strings",
+        "target" : "رفض الدعوة"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "ja",
+        "target" : "登録依頼を辞退"
+      },
+      {
+        "language" : "en",
+        "target" : "Decline Invitation",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "Localizable.strings",
+        "target" : "Declinar invitación"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN",
+        "target" : "拒绝邀请"
+      },
+      {
+        "target" : "Rechazar invitación",
+        "filename" : "Localizable.strings",
+        "language" : "es"
+      },
+      {
+        "target" : "Rifiuta invito",
+        "filename" : "Localizable.strings",
+        "language" : "it"
+      },
+      {
+        "target" : "초대 거절",
+        "filename" : "Localizable.strings",
+        "language" : "ko"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "拒絕邀請",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "zh_TW",
+        "target" : "拒絕邀請"
+      },
+      {
+        "target" : "Decline Invitation",
+        "filename" : "Localizable.strings",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Refuser l’invitation",
+        "language" : "fr_CA",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "fr",
+        "target" : "Refuser l’invitation",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "Cancel" : [
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Abbrechen",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en_AU",
+        "target" : "Cancel"
+      },
+      {
+        "target" : "إلغاء",
+        "language" : "ar",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "キャンセル",
+        "language" : "ja",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en",
+        "target" : "Cancel"
+      },
+      {
+        "target" : "Cancelar",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "取消",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "es",
+        "target" : "Cancelar",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Annulla",
+        "language" : "it"
+      },
+      {
+        "language" : "ko",
+        "target" : "취소",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "取消",
+        "language" : "zh_HK",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "Localizable.strings",
+        "target" : "取消"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Cancel",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Annuler",
+        "filename" : "Localizable.strings",
+        "language" : "fr_CA"
+      },
+      {
+        "language" : "fr",
+        "target" : "Annuler",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "OK" : [
+      {
+        "language" : "de",
+        "target" : "OK",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "OK",
+        "language" : "en_AU",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "موافق",
+        "filename" : "Localizable.strings",
+        "language" : "ar"
+      },
+      {
+        "language" : "ja",
+        "target" : "OK",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en",
+        "target" : "OK"
+      },
+      {
+        "target" : "OK",
+        "language" : "es_419",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "zh_CN",
+        "target" : "好"
+      },
+      {
+        "target" : "OK",
+        "language" : "es",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "it",
+        "target" : "OK",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "확인",
+        "language" : "ko",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "好",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "好",
+        "language" : "zh_TW",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "OK",
+        "filename" : "Localizable.strings",
+        "language" : "en_GB"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "OK",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "OK",
+        "language" : "fr",
+        "filename" : "Localizable.strings"
+      }
+    ]
+  },
+  "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N840\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.2.simruntime\/Contents\/Resources\/RuntimeRoot\/System\/Applications\/Family\/InviteMessageBubbleExtension.appex"
+}

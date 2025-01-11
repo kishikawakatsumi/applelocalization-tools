@@ -1,0 +1,613 @@
+{
+  "framework" : "SafeEjectGPUService.xpc",
+  "localizations" : {
+    "FAILED_TO_EJECT_FORMAT" : [
+      {
+        "target" : "Failed to eject “GPU %@“.",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Failed to eject “GPU %@”.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Kunde inte mata ut ”Grafikprocessor %@”.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Не удалось извлечь графический процессор %@.",
+        "language" : "ru"
+      },
+      {
+        "target" : "Poistaminen epäonnistui: GPU %@.",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "“GPU %@“ ne može se izbaciti.",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "language" : "en",
+        "filename" : "Localizable.loctable",
+        "target" : "Failed to eject “GPU %@”."
+      },
+      {
+        "language" : "hu",
+        "target" : "Nem sikerült a „GPU %@” kiadása.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "es",
+        "target" : "No se ha podido expulsar la GPU “%@”."
+      },
+      {
+        "target" : "“GPU %@“ çıkarılamadı.",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "לא ניתן היה להוציא את ״GPU %@‎״.",
+        "language" : "he",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "“GPU %@“ बाहर निकालना विफल।",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "ca",
+        "target" : "No s’ha pogut expulsar la GPU %@."
+      },
+      {
+        "language" : "ms",
+        "filename" : "Localizable.loctable",
+        "target" : "Gagal mengeluarkan “GPU %@“."
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Vysúvanie „GPU %@“ zlyhalo.",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "fr",
+        "target" : "Échec de l’éjection de « GPU %@ »."
+      },
+      {
+        "target" : "Nie udało się wysunąć „GPU %@”.",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "nl",
+        "target" : "Verwijderen van 'GPU %@' is mislukt."
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "id",
+        "target" : "Gagal mengeluarkan “GPU %@“."
+      },
+      {
+        "language" : "ar",
+        "target" : "فشل إخراج \"‪GPU %@‬\".",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT",
+        "target" : "Não foi possível ejetar “GPU %@“."
+      },
+      {
+        "target" : "Espulsione di “GPU %@“ non riuscita.",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "ko",
+        "filename" : "Localizable.loctable",
+        "target" : "‘GPU %@’ 추출에 실패했습니다."
+      },
+      {
+        "target" : "»GPE %@« ni bilo mogoče izvreči.",
+        "language" : "sl",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "de",
+        "target" : "„GPU %@“ konnte nicht ausgeworfen werden."
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "Localizable.loctable",
+        "target" : "無法退出「GPU %@」。"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "uk",
+        "target" : "Не вдалося вийняти графічний процесор «%@»."
+      },
+      {
+        "target" : "Απέτυχε η εξαγωγή του «GPU %@».",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Error al expulsar la “GPU %@“.",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "ถอด “GPU %@“ ออกไม่สำเร็จ",
+        "language" : "th",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA",
+        "target" : "Échec de l’éjection de « GPU %@ »."
+      },
+      {
+        "language" : "ja",
+        "filename" : "Localizable.loctable",
+        "target" : "“GPU %@“を取り出せませんでした。"
+      },
+      {
+        "target" : "Kunne ikke mate ut «Grafikkortet %@».",
+        "language" : "no",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Falha ao ejetar “GPU %@”.",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "無法退出「GPU%@」。",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN",
+        "target" : "推出“GPU %@”失败。"
+      },
+      {
+        "target" : "Kunne ikke skubbe “GPU %@“ ud.",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "language" : "cs",
+        "target" : "„GPU %@“ se nepodařilo vysunout.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Không tháo được “GPU %@“.",
+        "language" : "vi",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Ejectarea GPU‑ului “%@” nu a reușit.",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      }
+    ],
+    "FAILED_TO_EJECT_BUSY_FORMAT" : [
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB",
+        "target" : "Failed to eject “GPU %@“.\nThe GPU is busy."
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Failed to eject “GPU %@”.\nThe GPU is busy.",
+        "language" : "en_AU"
+      },
+      {
+        "language" : "sv",
+        "filename" : "Localizable.loctable",
+        "target" : "Kunde inte mata ut ”Grafikprocessor %@”.\nGrafikprocessorn är upptagen."
+      },
+      {
+        "target" : "Не удалось извлечь графический процессор %@.\nГрафический процессор занят.",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "language" : "fi",
+        "filename" : "Localizable.loctable",
+        "target" : "Poistaminen epäonnistui: GPU %@.\nGPU on varattu."
+      },
+      {
+        "target" : "“GPU %@“ ne može se izbaciti.\nGPU je zauzet.",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "language" : "en",
+        "filename" : "Localizable.loctable",
+        "target" : "Failed to eject “GPU %@”.\nThe GPU is busy."
+      },
+      {
+        "language" : "hu",
+        "target" : "Nem sikerült a „GPU %@” kiadása.\nA GPU elfoglalt.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "No se ha podido expulsar la GPU “%@”.\nEstá en uso.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "tr",
+        "target" : "“GPU %@“ çıkarılamadı.\nGPU meşgul."
+      },
+      {
+        "target" : "לא ניתן היה להוציא את ״GPU %@‎״.\nה-GPU אינו זמין.",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "language" : "hi",
+        "target" : "“GPU %@“ बाहर निकालना विफल।\nGPU व्यस्त है।",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "No s’ha pogut expulsar la GPU %@.\nLa GPU està en ús.",
+        "language" : "ca",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "ms",
+        "filename" : "Localizable.loctable",
+        "target" : "Gagal mengeluarkan “GPU %@“.\nGPU sibuk."
+      },
+      {
+        "language" : "sk",
+        "filename" : "Localizable.loctable",
+        "target" : "Vysúvanie „GPU %@“ zlyhalo.\nGPU je zaneprázdnené."
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "fr",
+        "target" : "Échec de l’éjection de « GPU %@ ».\nLe GPU est occupé."
+      },
+      {
+        "target" : "Nie udało się wysunąć „GPU %@”.\nGPU jest zajęty.",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "nl",
+        "target" : "Verwijderen van 'GPU %@' is mislukt.\nDe GPU is in gebruik."
+      },
+      {
+        "language" : "id",
+        "filename" : "Localizable.loctable",
+        "target" : "Gagal mengeluarkan “GPU %@“.\nGPU sibuk."
+      },
+      {
+        "language" : "ar",
+        "target" : "فشل إخراج \"‪GPU %@‬\".\nالـ GPU مشغولة.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Não foi possível ejetar “GPU %@“.\nA GPU está ocupada.",
+        "language" : "pt_PT",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Espulsione di “GPU %@“ non riuscita.\nGPU occupata.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "‘GPU %@’ 추출에 실패했습니다.\nGPU가 사용 중입니다.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "»GPE %@« ni bilo mogoče izvreči.\nGPE je zasedena.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "de",
+        "target" : "„GPU %@“ konnte nicht ausgeworfen werden.\nDie GPU ist nicht verfügbar."
+      },
+      {
+        "target" : "無法退出「GPU %@」。\nGPU忙碌中。",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Не вдалося вийняти графічний процесор «%@».\nГрафічний процесор зайнятий.",
+        "language" : "uk",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "el",
+        "target" : "Απέτυχε η εξαγωγή του «GPU %@».\nΗ μονάδα GPU είναι κατειλημμένη."
+      },
+      {
+        "language" : "es_419",
+        "filename" : "Localizable.loctable",
+        "target" : "Error al expulsar la “GPU %@“.\nLa GPU está ocupada."
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "ถอด “GPU %@“ ออกไม่สำเร็จ\n GPU ไม่ว่าง",
+        "language" : "th"
+      },
+      {
+        "target" : "Échec de l’éjection de « GPU %@ ».\nLe GPU est occupé.",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "“GPU %@“を取り出せませんでした。\nGPUは使用中です。",
+        "language" : "ja"
+      },
+      {
+        "language" : "no",
+        "target" : "Kunne ikke mate ut «Grafikkortet %@».\nGrafikkortet er opptatt.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Falha ao ejetar “GPU %@”.\nA GPU está ocupada.",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "Localizable.loctable",
+        "target" : "無法退出「GPU%@」。\nGPU忙碌中。"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "Localizable.loctable",
+        "target" : "推出“GPU %@”失败。\n该GPU正忙。"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Kunne ikke skubbe “GPU %@“ ud.\nGPU er i brug.",
+        "language" : "da"
+      },
+      {
+        "language" : "cs",
+        "target" : "„GPU %@“ se nepodařilo vysunout.\nGPU je zaneprázdněné.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Không tháo được “GPU %@“.\nGPU đang bận.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Ejectarea GPU‑ului “%@” nu a reușit.\nAcest GPU este ocupat.",
+        "filename" : "Localizable.loctable"
+      }
+    ],
+    "FAILED_TO_EJECT_MISSING_FORMAT" : [
+      {
+        "language" : "en_GB",
+        "target" : "Failed to eject “GPU %@“.\nNo such GPU.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU",
+        "target" : "Failed to eject “GPU %@”.\nNo such GPU."
+      },
+      {
+        "target" : "Kunde inte mata ut ”Grafikprocessor %@”.\nFinns ingen sådan grafikprocessor.",
+        "language" : "sv",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Не удалось извлечь графический процессор %@.\nЭтот графический процессор отсутствует.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Poistaminen epäonnistui: GPU %@.\nGPU:ta ei ole.",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "“GPU %@“ ne može se izbaciti.\nNe postoji takav GPU.",
+        "language" : "hr"
+      },
+      {
+        "target" : "Failed to eject “GPU %@”.\nNo such GPU.",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Nem sikerült a „GPU %@” kiadása.\nNincs ilyen GPU.",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "No se ha podido expulsar la GPU “%@”.\nNo se encuentra.",
+        "language" : "es"
+      },
+      {
+        "language" : "tr",
+        "target" : "“GPU %@“ çıkarılamadı.\nBöyle bir GPU yok.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "he",
+        "filename" : "Localizable.loctable",
+        "target" : "לא ניתן היה להוציא את ״GPU %@‎״.\nלא נמצא כזה GPU"
+      },
+      {
+        "language" : "hi",
+        "target" : "“GPU %@“ बाहर निकालना विफल।\nऐसा कोई GPU नहीं है।",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "No s’ha pogut expulsar la GPU %@.\nAquesta GPU no hi és.",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "language" : "ms",
+        "target" : "Gagal mengeluarkan “GPU %@“.\nTiada GPU sedemikian.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Vysúvanie „GPU %@“ zlyhalo.\nGPU sa nenašlo.",
+        "language" : "sk"
+      },
+      {
+        "target" : "Échec de l’éjection de « GPU %@ ».\nCe GPU est introuvable.",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Nie udało się wysunąć „GPU %@”.\nNie ma takiego GPU.",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "Verwijderen van 'GPU %@' is mislukt.\nGPU bestaat niet.",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "language" : "id",
+        "filename" : "Localizable.loctable",
+        "target" : "Gagal mengeluarkan “GPU %@“.\nGPU tidak ada."
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "ar",
+        "target" : "فشل إخراج \"‪GPU %@‬\".\nالـ GPU غير موجودة."
+      },
+      {
+        "target" : "Não foi possível ejetar “GPU %@“.\nA GPU não existe.",
+        "language" : "pt_PT",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "it",
+        "target" : "Espulsione di “GPU %@“ non riuscita.\nGPU non trovata."
+      },
+      {
+        "language" : "ko",
+        "target" : "‘GPU %@’ 추출에 실패했습니다.\n이러한 GPU가 없음.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "sl",
+        "target" : "»GPE %@« ni bilo mogoče izvreči.\nTa GPE ne obstaja."
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "de",
+        "target" : "„GPU %@“ konnte nicht ausgeworfen werden.\nKeine solche GPU vorhanden."
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK",
+        "target" : "無法退出「GPU %@」。\n沒有此GPU。"
+      },
+      {
+        "target" : "Не вдалося вийняти графічний процесор «%@».\nТакий графічний процесор відсутній.",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Απέτυχε η εξαγωγή του «GPU %@».\nΔεν υπάρχει τέτοια μονάδα GPU.",
+        "language" : "el",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "es_419",
+        "target" : "Error al expulsar la “GPU %@“.\n No existe tal GPU."
+      },
+      {
+        "target" : "ถอด “GPU %@“ ออกไม่สำเร็จ\nไม่มี GPU ดังกล่าว",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "Échec de l’éjection de « GPU %@ ».\nCe GPU est introuvable.",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "“GPU %@“を取り出せませんでした。\n該当するGPUはありません。",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Kunne ikke mate ut «Grafikkortet %@».\nFinner ikke grafikkortet.",
+        "language" : "no"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "Falha ao ejetar “GPU %@”.\nEsta GPU não existe.",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "無法退出「GPU%@」。\n沒有此GPU。",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "推出“GPU %@”失败。\n无此GPU。",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Kunne ikke skubbe “GPU %@“ ud.\nGPU findes ikke.",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "cs",
+        "target" : "„GPU %@“ se nepodařilo vysunout.\nGPU neexistuje."
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Không tháo được “GPU %@“.\nKhông có GPU nào như vậy.",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "ro",
+        "target" : "Ejectarea GPU‑ului “%@” nu a reușit.\nAcest GPU nu există."
+      }
+    ]
+  },
+  "bundlePath" : "\/System\/Library\/CoreServices\/Menu Extras\/SafeEjectGPUExtra.menu\/Contents\/XPCServices\/SafeEjectGPUService.xpc",
+  "loctablePath" : "\/System\/Library\/CoreServices\/Menu Extras\/SafeEjectGPUExtra.menu\/Contents\/XPCServices\/SafeEjectGPUService.xpc\/Contents\/Resources\/Localizable.loctable"
+}

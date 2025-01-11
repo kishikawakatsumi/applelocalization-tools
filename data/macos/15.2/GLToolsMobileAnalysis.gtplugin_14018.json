@@ -1,0 +1,2234 @@
+{
+  "bundlePath" : "\/System\/Volumes\/Data\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/Library\/GPUTools\/PlugIns\/GLToolsMobileAnalysis.gtplugin",
+  "localizations" : {
+    "DYFDKRecommendUsingVAO" : [
+      {
+        "language" : "en",
+        "target" : "Use vertex array objects (VAOs) to encapsulate vertex array configuration.",
+        "filename" : "AnalyzerFindingShort.strings"
+      },
+      {
+        "language" : "en",
+        "target" : "Your application used the same vertex array configuration for multiple consecutive calls to DrawArrays or DrawElements. Use vertex array objects (VAOs) to encapsulate the vertex array configuration, allowing optimal reuse of that configuration across multiple draw calls. See documentation on GenVertexArrays and BindVertexArray.",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "dfactor" : [
+      {
+        "language" : "en",
+        "target" : "dfactor",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFKSlowTextureUploadOnCopyTex" : [
+      {
+        "target" : "Slow Texture Upload on copyTexImage",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Slow texture upload on CopyTexImage",
+        "language" : "en"
+      }
+    ],
+    "<pname> only allowed when <target> is TEXTURE_ENV" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "<pname> only allowed when <target> is TEXTURE_ENV"
+      }
+    ],
+    "DYFKCPUWaitOnGPUForGlFinish" : [
+      {
+        "filename" : "AnalyzerFindingKinds.strings",
+        "target" : "CPU wait on GPU for Finish",
+        "language" : "en"
+      },
+      {
+        "language" : "en",
+        "target" : "Finish caused CPU wait for GPU",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFKNotPrewarmedShaderCompilation" : [
+      {
+        "target" : "Shader Compiled Outside of Prewarming Phase",
+        "language" : "en",
+        "filename" : "AnalyzerFindingKinds.strings"
+      },
+      {
+        "language" : "en",
+        "target" : "Shader compiled outside of a prewarming phase",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLMSAAColorBufferLoad" : [
+      {
+        "language" : "en",
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFKPunchThrough" : [
+      {
+        "language" : "en",
+        "target" : "Loss Of Depth Test Hardware Optimizations",
+        "filename" : "AnalyzerFindingKinds.strings"
+      },
+      {
+        "language" : "en",
+        "target" : "Loss of depth test hardware optimizations",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "green" : [
+      {
+        "target" : "green",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "clipplane<%d> out of range [0..%d]" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : ": clipplane<%d> out of range [0..%d]\n"
+      }
+    ],
+    "DYFKProjectedTextureSampling" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "target" : "Projected Texture Sampling"
+      },
+      {
+        "language" : "en",
+        "target" : "Projected texture samples",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKOffChipMRT" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingShort.strings",
+        "target" : "The number and format of framebuffer color attachments written exceeds 16 bytes per fragment which prevents use of fast path rendering."
+      },
+      {
+        "language" : "en",
+        "target" : "The number and format of framebuffer color attachments written exceeds 16 bytes per fragment which prevents use of fast path rendering.",
+        "filename" : "AnalyzerFinding.strings"
+      },
+      {
+        "language" : "en",
+        "target" : "The number and format of framebuffer color attachments written exceeds 16 bytes per fragment which prevents use of fast path rendering.",
+        "filename" : "AnalyzerFindingSimplified.strings"
+      }
+    ],
+    "red" : [
+      {
+        "target" : "red",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKTextureUploadNonOptimalGPUUtilization" : [
+      {
+        "language" : "en",
+        "target" : "Texture upload commands (such as TexImage2D) should be called between frames for best performance.",
+        "filename" : "AnalyzerFindingShort.strings"
+      },
+      {
+        "language" : "en",
+        "target" : "Texture upload commands (such as TexImage2D) should be called between frames for best performance.",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLRecommendShortElementData" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : " "
+      }
+    ],
+    "size" : [
+      {
+        "target" : "size",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKFragmentShaderDynamicBranching" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "target" : " contains dynamic branch instructions, which reduces the performance of the shader.",
+        "language" : "en"
+      },
+      {
+        "target" : "Your fragment shader contains dynamic branch instructions, which reduces the performance of the shader. To improve performance, eliminate dynamic branching from the shader, if possible.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "en",
+        "target" : "$ThisFSProg$ $contains$ dynamic branch instructions, which reduces the performance of the shader.",
+        "filename" : "AnalyzerFindingSimplified.strings"
+      }
+    ],
+    "sfail" : [
+      {
+        "language" : "en",
+        "target" : "sfail",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFKOffChipMRT" : [
+      {
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en",
+        "target" : "Loss of Fast Path Rendering Due to Large Framebuffer Color Attachment Writes"
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Loss of fast path rendering due to large framebuffer color attachment writes"
+      }
+    ],
+    "DYFURLRecommendUsingVBO" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : " ",
+        "language" : "en"
+      }
+    ],
+    "DYFURLRecommendUsingVAO" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKMSAAColorBufferLoad" : [
+      {
+        "target" : "MSAA Color Buffer Load",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "MSAA color buffer load"
+      }
+    ],
+    "z" : [
+      {
+        "target" : "z",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLVertexShaderDynamicBranchingAndMemoryAccess" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "(invalid plane=%d: Clipping plane out of range[0..%d]" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : ": (invalid plane=%d: Clipping plane out of range[0..%d]"
+      }
+    ],
+    "modeAlpha" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "modeAlpha"
+      }
+    ],
+    "DYFKFragmentShaderDataSpill" : [
+      {
+        "target" : "Fragment Shader Data Spill",
+        "language" : "en",
+        "filename" : "AnalyzerFindingKinds.strings"
+      },
+      {
+        "language" : "en",
+        "target" : "Use of temporary arrays or too many temporary registers in fragment shader",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFKGPUWaitOnTexture" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "target" : "GPU Wait on Texture"
+      },
+      {
+        "target" : "CPU wait for GPU on Texture Upload",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLRecommendFourComponentsForByteData" : [
+      {
+        "language" : "en",
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFKBufferBindingVAODependency" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Detected buffer binding dependency on current vertex array object"
+      }
+    ],
+    "DYFKAlphaTestWithoutDepthStencil" : [
+      {
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en",
+        "target" : "Report Alpha Test Without Depth Stencil"
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Alpha test or discard used without depth or stencil writes"
+      }
+    ],
+    "h" : [
+      {
+        "target" : "h",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "s" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "s"
+      }
+    ],
+    "factor" : [
+      {
+        "language" : "en",
+        "target" : "factor",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFKGenerateMipmapTextureSynchronization" : [
+      {
+        "target" : "GenerateMipmap Texture Synchronization",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "en",
+        "target" : "GenerateMipmap caused texture synchronization",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "(invalid mask=0): Clear mask should not be zero" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : ": (invalid mask=0): Clear mask should not be zero",
+        "language" : "en"
+      }
+    ],
+    "(MaxUnits==%d): Texture-Unit out of range" : [
+      {
+        "target" : ": (MaxUnits==%d): Texture-Unit out of range",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLTextureUploadNonOptimalGPUUtilization" : [
+      {
+        "language" : "en",
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLAlphaTestWithoutDepthStencil" : [
+      {
+        "language" : "en",
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "<format> must be equal to <internalformat> when <format> is not BGRA" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "<format> must be equal to <internalformat> when <format> is not BGRA\n",
+        "language" : "en"
+      }
+    ],
+    "format" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "format"
+      }
+    ],
+    "Attrib index <%d> out of range [0..%d]" : [
+      {
+        "target" : ": Attrib index <%d> out of range [0..%d]\n",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "top" : [
+      {
+        "language" : "en",
+        "target" : "top",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKReportExtensionsUsed" : [
+      {
+        "language" : "en",
+        "target" : "Extensions Used:\n",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "Unusually high number of texture objects <%d>" : [
+      {
+        "target" : ": Unusually high number of texture objects <%d>",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKOpaqueAfterTransparent" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingShort.strings",
+        "target" : "For best performance, render all opaque geometry before any transparent geometry."
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your application rendered opaque geometry after rendering transparent or alpha tested geometry. For best performance, render all opaque geometry before any transparent geometry."
+      }
+    ],
+    "internalformat" : [
+      {
+        "target" : "internalformat",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLFragmentShaderDynamicBranchingAndMemoryAccess" : [
+      {
+        "language" : "en",
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLRecommendNotUsingSignedByte" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : " "
+      }
+    ],
+    "DYFKRecommendIndexedRendering" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Recommend indexed primitives for lines and triangles",
+        "language" : "en"
+      },
+      {
+        "target" : "Use index draws to reduce vertex fetch bandwidth.",
+        "filename" : "AnalyzerFindingSimplified.strings",
+        "language" : "en"
+      }
+    ],
+    "'buffers' is 0, Did you mean to pass in a null pointer?" : [
+      {
+        "target" : ": “buffers” is 0, Did you mean to pass in a null pointer?",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKGPUWait" : [
+      {
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en",
+        "target" : "GPU Wait"
+      },
+      {
+        "target" : "CPU wait for GPU",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "COORD_REPLACE only allowed when <target> is POINT_SPRITE" : [
+      {
+        "target" : "COORD_REPLACE only allowed when <target> is POINT_SPRITE",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "array" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "array",
+        "language" : "en"
+      }
+    ],
+    "Unusually high number of buffer objects <%d>" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : ": Unusually high number of buffer objects <%d>"
+      }
+    ],
+    "DYFURLPunchThrough" : [
+      {
+        "language" : "en",
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "nz" : [
+      {
+        "language" : "en",
+        "target" : "nz",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKFragmentShaderDataSpill" : [
+      {
+        "target" : " spilled data to main memory because it used too many temporary registers or temporary arrays.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your fragment shader spilled data to main memory because it used too many temporary registers or temporary arrays. To improve performance, you should attempt to reduce the number of temporaries used by the shader. Possible approaches to fix this issue are to vectorize any computations performed if possible, or to simplify the computations performed by the fragment shader. Another approach is to perform some of the computation in the vertex shader or outside of the shaders entirely, passing the result into the shader via uniforms, attribs, or texture lookup tables.",
+        "language" : "en"
+      },
+      {
+        "target" : "$ThisFSProg$ spilled data to main memory because $it$ used too many temporary registers or temporary arrays.",
+        "filename" : "AnalyzerFindingSimplified.strings",
+        "language" : "en"
+      }
+    ],
+    "width" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "width"
+      }
+    ],
+    "v3" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "v3"
+      }
+    ],
+    "DYFKRecommendNotUsingSignedByte" : [
+      {
+        "target" : "BYTE format vertex data",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "fail" : [
+      {
+        "language" : "en",
+        "target" : "fail",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "modeRGB" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "modeRGB"
+      }
+    ],
+    "DYFKLogicalBufferStore" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "target" : "Logical Buffer Store"
+      },
+      {
+        "language" : "en",
+        "target" : "Logical buffer store operation",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLDependentTextureSampling" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKReportExtensionsUsed" : [
+      {
+        "target" : "Extensions Used",
+        "language" : "en",
+        "filename" : "AnalyzerFindingKinds.strings"
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "See extended detail for list of extensions used"
+      }
+    ],
+    "DYFKUnoptimizedMSAAResolve" : [
+      {
+        "target" : "Unoptimized MSAA Resolve",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "en",
+        "target" : "Suboptimal MSAA buffer resolve operation",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLGPUWaitOnReadPixels" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : " "
+      }
+    ],
+    "DYFDKGPUWait" : [
+      {
+        "target" : "The CPU was forced to wait for the GPU to complete some work. Performance is maximized when the CPU and GPU work in parallel.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "en",
+        "target" : "Certain operations force the CPU to wait for the GPU to complete some work. Performance is maximized when the CPU and GPU work in parallel.",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "bufs[]" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "bufs[]",
+        "language" : "en"
+      }
+    ],
+    "DYFURLGPUWaitOnBuffer" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : " ",
+        "language" : "en"
+      }
+    ],
+    "DYFKTextureUploadNonOptimalGPUUtilization" : [
+      {
+        "filename" : "AnalyzerFindingKinds.strings",
+        "target" : "Texture Upload Non-Optimal GPU Utilization",
+        "language" : "en"
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "Mid-frame texture upload"
+      }
+    ],
+    "target" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "target",
+        "language" : "en"
+      }
+    ],
+    "TEXTURE_LOD_BIAS only allowed when <target> is TEXTURE_FILTER_CONTROL" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "TEXTURE_LOD_BIAS only allowed when <target> is TEXTURE_FILTER_CONTROL"
+      }
+    ],
+    "nx" : [
+      {
+        "target" : "nx",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLReportExtensionsUsed" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : " "
+      }
+    ],
+    "DYFURLRecommendUsingElementBuffers" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKRecommendCompactTextureCoordinatesData" : [
+      {
+        "target" : "Use SHORT sized elements for texture coordinates whenever high precision is not required.",
+        "language" : "en",
+        "filename" : "AnalyzerFindingShort.strings"
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your application used per-vertex texture coordinates larger than 2-bytes per component. Use SHORT sized elements for texture coordinates whenever high precision is not required.",
+        "language" : "en"
+      }
+    ],
+    "DYFDKVertexBufferObjectDataAlignmentIssue" : [
+      {
+        "target" : "For best performance, elements within a vertex buffer object should be aligned to 4-byte boundaries.",
+        "language" : "en",
+        "filename" : "AnalyzerFindingShort.strings"
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your application used a per-vertex element within a vertex buffer object that was not aligned to a 4-byte boundary. To get the best performance, elements within a vertex buffer object should be aligned to 4-byte boundaries."
+      }
+    ],
+    "DYFKSlowTextureUploadPalettedTexture" : [
+      {
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en",
+        "target" : "Slow Paletted Texture Upload"
+      },
+      {
+        "language" : "en",
+        "target" : "Slow paletted texture upload",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKCPUWaitOnGPUForGlFinish" : [
+      {
+        "target" : "Your application called Finish, forcing the CPU to wait for the GPU to complete some work.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "Your application called Finish, forcing the CPU to wait for the GPU to complete some work. Performance is maximized when the CPU and GPU work in parallel. Calling Finish is generally only needed for benchmarking and certain special cases in a multi-context scenario. It may be possible to remove this Finish call to improve performance."
+      }
+    ],
+    "DYFDKNotPrewarmedShaderCompilationES11" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "target" : "Where possible, prewarm any state combinations used for rendering.",
+        "language" : "en"
+      },
+      {
+        "target" : "Your application caused a pipeline reconfiguration that is not part of an initial prewarming phase. Pipeline reconfigurations are caused by rendering with state configurations that have never been used by the application. Pipeline reconfigurations can be a time consuming operation. To avoid them, prewarm any state combinations used for rendering. To do this, make a prewarming pass when your application launches and execute a drawing call for each of the state combinations used. Alpha test, blending, color mask, lighting, logic ops, multisampling, texture formats, texture environment, and point primitive state can cause pipeline reconfigurations.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLVertexShaderDataSpill" : [
+      {
+        "language" : "en",
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "q" : [
+      {
+        "target" : "q",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKFragmentShaderDynamicBranchingAndMemoryAccess" : [
+      {
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en",
+        "target" : "Fragment Shader Dynamic Branching + Memory Access"
+      },
+      {
+        "language" : "en",
+        "target" : "Dynamic branching and main memory access in fragment shader",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLSlowTextureUploadOnCopyTex" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : " "
+      }
+    ],
+    "DYFDKSlowTextureUploadPalettedTexture" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en",
+        "target" : "Paletted textures are not natively supported by this hardware. Use a compressed format such as PVRTC 4bpp or 2bpp instead."
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Paletted textures are not natively supported by this hardware; OpenGL ES must convert it to a native format before the texture can be uploaded. To avoid this conversion at runtime, pre-process your textures into a natively supported compressed format such as PVRTC 4bpp or 2bpp.",
+        "language" : "en"
+      }
+    ],
+    "y" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "y"
+      }
+    ],
+    "floating point argument '%@' is out of range[%f..%f]" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : ": floating point argument “%@” is out of range[%f..%f]",
+        "language" : "en"
+      }
+    ],
+    "DYFDKClientSidePerVertexDataAlignmentIssue" : [
+      {
+        "language" : "en",
+        "target" : "For best performance, elements within a client side vertex array should be aligned to their native size.",
+        "filename" : "AnalyzerFindingShort.strings"
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "Your application used a client side per-vertex data array element that was not aligned to its native size. To get the best performance, elements within a client side vertex array should be aligned to their native size. For example FLOAT data should be aligned to 4-byte boundaries, etc."
+      }
+    ],
+    "DYFDKMSAAColorBufferLoad" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "target" : "Your app caused an expensive MSAA load operation. A typical cause is failing to clear a MSAA color buffer at the start of each frame.",
+        "language" : "en"
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your application caused OpenGL ES to perform an expensive MSAA color buffer load operation, where the color buffer must be loaded by the GPU before rendering. This is typically caused by failing to use Clear with COLOR_BUFFER_BIT at the beginning of each frame while using a multisampled draw framebuffer. To improve performance, you should perform a fullscreen clear operation at the beginning of each frame."
+      }
+    ],
+    "ny" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "ny"
+      }
+    ],
+    "DYFURLSlowTextureUploadOnDraw" : [
+      {
+        "target" : " ",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKSlowTextureUploadOnCopyTex" : [
+      {
+        "target" : "A slow texture upload was caused by a CopyTexImage command.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "A slow texture upload was caused by a CopyTexImage command. It may be more efficient to replace the CopyTexImage call by directly rendering into a destination texture by creating an empty texture and setting it as an FBO attachment.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLGPUWaitOnTexture" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : " "
+      }
+    ],
+    "DYFKRecommendCompactTextureCoordinatesData" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "Possibly sub-optimal per-vertex texture coordinates"
+      }
+    ],
+    "FramebufferTexture2D() level<%d> not supported without OES_fbo_render_mipmap extension" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "FramebufferTexture2D() level<%d> not supported without OES_fbo_render_mipmap extension"
+      }
+    ],
+    "DYFKClientSidePerVertexDataAlignmentIssue" : [
+      {
+        "target" : "Misaligned per-vertex data array element",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFKRecommendUsingElementBuffers" : [
+      {
+        "target" : "Element array not contained in buffer object",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "en",
+        "target" : "Index data is not stored in a vertex buffer object (VBO). Use VBOs for this, particularly for static index data.",
+        "filename" : "AnalyzerFindingSimplified.strings"
+      }
+    ],
+    "DYFURLNotPrewarmedShaderCompilationES11" : [
+      {
+        "language" : "en",
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "angle" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "angle"
+      }
+    ],
+    "DYFKVertexBufferObjectDataAlignmentIssue" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "Misaligned per-vertex data array element"
+      }
+    ],
+    "DYFDKVertexShaderDynamicBranchingAndMemoryAccess" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en",
+        "target" : " contains dynamic branch instructions and accesses main memory. This is an expensive combination for the GPU."
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your vertex shader contains dynamic branch instructions and accesses main memory (either because of data spilling or a dependent texture sampling operation), which is an expensive combination for the GPU. To improve performance, rework the shader to eliminate one or more of these characteristics."
+      },
+      {
+        "language" : "en",
+        "target" : "$ThisVSProg$ $contains$ dynamic branch instructions and accesses main memory (either because of data spilling or a dependent texture sampling operation), which is an expensive combination for the GPU.",
+        "filename" : "AnalyzerFindingSimplified.strings"
+      }
+    ],
+    "x" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "x",
+        "language" : "en"
+      }
+    ],
+    "DYFDKLogicalBufferLoad" : [
+      {
+        "target" : "Your app caused a framebuffer load operation by the GPU. A typical cause is failing to clear at the beginning of each frame.",
+        "language" : "en",
+        "filename" : "AnalyzerFindingShort.strings"
+      },
+      {
+        "language" : "en",
+        "target" : "Your application caused OpenGL ES to perform a framebuffer load operation, where the framebuffer must be loaded by the GPU before rendering. This is typically caused by failing to perform a fullscreen clear operation at the beginning of each frame. If possible, you should do so to improve performance.",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKRecommendNotUsingSignedByte" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en",
+        "target" : "BYTE format vertex data is not natively supported in some older hardware. Use UNSIGNED_BYTE or SHORT if possible."
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your application used BYTE format per-vertex data in an OpenGL ES 1.1 app. This format is not natively supported in some older hardware, and can require additional CPU side work to convert it to a native format.\tUse UNSIGNED_BYTE or SHORT if possible for OpenGL ES 1.1 apps.",
+        "language" : "en"
+      }
+    ],
+    "DYFURLRecommendNotUsingFixed" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : " "
+      }
+    ],
+    "blue" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "blue"
+      }
+    ],
+    "DYFKGPUWaitOnBuffer" : [
+      {
+        "target" : "GPU Wait on Buffer",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en"
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "CPU wait for GPU on Buffer Upload",
+        "language" : "en"
+      }
+    ],
+    "far" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "far"
+      }
+    ],
+    "textarget" : [
+      {
+        "language" : "en",
+        "target" : "textarget",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLRecommendUsingInterleavingForStaticVBOs" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKVertexShaderDynamicBranching" : [
+      {
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en",
+        "target" : "Vertex Shader Dynamic Branching"
+      },
+      {
+        "language" : "en",
+        "target" : "Dynamic branching in vertex shader",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "dstAlpha" : [
+      {
+        "target" : "dstAlpha",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "mode" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "mode"
+      }
+    ],
+    "DYFURLUnoptimizedMSAAResolve" : [
+      {
+        "language" : "en",
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKGPUWaitOnTexture" : [
+      {
+        "language" : "en",
+        "target" : "Your app updated a texture that is currently used for rendering. This caused the CPU to wait for the GPU to finish rendering.",
+        "filename" : "AnalyzerFindingShort.strings"
+      },
+      {
+        "language" : "en",
+        "target" : "Your application attempted to update to a texture that is currently used for rendering. This causes the CPU to wait for the GPU to finish rendering. One way to fix this problem is to use a double or ring buffered approach so that your application does not update a texture that is used to as part of a drawing call. Another possibility is to reorder operations in a way that allows for the GPU to finish using the texture before it is updated.",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "dppass" : [
+      {
+        "target" : "dppass",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "alpha" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "alpha"
+      }
+    ],
+    "DYFURLVertexBufferObjectDataAlignmentIssue" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKRecommendByteSizedColorData" : [
+      {
+        "target" : "Possibly sub-optimal per-vertex color data",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFKRecommendUsingInterleavingForStaticVBOs" : [
+      {
+        "target" : "Non-interleaved vertex arrays in static buffer object(s)",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "en",
+        "target" : "Rearrange your vertex data so that the attributes of each vertex are consecutive in memory.",
+        "filename" : "AnalyzerFindingSimplified.strings"
+      }
+    ],
+    "Border must be zero" : [
+      {
+        "language" : "en",
+        "target" : ": Border must be zero",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLGenerateMipmapTextureSynchronization" : [
+      {
+        "language" : "en",
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFKRecommendUsingVAO" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Lack of vertex array objects"
+      },
+      {
+        "target" : "You are not using vertex array objects (VAOs) to hold your vertex attribute configuration. Use $a VAO$ to reduce state changes.",
+        "language" : "en",
+        "filename" : "AnalyzerFindingSimplified.strings"
+      }
+    ],
+    "DYFKSlowTextureUploadOnDraw" : [
+      {
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en",
+        "target" : "Slow Texture Upload On Draw"
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Slow texture upload on draw",
+        "language" : "en"
+      }
+    ],
+    "DYFURLLogicalBufferLoad" : [
+      {
+        "language" : "en",
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "depth" : [
+      {
+        "target" : "depth",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "Height<%d> is not a power of two and level!=0" : [
+      {
+        "language" : "en",
+        "target" : ": Height<%d> is not a power of two and level!=0",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "bottom" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "bottom"
+      }
+    ],
+    "DYFKNotPrewarmedShaderCompilationES11" : [
+      {
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en",
+        "target" : "State Change Caused a Pipeline Reconfiguration Outside of a Prewarming Phase"
+      },
+      {
+        "language" : "en",
+        "target" : "State change caused a pipeline reconfiguration outside of a prewarming phase",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "pname(aka value)" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "pname(aka value)"
+      }
+    ],
+    "DYFDKGenerateMipmapTextureSynchronization" : [
+      {
+        "target" : "Generate mipmaps offline to reduce the work done at runtime.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "en",
+        "target" : "Generating mipmaps often forces OpenGL ES to synchronize a texture with the GPU, which is an expensive operation. Generate mipmaps offline to reduce the work done at runtime.",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKNotPrewarmedShaderCompilation" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en",
+        "target" : "Where possible, prewarm all shaders used for rendering."
+      },
+      {
+        "target" : "Your application caused a shader compilation that is not part of an initial prewarming phase. Shader compilation can be a time consuming operation. To avoid them, prewarm all shaders used for rendering. To do this, make a prewarming passwhen your application launches and execute a drawing call with each of the shader programs to be used, using any GL state settings the shader program will be used in conjunction with. States such as blending, color mask, logic ops, multisamping, texture formats, and point primitive state can all affect shader compilation.",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "right" : [
+      {
+        "target" : "right",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFKRecommendNotUsingFixed" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "FIXED format vertex data",
+        "language" : "en"
+      },
+      {
+        "target" : "Use float vertex components instead of fixed. GL_FLOAT provides superior performance to GL_FIXED while representing a wider range of values.",
+        "filename" : "AnalyzerFindingSimplified.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKVertexShaderDynamicBranching" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en",
+        "target" : " contains dynamic branch instructions, which reduces the performance of the shader."
+      },
+      {
+        "target" : "Your vertex shader contains dynamic branch instructions, which reduces the performance of the shader. To improve performance, eliminate dynamic branching from the shader, if possible.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "$ThisVSProg$ $contains$ dynamic branch instructions, which reduces the performance of the shader.",
+        "language" : "en",
+        "filename" : "AnalyzerFindingSimplified.strings"
+      }
+    ],
+    "DYFURLFragmentShaderDynamicBranching" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : " "
+      }
+    ],
+    "DYFDKRecommendFourComponentsForByteData" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "target" : "When using byte format data, use a four component layout to ensure optimal alignment.",
+        "language" : "en"
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your application used byte sized vertex data without using a four component layout. When using byte format data it is most efficient to use a four component layout to ensure optimal alignment."
+      }
+    ],
+    "DYFURLCPUWaitOnGPUForGlFinish" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : " "
+      }
+    ],
+    "numAttachments<%d> out of range[1..3]" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "numAttachments<%d> out of range[1..3]"
+      }
+    ],
+    "Width<%d> is not a power of two" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : ": Width<%d> is not a power of two"
+      }
+    ],
+    "DYFKLogicalBufferLoad" : [
+      {
+        "language" : "en",
+        "target" : "Logical Buffer Load",
+        "filename" : "AnalyzerFindingKinds.strings"
+      },
+      {
+        "target" : "Slow framebuffer load",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFKValidationError" : [
+      {
+        "filename" : "AnalyzerFindingKinds.strings",
+        "target" : "Validation Error",
+        "language" : "en"
+      },
+      {
+        "target" : "Invalid OpenGL ES API usage detected",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKSlowTextureUpload" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en",
+        "target" : "Your application caused a slow texture upload event to occur."
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your application caused a slow texture upload event to occur. Optimal performance can be achieved when the texture region to be updated has size and offset values that are multiples of 32 texels. It may be possible to improve performance by tightly packing the image data, and setting UNPACK_ALIGNMENT to 1. For subimage uploads, ensure that the pixel format of the uploaded data is the same format as the destination texture."
+      }
+    ],
+    "func" : [
+      {
+        "language" : "en",
+        "target" : "func",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKRecommendTwoOrFourComponentsForShortData" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en",
+        "target" : "When using short format data, use a two or four component layout for optimal alignment."
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your application used short sized vertex data without using a two or four component layout. When using short format data it is most efficient to use a two or four component layout to ensure optimal alignment.",
+        "language" : "en"
+      }
+    ],
+    "DYFURLFragmentShaderDataSpill" : [
+      {
+        "language" : "en",
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "srcAlpha" : [
+      {
+        "target" : "srcAlpha",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKRecommendUsingVBO" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en",
+        "target" : "For static vertex data use VBOs to store the per-vertex data."
+      },
+      {
+        "language" : "en",
+        "target" : "Your application sourced vertex array data from client memory rather than from a vertex buffer object (VBO). In this situation, every time DrawArrays or DrawElements is called the data is retransmitted to the graphics hardware to be rendered. Use VBOs instead to store the per-vertex data. See documentation on GenBuffers, BindBuffer, and BufferData for more information.",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFKValidationComment" : [
+      {
+        "target" : "Validation Comment",
+        "language" : "en",
+        "filename" : "AnalyzerFindingKinds.strings"
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Potentially problematic OpenGL ES API usage detected"
+      }
+    ],
+    "'%@' argument is an invalid floating point number" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : ": “%@” argument is an invalid floating point number"
+      }
+    ],
+    "Matrix Palette Index<%d> out of range [0..%d]" : [
+      {
+        "language" : "en",
+        "target" : "Matrix Palette Index<%d> out of range [0..%d]\n",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLGPUWait" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : " "
+      }
+    ],
+    "t" : [
+      {
+        "target" : "t",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "v2" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "v2"
+      }
+    ],
+    "coords.x" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "coords.x"
+      }
+    ],
+    "sfactor" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "sfactor"
+      }
+    ],
+    "v0" : [
+      {
+        "target" : "v0",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "height" : [
+      {
+        "language" : "en",
+        "target" : "height",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLSlowTextureUploadPalettedTexture" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : " "
+      }
+    ],
+    "(MaxVtxAttribs==%d): Vertex attribute index <%d> is out of range" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : ": (MaxVtxAttribs==%d): Vertex attribute index <%d> is out of range"
+      }
+    ],
+    "DYFURLValidationComment" : [
+      {
+        "language" : "en",
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "'textures' is 0, Did you mean to pass in a null pointer?" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : ": “textures” is 0, Did you mean to pass in a null pointer?"
+      }
+    ],
+    "dstRGB" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "dstRGB"
+      }
+    ],
+    "DYFURLOpaqueAfterTransparent" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : " "
+      }
+    ],
+    "left" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "left",
+        "language" : "en"
+      }
+    ],
+    "opcode" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "opcode"
+      }
+    ],
+    "DYFDKRecommendAlphaToCoverage" : [
+      {
+        "target" : "Your app performed multisampled transparent drawing. Consider alpha-to-coverage in place of alpha testing.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your application performed multisampled drawing with alpha testing (or a discard instruction in a shader). Consider using alpha-to-coverage instead because it provides better visual quality with the same performance."
+      }
+    ],
+    "value" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "value",
+        "language" : "en"
+      }
+    ],
+    "w" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "w",
+        "language" : "en"
+      }
+    ],
+    "ref" : [
+      {
+        "target" : "ref",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLNotPrewarmedShaderCompilation" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLClientSidePerVertexDataAlignmentIssue" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : " "
+      }
+    ],
+    "DYFDKRecommendUsingInterleavingForStaticVBOs" : [
+      {
+        "language" : "en",
+        "target" : "Interleave your per-vertex data in a single VBO for optimal performance.",
+        "filename" : "AnalyzerFindingShort.strings"
+      },
+      {
+        "target" : "Your application used non-interleaved vertex arrays in static vertex buffer objects (VBOs). When you do not need to make frequent updates to your vertex data, interleave your per-vertex data and pack it into a single VBO for optimal performance.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLVertexShaderDynamicBranching" : [
+      {
+        "language" : "en",
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "(invalid enum=0x%04x): Invalid enum for argument '%@'" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : ": (invalid enum=0x%04x): Invalid enum for argument “%@”"
+      }
+    ],
+    "DYFURLSlowTextureUpload" : [
+      {
+        "target" : " ",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "srcRGB" : [
+      {
+        "language" : "en",
+        "target" : "srcRGB",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKRecommendShortElementData" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en",
+        "target" : "For GPU efficiency use UNSIGNED_SHORT instead of UNSIGNED_BYTE for element array indices."
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your application used element array indices that are of type UNSIGNED_BYTE. Use UNSIGNED_SHORT for these element array indices instead since this format is most efficient for the hardware.",
+        "language" : "en"
+      }
+    ],
+    "Invalid size<%d>, Max supported on this profile is <%d>" : [
+      {
+        "language" : "en",
+        "target" : "Invalid size<%d>, Max supported on this profile is <%d>\n",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "(invalid mask=0x%08x): Invalid bit set in Clear mask" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : ": (invalid mask=0x%08x): Invalid bit set in Clear mask"
+      }
+    ],
+    "DYFKRecommendShortElementData" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Recommend UNSIGNED_SHORT for element data",
+        "language" : "en"
+      },
+      {
+        "language" : "en",
+        "target" : "Use 16-bit (GL_UNSIGNED_SHORT) instead of 8-bit (GL_UNSIGNED_BYTE) vertex indices for greater efficiency. GL_UNSIGNED_SHORT is the smallest native size for vertex indices on iOS devices.",
+        "filename" : "AnalyzerFindingSimplified.strings"
+      }
+    ],
+    "dpfail" : [
+      {
+        "language" : "en",
+        "target" : "dpfail",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLRecommendByteSizedColorData" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : " "
+      }
+    ],
+    "DYFURLRecommendIndexedRendering" : [
+      {
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "renderbuffertarget" : [
+      {
+        "language" : "en",
+        "target" : "renderbuffertarget",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLProjectedTextureSampling" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : " ",
+        "language" : "en"
+      }
+    ],
+    "near" : [
+      {
+        "target" : "near",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "pname" : [
+      {
+        "language" : "en",
+        "target" : "pname",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "face" : [
+      {
+        "target" : "face",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "attachments[]" : [
+      {
+        "language" : "en",
+        "target" : "attachments[]",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "zpass" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "zpass"
+      }
+    ],
+    "DYFURLRecommendTwoOrFourComponentsForShortData" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : " "
+      }
+    ],
+    "cap" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "cap"
+      }
+    ],
+    "DYFKDependentTextureSampling" : [
+      {
+        "language" : "en",
+        "target" : "Dependent Texture Sampling",
+        "filename" : "AnalyzerFindingKinds.strings"
+      },
+      {
+        "language" : "en",
+        "target" : "Dependent texture samples in fragment shader",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLOffChipMRT" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : " "
+      }
+    ],
+    "param" : [
+      {
+        "target" : "param",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "v1" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "v1"
+      }
+    ],
+    "DYFDKSlowTextureUploadOnDraw" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en",
+        "target" : "A slow texture upload event was caused by a draw command."
+      },
+      {
+        "target" : "A slow texture upload event was caused by a draw command. This is most often caused by a draw call that samples from a texture that has not been initialized, for which dummy texture data was created internally.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLValidationError" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : " "
+      }
+    ],
+    "DYFDKUnoptimizedMSAAResolve" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingShort.strings",
+        "target" : "Use the EXT_discard_framebuffer to discard the sample buffer after resolving the samples."
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "OpenGL ES had to perform an expensive multisampling resolve operation. This is typically caused by failing to discard the sample buffer after resolving the samples. Please see the EXT_discard_framebuffer extension for more details.",
+        "language" : "en"
+      }
+    ],
+    "DYFKVertexShaderDynamicBranchingAndMemoryAccess" : [
+      {
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en",
+        "target" : "Vertex Shader Dynamic Branching + Memory Access"
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Dynamic branching and main memory access in vertex shader",
+        "language" : "en"
+      }
+    ],
+    "DYFKGPUWaitOnReadPixels" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingKinds.strings",
+        "target" : "GPU Wait on ReadPixels"
+      },
+      {
+        "target" : "CPU wait for GPU on ReadPixels",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "Height<%d> is not a power of two" : [
+      {
+        "target" : ": Height<%d> is not a power of two",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKGPUWaitOnBuffer" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "target" : "Your app updated a buffer that is currently being used for rendering. This caused the CPU to wait for the GPU to finish rendering.",
+        "language" : "en"
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your application attempted to update to a buffer that is currently being used for rendering. This causes the CPU to wait for the GPU to finish rendering. One way to fix this problem is to use a double or ring buffered approach so that your application does not update a buffer that is used to as part of a drawing call. Another possibility is to reorder operations in a way that allows for the GPU to finish using the buffer before it is updated.",
+        "language" : "en"
+      }
+    ],
+    "DYFDKPunchThrough" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en",
+        "target" : " disabled depth test hardware optimizations on the GPU."
+      },
+      {
+        "language" : "en",
+        "target" : "Depth test hardware optimizations allow the GPU to skip calculations for pixels that would be discarded by the depth test.\n\n",
+        "filename" : "AnalyzerFinding.strings"
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingSimplified.strings",
+        "target" : "$ThisFSProg$ disabled depth test hardware optimizations on the GPU."
+      }
+    ],
+    "DYFDKRecommendIndexedRendering" : [
+      {
+        "target" : "For best performance, render lines & triangles using indexed rendering through DrawElements.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Your application contains a draw call that renders without using indexed primitives. When rendering lines or triangles use indexed rendering through DrawElements.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "(invalid ref==%f): Alpha Reference out of range [0.0..1.0]" : [
+      {
+        "target" : ": (invalid ref==%f): Alpha Reference out of range [0.0..1.0]",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "zfail" : [
+      {
+        "target" : "zfail",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKLogicalBufferStore" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingShort.strings",
+        "target" : "For best performance keep logical buffer store operations to a minimum."
+      },
+      {
+        "target" : "OpenGL ES performed a logical buffer store operation. This is typically caused by switching framebuffer or not discarding buffers at the end of the rendering loop. For best performance keep logical buffer store operations to a minimum amd discard the depth buffer at the end of each frame. See the EXT_discard_framebuffer extension for more details..",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFURLRecommendAlphaToCoverage" : [
+      {
+        "language" : "en",
+        "target" : " ",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "Width<%d> is not a power of two and level!=0" : [
+      {
+        "language" : "en",
+        "target" : ": Width<%d> is not a power of two and level!=0",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "coords.h" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "coords.h"
+      }
+    ],
+    "usage" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "usage",
+        "language" : "en"
+      }
+    ],
+    "shaderType" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "shaderType",
+        "language" : "en"
+      }
+    ],
+    "DYFDKRecommendNotUsingFixed" : [
+      {
+        "language" : "en",
+        "target" : "For best performance, use FLOAT or a more compact representation such as SHORT or UNSIGNED_BYTE for per-vertex data.",
+        "filename" : "AnalyzerFindingShort.strings"
+      },
+      {
+        "target" : "Your application used FIXED format per-vertex data. To achieve the best performance, consider instead using FLOAT or a more compact representation such as SHORT or UNSIGNED_BYTE for your per-vertex data.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKFragmentShaderDynamicBranchingAndMemoryAccess" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingShort.strings",
+        "target" : " contains dynamic branch instructions and accesses main memory. This is an expensive combination for the GPU."
+      },
+      {
+        "target" : "Your fragment shader contains dynamic branch instructions and accesses main memory (either because of data spilling or a dependent texture sampling operation), which is an expensive combination for the GPU. To improve performance, rework the shader to eliminate one or more of these characteristics.",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      },
+      {
+        "language" : "en",
+        "target" : "$ThisFSProg$ $contains$ dynamic branch instructions and accesses main memory (either because of data spilling or a dependent texture sampling operation), which is an expensive combination for the GPU.",
+        "filename" : "AnalyzerFindingSimplified.strings"
+      }
+    ],
+    "(invalid stencil=%d): Clear stencil out of range[0..255]" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : ": (invalid stencil=%d): Clear stencil out of range[0..255]",
+        "language" : "en"
+      }
+    ],
+    "(invalid size=%d): Invalid size for buffer object" : [
+      {
+        "language" : "en",
+        "target" : ": (invalid size=%d): Invalid size for buffer object",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKDependentTextureSampling" : [
+      {
+        "language" : "en",
+        "target" : " performed dependent texture reads which are slower than non-dependent texture reads.",
+        "filename" : "AnalyzerFindingShort.strings"
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "The fragment shader performed dependent texture reads, which are slower than non-dependent texture reads. Dependent texture reads happen when the texture coordinates are modified in the fragment shader, or when the Project or Bias variants of the texture sampling functions are called. Use dependent texture samples sparingly. If you modify texture coordinates in the fragment shader, try to move the calculations of the texture coordinates to the vertex shader so that they occur once per vertex instead of once per fragment. This can help improve performance."
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingSimplified.strings",
+        "target" : "$ThisFSProg$ performed dependent texture reads, which are slower than non-dependent texture reads."
+      }
+    ],
+    "DYFDKRecommendUsingElementBuffers" : [
+      {
+        "target" : "For static data use buffer objects to store the indices.",
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your application sourced element array indices from client memory rather than from a buffer object. In this situation, every time DrawElements is called the indices are retransmitted to the graphics hardware for rendering. Use buffer objects instead to store the indices. See documentation on GenBuffers, BindBuffer, and BufferData, and ELEMENT_ARRAY_BUFFER for more information."
+      }
+    ],
+    "DYFURLBufferBindingVAODependency" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : " "
+      }
+    ],
+    "DYFKFragmentShaderDynamicBranching" : [
+      {
+        "target" : "Fragment Shader Dynamic Branching",
+        "language" : "en",
+        "filename" : "AnalyzerFindingKinds.strings"
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Dynamic branching in fragment shader"
+      }
+    ],
+    "r" : [
+      {
+        "target" : "r",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKVertexShaderDataSpill" : [
+      {
+        "filename" : "AnalyzerFindingShort.strings",
+        "language" : "en",
+        "target" : " spilled data to main memory because it used too many temporary registers or temporary arrays."
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your vertex shader spilled data to main memory because it used too many temporary registers or temporary arrays. To improve performance, attempt to reduce the number of temporaries used by the shader. Some approaches to fix this issue are to vectorize any computations performed if possible, or to simplify the computations performed by the vertex shader. Another approach is to perform some of the computation outside of the shader and pass the result into the shader via uniforms, or texture lookup tables."
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingSimplified.strings",
+        "target" : "$ThisVSProg$ spilled data to main memory because $it$ used too many temporary registers or temporary arrays."
+      }
+    ],
+    "DYFKRecommendFourComponentsForByteData" : [
+      {
+        "language" : "en",
+        "target" : "Recommend 4 component layout for byte vertex data",
+        "filename" : "AnalyzerFinding.strings"
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingSimplified.strings",
+        "target" : "You are not using a four component (e.g. rgba) layout for your byte-sized vertex data. It is faster to use a four component layout."
+      }
+    ],
+    "precisionType" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "precisionType"
+      }
+    ],
+    "DYFDKProjectedTextureSampling" : [
+      {
+        "language" : "en",
+        "target" : " performed projected texture sampling which is slower than non-projected texture sampling.",
+        "filename" : "AnalyzerFindingShort.strings"
+      },
+      {
+        "target" : "OpenGL requires the GPU to perform projected texture sampling when the Q texture coordinate is not 1.0. Projected texture sampling are slower than non-projected texture sampling. The most common causes of this are using 4 component texture coordinate arrays, or by using a texture matrix that changes the Q component.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingSimplified.strings",
+        "target" : "$ThisFSProg$ performed projected texture sampling (i.e. Q texture coordinate is not 1.0). Projected texture sampling are slower than non-projected texture sampling."
+      }
+    ],
+    "DYFKSlowTextureUpload" : [
+      {
+        "filename" : "AnalyzerFindingKinds.strings",
+        "language" : "en",
+        "target" : "Slow Texture Upload"
+      },
+      {
+        "target" : "Slow texture upload",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "Uniform index <%d> out of range [0..%d]" : [
+      {
+        "target" : ": Uniform index <%d> out of range [0..%d]\n",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKGPUWaitOnReadPixels" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingShort.strings",
+        "target" : "Your app used ReadPixels to read from a framebuffer currently being rendered into. This caused the CPU to wait for the GPU to finish rendering."
+      },
+      {
+        "language" : "en",
+        "target" : "Your application used a ReadPixels command to read from a framebuffer currently being rendered into. This has caused the CPU to wait for the GPU to finish rendering. One way to fix this problem is to reorder operations in a way that allows for the GPU to complete using the framebuffer before it is updated.",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "coords.z" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : "coords.z"
+      }
+    ],
+    "DYFKRecommendAlphaToCoverage" : [
+      {
+        "target" : "Recommend Alpha To Coverage",
+        "language" : "en",
+        "filename" : "AnalyzerFindingKinds.strings"
+      },
+      {
+        "target" : "Use alpha-to-coverage instead of alpha testing (or discard)",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKVertexShaderDataSpill" : [
+      {
+        "filename" : "AnalyzerFindingKinds.strings",
+        "target" : "Vertex Shader Data Spill",
+        "language" : "en"
+      },
+      {
+        "target" : "Use of temporary arrays or too many temporary registers in vertex shader",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "attachment" : [
+      {
+        "language" : "en",
+        "target" : "attachment",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKRecommendByteSizedColorData" : [
+      {
+        "target" : "Use UNSIGNED_BYTE as the type for your per-vertex color data when possible.",
+        "language" : "en",
+        "filename" : "AnalyzerFindingShort.strings"
+      },
+      {
+        "target" : "Your application used per-vertex color data larger than 1-byte per channel. Use UNSIGNED_BYTE as the type for your per-vertex color data when possible.",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFDKBufferBindingVAODependency" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFindingShort.strings",
+        "target" : "After binding a VAO explicitly call BindBuffer(ARRAY_BUFFER, <name>) prior to any subsequent call that uses the current buffer binding."
+      },
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Your application generated a call sequence whereby a vertex array object (VAO) is bound followed by a call that uses the currently bound vertex buffer object (VBO) without a call to BindBuffer in between. After binding a VAO explicitly call BindBuffer(ARRAY_BUFFER, <name>) prior to any subsequent call that uses the current buffer binding, such as any of the per-vertex data setup functions (VertexAttribPointer, VertexPointer, etc.)"
+      }
+    ],
+    "DYFURLLogicalBufferStore" : [
+      {
+        "target" : " ",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFKOpaqueAfterTransparent" : [
+      {
+        "language" : "en",
+        "target" : "Report Opaque After Transparent",
+        "filename" : "AnalyzerFindingKinds.strings"
+      },
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "Opaque geometry rendered after transparent geometry",
+        "language" : "en"
+      }
+    ],
+    "coords.y" : [
+      {
+        "target" : "coords.y",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "coords.w" : [
+      {
+        "target" : "coords.w",
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings"
+      }
+    ],
+    "DYFURLRecommendCompactTextureCoordinatesData" : [
+      {
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en",
+        "target" : " "
+      }
+    ],
+    "DYFKRecommendUsingVBO" : [
+      {
+        "language" : "en",
+        "target" : "Vertex array not contained in buffer object",
+        "filename" : "AnalyzerFinding.strings"
+      },
+      {
+        "filename" : "AnalyzerFindingSimplified.strings",
+        "language" : "en",
+        "target" : "Vertex data is not stored in a vertex buffer object (VBO). Use VBOs, particularly for static vertex data."
+      }
+    ],
+    "units" : [
+      {
+        "target" : "units",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFKRecommendTwoOrFourComponentsForShortData" : [
+      {
+        "language" : "en",
+        "target" : "Recommend 2 or 4 component layout for short vertex data",
+        "filename" : "AnalyzerFinding.strings"
+      },
+      {
+        "filename" : "AnalyzerFindingSimplified.strings",
+        "target" : "You are not using a two (e.g. st) or four component (e.g. strq) layout for your short-sized vertex data. It is faster to use a two or four component layout.",
+        "language" : "en"
+      }
+    ],
+    "type" : [
+      {
+        "target" : "type",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "DYFDKAlphaTestWithoutDepthStencil" : [
+      {
+        "target" : "Your app used alpha testing without enabling depth or stencil writes. Consider alpha blending in place of alpha testing.",
+        "language" : "en",
+        "filename" : "AnalyzerFindingShort.strings"
+      },
+      {
+        "target" : "Your application enabled alpha testing (or used the discard instruction in a shader) without enabling depth or stencil writes. Since depth and stencil are not being written, it may be functionally equivalent to use alpha blending in place of alpha testing.",
+        "filename" : "AnalyzerFinding.strings",
+        "language" : "en"
+      }
+    ],
+    "access" : [
+      {
+        "language" : "en",
+        "filename" : "AnalyzerFinding.strings",
+        "target" : "access"
+      }
+    ]
+  },
+  "framework" : "GLToolsMobileAnalysis.gtplugin"
+}

@@ -1,0 +1,839 @@
+{
+  "framework" : "ZoomWindow.axuiservice",
+  "localizations" : {
+    "ZW_SLUG_HINT_TRIPLE_TAP_ZOOM_MENU" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "target" : "יש להקיש ארבע פעמים להצגת תפריט ההגדלה.",
+        "language" : "he"
+      },
+      {
+        "language" : "ar",
+        "target" : "اضغط أربع مرات لعرض قائمة التكبير.",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Štirikrat tapnite za prikaz menija povečave.",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZW_RESIZE_HANDLE_UPPER" : [
+      {
+        "language" : "he",
+        "target" : "ידית עליונה לשינוי גודל",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "ar",
+        "target" : "معالج تغيير حجم الأعلى",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Zgornja ročica za spreminjanje velikosti",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZW_ZOOM_REGION_BUTTON_LABEL" : [
+      {
+        "language" : "he",
+        "target" : "הצגה\/הסתרה של האזור להגדלה\/הקטנה",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "ar",
+        "target" : "إظهار\/إخفاء منطقة التركيز",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl",
+        "target" : "Prikaži\/skrij območje povečave"
+      }
+    ],
+    "ZW_SLUG_HINT_SINGLE_TAP_TOGGLE_ZOOM" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "he",
+        "target" : "יש להקיש פעמיים למעבר בין מצבי ההגדלה."
+      },
+      {
+        "language" : "ar",
+        "target" : "اضغط مرتين لتبديل مستوى التكبير.",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl",
+        "target" : "Dvotapnite za preklop povečave."
+      }
+    ],
+    "Full Screen Zoom" : [
+      {
+        "language" : "he",
+        "target" : "הגדלה\/הקטנה במסך מלא",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "تكبير ملء الشاشة",
+        "filename" : "Localizable.strings",
+        "language" : "ar"
+      },
+      {
+        "target" : "Celozaslonsko",
+        "filename" : "Localizable.strings",
+        "language" : "sl"
+      }
+    ],
+    "Zoom Region" : [
+      {
+        "language" : "he",
+        "target" : "אזור להגדלה",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "ar",
+        "target" : "تكبير المنطقة",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Območje povečave",
+        "language" : "sl",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "ZW_MENU_BUTTON_TOGGLE_ZOOM_IN" : [
+      {
+        "language" : "he",
+        "filename" : "ZoomWindow.strings",
+        "target" : "הגדלה"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "ar",
+        "target" : "تكبير"
+      },
+      {
+        "language" : "sl",
+        "target" : "Povečaj",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "Use Crown to Zoom" : [
+      {
+        "filename" : "Localizable.strings",
+        "target" : "שימוש ב-Digital Crown להגדלה\/הקטנה",
+        "language" : "he"
+      },
+      {
+        "language" : "ar",
+        "target" : "استخدم التاج الرقمي للتكبير\/التصغير",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Uporabi krono za povečavo",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "ZW_MENU_BUTTON_LENS_MODE_LABEL" : [
+      {
+        "target" : "בחירת אזור",
+        "language" : "he",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "ar",
+        "target" : "اختيار المنطقة"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl",
+        "target" : "Izberi regijo"
+      }
+    ],
+    "ZW_RESIZE_HANDLE_UPPER_RIGHT" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "target" : "ידית ימנית עליונה לשינוי גודל",
+        "language" : "he"
+      },
+      {
+        "language" : "ar",
+        "filename" : "ZoomWindow.strings",
+        "target" : "معالج تغيير حجم الأيمن الأعلى"
+      },
+      {
+        "target" : "Zgornja desna ročica za spreminjanje velikosti",
+        "language" : "sl",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZW_RESIZE_HANDLE_RIGHT" : [
+      {
+        "language" : "he",
+        "target" : "ידית ימנית לשינוי גודל",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "ar",
+        "target" : "معالج تغيير حجم الأيمن"
+      },
+      {
+        "target" : "Desna ročica za spreminjanje velikosti",
+        "language" : "sl",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZW_MENU_TOUCH_CONTAINER_LABEL" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "he",
+        "target" : "תפריט הגדלה\/הקטנה"
+      },
+      {
+        "language" : "ar",
+        "target" : "قائمة التكبير",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "target" : "Meni povečave",
+        "language" : "sl",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZW_MENU_BUTTON_SHOW_SLUG_LABEL" : [
+      {
+        "language" : "he",
+        "target" : "הצגת כלי שליטה",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "ar",
+        "target" : "إظهار وحدة التحكم"
+      },
+      {
+        "language" : "sl",
+        "target" : "Prikaži krmilnik",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZW_RESIZE_HANDLE_HINT" : [
+      {
+        "language" : "he",
+        "filename" : "ZoomWindow.strings",
+        "target" : "יש להקיש פעמיים ולהחזיק, ואז לגרור לשינוי גודל העדשה"
+      },
+      {
+        "language" : "ar",
+        "target" : "قم بالضغط مرتين مطولًا، ثم اسحب لتغيير حجم عدسات التكبير",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "target" : "Dvotapnite in pridržite, nato pa povlecite, da spremenite velikost leče za povečavo",
+        "language" : "sl",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZW_TITLE" : [
+      {
+        "language" : "he",
+        "target" : "הגדלה\/הקטנה",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "ar",
+        "target" : "تكبير",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl",
+        "target" : "Povečava"
+      }
+    ],
+    "ZW_RESIZE_HANDLE_LEFT" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "he",
+        "target" : "ידית שמאלית לשינוי גודל"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "ar",
+        "target" : "معالج تغيير حجم الأيسر"
+      },
+      {
+        "target" : "Leva ročica za spreminjanje velikosti",
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl"
+      }
+    ],
+    "ZW_MENU_BUTTON_HIDE_SLUG_LABEL" : [
+      {
+        "language" : "he",
+        "filename" : "ZoomWindow.strings",
+        "target" : "הסתרת כלי השליטה"
+      },
+      {
+        "target" : "إخفاء وحدة التحكم",
+        "language" : "ar",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "target" : "Skrij krmilnik",
+        "language" : "sl",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "Window Zoom" : [
+      {
+        "language" : "he",
+        "target" : "הגדלת חלון",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "ar",
+        "target" : "نافذة التكبير",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Povečava okna",
+        "filename" : "Localizable.strings",
+        "language" : "sl"
+      }
+    ],
+    "ZW_RESIZE_HANDLE_UPPER_LEFT" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "he",
+        "target" : "ידית שמאלית עליונה לשינוי גודל"
+      },
+      {
+        "target" : "معالج تغيير حجم الأيسر الأعلى",
+        "language" : "ar",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "target" : "Zgornja leva ročica za spreminjanje velikosti",
+        "language" : "sl"
+      }
+    ],
+    "ZW_HUD_PANNING" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "he",
+        "target" : "הטיה"
+      },
+      {
+        "target" : "التحريك",
+        "filename" : "ZoomWindow.strings",
+        "language" : "ar"
+      },
+      {
+        "target" : "Panoramsko pomikanje",
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl"
+      }
+    ],
+    "ZW_SLUG_HINT_DOUBLE_TAP_ZOOM_MENU" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "he",
+        "target" : "יש להקיש שלוש פעמים להצגת תפריט ההגדלה."
+      },
+      {
+        "language" : "ar",
+        "target" : "اضغط ثلاث مرات لعرض قائمة التكبير.",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "sl",
+        "filename" : "ZoomWindow.strings",
+        "target" : "Trotapnite za prikaz menija povečave."
+      }
+    ],
+    "ZW_SLUG_HINT_TRIPLE_TAP_TOGGLE_ZOOM" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "he",
+        "target" : "יש להקיש ארבע פעמים למעבר בין מצבי ההגדלה."
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "target" : "اضغط أربع مرات لتبديل مستوى التكبير.",
+        "language" : "ar"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl",
+        "target" : "Štirikrat tapnite za preklop povečave."
+      }
+    ],
+    "ZW_MENU_BUTTON_TOGGLE_LENS_LABEL" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "target" : "מעבר בין מצבי העדשה",
+        "language" : "he"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "ar",
+        "target" : "تبديل العدسات"
+      },
+      {
+        "language" : "sl",
+        "filename" : "ZoomWindow.strings",
+        "target" : "Preklopi lečo"
+      }
+    ],
+    "Zoom Level" : [
+      {
+        "filename" : "Localizable.strings",
+        "language" : "he",
+        "target" : "רמת ההגדלה"
+      },
+      {
+        "target" : "مستوى التكبير",
+        "language" : "ar",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Raven povečave",
+        "language" : "sl"
+      }
+    ],
+    "ZW_BOTTOM_GRABBER_LABEL" : [
+      {
+        "target" : "ידית תחתונה להגדלה\/הקטנה",
+        "filename" : "ZoomWindow.strings",
+        "language" : "he"
+      },
+      {
+        "target" : "معالج التكبير الأسفل",
+        "filename" : "ZoomWindow.strings",
+        "language" : "ar"
+      },
+      {
+        "target" : "Spodnja ročica povečave",
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl"
+      }
+    ],
+    "Zoom" : [
+      {
+        "target" : "הגדלה\/הקטנה",
+        "language" : "he",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "ar",
+        "filename" : "Localizable.strings",
+        "target" : "تكبير\/تصغير"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "sl",
+        "target" : "Povečava"
+      }
+    ],
+    "ZW_LEFT_GRABBER_LABEL" : [
+      {
+        "language" : "he",
+        "target" : "ידית שמאלית להגדלה\/הקטנה",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "ar",
+        "target" : "معالج التكبير الأيسر",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Leva ročica povečave",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZW_HUD_FOLLOWING_FOCUS" : [
+      {
+        "language" : "he",
+        "filename" : "ZoomWindow.strings",
+        "target" : "מיקוד עוקב"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "target" : "تتبع التركيز",
+        "language" : "ar"
+      },
+      {
+        "target" : "Sledenje fokusu",
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl"
+      }
+    ],
+    "ZW_RESIZE_HANDLE_LOWER_RIGHT" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "he",
+        "target" : "ידית ימנית תחתונה לשינוי גודל"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "ar",
+        "target" : "معالج تغيير حجم الأيمن الأسفل"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl",
+        "target" : "Spodnja desna ročica za spreminjanje velikosti"
+      }
+    ],
+    "ZW_ZOOM_REGION_BUTTON_HINT" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "target" : "יש ללחוץ ולהחזיק כדי להציג את תפריט הגדלה\/הקטנה. יש להקיש פעמיים ולהחזיק, ואז לגרור כדי להתאים את גודל עדשת ההגדלה\/הקטנה.",
+        "language" : "he"
+      },
+      {
+        "language" : "ar",
+        "target" : "اضغط باستمرار لإظهار قائمة التكبير. اضغط مرتين باستمرار، ثم اسحب لتغيير حجم عدسة التكبير.",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "target" : "Pritisnite in pridržite za prikaz menija povečave. Dvotapnite in pridržite, nato pa povlecite, da spremenite velikost leče povečave.",
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl"
+      }
+    ],
+    "ZW_SLUG_LABEL" : [
+      {
+        "language" : "he",
+        "target" : "כלי שליטה בהגדלה",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "ar",
+        "target" : "عناصر تحكم التكبير",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Krmilne funkcije povečave",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZW_STOP_RESIZING_LABEL" : [
+      {
+        "target" : "הפסקת שינוי הגודל",
+        "filename" : "ZoomWindow.strings",
+        "language" : "he"
+      },
+      {
+        "target" : "إيقاف تغيير الحجم",
+        "language" : "ar",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "sl",
+        "filename" : "ZoomWindow.strings",
+        "target" : "ustavi spreminjanje velikosti"
+      }
+    ],
+    "ZW_MENU_SLIDER_ZOOM_LEVEL" : [
+      {
+        "language" : "he",
+        "target" : "רמת ההגדלה",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "ar",
+        "target" : "مستوى التكبير",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "sl",
+        "filename" : "ZoomWindow.strings",
+        "target" : "Raven povečave"
+      }
+    ],
+    "ZW_TOP_GRABBER_LABEL" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "he",
+        "target" : "ידית עליונה להגדלה\/הקטנה"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "target" : "معالج التكبير الأعلى",
+        "language" : "ar"
+      },
+      {
+        "language" : "sl",
+        "target" : "Zgornja ročica povečave",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZW_MENU_BUTTON_RESIZE_LENS_LABEL" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "target" : "שינוי גודל העדשה",
+        "language" : "he"
+      },
+      {
+        "target" : "تغيير حجم العدسة",
+        "language" : "ar",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Spremeni velikost leče",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZW_STOP_RESIZING_HINT" : [
+      {
+        "target" : "יש להקיש פעמיים כדי להפסיק את שינוי הגודל",
+        "language" : "he",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "ar",
+        "filename" : "ZoomWindow.strings",
+        "target" : "اضغط مرتين لإيقاف تغيير الحجم"
+      },
+      {
+        "target" : "dvotapnite, da ustavite spreminjanje velikosti",
+        "language" : "sl",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZOOM_DISABLED_BANNER" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "target" : "הגדלה כבויה",
+        "language" : "he"
+      },
+      {
+        "target" : "تم إيقاف التكبير",
+        "filename" : "ZoomWindow.strings",
+        "language" : "ar"
+      },
+      {
+        "language" : "sl",
+        "target" : "Povečava je onemogočena",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZW_SLUG_HINT_SINGLE_TAP_ZOOM_MENU" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "target" : "יש להקיש פעמיים להצגת תפריט ההגדלה.",
+        "language" : "he"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "ar",
+        "target" : "اضغط مرتين لعرض قائمة التكبير."
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl",
+        "target" : "Dvopnite za prikaz menija povečave."
+      }
+    ],
+    "ZW_MENU_BUTTON_DOCK_POSITION_LABEL" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "he",
+        "target" : "בחירת מיקום"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "target" : "اختيار الموضع",
+        "language" : "ar"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "target" : "Izberi položaj",
+        "language" : "sl"
+      }
+    ],
+    "ZW_GRABBER_HINT" : [
+      {
+        "target" : "יש להקיש פעמיים להצגת תפריט ההגדלה וההקטנה. יש להקיש פעמיים ואז לגרור לשינוי מיקום עדשת ההגדלה וההקטנה.",
+        "language" : "he",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "target" : "قم بالضغط مرتين لإظهار قائمة التكبير.  قم بالضغط مرتين، ثم قم بالسحب للانتقال إلى عدسات التكبير",
+        "filename" : "ZoomWindow.strings",
+        "language" : "ar"
+      },
+      {
+        "target" : "Dvotapnite, da prikažete meni povečave. Dvotapnite in povlecite, da premaknete lečo povečave",
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl"
+      }
+    ],
+    "ZW_MENU_BUTTON_LENS_EFFECT_LABEL" : [
+      {
+        "language" : "he",
+        "target" : "בחירת מסנן",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "target" : "اختيار الفلتر",
+        "language" : "ar"
+      },
+      {
+        "target" : "Izberi filter",
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl"
+      }
+    ],
+    "ZOOM_ENABLED_BANNER" : [
+      {
+        "language" : "he",
+        "target" : "הגדלה פעילה",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "target" : "تم تمكين التكبير",
+        "filename" : "ZoomWindow.strings",
+        "language" : "ar"
+      },
+      {
+        "target" : "Povečava je omogočena",
+        "language" : "sl",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZW_LENS_EFFECTS_MENU_TITLE" : [
+      {
+        "target" : "פילטרים",
+        "filename" : "ZoomWindow.strings",
+        "language" : "he"
+      },
+      {
+        "language" : "ar",
+        "target" : "الفلاتر",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "target" : "Filtri",
+        "language" : "sl",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZW_SLUG_HINT_DOUBLE_TAP_TOGGLE_ZOOM" : [
+      {
+        "target" : "יש להקיש שלוש פעמים למעבר בין מצבי ההגדלה.",
+        "filename" : "ZoomWindow.strings",
+        "language" : "he"
+      },
+      {
+        "language" : "ar",
+        "target" : "اضغط ثلاث مرات لتبديل مستوى التكبير.",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl",
+        "target" : "Trotapnite za preklop povečave."
+      }
+    ],
+    "ZW_LENS_TOUCH_CONTAINER_LABEL" : [
+      {
+        "target" : "עדשת ההגדלה\/הקטנה",
+        "filename" : "ZoomWindow.strings",
+        "language" : "he"
+      },
+      {
+        "target" : "عدسات التكبير",
+        "language" : "ar",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "sl",
+        "filename" : "ZoomWindow.strings",
+        "target" : "Leča povečave"
+      }
+    ],
+    "ZW_RESIZE_HANDLE_LOWER_LEFT" : [
+      {
+        "language" : "he",
+        "target" : "ידית שמאלית תחתונה לשינוי גודל",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "target" : "معالج تغيير حجم الأيسر الأسفل",
+        "filename" : "ZoomWindow.strings",
+        "language" : "ar"
+      },
+      {
+        "language" : "sl",
+        "target" : "Spodnja leva ročica za spreminjanje velikosti",
+        "filename" : "ZoomWindow.strings"
+      }
+    ],
+    "ZW_RESIZE_HANDLE_LOWER" : [
+      {
+        "target" : "ידית תחתונה לשינוי גודל",
+        "filename" : "ZoomWindow.strings",
+        "language" : "he"
+      },
+      {
+        "language" : "ar",
+        "filename" : "ZoomWindow.strings",
+        "target" : "معالج تغيير حجم الأسفل"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl",
+        "target" : "Spodnja ročica za spreminjanje velikosti"
+      }
+    ],
+    "ZW_RIGHT_GRABBER_LABEL" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "he",
+        "target" : "ידית ימנית להגדלה\/הקטנה"
+      },
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "ar",
+        "target" : "معالج التكبير الأيمن"
+      },
+      {
+        "target" : "Desna ročica za povečavo",
+        "filename" : "ZoomWindow.strings",
+        "language" : "sl"
+      }
+    ],
+    "ZW_MENU_BUTTON_TOGGLE_ZOOM_OUT" : [
+      {
+        "filename" : "ZoomWindow.strings",
+        "language" : "he",
+        "target" : "הקטנה"
+      },
+      {
+        "language" : "ar",
+        "target" : "تصغير",
+        "filename" : "ZoomWindow.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Pomanjšaj",
+        "filename" : "ZoomWindow.strings"
+      }
+    ]
+  },
+  "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22K154\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.2.simruntime\/Contents\/Resources\/RuntimeRoot\/System\/Library\/AccessibilityBundles\/ZoomWindow.axuiservice"
+}

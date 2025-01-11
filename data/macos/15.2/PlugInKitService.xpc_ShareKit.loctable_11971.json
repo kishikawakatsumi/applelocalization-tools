@@ -1,0 +1,613 @@
+{
+  "bundlePath" : "\/System\/Library\/PrivateFrameworks\/ConfigurationProfiles.framework\/XPCServices\/PlugInKitService.xpc",
+  "framework" : "PlugInKitService.xpc",
+  "localizations" : {
+    "CPPayloadCountStringsDictKey_CountFirst" : [
+      {
+        "target" : "{\"PayloadType\":{\"few\":\"Sharing Kit (%lu)\",\"one\":\"Sharing Kit (%lu)\",\"other\":\"%lu компонента типа «Sharing Kit»\",\"many\":\"Sharing Kit (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"ערכת שיתוף\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"‏%lu ערכות שיתוף\",\"two\":\"שתי ערכות שיתוף\",\"many\":\"‏%lu ערכות שיתוף\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Trousse de partage\",\"other\":\"%lu trousses de partage\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "fr_CA",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "el",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Κιτ κοινής χρήσης\",\"other\":\"%lu Κιτ κοινής χρήσης\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"other\":\"%lu개의 공유 킷\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "ko"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"other\":\"%lu個共享套組\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Paylaşma Takımı\",\"other\":\"%lu Paylaşma Takımı\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "tr",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "hu",
+        "target" : "{\"PayloadType\":{\"one\":\"Megosztási készlet\",\"other\":\"%lu Megosztási készlet\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"few\":\"%lu kompleti za deljenje\",\"one\":\"%lu komplet za deljenje\",\"other\":\"%lu kompletov za deljenje\",\"two\":\"%lu kompleta za deljenje\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "sl"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"PayloadType\":{\"other\":\"%lu个共享套件\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "fr",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Kit de partage\",\"other\":\"%lu Kit de partage\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"PayloadType\":{\"other\":\"%lu個共享套組\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"other\":\"%lu Kit Berbagi\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "id",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Delingspakke\",\"other\":\"%lu delingspakke\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "no"
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Conjunto de partilha\",\"other\":\"%lu conjuntos de partilha\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"few\":\"%lu пакети спільного доступу\",\"one\":\"%lu бібліотека спільного доступу\",\"other\":\"%lu пакета спільного доступу\",\"many\":\"%lu пакетів спільного доступу\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "uk"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "es_419",
+        "target" : "{\"PayloadType\":{\"one\":\"Kit de recursos compartidos\",\"other\":\"%lu Kit de recursos compartidos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Jakotyökalut\",\"other\":\"%lu jakotyökaluasetusta\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "fi",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"few\":\"%lux Sharing Kity\",\"one\":\"Sharing Kit\",\"other\":\"%lux Sharing Kitů\",\"many\":\"%lux Sharing Kitu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "cs",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"other\":\"%lu Bộ chia sẻ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Teilen-Kit\",\"other\":\"%lu Teilen-Kit\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Kit de recursos compartidos\",\"other\":\"%lu kits de recursos compartidos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "es",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "en_AU",
+        "target" : "{\"PayloadType\":{\"one\":\"Sharing Kit\",\"other\":\"%lu Sharing Kit\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "pt_BR",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Kit de Compartilhamento\",\"other\":\"Kit de Compartilhamento %lu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Kit d’ús compartit\",\"other\":\"%lu kits d’ús compartit\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "ca",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"other\":\"%lu個の共有キット\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "ja"
+      },
+      {
+        "language" : "en",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Sharing Kit\",\"other\":\"%lu Sharing Kit\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"PayloadType\":{\"one\":\"Sharing Kit\",\"other\":\"%lu Sharing Kit\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"PayloadType\":{\"few\":\"%lu kompleta za dijeljenje\",\"one\":\"%lu komplet za dijeljenje\",\"other\":\"%lu kompleta za dijeljenje\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "sv",
+        "target" : "{\"PayloadType\":{\"one\":\"Sharing Kit\",\"other\":\"%lu Sharing Kit\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "nl",
+        "target" : "{\"PayloadType\":{\"one\":\"ShareKit\",\"other\":\"%lu ShareKit\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "th",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"other\":\"ชุดเครื่องมือการแชร์ %lu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "ar",
+        "target" : "{\"PayloadType\":{\"one\":\"حزمة المشاركة\",\"few\":\"%lu حمولات من \\\"حزمة المشاركة\\\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"%lu حمولة من \\\"حزمة المشاركة\\\"\",\"two\":\"حمولتان من \\\"حزمة المشاركة\\\"\",\"other\":\"%lu حمولة من \\\"حزمة المشاركة\\\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"لا توجد حمولات من \\\"حزمة المشاركة\\\"\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "ro",
+        "target" : "{\"PayloadType\":{\"few\":\"%lu kit partajare\",\"one\":\"Kit partajare\",\"other\":\"%lu kit partajare\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "sk",
+        "target" : "{\"PayloadType\":{\"few\":\"%lu súpravy na zdieľanie\",\"one\":\"Súprava na zdieľanie\",\"other\":\"%lu súprav na zdieľanie\",\"many\":\"%lu súprav na zdieľanie\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "da",
+        "target" : "{\"PayloadType\":{\"one\":\"Kit der deles\",\"other\":\"%lu Kit der kan deles\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"other\":\"%lu Kit Perkongsian\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "ms"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"few\":\"%lu zestawy udostępniania\",\"one\":\"Zestaw udostępniania\",\"other\":\"%lu zestawu udostępniania\",\"many\":\"%lu zestawów udostępniania\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"शेयरिंग किट\",\"other\":\"%lu शेयरिंग किट\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "hi",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "it",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Kit di condivisione\",\"other\":\"%lu kit di condivisione\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_CountLast" : [
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "ru",
+        "target" : "{\"PayloadType\":{\"few\":\"Sharing Kit (%lu)\",\"one\":\"Sharing Kit (%lu)\",\"other\":\"%lu компонента типа «Sharing Kit»\",\"many\":\"Sharing Kit (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "he",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"ערכת שיתוף\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"ערכת שיתוף (%lu)\",\"two\":\"ערכת שיתוף (%lu)\",\"many\":\"ערכת שיתוף (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Trousse de partage\",\"other\":\"Trousses de partage (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "el",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Κιτ κοινής χρήσης\",\"other\":\"Κιτ κοινής χρήσης (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"other\":\"공유 킷(%lu개)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "ko",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"other\":\"共享套組（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Paylaşma Takımı\",\"other\":\"Paylaşma Takımı (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "tr"
+      },
+      {
+        "language" : "hu",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Megosztási készlet\",\"other\":\"Megosztási készlet(%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"PayloadType\":{\"few\":\"Kompleti za deljenje (%lu)\",\"one\":\"%lu komplet za deljenje\",\"other\":\"Kompleti za deljenje (%lu)\",\"two\":\"Kompleta za deljenje (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"PayloadType\":{\"other\":\"共享套件（%lu个）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Kit de partage\",\"other\":\"Kit de partage (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"other\":\"共享套組（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"other\":\"Kit Berbagi (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "id",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"PayloadType\":{\"one\":\"Delingspakke\",\"other\":\"delingspakke (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"PayloadType\":{\"one\":\"Conjunto de partilha\",\"other\":\"Conjunto de partilha (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"few\":\"Пакети спільного доступу (%lu)\",\"one\":\"Бібліотека спільного доступу (%lu)\",\"other\":\"Пакет спільного доступу (%lu)\",\"many\":\"Пакети спільного доступу (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "uk"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"PayloadType\":{\"one\":\"Kit de recursos compartidos\",\"other\":\"Kit de recursos compartidos (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Jakotyökalut\",\"other\":\"Jakotyökalut (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "fi"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "cs",
+        "target" : "{\"PayloadType\":{\"few\":\"Sharing Kit (%lu)\",\"one\":\"Sharing Kit\",\"other\":\"Sharing Kit (%lu)\",\"many\":\"Sharing Kit (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"other\":\"Bộ chia sẻ (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "vi"
+      },
+      {
+        "language" : "de",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Teilen-Kit\",\"other\":\"Teilen-Kit (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Kit de recursos compartidos\",\"other\":\"Kit de recursos compartidos (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "es"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Sharing Kit\",\"other\":\"Sharing Kit (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Kit de Compartilhamento\",\"other\":\"Kit de Compartilhamento (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "ca",
+        "target" : "{\"PayloadType\":{\"one\":\"Kit d’ús compartit\",\"other\":\"Kits d’ús compartit (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"other\":\"共有キット（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Sharing Kit\",\"other\":\"Sharing Kit (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "en"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"PayloadType\":{\"one\":\"Sharing Kit\",\"other\":\"Sharing Kit (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "hr",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"few\":\"Komplet za dijeljenje (%lu)\",\"one\":\"Komplet za dijeljenje (%lu)\",\"other\":\"Komplet za dijeljenje (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Sharing Kit\",\"other\":\"Sharing Kit (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"ShareKit\",\"other\":\"ShareKit (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "nl"
+      },
+      {
+        "language" : "th",
+        "target" : "{\"PayloadType\":{\"other\":\"ชุดเครื่องมือการแชร์ (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"PayloadType\":{\"one\":\"حزمة المشاركة\",\"few\":\"حزمة المشاركة (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"حزمة المشاركة (%lu)\",\"two\":\"حزمة المشاركة (%lu)\",\"other\":\"حزمة المشاركة (%lu)\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"حزمة المشاركة (%lu)\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "ro",
+        "target" : "{\"PayloadType\":{\"few\":\"Kit partajare (%lu)\",\"one\":\"Kit partajare\",\"other\":\"Kit partajare (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"PayloadType\":{\"few\":\"Súprava na zdieľanie (%lu)\",\"one\":\"Súprava na zdieľanie\",\"other\":\"Súprava na zdieľanie (%lu)\",\"many\":\"Súprava na zdieľanie (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "da",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Kit der deles\",\"other\":\"Kit der deles (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"other\":\"Kit Perkongsian (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "ms"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"few\":\"Zestaw udostępniania (%lu)\",\"one\":\"Zestaw udostępniania\",\"other\":\"Zestaw udostępniania (%lu)\",\"many\":\"Zestaw udostępniania (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "pl",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"PayloadType\":{\"one\":\"शेयरिंग किट\",\"other\":\"शेयरिंग किट (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Kit di condivisione\",\"other\":\"Kit di condivisione (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "it"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_SingularOnly" : [
+      {
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Sharing Kit\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "ru",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "he",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"ערכת שיתוף\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"\",\"two\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "fr_CA",
+        "target" : "{\"PayloadType\":{\"one\":\"Trousse de partage\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Κιτ κοινής χρήσης\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "el",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "ko",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "tr",
+        "target" : "{\"PayloadType\":{\"one\":\"Paylaşma Takımı\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Megosztási készlet\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "hu"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Komplet za deljenje\",\"other\":\"\",\"two\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Kit de partage\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "fr"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "id",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"PayloadType\":{\"one\":\"Delingspakke\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"PayloadType\":{\"one\":\"Conjunto de partilha\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Бібліотека спільного доступу\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"PayloadType\":{\"one\":\"Kit de recursos compartidos\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "fi",
+        "target" : "{\"PayloadType\":{\"one\":\"Jakotyökalut\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Sharing Kit\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "cs",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "vi",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"PayloadType\":{\"one\":\"Teilen-Kit\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "es",
+        "target" : "{\"PayloadType\":{\"one\":\"Kit de recursos compartidos\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "en_AU",
+        "target" : "{\"PayloadType\":{\"one\":\"Sharing Kit\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "pt_BR",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"one\":\"Kit de Compartilhamento\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Kit d’ús compartit\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "ca",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Sharing Kit\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "en",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Sharing Kit\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "en_GB",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"%lu komplet za dijeljenje\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"PayloadType\":{\"one\":\"Sharing Kit\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"PayloadType\":{\"one\":\"ShareKit\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "th",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"حزمة المشاركة\",\"few\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"\",\"two\":\"\",\"other\":\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "language" : "ar",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "ro",
+        "filename" : "ShareKit.loctable",
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Kit partajare\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "sk",
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Súprava na zdieľanie\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "target" : "{\"PayloadType\":{\"one\":\"Kit der deles\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable",
+        "language" : "da"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "ms",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "ShareKit.loctable",
+        "language" : "pl",
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Zestaw udostępniania\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"PayloadType\":{\"one\":\"शेयरिंग किट\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"PayloadType\":{\"one\":\"Kit di condivisione\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}",
+        "filename" : "ShareKit.loctable"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/PrivateFrameworks\/ConfigurationProfiles.framework\/XPCServices\/PlugInKitService.xpc\/Contents\/Resources\/ShareKit.loctable"
+}

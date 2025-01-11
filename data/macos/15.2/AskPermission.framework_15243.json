@@ -1,0 +1,998 @@
+{
+  "framework" : "AskPermission.framework",
+  "bundlePath" : "\/System\/Volumes\/Data\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22C150\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.2.simruntime\/Contents\/Resources\/RuntimeRoot\/System\/Library\/PrivateFrameworks\/AskPermission.framework",
+  "localizations" : {
+    "DEFAULT_ERROR_ACTION" : [
+      {
+        "target" : "OK",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es_419",
+        "target" : "OK"
+      },
+      {
+        "target" : "V redu",
+        "language" : "sl",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "bg",
+        "target" : "ОК"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "OK",
+        "language" : "kk"
+      },
+      {
+        "language" : "lt",
+        "target" : "Gerai",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "ACTION_OK" : [
+      {
+        "target" : "OK",
+        "language" : "en",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "OK",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "V redu",
+        "language" : "sl"
+      },
+      {
+        "target" : "ОК",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "OK",
+        "language" : "kk"
+      },
+      {
+        "target" : "Gerai",
+        "filename" : "Localizable.strings",
+        "language" : "lt"
+      }
+    ],
+    "NOTIFICATION_ACTION_DETAILS" : [
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Details",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es_419",
+        "target" : "Detalles"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "sl",
+        "target" : "Podrobnosti"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "bg",
+        "target" : "Детайли"
+      },
+      {
+        "target" : "Мәліметтер",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      },
+      {
+        "language" : "lt",
+        "target" : "Informacija",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "AUTHENTICATION_OPTIN_DIALOG_BODY_OPTICID" : [
+      {
+        "target" : "You can use Optic ID instead of your password when approving requests.",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es_419",
+        "target" : "Puedes usar Optic ID en lugar de tu contraseña para aprobar solicitudes."
+      },
+      {
+        "language" : "sl",
+        "filename" : "Localizable.strings",
+        "target" : "Za odobritev zahtev lahko namesto gesla uporabite Optic ID."
+      },
+      {
+        "target" : "Можете да използвате Optic ID вместо вашата парола, когато одобрявате заявки.",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "kk",
+        "target" : "Сұрауларды мақұлдау үшін құпиясөздің орнына Optic ID функциясын пайдалануға болады."
+      },
+      {
+        "target" : "Tvirtindami užklausas vietoje slaptažodžio galite naudoti „Optic ID“.",
+        "language" : "lt",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "AUTHENTICATION_ACTION_DECLINE" : [
+      {
+        "target" : "decline",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "es_419",
+        "target" : "rechazar",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "zavrni",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "откажи",
+        "language" : "bg",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "kk",
+        "target" : "қабылдамау"
+      },
+      {
+        "target" : "atmesti",
+        "filename" : "Localizable.strings",
+        "language" : "lt"
+      }
+    ],
+    "PRODUCT_WINDOW_TITLE" : [
+      {
+        "target" : "Family",
+        "language" : "en",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Familia",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "language" : "sl",
+        "filename" : "Localizable.strings",
+        "target" : "Družina"
+      },
+      {
+        "language" : "bg",
+        "target" : "Семейство",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Отбасы",
+        "language" : "kk"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "lt",
+        "target" : "Šeima"
+      }
+    ],
+    "NOTIFICATION_TITLE_APPROVER" : [
+      {
+        "language" : "en",
+        "target" : "Request from %@",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Solicitud de %@",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Zahteva za odobritev od osebe %@",
+        "filename" : "Localizable.strings",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "bg",
+        "target" : "Заявка от %@"
+      },
+      {
+        "language" : "kk",
+        "filename" : "Localizable.strings",
+        "target" : "%@ атты пайдаланушыдан сұрау жіберілді"
+      },
+      {
+        "language" : "lt",
+        "filename" : "Localizable.strings",
+        "target" : "%@ pateikė užklausą"
+      }
+    ],
+    "AUTHENTICATION_ACTION_APPROVE_ROW" : [
+      {
+        "language" : "en",
+        "filename" : "Localizable.strings",
+        "target" : "purchase"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "comprar",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "kupi",
+        "language" : "sl"
+      },
+      {
+        "language" : "bg",
+        "target" : "покупка",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "kk",
+        "target" : "сатып алу",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "lt",
+        "target" : "pirkti",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "AUTHENTICATION_OPTIN_DIALOG_TITLE_FACEID" : [
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en",
+        "target" : "Enable Face ID for\nFamily Sharing?"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "Localizable.strings",
+        "target" : "¿Activar Face ID para\nCompartir en familia?"
+      },
+      {
+        "language" : "sl",
+        "filename" : "Localizable.strings",
+        "target" : "Želite omogočiti Face ID\nza Deljenje v družini?"
+      },
+      {
+        "target" : "Активиране на Face ID за\nСемейно споделяне?",
+        "language" : "bg",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "kk",
+        "target" : "Отбасылық қол жеткізу үшін Face ID функциясын\nқосу қажет пе?",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "lt",
+        "target" : "Įjungti „Face ID“ funkcijai\n„Bendrinimas su šeima“?"
+      }
+    ],
+    "NOTIFICATION_TITLE_REQUESTER_APPROVED" : [
+      {
+        "language" : "en",
+        "target" : "Request approved by %@",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Solicitud aprobada por %@",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "language" : "sl",
+        "target" : "Oseba %@ je odobrila zahtevo",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Одобрена заявка от %@",
+        "language" : "bg",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "kk",
+        "filename" : "Localizable.strings",
+        "target" : "%@ сұрауды мақұлдады"
+      },
+      {
+        "target" : "%@ patvirtino užklausą",
+        "language" : "lt",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "AUTHENTICATION_OPTIN_DIALOG_BODY_TOUCHID" : [
+      {
+        "language" : "en",
+        "target" : "You can use Touch ID instead of your password when approving requests.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es_419",
+        "target" : "Puedes usar Touch ID en lugar de tu contraseña para aprobar solicitudes."
+      },
+      {
+        "language" : "sl",
+        "target" : "Za odobritev zahtev lahko namesto gesla uporabite Touch ID.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Можете да използвате Touch ID вместо вашата парола, когато одобрявате заявки.",
+        "language" : "bg",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "kk",
+        "target" : "Сұрауларды бекіту үшін құпиясөздің орнына Touch ID функциясын пайдалансаңыз болады.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "lt",
+        "target" : "Tvirtindami užklausas vietoje slaptažodžio galite naudoti „Touch ID“.",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "AUTHENTICATION_OPTIN_DIALOG_BUTTON_APPROVE" : [
+      {
+        "language" : "en",
+        "target" : "Enable",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Activar",
+        "language" : "es_419",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "sl",
+        "target" : "Omogoči"
+      },
+      {
+        "target" : "Активиране",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қосу",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "lt",
+        "target" : "Įjungti"
+      }
+    ],
+    "AUTHENTICATION_PROMPT_TITLE_DECLINE_REMOTE" : [
+      {
+        "target" : "Sign In to Decline",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Inicia sesión para rechazar",
+        "language" : "es_419",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Vpišite se za zavrnitev",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Влезте за отказ",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "language" : "kk",
+        "target" : "Қабылдамау үшін жүйеге кіру",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "lt",
+        "target" : "Prisijunkite, kad atmestumėte",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "AUTHENTICATION_PROMPT_TITLE_APPROVE_LOCAL" : [
+      {
+        "target" : "Approve from This Device",
+        "language" : "en",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Aprobar desde este dispositivo",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Odobri iz te naprave",
+        "filename" : "Localizable.strings",
+        "language" : "sl"
+      },
+      {
+        "target" : "Одобри на това устройство",
+        "language" : "bg",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "kk",
+        "filename" : "Localizable.strings",
+        "target" : "Осы құрылғыдан бекіту"
+      },
+      {
+        "target" : "Patvirtinti naudojant šį įrenginį",
+        "filename" : "Localizable.strings",
+        "language" : "lt"
+      }
+    ],
+    "DEFAULT_ERROR_TITLE" : [
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Unknown Error",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es_419",
+        "target" : "Error desconocido"
+      },
+      {
+        "language" : "sl",
+        "target" : "Neznana napaka",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "bg",
+        "target" : "Непозната грешка"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Белгісіз қате",
+        "language" : "kk"
+      },
+      {
+        "language" : "lt",
+        "target" : "Nežinoma klaida",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "AUTHENTICATION_PROMPT_BODY_LOCAL" : [
+      {
+        "target" : "A parent or guardian must enter their Apple Account and password to approve this purchase.",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "target" : "Un padre o tutor debe ingresar su cuenta de Apple y contraseña de iCloud para aprobar esta compra.",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Za odobritev tega nakupa mora starš ali skrbnik vnesti svoj račun Apple in geslo.",
+        "language" : "sl",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "bg",
+        "target" : "A parent or guardian must enter their Apple Account and password to approve this purchase."
+      },
+      {
+        "language" : "kk",
+        "target" : "A parent or guardian must enter their Apple Account and password to approve this purchase.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "lt",
+        "target" : "A parent or guardian must enter their Apple Account and password to approve this purchase.",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "AUTHENTICATION_OPTIN_DIALOG_BODY_FACEID" : [
+      {
+        "target" : "You can use Face ID instead of your password when approving requests.",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Puedes usar Face ID en lugar de tu contraseña para aprobar solicitudes.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Za odobritev zahtev lahko namesto gesla uporabite Face ID.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "bg",
+        "target" : "Можете да използвате Face ID вместо вашата парола, когато одобрявате заявки.",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Сұрауларды бекіту үшін құпиясөздің орнына Face ID функциясын пайдалансаңыз болады.",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      },
+      {
+        "language" : "lt",
+        "target" : "Tvirtindami užklausas vietoje slaptažodžio galite naudoti „Face ID“.",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "AUTHENTICATION_ACTION_APPROVE" : [
+      {
+        "language" : "en",
+        "target" : "approve",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "aprobar",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "target" : "odobri",
+        "filename" : "Localizable.strings",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "bg",
+        "target" : "одобри"
+      },
+      {
+        "target" : "растау",
+        "language" : "kk",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "patvirtinti",
+        "language" : "lt"
+      }
+    ],
+    "AUTHENTICATION_PROMPT_TITLE_APPROVE_REMOTE" : [
+      {
+        "target" : "Sign In to Approve",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Inicia sesión para aprobar",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Vpišite se za odobritev",
+        "filename" : "Localizable.strings",
+        "language" : "sl"
+      },
+      {
+        "target" : "Влезте за одобрение",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Мақұлдау үшін жүйеге кіру",
+        "language" : "kk",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Prisijunkite, kad patvirtintumėte",
+        "filename" : "Localizable.strings",
+        "language" : "lt"
+      }
+    ],
+    "AUTHENTICATION_OPTIN_DIALOG_TITLE_TOUCHID" : [
+      {
+        "target" : "Enable Touch ID for\nFamily Sharing?",
+        "language" : "en",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "¿Activar Touch ID para\nCompartir en familia?",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "language" : "sl",
+        "target" : "Želite omogočiti Touch ID\nza Deljenje v družini?",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "bg",
+        "target" : "Активиране на Touch ID за\nСемейно споделяне?",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Отбасылық қол жеткізу үшін Touch ID функциясын\nқосу қажет пе?",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      },
+      {
+        "target" : "Įjungti „Touch ID“ funkcijai\n„Bendrinimas su šeima“?",
+        "language" : "lt",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "AUTHENTICATION_PROMPT_TITLE_APPROVE_REMOTE_ROW" : [
+      {
+        "language" : "en",
+        "target" : "Sign In to Purchase",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es_419",
+        "target" : "Inicia sesión para comprar"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Vpišite se za nakup",
+        "language" : "sl"
+      },
+      {
+        "language" : "bg",
+        "filename" : "Localizable.strings",
+        "target" : "Влезте за покупка"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "kk",
+        "target" : "Сатып алу үшін жүйеге кіру"
+      },
+      {
+        "target" : "Prisijunkite, kad įsigytumėte",
+        "filename" : "Localizable.strings",
+        "language" : "lt"
+      }
+    ],
+    "AUTHENTICATION_PROMPT_TITLE_APPROVE_LOCAL_ROW" : [
+      {
+        "target" : "Purchase from This Device",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Comprar desde este dispositivo",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Kupi iz te naprave",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Купи на това устройство",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "language" : "kk",
+        "target" : "Осы құрылғыдан сатып алу",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "lt",
+        "target" : "Pirkti naudojant šį įrenginį",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "ACTION_DECLINE" : [
+      {
+        "language" : "en",
+        "filename" : "Localizable.strings",
+        "target" : "Decline"
+      },
+      {
+        "target" : "Rechazar",
+        "filename" : "Localizable.strings",
+        "language" : "es_419"
+      },
+      {
+        "language" : "sl",
+        "target" : "Zavrni",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "bg",
+        "target" : "Откажи",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "kk",
+        "target" : "Қабылдамау",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "lt",
+        "target" : "Atmesti"
+      }
+    ],
+    "NOTIFICATION_TITLE_REQUESTER_DECLINED" : [
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Request declined by %@",
+        "language" : "en"
+      },
+      {
+        "target" : "%@ rechazó la solicitud",
+        "language" : "es_419",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "sl",
+        "filename" : "Localizable.strings",
+        "target" : "Oseba %@ je zavrnila zahtevo"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Отказана заявка от %@",
+        "language" : "bg"
+      },
+      {
+        "language" : "kk",
+        "target" : "%@ сұрауды қабылдамады",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "lt",
+        "target" : "%@ atmetė užklausą"
+      }
+    ],
+    "AUTHENTICATION_OPTIN_DIALOG_BUTTON_DECLINE" : [
+      {
+        "language" : "en",
+        "target" : "Not Now",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Ahora no",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Ne zdaj",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Не сега",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қазір емес",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      },
+      {
+        "language" : "lt",
+        "target" : "Ne dabar",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "DEFAULT_ERROR_MESSAGE" : [
+      {
+        "language" : "en",
+        "filename" : "Localizable.strings",
+        "target" : "An unknown error occurred. Please try again."
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "es_419",
+        "target" : "Ocurrió un error desconocido. Reintenta."
+      },
+      {
+        "target" : "Prišlo je do neznane napake. Poskusite znova.",
+        "filename" : "Localizable.strings",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "bg",
+        "target" : "Възникна непозната грешка. Моля, опитайте отново."
+      },
+      {
+        "target" : "Белгісіз қате пайда болды. Әрекетті қайталаңыз.",
+        "language" : "kk",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "lt",
+        "target" : "Įvyko nežinoma klaida. Bandykite dar kartą.",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "ACTION_APPROVE_ROW" : [
+      {
+        "language" : "en",
+        "target" : "Purchase",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Comprar",
+        "language" : "es_419",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Kupi",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Покупка",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "target" : "Сатып алу",
+        "language" : "kk",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "lt",
+        "filename" : "Localizable.strings",
+        "target" : "Pirkti"
+      }
+    ],
+    "ACTION_APPROVE" : [
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Approve",
+        "language" : "en"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Aprobar",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Odobri",
+        "filename" : "Localizable.strings",
+        "language" : "sl"
+      },
+      {
+        "target" : "Одобри",
+        "filename" : "Localizable.strings",
+        "language" : "bg"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "language" : "kk",
+        "target" : "Растау"
+      },
+      {
+        "language" : "lt",
+        "target" : "Patvirtinti",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "AUTHENTICATION_OPTIN_DIALOG_TITLE_OPTICID" : [
+      {
+        "language" : "en",
+        "target" : "Enable Optic ID for\nFamily Sharing?",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "es_419",
+        "target" : "¿Activar Optic ID para\nCompartir en familia?",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "sl",
+        "target" : "Želite omogočiti Optic ID\nza Deljenje v družini?",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "bg",
+        "target" : "Активиране на Optic ID за\nСемейно споделяне?",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Отбасылық қол жеткізу үшін Optic ID\nфункциясын қосу қажет пе?",
+        "language" : "kk",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Įjungti „Optic ID“ funkcijai\n„Bendrinimas su šeima“?",
+        "language" : "lt",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "AUTHENTICATION_PROMPT_BODY_REMOTE" : [
+      {
+        "target" : "Enter the password for “%@”",
+        "language" : "en",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Ingresa la contraseña de “%@”",
+        "language" : "es_419"
+      },
+      {
+        "language" : "sl",
+        "target" : "Vnesite geslo za »%@«",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "bg",
+        "target" : "Enter the password for “%@”",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "target" : "Enter the password for “%@”",
+        "language" : "kk",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "language" : "lt",
+        "filename" : "Localizable.strings",
+        "target" : "Enter the password for “%@”"
+      }
+    ],
+    "NOTIFICATION_ACTION_DISMISS" : [
+      {
+        "language" : "en",
+        "filename" : "Localizable.strings",
+        "target" : "Not Now"
+      },
+      {
+        "target" : "Ahora no",
+        "language" : "es_419",
+        "filename" : "Localizable.strings"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Ne zdaj",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Не сега",
+        "language" : "bg"
+      },
+      {
+        "target" : "Қазір емес",
+        "filename" : "Localizable.strings",
+        "language" : "kk"
+      },
+      {
+        "language" : "lt",
+        "target" : "Ne dabar",
+        "filename" : "Localizable.strings"
+      }
+    ]
+  }
+}

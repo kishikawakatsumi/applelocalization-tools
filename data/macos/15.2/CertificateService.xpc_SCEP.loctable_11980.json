@@ -1,0 +1,613 @@
+{
+  "bundlePath" : "\/System\/Library\/PrivateFrameworks\/ConfigurationProfiles.framework\/XPCServices\/CertificateService.xpc",
+  "localizations" : {
+    "CPPayloadCountStringsDictKey_CountLast" : [
+      {
+        "language" : "hi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP नामांकन\",\"other\":\"SCEP नामांकन (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP Enrolment\",\"other\":\"SCEP Enrolments (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ca",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Inscripció a l’SCEP\",\"other\":\"Inscripcions a l’SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Регистрация SCEP (%lu)\",\"one\":\"Регистрация SCEP (%lu)\",\"other\":\"Регистрация SCEP (%lu)\",\"many\":\"Регистрация SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "id",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Pendaftaran SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-registrering\",\"other\":\"SCEP-registreringer (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "no"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Εγγραφή SCEP\",\"other\":\"Εγγραφές SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "el",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-tilmelding\",\"other\":\"SCEP-tilmeldinger (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "da",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Registro SCEP\",\"other\":\"Registros SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"SCEP登録（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "ja",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"การลงทะเบียน SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "th",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Rejestracje SCEP (%lu)\",\"one\":\"Rejestracja SCEP\",\"other\":\"Rejestracje SCEP (%lu)\",\"many\":\"Rejestracje SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"SCEP 등록(%lu개)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "es",
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Inscripción SCEP\",\"other\":\"Inscripciones SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-registrering\",\"other\":\"SCEP-registreringar (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Pendaftaran SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "zh_TW",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"SCEP註冊（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Včlanitve SCEP (%lu)\",\"one\":\"%lu včlanitev SCEP\",\"other\":\"Včlanitve SCEP (%lu)\",\"two\":\"Včlanitvi SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "sl"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "zh_HK",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"SCEP登記（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Înscrieri SCEP (%lu)\",\"one\":\"Înscriere SCEP\",\"other\":\"Înscrieri SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "ro"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Registrace SCEP (%lu)\",\"one\":\"Registrace SCEP\",\"other\":\"Registrace SCEP (%lu)\",\"many\":\"Registrace SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "cs",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-feliratkozás\",\"other\":\"SCEP-feliratkozások (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "he",
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"הרשמת SCEP\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"הרשמות SCEP‏ (%lu)\",\"two\":\"הרשמות SCEP‏ (%lu)\",\"many\":\"הרשמות SCEP‏ (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "fr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Inscription SCEP\",\"other\":\"Inscriptions SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Registrácie SCEP (%lu)\",\"one\":\"Registrácia SCEP\",\"other\":\"Registrácie SCEP (%lu)\",\"many\":\"Registrácie SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Prijave SCEP-a (%lu)\",\"one\":\"Prijava SCEP-a (%lu)\",\"other\":\"Prijave SCEP-a (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "hr",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP Enrolment\",\"other\":\"SCEP Enrolments (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Inscription SCEP\",\"other\":\"Inscriptions SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "fr_CA",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Registrazione SCEP\",\"other\":\"Registrazioni SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable",
+        "language" : "it"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Inscripción a SCEP\",\"other\":\"Inscripciones a SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "tr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP Kaydı\",\"other\":\"SCEP Kayıtları (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-inschrijving\",\"other\":\"SCEP-inschrijvingen (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-rekisteröinti\",\"other\":\"SCEP-rekisteröinnit (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Registo SCEP\",\"other\":\"Registos SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "zh_CN",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"SCEP注册（%lu个）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Реєстрації SCEP (%lu)\",\"one\":\"Реєстрація SCEP (%lu)\",\"other\":\"Реєстрації SCEP (%lu)\",\"many\":\"Реєстрації SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "uk"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-Registrierung\",\"other\":\"SCEP-Registrierungen (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "en",
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP Enrollment\",\"other\":\"SCEP Enrollments (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"حمولة واحدة من \\\"تسجيل SCEP\\\"\",\"few\":\"تسجيل SCEP‏ (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"تسجيل SCEP‏ (%lu)\",\"two\":\"تسجيل SCEP‏ (%lu)\",\"other\":\"تسجيل SCEP‏ (%lu)\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"تسجيل SCEP‏ (%lu)\"}}",
+        "language" : "ar"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Đăng ký SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "vi",
+        "filename" : "SCEP.loctable"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_SingularOnly" : [
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP नामांकन\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "hi",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP Enrolment\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ca",
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Inscripció a l’SCEP\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Регистрация SCEP\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "id"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-registrering\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable",
+        "language" : "no"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Εγγραφή SCEP\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-tilmelding\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Registro SCEP\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "ja"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable",
+        "language" : "th"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "pl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Rejestracja SCEP\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "ko"
+      },
+      {
+        "language" : "es",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Inscripción SCEP\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-registrering\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable",
+        "language" : "sv"
+      },
+      {
+        "language" : "ms",
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Včlanitev SCEP\",\"other\":\"\",\"two\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Înscriere SCEP\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable",
+        "language" : "ro"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Registrace SCEP\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "cs"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-feliratkozás\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "hu"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "he",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"הרשמת SCEP\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"\",\"two\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}"
+      },
+      {
+        "language" : "fr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Inscription SCEP\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Registrácia SCEP\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"%lu prijava SCEP-a\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable",
+        "language" : "hr"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP Enrolment\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Inscription SCEP\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Registrazione SCEP\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable",
+        "language" : "it"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "es_419",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Inscripción a SCEP\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP Kaydı\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "tr"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-inschrijving\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "nl"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "fi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-rekisteröinti\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Registo SCEP\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "zh_CN",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Реєстрація SCEP\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-Registrierung\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "de"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "en",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP Enrollment\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"حمولة واحدة من \\\"تسجيل SCEP\\\"\",\"few\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"\",\"two\":\"\",\"other\":\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"\"}}",
+        "language" : "ar",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "vi",
+        "filename" : "SCEP.loctable"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_CountFirst" : [
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP नामांकन\",\"other\":\"%lu SCEP नामांकन\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "hi",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "en_GB",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP Enrolment\",\"other\":\"%lu SCEP Enrolments\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ca",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Inscripció a l’SCEP\",\"other\":\"%lu inscripcions a l’SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Регистрация SCEP (%lu)\",\"one\":\"Регистрация SCEP (%lu)\",\"other\":\"Регистрация SCEP (%lu)\",\"many\":\"Регистрация SCEP (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "id",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Pendaftaran SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "no",
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-registrering\",\"other\":\"%lu SCEP-registreringer\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "el",
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Εγγραφή SCEP\",\"other\":\"%lu εγγραφές SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-tilmelding\",\"other\":\"%lu SCEP-tilmeldinger\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "da"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Registro SCEP\",\"other\":\"%lu Registros SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "pt_BR",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu個のSCEP登録\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "ja"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "th",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"การลงทะเบียน SCEP %lu รายการ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pl",
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu rejestracje SCEP\",\"one\":\"Rejestracja SCEP\",\"other\":\"%lu rejestracji SCEP\",\"many\":\"%lu rejestracji SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu개의 SCEP 등록\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "ko",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "es",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Inscripción SCEP\",\"other\":\"%lu inscripciones SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-registrering\",\"other\":\"%lu SCEP-registreringar\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Pendaftaran SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "ms",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu個SCEP註冊\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "zh_TW",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu včlanitve SCEP\",\"one\":\"%lu včlanitev SCEP\",\"other\":\"%lu včlanitev SCEP\",\"two\":\"%lu včlanitvi SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "sl",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu個SCEP註冊\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu înscrieri SCEP\",\"one\":\"Înscriere SCEP\",\"other\":\"%lu de înscrieri SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "ro"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu registrace SCEP\",\"one\":\"Registrace SCEP\",\"other\":\"%lu registrací SCEP\",\"many\":\"%lu registrace SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable",
+        "language" : "cs"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-feliratkozás\",\"other\":\"%lu SCEP feliratkozások\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"הרשמת SCEP\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"%lu הרשמות SCEP\",\"two\":\"שתי הרשמות SCEP\",\"many\":\"%lu הרשמות SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Inscription SCEP\",\"other\":\"%lu inscriptions SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "fr",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu registrácie SCEP\",\"one\":\"Registrácia SCEP\",\"other\":\"%lu registrácií SCEP\",\"many\":\"%lu registrácií SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "sk",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu SCEP prijave\",\"one\":\"%lu prijava SCEP-a\",\"other\":\"%lu SCEP prijava\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP Enrolment\",\"other\":\"%lu SCEP Enrollments\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Inscription SCEP\",\"other\":\"%lu inscriptions SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "it",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Registrazione SCEP\",\"other\":\"%lu registrazioni SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Inscripción a SCEP\",\"other\":\"%lu inscripciones SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP Kaydı\",\"other\":\"%lu SCEP Kaydı\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-inschrijving\",\"other\":\"%lu SCEP-inschrijvingen\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "language" : "fi",
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-rekisteröinti\",\"other\":\"%lu SCEP-rekisteröintiä\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Registo SCEP\",\"other\":\"%lu registos SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "zh_CN",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu个SCEP注册\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "uk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu реєстрації SCEP\",\"one\":\"%lu реєстрація SCEP\",\"other\":\"%lu реєстрації SCEP\",\"many\":\"%lu реєстрацій SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP-Registrierung\",\"other\":\"%lu SCEP-Registrierungen\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "SCEP.loctable",
+        "language" : "de"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "language" : "en",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"SCEP Enrollment\",\"other\":\"%lu SCEP Enrollments\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"حمولة واحدة من \\\"تسجيل SCEP\\\"\",\"few\":\"‏%lu حمولات من \\\"تسجيل SCEP\\\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"‏%lu حمولة من \\\"تسجيل SCEP\\\"\",\"two\":\"حمولتان من \\\"تسجيل SCEP\\\"\",\"other\":\"‏%lu حمولة من \\\"تسجيل SCEP\\\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"لا توجد حمولات من \\\"تسجيل SCEP\\\"\"}}",
+        "filename" : "SCEP.loctable"
+      },
+      {
+        "filename" : "SCEP.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Đăng ký SCEP\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "vi"
+      }
+    ]
+  },
+  "framework" : "CertificateService.xpc",
+  "loctablePath" : "\/System\/Library\/PrivateFrameworks\/ConfigurationProfiles.framework\/XPCServices\/CertificateService.xpc\/Contents\/Resources\/SCEP.loctable"
+}

@@ -1,0 +1,628 @@
+{
+  "framework" : "mcx.profileDomainPlugin",
+  "localizations" : {
+    "CPPayloadCountStringsDictKey_CountFirst" : [
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Gastbenutzer-Einstellungen\",\"other\":\"%lu Gastbenutzer-Einstellungen\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "de"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Préférences Utilisateur invité\",\"other\":\"%lu Préférences Utilisateur invité\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "fr",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferencias del usuario invitado\",\"other\":\"%lu Preferencias del usuario invitado\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Tùy chọn người dùng khách\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "vi",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu postavke korisnika gosta\",\"one\":\"Postavke korisnika gosta (%lu)\",\"other\":\"%lu postavki korisnika gosta\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "hr",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu preferencje użytkownika Gość\",\"one\":\"Preferencje użytkownika Gość\",\"other\":\"%lu preferencji użytkownika Gość\",\"many\":\"%lu preferencji użytkownika Gość\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Gastgebruikervoorkeuren\",\"other\":\"%lu Gastgebruikervoorkeuren\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "nl"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Guest User Preferences\",\"other\":\"%lu Guest User Preferences\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu个客人用户偏好设置\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "en_GB",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Guest User Preferences\",\"other\":\"%lu Guest User Preferences\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "es_419",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferencias del usuario invitado\",\"other\":\"%lu Preferencias del usuario invitado\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu nastavenia hosťa\",\"one\":\"Nastavenia hosťa\",\"other\":\"%lu nastavení hosťa\",\"many\":\"%lu nastavení hosťa\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "sk",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Vendégfelhasználó beállításai\",\"other\":\"%lu Vendégfelhasználó beállításai\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferências de utilizador convidado\",\"other\":\"%lu preferências de utilizador convidado\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "pt_PT",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu preferințe utilizator vizitator\",\"one\":\"Preferințe utilizator vizitator\",\"other\":\"%lu preferințe utilizator vizitator\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "ro",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferências do Usuário Convidado\",\"other\":\"Preferências de Usuário Convidado %lu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu набори корисних даних параметрів гостьового користувача\",\"one\":\"%lu набір корисних даних параметрів гостя\",\"other\":\"%lu набора корисних даних параметрів гостьового користувача\",\"many\":\"%lu наборів корисних даних параметрів гостьового користувача\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "uk",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Preferensi Pengguna Tamu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "id"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Guest User Preferences\",\"other\":\"%lu Guest User Preferences\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "language" : "th",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"การตั้งค่าผู้ใช้ทั่วไป %lu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "sl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu nastavitve gostujočega uporabnika\",\"one\":\"%lu nastavitev gostujočega uporabnika\",\"other\":\"%lu nastavitev gostujočega uporabnika\",\"two\":\"%lu nastavitvi gostujočega uporabnika\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"गेस्ट यूज़र प्राथमिकता\",\"other\":\"%lu गेस्ट यूज़र प्राथमिकता\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu個訪客使用者偏好設定\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Préférences Utilisateur invité\",\"other\":\"%lu Préférences Utilisateur invité\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "fr_CA",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu個のゲストユーザ環境設定\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "ja"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"تفضيلات المستخدم الضيف\",\"few\":\"%lu حمولات من \\\"تفضيلات المستخدم الضيف\\\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"%lu حمولة من \\\"تفضيلات المستخدم الضيف\\\"\",\"two\":\"حمولتان من \\\"تفضيلات المستخدم الضيف\\\"\",\"other\":\"%lu حمولة من \\\"تفضيلات المستخدم الضيف\\\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"لا توجد حمولات من \\\"تفضيلات المستخدم الضيف\\\"\"}}",
+        "language" : "ar"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "no",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Gjestebruker-valg\",\"other\":\"%lu valg for gjestebruker\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "it",
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferenze utente ospite\",\"other\":\"%lu “Preferenze utente ospite”\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Настройки гостя (%lu)\",\"one\":\"Настройки гостя (%lu)\",\"other\":\"Настройки гостя (%lu)\",\"many\":\"Настройки гостя (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Keutamaan Pengguna Tetamu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "ms"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "zh_HK",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu個訪客用户偏好設定\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu개의 방문 사용자 환경설정\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Vieraskäyttäjän asetukset\",\"other\":\"%lu vieraskäyttäjän asetusta\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "fi"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferències de l’usuari convidat\",\"other\":\"%lu preferències d’usuari convidat\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "ca",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferencias del usuario invitado\",\"other\":\"%lu Preferencias del usuario invitado\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "es",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Gästanvändarinställningar\",\"other\":\"%lu gästanvändarinställningar\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "sv",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Konuk Kullanıcı Tercihleri\",\"other\":\"%lu Konuk Kullanıcı Tercihi\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "tr"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "el",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Προτιμήσεις επισκέπτη-χρήστη\",\"other\":\"%lu Προτιμήσεις επισκέπτη-χρήστη\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"העדפות משתמש אורח\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"‏%lu העדפות של משתמש אורח\",\"two\":\"שתי העדפות של משתמש אורח\",\"many\":\"‏%lu העדפות של משתמש אורח\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}",
+        "language" : "he",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Indstillinger til gæst\",\"other\":\"%lu indstillinger til gæst\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lux předvolby pro hosty\",\"one\":\"1x předvolby pro hosty\",\"other\":\"%lux předvolby pro hosty\",\"many\":\"%lux předvolby pro hosty\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "cs",
+        "filename" : "GuestUserPrefs.loctable"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_SingularOnly" : [
+      {
+        "language" : "de",
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Gastbenutzer-Einstellungen\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fr",
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Préférences Utilisateur invité\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferencias del usuario invitado\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "es_US",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "vi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "hr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"%lu postavke korisnika gosta\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Preferencje użytkownika Gość\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "pl",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Gastgebruikervoorkeuren\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "nl",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Guest User Preferences\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "en",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Guest User Preferences\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferencias del usuario invitado\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "sk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Nastavenia hosťa\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Vendégfelhasználó beállításai\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferências de utilizador convidado\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "pt_PT",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "ro",
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Preferințe utilizator vizitator\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferências do Usuário Convidado\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Параметри гостя\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "uk",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "id"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Guest User Preferences\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "th",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Nastavitev gostujočega uporabnika\",\"other\":\"\",\"two\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "hi",
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"गेस्ट यूज़र प्राथमिकता\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "zh_TW",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Préférences Utilisateur invité\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "fr_CA",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "ja",
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"تفضيلات المستخدم الضيف\",\"few\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"\",\"two\":\"\",\"other\":\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Valg for gjestebruker\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "no"
+      },
+      {
+        "language" : "it",
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferenze utente ospite\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Настройки гостя (%lu)\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "ms"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "ko",
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Vieraskäyttäjän asetukset\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "fi"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "ca",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferències de l’usuari convidat\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es",
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferencias del usuario invitado\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Gästanvändarinställningar\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "sv",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Konuk Kullanıcı Tercihleri\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Προτιμήσεις επισκέπτη-χρήστη\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "el"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "he",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"העדפות משתמש אורח\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"\",\"two\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Indstillinger til gæst\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Předvolby pro hosty\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_CountLast" : [
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Gastbenutzer-Einstellungen\",\"other\":\"Einstellungen für Gastbenutzer:innen (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "de"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "fr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Préférences Utilisateur invité\",\"other\":\"Préférences Utilisateur invité (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferencias del usuario invitado\",\"other\":\"Preferencias del usuario invitado (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "es_US"
+      },
+      {
+        "language" : "vi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Tùy chọn người dùng khách (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Postavke korisnika gosta (%lu)\",\"one\":\"Postavke korisnika gosta (%lu)\",\"other\":\"Postavke korisnika gosta (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Preferencje użytkownika Gość (%lu)\",\"one\":\"Preferencje użytkownika Gość\",\"other\":\"Preferencje użytkownika Gość (%lu)\",\"many\":\"Preferencje użytkownika Gość (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "pl"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Gastgebruikervoorkeuren\",\"other\":\"Gastgebruikervoorkeuren (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "nl"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "en",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Guest User Preferences\",\"other\":\"Guest User Preferences (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"客人用户偏好设置(%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "zh_CN"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Guest User Preferences\",\"other\":\"Guest User Preferences (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferencias del usuario invitado\",\"other\":\"Preferencias del usuario invitado (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "es_419",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Nastavenia hosťa (%lu)\",\"one\":\"Nastavenia hosťa\",\"other\":\"Nastavenia hosťa (%lu)\",\"many\":\"Nastavenia hosťa (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Vendégfelhasználó beállításai\",\"other\":\"Vendégfelhasználó beállításai (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferências de utilizador convidado\",\"other\":\"Preferências de utilizador convidado (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Preferințe utilizator vizitator (%lu)\",\"one\":\"Preferințe utilizator vizitator\",\"other\":\"Preferințe utilizator vizitator (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferências do Usuário Convidado\",\"other\":\"Preferências de Usuário Convidado (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Параметри гостьового користувача (%lu)\",\"one\":\"Параметри гостя (%lu)\",\"other\":\"Параметри гостьового користувача (%lu)\",\"many\":\"Параметри гостьового користувача (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "id",
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Preferensi Pengguna Tamu (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "en_AU",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Guest User Preferences\",\"other\":\"Guest User Preferences (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "th",
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"การตั้งค่าผู้ใช้ทั่วไป (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "sl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Nastavitve gostujočega uporabnika (%lu)\",\"one\":\"Nastavitev gostujočega uporabnika (%lu)\",\"other\":\"Nastavitve gostujočega uporabnika (%lu)\",\"two\":\"Nastavitvi gostujočega uporabnika (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hi",
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"गेस्ट यूज़र प्राथमिकता\",\"other\":\"गेस्ट यूज़र प्राथमिकता (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"訪客使用者偏好設定（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "fr_CA",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Préférences Utilisateur invité\",\"other\":\"Préférences Utilisateur invité (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"ゲストユーザ環境設定（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "ja",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "ar",
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"تفضيلات المستخدم الضيف\",\"few\":\"تفضيلات المستخدم الضيف (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"تفضيلات المستخدم الضيف (%lu)\",\"two\":\"تفضيلات المستخدم الضيف (%lu)\",\"other\":\"تفضيلات المستخدم الضيف (%lu)\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"تفضيلات المستخدم الضيف (%lu)\"}}"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Gjestebruker-valg\",\"other\":\"Gjestebruker-valg (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "no"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferenze utente ospite\",\"other\":\"Preferenze “Utente ospite” (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Настройки гостя (%lu)\",\"one\":\"Настройки гостя (%lu)\",\"other\":\"Настройки гостя (%lu)\",\"many\":\"Настройки гостя (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "ru"
+      },
+      {
+        "language" : "ms",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Keutamaan Pengguna Tetamu (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "zh_HK",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"訪客用户偏好設定（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"방문 사용자 환경설정(%lu개)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Vieraskäyttäjän asetukset\",\"other\":\"Vieraskäyttäjäasetukset (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "fi",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferències de l’usuari convidat\",\"other\":\"Preferències d’usuaris convidats (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Preferencias del usuario invitado\",\"other\":\"Preferencias del usuario invitado (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "es",
+        "filename" : "GuestUserPrefs.loctable"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "sv",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Gästanvändarinställningar\",\"other\":\"Gästanvändarinställningar (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "tr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Konuk Kullanıcı Tercihleri\",\"other\":\"Konuk Kullanıcı Tercihleri (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Προτιμήσεις επισκέπτη-χρήστη\",\"other\":\"Προτιμήσεις επισκέπτη-χρήστη (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "GuestUserPrefs.loctable",
+        "language" : "el"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"העדפות משתמש אורח\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"העדפות של משתמש אורח (%lu)\",\"two\":\"העדפות של משתמש אורח (%lu)\",\"many\":\"העדפות של משתמש אורח (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}",
+        "language" : "he"
+      },
+      {
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Indstillinger til gæst\",\"other\":\"Indstillinger til gæst (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "language" : "da"
+      },
+      {
+        "language" : "cs",
+        "filename" : "GuestUserPrefs.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Předvolby pro hosty (%lu)\",\"one\":\"Předvolby pro hosty\",\"other\":\"Předvolby pro hosty (%lu)\",\"many\":\"Předvolby pro hosty (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      }
+    ]
+  },
+  "bundlePath" : "\/System\/Library\/CoreServices\/ManagedClient.app\/Contents\/PlugIns\/mcx.profileDomainPlugin",
+  "loctablePath" : "\/System\/Library\/CoreServices\/ManagedClient.app\/Contents\/PlugIns\/mcx.profileDomainPlugin\/Contents\/Resources\/GuestUserPrefs.loctable"
+}

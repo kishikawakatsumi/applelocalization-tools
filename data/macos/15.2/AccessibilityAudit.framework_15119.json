@@ -1,0 +1,986 @@
+{
+  "framework" : "AccessibilityAudit.framework",
+  "bundlePath" : "\/System\/Volumes\/Data\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22C150\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.2.simruntime\/Contents\/Resources\/RuntimeRoot\/System\/Library\/PrivateFrameworks\/AccessibilityAudit.framework",
+  "localizations" : {
+    "notChildOfParent.longDesc" : [
+      {
+        "target" : "This %@ is not an accessibility child of the parent element.",
+        "language" : "en",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "notChildOfParent.title" : [
+      {
+        "target" : "Parent\/Child mismatch",
+        "language" : "en",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "Attribute-ElementViewControllerClassName" : [
+      {
+        "language" : "en",
+        "filename" : "LocalizableIOS.strings",
+        "target" : "Controller"
+      }
+    ],
+    "Action-ScrollPreviousPage" : [
+      {
+        "target" : "Scroll previous",
+        "language" : "en",
+        "filename" : "LocalizableIOS.strings"
+      }
+    ],
+    "Hierarchy" : [
+      {
+        "target" : "Hierarchy",
+        "filename" : "LocalizableIOS.strings",
+        "language" : "en"
+      }
+    ],
+    "elementLabelAndValueEmpty.suggestion" : [
+      {
+        "language" : "en",
+        "target" : "Consider setting the accessibilityLabel.",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "fontSizeFormatter" : [
+      {
+        "language" : "en",
+        "target" : "Current font size is %.0f points.",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "notChildOfParent.suggestion" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "Determine the parent element and add this element to the parent element’s accessibilityChildren array."
+      }
+    ],
+    "device" : [
+      {
+        "target" : "Device",
+        "language" : "en",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "elementMissingTraitNotEnabled.title" : [
+      {
+        "target" : "Missing trait: UIAccessibilityTraitNotEnabled",
+        "language" : "en",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "contrastUnknown.title" : [
+      {
+        "language" : "en",
+        "target" : "Unknown contrast",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "dynamicTextUnsupported.title" : [
+      {
+        "target" : "Dynamic Type font sizes are unsupported",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "elementValueDuplicateTraitString.title" : [
+      {
+        "language" : "en",
+        "target" : "Value duplicates traits",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "contrastUnknown.longDesc" : [
+      {
+        "target" : "Unable to determine the contrast in this region.",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "textIsClipped.longDesc" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "Text of this %@ may be clipped at larger Dynamic Type sizes."
+      }
+    ],
+    "unknownRole.suggestion" : [
+      {
+        "target" : "Consider setting the appropriate accessibilityRole.",
+        "language" : "en",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "Action-ScrollNextPage" : [
+      {
+        "language" : "en",
+        "target" : "Scroll next",
+        "filename" : "LocalizableIOS.strings"
+      }
+    ],
+    "auditTestType.contrast" : [
+      {
+        "language" : "en",
+        "target" : "Contrast",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "Action-Decrement" : [
+      {
+        "filename" : "LocalizableIOS.strings",
+        "language" : "en",
+        "target" : "Decrement"
+      }
+    ],
+    "contrastAAFail.longDesc" : [
+      {
+        "target" : "Contrast failed for %@",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "dynamicTextPartiallyUnsupported.longDescExtraInfo" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "The following font sizes are unsupported:"
+      }
+    ],
+    "contrastAAAFail.title" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "Contrast failed"
+      }
+    ],
+    "elementLabelDuplicateTraitString.title" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "Label duplicates traits"
+      }
+    ],
+    "contrastAAPass.title" : [
+      {
+        "language" : "en",
+        "target" : "Contrast passed",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "elementLabelDuplicateRoleDescription.title" : [
+      {
+        "target" : "Label duplicates role description",
+        "language" : "en",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "Attribute-Traits" : [
+      {
+        "filename" : "LocalizableIOS.strings",
+        "language" : "en",
+        "target" : "Traits"
+      }
+    ],
+    "hitTestButNotInSwipeOrder.title" : [
+      {
+        "target" : "Not in navigation order",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "Action-ScrollDownPage" : [
+      {
+        "target" : "Scroll down",
+        "filename" : "LocalizableIOS.strings",
+        "language" : "en"
+      }
+    ],
+    "Attribute-Hint" : [
+      {
+        "target" : "Hint",
+        "language" : "en",
+        "filename" : "LocalizableIOS.strings"
+      }
+    ],
+    "Attribute-Frame" : [
+      {
+        "target" : "Frame",
+        "language" : "en",
+        "filename" : "LocalizableIOS.strings"
+      }
+    ],
+    "elementLabelDuplicateTraitString.longDesc" : [
+      {
+        "target" : "The accessibilityLabel of this %@ duplicates information that is available in the traits.",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "auditTestType.swipeOrder" : [
+      {
+        "target" : "Swipe Order",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "contrastAAAPartialPass.suggestion" : [
+      {
+        "language" : "en",
+        "target" : "Make sure the text font size is at least 18 point regular or 14 point bold. Else pick a different color with contrast ratio above 7.0 to ensure better contrast.",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "contrastAAPass.suggestion" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "Doing great. Consider upgrading to contrast ratio above 7.0."
+      }
+    ],
+    "potentialTextElement.title" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "Potentially inaccessible text"
+      }
+    ],
+    "contrastAAFail.suggestion" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "To ensure higher contrast for readability, try adjusting either the text color to %@ or the background color to %@ so the contrast ratio is above 3.0."
+      }
+    ],
+    "contrastUnknown.suggestion" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "Find out the RGB value of the color used for text versus background and check the contrast ratio via many available online color contrast calculators."
+      }
+    ],
+    "unknownRole.longDesc" : [
+      {
+        "target" : "This %@ is missing a valid role to identify its type.",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "Action-Increment" : [
+      {
+        "language" : "en",
+        "target" : "Increment",
+        "filename" : "LocalizableIOS.strings"
+      }
+    ],
+    "issue" : [
+      {
+        "filename" : "Localizable.strings",
+        "language" : "en",
+        "target" : "Issue"
+      }
+    ],
+    "auditTestType.parentChild" : [
+      {
+        "language" : "en",
+        "target" : "Parent\/Child",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "textIsClipped.title" : [
+      {
+        "language" : "en",
+        "target" : "Text clipped",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "hitTestButNotInSwipeOrder.longDesc" : [
+      {
+        "language" : "en",
+        "target" : "This %@ cannot be accessed via linear navigation techniques.",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "dynamicTextPartiallyUnsupported.title" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "Dynamic Type font sizes are partially unsupported"
+      }
+    ],
+    "swipeOrderForwardReverseMismatch.suggestion" : [
+      {
+        "language" : "en",
+        "target" : "The previous\/next linear navigation order is inconsistent or incomplete for this element. Navigating forward results in a different order than navigating backward.",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "elementImageHasNoLabel.suggestion" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "target" : "Consider setting the accessibilityLabel.",
+        "language" : "en"
+      }
+    ],
+    "auditTestType.textClipped" : [
+      {
+        "language" : "en",
+        "target" : "Clipped Text",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "swipeOrderForwardReverseMismatch.longDesc" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "Linear navigation order is incorrect for this %@."
+      }
+    ],
+    "elementLabelAndValueEmpty.longDesc" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "target" : "This %@ is missing useful accessibility information.",
+        "language" : "en"
+      }
+    ],
+    "dynamicTextPartiallyUnsupported.longDesc" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "target" : "User will not be able to change the font size of this %@",
+        "language" : "en"
+      }
+    ],
+    "Attribute-Identifier" : [
+      {
+        "filename" : "LocalizableIOS.strings",
+        "language" : "en",
+        "target" : "Identifier"
+      }
+    ],
+    "Basic" : [
+      {
+        "language" : "en",
+        "target" : "Basic",
+        "filename" : "LocalizableIOS.strings"
+      }
+    ],
+    "dynamicTextUnsupported.suggestion" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "target" : "This text does not support Dynamic Type. Consider using a UIFont preferred font and setting adjustsFontForContentSizeCategory to YES",
+        "language" : "en"
+      }
+    ],
+    "defaultMacOSSuggestion" : [
+      {
+        "language" : "en",
+        "target" : "Review the NSAccessibility protocol",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "auditTestType.elementDetection" : [
+      {
+        "language" : "en",
+        "target" : "Element Detection",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "contrastAAAFail.longDesc" : [
+      {
+        "target" : "Contrast failed for %@.",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "swipeOrderForwardReverseMismatch.title" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "target" : "Navigation order mismatch",
+        "language" : "en"
+      }
+    ],
+    "elementCouldUseTitle.title" : [
+      {
+        "target" : "Element may need a title",
+        "language" : "en",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "dynamicTextUnsupported.longDesc" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "User will not be able to change the font size of this %@"
+      }
+    ],
+    "inSwipeOrderButNotHitTested.title" : [
+      {
+        "target" : "Not hit-testable",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "elementLabelAndValueEmptyWithMLGeneratedDesc.longDesc" : [
+      {
+        "target" : "This %@ is missing useful accessibility information.",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "potentialElement.longDesc" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "target" : "This %@ contains content that could potentially form one or more separate accessibility elements.",
+        "language" : "en"
+      }
+    ],
+    "elementCouldUseTitle.longDesc" : [
+      {
+        "target" : "This %@ is missing contextual information to know its functionality.",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "contrastAAPartialPass.title" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "Contrast nearly passed"
+      }
+    ],
+    "elementLabelUsesImageName.title" : [
+      {
+        "language" : "en",
+        "target" : "Image name used in description",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "inSwipeOrderButNotHitTested.longDesc" : [
+      {
+        "target" : "Unable to touch to select this %@",
+        "language" : "en",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "elementLabelAndValueEmptyWithMLGeneratedDesc.title.formatter" : [
+      {
+        "language" : "en",
+        "target" : "Element has no description, looks like: %@",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "Attribute-Header" : [
+      {
+        "language" : "en",
+        "target" : "Header",
+        "filename" : "LocalizableIOS.strings"
+      }
+    ],
+    "elementLabelAndValueEmptyWithMLGeneratedDesc.suggestion.formatter" : [
+      {
+        "language" : "en",
+        "target" : "Consider setting the accessibilityLabel to: %@",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "elementLabelDuplicateRoleDescription.suggestion" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "The accessibilityRoleDescription describes the type of element. For example, ‘image’ or ‘button’. The accessibilityLabel is the function or content of that specific element. For example, ‘Get Mail.’"
+      }
+    ],
+    "errorCode" : [
+      {
+        "target" : "Error Code",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "actionMissing.title" : [
+      {
+        "target" : "Action is missing",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "auditTestType.elementDescription" : [
+      {
+        "language" : "en",
+        "target" : "Element Description",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "Attribute-_AXHierarchyElementsAttribute" : [
+      {
+        "filename" : "LocalizableIOS.strings",
+        "language" : "en",
+        "target" : "Hierarchy Elements"
+      }
+    ],
+    "elementLabelDuplicateRoleDescription.longDesc" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "The accessibilityLabel of this %@ duplicates information that is available in the accessibilityRoleDescription."
+      }
+    ],
+    "textContrastRatioFormatter" : [
+      {
+        "target" : "The text contrast ratio is %.2f. ",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "hitTestButNotInSwipeOrder.suggestion" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "A user may be able to touch to select this element, but it is not accessible in linear navigation order. It will not be accessible to those using linear navigation techniques such as swipes or keyboard shortcuts."
+      }
+    ],
+    "auditTestType.action" : [
+      {
+        "target" : "Action",
+        "language" : "en",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "elementLabelDuplicateTraitString.suggestion" : [
+      {
+        "language" : "en",
+        "target" : "The accessibilityTraits characterize the type or properties of an element. For example, ‘button’ or ‘selected’. The accessibilityLabel is the function or content of that specific element. For example, ‘Get Mail’.",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "axAuditReport" : [
+      {
+        "language" : "en",
+        "filename" : "Localizable.strings",
+        "target" : "Accessibility Audit Report"
+      }
+    ],
+    "elementImageHasNoLabel.title" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "Image has no label"
+      }
+    ],
+    "auditTestType.hitRegion" : [
+      {
+        "language" : "en",
+        "target" : "Hit Region",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "Action-ScrollUpPage" : [
+      {
+        "target" : "Scroll up",
+        "language" : "en",
+        "filename" : "LocalizableIOS.strings"
+      }
+    ],
+    "contrastAAAPass.suggestion" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "Excellent. No change needed."
+      }
+    ],
+    "Attribute-UserInputLabels" : [
+      {
+        "language" : "en",
+        "target" : "User Input Labels",
+        "filename" : "LocalizableIOS.strings"
+      }
+    ],
+    "elementLabelNotHumanReadable.suggestion" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "Consider choosing a string that can be understood when presented visually and when spoken verbally."
+      }
+    ],
+    "Attribute-ElementMemoryAddress" : [
+      {
+        "language" : "en",
+        "target" : "Address",
+        "filename" : "LocalizableIOS.strings"
+      }
+    ],
+    "element" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "target" : "element",
+        "language" : "en"
+      }
+    ],
+    "Attribute-TraitsHumanReadable" : [
+      {
+        "target" : "Traits",
+        "filename" : "LocalizableIOS.strings",
+        "language" : "en"
+      }
+    ],
+    "textIsClipped.suggestion" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "Use flexible and stackable layouts, word wrap and hyphenate, or increase row heights."
+      }
+    ],
+    "potentialElement.title" : [
+      {
+        "target" : "Potentially inaccessible element",
+        "language" : "en",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "Action-ScrollRightPage" : [
+      {
+        "language" : "en",
+        "target" : "Scroll right",
+        "filename" : "LocalizableIOS.strings"
+      }
+    ],
+    "potentialTextElement.longDesc" : [
+      {
+        "target" : "This element appears to display text that should be represented using the accessibility API.",
+        "language" : "en",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "hitRegionTooSmall.title" : [
+      {
+        "target" : "Hit area is too small",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "elementCouldUseTitle.suggestion" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "If a static text label is nearby to provide context for this element, reference that label as the accessibilityTitleUIElement. Otherwise, provide an accessibilityLabel."
+      }
+    ],
+    "contrastAAAPartialPass.longDesc" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "Contrast is not high enough for %@ unless font size is larger."
+      }
+    ],
+    "inSwipeOrderButNotHitTested.suggestion" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "A user may be able to navigate to this element by swipe or keyboard navigation, but cannot touch to select."
+      }
+    ],
+    "elementMissingTraitNotEnabled.suggestion" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "target" : "Add the UIAccessibilityTraitNotEnabled trait to this element.",
+        "language" : "en"
+      }
+    ],
+    "Action-ScrollLeftPage" : [
+      {
+        "language" : "en",
+        "target" : "Scroll left",
+        "filename" : "LocalizableIOS.strings"
+      }
+    ],
+    "textBackgroundComparisonFormatter" : [
+      {
+        "target" : "This is based on text color %@ compared with background color %@. ",
+        "language" : "en",
+        "filename" : "Localizable.strings"
+      }
+    ],
+    "contrastAAAPass.title" : [
+      {
+        "language" : "en",
+        "target" : "Contrast passed",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "hitRegionTooSmall.suggestion" : [
+      {
+        "target" : "The visible area for interaction is too small for touch or other standard action inputs. Consider increasing both width and height above 44.",
+        "language" : "en",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "elementLabelUsesImageName.suggestion" : [
+      {
+        "target" : "Set a human-readable, localized accessibilityLabel.",
+        "language" : "en",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "colorsComparisonFormatter" : [
+      {
+        "filename" : "Localizable.strings",
+        "target" : "This is based on color %@ compared with color %@. ",
+        "language" : "en"
+      }
+    ],
+    "hitRegionTooSmall.longDesc" : [
+      {
+        "language" : "en",
+        "target" : "The size of this %@ is too small for user to interact.",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "dynamicTextPartiallyUnsupported.suggestion" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "target" : "This text does not fully support Dynamic Type. Consider using a UIFont preferred font and setting adjustsFontForContentSizeCategory to YES",
+        "language" : "en"
+      }
+    ],
+    "auditTestType.trait" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "Traits"
+      }
+    ],
+    "elementValueDuplicateTraitString.suggestion" : [
+      {
+        "target" : "The accessibilityValue represents the dynamic value of the element. For example, a slider’s numeric value or a text field’s contents. The accessibilityLabel is the function or content of that specific element. For example, ‘Volume’ or ‘Mailing Address.’",
+        "language" : "en",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "missingParent.longDesc" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "This %@ is missing an accessibility parent element."
+      }
+    ],
+    "Attribute-Label" : [
+      {
+        "target" : "Label",
+        "language" : "en",
+        "filename" : "LocalizableIOS.strings"
+      }
+    ],
+    "elementLabelAndValueEmpty.title" : [
+      {
+        "language" : "en",
+        "target" : "Element has no description",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "Attribute-ElementClassName" : [
+      {
+        "target" : "Class",
+        "language" : "en",
+        "filename" : "LocalizableIOS.strings"
+      }
+    ],
+    "unknownRole.title" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "Unknown role"
+      }
+    ],
+    "elementValueDuplicateTraitString.longDesc" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "The accessibilityValue of this %@ duplicates information that is available in the traits."
+      }
+    ],
+    "contrastAAAFail.suggestion" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "target" : "To ensure higher contrast for readability, try adjusting either the text color or the background color so the contrast ratio is above 4.4.",
+        "language" : "en"
+      }
+    ],
+    "contrastAAPartialPass.longDesc" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "Contrast is not high enough for %@ unless font size is larger."
+      }
+    ],
+    "elementImageHasNoLabel.longDesc" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "This %@ is missing useful accessibility information."
+      }
+    ],
+    "auditTestType.dynamicText" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "Dynamic Type"
+      }
+    ],
+    "Action-Activate" : [
+      {
+        "language" : "en",
+        "filename" : "LocalizableIOS.strings",
+        "target" : "Activate"
+      }
+    ],
+    "Actions" : [
+      {
+        "filename" : "LocalizableIOS.strings",
+        "language" : "en",
+        "target" : "Actions"
+      }
+    ],
+    "missingParent.title" : [
+      {
+        "language" : "en",
+        "target" : "Missing parent",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "missingParent.suggestion" : [
+      {
+        "target" : "Determine which ancestor reports this element in its accessibilityChildren. That ancestor element should be reported as this element’s accessibilityParent",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "contrastAAPass.longDesc" : [
+      {
+        "target" : "Contrast passed.",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "elementLabelNotHumanReadable.longDesc" : [
+      {
+        "target" : "The accessibilityLabel of this %@ is not human-readable.",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "contrastAAPartialPass.suggestion" : [
+      {
+        "target" : "Make sure the text font size is at least 18 point regular or 14 point bold. Else pick a different color with contrast ratio above 4.4 to ensure better contrast.",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "Attribute-Value" : [
+      {
+        "language" : "en",
+        "filename" : "LocalizableIOS.strings",
+        "target" : "Value"
+      }
+    ],
+    "actionMissing.longDesc" : [
+      {
+        "language" : "en",
+        "target" : "This %@ is missing accessibility action support equivalent to click\/tap inputs.",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "elementMissingTraitNotEnabled.longDesc" : [
+      {
+        "language" : "en",
+        "target" : "This %@ is disabled, but it is missing the UIAccessibilityTraitNotEnabled trait.",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "contrastAAAPartialPass.title" : [
+      {
+        "target" : "Contrast nearly passed",
+        "filename" : "AuditIssues.strings",
+        "language" : "en"
+      }
+    ],
+    "defaultIOSSuggestion" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "Review the UIAccessibility protocol"
+      }
+    ],
+    "actionMissing.suggestion.formatter" : [
+      {
+        "language" : "en",
+        "target" : "Consider implementing the following method(s): %@",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "timeStamp" : [
+      {
+        "filename" : "Localizable.strings",
+        "target" : "Time Stamp",
+        "language" : "en"
+      }
+    ],
+    "potentialElement.suggestion" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "Determine if any part of the content should be exposed as separate accessibility children."
+      }
+    ],
+    "numOfIssuesFound" : [
+      {
+        "target" : "Number of Issues Found",
+        "filename" : "Localizable.strings",
+        "language" : "en"
+      }
+    ],
+    "potentialTextElement.suggestion" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "target" : "Determine if any part of the content should be exposed as separate accessibility children.",
+        "language" : "en"
+      }
+    ],
+    "contrastAAFail.title" : [
+      {
+        "language" : "en",
+        "target" : "Contrast failed",
+        "filename" : "AuditIssues.strings"
+      }
+    ],
+    "contrastAAAPass.longDesc" : [
+      {
+        "language" : "en",
+        "filename" : "AuditIssues.strings",
+        "target" : "Contrast passed."
+      }
+    ],
+    "Element" : [
+      {
+        "filename" : "LocalizableIOS.strings",
+        "target" : "Element",
+        "language" : "en"
+      }
+    ],
+    "elementLabelNotHumanReadable.title" : [
+      {
+        "filename" : "AuditIssues.strings",
+        "language" : "en",
+        "target" : "Label not human-readable"
+      }
+    ],
+    "elementLabelUsesImageName.longDesc" : [
+      {
+        "language" : "en",
+        "target" : "The label of this %@ is an image file name.",
+        "filename" : "AuditIssues.strings"
+      }
+    ]
+  }
+}
