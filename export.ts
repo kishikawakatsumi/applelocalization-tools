@@ -6,7 +6,15 @@ await writeln(
   "CREATE EXTENSION IF NOT EXISTS pgroonga;",
 );
 
-const tables = ["macos12", "macos13", "macos14", "ios15", "ios16", "ios17"];
+const tables = [
+  "macos12",
+  "macos13",
+  "macos14",
+  "macos15",
+  "ios15",
+  "ios16",
+  "ios17",
+];
 
 for (const table of tables) {
   await writeln(
@@ -21,7 +29,8 @@ for (const table of tables) {
   const rootDir = {
     macos12: "data/macos/12.6",
     macos13: "data/macos/13.5.2",
-    macos14: "data/macos/14.0",
+    macos14: "data/macos/14.6",
+    macos15: "data/macos/15.2",
     ios15: "data/ios/15.7",
     ios16: "data/ios/16.6",
     ios17: "data/ios/17.7",
@@ -30,6 +39,7 @@ for (const table of tables) {
     macos12: "macOS",
     macos13: "macOS",
     macos14: "macOS",
+    macos15: "macOS",
     ios15: "iOS",
     ios16: "iOS",
     ios17: "iOS",
