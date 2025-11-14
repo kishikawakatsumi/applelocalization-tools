@@ -1,0 +1,688 @@
+{
+  "framework" : "Message.framework",
+  "localizations" : {
+    "CONNECTION_FAILED_MESSAGE_FORMAT" : [
+      {
+        "filename" : "Assistant.loctable",
+        "target" : "%1$@ server „%2$@“ nereaguje. Zkontrolujte připojení k síti a správnost údajů, které jste zadali do pole „Server příchozí pošty“.",
+        "language" : "cs"
+      },
+      {
+        "target" : "%1$@-servern ”%2$@” svarar inte. Kontrollera nätverksanslutningen och att du fyllt i rätt information i fältet ”Server för inkommande e-post”.",
+        "filename" : "Assistant.loctable",
+        "language" : "sv"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "Assistant.loctable",
+        "target" : "%1$@伺服器「%2$@」沒有回應。請檢查你的網路連線，且已在「收件伺服器」欄位中輸入了正確的資訊。"
+      },
+      {
+        "target" : "%1$@ सर्वर “%2$@” प्रतिक्रिया नहीं दे रहा है। अपना नेटवर्क कनेक्शन जाँचें और देखें कि आपने “इनकमिंग मेल सर्वर” फ़ील्ड में सही जानकारी दर्ज की है।",
+        "filename" : "Assistant.loctable",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "th",
+        "target" : "เซิร์ฟเวอร์%1$[tt]@ “%2$@” ไม่ตอบสนอง ตรวจสอบการเชื่อมต่อกับเครือข่ายของคุณและตรวจสอบว่าคุณป้อนข้อมูลถูกต้องในช่อง “เซิร์ฟเวอร์เมลเข้า”"
+      },
+      {
+        "target" : "Ο διακομιστής %1$@ «%2$@» δεν αποκρίνεται. Ελέγξτε τη σύνδεση δικτύου σας αλλά και ότι εισαγάγατε τα σωστά στοιχεία στο πεδίο «Διακομιστής εισερχόμενης αλληλογραφίας».",
+        "filename" : "Assistant.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "O servidor %1$@ “%2$@” não está respondendo. Verifique a conexão da sua rede e confirme se as informações que você digitou no campo “Servidor de Correio de Entrada” estão corretas.",
+        "language" : "pt_BR",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "target" : "%1$@-serveren “%2$@” svarer ikke. Kontroller netværksforbindelsen, og at du har skrevet de rigtige oplysninger i feltet “Server til indgående post”.",
+        "filename" : "Assistant.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "%1$@服务器“%2$@”没有响应。请检查网络连接并确定在“收件服务器”栏输入了正确信息。",
+        "filename" : "Assistant.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "target" : "Serverul %1$@ “%2$@” nu răspunde. Verificați conexiunea dvs. de rețea și corectitudinea informațiilor introduse în câmpul “Server recepționare e‑mail”.",
+        "language" : "ro"
+      },
+      {
+        "target" : "Serwer %1$@ „%2$@” nie odpowiada. Sprawdź połączenie z siecią, oraz czy dane w polu Serwer poczty przychodzącej są poprawne.",
+        "language" : "pl",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "target" : "A(z) „%2$@” %1$@-szerver nem válaszol. Ellenőrizze a hálózati kapcsolatát, és hogy a „Bejövő levelezőszerver” mezőben helyes adatok vannak-e megadva.",
+        "filename" : "Assistant.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Máy chủ %1$@ “%2$@” không phản hồi. Hãy kiểm tra kết nối mạng của bạn và chắc chắn rằng bạn đã nhập đúng thông tin vào trường “Máy chủ thư đến”.",
+        "filename" : "Assistant.loctable",
+        "language" : "vi"
+      },
+      {
+        "language" : "kk",
+        "target" : "«%2$@» атты %1$@ сервері жауап бермейді. Желілік қосылымды және «Кіріс пошта сервері» өрісіндегі ақпараттың дұрыс екенін тексеріңіз.",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "ja",
+        "target" : "%1$@サーバ“%2$@”が応答しません。ネットワークの接続状態と、“受信メールサーバ”フィールドに正しい情報を入力したかを確認してください。"
+      },
+      {
+        "language" : "uk",
+        "target" : "%1$@-сервер «%2$@» не відповідає. Перевірте підʼєднання до мережі та чи правильно введено дані в полі «Сервер вхідної пошти».",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "%1$@ server “%2$@” ne reagira. Provjerite svoju mrežnu vezu i jeste li unijeli ispravne informacije u polje “Dolazni mail server”.",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "target" : "%1$@ serveris „%2$@“ neatsako. Patikrinkite tinklo ryšį ir ar į lauką „Gaunamų laiškų serveris“ įvedėte teisingą informaciją.",
+        "language" : "lt",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "es",
+        "filename" : "Assistant.loctable",
+        "target" : "El servidor %1$@ “%2$@” no responde. Comprueba la conexión de red y asegúrate de que la información del campo “Servidor de correo entrante” es correcta."
+      },
+      {
+        "language" : "bg",
+        "filename" : "Assistant.loctable",
+        "target" : "%1$@ сървър „%2$@“ не отговаря. Проверете вашата мрежова връзка и дали сте въвели правилната информация в полето „Сървър за входяща поща“."
+      },
+      {
+        "language" : "sl",
+        "filename" : "Assistant.loctable",
+        "target" : "%1$@ strežnika »%2$@« se ne odziva. Preverite mrežno povezavo in ali ste v polje »Strežnik za dohodno pošto« vnesli pravilne podatke."
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "no",
+        "target" : "%1$@-tjeneren «%2$@» svarer ikke. Kontroller nettverksforbindelsen og at du har skrevet inn riktig informasjon i feltet «Innkommende e‑posttjener»."
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "target" : "O servidor %1$@ “%2$@” não responde. Verifique a ligação de rede e se introduziu a informação correta no campo “Servidor de receção de correio”.",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Le serveur %1$@ « %2$@ » ne répond pas. Vérifiez votre connexion réseau ainsi que les informations saisies dans le champ « Serveur de réception ».",
+        "filename" : "Assistant.loctable",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "en",
+        "target" : "The %1$@ server “%2$@” is not responding. Check your network connection and that you entered the correct information in the “Incoming Mail Server” field."
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "en_GB",
+        "target" : "The %1$@ server “%2$@” is not responding. Check your network connection and that you entered the correct information in the Incoming Mail Server field."
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "ms",
+        "target" : "Pelayan %1$@ “%2$@” tidak membalas. Periksa sambungan rangkaian anda dan sama ada anda telah memasukkan maklumat yang betul dalam medan “Pelayan Mel Masuk”."
+      },
+      {
+        "target" : "El servidor %1$@ “%2$@” no responde. Verifica la conexión de red y asegúrate de que la información del campo Servidor de correo entrante sea correcta.",
+        "filename" : "Assistant.loctable",
+        "language" : "es_US"
+      },
+      {
+        "language" : "ar",
+        "target" : "خادم \"%1$@\" المسمى %2$@ لا يستجيب. تحقق من شبكة الاتصال ومن إدخالك المعلومات الصحيحة في حقل \"خادم البريد الوارد\".",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "שרת ה-%1$@ ״%2$@״ אינו מגיב. נא לבדוק את החיבור לרשת ולוודא שהמידע בשדה ״שרת דואר נכנס״ הוזן בצורה נכונה.",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "%1$@伺服器「%2$@」沒有回應。請檢查你的網絡連線，且已在「收件伺服器」欄位中輸入了正確的資料。",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "De %1$@-server '%2$@' reageert niet. Controleer of de netwerkverbinding werkt en of je de juiste informatie hebt opgegeven in het veld 'Server inkomende post'.",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "target" : "%1$[tt]@-palvelin ”%2$@” ei vastaa. Tarkista, että verkkoyhteys toimii ja että syötit oikeat tiedot kenttään ”Saapuvan postin palvelin”.",
+        "language" : "fi",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "id",
+        "target" : "Server %1$@ “%2$@” tidak merespons. Periksa koneksi jaringan Anda dan pastikan Anda memasukkan informasi yang benar di bidang “Server Mail Masuk”."
+      },
+      {
+        "target" : "Le serveur %1$@ « %2$@ » ne répond pas. Vérifiez votre connexion réseau ainsi que les informations saisies dans le champ « Serveur de réception ».",
+        "language" : "fr_CA",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "it",
+        "target" : "Il server %1$@ “%2$@” non risponde. Controlla la connessione della rete e verifica che le informazioni inserite nel campo “Server posta in arrivo” siano corrette."
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "en_IN",
+        "target" : "The %1$@ server “%2$@” is not responding. Check your network connection and that you entered the correct information in the Incoming Mail Server field."
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "es_419",
+        "target" : "El servidor %1$@ “%2$@” no responde. Verifica la conexión de red y asegúrate de que la información del campo Servidor de correo entrante sea correcta."
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "target" : "%1$@ 서버 ‘%2$@’이(가) 응답하지 않습니다. 네트워크 연결을 확인하고 ‘수신 메일 서버’ 필드에 입력한 정보가 정확한지 확인하십시오.",
+        "language" : "ko"
+      },
+      {
+        "target" : "Сервер «%2$@» типа %1$@ не отвечает. Проверьте сетевое подключение и правильность информации в поле «Сервер входящей почты».",
+        "language" : "ru",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "“%2$@” adlı %1$@ sunucusu yanıt vermiyor. Ağ bağlantınızı ve “Gelen Posta Sunucusu” alanına doğru bilgileri girip girmediğinizi denetleyin.",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "%1$@ server „%2$@“ neodpovedá. Skontrolujte vaše pripojenie k sieti a to, či ste zadali správne údaje v poli „Server prichádzajúcej pošty“.",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "target" : "The %1$@ server “%2$@” is not responding. Check your network connection and that you entered the correct information in the “Incoming Mail Server” field.",
+        "filename" : "Assistant.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "El servidor %1$@ “%2$@” no respon. Revisa la connexió de xarxa i comprova que la informació del camp “Servidor de correu entrant” sigui correcta.",
+        "language" : "ca",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "target" : "Der %1$@-Server „%2$@“ reagiert nicht. Überprüfe deine Netzwerkverbindung und stelle sicher, dass du unter „Server für eintreffende E‑Mails“ die richtigen Infos eingegeben hast.",
+        "language" : "de"
+      }
+    ],
+    "CHECKING_CONNECTION" : [
+      {
+        "target" : "Probíhá kontrola připojení",
+        "language" : "cs",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "sv",
+        "target" : "Kontrollerar anslutning"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "Assistant.loctable",
+        "target" : "正在檢查連線"
+      },
+      {
+        "language" : "hi",
+        "filename" : "Assistant.loctable",
+        "target" : "कनेक्शन की जाँच की जा रही है"
+      },
+      {
+        "target" : "กำลังตรวจสอบการเชื่อมต่อ",
+        "language" : "th",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Έλεγχος σύνδεσης…",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "pt_BR",
+        "target" : "Verificando conexão"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "da",
+        "target" : "Kontrollerer forbindelse"
+      },
+      {
+        "target" : "正在检查连接",
+        "language" : "zh_CN",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "target" : "Verificare conexiune",
+        "language" : "ro"
+      },
+      {
+        "language" : "pl",
+        "target" : "Sprawdzam połączenie",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "hu",
+        "target" : "Kapcsolat ellenőrzése"
+      },
+      {
+        "target" : "Đang kiểm tra kết nối",
+        "filename" : "Assistant.loctable",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "kk",
+        "target" : "Қосылымды тексеру"
+      },
+      {
+        "target" : "接続を確認中",
+        "filename" : "Assistant.loctable",
+        "language" : "ja"
+      },
+      {
+        "language" : "uk",
+        "target" : "Триває перевірка зʼєднання",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Provjera veze",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "target" : "Tikrinamas ryšys",
+        "language" : "lt",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "es",
+        "target" : "Comprobando conexión"
+      },
+      {
+        "language" : "bg",
+        "filename" : "Assistant.loctable",
+        "target" : "Проверяване на връзка"
+      },
+      {
+        "target" : "Preverjanje povezave",
+        "language" : "sl",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "target" : "Kontrollerer forbindelsen",
+        "language" : "no",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "target" : "A verificar ligação",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "fr",
+        "target" : "Vérification de la connexion"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "en",
+        "target" : "Checking connection"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Checking connection",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Memeriksa sambungan",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "Verificando conexión",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "target" : "يجري التحقق من الاتصال",
+        "language" : "ar",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "בודק את החיבור",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "zh_HK",
+        "target" : "正在檢查連線"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "target" : "Verbinding controleren",
+        "language" : "nl"
+      },
+      {
+        "target" : "Tarkistetaan yhteyttä",
+        "filename" : "Assistant.loctable",
+        "language" : "fi"
+      },
+      {
+        "language" : "id",
+        "target" : "Memeriksa koneksi",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "fr_CA",
+        "target" : "Vérification de la connexion"
+      },
+      {
+        "language" : "it",
+        "target" : "Verifico connessione",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "target" : "Checking connection",
+        "language" : "en_IN",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "target" : "Verificando conexión",
+        "language" : "es_419",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "연결 확인 중",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "ru",
+        "target" : "Проверка соединения"
+      },
+      {
+        "language" : "tr",
+        "target" : "Bağlantı denetleniyor",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "sk",
+        "target" : "Overujem pripojenie"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Checking connection",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "ca",
+        "filename" : "Assistant.loctable",
+        "target" : "Comprovant connexió"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "de",
+        "target" : "Verbindung prüfen"
+      }
+    ],
+    "SMTP_CONNECTION_FAILED_MESSAGE_FORMAT" : [
+      {
+        "language" : "cs",
+        "filename" : "Assistant.loctable",
+        "target" : "%1$@ server „%2$@“ nereaguje. Zkontrolujte připojení k síti a správnost údajů, které jste zadali do pole „Server odchozí pošty“."
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "target" : "%1$@-servern ”%2$@” svarar inte. Kontrollera nätverksanslutningen och att du fyllt i rätt information i fältet ”Server för utgående e-post”.",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "zh_TW",
+        "target" : "%1$@伺服器「%2$@」沒有回應。請檢查你的網路連線，且已在「寄件伺服器」欄位中輸入了正確的資訊。"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "hi",
+        "target" : "%1$@ सर्वर “%2$@” प्रतिक्रिया नहीं दे रहा है। अपना नेटवर्क कनेक्शन जाँचें और देखें कि आपने “आउटगोइंग मेल सर्वर” फ़ील्ड में सही जानकारी दर्ज की।"
+      },
+      {
+        "language" : "th",
+        "filename" : "Assistant.loctable",
+        "target" : "เซิร์ฟเวอร์%1$[tt]@ “%2$@” ไม่ตอบสนอง ตรวจสอบการเชื่อมต่อกับเครือข่ายของคุณและตรวจสอบว่าคุณป้อนข้อมูลถูกต้องในช่อง “เซิร์ฟเวอร์เมลออก”"
+      },
+      {
+        "language" : "el",
+        "target" : "Ο διακομιστής %1$@ «%2$@» δεν αποκρίνεται. Ελέγξτε τη σύνδεση δικτύου σας αλλά και ότι εισαγάγατε τα σωστά στοιχεία στο πεδίο «Διακομιστής εξερχόμενης αλληλογραφίας».",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "pt_BR",
+        "target" : "O servidor %1$@ “%2$@” não está respondendo. Verifique a conexão da sua rede e confirme se as informações que você digitou no campo “Servidor de Correio de Saída” estão corretas."
+      },
+      {
+        "target" : "%1$@-serveren “%2$@” svarer ikke. Kontroller netværksforbindelsen, og at du har skrevet de rigtige oplysninger i feltet “Server til udgående post”.",
+        "filename" : "Assistant.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "%1$@服务器“%2$@”没有响应。请检查网络连接并确定在“发件服务器”栏输入了正确的信息。",
+        "filename" : "Assistant.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "target" : "Serverul %1$@ “%2$@” nu răspunde. Verificați conexiunea dvs. de rețea și corectitudinea informațiilor introduse în câmpul “Server expediere e‑mail”.",
+        "language" : "ro"
+      },
+      {
+        "target" : "Serwer %1$@ „%2$@” nie odpowiada. Sprawdź połączenie z siecią, oraz czy dane w polu Serwer poczty wychodzącej są poprawne.",
+        "filename" : "Assistant.loctable",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "hu",
+        "target" : "A(z) „%2$@” %1$@-szerver nem válaszol. Ellenőrizze a hálózati kapcsolatát, és hogy a „Kimenő levelezőszerver” mezőben helyes adatok vannak-e megadva."
+      },
+      {
+        "target" : "Máy chủ %1$@ “%2$@” không phản hồi. Hãy kiểm tra kết nối mạng của bạn và chắc chắn rằng bạn đã nhập đúng thông tin vào trường “Máy chủ thư đi”.",
+        "filename" : "Assistant.loctable",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "kk",
+        "target" : "«%2$@» атты %1$@ сервері жауап бермейді. Желілік қосылымды және «Шығыс пошта сервері» өрісіндегі ақпараттың дұрыс екенін тексеріңіз."
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "target" : "%1$@サーバ“%2$@”が応答しません。ネットワークの接続状態と、“送信メールサーバ”フィールドに正しい情報を入力したかを確認してください。",
+        "language" : "ja"
+      },
+      {
+        "target" : "%1$@-сервер «%2$@» не відповідає. Перевірте зʼєднання з мережею та чи правильно введено дані в полі «Сервер вихідної пошти».",
+        "filename" : "Assistant.loctable",
+        "language" : "uk"
+      },
+      {
+        "language" : "hr",
+        "target" : "%1$@ server “%2$@” ne reagira. Provjerite mrežnu vezu i jeste li unijeli ispravne informacije u polje “Odlazni mail server”.",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "%1$@ serveris „%2$@“ neatsako. Patikrinkite tinklo ryšį ir ar į lauką „Siunčiamų laiškų serveris“ įvedėte teisingą informaciją.",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "target" : "El servidor %1$@ “%2$@” no responde. Comprueba la conexión de red y asegúrate de que la información del campo “Servidor de correo saliente” es correcta.",
+        "language" : "es",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "bg",
+        "target" : "%1$@ сървър „%2$@“ не отговаря. Проверете вашата мрежова връзка и дали сте въвели правилната информация в полето „Сървър за изходяща поща“."
+      },
+      {
+        "target" : "Strežnik %1$@ »%2$@« se ne odziva. Preverite omrežno povezavo in ali ste v polje »Strežnik za odhodno pošto« vnesli pravilne podatke.",
+        "language" : "sl",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "target" : "%1$@-tjeneren «%2$@» svarer ikke. Kontroller nettverksforbindelsen og at du har skrevet inn riktig informasjon i feltet «Utgående e‑posttjener».",
+        "language" : "no"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "pt_PT",
+        "target" : "O servidor %1$@ “%2$@” não responde. Verifique a ligação de rede e se introduziu a informação correta no campo “Servidor de envio de correio”."
+      },
+      {
+        "target" : "Le serveur %1$@ « %2$@ » ne répond pas. Vérifiez votre connexion réseau ainsi que les informations saisies dans le champ « Serveur d’envoi ».",
+        "filename" : "Assistant.loctable",
+        "language" : "fr"
+      },
+      {
+        "language" : "en",
+        "filename" : "Assistant.loctable",
+        "target" : "The %1$@ server “%2$@” is not responding. Check your network connection and that you entered the correct information in the “Outgoing Mail Server” field."
+      },
+      {
+        "language" : "en_GB",
+        "target" : "The %1$@ server “%2$@” is not responding. Check your network connection and that you entered the correct information in the Outgoing Mail Server field.",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "ms",
+        "target" : "Pelayan %1$@ “%2$@” tidak membalas. Periksa sambungan rangkaian anda dan sama ada anda telah memasukkan maklumat yang betul dalam medan “Pelayan Mel Keluar”."
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "es_US",
+        "target" : "El servidor %1$@ “%2$@” no responde. Verifica la conexión de red y asegúrate de que la información del campo Servidor de correo saliente sea correcta."
+      },
+      {
+        "target" : "خادم \"%1$@\" المسمى %2$@ لا يستجيب. تحقق من شبكة الاتصال ومن إدخالك المعلومات الصحيحة في حقل \"خادم البريد الصادر\".",
+        "filename" : "Assistant.loctable",
+        "language" : "ar"
+      },
+      {
+        "language" : "he",
+        "filename" : "Assistant.loctable",
+        "target" : "שרת ה-%1$@ ״%2$@״ אינו מגיב. נא לבדוק את החיבור לרשת ולוודא שהמידע בשדה ״שרת דואר יוצא״ הוזן בצורה נכונה."
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "%1$@伺服器「%2$@」沒有回應。請檢查你的網絡連線，且已在「寄件伺服器」欄位中輸入了正確的資料。",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "nl",
+        "filename" : "Assistant.loctable",
+        "target" : "De %1$@-server '%2$@' reageert niet. Controleer of de netwerkverbinding werkt en of je de juiste informatie hebt opgegeven in het veld 'Server uitgaande post'."
+      },
+      {
+        "language" : "fi",
+        "target" : "%1$[tt]@-palvelin ”%2$@” ei vastaa. Tarkista, että verkkoyhteys toimii ja että syötit oikeat tiedot kenttään ”Lähtevän postin palvelin”.",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "language" : "id",
+        "filename" : "Assistant.loctable",
+        "target" : "Server %1$@ “%2$@” tidak merespons. Periksa koneksi jaringan Anda dan pastikan Anda memasukkan informasi yang benar di bidang “Server Mail Keluar”."
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Le serveur %1$@ « %2$@ » ne répond pas. Vérifiez votre connexion réseau ainsi que les informations saisies dans le champ « Serveur d’envoi ».",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "target" : "Il server %1$@ “%2$@” non risponde. Controlla la connessione di rete e verifica che le informazioni inserite nel campo “Server posta in uscita” siano corrette.",
+        "filename" : "Assistant.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "The %1$@ server “%2$@” is not responding. Check your network connection and that you entered the correct information in the Outgoing Mail Server field.",
+        "filename" : "Assistant.loctable",
+        "language" : "en_IN"
+      },
+      {
+        "target" : "El servidor %1$@ “%2$@” no responde. Verifica la conexión de red y asegúrate de que la información del campo Servidor de correo saliente sea correcta.",
+        "filename" : "Assistant.loctable",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "ko",
+        "target" : "%1$@ 서버 ‘%2$@’이(가) 응답하지 않습니다. 네트워크 연결을 확인하고 ‘발신 메일 서버’ 필드에 입력한 정보가 정확한지 확인하십시오."
+      },
+      {
+        "target" : "Сервер «%2$@» типа %1$@ не отвечает. Проверьте сетевое подключение и правильность информации в поле «Сервер исходящей почты».",
+        "language" : "ru",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "target" : "“%2$@” adlı %1$@ sunucusu yanıt vermiyor. Ağ bağlantınızı ve “Giden Posta Sunucusu” alanına doğru bilgileri girip girmediğinizi denetleyin.",
+        "language" : "tr",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "target" : "%1$@ server „%2$@“ neodpovedá. Skontrolujte vaše pripojenie k sieti a to, či ste zadali správne údaje v poli „Server prichádzajúcej pošty“.",
+        "language" : "sk",
+        "filename" : "Assistant.loctable"
+      },
+      {
+        "filename" : "Assistant.loctable",
+        "language" : "en_AU",
+        "target" : "The %1$@ server “%2$@” is not responding. Check your network connection and that you entered the correct information in the “Outgoing Mail Server” field."
+      },
+      {
+        "target" : "El servidor %1$@ “%2$@” no respon. Revisa la connexió de xarxa i comprova que la informació del camp “Servidor de correu sortint” sigui correcta.",
+        "filename" : "Assistant.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Der %1$@-Server „%2$@“ reagiert nicht. Überprüfe deine Netzwerkverbindung und stelle sicher, dass du unter „Server für ausgehende E‑Mails“ die korrekten Infos eingegeben hast.",
+        "language" : "de",
+        "filename" : "Assistant.loctable"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/PrivateFrameworks\/Message.framework\/Assistant.loctable",
+  "bundlePath" : "\/System\/Library\/PrivateFrameworks\/Message.framework"
+}

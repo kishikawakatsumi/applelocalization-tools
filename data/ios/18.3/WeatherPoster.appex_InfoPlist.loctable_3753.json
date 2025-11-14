@@ -1,0 +1,915 @@
+{
+  "framework" : "WeatherPoster.appex",
+  "localizations" : {
+    "NSLocationWhenInUseUsageDescription" : [
+      {
+        "target" : "Localizarea dvs. este utilizată pentru a afișa condițiile meteo locale.",
+        "language" : "ro",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Din plats används till att visa det lokala vädret.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "你的位置信息将用于显示当地天气。",
+        "language" : "zh_CN",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Sua localização é usada para mostrar o tempo local.",
+        "language" : "pt_BR",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "no",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Posisjonen din brukes for å vise været der du er."
+      },
+      {
+        "target" : "Jūsų vieta naudojama vietiniams orams rodyti.",
+        "language" : "lt",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Lokasi anda digunakan untuk menunjukkan cuaca tempatan.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "يتم استخدام موقعك لعرض الطقس المحلي.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk",
+        "target" : "Vaša poloha slúži na zobrazenie miestneho počasia."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca",
+        "target" : "La ubicació s’utilitza per mostrar el temps que fa a la zona."
+      },
+      {
+        "target" : "Your location is used to show local weather.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "en",
+        "target" : "Your location is used to show local weather."
+      },
+      {
+        "language" : "cs",
+        "target" : "Vaše poloha je používána k zobrazení místního počasí.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Lokasi Anda digunakan untuk menampilkan cuaca lokal.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "ตำแหน่งที่ตั้งของคุณถูกใช้เพื่อแสดงสภาพอากาศในพื้นที่",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "Din lokalitet bruges til at vise lokalt vejr.",
+        "language" : "da",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Votre position est utilisée pour afficher la météo locale.",
+        "language" : "fr_CA",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Votre position est utilisée pour afficher la météo locale.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "आपके स्थान का उपयोग स्थानीय मौसम दिखाने के लिए किया जाता है।",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Je locatie wordt gebruikt om het lokale weer te laten zien.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "InfoPlist.loctable",
+        "target" : "A sua localização serve de referência para mostrar o tempo local."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru",
+        "target" : "Ваша геопозиция используется для показа местной погоды."
+      },
+      {
+        "target" : "你的位置會用來顯示本地天氣。",
+        "language" : "zh_TW",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Tu ubicación se utilizará para mostrar el tiempo local."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko",
+        "target" : "현지 날씨를 표시하기 위해 사용자의 위치가 사용됩니다."
+      },
+      {
+        "target" : "Twoje położenie służy do wyświetlania lokalnych danych pogodowych.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr",
+        "target" : "Vaša lokacija koristi se za prikazivanje lokalne vremenske prognoze."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_US",
+        "target" : "Tu ubicación se usa para mostrar el clima local."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi",
+        "target" : "Sijaintiasi käytetään paikallissään näyttämiseen."
+      },
+      {
+        "target" : "Vị trí của bạn được sử dụng để hiển thị thời tiết địa phương.",
+        "language" : "vi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Dein Standort wird zur Anzeige des lokalen Wetters verwendet.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "你的位置信息将用于显示当地天气。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "yue_CN"
+      },
+      {
+        "target" : "Vaša lokacija se uporablja za prikaz lokalnega vremena.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sl"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "你的位置將用作顯示當地天氣。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Your location is used to show local weather."
+      },
+      {
+        "language" : "uk",
+        "target" : "Ваша геопозиція використовується для показу місцевої погоди.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419",
+        "target" : "Tu ubicación se usa para mostrar el clima local."
+      },
+      {
+        "target" : "現在地の天気情報の表示に位置情報を使用します。",
+        "language" : "ja",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "tr",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Yerel hava durumunu göstermek için konumunuz kullanılır."
+      },
+      {
+        "language" : "it",
+        "filename" : "InfoPlist.loctable",
+        "target" : "La tua posizione viene utilizzata per mostrare il meteo locale."
+      },
+      {
+        "language" : "hu",
+        "filename" : "InfoPlist.loctable",
+        "target" : "A helyzete a helyi időjárás megjelenítéséhez lesz felhasználva."
+      },
+      {
+        "language" : "he",
+        "filename" : "InfoPlist.loctable",
+        "target" : "פרטי המיקום שלך משמשים להצגת מזג האוויר המקומי."
+      },
+      {
+        "language" : "kk",
+        "target" : "Геолокацияңыз жергілікті ауа райын көрсету үшін пайдаланылады.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "bg",
+        "target" : "Вашето местоположение се използва, за да се покаже местната прогноза за времето."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "el",
+        "target" : "Η τοποθεσία σας χρησιμοποιείται για εμφάνιση του τοπικού καιρού."
+      }
+    ],
+    "CFBundleDisplayName" : [
+      {
+        "language" : "ro",
+        "target" : "Vremea",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sv",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Väder"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN",
+        "target" : "天气"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "Tempo",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Været",
+        "language" : "no"
+      },
+      {
+        "language" : "lt",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Orai"
+      },
+      {
+        "language" : "ms",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Cuaca"
+      },
+      {
+        "language" : "ar",
+        "filename" : "InfoPlist.loctable",
+        "target" : "الطقس"
+      },
+      {
+        "target" : "Počasie",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca",
+        "target" : "Temps"
+      },
+      {
+        "target" : "Weather",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "language" : "en",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Weather"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Počasí",
+        "language" : "cs"
+      },
+      {
+        "target" : "Cuaca",
+        "language" : "id",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "สภาพอากาศ",
+        "language" : "th"
+      },
+      {
+        "language" : "da",
+        "target" : "Vejr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA",
+        "target" : "Météo"
+      },
+      {
+        "language" : "fr",
+        "target" : "Météo",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "मौसम",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Weer",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Meteorologia",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Погода",
+        "language" : "ru"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW",
+        "target" : "天氣"
+      },
+      {
+        "target" : "Tiempo",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "날씨",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl",
+        "target" : "Pogoda"
+      },
+      {
+        "target" : "Vrijeme",
+        "language" : "hr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_US",
+        "target" : "Clima"
+      },
+      {
+        "target" : "Sää",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "language" : "vi",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Thời tiết"
+      },
+      {
+        "target" : "Wetter",
+        "filename" : "InfoPlist.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "天气",
+        "filename" : "InfoPlist.loctable",
+        "language" : "yue_CN"
+      },
+      {
+        "language" : "sl",
+        "target" : "Vreme",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "天氣",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU",
+        "target" : "Weather"
+      },
+      {
+        "target" : "Погода",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Clima",
+        "language" : "es_419"
+      },
+      {
+        "target" : "天気",
+        "language" : "ja",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Hava Durumu",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "it",
+        "target" : "Meteo"
+      },
+      {
+        "target" : "Időjárás",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "language" : "he",
+        "target" : "מזג אוויר",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "Ауа райы",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Времето",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Καιρός"
+      }
+    ],
+    "NSLocationUsageDescription" : [
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro",
+        "target" : "Localizarea dvs. este utilizată pentru a afișa condițiile meteo locale."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Din plats används till att visa det lokala vädret.",
+        "language" : "sv"
+      },
+      {
+        "target" : "你的位置信息将用于显示当地天气。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "Sua localização é usada para mostrar o tempo local.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Posisjonen din brukes for å vise været der du er.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "Jūsų vieta naudojama vietiniams orams rodyti.",
+        "language" : "lt",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ms",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Lokasi anda digunakan untuk menunjukkan cuaca tempatan."
+      },
+      {
+        "target" : "يتم استخدام موقعك لعرض الطقس المحلي.",
+        "language" : "ar",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Vaša poloha slúži na zobrazenie miestneho počasia.",
+        "language" : "sk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "La ubicació s’utilitza per mostrar el temps que fa a la zona.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Your location is used to show local weather.",
+        "language" : "en_GB",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Your location is used to show local weather.",
+        "language" : "en"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs",
+        "target" : "Vaše poloha je používána k zobrazení místního počasí."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "id",
+        "target" : "Lokasi Anda digunakan untuk menampilkan cuaca lokal."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "th",
+        "target" : "ตำแหน่งที่ตั้งของคุณจะถูกใช้เพื่อแสดงสภาพอากาศในพื้นที่"
+      },
+      {
+        "target" : "Din lokalitet bruges til at vise lokalt vejr.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "Votre position est utilisée pour afficher la météo locale.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Votre position est utilisée pour afficher la météo locale.",
+        "language" : "fr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "आपके स्थान का उपयोग स्थानीय मौसम दिखाने के लिए किया जाता है।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Je locatie wordt gebruikt om het lokale weer te laten zien.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "A sua localização serve de referência para mostrar o tempo local.",
+        "language" : "pt_PT",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru",
+        "target" : "Ваша геопозиция используется для показа местной погоды."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW",
+        "target" : "你的位置會用來顯示本地天氣。"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Tu ubicación se utilizará para mostrar el tiempo local.",
+        "language" : "es"
+      },
+      {
+        "target" : "현지 날씨를 표시하기 위해 사용자의 위치가 사용됩니다.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Twoje położenie służy do wyświetlania lokalnych danych pogodowych.",
+        "language" : "pl"
+      },
+      {
+        "language" : "hr",
+        "target" : "Vaša lokacija koristi se za prikazivanje lokalne vremenske prognoze.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Tu ubicación se usa para mostrar el clima local.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_US"
+      },
+      {
+        "language" : "fi",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Sijaintiasi käytetään paikallissään näyttämiseen."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Vị trí của bạn được sử dụng để hiển thị thời tiết địa phương.",
+        "language" : "vi"
+      },
+      {
+        "language" : "de",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Dein Standort wird zur Anzeige des lokalen Wetters verwendet."
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "yue_CN",
+        "target" : "你的位置信息将用于显示当地天气。"
+      },
+      {
+        "language" : "sl",
+        "target" : "Vaša lokacija se uporablja za prikaz lokalnega vremena.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "你的位置將用作顯示當地天氣。",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Your location is used to show local weather.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "language" : "uk",
+        "target" : "Ваша геопозиція використовується для показу місцевої погоди.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Tu ubicación se usa para mostrar el clima local.",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "現在地の天気情報の表示に位置情報を使用します。",
+        "language" : "ja"
+      },
+      {
+        "target" : "Yerel hava durumunu göstermek için konumunuz kullanılır.",
+        "language" : "tr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "it",
+        "target" : "La tua posizione viene utilizzata per mostrare il meteo locale."
+      },
+      {
+        "language" : "hu",
+        "filename" : "InfoPlist.loctable",
+        "target" : "A helyzete a helyi időjárás megjelenítéséhez lesz felhasználva."
+      },
+      {
+        "language" : "he",
+        "target" : "פרטי המיקום שלך משמשים להצגת מזג האוויר המקומי.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Геолокацияңыз жергілікті ауа райын көрсету үшін пайдаланылады.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "kk"
+      },
+      {
+        "target" : "Вашето местоположение се използва, за да се покаже местната прогноза за времето.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "bg"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "el",
+        "target" : "Η τοποθεσία σας χρησιμοποιείται για εμφάνιση του τοπικού καιρού."
+      }
+    ],
+    "CFBundleName" : [
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Vremea",
+        "language" : "ro"
+      },
+      {
+        "target" : "Väder",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN",
+        "target" : "天气"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "Tempo",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Været",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "Orai",
+        "filename" : "InfoPlist.loctable",
+        "language" : "lt"
+      },
+      {
+        "language" : "ms",
+        "target" : "Cuaca",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "الطقس",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Počasie",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Temps",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Weather",
+        "language" : "en_GB",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Weather",
+        "language" : "en"
+      },
+      {
+        "target" : "Počasí",
+        "language" : "cs",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Cuaca",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "สภาพอากาศ",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "language" : "da",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Vejr"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Météo",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Météo",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "मौसम",
+        "language" : "hi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Weer",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Meteorologia",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Погода",
+        "language" : "ru",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "天氣",
+        "language" : "zh_TW",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Tiempo",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "날씨",
+        "language" : "ko"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "Pogoda",
+        "language" : "pl"
+      },
+      {
+        "language" : "hr",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Vrijeme"
+      },
+      {
+        "target" : "Clima",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_US"
+      },
+      {
+        "language" : "fi",
+        "target" : "Sää",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi",
+        "target" : "Thời tiết"
+      },
+      {
+        "language" : "de",
+        "target" : "Wetter",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "天气",
+        "language" : "yue_CN",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Vreme",
+        "language" : "sl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "天氣",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Weather",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Погода",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Clima"
+      },
+      {
+        "filename" : "InfoPlist.loctable",
+        "target" : "天気",
+        "language" : "ja"
+      },
+      {
+        "language" : "tr",
+        "target" : "Hava Durumu",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "it",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Meteo"
+      },
+      {
+        "target" : "Időjárás",
+        "language" : "hu",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "מזג אוויר",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kk",
+        "filename" : "InfoPlist.loctable",
+        "target" : "Ауа райы"
+      },
+      {
+        "target" : "Времето",
+        "filename" : "InfoPlist.loctable",
+        "language" : "bg"
+      },
+      {
+        "language" : "el",
+        "target" : "Καιρός",
+        "filename" : "InfoPlist.loctable"
+      }
+    ]
+  },
+  "bundlePath" : "\/System\/Library\/AppPlaceholders\/Weather.app\/PlugIns\/WeatherPoster.appex",
+  "loctablePath" : "\/System\/Library\/AppPlaceholders\/Weather.app\/PlugIns\/WeatherPoster.appex\/InfoPlist.loctable"
+}

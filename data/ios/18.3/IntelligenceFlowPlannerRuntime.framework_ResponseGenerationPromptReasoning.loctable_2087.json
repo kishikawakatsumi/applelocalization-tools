@@ -1,0 +1,84 @@
+{
+  "loctablePath" : "\/System\/Library\/PrivateFrameworks\/IntelligenceFlowPlannerRuntime.framework\/ResponseGenerationPromptReasoning.loctable",
+  "localizations" : {
+    "parameterConfirmation" : [
+      {
+        "target" : "This is a confirm value result. The response needs to confirm the given value with the user.",
+        "filename" : "ResponseGenerationPromptReasoning.loctable",
+        "language" : "en"
+      }
+    ],
+    "successSearch" : [
+      {
+        "language" : "en",
+        "target" : "This is a successful result from the search tool. Both query and response manifest can be used to form the response.",
+        "filename" : "ResponseGenerationPromptReasoning.loctable"
+      }
+    ],
+    "parameterDisambiguation" : [
+      {
+        "language" : "en",
+        "target" : "This result is a simple case of value disambiguation.",
+        "filename" : "ResponseGenerationPromptReasoning.loctable"
+      }
+    ],
+    "reasonSuffix" : [
+      {
+        "target" : "The final response is as follows:",
+        "filename" : "ResponseGenerationPromptReasoning.loctable",
+        "language" : "en"
+      }
+    ],
+    "parameterNeedsValue" : [
+      {
+        "target" : "This is a request value result. The response needs to request a value from the user.",
+        "filename" : "ResponseGenerationPromptReasoning.loctable",
+        "language" : "en"
+      }
+    ],
+    "successSelective" : [
+      {
+        "language" : "en",
+        "filename" : "ResponseGenerationPromptReasoning.loctable",
+        "target" : "This is a successful result with many parameter values, so selecting information from the response manifest may be necessary."
+      }
+    ],
+    "actionConfirmation" : [
+      {
+        "language" : "en",
+        "filename" : "ResponseGenerationPromptReasoning.loctable",
+        "target" : "This is a confirm action result. The response needs to confirm the given action with the user."
+      }
+    ],
+    "failure" : [
+      {
+        "language" : "en",
+        "target" : "The tool has produced an error.",
+        "filename" : "ResponseGenerationPromptReasoning.loctable"
+      }
+    ],
+    "toolDisambiguation" : [
+      {
+        "target" : "This result contains multiple tools, so names of all tools will be used to form the response.",
+        "language" : "en",
+        "filename" : "ResponseGenerationPromptReasoning.loctable"
+      }
+    ],
+    "successAll" : [
+      {
+        "target" : "This is a successful result where most or all information from the response manifest is necessary.",
+        "language" : "en",
+        "filename" : "ResponseGenerationPromptReasoning.loctable"
+      }
+    ],
+    "successEmpty" : [
+      {
+        "language" : "en",
+        "filename" : "ResponseGenerationPromptReasoning.loctable",
+        "target" : "This is a successful result with an empty response manifest. So tool name and description will be used to form the response."
+      }
+    ]
+  },
+  "framework" : "IntelligenceFlowPlannerRuntime.framework",
+  "bundlePath" : "\/System\/Library\/PrivateFrameworks\/IntelligenceFlowPlannerRuntime.framework"
+}

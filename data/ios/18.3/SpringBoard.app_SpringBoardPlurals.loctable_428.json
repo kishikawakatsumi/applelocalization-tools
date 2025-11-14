@@ -1,0 +1,1823 @@
+{
+  "framework" : "SpringBoard.app",
+  "bundlePath" : "\/System\/Library\/CoreServices\/SpringBoard.app",
+  "localizations" : {
+    "STATUS_BAR_BACKGROUND_LOCATION_MULTIPLE_OTHER_APPS_WITH_COUNT_FORMAT" : [
+      {
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"few\":\"Вашу геопозицию активно используют %u других приложения\",\"one\":\"Вашу геопозицию активно использует %u приложение\",\"other\":\"Вашу геопозицию активно использует %u другого приложения\",\"many\":\"Вашу геопозицию активно используют %u других приложений\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u εφαρμογή χρησιμοποιεί ενεργά την τοποθεσία σας\",\"other\":\"Άλλες %u εφαρμογές χρησιμοποιούν ενεργά την τοποθεσία σας\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "el",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"other\":\"%u ứng dụng khác đang sử dụng vị trí của bạn\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "vi",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u приложение активно използва местоположението ви\",\"other\":\"%u други приложения активно използват местоположението ви\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "bg"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"few\":\"%u інші програми активно використовують ваше місце\",\"one\":\"%u програма активно використовує ваше місце\",\"other\":\"%u іншої програми активно використовують ваше місце\",\"many\":\"%u інших програм активно використовують ваше місце\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "hr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"few\":\"%u druge aplikacije aktivno koriste vašu lokaciju\",\"one\":\"%u aplikacija aktivno koristi vašu lokaciju\",\"other\":\"%u drugih aplikacija aktivno koristi vašu lokaciju\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "en_IN",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u App Is Actively Using Your Location\",\"other\":\"%u Other Apps Are Actively Using Your Location\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"other\":\"%u個のその他のアプリが位置情報を現在利用中\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "ja",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "id",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"other\":\"%u App Lainnya Menggunakan Lokasi Anda Secara Aktif\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "tr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u Uygulama Aktif Olarak Konumunuzu Kullanıyor\",\"other\":\"%u Diğer Uygulama Aktif Olarak Konumunuzu Kullanıyor\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u app está utilizando activamente tu ubicación\",\"other\":\"Otras %u apps están utilizando activamente tu ubicación\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "es"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"يستخدم تطبيقٌ واحدٌ موقعك بشكل نشط.\",\"few\":\"تستخدم %u تطبيقات أخرى موقعك بشكل نشط.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"تستخدم %u تطبيقًا آخر موقعك بشكل نشط.\",\"two\":\"هناك تطبيقان آخران يستخدمان موقعك بشكل نشط.\",\"other\":\"يستخدم %u تطبيق آخرى موقعك بشكل نشط.\",\"NSStringFormatValueTypeKey\":\"u\",\"zero\":\"لا توجد تطبيقات أخرى تستخدم موقعك بشكل نشط.\"}}",
+        "language" : "ar"
+      },
+      {
+        "language" : "fr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u app utilise actuellement vos données de localisation\",\"other\":\"%u autres apps utilisent actuellement vos données de localisation\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "en",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u App is Actively Using Your Location\",\"other\":\"%u Other Apps are Actively Using Your Location\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u App Está Usando Sua Localização Ativamente\",\"other\":\"%u Outros Apps Estão Usando Sua Localização Ativamente\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "pt"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"few\":\"%u druge aplikacije trenutno aktivno uporabljajo vašo lokacijo\",\"one\":\"%u aplikacija trenutno aktivno uporablja vašo lokacijo\",\"other\":\"%u drugih aplikacij trenutno aktivno uporablja vašo lokacijo\",\"two\":\"%u drugi aplikaciji trenutno aktivno uporabljata vašo lokacijo\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u app está usando activamente tu ubicación\",\"other\":\"%u apps más están usando activamente tu ubicación\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u App Is Actively Using Your Location\",\"other\":\"%u Other Apps Are Actively Using Your Location\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ko",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"other\":\"%u개의 다른 앱이 사용자의 위치를 사용하는 중\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u app está usando activamente tu ubicación\",\"other\":\"%u apps más están usando activamente tu ubicación\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "es_US",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u app utilise activement vos données de localisation.\",\"other\":\"%u autres apps utilisent activement vos données de localisation.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u App is Actively Using Your Location\",\"other\":\"%u Other Apps are Actively Using Your Location\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "en_AU",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"few\":\"%u další aplikace aktivně využívají vaši polohu\",\"one\":\"%u aplikace aktivně využívá vaši polohu\",\"other\":\"%u dalších aplikací aktivně využívá vaši polohu\",\"many\":\"%u další aplikace aktivně využívá vaši polohu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"few\":\"%u inne aplikacje aktywnie używają Twojego położenia\",\"one\":\"%u aplikacja aktywnie używa Twojego położenia\",\"other\":\"%u innej aplikacji aktywnie używa Twojego położenia\",\"many\":\"%u innych aplikacji aktywnie używa Twojego położenia\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"other\":\"其他%u个App正在活跃使用你的位置信息\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"few\":\"Încă %u aplicații utilizează în mod activ localizarea dvs.\",\"one\":\"%u aplicație utilizează în mod activ localizarea dvs.\",\"other\":\"Încă %u de aplicații utilizează în mod activ localizarea dvs.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u app aktívan használja az Ön helyzetét\",\"other\":\"%u egyéb app aktívan használja az Ön helyzetét\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u app sta utilizzando la tua posizione\",\"other\":\"Altre %u app stanno utilizzando la tua posizione\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "it"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u ऐप आपके स्थान का सक्रियता से उपयोग कर रहा है\",\"other\":\"%u अन्य ऐप्स आपके स्थान का सक्रियता से उपयोग कर रहे हैं\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "pt_PT",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u aplicação está a usar ativamente a sua localização\",\"other\":\"Mais %u aplicações estão a usar ativamente a sua localização\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"other\":\"另外%u個App正在活躍使用你的位置\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u қолданба геолокацияңызды белсенді түрде пайдалануда\",\"other\":\"Басқа %u қолданба геолокацияңызды белсенді түрде пайдалануда\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "kk",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "th",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"other\":\"มีแอปอื่น %u แอปกำลังใช้ตำแหน่งที่ตั้งของคุณอยู่เบื้องหลัง\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u anden app bruger aktivt din lokalitet\",\"other\":\"%u andre apps bruger aktivt din lokalitet\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "da"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u app bruker posisjonen din nå\",\"other\":\"%u andre apper bruker posisjonen din nå\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"יישום אחד משתמש בפרטי מיקומך באופן פעיל\",\"NSStringFormatValueTypeKey\":\"u\",\"other\":\"‏%u יישומים נוספים משתמשים בפרטי מיקומך באופן פעיל\",\"two\":\"שני יישומים נוספים משתמשים בפרטי מיקומך באופן פעיל\",\"many\":\"‏%u יישומים נוספים משתמשים בפרטי מיקומך באופן פעיל\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "nl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u app gebruikt je locatie\",\"other\":\"%u andere apps gebruiken je locatie\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u appi käyttää aktiivisesti sijaintiasi\",\"other\":\"%u muuta appia käyttää aktiivisesti sijaintiasi\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "de",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u App verwendet gerade deinen Standort\",\"other\":\"%u andere Apps verwenden gerade deinen Standort\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ca",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u app està utilitzant la teva ubicació de manera activa\",\"other\":\"%u apps més estan utilitzant la teva ubicació de manera activa\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"one\":\"%u app använder aktivt din platsinfo\",\"other\":\"%u andra appar använder aktivt din platsinfo\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "sv"
+      },
+      {
+        "language" : "lt",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"few\":\"%u kitos programos aktyviai naudoja jūsų vietos duomenis\",\"one\":\"%u kita programa aktyviai naudoja jūsų vietos duomenis\",\"other\":\"%u kitų programų aktyviai naudoja jūsų vietos duomenis\",\"many\":\"%u kitos programos aktyviai naudoja jūsų vietos duomenis\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"other\":\"%u App Lain Menggunakan Lokasi Secara Aktif\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"other\":\"其他%u個App正在密集使用你的位置\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_background_location_other_apps@\",\"num_background_location_other_apps\":{\"few\":\"%u ďalšie apky aktívne používajú vašu polohu\",\"one\":\"%u apka aktívne používa vašu polohu\",\"other\":\"%u ďalších apiek aktívne používa vašu polohu\",\"many\":\"%u ďalšej apky aktívne používa vašu polohu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "sk"
+      }
+    ],
+    "DATA_PLAN_ADD_EXPIRATION_BODY_MINUTES" : [
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"few\":\"Срок действия тарифа истекает примерно через %lu минуты. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"one\":\"Срок действия тарифа истекает примерно через %lu минуту. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"other\":\"Срок действия тарифа истекает примерно через %lu минуты. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"many\":\"Срок действия тарифа истекает примерно через %lu минут. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "ru"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"hours\":{\"one\":\"Το πρόγραμμα δεδομένων σας λήγει σε %lu λεπτό περίπου. Θέλετε να προσθέσετε περισσότερο χρόνο στο πρόγραμμά σας τώρα; Μπορείτε επίσης να το κάνετε αργότερα στις Ρυθμίσεις.\",\"other\":\"Το πρόγραμμα δεδομένων σας λήγει σε %lu λεπτά περίπου. Θέλετε να προσθέσετε περισσότερο χρόνο στο πρόγραμμά σας τώρα; Μπορείτε επίσης να το κάνετε αργότερα στις Ρυθμίσεις.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"other\":\"Gói dữ liệu của bạn sẽ hết hạn sau khoảng %lu phút nữa. Bạn có muốn bổ sung thêm thời gian vào gói của mình bây giờ không? Nếu bạn không bổ sung bây giờ, bạn có thể thực hiện sau này trong Cài đặt.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "vi"
+      },
+      {
+        "language" : "bg",
+        "target" : "{\"hours\":{\"one\":\"Вашият план за данни изтича след около %lu минута. Искате ли да добавите повече време към плана си сега? Ако не добавите сега, можете да го направите по-късно в Настройки.\",\"other\":\"Вашият план за данни изтича след около %lu минути. Искате ли да добавите повече време към плана си сега? Ако не добавите сега, можете да го направите по-късно в Настройки.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "uk",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"few\":\"Термін плану даних спливає приблизно через %lu хвилини. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"one\":\"Термін плану даних спливає приблизно через %lu хвилину. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"other\":\"Термін плану даних спливає приблизно через %lu хвилини. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"many\":\"Термін плану даних спливає приблизно через %lu хвилин. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "hr",
+        "target" : "{\"hours\":{\"few\":\"Vaš podatkovni plan istječe za oko %lu min. Želite li sad dodati još vremena u vaš plan? Podatke možete dodati i kasnije, u izborniku Postavke.\",\"one\":\"Vaš podatkovni plan istječe za oko %lu min. Želite li sad dodati još vremena u vaš plan? Podatke možete dodati i kasnije, u izborniku Postavke.\",\"other\":\"Vaš podatkovni plan istječe za oko %lu min. Želite li sad dodati još vremena u vaš plan? Podatke možete dodati i kasnije, u izborniku Postavke.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in about %lu minute. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in about %lu minutes. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "en_IN"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ja",
+        "target" : "{\"hours\":{\"other\":\"ご利用中のデータプランの有効期限はあと約%lu分で切れます。今すぐ時間を追加しますか? 今追加しない場合でも、後から“設定”で追加できます。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "id",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"other\":\"Paket data Anda kedaluwarsa dalam sekitar %lu menit. Apakah Anda ingin menambah lebih banyak waktu ke paket layanan sekarang? Jika tidak, Anda dapat melakukannya nanti di Pengaturan.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Veri planınız yaklaşık %lu dakika sonra bitecek. Şimdi planınıza daha fazla süre eklemek ister misiniz? Şimdi eklemezseniz bunu Ayarlar’da daha sonra yapabilirsiniz.\",\"other\":\"Veri planınız yaklaşık %lu dakika sonra bitecek. Şimdi planınıza daha fazla süre eklemek ister misiniz? Şimdi eklemezseniz bunu Ayarlar’da daha sonra yapabilirsiniz.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "tr"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Tu plan de datos caduca dentro de %lu minuto aproximadamente. ¿Quieres añadir más tiempo al plan ahora? Si no quieres añadir tiempo ahora, puedes hacerlo más tarde desde Ajustes.\",\"other\":\"Tu plan de datos caduca dentro de %lu minutos aproximadamente. ¿Quieres añadir más tiempo al plan ahora? Si no quieres añadir tiempo ahora, puedes hacerlo más tarde desde Ajustes.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "es"
+      },
+      {
+        "language" : "ar",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"سوف تنتهي صلاحية باقة البيانات خلال دقيقة واحدة تقريبًا. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"few\":\"سوف تنتهي صلاحية باقة البيانات خلال %lu دقائق تقريبًا. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"سوف تنتهي صلاحية باقة البيانات خلال %lu دقيقة تقريبًا. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"two\":\"سوف تنتهي صلاحية باقة البيانات خلال دقيقتين تقريبًا. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"other\":\"سوف تنتهي صلاحية باقة البيانات خلال %lu دقيقة تقريبًا. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"سوف تنتهي صلاحية باقة البيانات خلال %lu دقيقة تقريبًا. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "fr",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Votre forfait de données expire dans environ %lu minute. Souhaitez-vous le rallonger ? Vous pourrez sinon le faire plus tard dans Réglages.\",\"other\":\"Votre forfait de données expire dans environ %lu minutes. Souhaitez-vous le rallonger ? Vous pourrez sinon le faire plus tard dans Réglages.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "en",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in about %lu minute. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in about %lu minutes. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "pt",
+        "target" : "{\"hours\":{\"one\":\"Seu plano de dados expira em cerca de %lu minuto. Deseja adicionar mais tempo ao seu plano? Se não quiser adicionar agora, você poderá fazer isso mais tarde nos Ajustes.\",\"other\":\"Seu plano de dados expira em cerca de %lu minutos. Deseja adicionar mais tempo ao seu plano? Se não quiser adicionar agora, você poderá fazer isso mais tarde nos Ajustes.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "sl",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"few\":\"Vaš paket mobilnih podatkov poteče čez približno %lu minute. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"one\":\"Vaš paket mobilnih podatkov poteče čez približno %lu minuto. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"other\":\"Vaš paket mobilnih podatkov poteče čez približno %lu minut. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"two\":\"Vaš paket mobilnih podatkov poteče čez približno %lu minuti. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Tu plan de datos vence en alrededor de %lu minuto. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"other\":\"Tu plan de datos vence en alrededor de %lu minutos. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "es_419"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in about %lu minute. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in about %lu minutes. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"other\":\"데이터 요금제가 약 %lu분 후에 만료됩니다. 현재 요금제에 데이터 사용 시간을 더 추가하겠습니까? 지금 추가하지 않더라도, 나중에 설정에서 추가할 수 있습니다.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Tu plan de datos vence en alrededor de %lu minuto. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"other\":\"Tu plan de datos vence en alrededor de %lu minutos. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "es_US",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Votre forfait de données expire dans environ %lu minute. Souhaitez-vous rajouter du crédit de temps? Vous pourrez également le faire plus tard dans Réglages.\",\"other\":\"Votre forfait de données expire dans environ %lu minutes. Souhaitez-vous rajouter du crédit de temps? Vous pourrez également le faire plus tard dans Réglages.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "fr_CA",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in about %lu minute. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in about %lu minutes. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"few\":\"Vaše datové služby přibližně za %lu minuty vyprší. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"one\":\"Vaše datové služby přibližně za %lu minutu vyprší. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"other\":\"Vaše datové služby přibližně za %lu minut vyprší. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"many\":\"Vaše datové služby přibližně za %lu minuty vyprší. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "{\"hours\":{\"few\":\"Plan danych wygaśnie za około %lu minuty. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"one\":\"Plan danych wygaśnie za około %lu minutę. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"other\":\"Plan danych wygaśnie za około %lu minuty. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"many\":\"Plan danych wygaśnie za około %lu minut. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "pl",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"hours\":{\"other\":\"你的数据套餐将在%lu分钟后过期。你要立即增加套餐时间吗？如果现在不，你可以稍后在“设置”中增加。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "ro",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"few\":\"Planul dvs. tarifar de date expiră peste aproximativ %lu minute. Ați dori să extindeți acum durata planului tarifar? Dacă nu extindeți acum, o puteți face ulterior în Configurări.\",\"one\":\"Planul dvs. tarifar de date expiră peste aproximativ %lu minut. Ați dori să extindeți acum durata planului tarifar? Dacă nu extindeți acum, o puteți face ulterior în Configurări.\",\"other\":\"Planul dvs. tarifar de date expiră peste aproximativ %lu de minute. Ați dori să extindeți acum durata planului tarifar? Dacă nu extindeți acum, o puteți face ulterior în Configurări.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "hu",
+        "target" : "{\"hours\":{\"one\":\"Az adat-előfizetése körülbelül %lu perc múlva lejár. Kíván most több időt adni az előfizetéséhez? Ha most nem ad hozzá, később is megteheti azt a Beállításokban.\",\"other\":\"Az adat-előfizetése körülbelül %lu perc múlva lejár. Kíván most több időt adni az előfizetéséhez? Ha most nem ad hozzá, később is megteheti azt a Beállításokban.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"hours\":{\"one\":\"Il piano dati scade tra circa %lu minuto. Vuoi aggiungere più tempo al piano tariffario? Se non lo fai ora, sarà possibile farlo in seguito in Impostazioni.\",\"other\":\"Il piano dati scade tra circa %lu minuti. Vuoi aggiungere più tempo al piano tariffario? Se non lo fai ora, sarà possibile farlo in seguito in Impostazioni.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "hi",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"आपका डेटा प्लान लगभग %lu मिनट में समाप्त हो रहा है। क्या आप अभी अपने प्लान में और समय जोड़ना चाहेंगे? यदि आप अभी नहीं जोड़ते हैं, तो बाद में आप सेटिंग्ज़ में यह कर सकते हैं।\",\"other\":\"आपका डेटा प्लान लगभग %lu मिनट में समाप्त हो रहा है। क्या आप अभी अपने प्लान में और समय जोड़ना चाहेंगे? यदि आप अभी नहीं जोड़ते हैं, तो बाद में आप सेटिंग्ज़ में यह कर सकते हैं।\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Falta aproximadamente %lu minuto para o seu plano de dados chegar ao fim. Gostaria de acrescentar mais tempo ao plano? Se não acrescentar agora, pode fazê‑lo mais tarde, nas Definições.\",\"other\":\"Faltam aproximadamente %lu minutos para o seu plano de dados chegar ao fim. Gostaria de acrescentar mais tempo ao plano? Se não acrescentar agora, pode fazê‑lo mais tarde, nas Definições.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "pt_PT",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"other\":\"你的數據計劃大約在%lu分鐘後到期，要在計劃中加入更多時間嗎？如現在不加入，你可以稍後前往「設定」加入。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "language" : "kk",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Тарифтік жоспарыңыздың қызмет ету мерзімі шамамен %lu минутта аяқталады. Жоспарыңызға қазір тағы уақыт қосқыңыз келе ме? Қазір қоспасаңыз, бұл әрекетті кейінірек «Реттеулер» мәзірінде орындауға болады.\",\"other\":\"Тарифтік жоспарыңыздың қызмет ету мерзімі шамамен %lu минутта аяқталады. Жоспарыңызға қазір тағы уақыт қосқыңыз келе ме? Қазір қоспасаңыз, бұл әрекетті кейінірек «Реттеулер» мәзірінде орындауға болады.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "target" : "{\"hours\":{\"other\":\"แผนบริการข้อมูลของคุณจะหมดอายุในเวลาประมาณ %lu นาที คุณต้องการที่จะเพิ่มเวลาของแผนบริการข้อมูลของคุณตอนนี้หรือไม่ ถ้าไม่เพิ่มตอนนี้ คุณสามารถทำได้ภายหลังในการตั้งค่า\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "th",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Dit dataabonnement udløber om ca. %lu minut. Vil du føje mere tid til dit abonnement nu? Du kan tilføje mere senere i Indstillinger, hvis du ikke gør det nu.\",\"other\":\"Dit dataabonnement udløber om ca. %lu minutter. Vil du føje mere tid til dit abonnement nu? Du kan tilføje mere senere i Indstillinger, hvis du ikke gør det nu.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "da",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "no",
+        "target" : "{\"hours\":{\"one\":\"Dataabonnementet utløper om ca. %lu minutt. Vil du legge til mer tid i abonnementet nå? Hvis du ikke legger til tid nå, kan du gjøre det senere i Innstillinger.\",\"other\":\"Dataabonnementet utløper om ca. %lu minutter. Vil du legge til mer tid i abonnementet nå? Hvis du ikke legger til tid nå, kan du gjøre det senere i Innstillinger.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "he",
+        "target" : "{\"hours\":{\"one\":\"נותרה רק כדקה אחת בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"נותרו רק כ-%lu דקות בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"two\":\"נותרו רק כשתי דקות בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"many\":\"נותרו רק כ-%lu דקות בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"hours\":{\"one\":\"Je data-abonnement verloopt over ongeveer %lu minuut. Wil je het abonnement nu verlengen? Als je daar nu niet voor kiest, kun je dit later doen in Instellingen.\",\"other\":\"Je data-abonnement verloopt over ongeveer %lu minuten. Wil je het abonnement nu verlengen? Als je daar nu niet voor kiest, kun je dit later doen in Instellingen.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Mobiilidataliittymä vanhenee noin %lu minuutin kuluttua. Haluatko jatkaa palvelua nyt? Jos et tee niin nyt, voit tehdä sen myöhemmin Asetuksissa.\",\"other\":\"Mobiilidataliittymä vanhenee noin %lu minuutin kuluttua. Haluatko jatkaa palvelua nyt? Jos et tee niin nyt, voit tehdä sen myöhemmin Asetuksissa.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Dein Datentarif läuft in etwa %lu Minute ab. Möchtest du jetzt mehr Zeit zu deinem Tarif hinzufügen oder dies später in den Einstellungen tun?\",\"other\":\"Dein Datentarif läuft in etwa %lu Minuten ab. Möchtest du jetzt mehr Zeit zu deinem Tarif hinzufügen oder dies später in den Einstellungen tun?\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "de",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"El teu pla de dades caduca en aproximadament %lu minut. Vols afegir més temps al pla ara? Si no ho fas ara, ho pots fer més tard a la configuració.\",\"other\":\"El teu pla de dades caduca en aproximadament %lu minuts. Vols afegir més temps al pla ara? Si no ho fas ara, ho pots fer més tard a la configuració.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "ca",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"hours\":{\"one\":\"Ditt dataabonnemang löper ut om ungefär %lu minut. Vill du förlänga ditt dataabonnemang nu? Om du inte gör det nu kan du göra det senare i Inställningar.\",\"other\":\"Ditt dataabonnemang löper ut om ungefär %lu minuter. Vill du förlänga ditt dataabonnemang nu? Om du inte gör det nu kan du göra det senare i Inställningar.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"few\":\"Jūsų duomenų planas baigs galioti apytiksliai po %lu minučių. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"one\":\"Jūsų duomenų planas baigs galioti apytiksliai po %lu minutės. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"other\":\"Jūsų duomenų planas baigs galioti apytiksliai po %lu minučių. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"many\":\"Jūsų duomenų planas baigs galioti apytiksliai po %lu minutės. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "lt"
+      },
+      {
+        "target" : "{\"hours\":{\"other\":\"Pelan data anda akan tamat tempoh dalam masa lebih kurang %lu minit. Adakah anda mahu menambah lebih banyak masa pada pelan anda sekarang? Jika anda tidak menambah sekarang, anda boleh melakukannya kemudian dalam Seting.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ms"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "{\"hours\":{\"other\":\"你的數據方案將在%lu分鐘左右後到期。要在方案中加入更多時間嗎？若現在不加入，你可以稍後在「設定」中加入。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"hours\":{\"few\":\"Váš dátový program vyprší približne o %lu minúty. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"one\":\"Váš dátový program vyprší približne o %lu minútu. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"other\":\"Váš dátový program vyprší približne o %lu minút. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"many\":\"Váš dátový program vyprší približne o %lu minúty. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      }
+    ],
+    "NOTIFICATION_CENTER_NEW_WIDGETS_AVAILABLE_FORMAT" : [
+      {
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"few\":\"Доступны %u новых виджета\",\"one\":\"Доступен %u новый виджет\",\"other\":\"Доступны %u новых виджета\",\"many\":\"Доступны %u новых виджетов\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"Διατίθεται %u νέο widget\",\"other\":\"Διατίθενται %u νέα widget\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"other\":\"%u tiện ích mới có sẵn\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "vi",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u нов инструмент е наличен\",\"other\":\"%u нови инструмента са налични\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "bg"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"few\":\"Доступні %u нові віджети\",\"one\":\"У доступі є %u новий віджет\",\"other\":\"Нові доступні віджети: %u\",\"many\":\"Доступні %u нових віджетів\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"few\":\"Dostupna su %u nova widgeta\",\"one\":\"Dostupan je %u novi widget\",\"other\":\"Dostupno je %u novih widgeta\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u New Widget Available\",\"other\":\"%u New Widgets Available\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "en_IN"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ja",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"other\":\"%u 個の新しいウィジェットがあります\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"other\":\"%u Widget Baru Tersedia\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "id"
+      },
+      {
+        "language" : "tr",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u Yeni Araç Takımı Var\",\"other\":\"%u Yeni Araç Takımı Var\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u widget nuevo disponible\",\"other\":\"%u widgets nuevos disponibles\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "es",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"تتوفر أداة جديدة واحدة\",\"few\":\"توجد %u أدوات جديدة متوفرة\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"توجد %u أداة جديدة متوفرة\",\"two\":\"توجد أداتان جديدتان متوفرتان\",\"other\":\"توجد %u أداة جديدة متوفرة\",\"NSStringFormatValueTypeKey\":\"u\",\"zero\":\"توجد %u أداة جديدة متوفرة\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u nouveau widget disponible\",\"other\":\"%u nouveaux widgets disponibles\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "fr",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u New Widget Available\",\"other\":\"%u New Widgets Available\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "pt",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u Novo Widget Disponível\",\"other\":\"%u Novos Widgets Disponíveis\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"few\":\"Na voljo so %u novi gradniki\",\"one\":\"Na voljo je %u nov gradnik\",\"other\":\"Na voljo je %u novih gradnikov\",\"two\":\"Na voljo sta %u nova gradnika\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "sl"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u nuevo widget disponible\",\"other\":\"%u nuevos widgets disponibles\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "es_419",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u New Widget Available\",\"other\":\"%u New Widgets Available\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "en_GB"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"other\":\"%u개의 새로운 위젯 사용 가능\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "es_US",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u nuevo widget disponible\",\"other\":\"%u nuevos widgets disponibles\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u nouveau widget disponible\",\"other\":\"%u nouveaux widgets disponibles\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u New Widget Available\",\"other\":\"%u New Widgets Available\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "cs",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"few\":\"%u nové widgety\",\"one\":\"%u nový widget\",\"other\":\"%u nových widgetů\",\"many\":\"%u nového widgetu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "language" : "pl",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"few\":\"Dostępnych nowych widżetów: %u\",\"one\":\"%u nowy widżet dostępny\",\"other\":\"Dostępnych nowych widżetów: %u\",\"many\":\"Dostępnych nowych widżetów: %u\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"other\":\"%u个新小组件可用\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ro",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"few\":\"%u widgeturi noi disponibile\",\"one\":\"%u widget nou disponibil\",\"other\":\"%u de widgeturi noi disponibile\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u új widget áll rendelkezésre\",\"other\":\"%u új widget áll rendelkezésre\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u nuovo widget disponibile\",\"other\":\"%u nuovi widget disponibili\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "it"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u नया विजेट उपलब्ध\",\"other\":\"%u नए विजेट उपलब्ध\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u novo widget disponível\",\"other\":\"%u novos widgets disponíveis\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "pt_PT",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"other\":\"%u個新小工具可用\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u жаңа виджет қолжетімді\",\"other\":\"%u жаңа виджет қолжетімді\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "kk"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "th",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"other\":\"มีวิดเจ็ตใหม่ %u วิดเจ็ต\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u ny widget tilgængelig\",\"other\":\"%u nye widgets tilgængelige\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "da",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u ny widget tilgjengelig\",\"other\":\"%u nye widgeter tilgjengelig\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"וידג׳ט חדש אחד זמין\",\"NSStringFormatValueTypeKey\":\"u\",\"other\":\"%u וידג׳טים חדשים זמינים\",\"two\":\"שני וידג׳טים חדשים זמינים\",\"many\":\"%u וידג׳טים חדשים זמינים\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "he"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "nl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u nieuwe widget beschikbaar\",\"other\":\"%u nieuwe widgets beschikbaar\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u uusi widgetti saatavilla\",\"other\":\"%u uutta widgettiä saatavilla\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "fi"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u neues Widget verfügbar\",\"other\":\"%u neue Widgets verfügbar\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u nou giny disponible\",\"other\":\"%u nous ginys disponibles\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "ca"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"one\":\"%u ny widget tillgänglig\",\"other\":\"%u nya widgetar tillgängliga\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "sv"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "lt",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"few\":\"Yra %u nauji valdikliai\",\"one\":\"Yra %u naujas valdiklis\",\"other\":\"Yra %u naujų valdiklių\",\"many\":\"Yra %u naujo valdiklio\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"other\":\"%u Widget Baharu Tersedia\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "language" : "ms",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "zh_TW",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"other\":\"%u個新的小工具可用\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@num_new_widgets@\",\"num_new_widgets\":{\"few\":\"%u nové widgety\",\"one\":\"%u nový widget\",\"other\":\"%u nových widgetov\",\"many\":\"%u nového widgetu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"}}",
+        "filename" : "SpringBoardPlurals.loctable"
+      }
+    ],
+    "STATUS_BAR_BACKGROUND_LOCATION_MULTIPLE_APPS_WITH_COUNT_FORMAT" : [
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ru",
+        "target" : "{\"num_background_location_apps\":{\"few\":\"Вашу геопозицию активно используют %u приложения\",\"one\":\"Вашу геопозицию активно использует %u приложение\",\"other\":\"Вашу геопозицию активно использует %u приложения\",\"many\":\"Вашу геопозицию активно используют %u приложений\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u εφαρμογή χρησιμοποιεί ενεργά την τοποθεσία σας\",\"other\":\"%u εφαρμογές χρησιμοποιούν ενεργά την τοποθεσία σας\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "language" : "el",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "vi",
+        "target" : "{\"num_background_location_apps\":{\"other\":\"%u ứng dụng đang sử dụng vị trí của bạn\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "bg",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u приложение активно използва местоположението ви\",\"other\":\"%u приложения активно използват местоположението ви\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "language" : "uk",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_background_location_apps\":{\"few\":\"%u програми активно використовують ваше місце\",\"one\":\"%u програма активно використовує ваше місце\",\"other\":\"%u програми активно використовують ваше місце\",\"many\":\"%u програм активно використовують ваше місце\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "hr",
+        "target" : "{\"num_background_location_apps\":{\"few\":\"%u aplikacije aktivno koriste vašu lokaciju\",\"one\":\"%u aplikacija aktivno koristi vašu lokaciju\",\"other\":\"%u aplikacija aktivno koristi vašu lokaciju\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u App Is Actively Using Your Location\",\"other\":\"%u Apps Are Actively Using Your Location\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "language" : "en_IN",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"other\":\"%u個のアプリが位置情報を現在利用中\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ja"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_background_location_apps\":{\"other\":\"%u App Menggunakan Lokasi Anda Secara Aktif\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "language" : "id"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u Uygulama Aktif Olarak Konumunuzu Kullanıyor\",\"other\":\"%u Uygulama Aktif Olarak Konumunuzu Kullanıyor\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "language" : "tr",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u app está utilizando activamente tu ubicación\",\"other\":\"%u apps están utilizando activamente tu ubicación\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "es"
+      },
+      {
+        "language" : "ar",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"يستخدم تطبيقٌ واحدٌ موقعك بشكل نشط.\",\"few\":\"تستخدم %u تطبيقات موقعك بشكل نشط.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"يستخدم %u تطبيقًا موقعك بشكل نشط.\",\"two\":\"هناك تطبيقان يستخدمان موقعك بشكل نشط.\",\"other\":\"يستخدم %u تطبيق موقعك بشكل نشط.\",\"NSStringFormatValueTypeKey\":\"u\",\"zero\":\"يستخدم %u تطبيق موقعك بشكل نشط.\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "language" : "fr",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u app utilise actuellement vos données de localisation\",\"other\":\"%u apps utilisent actuellement vos données de localisation\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u App is Actively Using Your Location\",\"other\":\"%u Apps are Actively Using Your Location\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "language" : "en",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "pt",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u App Está Usando Sua Localização Ativamente\",\"other\":\"%u Apps Estão Usando Sua Localização Ativamente\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"few\":\"%u aplikacije trenutno uporabljajo vašo lokacijo\",\"one\":\"%u aplikacija trenutno aktivno uporablja vašo lokacijo\",\"other\":\"%u aplikacij trenutno aktivno uporablja vašo lokacijo\",\"two\":\"%u aplikaciji trenutno uporabljata vašo lokacijo\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "language" : "sl",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "es_419",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u app está usando activamente tu ubicación\",\"other\":\"%u apps están usando activamente tu ubicación\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u App Is Actively Using Your Location\",\"other\":\"%u Apps Are Actively Using Your Location\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ko",
+        "target" : "{\"num_background_location_apps\":{\"other\":\"%u개의 앱이 사용자의 위치를 사용하는 중\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "es_US",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u app está usando activamente tu ubicación\",\"other\":\"%u apps están usando activamente tu ubicación\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u app utilise activement vos données de localisation.\",\"other\":\"%u apps utilisent activement vos données de localisation.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u App is Actively Using Your Location\",\"other\":\"%u Apps are Actively Using Your Location\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "cs",
+        "target" : "{\"num_background_location_apps\":{\"few\":\"%u aplikace aktivně využívají vaši polohu\",\"one\":\"%u aplikace aktivně využívá vaši polohu\",\"other\":\"%u aplikací aktivně využívá vaši polohu\",\"many\":\"%u aplikace aktivně využívá vaši polohu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "pl",
+        "target" : "{\"num_background_location_apps\":{\"few\":\"%u aplikacje aktywnie używają Twojego położenia\",\"one\":\"%u aplikacja aktywnie używa Twojego położenia\",\"other\":\"%u aplikacji aktywnie używa Twojego położenia\",\"many\":\"%u aplikacji aktywnie używa Twojego położenia\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_background_location_apps\":{\"other\":\"%u个App正在活跃使用你的位置信息\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"few\":\"%u aplicații utilizează în mod activ localizarea dvs.\",\"one\":\"%u aplicație utilizează în mod activ localizarea dvs.\",\"other\":\"%u de aplicații utilizează în mod activ localizarea dvs.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u app aktívan használja az Ön helyzetét\",\"other\":\"%u app aktívan használja az Ön helyzetét\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "hu"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u app sta utilizzando la tua posizione\",\"other\":\"%u app stanno utilizzando la tua posizione\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u ऐप आपके स्थान का सक्रियता से उपयोग कर रहा है\",\"other\":\"%u ऐप्स आपके स्थान का सक्रियता से उपयोग कर रहे हैं\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "pt_PT",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u aplicação está a usar ativamente a sua localização\",\"other\":\"%u aplicações estão a usar ativamente a sua localização\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"num_background_location_apps\":{\"other\":\"%u個App正在活躍使用你的位置\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "kk",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u қолданба геолокацияңызды белсенді түрде пайдалануда\",\"other\":\"%u қолданба геолокацияңызды белсенді түрде пайдалануда\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"other\":\"มี %u แอปกำลังใช้ตำแหน่งที่ตั้งของคุณอยู่เบื้องหลัง\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "th"
+      },
+      {
+        "language" : "da",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u anden app bruger aktivt din lokalitet\",\"other\":\"%u apps bruger aktivt din lokalitet\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u app bruker posisjonen din nå\",\"other\":\"%u apper bruker posisjonen din nå\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "he",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"יישום אחד משתמש בפרטי מיקומך באופן פעיל\",\"NSStringFormatValueTypeKey\":\"u\",\"other\":\"‏%u יישומים משתמשים בפרטי מיקומך באופן פעיל\",\"two\":\"שני יישומים משתמשים בפרטי מיקומך באופן פעיל\",\"many\":\"‏%u יישומים משתמשים בפרטי מיקומך באופן פעיל\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u app gebruikt je locatie\",\"other\":\"%u apps gebruiken je locatie\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u appi käyttää aktiivisesti sijaintiasi\",\"other\":\"%u appia käyttää aktiivisesti sijaintiasi\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "fi"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u App verwendet gerade deinen Standort\",\"other\":\"%u Apps verwenden gerade deinen Standort\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u app està utilitzant la teva ubicació de manera activa\",\"other\":\"%u apps estan utilitzant la teva ubicació de manera activa\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "language" : "ca",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"one\":\"%u app använder aktivt din platsinfo\",\"other\":\"%u appar använder aktivt din platsinfo\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "language" : "sv",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"few\":\"%u programos aktyviai naudoja jūsų vietos duomenis\",\"one\":\"%u programa aktyviai naudoja jūsų vietos duomenis\",\"other\":\"%u programų aktyviai naudoja jūsų vietos duomenis\",\"many\":\"%u programos aktyviai naudoja jūsų vietos duomenis\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "lt"
+      },
+      {
+        "target" : "{\"num_background_location_apps\":{\"other\":\"%u App Menggunakan Lokasi Secara Aktif\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ms"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_background_location_apps\":{\"other\":\"%u個App正在密集使用你的位置\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"num_background_location_apps\":{\"few\":\"%u apky aktívne používajú vašu polohu\",\"one\":\"%u apka aktívne používa vašu polohu\",\"other\":\"%u apiek aktívne používa vašu polohu\",\"many\":\"%u apky aktívne používa vašu polohu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_background_location_apps@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      }
+    ],
+    "DATA_PLAN_ADD_EXPIRATION_BODY_LESS_THAN_DAYS" : [
+      {
+        "language" : "ru",
+        "target" : "{\"hours\":{\"few\":\"Срок действия тарифа истекает меньше чем через %lu дня. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"one\":\"Срок действия тарифа истекает меньше чем через %lu день. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"other\":\"Срок действия тарифа истекает меньше чем через %lu дня. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"many\":\"Срок действия тарифа истекает меньше чем через %lu дней. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"hours\":{\"one\":\"Το πρόγραμμα δεδομένων σας λήγει σε λιγότερο από %lu ημέρα. Θέλετε να προσθέσετε περισσότερο χρόνο στο πρόγραμμά σας τώρα; Μπορείτε επίσης να το κάνετε αργότερα στις Ρυθμίσεις.\",\"other\":\"Το πρόγραμμα δεδομένων σας λήγει σε λιγότερο από %lu ημέρες. Θέλετε να προσθέσετε περισσότερο χρόνο στο πρόγραμμά σας τώρα; Μπορείτε επίσης να το κάνετε αργότερα στις Ρυθμίσεις.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "vi",
+        "target" : "{\"hours\":{\"other\":\"Chưa đến %lu ngày nữa, gói dữ liệu của bạn sẽ hết hạn. Bạn có muốn bổ sung thêm thời gian vào gói của mình bây giờ không? Nếu bạn không bổ sung bây giờ, bạn có thể thực hiện sau này trong Cài đặt.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Вашият план за данни изтича след по-малко от %lu ден. Искате ли да добавите повече време към плана си сега? Ако не добавите сега, можете да го направите по-късно в Настройки.\",\"other\":\"Вашият план за данни изтича след по-малко от %lu дни. Искате ли да добавите повече време към плана си сега? Ако не добавите сега, можете да го направите по-късно в Настройки.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "bg"
+      },
+      {
+        "target" : "{\"hours\":{\"few\":\"Термін плану даних спливає менш ніж через %lu дні. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"one\":\"Термін плану даних спливає менш ніж через %lu день. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"other\":\"Термін плану даних спливає менш ніж через %lu дня. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"many\":\"Термін плану даних спливає менш ніж через %lu днів. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "{\"hours\":{\"few\":\"Vaš podatkovni plan istječe za manje od %lu dana. Želite li sad dodati još vremena u vaš plan? Podatke možete dodati i kasnije, u izborniku Postavke.\",\"one\":\"Vaš podatkovni plan istječe za manje od %lu dan. Želite li sad dodati još vremena u vaš plan? Podatke možete dodati i kasnije, u izborniku Postavke.\",\"other\":\"Vaš podatkovni plan istječe za manje od %lu dana. Želite li sad dodati još vremena u vaš plan? Podatke možete dodati i kasnije, u izborniku Postavke.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "hr",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "en_IN",
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in less than %lu day. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in less than %lu days. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"other\":\"ご利用中のデータプランの有効期限はあと%lu日未満で切れます。今すぐ時間を追加しますか? 今追加しない場合でも、後から“設定”で追加できます。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "ja"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"other\":\"Paket data Anda kedaluwarsa kurang dari %lu hari. Apakah Anda ingin menambah lebih banyak waktu ke paket layanan sekarang? Jika tidak, Anda dapat melakukannya nanti di Pengaturan.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "id"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"hours\":{\"one\":\"Veri planınız %lu gün içinde bitecek. Şimdi planınıza daha fazla süre eklemek ister misiniz? Şimdi eklemezseniz bunu Ayarlar’da daha sonra yapabilirsiniz.\",\"other\":\"Veri planınız %lu gün içinde bitecek. Şimdi planınıza daha fazla süre eklemek ister misiniz? Şimdi eklemezseniz bunu Ayarlar’da daha sonra yapabilirsiniz.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "es",
+        "target" : "{\"hours\":{\"one\":\"Tu plan de datos caduca dentro de menos de %lu día. ¿Quieres añadir más tiempo al plan ahora? Si no quieres añadir tiempo ahora, puedes hacerlo más tarde desde Ajustes.\",\"other\":\"Tu plan de datos caduca dentro de menos de %lu días. ¿Quieres añadir más tiempo al plan ahora? Si no quieres añadir tiempo ahora, puedes hacerlo más tarde desde Ajustes.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"سوف تنتهي صلاحية باقة البيانات في أقل من يوم واحد. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"few\":\"سوف تنتهي صلاحية باقة البيانات في أقل من %lu أيام. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"سوف تنتهي صلاحية باقة البيانات في أقل من %lu يومًا. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"two\":\"سوف تنتهي صلاحية باقة البيانات في أقل من يومين. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"other\":\"سوف تنتهي صلاحية باقة البيانات في أقل من %lu يوم. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"سوف تنتهي صلاحية باقة البيانات في أقل من %lu يوم. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "ar"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Votre forfait de données expire dans moins d’%lu journée. Souhaitez-vous le rallonger ? Vous pourrez sinon le faire plus tard dans Réglages.\",\"other\":\"Votre forfait de données expire dans moins de %lu jours. Souhaitez-vous le rallonger ? Vous pourrez sinon le faire plus tard dans Réglages.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "fr"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in less than %lu day. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in less than %lu days. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Seu plano de dados expira em menos de %lu dia. Deseja adicionar mais tempo ao seu plano? Se não quiser adicionar agora, você poderá fazer isso mais tarde nos Ajustes.\",\"other\":\"Seu plano de dados expira em menos de %lu dias. Deseja adicionar mais tempo ao seu plano? Se não quiser adicionar agora, você poderá fazer isso mais tarde nos Ajustes.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "pt"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"few\":\"Vaš paket mobilnih podatkov poteče čez manj kot %lu dni. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"one\":\"Vaš paket mobilnih podatkov poteče čez manj kot %lu dan. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"other\":\"Vaš paket mobilnih podatkov poteče čez manj kot %lu dni. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"two\":\"Vaš paket mobilnih podatkov poteče čez manj kot %lu dni. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "sl"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Tu plan de datos vence en menos de %lu día. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"other\":\"Tu plan de datos vence en menos de %lu días. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "en_GB",
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in less than %lu day. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in less than %lu days. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ko",
+        "target" : "{\"hours\":{\"other\":\"데이터 요금제가 %lu일 내에 만료됩니다. 현재 요금제에 데이터 사용 시간을 더 추가하겠습니까? 지금 추가하지 않더라도, 나중에 설정에서 추가할 수 있습니다.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Tu plan de datos vence en menos de %lu día. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"other\":\"Tu plan de datos vence en menos de %lu días. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "es_US"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Votre forfait de données expire dans moins de %lu jour. Souhaitez-vous rajouter du crédit de temps? Vous pourrez également le faire plus tard dans Réglages.\",\"other\":\"Votre forfait de données expire dans moins de %lu jours. Souhaitez-vous rajouter du crédit de temps? Vous pourrez également le faire plus tard dans Réglages.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in less than %lu day. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in less than %lu days. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"few\":\"Vaše datové služby vyprší za méně než %lu dny. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"one\":\"Vaše datové služby vyprší za méně než %lu den. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"other\":\"Vaše datové služby vyprší za méně než %lu dní. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"many\":\"Vaše datové služby vyprší za méně než %lu dne. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "{\"hours\":{\"few\":\"Plan danych wygaśnie za mniej niż %lu dni. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"one\":\"Plan danych wygaśnie za mniej niż %lu dzień. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"other\":\"Plan danych wygaśnie za mniej niż %lu dnia. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"many\":\"Plan danych wygaśnie za mniej niż %lu dni. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "pl"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "zh_CN",
+        "target" : "{\"hours\":{\"other\":\"你的数据套餐距离过期时间还剩不到%lu天。你要立即增加套餐时间吗？如果现在不，你可以稍后在“设置”中增加。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "ro",
+        "target" : "{\"hours\":{\"few\":\"Planul dvs. tarifar de date expiră peste mai puțin de %lu zile. Ați dori să extindeți acum durata planului tarifar? Dacă nu extindeți acum, o puteți face ulterior în Configurări.\",\"one\":\"Planul dvs. tarifar de date expiră peste mai puțin de %lu zi. Ați dori să extindeți acum durata planului tarifar? Dacă nu extindeți acum, o puteți face ulterior în Configurări.\",\"other\":\"Planul dvs. tarifar de date expiră peste mai puțin de %lu de zile. Ați dori să extindeți acum durata planului tarifar? Dacă nu extindeți acum, o puteți face ulterior în Configurări.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"hours\":{\"one\":\"Az adat-előfizetése kevesebb mint %lu nap múlva lejár. Kíván most több időt adni az előfizetéséhez? Ha most nem ad hozzá, később is megteheti azt a Beállításokban.\",\"other\":\"Az adat-előfizetése kevesebb mint %lu nap múlva lejár. Kíván most több időt adni az előfizetéséhez? Ha most nem ad hozzá, később is megteheti azt a Beállításokban.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "it",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Il piano dati scade tra meno di %lu giorno. Vuoi aggiungere più tempo al piano tariffario? Se non lo fai ora, sarà possibile farlo in seguito in Impostazioni.\",\"other\":\"Il piano dati scade tra meno di %lu giorni. Vuoi aggiungere più tempo al piano tariffario? Se non lo fai ora, sarà possibile farlo in seguito in Impostazioni.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "hi",
+        "target" : "{\"hours\":{\"one\":\"आपका डेटा प्लान %lu से कम दिन में समाप्त हो रहा है। क्या आप अभी अपने प्लान में और समय जोड़ना चाहेंगे? यदि आप अभी नहीं जोड़ते हैं, तो बाद में आप सेटिंग्ज़ में यह कर सकते हैं।\",\"other\":\"आपका डेटा प्लान %lu से कम दिन में समाप्त हो रहा है। क्या आप अभी अपने प्लान में और समय जोड़ना चाहेंगे? यदि आप अभी नहीं जोड़ते हैं, तो बाद में आप सेटिंग्ज़ में यह कर सकते हैं।\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Falta menos de %lu dia para o seu plano de dados chegar ao fim. Gostaria de acrescentar mais tempo ao plano? Se não acrescentar agora, pode fazê‑lo mais tarde, nas Definições.\",\"other\":\"Faltam menos de %lu dias para o seu plano de dados chegar ao fim. Gostaria de acrescentar mais tempo ao plano? Se não acrescentar agora, pode fazê‑lo mais tarde, nas Definições.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"hours\":{\"other\":\"你的數據計劃將在%lu日內到期，要在計劃中加入更多時間嗎？如現在不加入，你可以稍後前往「設定」加入。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Тарифтік жоспарыңыздың қызмет ету мерзімі %lu күннен кем уақытта аяқталады. Жоспарыңызға қазір тағы уақыт қосқыңыз келе ме? Қазір қоспасаңыз, бұл әрекетті кейінірек «Реттеулер» мәзірінде орындауға болады.\",\"other\":\"Тарифтік жоспарыңыздың қызмет ету мерзімі %lu күннен кем уақытта аяқталады. Жоспарыңызға қазір тағы уақыт қосқыңыз келе ме? Қазір қоспасаңыз, бұл әрекетті кейінірек «Реттеулер» мәзірінде орындауға болады.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "kk"
+      },
+      {
+        "language" : "th",
+        "target" : "{\"hours\":{\"other\":\"แผนบริการข้อมูลของคุณจะหมดอายุในเวลาไม่ถึง %lu วัน คุณต้องการที่จะเพิ่มเวลาของแผนบริการข้อมูลของคุณตอนนี้หรือไม่ ถ้าไม่เพิ่มตอนนี้ คุณสามารถทำได้ภายหลังในการตั้งค่า\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"hours\":{\"one\":\"Dit dataabonnement udløber om mindre end %lu dag. Vil du føje mere tid til dit abonnement nu? Du kan tilføje mere senere i Indstillinger, hvis du ikke gør det nu.\",\"other\":\"Dit dataabonnement udløber om mindre end %lu dage. Vil du føje mere tid til dit abonnement nu? Du kan tilføje mere senere i Indstillinger, hvis du ikke gør det nu.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Dataabonnementet utløper om mindre enn %lu dag. Vil du legge til mer tid i abonnementet nå? Hvis du ikke legger til tid nå, kan du gjøre det senere i Innstillinger.\",\"other\":\"Dataabonnementet utløper om mindre enn %lu dager. Vil du legge til mer tid i abonnementet nå? Hvis du ikke legger til tid nå, kan du gjøre det senere i Innstillinger.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"נותר פחות מיום אחד בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"נותרו פחות מ-%lu ימים בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"two\":\"נותרו פחות מיומיים בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"many\":\"נותרו פחות מ-%lu ימים בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "he"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "nl",
+        "target" : "{\"hours\":{\"one\":\"Je data-abonnement verloopt over minder dan %lu dag. Wil je het abonnement nu verlengen? Als je daar nu niet voor kiest, kun je dit later doen in Instellingen.\",\"other\":\"Je data-abonnement verloopt over minder dan %lu dagen. Wil je het abonnement nu verlengen? Als je daar nu niet voor kiest, kun je dit later doen in Instellingen.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "fi",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Mobiilidataliittymä vanhenee alle %lu päivän kuluttua. Haluatko jatkaa palvelua nyt? Jos et tee niin nyt, voit tehdä sen myöhemmin Asetuksissa.\",\"other\":\"Mobiilidataliittymä vanhenee alle %lu päivän kuluttua. Haluatko jatkaa palvelua nyt? Jos et tee niin nyt, voit tehdä sen myöhemmin Asetuksissa.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "de",
+        "target" : "{\"hours\":{\"one\":\"Dein Datentarif läuft in weniger als %lu Tag ab. Möchtest du jetzt mehr Zeit zu deinem Tarif hinzufügen oder dies später in den Einstellungen tun?\",\"other\":\"Dein Datentarif läuft in weniger als %lu Tagen ab. Möchtest du jetzt mehr Zeit zu deinem Tarif hinzufügen oder dies später in den Einstellungen tun?\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ca",
+        "target" : "{\"hours\":{\"one\":\"El teu pla de dades caduca en menys d’%lu dia. Vols afegir més temps al pla ara? Si no ho fas ara, ho pots fer més tard a la configuració.\",\"other\":\"El teu pla de dades caduca en menys de %lu dies. Vols afegir més temps al pla ara? Si no ho fas ara, ho pots fer més tard a la configuració.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "sv",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Ditt dataabonnemang löper ut om mindre än %lu dag. Vill du förlänga ditt dataabonnemang nu? Om du inte gör det nu kan du göra det senare i Inställningar.\",\"other\":\"Ditt dataabonnemang löper ut om mindre än %lu dagar. Vill du förlänga ditt dataabonnemang nu? Om du inte gör det nu kan du göra det senare i Inställningar.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "lt",
+        "target" : "{\"hours\":{\"few\":\"Jūsų duomenų planas baigs galioti po mažiau nei %lu dienų. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"one\":\"Jūsų duomenų planas baigs galioti po mažiau nei %lu dienos. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"other\":\"Jūsų duomenų planas baigs galioti po mažiau nei %lu dienų. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"many\":\"Jūsų duomenų planas baigs galioti po mažiau nei %lu dienos. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ms",
+        "target" : "{\"hours\":{\"other\":\"Pelan data anda akan tamat tempoh dalam masa kurang daripada %lu hari. Adakah anda mahu menambahkan lebih banyak masa pada pelan anda sekarang? Jika anda tidak menambah sekarang, anda boleh melakukannya kemudian dalam Seting.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "target" : "{\"hours\":{\"other\":\"你的數據方案將在%lu天內到期。要在方案中加入更多時間嗎？若現在不加入，你可以稍後在「設定」中加入。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "{\"hours\":{\"few\":\"Váš dátový program vyprší o menej ako %lu dni. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"one\":\"Váš dátový program vyprší o menej ako %lu deň. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"other\":\"Váš dátový program vyprší o menej ako %lu dní. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"many\":\"Váš dátový program vyprší o menej ako %lu dňa. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "sk",
+        "filename" : "SpringBoardPlurals.loctable"
+      }
+    ],
+    "DATA_PLAN_ADD_EXPIRATION_BODY_HOURS" : [
+      {
+        "language" : "ru",
+        "target" : "{\"hours\":{\"few\":\"Срок действия тарифа истекает примерно через %lu часа. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"one\":\"Срок действия тарифа истекает примерно через %lu час. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"other\":\"Срок действия тарифа истекает примерно через %lu часа. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"many\":\"Срок действия тарифа истекает примерно через %lu часов. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Το πρόγραμμα δεδομένων σας λήγει σε %lu ώρα περίπου. Θέλετε να προσθέσετε περισσότερο χρόνο στο πρόγραμμά σας τώρα; Μπορείτε επίσης να το κάνετε αργότερα στις Ρυθμίσεις.\",\"other\":\"Το πρόγραμμα δεδομένων σας λήγει σε %lu ώρες περίπου. Θέλετε να προσθέσετε περισσότερο χρόνο στο πρόγραμμά σας τώρα; Μπορείτε επίσης να το κάνετε αργότερα στις Ρυθμίσεις.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "el"
+      },
+      {
+        "target" : "{\"hours\":{\"other\":\"Gói dữ liệu của bạn sẽ hết hạn sau khoảng %lu giờ nữa. Bạn có muốn bổ sung thêm thời gian vào gói của mình bây giờ không? Nếu bạn không bổ sung bây giờ, bạn có thể thực hiện sau này trong Cài đặt.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "vi"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "bg",
+        "target" : "{\"hours\":{\"one\":\"Вашият план за данни изтича след около %lu час. Искате ли да добавите повече време към плана си сега? Ако не добавите сега, можете да го направите по-късно в Настройки.\",\"other\":\"Вашият план за данни изтича след около %lu часа. Искате ли да добавите повече време към плана си сега? Ако не добавите сега, можете да го направите по-късно в Настройки.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "target" : "{\"hours\":{\"few\":\"Термін плану даних спливає приблизно через %lu години. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"one\":\"Термін плану даних спливає приблизно через %lu годину. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"other\":\"Термін плану даних спливає приблизно через %lu години. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"many\":\"Термін плану даних спливає приблизно через %lu годин. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "uk"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"hours\":{\"few\":\"Vaš podatkovni plan istječe za oko %lu h. Želite li sad dodati još vremena u vaš plan? Podatke možete dodati i kasnije, u izborniku Postavke.\",\"one\":\"Vaš podatkovni plan istječe za oko %lu h. Želite li sad dodati još vremena u vaš plan? Podatke možete dodati i kasnije, u izborniku Postavke.\",\"other\":\"Vaš podatkovni plan istječe za oko %lu h. Želite li sad dodati još vremena u vaš plan? Podatke možete dodati i kasnije, u izborniku Postavke.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in about %lu hour. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in about %lu hours. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "ja",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"other\":\"ご利用中のデータプランの有効期限はあと約%lu時間で切れます。今すぐ時間を追加しますか? 今追加しない場合でも、後から“設定”で追加できます。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"other\":\"Paket data Anda kedaluwarsa dalam sekitar %lu jam. Apakah Anda ingin menambah lebih banyak waktu ke paket layanan sekarang? Jika tidak, Anda dapat melakukannya nanti di Pengaturan.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "id"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Veri planınız yaklaşık %lu saat sonra bitecek. Şimdi planınıza daha fazla süre eklemek ister misiniz? Şimdi eklemezseniz bunu Ayarlar’da daha sonra yapabilirsiniz.\",\"other\":\"Veri planınız yaklaşık %lu saat sonra bitecek. Şimdi planınıza daha fazla süre eklemek ister misiniz? Şimdi eklemezseniz bunu Ayarlar’da daha sonra yapabilirsiniz.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "tr",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "es",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Tu plan de datos caduca dentro de %lu hora aproximadamente. ¿Quieres añadir más tiempo al plan ahora? Si no quieres añadir tiempo ahora, puedes hacerlo más tarde desde Ajustes.\",\"other\":\"Tu plan de datos caduca dentro de %lu horas aproximadamente. ¿Quieres añadir más tiempo al plan ahora? Si no quieres añadir tiempo ahora, puedes hacerlo más tarde desde Ajustes.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"سوف تنتهي صلاحية باقة البيانات خلال ساعة واحدة تقريبًا. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"few\":\"سوف تنتهي صلاحية باقة البيانات خلال %lu ساعات تقريبًا. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"سوف تنتهي صلاحية باقة البيانات خلال %lu ساعة تقريبًا. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"two\":\"سوف تنتهي صلاحية باقة البيانات خلال ساعتين تقريبًا. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"other\":\"سوف تنتهي صلاحية باقة البيانات خلال %lu ساعة تقريبًا. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"سوف تنتهي صلاحية باقة البيانات خلال %lu ساعة تقريبًا. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ar"
+      },
+      {
+        "language" : "fr",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Votre forfait de données expire dans environ %lu heure. Souhaitez-vous le rallonger ? Vous pourrez sinon le faire plus tard dans Réglages.\",\"other\":\"Votre forfait de données expire dans environ %lu heures. Souhaitez-vous le rallonger ? Vous pourrez sinon le faire plus tard dans Réglages.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in about %lu hour. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in about %lu hours. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "pt",
+        "target" : "{\"hours\":{\"one\":\"Seu plano de dados expira em cerca de %lu hora. Deseja adicionar mais tempo ao seu plano? Se não quiser adicionar agora, você poderá fazer isso mais tarde nos Ajustes.\",\"other\":\"Seu plano de dados expira em cerca de %lu horas. Deseja adicionar mais tempo ao seu plano? Se não quiser adicionar agora, você poderá fazer isso mais tarde nos Ajustes.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "sl",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"few\":\"Vaš paket mobilnih podatkov poteče čez približno %lu ure. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"one\":\"Vaš paket mobilnih podatkov poteče čez približno %lu uro. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"other\":\"Vaš paket mobilnih podatkov poteče čez približno %lu ur. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"two\":\"Vaš paket mobilnih podatkov poteče čez približno %lu uri. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Tu plan de datos vence en alrededor de %lu hora. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"other\":\"Tu plan de datos vence en alrededor de %lu horas. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in about %lu hour. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in about %lu hours. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "en_GB",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"other\":\"데이터 요금제가 약 %lu시간 후에 만료됩니다. 현재 요금제에 데이터 사용 시간을 더 추가하겠습니까? 지금 추가하지 않더라도, 나중에 설정에서 추가할 수 있습니다.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "ko",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "{\"hours\":{\"one\":\"Tu plan de datos vence en alrededor de %lu hora. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"other\":\"Tu plan de datos vence en alrededor de %lu horas. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Votre forfait de données expire dans environ %lu heure. Souhaitez-vous rajouter du crédit de temps? Vous pourrez également le faire plus tard dans Réglages.\",\"other\":\"Votre forfait de données expire dans environ %lu heures. Souhaitez-vous rajouter du crédit de temps? Vous pourrez également le faire plus tard dans Réglages.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in about %lu hour. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in about %lu hours. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "en_AU"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"hours\":{\"few\":\"Vaše datové služby přibližně za %lu hodiny vyprší. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"one\":\"Vaše datové služby přibližně za %lu hodinu vyprší. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"other\":\"Vaše datové služby přibližně za %lu hodin vyprší. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"many\":\"Vaše datové služby přibližně za %lu hodiny vyprší. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "pl",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"few\":\"Plan danych wygaśnie za około %lu godziny. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"one\":\"Plan danych wygaśnie za około %lu godzinę. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"other\":\"Plan danych wygaśnie za około %lu godziny. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"many\":\"Plan danych wygaśnie za około %lu godzin. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"other\":\"你的数据套餐将在%lu小时后过期。你要立即增加套餐时间吗？如果现在不，你可以稍后在“设置”中增加。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"few\":\"Planul dvs. tarifar de date expiră peste aproximativ %lu ore. Ați dori să extindeți acum durata planului tarifar? Dacă nu extindeți acum, o puteți face ulterior în Configurări.\",\"one\":\"Planul dvs. tarifar de date expiră peste aproximativ %lu oră. Ați dori să extindeți acum durata planului tarifar? Dacă nu extindeți acum, o puteți face ulterior în Configurări.\",\"other\":\"Planul dvs. tarifar de date expiră peste aproximativ %lu de ore. Ați dori să extindeți acum durata planului tarifar? Dacă nu extindeți acum, o puteți face ulterior în Configurări.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "ro"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"hours\":{\"one\":\"Az adat-előfizetése körülbelül %lu óra múlva lejár. Kíván most több időt adni az előfizetéséhez? Ha most nem ad hozzá, később is megteheti azt a Beállításokban.\",\"other\":\"Az adat-előfizetése körülbelül %lu óra múlva lejár. Kíván most több időt adni az előfizetéséhez? Ha most nem ad hozzá, később is megteheti azt a Beállításokban.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "it",
+        "target" : "{\"hours\":{\"one\":\"Il piano dati scade tra circa %lu ora. Vuoi aggiungere più tempo al piano tariffario? Se non lo fai ora, sarà possibile farlo in seguito in Impostazioni.\",\"other\":\"Il piano dati scade tra circa %lu ore. Vuoi aggiungere più tempo al piano tariffario? Se non lo fai ora, sarà possibile farlo in seguito in Impostazioni.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"hours\":{\"one\":\"आपका डेटा प्लान लगभग %lu घंटे में समाप्त हो रहा है। क्या आप अभी अपने प्लान में और समय जोड़ना चाहेंगे? यदि आप अभी नहीं जोड़ते हैं, तो बाद में आप सेटिंग्ज़ में यह कर सकते हैं।\",\"other\":\"आपका डेटा प्लान लगभग %lu घंटे में समाप्त हो रहा है। क्या आप अभी अपने प्लान में और समय जोड़ना चाहेंगे? यदि आप अभी नहीं जोड़ते हैं, तो बाद में आप सेटिंग्ज़ में यह कर सकते हैं।\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"hours\":{\"one\":\"Falta aproximadamente %lu hora para o seu plano de dados chegar ao fim. Gostaria de acrescentar mais tempo ao plano? Se não acrescentar agora, pode fazê‑lo mais tarde, nas Definições.\",\"other\":\"Faltam aproximadamente %lu horas para o seu plano de dados chegar ao fim. Gostaria de acrescentar mais tempo ao plano? Se não acrescentar agora, pode fazê‑lo mais tarde, nas Definições.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"other\":\"你的數據計劃大約在%lu小時後到期，要在計劃中加入更多時間嗎？如現在不加入，你可以稍後前往「設定」加入。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Тарифтік жоспарыңыздың қызмет ету мерзімі шамамен %lu сағатта аяқталады. Жоспарыңызға қазір тағы уақыт қосқыңыз келе ме? Қазір қоспасаңыз, бұл әрекетті кейінірек «Реттеулер» мәзірінде орындауға болады.\",\"other\":\"Тарифтік жоспарыңыздың қызмет ету мерзімі шамамен %lu сағатта аяқталады. Жоспарыңызға қазір тағы уақыт қосқыңыз келе ме? Қазір қоспасаңыз, бұл әрекетті кейінірек «Реттеулер» мәзірінде орындауға болады.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "kk"
+      },
+      {
+        "target" : "{\"hours\":{\"other\":\"แผนบริการข้อมูลของคุณจะหมดอายุในเวลาประมาณ %lu ชั่วโมง คุณต้องการที่จะเพิ่มเวลาของแผนบริการข้อมูลของคุณตอนนี้หรือไม่ ถ้าไม่เพิ่มตอนนี้ คุณสามารถทำได้ภายหลังในการตั้งค่า\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "th"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "da",
+        "target" : "{\"hours\":{\"one\":\"Dit dataabonnement udløber om ca. %lu time. Vil du føje mere tid til dit abonnement nu? Du kan tilføje mere senere i Indstillinger, hvis du ikke gør det nu.\",\"other\":\"Dit dataabonnement udløber om ca. %lu timer. Vil du føje mere tid til dit abonnement nu? Du kan tilføje mere senere i Indstillinger, hvis du ikke gør det nu.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"hours\":{\"one\":\"Dataabonnementet utløper om ca. %lu time. Vil du legge til mer tid i abonnementet nå? Hvis du ikke legger til tid nå, kan du gjøre det senere i Innstillinger.\",\"other\":\"Dataabonnementet utløper om ca. %lu timer. Vil du legge til mer tid i abonnementet nå? Hvis du ikke legger til tid nå, kan du gjøre det senere i Innstillinger.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"נותרה רק כשעה אחת בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"נותרו רק כ-%lu שעות בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"two\":\"נותרו רק כשעתיים בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"many\":\"נותרו רק כ-%lu שעות בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "he"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"hours\":{\"one\":\"Je data-abonnement verloopt over ongeveer %lu uur. Wil je het abonnement nu verlengen? Als je daar nu niet voor kiest, kun je dit later doen in Instellingen.\",\"other\":\"Je data-abonnement verloopt over ongeveer %lu uur. Wil je het abonnement nu verlengen? Als je daar nu niet voor kiest, kun je dit later doen in Instellingen.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Mobiilidataliittymä vanhenee noin %lu tunnin kuluttua. Haluatko jatkaa palvelua nyt? Jos et tee niin nyt, voit tehdä sen myöhemmin Asetuksissa.\",\"other\":\"Mobiilidataliittymä vanhenee noin %lu tunnin kuluttua. Haluatko jatkaa palvelua nyt? Jos et tee niin nyt, voit tehdä sen myöhemmin Asetuksissa.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "fi",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"hours\":{\"one\":\"Dein Datentarif läuft in etwa %lu Stunde ab. Möchtest du jetzt mehr Zeit zu deinem Tarif hinzufügen oder dies später in den Einstellungen tun?\",\"other\":\"Dein Datentarif läuft in etwa %lu Stunden ab. Möchtest du jetzt mehr Zeit zu deinem Tarif hinzufügen oder dies später in den Einstellungen tun?\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"El teu pla de dades caduca en aproximadament %lu hora. Vols afegir més temps al pla ara? Si no ho fas ara, ho pots fer més tard a la configuració.\",\"other\":\"El teu pla de dades caduca en aproximadament %lu hores. Vols afegir més temps al pla ara? Si no ho fas ara, ho pots fer més tard a la configuració.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Ditt dataabonnemang löper ut om ungefär %lu timme. Vill du förlänga ditt dataabonnemang nu? Om du inte gör det nu kan du göra det senare i Inställningar.\",\"other\":\"Ditt dataabonnemang löper ut om ungefär %lu timmar. Vill du förlänga ditt dataabonnemang nu? Om du inte gör det nu kan du göra det senare i Inställningar.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "{\"hours\":{\"few\":\"Jūsų duomenų planas baigs galioti apytiksliai po %lu valandų. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"one\":\"Jūsų duomenų planas baigs galioti apytiksliai po %lu valandos. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"other\":\"Jūsų duomenų planas baigs galioti apytiksliai po %lu valandų. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"many\":\"Jūsų duomenų planas baigs galioti apytiksliai po %lu valandos. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "lt",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"other\":\"Pelan data anda akan tamat tempoh dalam masa lebih kurang %lu jam. Adakah anda mahu menambah lebih banyak masa pada pelan anda sekarang? Jika anda tidak menambah sekarang, anda boleh melakukannya kemudian dalam Seting.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "ms"
+      },
+      {
+        "target" : "{\"hours\":{\"other\":\"你的數據方案將在%lu小時左右後到期。要在方案中加入更多時間嗎？若現在不加入，你可以稍後在「設定」中加入。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "{\"hours\":{\"few\":\"Váš dátový program vyprší približne o %lu hodiny. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"one\":\"Váš dátový program vyprší približne o %lu hodinu. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"other\":\"Váš dátový program vyprší približne o %lu hodín. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"many\":\"Váš dátový program vyprší približne o %lu hodiny. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "sk"
+      }
+    ],
+    "LOGOUT_SAVING_DOCUMENTS_MORE_COUNT" : [
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ru",
+        "target" : "{\"num_more_applications\":{\"few\":\"и %u другие…\",\"one\":\"и %u другая…\",\"other\":\"и %u других…\",\"many\":\"и %u других…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_more_applications\":{\"one\":\"και %u ακόμη…\",\"other\":\"και %u ακόμη…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "language" : "el"
+      },
+      {
+        "target" : "{\"num_more_applications\":{\"other\":\"và %u ứng dụng khác…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "vi"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_more_applications\":{\"one\":\"и %u друг…\",\"other\":\"и %u други…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "language" : "bg"
+      },
+      {
+        "language" : "uk",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_more_applications\":{\"few\":\"і %u інші…\",\"one\":\"і %u інша…\",\"other\":\"і %u іншої…\",\"many\":\"і %u інших…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_more_applications\":{\"few\":\"i još %u…\",\"one\":\"i još %u…\",\"other\":\"i još %u…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "language" : "hr"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "{\"num_more_applications\":{\"one\":\"and %u other…\",\"other\":\"and %u others…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "{\"num_more_applications\":{\"other\":\"とその他%u個…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"num_more_applications\":{\"other\":\"dan %u lainnya…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "id"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "tr",
+        "target" : "{\"num_more_applications\":{\"one\":\"ve %u tane daha…\",\"other\":\"ve %u tane daha…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "target" : "{\"num_more_applications\":{\"one\":\"y %u más…\",\"other\":\"y %u más…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "es"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"num_more_applications\":{\"one\":\"و%u آخر…\",\"few\":\"و%u أخرى…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"و%u آخر…\",\"two\":\"و%u آخران…\",\"other\":\"و%u آخر…\",\"NSStringFormatValueTypeKey\":\"u\",\"zero\":\"و%u آخر…\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"num_more_applications\":{\"one\":\"et %u autre…\",\"other\":\"et %u autres…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "language" : "fr",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"num_more_applications\":{\"one\":\"and %u other…\",\"other\":\"and %u others…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "language" : "en",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"num_more_applications\":{\"one\":\"e %u outro...\",\"other\":\"e %u outros...\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "language" : "pt",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "sl",
+        "target" : "{\"num_more_applications\":{\"few\":\"in še %u druge …\",\"one\":\"in še %u druga …\",\"other\":\"in še %u drugih …\",\"two\":\"in še %u drugi …\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "target" : "{\"num_more_applications\":{\"one\":\"y %u más…\",\"other\":\"y %u más…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "language" : "es_419",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"num_more_applications\":{\"one\":\"and %u other…\",\"other\":\"and %u others…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"num_more_applications\":{\"other\":\"외 %u개…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "{\"num_more_applications\":{\"one\":\"y %u más…\",\"other\":\"y %u más…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "language" : "es_US",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"num_more_applications\":{\"one\":\"et %u autre…\",\"other\":\"et %u autres…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "{\"num_more_applications\":{\"one\":\"and %u other…\",\"other\":\"and %u others…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"num_more_applications\":{\"few\":\"a %u další…\",\"one\":\"a %u další…\",\"other\":\"a %u dalších…\",\"many\":\"a %u další…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "{\"num_more_applications\":{\"few\":\"i %u innego…\",\"one\":\"i %u inny…\",\"other\":\"i %u innego…\",\"many\":\"i %u innych…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"num_more_applications\":{\"other\":\"和其他%u个…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ro",
+        "target" : "{\"num_more_applications\":{\"few\":\"și încă %u…\",\"one\":\"și încă %u…\",\"other\":\"și încă %u…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "target" : "{\"num_more_applications\":{\"one\":\"és %u másik…\",\"other\":\"és %u másik…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "language" : "hu",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "it",
+        "target" : "{\"num_more_applications\":{\"one\":\"e %u altro…\",\"other\":\"e altri %u…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "language" : "hi",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_more_applications\":{\"one\":\"और %u अन्य…\",\"other\":\"और %u अन्य…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "pt_PT",
+        "target" : "{\"num_more_applications\":{\"one\":\"e mais %u…\",\"other\":\"e mais %u…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_more_applications\":{\"other\":\"及另外%u個\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "kk",
+        "target" : "{\"num_more_applications\":{\"one\":\"және тағы %u…\",\"other\":\"және тағы %u…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "language" : "th",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_more_applications\":{\"other\":\"และอีก %u…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"num_more_applications\":{\"one\":\"og %u anden…\",\"other\":\"og %u andre…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_more_applications\":{\"one\":\"og %u annet…\",\"other\":\"og %u andre…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "language" : "no"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "he",
+        "target" : "{\"num_more_applications\":{\"one\":\"ועוד אחד נוסף…\",\"NSStringFormatValueTypeKey\":\"u\",\"other\":\"ועוד %u נוספים…\",\"two\":\"ועוד שניים נוספים…\",\"many\":\"ועוד %u נוספים…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "language" : "nl",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_more_applications\":{\"one\":\"en %u andere…\",\"other\":\"en %u andere…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "fi",
+        "target" : "{\"num_more_applications\":{\"one\":\"ja %u muusta…\",\"other\":\"ja %u muusta…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"num_more_applications\":{\"one\":\"und %u andere …\",\"other\":\"und %u andere …\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ca",
+        "target" : "{\"num_more_applications\":{\"one\":\"i %u més…\",\"other\":\"i %u més…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "language" : "sv",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_more_applications\":{\"one\":\"och %u annan…\",\"other\":\"och %u andra…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "language" : "lt",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_more_applications\":{\"few\":\"ir %u kiti…\",\"one\":\"ir %u kitas…\",\"other\":\"ir %u kitų…\",\"many\":\"ir %u kito…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"num_more_applications\":{\"other\":\"dan %u yang lain…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "language" : "ms"
+      },
+      {
+        "target" : "{\"num_more_applications\":{\"other\":\"和其他%u項⋯\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "{\"num_more_applications\":{\"few\":\"a %u ďalšie…\",\"one\":\"a %u ďalšia…\",\"other\":\"a %u ďalších…\",\"many\":\"a %u ďalšieho…\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@num_more_applications@\"}",
+        "language" : "sk",
+        "filename" : "SpringBoardPlurals.loctable"
+      }
+    ],
+    "DATA_PLAN_ADD_EXPIRATION_BODY_DAYS" : [
+      {
+        "language" : "ru",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"few\":\"Срок действия тарифа истекает через %lu дня. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"one\":\"Срок действия тарифа истекает через %lu день. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"other\":\"Срок действия тарифа истекает через %lu дня. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"many\":\"Срок действия тарифа истекает через %lu дней. Хотите добавить время к тарифу сейчас? Это можно сделать позже в Настройках.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "el",
+        "target" : "{\"hours\":{\"one\":\"Το πρόγραμμα δεδομένων σας λήγει σε %lu ημέρα. Θέλετε να προσθέσετε περισσότερο χρόνο στο πρόγραμμά σας τώρα; Μπορείτε επίσης να το κάνετε αργότερα στις Ρυθμίσεις.\",\"other\":\"Το πρόγραμμα δεδομένων σας λήγει σε %lu ημέρες. Θέλετε να προσθέσετε περισσότερο χρόνο στο πρόγραμμά σας τώρα; Μπορείτε επίσης να το κάνετε αργότερα στις Ρυθμίσεις.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "target" : "{\"hours\":{\"other\":\"Gói dữ liệu của bạn sẽ hết hạn sau %lu ngày nữa. Bạn có muốn bổ sung thêm thời gian vào gói của mình bây giờ không? Nếu bạn không bổ sung bây giờ, bạn có thể thực hiện sau này trong Cài đặt.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "vi"
+      },
+      {
+        "language" : "bg",
+        "target" : "{\"hours\":{\"one\":\"Вашият план за данни изтича след %lu ден. Искате ли да добавите повече време към плана си сега? Ако не добавите сега, можете да го направите по-късно в Настройки.\",\"other\":\"Вашият план за данни изтича след %lu дни. Искате ли да добавите повече време към плана си сега? Ако не добавите сега, можете да го направите по-късно в Настройки.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "uk",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"few\":\"Термін плану даних спливає через %lu дні. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"one\":\"Термін плану даних спливає через %lu день. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"other\":\"Термін плану даних спливає через %lu дня. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"many\":\"Термін плану даних спливає через %lu днів. Ви хотіли б додати час до плану даних зараз? Якщо ні, то це можна зробити пізніше в Параметрах.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "hr",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"few\":\"Vaš podatkovni plan istječe za %lu dana. Želite li sad dodati još vremena u vaš plan? Podatke možete dodati i kasnije, u izborniku Postavke.\",\"one\":\"Vaš podatkovni plan istječe za %lu dan. Želite li sad dodati još vremena u vaš plan? Podatke možete dodati i kasnije, u izborniku Postavke.\",\"other\":\"Vaš podatkovni plan istječe za %lu dana. Želite li sad dodati još vremena u vaš plan? Podatke možete dodati i kasnije, u izborniku Postavke.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "en_IN",
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in %lu day. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in %lu days. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ja",
+        "target" : "{\"hours\":{\"other\":\"ご利用中のデータプランの有効期限はあと%lu日で切れます。今すぐ時間を追加しますか? 今追加しない場合でも、あとから“設定”で追加できます。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "id",
+        "target" : "{\"hours\":{\"other\":\"Paket data Anda kedaluwarsa dalam %lu hari. Apakah Anda ingin menambah lebih banyak waktu ke paket layanan sekarang? Jika tidak, Anda dapat melakukannya nanti di Pengaturan.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"hours\":{\"one\":\"Veri planınız %lu gün sonra bitecek. Şimdi planınıza daha fazla süre eklemek ister misiniz? Şimdi eklemezseniz bunu Ayarlar’da daha sonra yapabilirsiniz.\",\"other\":\"Veri planınız %lu gün sonra bitecek. Şimdi planınıza daha fazla süre eklemek ister misiniz? Şimdi eklemezseniz bunu Ayarlar’da daha sonra yapabilirsiniz.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "es",
+        "target" : "{\"hours\":{\"one\":\"Tu plan de datos caduca dentro de %lu día. ¿Quieres añadir más tiempo al plan ahora? Si no quieres añadir tiempo ahora, puedes hacerlo más tarde desde Ajustes.\",\"other\":\"Tu plan de datos caduca dentro de %lu días. ¿Quieres añadir más tiempo al plan ahora? Si no quieres añadir tiempo ahora, puedes hacerlo más tarde desde Ajustes.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ar",
+        "target" : "{\"hours\":{\"one\":\"سوف تنتهي صلاحية باقة البيانات خلال يوم واحد. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"few\":\"سوف تنتهي صلاحية باقة البيانات خلال %lu أيام. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"سوف تنتهي صلاحية باقة البيانات خلال %lu يومًا. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"two\":\"سوف تنتهي صلاحية باقة البيانات خلال يومين. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"other\":\"سوف تنتهي صلاحية باقة البيانات خلال %lu يوم. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"سوف تنتهي صلاحية باقة البيانات خلال %lu يوم. هل ترغب في إضافة المزيد من الوقت لباقتك الآن؟ إذا كنت لا تريد إضافتها الآن، يمكنك عمل ذلك لاحقًا في \\\"الإعدادات\\\".\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "fr",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Votre forfait de données expire dans %lu jour. Souhaitez-vous le rallonger ? Vous pourrez sinon le faire plus tard dans Réglages.\",\"other\":\"Votre forfait de données expire dans %lu jours. Souhaitez-vous le rallonger ? Vous pourrez sinon le faire plus tard dans Réglages.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in %lu day. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in %lu days. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "pt",
+        "target" : "{\"hours\":{\"one\":\"Seu plano de dados expira em %lu dia. Deseja adicionar mais tempo ao seu plano? Se não quiser adicionar agora, você poderá fazer isso mais tarde nos Ajustes.\",\"other\":\"Seu plano de dados expira em %lu dias. Deseja adicionar mais tempo ao seu plano? Se não quiser adicionar agora, você poderá fazer isso mais tarde nos Ajustes.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "sl",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"few\":\"Vaš paket mobilnih podatkov poteče čez %lu dni. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"one\":\"Vaš paket mobilnih podatkov poteče čez %lu dan. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"other\":\"Vaš paket mobilnih podatkov poteče čez %lu dni. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"two\":\"Vaš paket mobilnih podatkov poteče čez %lu dni. Želite svoj paket zdaj podaljšati? Če ne, lahko to storite pozneje v Nastavitvah.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Tu plan de datos vence dentro de %lu día. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"other\":\"Tu plan de datos vence dentro de %lu días. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in %lu day. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in %lu days. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "en_GB",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"hours\":{\"other\":\"데이터 요금제가 %lu일 후에 만료됩니다. 현재 요금제에 데이터 사용 시간을 더 추가하겠습니까? 지금 추가하지 않더라도, 나중에 설정에서 추가할 수 있습니다.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Tu plan de datos vence dentro de %lu día. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"other\":\"Tu plan de datos vence dentro de %lu días. ¿Quieres agregar más tiempo al plan ahora? Si no, puedes hacerlo más tarde desde Configuración.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "es_US"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"hours\":{\"one\":\"Votre forfait de données expire dans %lu jour. Souhaitez-vous rajouter du crédit de temps? Vous pourrez également le faire plus tard dans Réglages.\",\"other\":\"Votre forfait de données expire dans %lu jours. Souhaitez-vous rajouter du crédit de temps? Vous pourrez également le faire plus tard dans Réglages.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "en_AU",
+        "target" : "{\"hours\":{\"one\":\"Your data plan expires in %lu day. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"other\":\"Your data plan expires in %lu days. Would you like to add more time to your plan now? If you don’t add now, you can do it later in Settings.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "target" : "{\"hours\":{\"few\":\"Vaše datové služby za %lu dny vyprší. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"one\":\"Vaše datové služby za %lu den vyprší. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"other\":\"Vaše datové služby za %lu dní vyprší. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"many\":\"Vaše datové služby za %lu dne vyprší. Chcete je prodloužit? Můžete to provést i později v Nastavení.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "cs"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "pl",
+        "target" : "{\"hours\":{\"few\":\"Plan danych wygaśnie za %lu dni. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"one\":\"Plan danych wygaśnie za %lu dzień. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"other\":\"Plan danych wygaśnie za %lu dnia. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"many\":\"Plan danych wygaśnie za %lu dni. Czy chcesz przedłużyć jego okres obowiązywania? Możesz to zrobić teraz lub później, w Ustawieniach.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "target" : "{\"hours\":{\"other\":\"你的数据套餐将在%lu天后过期。你要立即增加套餐时间吗？如果现在不，你可以稍后在“设置”中增加。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "zh_CN",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"few\":\"Planul dvs. tarifar de date expiră peste %lu zile. Ați dori să extindeți acum durata planului tarifar? Dacă nu extindeți acum, o puteți face ulterior în Configurări.\",\"one\":\"Planul dvs. tarifar de date expiră peste %lu zi. Ați dori să extindeți acum durata planului tarifar? Dacă nu extindeți acum, o puteți face ulterior în Configurări.\",\"other\":\"Planul dvs. tarifar de date expiră peste %lu de zile. Ați dori să extindeți acum durata planului tarifar? Dacă nu extindeți acum, o puteți face ulterior în Configurări.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ro"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"hours\":{\"one\":\"Az adat-előfizetése %lu nap múlva lejár. Kíván most több időt adni az előfizetéséhez? Ha most nem ad hozzá, később is megteheti azt a Beállításokban.\",\"other\":\"Az adat-előfizetése %lu nap múlva lejár. Kíván most több időt adni az előfizetéséhez? Ha most nem ad hozzá, később is megteheti azt a Beállításokban.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "it",
+        "target" : "{\"hours\":{\"one\":\"Il piano dati scade tra %lu giorno. Vuoi aggiungere più tempo al piano tariffario? Se non lo fai ora, sarà possibile farlo in seguito in Impostazioni.\",\"other\":\"Il piano dati scade tra %lu giorni. Vuoi aggiungere più tempo al piano tariffario? Se non lo fai ora, sarà possibile farlo in seguito in Impostazioni.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"आपका डेटा प्लान %lu दिन में समाप्त हो रहा है। क्या आप अभी अपने प्लान में और समय जोड़ना चाहेंगे? यदि आप अभी नहीं जोड़ते हैं, तो बाद में आप सेटिंग्ज़ में यह कर सकते हैं।\",\"other\":\"आपका डेटा प्लान %lu दिन में समाप्त हो रहा है। क्या आप अभी अपने प्लान में और समय जोड़ना चाहेंगे? यदि आप अभी नहीं जोड़ते हैं, तो बाद में आप सेटिंग्ज़ में यह कर सकते हैं।\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Falta %lu dia para o seu plano de dados chegar ao fim. Gostaria de acrescentar mais tempo ao plano? Se não acrescentar agora, pode fazê‑lo mais tarde, nas Definições.\",\"other\":\"Faltam %lu dias para o seu plano de dados chegar ao fim. Gostaria de acrescentar mais tempo ao plano? Se não acrescentar agora, pode fazê‑lo mais tarde, nas Definições.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "pt_PT",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"other\":\"你的數據計劃將在%lu日後到期，要在計劃中加入更多時間嗎？如現在不加入，你可以稍後前往「設定」加入。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"Тарифтік жоспарыңыздың қызмет ету мерзімі %lu күнде аяқталады. Жоспарыңызға қазір тағы уақыт қосқыңыз келе ме? Қазір қоспасаңыз, бұл әрекетті кейінірек «Реттеулер» мәзірінде орындауға болады.\",\"other\":\"Тарифтік жоспарыңыздың қызмет ету мерзімі %lu күнде аяқталады. Жоспарыңызға қазір тағы уақыт қосқыңыз келе ме? Қазір қоспасаңыз, бұл әрекетті кейінірек «Реттеулер» мәзірінде орындауға болады.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "kk",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "th",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"other\":\"แผนบริการข้อมูลของคุณจะหมดอายุใน %lu วัน คุณต้องการที่จะเพิ่มเวลาของแผนบริการข้อมูลของคุณตอนนี้หรือไม่ ถ้าไม่เพิ่มตอนนี้ คุณสามารถทำได้ภายหลังในการตั้งค่า\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "da",
+        "target" : "{\"hours\":{\"one\":\"Dit dataabonnement udløber om %lu dag. Vil du føje mere tid til dit abonnement nu? Du kan tilføje mere senere i Indstillinger, hvis du ikke gør det nu.\",\"other\":\"Dit dataabonnement udløber om %lu dage. Vil du føje mere tid til dit abonnement nu? Du kan tilføje mere senere i Indstillinger, hvis du ikke gør det nu.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "no",
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Dataabonnementet utløper om %lu dag. Vil du legge til mer tid i abonnementet nå? Hvis du ikke legger til tid nå, kan du gjøre det senere i Innstillinger.\",\"other\":\"Dataabonnementet utløper om %lu dager. Vil du legge til mer tid i abonnementet nå? Hvis du ikke legger til tid nå, kan du gjøre det senere i Innstillinger.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "language" : "he",
+        "target" : "{\"hours\":{\"one\":\"נותר רק יום אחד בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"נותרו רק %lu ימים בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"two\":\"נותרו רק יומיים בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"many\":\"נותרו רק %lu ימים בתוכנית הנתונים שלך. האם ברצונך להוסיף זמן לתוכנית כעת? ניתן תמיד לעשות זאת מאוחר יותר דרך ״הגדרות״.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Je data-abonnement verloopt over %lu dag. Wil je het abonnement nu verlengen? Als je daar nu niet voor kiest, kun je dit later doen in Instellingen.\",\"other\":\"Je data-abonnement verloopt over %lu dagen. Wil je het abonnement nu verlengen? Als je daar nu niet voor kiest, kun je dit later doen in Instellingen.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "nl"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"hours\":{\"one\":\"Mobiilidataliittymä vanhenee %lu päivän kuluttua. Haluatko jatkaa palvelua nyt? Jos et tee niin nyt, voit tehdä sen myöhemmin Asetuksissa.\",\"other\":\"Mobiilidataliittymä vanhenee %lu päivän kuluttua. Haluatko jatkaa palvelua nyt? Jos et tee niin nyt, voit tehdä sen myöhemmin Asetuksissa.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"hours\":{\"one\":\"Dein Datentarif läuft in %lu Tag ab. Möchtest du jetzt mehr Zeit zu deinem Tarif hinzufügen oder dies später in den Einstellungen tun?\",\"other\":\"Dein Datentarif läuft in %lu Tagen ab. Möchtest du jetzt mehr Zeit zu deinem Tarif hinzufügen oder dies später in den Einstellungen tun?\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "target" : "{\"hours\":{\"one\":\"El teu pla de dades caduca en %lu dia. Vols afegir més temps al pla ara? Si no ho fas ara, ho pots fer més tard a la configuració.\",\"other\":\"El teu pla de dades caduca en %lu dies. Vols afegir més temps al pla ara? Si no ho fas ara, ho pots fer més tard a la configuració.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "ca",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"one\":\"Ditt dataabonnemang löper ut om %lu dag. Vill du förlänga ditt dataabonnemang nu? Om du inte gör det nu kan du göra det senare i Inställningar.\",\"other\":\"Ditt dataabonnemang löper ut om %lu dagar. Vill du förlänga ditt dataabonnemang nu? Om du inte gör det nu kan du göra det senare i Inställningar.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "sv"
+      },
+      {
+        "target" : "{\"hours\":{\"few\":\"Jūsų duomenų planas baigs galioti po %lu dienų. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"one\":\"Jūsų duomenų planas baigs galioti po %lu dienos. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"other\":\"Jūsų duomenų planas baigs galioti po %lu dienų. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"many\":\"Jūsų duomenų planas baigs galioti po %lu dienos. Ar norite pratęsti planą dabar? Jei nepratęsite dabar, galėsite tai padaryti vėliau srityje „Nustatymai“.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "lt",
+        "filename" : "SpringBoardPlurals.loctable"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "ms",
+        "target" : "{\"hours\":{\"other\":\"Pelan data anda akan tamat tempoh dalam masa %lu hari. Adakah anda mahu menambah lebih banyak masa pada pelan anda sekarang? Jika anda tidak menambah sekarang, anda boleh melakukannya kemudian dalam Seting.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "language" : "zh_TW",
+        "target" : "{\"hours\":{\"other\":\"你的數據方案將在%lu天後到期。要在方案中加入更多時間嗎？若現在不加入，你可以稍後在「設定」中加入。\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}"
+      },
+      {
+        "filename" : "SpringBoardPlurals.loctable",
+        "target" : "{\"hours\":{\"few\":\"Váš dátový program vyprší o %lu dni. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"one\":\"Váš dátový program vyprší o %lu deň. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"other\":\"Váš dátový program vyprší o %lu dní. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"many\":\"Váš dátový program vyprší o %lu dňa. Chcete rozšíriť svoj dátový program? Ak to neurobíte hneď, môžete sa k tomu vrátiť v Nastaveniach.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@hours@\"}",
+        "language" : "sk"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/CoreServices\/SpringBoard.app\/SpringBoardPlurals.loctable"
+}
