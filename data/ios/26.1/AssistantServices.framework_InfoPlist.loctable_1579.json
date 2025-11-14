@@ -1,0 +1,838 @@
+{
+  "framework" : "AssistantServices.framework",
+  "localizations" : {
+    "NSLocationWhenInUseUsageDescription" : [
+      {
+        "language" : "th",
+        "target" : "Siri ใช้ตำแหน่งที่ตั้งของคุณสำหรับตอบคำถามและเสนอคำแนะนำเกี่ยวกับบริเวณที่อยู่ใกล้เคียง",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "அருகில் உள்ளவை குறித்த பரிந்துரைகளை வழங்கவும் கேள்விகளுக்குப் பதிலளிக்கவும் Siri உங்கள் இருப்பிடத்தைப் பயன்படுத்தும்.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "Siri utiliza tu ubicación para cosas como responder preguntas y ofrecer sugerencias sobre lo que hay cerca.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Siri использует Вашу геопозицию, например, чтобы отвечать на вопросы и рекомендовать то, что находится рядом.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "‏Siri سوالات کے جواب دینے اور آس پاس کی چیزوں کی تجاویز دینے کے لیے آپ کی لوکیشن کا استعمال کرتی ہے۔",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "Siri utilitza la teva ubicació per a coses com ara contestar preguntes i oferir suggeriments sobre què hi ha a prop.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "Siri सवालों के जवाब देने और आस-पास की चीज़ों का सुझाव देने के लिए आपके स्थान का उपयोग करता है।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "Siri는 질문에 대한 대답 및 사용자 근처의 추천 정보 제공 등을 위해 사용자의 위치를 사용합니다.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "আপনার কাছাকাছি কী কী আছে সেই সমস্ত বিষয়ে আপনার প্রশ্নের উত্তর দিতে এবং পরামর্শ দিতে Siri আপনার লোকেশন ব্যবহার করে।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Siri käyttää sijaintiasi esimerkiksi kysymysten vastaamiseen ja tarjoaa lähistöön liittyviä ehdotuksia.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Siri menggunakan lokasi Anda untuk melakukan hal seperti menjawab pertanyaan dan memberikan saran mengenai apa yang ada di sekitar.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Το Siri χρησιμοποιεί την τοποθεσία σας για ενέργειες, όπως π.χ. να απαντά σε ερωτήσεις και να παρέχει προτάσεις σχετικά με κοντινές επιλογές.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Siri koristi vašu lokaciju za odgovaranje na pitanja i pružanje prijedloga o obližnjim objektima.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Siri verwendet deinen Standort, um z. B. Fragen zu beantworten und lokale Vorschläge anzubieten.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "yue_CN",
+        "target" : "Siri会使用你的位置来回答与附近地点相关的问题，并提供地点建议。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Siri använder din platsinformation till sådant som att svara på frågor och ge förslag på saker i närheten.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "Siri પ્રશ્નોના જવાબ આપવા અને નજીકમાં શું છે તેના વિષે સૂચનો આપવા જેવી બાબતો માટે તમારા લોકેશનનો ઉપયોગ કરે છે.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Siri używa Twojego położenia, aby na przykład odpowiadać na pytania i podawać informacje dotyczące Twojego otoczenia.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Siri sử dụng vị trí của bạn cho những việc như trả lời các câu hỏi và đưa ra gợi ý về những gì ở gần bạn.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Siri vašo lokacijo uporablja za odgovarjanje na vprašanja in ponujanje predlogov glede tega, kar je v vaši bližini.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Siri využíva vašu polohu napríklad na odpovedanie na otázky a ponúkanie návrhov súvisiacich s vaším okolím.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Siri gebruikt je locatie onder andere om te antwoorden en suggesties te doen als je naar iets in de buurt vraagt.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "Siri, ପ୍ରଶ୍ନର ଉତ୍ତର ଦେବା ଏବଂ ଆଖପାଖରେ କ'ଣ ଅଛି ସେ ବିଷୟରେ ପରାମର୍ଶ ଦେବା ପାଇଁ ଆପଣଙ୍କ ଲୋକେଶନ୍‌ ବ୍ୟବହାର କରେ।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "ചോദ്യങ്ങൾക്കുത്തരം നൽകാനും സമീപത്തുള്ളവയെ കുറിച്ച് നിർദേശങ്ങൾ നൽകാനും Siri നിങ്ങളുടെ ലൊക്കേഷൻ ഉപയോഗിക്കുന്നു.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Siri utiliza tu ubicación para cosas como responder preguntas y ofrecer sugerencias sobre lo que hay cerca.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "Siri會使用你的位置來回答有關附近地點的問題並提供建議。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Siri uses your location for things like answering questions and offering suggestions about what’s nearby.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "Siri会使用你的位置来回答与附近地点相关的问题，并提供地点建议。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Siri usa a sua localização para, por exemplo, responder a perguntas e fazer sugestões acerca do que há à sua volta.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Siri використовує інформацію про ваше розташування, щоб надавати відповіді на запитання та рекомендації щодо місць поблизу.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "A Siri usa sua localização para, por exemplo, responder a perguntas e oferecer sugestões sobre o que há por perto.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Siri uses your location for things like answering questions and offering suggestions about what’s nearby.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "يستخدم Siri موقعك لأغراض مثل الإجابة عن الأسئلة وعرض الاقتراحات حول ما هو قريب.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "Siri使用你的位置以回應你的問題，又或者向你建議附近的景點。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Siri използва вашето местоположение за неща, като отговаряне на въпроси и даване на предложения какво има около вас.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Siri utilise votre position pour répondre à vos questions et vous faire des suggestions sur ce qui vous entoure.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "प्रश्नांची उत्तरे देणे आणि जवळील गोष्टींबाबत सूचना देण्यासाठी Siri तुमच्या स्थानाचा वापर करते.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Siri využívá vaši polohu například k odpovědím na otázky a návrhům založeným na tom, co se nachází ve vašem okolí.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Siri bruker posisjonen din for å for eksempel svare på spørsmål om og gi forslag til steder i nærheten.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Siri menggunakan lokasi anda untuk perkara seperti menjawab soalan dan menawarkan cadangan tempat berdekatan.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Siri utilizează poziția dvs., printre altele, pentru a răspunde la întrebări și a oferi sugestii despre ce se află în apropiere.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "Siriは周辺情報に関する質問に答えたり提案したりするために位置情報を使用します。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "Siri uses your location for things like answering questions and offering suggestions about what’s nearby.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦੇਣ ਅਤੇ ਨੇੜਲੀਆਂ ਚੀਜ਼ਾਂ ਸੰਬੰਧੀ ਸੁਝਾਅ ਦੇਣ ਲਈ Siri ਵੱਲੋਂ ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "Siri మీ లొకేషన్‌ను ఉపయోగించడం ద్వారా మీకు సమీపంలో ఉన్న వాటికి సంబంధించిన ప్రశ్నలకు సమాధానమిస్తుంది, వాటిపై సూచనలను అందిస్తుంది.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "‏Siri משתמש בפרטי מיקומך לצרכים שונים, ובכלל זה למענה על שאלות ולהצגת הצעות המותאמות למיקומך.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "Siri көмекшісі геолокацияңызды сұрақтарға жауап беру және жақын жерде орналасқан нәрселерді ұсыну үшін пайдаланады.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Siri felhasználja az Ön helyzetét az olyan dolgokhoz, mint a kérdések megválaszolása és a közeli helyekkel kapcsolatos javaslatok.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Siri utilise votre position pour répondre à des questions et suggérer des lieux à proximité.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "„Siri“ naudoja jūsų vietos nustatymo duomenis, pvz., kad atsakytų į klausimus ir pateiktų pasiūlymus dėl netoliese esančių dalykų.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸುವುದು ಮತ್ತು ಸಮೀಪದಲ್ಲಿ ಏನೆಲ್ಲಾ ಇದೆ ಎಂಬುದರ ಕುರಿತು ಸಲಹೆಗಳನ್ನು ಒದಗಿಸುವಂತಹ ವಿಷಯಗಳಿಗಾಗಿ Siri ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಬಳಸುತ್ತದೆ.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Siri bruger din lokalitet til f.eks. at svare på spørgsmål og komme med forslag til, hvad der findes i nærheden.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Siri usa la posizione per rispondere alle tue domande e fornirti suggerimenti riguardo a quello che puoi trovare intorno a te.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "Siri, soruları yanıtlamak ve yakınınızdakiler hakkında önerilerde bulunmak gibi konularda konumunuzu kullanır.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "Siri utiliza tu ubicación para cosas como responder preguntas u ofrecer sugerencias sobre lo que hay cerca.",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "CFBundleDisplayName" : [
+      {
+        "language" : "th",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "yue_CN",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "‏Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "‏Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "Siri",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "generic" : [
+      {
+        "language" : "th",
+        "target" : "Siri ต้องการข้อมูลนี้เพื่อช่วยคุณเกี่ยวกับคำขอที่อิงตามตำแหน่งที่ตั้งที่ระบุของคุณ",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "உங்கள் குறிப்பிட்ட இருப்பிடத்தின் அடிப்படையிலான உங்களின் கோரிக்கைகளுக்கு உதவ இந்த விவரங்கள் Siriக்குத் தேவை.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "Siri necesita esta información para ayudarte con peticiones que se basan en tu ubicación específica.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Используя эту информацию, Siri сможет отвечать на запросы в соответствии с Вашей геопозицией.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "‏Siri کو ان معلومات کی ضرورت آپ کی مخصوص لوکیشن پر مبنی درخواست میں آپ کی مدد کرنے کے لیے ہوتی ہیں۔",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "Siri necessita la informació per ajudar‑te amb les sol·licituds que estiguin relacionades amb la ubicació específica on siguis.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "Siri को इस जानकारी की ज़रूरत आपके विशिष्ट स्थान पर आधारित अनुरोधों में आपकी सहायता करने के लिए होती है।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "사용자의 특정 위치에 기반한 요청을 처리하기 위해 Siri에서 이 정보가 필요합니다.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "আপনার নির্দিষ্ট লোকেশনের উপর ভিত্তি করে করা অনুরোধগুলির ক্ষেত্রে আপনাকে সহায়তা করার জন্য Siri-এর এই তথ্যটি প্রয়োজন।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Siri tarvitsee nämä tiedot voidakseen auttaa sinua sijaintiisi perustuvissa pyynnöissä.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Siri memerlukan informasi ini untuk memproses permintaan Anda yang didasarkan pada lokasi spesifik Anda.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Το Siri χρειάζεται αυτήν την πληροφορία για να σας βοηθήσει με αιτήματα που βασίζονται στη συγκεκριμένη τοποθεσία σας.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Siri treba te informacije kako bi vam pomogla sa zahtjevima koji su temeljeni na vašoj određenoj lokaciji.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Siri benötigt diese Informationen, um dir bei Anfragen basierend auf deinem Standort zu helfen.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "yue_CN",
+        "target" : "Siri需要此信息协助处理基于特定位置的请求。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Siri behöver den här informationen till att hjälpa dig med förfrågningar som baseras på din specifika plats.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "તમારા ચોક્કસ લોકેશન પર આધારિત વિનંતીઓમાં તમને મદદ કરવા માટે Siriને આ માહિતીની જરૂર છે.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Siri potrzebuje tej informacji, aby móc wykonywać polecenia bazujące na Twoim położeniu.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Siri cần thông tin này để giúp bạn thực hiện các yêu cầu dựa trên vị trí cụ thể của bạn.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Siri potrebuje te informacije, da bi vam pomagala pri zahtevah, ki temeljijo na vaši natančni lokaciji.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Siri tieto informácie potrebuje na vykonávanie žiadostí, ktoré vychádzajú z vašej konkrétnej polohy.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Siri heeft deze informatie nodig om je te helpen met verzoeken die zijn gebaseerd op je specifieke locatie.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "ଆପଣଙ୍କ ନିର୍ଦ୍ଦିଷ୍ଟ ଲୋକେଶନ୍‌ ଉପରେ ଆଧାରିତ ଅନୁରୋଧଗୁଡ଼ିକରେ ଆପଣଙ୍କୁ ସାହାଯ୍ୟ କରିବା ପାଇଁ Siriକୁ ଏହି ସୂଚନା ଆବଶ୍ୟକ।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "നിങ്ങളുടെ നിർദിഷ്ട ലൊക്കേഷൻ അടിസ്ഥാനമാക്കിയുള്ള അഭ്യർഥനകളിൽ നിങ്ങളെ സഹായിക്കാൻ Siri-ക്ക് ഈ വിവരങ്ങൾ ആവശ്യമാണ്.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Siri necesita esta información para ayudarte con peticiones que se basan en tu ubicación específica.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "Siri需要此資訊來協助處理根據你特定位置的要求。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Siri needs this information to help you with requests that are based on your specific location.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "Siri需要此信息协助处理基于特定位置的请求。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Siri necessita desta informação para responder aos seus pedidos baseados no local onde se encontra.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Siri потрібна ця інформація, щоб виконувати запити, повʼязані з вашою геопозицією.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "A Siri precisa dessas informações para ajudar você com pedidos baseados na sua localização específica.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Siri needs this information to help you with requests that are based on your specific location.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "يحتاج Siri هذه المعلومات لمساعدتك في الطلبات المستندة إلى موقعك المحدد.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "Siri需要此資料以助處理根據你指定位置提出的要求。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Тази информация е необходима на Siri, за да ви помогне със заявките, които са на база на вашето конкретно местоположение.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Siri a besoin de ces informations pour répondre à vos demandes basées sur votre position précise.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "Siri ला ह्या माहितीची आवश्यकता तुमच्या उल्लेखित स्थानावर आधारित विनंतीसाठी मदत करण्यासाठी होते.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Siri tuto informaci potřebuje, aby vám mohla pomoct s požadavky na základě vaší konkrétní polohy.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Siri trenger denne informasjonen for å hjelpe deg med forespørsler knyttet til stedet der du befinner deg.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Siri memerlukan maklumat ini untuk membantu anda dengan permintaan yang berdasarkan lokasi khusus anda.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Siri are nevoie de aceste informații pentru a vă ajuta cu solicitările bazate pe localizarea dvs. specifică.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "Siriが特定の位置情報に基づくリクエストのお手伝いをするには、この情報が必要です。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "Siri needs this information to help you with requests that are based on your specific location.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "ਟਿਕਾਣੇ ਆਧਾਰਿਤ ਬੇਨਤੀਆਂ ਸੰਬੰਧੀ ਮਦਦ ਕਰਨ ਲਈ Siri ਨੂੰ ਇਸ ਜਾਣਕਾਰੀ ਦੀ ਲੋੜ ਹੈ।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "మీ నిర్దిష్ట లొకేషన్ సంబంధిత అభ్యర్థన‌ల గురించి మీకు సహాయం అందించడానికి Siriకి ఈ సమాచారం అవసరం.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "מידע זה נדרש ל-Siri כדי לעזור לך עם בקשות שמבוססות על המיקום המסוים שלך.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "Siri көмекшісіне бұл ақпарат нақты геолокацияңызға негізделген сұрауларға көмектесу үшін қажет.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Sirinek információra van szüksége annak érdekében, hogy segítséget tudjon nyújtani az Ön adott helyzetén alapuló kérésekkel.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Siri requiert ces informations pour répondre à vos requêtes basées sur une position géographique spécifique.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "„Siri“ reikalinga ši informacija, kad būtų galima vykdyti užklausas pagal konkrečią buvimo vietą.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ನಿಮ್ಮ ನಿರ್ದಿಷ್ಟ ಸ್ಥಳವನ್ನು ಆಧರಿಸಿದ ವಿನಂತಿಗಳ ಕುರಿತು ನಿಮಗೆ ಸಹಾಯ ಮಾಡಲು Siriಗೆ ಈ ಮಾಹಿತಿಯು ಅಗತ್ಯವಿದೆ.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Siri har brug for disse oplysninger for at hjælpe dig med anmodninger, der er baseret på din specifikke lokalitet.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Siri ha bisogno di questa informazione per aiutarti con le richieste basate sulla tua posizione specifica.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "Siri’nin bulunduğunuz belirli bir konumu baz alan isteklerde size yardımcı olabilmesi için bu bilgiye ihtiyacı var.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "Siri necesita esta información para ayudarte con las peticiones relacionadas con tu ubicación concreta.",
+        "filename" : "InfoPlist.loctable"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/PrivateFrameworks\/AssistantServices.framework\/InfoPlist.loctable",
+  "bundlePath" : "\/System\/Library\/PrivateFrameworks\/AssistantServices.framework"
+}

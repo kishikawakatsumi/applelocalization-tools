@@ -1,0 +1,561 @@
+{
+  "framework" : "FitnessUIAssets.bundle",
+  "localizations" : {
+    "ACHIEVEMENT_UNACHIEVED_ALERT_DESCRIPTION_NAME" : [
+      {
+        "language" : "th",
+        "target" : "{\"goal_value\":{\"other\":\"เคลื่อนไหว %ld นาที\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"เคลื่อนไหว %ld นาที\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"สู้เพื่อรับรางวัลนี้ {{user_first_name}}! ออกกำลังกาย %#@goal_value@ในเดือนนี้ ประมาณ %#@pace_to_reach_goal@ต่อวัน\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "{\"goal_value\":{\"one\":\"%ld “நகர்வு” நிமிடம்\",\"other\":\"%ld “நகர்வு” நிமிடங்கள்\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld “நகர்வு” நிமிடம்\",\"other\":\"%ld “நகர்வு” நிமிடங்கள்\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"இந்த விருதை வெல்லுங்கள், {{user_first_name}}! இந்த மாதம் %#@goal_value@ என்னும் இலக்கை எட்டுங்கள். அதாவது, ஒரு நாளுக்கு சுமார் %#@pace_to_reach_goal@.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minuto de Moverse\",\"other\":\"%ld minutos de Moverse\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minuto de Moverse\",\"other\":\"%ld minutos de Moverse\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"¡Haz tuyo este premio, {{user_first_name}}! Logra %#@goal_value@ este mes; lo cual sería %#@pace_to_reach_goal@ al día.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "{\"goal_value\":{\"few\":\"%ld минуты подвижности\",\"one\":\"%ld минуту подвижности\",\"other\":\"%ld минуты подвижности\",\"many\":\"%ld минут подвижности\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld минут подвижности\",\"one\":\"%ld минуты подвижности\",\"other\":\"%ld минуты подвижности\",\"many\":\"%ld минут подвижности\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Заработай эту награду, {{user_first_name}}! Проведи %#@goal_value@ в этом месяце. Это около %#@pace_to_reach_goal@ в день.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "{\"goal_value\":{\"one\":\"‏%ld مُوو منٹ\",\"other\":\"‏%ld حرکت کے منٹ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"‏%ld مُوو منٹ\",\"other\":\"‏%ld حرکت کے منٹ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"اس انعام کے لیے کوشش کریں، ‏{{user_first_name}}! اس ماہ %#@goal_value@ مکمل کریں۔ یہ ہر دن %#@pace_to_reach_goal@ کے قریب ہوتا ہے۔\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minut en moviment\",\"other\":\"%ld minuts en moviment\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minut en moviment\",\"other\":\"%ld minuts en moviment\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Posa’t l’objectiu d’aconseguir el premi, {{user_first_name}}! Aconsegueix %#@goal_value@ aquest mes. Això són aproximadament %#@pace_to_reach_goal@ al dia.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"goal_value\":{\"one\":\"%ld मूव मिनट\",\"other\":\"%ld मूव मिनट\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld मूव मिनट\",\"other\":\"%ld मूव मिनट\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"{{user_first_name}}, इस पुरस्कार के लिए कोशिश करें! इस महीने %#@goal_value@ अर्जित करें। यह प्रतिदिन %#@pace_to_reach_goal@ के क़रीब होता है।\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"goal_value\":{\"other\":\"움직이기 시간 %ld분\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"움직이기 시간 %ld분\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"{{user_first_name}}님, 이 배지를 득템해보세요! 이번 달에 %#@goal_value@, 즉 하루에 약 %#@pace_to_reach_goal@을 달성하면 됩니다.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "{\"goal_value\":{\"one\":\"%ld মুভ মিনিট\",\"other\":\"%ld মুভ মিনিট\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld মুভ মিনিট\",\"other\":\"%ld মুভ মিনিট\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"{{user_first_name}}, এই পুরস্কারটি জেতার চেষ্টা করুন! এই মাসে %#@goal_value@ সম্পূর্ণ করুন। এর জন্য আপনাকে প্রতিদিন প্রায় %#@pace_to_reach_goal@ সম্পূর্ণ করতে হবে।\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"goal_value\":{\"one\":\"%ld arkiliikuntaminuutti\",\"other\":\"%ld arkiliikunta­minuuttia\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld arkiliikuntaminuutti\",\"other\":\"%ld arkiliikunta­minuuttia\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Hanki tämä palkinto, {{user_first_name}}! Ansaitse %#@goal_value@ tässä kuussa. Se on noin %#@pace_to_reach_goal@ päivässä.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "{\"goal_value\":{\"other\":\"%ld menit Bergerak\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"%ld menit Bergerak\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Kejar medali ini, {{user_first_name}}! Capai %#@goal_value@ bulan ini atau sekitar %#@pace_to_reach_goal@ sehari.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"goal_value\":{\"one\":\"%ld λεπτό κίνησης\",\"other\":\"%ld λεπτά κίνησης\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld λεπτό κίνησης\",\"other\":\"%ld λεπτά κίνησης\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Βάλε τα δυνατά σου για αυτό το βραβείο, {{vocative_user_first_name}}! Ολοκλήρωσε %#@goal_value@ αυτόν τον μήνα. Αυτό αντιστοιχεί σε %#@pace_to_reach_goal@ περίπου την ημέρα.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"goal_value\":{\"few\":\"%ld minute kretanja\",\"one\":\"%ld minutu kretanja\",\"other\":\"%ld minuta kretanja\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld minute kretanja\",\"one\":\"%ld minutu kretanja\",\"other\":\"%ld minuta kretanja\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"{{user_first_name}}, osvojite ovu nagradu. Odradite %#@goal_value@ ovaj mjesec. To je približno %#@pace_to_reach_goal@ dnevno.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"goal_value\":{\"one\":\"%ld Bewegungsminute\",\"other\":\"%ld Bewegungsminuten\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld Bewegungsminute\",\"other\":\"%ld Bewegungsminuten\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"{{user_first_name}}, hol dir diese Auszeichnung! Erreiche diesen Monat %#@goal_value@ – das sind ca. %#@pace_to_reach_goal@ pro Tag.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"goal_value\":{\"one\":\"%ld rörelseminut\",\"other\":\"%ld rörelseminuter\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld rörelseminut\",\"other\":\"%ld rörelseminuter\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Satsa på att få den här utmärkelsen, {{user_first_name}}! Kom upp i %#@goal_value@ den här månaden. Det är omkring %#@pace_to_reach_goal@ per dag.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "{\"goal_value\":{\"one\":\"%ld મુવ મિનિટ\",\"other\":\"%ld મુવ મિનિટ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld મુવ મિનિટ\",\"other\":\"%ld મુવ મિનિટ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"{{user_first_name}}, પુરસ્કાર તમારો જ છે! આ મહિને %#@goal_value@ હાંસલ કરો. આ લગભગ %#@pace_to_reach_goal@\\\/દિવસ છે.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "{\"goal_value\":{\"few\":\"%ld minuty W ruchu\",\"one\":\"%ld minutę W ruchu\",\"other\":\"%ld minuty W ruchu\",\"many\":\"%ld minut W ruchu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld minut W ruchu\",\"one\":\"%ld minuty W ruchu\",\"other\":\"%ld minuty W ruchu\",\"many\":\"%ld minut W ruchu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Walcz o tę nagrodę, {{user_first_name}}! Osiągnij w tym miesiącu cel %#@goal_value@. To około %#@pace_to_reach_goal@ dziennie.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "{\"goal_value\":{\"other\":\"%ld phút Di chuyển\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"%ld phút Di chuyển\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Hãy giành lấy phần thưởng này, {{user_first_name}}! Nhận được %#@goal_value@ trong tháng này. Đó là khoảng %#@pace_to_reach_goal@ một ngày.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"goal_value\":{\"few\":\"%ld minute gibanja\",\"one\":\"%ld minuta gibanja\",\"other\":\"%ld minut gibanja\",\"two\":\"%ld minuti gibanja\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld minute gibanja\",\"one\":\"%ld minuta gibanja\",\"other\":\"%ld minut gibanja\",\"two\":\"%ld minuti gibanja\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Poskusite osvojiti to nagrado, {{user_first_name}}! Ta mesec zberite %#@goal_value@. To pomeni približno %#@pace_to_reach_goal@ na dan.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"goal_value\":{\"few\":\"%ld minúty pohybu\",\"one\":\"%ld minútu pohybu\",\"other\":\"%ld minút pohybu\",\"many\":\"%ld minúty pohybu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld minúty pohybu\",\"one\":\"%ld minútu pohybu\",\"other\":\"%ld minút pohybu\",\"many\":\"%ld minúty pohybu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Zabojuj o toto ocenenie, {{user_first_name}}! Získaj tento mesiac %#@goal_value@. Znamená to približne %#@pace_to_reach_goal@ denne.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"goal_value\":{\"one\":\"%ld bewegingsminuut\",\"other\":\"%ld bewegingsminuten\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld bewegingsminuut\",\"other\":\"%ld bewegingsminuten\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Ga voor deze medaille, {{user_first_name}}! Behaal deze maand %#@goal_value@. Dat is ongeveer %#@pace_to_reach_goal@ per dag.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "{\"goal_value\":{\"one\":\"%ld ମୂଭ୍‌ ମିନିଟ୍‌\",\"other\":\"%ld ମୂଭ୍‌ ମିନିଟ୍‌\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld ମୂଭ୍‌ ମିନିଟ୍‌\",\"other\":\"%ld ମୂଭ୍‌ ମିନିଟ୍‌\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"ଏହି ଆୱର୍ଡ୍‌ ପାଇଁ ଚେଷ୍ଟା କରନ୍ତୁ, {{user_first_name}}! ଏହି ମାସରେ %#@goal_value@ ଅର୍ଜନ କରନ୍ତୁ। ଏହା ଦୈନିକ ପ୍ରାୟ %#@pace_to_reach_goal@।\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "{\"goal_value\":{\"one\":\"%ld ചലന മിനിറ്റ്\",\"other\":\"%ld ചലന മിനിറ്റുകൾ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld ചലന മിനിറ്റ്\",\"other\":\"%ld ചലന മിനിറ്റുകൾ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"ഈ അവാർഡ് നേടാൻ ശ്രമിക്കൂ, {{user_first_name}}! ഈ മാസം %#@goal_value@ നേടൂ. അതായത് ദിവസം ഏകദേശം %#@pace_to_reach_goal@.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minuto de Moverse\",\"other\":\"%ld minutos de Moverse\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minuto de Moverse\",\"other\":\"%ld minutos de Moverse\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"¡Haz tuyo este premio, {{user_first_name}}! Logra %#@goal_value@ este mes; lo cual sería %#@pace_to_reach_goal@ al día.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "{\"goal_value\":{\"other\":\"%ld分鐘\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"%ld分鐘\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"{{user_first_name}}，努力贏得此獎章！這個月只要活動%#@goal_value@。等同於一天%#@pace_to_reach_goal@。\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"goal_value\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Go for this award, {{user_first_name}}! Earn %#@goal_value@ this month. That’s about %#@pace_to_reach_goal@ a day.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"goal_value\":{\"other\":\"活动%ld分钟\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"活动%ld分钟\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"努力赢得这枚奖章吧，{{user_first_name}}！只需这个月完成%#@goal_value@，即一天%#@pace_to_reach_goal@。\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minuto em movimento\",\"other\":\"%ld minutos em movimento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minuto em movimento\",\"other\":\"%ld minutos em movimento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Conquista esta distinção, {{user_first_name}}! Atinge %#@goal_value@ este mês – cerca de %#@pace_to_reach_goal@ por dia.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"goal_value\":{\"few\":\"%ld хвилини Руху\",\"one\":\"%ld хвилина Руху\",\"other\":\"%ld хвилини Руху\",\"many\":\"%ld хвилин Руху\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld хвилини Руху\",\"one\":\"%ld хвилина Руху\",\"other\":\"%ld хвилини Руху\",\"many\":\"%ld хвилин Руху\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Зазіхніть на цю нагороду, {{vocative_user_first_name}}! Заробіть %#@goal_value@ цього місяця. Це приблизно %#@pace_to_reach_goal@ на день.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"goal_value\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Go for this award, {{user_first_name}}! Earn %#@goal_value@ this month. That’s about %#@pace_to_reach_goal@ a day.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"goal_value\":{\"one\":\"دقيقة حركة واحدة\",\"few\":\"‏%ld دقائق حركة\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"‏%ld دقيقة حركة\",\"two\":\"دقيقتي حركة\",\"other\":\"%ld دقيقة حركة\",\"NSStringFormatValueTypeKey\":\"ld\",\"zero\":\"%ld دقيقة حركة\"},\"pace_to_reach_goal\":{\"one\":\"دقيقة حركة واحدة\",\"few\":\"‏%ld دقائق حركة\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"‏%ld دقيقة حركة\",\"two\":\"دقيقتي حركة\",\"other\":\"%ld دقيقة حركة\",\"NSStringFormatValueTypeKey\":\"ld\",\"zero\":\"%ld دقيقة حركة\"},\"NSStringLocalizedFormatKey\":\"حاول أن تكسب هذه الجائزة يا {{user_first_name}}! حقق %#@goal_value@ هذا الشهر. يعادل هذا %#@pace_to_reach_goal@ لليوم الواحد.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "{\"goal_value\":{\"one\":\"%ld минута движение\",\"other\":\"%ld минути движение\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld минута движение\",\"other\":\"%ld минути движение\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Постарайте се за тази награда, {{user_first_name}}! Този месец трябва да направите %#@goal_value@. Около %#@pace_to_reach_goal@ на ден.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"goal_value\":{\"other\":\"%ld活動分鐘\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"%ld活動分鐘\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"{{user_first_name}}，努力爭取呢個獎章啦！今個月要完成%#@goal_value@，即係一日%#@pace_to_reach_goal@左右。\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "{\"goal_value\":{\"one\":\"%ld हालचालीचे मिनिट\",\"other\":\"%ld हालचालीची मिनिटे\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld हालचालीचे मिनिट\",\"other\":\"%ld हालचालीची मिनिटे\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"ह्या पुरस्कारासाठी प्रयत्न करा, {{user_first_name}}! ह्या महिन्यात %#@goal_value@ प्राप्त करा. हे दररोज सुमारे %#@pace_to_reach_goal@ आहे.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minute « Bouger »\",\"other\":\"%ld minutes « Bouger »\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minute « Bouger »\",\"other\":\"%ld minutes « Bouger »\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"{{user_first_name}}, bats-toi pour ce trophée! Accumule %#@goal_value@ ce mois-ci, soit environ %#@pace_to_reach_goal@ par jour.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"goal_value\":{\"few\":\"%ld minuty v pohybu\",\"one\":\"%ld minutu v pohybu\",\"other\":\"%ld minut v pohybu\",\"many\":\"%ld minuty v pohybu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld minuty v pohybu\",\"one\":\"%ld minutu v pohybu\",\"other\":\"%ld minut v pohybu\",\"many\":\"%ld minuty v pohybu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Zabojuj o tohle ocenění, {{vocative_user_first_name}}! Nasbírej tenhle měsíc %#@goal_value@. To znamená zhruba %#@pace_to_reach_goal@ denně.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"goal_value\":{\"one\":\"%ld aktivitetsminutt\",\"other\":\"%ld aktivitetsminutter\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld aktivitetsminutt\",\"other\":\"%ld aktivitetsminutter\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Prøv å klare denne utmerkelsen, {{user_first_name}}. Oppnå %#@goal_value@ denne måneden. Det er omtrent %#@pace_to_reach_goal@ hver dag.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "{\"goal_value\":{\"other\":\"%ld minit Pergerakan\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"%ld minit Pergerakan\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Berusaha mendapatkan ganjaran ini, {{user_first_name}}! Peroleh %#@goal_value@ pada bulan ini. Lebih kurang %#@pace_to_reach_goal@ sehari.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "{\"goal_value\":{\"few\":\"%ld minute de mișcare\",\"one\":\"%ld minut de mișcare\",\"other\":\"%ld de minute de mișcare\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld minute de mișcare\",\"one\":\"%ld minut de mișcare\",\"other\":\"%ld de minute de mișcare\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"{{user_first_name}}, cucerește acest premiu! Realizează luna aceasta %#@goal_value@, adică aproximativ %#@pace_to_reach_goal@ pe zi.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "{\"goal_value\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Go for this award, {{user_first_name}}! Earn %#@goal_value@ this month. That’s about %#@pace_to_reach_goal@ a day.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "pt",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minuto de Movimento\",\"other\":\"%ld minutos de Movimento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minuto de Movimento\",\"other\":\"%ld minutos de Movimento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Conquiste este prêmio, {{user_first_name}}! Obtenha %#@goal_value@ neste mês. Isso equivale a %#@pace_to_reach_goal@ por dia.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "{\"goal_value\":{\"other\":\"%ld分のムーブ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"%ld分のムーブ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"{{user_first_name}}さん、このバッジを獲得しましょう! 今月は%#@goal_value@が必要です。1日当たり約%#@pace_to_reach_goal@です。\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"goal_value\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Go for this award, {{user_first_name}}! Earn %#@goal_value@ this month. That’s about %#@pace_to_reach_goal@ a day.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "{\"goal_value\":{\"one\":\"%ld ਮੂਵ ਮਿੰਟ\",\"other\":\"%ld ਮੂਵ ਮਿੰਟ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld ਮੂਵ ਮਿੰਟ\",\"other\":\"%ld ਮੂਵ ਮਿੰਟ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"ਇਹ ਇਨਾਮ ਹਾਸਲ ਕਰਨ ਬਾਰੇ ਸੋਚੋ, {{user_first_name}}! ਇਸ ਮਹੀਨੇ %#@goal_value@ ਹਾਸਲ ਕਰੋ। ਇਹ ਪ੍ਰਤਿਦਿਨ %#@pace_to_reach_goal@ ਦੇ ਲਗਭਗ ਹੁੰਦਾ ਹੈ।\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "{\"goal_value\":{\"one\":\"%ld మూవ్ మినిట్\",\"other\":\"%ld మూవ్ మినిట్స్\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld మూవ్ మినిట్\",\"other\":\"%ld మూవ్ మినిట్స్\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"ఈ అవార్డ్ పొందడానికి ప్రయత్నించండి, {{user_first_name}} గారు! ఈ నెల %#@goal_value@ సంపాదించండి. అంటే రోజుకు %#@pace_to_reach_goal@.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "{\"goal_value\":{\"one\":\"דקה אחת של תנועה\",\"NSStringFormatValueTypeKey\":\"ld\",\"other\":\"‏%ld דקות תנועה\",\"two\":\"שתי דקות תנועה\",\"many\":\"‏%ld דקות תנועה\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"pace_to_reach_goal\":{\"one\":\"דקה אחת של תנועה\",\"NSStringFormatValueTypeKey\":\"ld\",\"other\":\"‏%ld דקות תנועה\",\"two\":\"שתי דקות תנועה\",\"many\":\"‏%ld דקות תנועה\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"המדליה הזו יכולה להיות שלך, {{user_first_name}}! צריך רק להשיג %#@goal_value@ החודש, שזה בערך %#@pace_to_reach_goal@ ביום.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "{\"goal_value\":{\"one\":\"%ld қозғалыс минуты\",\"other\":\"%ld қозғалыс минуты\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld қозғалыс минуты\",\"other\":\"%ld қозғалыс минуты\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Осы жүлдеге ие болыңыз, {{user_first_name}}! Ол үшін осы айда %#@goal_value@ орындаңыз. Бұл — күніне шамамен %#@pace_to_reach_goal@.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"goal_value\":{\"one\":\"%ld mozgásperc\",\"other\":\"%ld Mozgás-perc\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld mozgásperc\",\"other\":\"%ld Mozgás-perc\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Szerezd meg ezt a díjat, {{user_first_name}}! Érj el %#@goal_value@ ebben a hónapban. Ez körülbelül %#@pace_to_reach_goal@ egy nap.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minute « Bouger »\",\"other\":\"%ld minutes « Bouger »\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minute « Bouger »\",\"other\":\"%ld minutes « Bouger »\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Tente de gagner ce trophée, {{user_first_name}} ! Effectue %#@goal_value@ ce mois-ci, soit environ %#@pace_to_reach_goal@ par jour.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "{\"goal_value\":{\"few\":\"%ld judrumo minučių\",\"one\":\"%ld judrumo minutė\",\"other\":\"%ld judrumo minučių\",\"many\":\"%ld judrumo minutės\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld judrumo minutės\",\"one\":\"%ld judrumo minutė\",\"other\":\"%ld judrumo minučių\",\"many\":\"%ld judrumo minutės\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"{{vocative_user_first_name}}, bandyk laimėti šį apdovanojimą! Šį mėnesį sudegink %#@goal_value@. Tai maždaug %#@pace_to_reach_goal@ per dieną.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "{\"goal_value\":{\"one\":\"%ld ಮೂವ್ ಮಿನಿಟ್\",\"other\":\"%ld ಮೂವ್ ಮಿನಿಟ್ಸ್ ಅನ್ನು\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld ಮೂವ್ ಮಿನಿಟ್\",\"other\":\"%ld ಮೂವ್ ಮಿನಿಟ್ಸ್\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"ಈ ಅವಾರ್ಡ್ ಪಡೆಯಲು ಮುನ್ನಡೆಯಿರಿ, {{user_first_name}}! ಈ ತಿಂಗಳು %#@goal_value@ ಗಳಿಸಿ. ಅದು ದಿನಕ್ಕೆ ಅಂದಾಜು %#@pace_to_reach_goal@ ಆಗುತ್ತದೆ.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"goal_value\":{\"one\":\"%ld bevægelsesminut\",\"other\":\"%ld bevægelsesminutter\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld bevægelsesminut\",\"other\":\"%ld bevægelsesminutter\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Gå efter denne præmie, {{user_first_name}}! Opnå %#@goal_value@ denne måned. Det er omkring %#@pace_to_reach_goal@ om dagen.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minuto di movimento\",\"other\":\"%ld minuti di movimento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minuto di movimento\",\"other\":\"%ld minuti di movimento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"{{user_first_name}}, questo mese impegnati al massimo per ottenere la medaglia: ottieni %#@goal_value@ o circa %#@pace_to_reach_goal@ al giorno.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"goal_value\":{\"one\":\"%ld Hareket dakikası\",\"other\":\"%ld Hareket dakikası\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld Hareket dakikası\",\"other\":\"%ld Hareket dakikası\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Bu ödülü kazanabilirsin {{user_first_name}}! Bu ay %#@goal_value@ kazan. Bu, günde %#@pace_to_reach_goal@ demek.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minuto de movimiento\",\"other\":\"%ld minutos de movimiento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minuto de movimiento\",\"other\":\"%ld minutos de movimiento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"¡Gana este premio, {{user_first_name}}! Consigue %#@goal_value@ este mes. Eso son aproximadamente %#@pace_to_reach_goal@ al día.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      }
+    ],
+    "ACHIEVEMENT_UNACHIEVED_ALERT_DESCRIPTION" : [
+      {
+        "language" : "th",
+        "target" : "{\"goal_value\":{\"other\":\"เคลื่อนไหว %ld นาที\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"เคลื่อนไหว %ld นาที\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"สู้เพื่อรับรางวัลนี้! ออกกำลังกาย %#@goal_value@ในเดือนนี้ ประมาณ %#@pace_to_reach_goal@ต่อวัน\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "{\"goal_value\":{\"one\":\"%ld “நகர்வு” நிமிடம்\",\"other\":\"%ld “நகர்வு” நிமிடங்கள்\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld “நகர்வு” நிமிடம்\",\"other\":\"%ld “நகர்வு” நிமிடங்கள்\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"இந்த விருதை வெல்லுங்கள்! இந்த மாதம் %#@goal_value@ என்னும் இலக்கை எட்டுங்கள். அதாவது, ஒரு நாளுக்கு சுமார் %#@pace_to_reach_goal@.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minuto de Moverse\",\"other\":\"%ld minutos de Moverse\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minuto de Moverse\",\"other\":\"%ld minutos de Moverse\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"¡Haz tuyo este premio! Logra %#@goal_value@ este mes; lo cual sería %#@pace_to_reach_goal@ al día.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "{\"goal_value\":{\"few\":\"%ld минуты подвижности\",\"one\":\"%ld минуту подвижности\",\"other\":\"%ld минуты подвижности\",\"many\":\"%ld минут подвижности\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld минут подвижности\",\"one\":\"%ld минуты подвижности\",\"other\":\"%ld минуты подвижности\",\"many\":\"%ld минут подвижности\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Заработай эту награду! Проведи %#@goal_value@ в этом месяце. Это около %#@pace_to_reach_goal@ в день.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "{\"goal_value\":{\"one\":\"%ld مُوو منٹ\",\"other\":\"%ld حرکت کے منٹ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld مُوو منٹ\",\"other\":\"%ld حرکت کے منٹ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"اس انعام کے لیے کوشش کریں! اس ماہ %#@goal_value@ مکمل کریں۔ یہ ہر دن تقریبا %#@pace_to_reach_goal@ ہوتا ہے۔\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minut en moviment\",\"other\":\"%ld minuts en moviment\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minut en moviment\",\"other\":\"%ld minuts en moviment\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Posa’t l’objectiu d’aconseguir el premi! Aquest mes, aconsegueix %#@goal_value@. Això són aproximadament %#@pace_to_reach_goal@ al dia.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"goal_value\":{\"one\":\"%ld मूव मिनट\",\"other\":\"%ld मूव मिनट\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld मूव मिनट\",\"other\":\"%ld मूव मिनट\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"इस पुरस्कार के लिए कोशिश करें! इस महीने %#@goal_value@ अर्जित करें। यह प्रतिदिन %#@pace_to_reach_goal@ के क़रीब होता है।\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"goal_value\":{\"other\":\"움직이기 시간 %ld분\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"움직이기 시간 %ld분\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"이 배지를 득템해보세요! 이번 달에 %#@goal_value@, 즉 하루에 약 %#@pace_to_reach_goal@을 달성하면 됩니다.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "{\"goal_value\":{\"one\":\"%ld মুভ মিনিট\",\"other\":\"%ld মুভ মিনিট\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld মুভ মিনিট\",\"other\":\"%ld মুভ মিনিট\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"এই পুরস্কারটি জেতার চেষ্টা করুন! এই মাসে %#@goal_value@ সম্পূর্ণ করুন। অর্থাৎ, প্রতিদিন প্রায় %#@pace_to_reach_goal@ সম্পূর্ণ করতে হবে।\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"goal_value\":{\"one\":\"%ld arkiliikuntaminuutti\",\"other\":\"%ld arkiliikunta­minuuttia\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld arkiliikuntaminuutti\",\"other\":\"%ld arkiliikunta­minuuttia\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Hanki tämä palkinto! Ansaitse %#@goal_value@ tässä kuussa. Se on noin %#@pace_to_reach_goal@ päivässä.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "{\"goal_value\":{\"other\":\"%ld menit Bergerak\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"%ld menit Bergerak\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Kejar medali ini! Capai %#@goal_value@ bulan ini atau sekitar %#@pace_to_reach_goal@ sehari.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"goal_value\":{\"one\":\"%ld λεπτό κίνησης\",\"other\":\"%ld λεπτά κίνησης\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld λεπτό κίνησης\",\"other\":\"%ld λεπτά κίνησης\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Βάλε τα δυνατά σου για αυτό το βραβείο! Ολοκλήρωσε %#@goal_value@ αυτόν τον μήνα. Αυτό αντιστοιχεί σε %#@pace_to_reach_goal@ περίπου την ημέρα.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"goal_value\":{\"few\":\"%ld minute kretanja\",\"one\":\"%ld minutu kretanja\",\"other\":\"%ld minuta kretanja\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld minute kretanja\",\"one\":\"%ld minutu kretanja\",\"other\":\"%ld minuta kretanja\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Osvojite ovu nagradu! Odradite %#@goal_value@ ovaj mjesec. To je približno %#@pace_to_reach_goal@ dnevno.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"goal_value\":{\"one\":\"%ld Bewegungsminute\",\"other\":\"%ld Bewegungsminuten\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld Bewegungsminute\",\"other\":\"%ld Bewegungsminuten\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Hol dir diese Auszeichnung! Erreiche diesen Monat %#@goal_value@ – das sind ca. %#@pace_to_reach_goal@ pro Tag.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"goal_value\":{\"one\":\"%ld rörelseminut\",\"other\":\"%ld rörelseminuter\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld rörelseminut\",\"other\":\"%ld rörelseminuter\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Satsa på att få den här utmärkelsen! Du behöver komma upp i %#@goal_value@ den här månaden. Det är omkring %#@pace_to_reach_goal@ per dag.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "{\"goal_value\":{\"one\":\"%ld મુવ મિનિટ\",\"other\":\"%ld મુવ મિનિટ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld મુવ મિનિટ\",\"other\":\"%ld મુવ મિનિટ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"પુરસ્કાર તમારો જ છે! આ મહિને %#@goal_value@ હાંસલ કરો. આ લગભગ %#@pace_to_reach_goal@\\\/દિવસ છે.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "{\"goal_value\":{\"few\":\"%ld minuty W ruchu\",\"one\":\"%ld minutę W ruchu\",\"other\":\"%ld minuty W ruchu\",\"many\":\"%ld minut W ruchu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld minut W ruchu\",\"one\":\"%ld minuty W ruchu\",\"other\":\"%ld minuty W ruchu\",\"many\":\"%ld minut W ruchu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Walcz o tę nagrodę! Osiągnij w tym miesiącu %#@goal_value@. To około %#@pace_to_reach_goal@ dziennie.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "{\"goal_value\":{\"other\":\"%ld phút Di chuyển\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"%ld phút Di chuyển\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Hãy giành lấy phần thưởng này! Nhận được %#@goal_value@ trong tháng này. Đó là khoảng %#@pace_to_reach_goal@ một ngày.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"goal_value\":{\"few\":\"%ld minute gibanja\",\"one\":\"%ld minuta gibanja\",\"other\":\"%ld minut gibanja\",\"two\":\"%ld minuti gibanja\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld minute gibanja\",\"one\":\"%ld minuta gibanja\",\"other\":\"%ld minut gibanja\",\"two\":\"%ld minuti gibanja\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Poskusite osvojiti to nagrado! Ta mesec zberite %#@goal_value@. To pomeni približno %#@pace_to_reach_goal@ na dan.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"goal_value\":{\"few\":\"%ld minúty pohybu\",\"one\":\"%ld minútu pohybu\",\"other\":\"%ld minút pohybu\",\"many\":\"%ld minúty pohybu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld minúty pohybu\",\"one\":\"%ld minútu pohybu\",\"other\":\"%ld minút pohybu\",\"many\":\"%ld minúty pohybu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Zabojuj o toto ocenenie! Získaj tento mesiac %#@goal_value@. Znamená to približne %#@pace_to_reach_goal@ denne.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"goal_value\":{\"one\":\"%ld bewegingsminuut\",\"other\":\"%ld bewegingsminuten\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld bewegingsminuut\",\"other\":\"%ld bewegingsminuten\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Ga voor deze medaille! Behaal deze maand %#@goal_value@. Dat is ongeveer %#@pace_to_reach_goal@ per dag.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "{\"goal_value\":{\"one\":\"%ld ମୂଭ୍‌ ମିନିଟ୍‌\",\"other\":\"%ld ମୂଭ୍‌ ମିନିଟ୍‌\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld ମୂଭ୍‌ ମିନିଟ୍‌\",\"other\":\"%ld ମୂଭ୍‌ ମିନିଟ୍‌\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"ଏହି ଆୱର୍ଡ୍‌ ପାଇଁ ଚେଷ୍ଟା କରନ୍ତୁ! ଏହି ମାସରେ %#@goal_value@ ଅର୍ଜନ କରନ୍ତୁ। ଏହା ଦୈନିକ ପ୍ରାୟ %#@pace_to_reach_goal@।\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "{\"goal_value\":{\"one\":\"%ld ചലന മിനിറ്റ്\",\"other\":\"%ld ചലന മിനിറ്റുകൾ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld ചലന മിനിറ്റ്\",\"other\":\"%ld ചലന മിനിറ്റുകൾ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"ഈ അവാർഡ് നേടാൻ ശ്രമിക്കൂ! ഈ മാസം %#@goal_value@ നേടൂ. അതായത് ദിവസം ഏകദേശം %#@pace_to_reach_goal@.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minuto de Moverse\",\"other\":\"%ld minutos de Moverse\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minuto de Moverse\",\"other\":\"%ld minutos de Moverse\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"¡Haz tuyo este premio! Logra %#@goal_value@ este mes; lo cual sería %#@pace_to_reach_goal@ al día.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "{\"goal_value\":{\"other\":\"%ld分鐘\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"%ld分鐘\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"努力贏得此獎章！這個月只要活動%#@goal_value@。等同於一天%#@pace_to_reach_goal@。\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"goal_value\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Go for this award! Earn %#@goal_value@ this month. That’s about %#@pace_to_reach_goal@ a day.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"goal_value\":{\"other\":\"活动%ld分钟\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"活动%ld分钟\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"努力赢得这枚奖章吧！只需这个月完成%#@goal_value@，即一天%#@pace_to_reach_goal@。\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minuto em movimento\",\"other\":\"%ld minutos em movimento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minuto em movimento\",\"other\":\"%ld minutos em movimento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Conquista esta distinção! Atinge %#@goal_value@ este mês – cerca de %#@pace_to_reach_goal@ por dia.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"goal_value\":{\"few\":\"%ld хвилини Руху\",\"one\":\"%ld хвилина Руху\",\"other\":\"%ld хвилин Руху\",\"many\":\"%ld хвилин Руху\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld хвилини Руху\",\"one\":\"%ld хвилина Руху\",\"other\":\"%ld хвилин Руху\",\"many\":\"%ld хвилин Руху\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Зазіхніть на цю нагороду! Заробіть %#@goal_value@ цього місяця. Це приблизно %#@pace_to_reach_goal@ щодня.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"goal_value\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Go for this award! Earn %#@goal_value@ this month. That’s about %#@pace_to_reach_goal@ a day.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"goal_value\":{\"one\":\"دقيقة حركة واحدة\",\"few\":\"‏%ld دقائق حركة\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"‏%ld دقيقة حركة\",\"two\":\"دقيقتي حركة\",\"other\":\"%ld دقيقة حركة\",\"NSStringFormatValueTypeKey\":\"ld\",\"zero\":\"%ld دقيقة حركة\"},\"pace_to_reach_goal\":{\"one\":\"دقيقة حركة واحدة\",\"few\":\"‏%ld دقائق حركة\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"‏%ld دقيقة حركة\",\"two\":\"دقيقتي حركة\",\"other\":\"%ld دقيقة حركة\",\"NSStringFormatValueTypeKey\":\"ld\",\"zero\":\"%ld دقيقة حركة\"},\"NSStringLocalizedFormatKey\":\"حاول أن تكسب هذه الجائزة! حقق %#@goal_value@ هذا الشهر. يعادل هذا %#@pace_to_reach_goal@ لليوم الواحد.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "{\"goal_value\":{\"one\":\"%ld минута движение\",\"other\":\"%ld минути движение\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld минута движение\",\"other\":\"%ld минути движение\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Постарайте се за тази награда! Този месец трябва да направите %#@goal_value@. Около %#@pace_to_reach_goal@ на ден.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"goal_value\":{\"other\":\"%ld活動分鐘\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"%ld活動分鐘\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"努力爭取呢個奬章啦！今個月要完成%#@goal_value@，即係一日%#@pace_to_reach_goal@左右。\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "{\"goal_value\":{\"one\":\"%ld हालचालीचे मिनिट\",\"other\":\"%ld हालचालीची मिनिटे\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld हालचालीचे मिनिट\",\"other\":\"%ld हालचालीची मिनिटे\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"ह्या पुरस्कारासाठी प्रयत्न करा! ह्या महिन्यात %#@goal_value@ प्राप्त करा. हे दररोज सुमारे %#@pace_to_reach_goal@ आहे.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minute « Bouger »\",\"other\":\"%ld minutes « Bouger »\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minute « Bouger »\",\"other\":\"%ld minutes « Bouger »\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Bats-toi pour ce trophée! Accumule %#@goal_value@ ce mois-ci, soit environ %#@pace_to_reach_goal@ par jour.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"goal_value\":{\"few\":\"%ld minuty v pohybu\",\"one\":\"%ld minutu v pohybu\",\"other\":\"%ld minut v pohybu\",\"many\":\"%ld minuty v pohybu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld minuty v pohybu\",\"one\":\"%ld minutu v pohybu\",\"other\":\"%ld minut v pohybu\",\"many\":\"%ld minuty v pohybu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Zabojuj o tohle ocenění! Nasbírej tenhle měsíc %#@goal_value@. To znamená zhruba %#@pace_to_reach_goal@ denně.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"goal_value\":{\"one\":\"%ld aktivitetsminutt\",\"other\":\"%ld aktivitetsminutter\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld aktivitetsminutt\",\"other\":\"%ld aktivitetsminutter\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Prøv å klare denne utmerkelsen. Oppnå %#@goal_value@ denne måneden. Det er omtrent %#@pace_to_reach_goal@ hver dag.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "{\"goal_value\":{\"other\":\"%ld minit Pergerakan\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"%ld minit Pergerakan\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Berusaha mendapatkan ganjaran ini! Peroleh %#@goal_value@ pada bulan ini. Lebih kurang %#@pace_to_reach_goal@ sehari.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "{\"goal_value\":{\"few\":\"%ld minute de mișcare\",\"one\":\"%ld minut de mișcare\",\"other\":\"%ld de minute de mișcare\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld minute de mișcare\",\"one\":\"%ld minut de mișcare\",\"other\":\"%ld de minute de mișcare\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Cucerește acest premiu! Realizează luna aceasta %#@goal_value@, adică aproximativ %#@pace_to_reach_goal@ pe zi.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "{\"goal_value\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Go for this award! Earn %#@goal_value@ this month. That’s about %#@pace_to_reach_goal@ a day.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "pt",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minuto de Movimento\",\"other\":\"%ld minutos de Movimento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minuto de Movimento\",\"other\":\"%ld minutos de Movimento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Conquiste este prêmio! Obtenha um total de %#@goal_value@ neste mês para ganhar este prêmio. Isso equivale a cerca de %#@pace_to_reach_goal@ por dia.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "{\"goal_value\":{\"other\":\"%ld分のムーブ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"other\":\"%ld分のムーブ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"このバッジを獲得しましょう! 今月は%#@goal_value@が必要です。1日当たり約%#@pace_to_reach_goal@です。\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"goal_value\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld Move minute\",\"other\":\"%ld Move minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Go for this award! Earn %#@goal_value@ this month. That’s about %#@pace_to_reach_goal@ a day.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "{\"goal_value\":{\"one\":\"%ld ਮੂਵ ਮਿੰਟ\",\"other\":\"%ld ਮੂਵ ਮਿੰਟ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld ਮੂਵ ਮਿੰਟ\",\"other\":\"%ld ਮੂਵ ਮਿੰਟ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"ਇਹ ਇਨਾਮ ਹਾਸਲ ਕਰਨ ਬਾਰੇ ਸੋਚੋ! ਇਸ ਮਹੀਨੇ %#@goal_value@ ਹਾਸਲ ਕਰੋ। ਇਹ ਪ੍ਰਤਿਦਿਨ %#@pace_to_reach_goal@ ਦੇ ਲਗਭਗ ਹੁੰਦਾ ਹੈ।\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "{\"goal_value\":{\"one\":\"%ld మూవ్ మినిట్\",\"other\":\"%ld మూవ్ మినిట్స్\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld మూవ్ మినిట్\",\"other\":\"%ld మూవ్ మినిట్స్\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"ఈ అవార్డ్ పొందడానికి ప్రయత్నించండి! ఈ నెల %#@goal_value@ సంపాదించండి. అంటే రోజుకు %#@pace_to_reach_goal@.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "{\"goal_value\":{\"one\":\"דקה אחת של תנועה\",\"NSStringFormatValueTypeKey\":\"ld\",\"other\":\"‏%ld דקות תנועה\",\"two\":\"שתי דקות תנועה\",\"many\":\"‏%ld דקות תנועה\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"pace_to_reach_goal\":{\"one\":\"דקה אחת של תנועה\",\"NSStringFormatValueTypeKey\":\"ld\",\"other\":\"‏%ld דקות תנועה\",\"two\":\"שתי דקות תנועה\",\"many\":\"‏%ld דקות תנועה\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"המדליה הזו יכולה להיות שלך! צריך רק להשיג סה״כ %#@goal_value@ החודש. זה בערך %#@pace_to_reach_goal@ ביום.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "{\"goal_value\":{\"one\":\"%ld қозғалыс минуты\",\"other\":\"%ld қозғалыс минуты\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld қозғалыс минуты\",\"other\":\"%ld қозғалыс минуты\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Осы жүлдеге ие болыңыз! Ол үшін осы айда %#@goal_value@ орындаңыз. Бұл — күніне шамамен %#@pace_to_reach_goal@.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"goal_value\":{\"one\":\"%ld mozgásperc\",\"other\":\"%ld Mozgás-perc\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld mozgásperc\",\"other\":\"%ld Mozgás-perc\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Szerezd meg ezt a díjat! Érj el %#@goal_value@ ebben a hónapban. Ez körülbelül %#@pace_to_reach_goal@ egy nap.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minute « Bouger »\",\"other\":\"%ld minutes « Bouger »\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minute « Bouger »\",\"other\":\"%ld minutes « Bouger »\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Tente de gagner ce trophée ! Effectue %#@goal_value@ ce mois-ci, soit environ %#@pace_to_reach_goal@ par jour.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "{\"goal_value\":{\"few\":\"%ld judrumo minutės\",\"one\":\"%ld judrumo minutė\",\"other\":\"%ld judrumo minučių\",\"many\":\"%ld judrumo minutės\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"few\":\"%ld judrumo minutės\",\"one\":\"%ld judrumo minutė\",\"other\":\"%ld judrumo minučių\",\"many\":\"%ld judrumo minutės\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Bandyk laimėti šį apdovanojimą! Šį mėnesį sudegink %#@goal_value@. Tai maždaug %#@pace_to_reach_goal@ per dieną.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "{\"goal_value\":{\"one\":\"%ld ಮೂವ್ ಮಿನಿಟ್\",\"other\":\"%ld ಮೂವ್ ಮಿನಿಟ್ಸ್ ಅನ್ನು\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld ಮೂವ್ ಮಿನಿಟ್\",\"other\":\"%ld ಮೂವ್ ಮಿನಿಟ್ಸ್\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"ಈ ಅವಾರ್ಡ್ ಪಡೆಯಲು ಮುನ್ನಡೆಯಿರಿ! ಈ ತಿಂಗಳು %#@goal_value@ ಗಳಿಸಿ. ಅದು ದಿನಕ್ಕೆ ಅಂದಾಜು %#@pace_to_reach_goal@ ಆಗುತ್ತದೆ.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"goal_value\":{\"one\":\"%ld bevægelsesminut\",\"other\":\"%ld bevægelsesminutter\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld bevægelsesminut\",\"other\":\"%ld bevægelsesminutter\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Gå efter denne præmie! Opnå %#@goal_value@ denne måned. Det er omkring %#@pace_to_reach_goal@ om dagen.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minuto di movimento\",\"other\":\"%ld minuti di movimento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minuto di movimento\",\"other\":\"%ld minuti di movimento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Dai il massimo per aggiudicarti la medaglia: questo mese ottieni %#@goal_value@, circa %#@pace_to_reach_goal@ al giorno.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"goal_value\":{\"one\":\"%ld Hareket dakikası\",\"other\":\"%ld Hareket dakikası\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld Hareket dakikası\",\"other\":\"%ld Hareket dakikası\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Bu ödülü kazanabilirsin! Bu ay %#@goal_value@ kazan. Bu, günde %#@pace_to_reach_goal@ demek.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "{\"goal_value\":{\"one\":\"%ld minuto de movimiento\",\"other\":\"%ld minutos de movimiento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"pace_to_reach_goal\":{\"one\":\"%ld minuto de movimiento\",\"other\":\"%ld minutos de movimiento\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"¡Gana este premio! Consigue %#@goal_value@ este mes. Eso son aproximadamente %#@pace_to_reach_goal@ al día.\"}",
+        "filename" : "Localizable-Modified-tinker.loctable"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/Health\/Assets\/FitnessUIAssets.bundle\/ActivityAchievements\/MonthlyAchievements\/localization\/challenge\/TotalMoveTime_MEDIUM\/Localizable-Modified-tinker.loctable",
+  "bundlePath" : "\/System\/Library\/Health\/Assets\/FitnessUIAssets.bundle"
+}

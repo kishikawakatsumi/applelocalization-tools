@@ -1,0 +1,808 @@
+{
+  "framework" : "MCUISettingsSearch.bundle",
+  "localizations" : {
+    "SEARCH_KEYWORDS" : [
+      {
+        "language" : "ms",
+        "target" : "MDM, Pengurusan Peranti Mudah Alih, Profil, Profil Konfigurasi, Profil Dimuat Turun, Pendaftaran Pengguna, Akaun Terurus, BYOD, App Perusahaan, App Pembangun, App Disekat, Daftar Masuk ke Akaun Kerja atau Sekolah, Rangkaian Peribadi Maya",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "MDM, Gestión de dispositivos móviles, Perfiles, Perfiles de configuración, Perfiles descargados, Inscripción de usuario, Cuenta gestionada, Dispositivo personal, BYOD, Apps empresariales, Apps del desarrollador, Apps bloqueadas, Iniciar sesión con la cuenta de empresa o del centro educativo, Red privada virtual",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "MDM, মোবাইল ডিভাইস ম্যানেজমেন্ট, প্রোফাইল, কনফিগারেশন প্রোফাইল, ডাউনলোড করা প্রোফাইল, ব্যবহারকারীর এনরোলমেন্ট, পরিচালিত অ্যাকাউন্ট, BYOD, এন্টারপ্রাইজ অ্যাপ, ডেভেলপার অ্যাপ, ব্লক করা অ্যাপ, কর্মস্থল বা স্কুল অ্যাকাউন্টে সাইন ইন করুন, ভার্চুয়াল প্রাইভেট নেটওয়ার্ক",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "MDM, Mobile Device Management, управление мобильными устройствами, профили, профили конфигурации, загруженные профили, регистрация пользователя, управляемая учетная запись, BYOD, корпоративные приложения, приложения разработчиков, заблокированные приложения, вход в рабочую или учебную учетную запись, вход в учетную запись учебного учреждения или организации, виртуальная частная сеть, VPN",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "MDM, upravljanje mobilnim uređajem, profili, konfiguracijski profili, preuzeti profili, upisivanje korisnika, upravljani račun, BYOD, poslovne aplikacije, aplikacije za developere, blokirane aplikacije, prijavljivanje na poslovni ili školski račun, virtualna privatna mreža",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "th",
+        "target" : "MDM, การจัดการอุปกรณ์เคลื่อนที่, โปรไฟล์, โปรไฟล์การกำหนดค่า, โปรไฟล์ที่ดาวน์โหลด, การลงทะเบียนผู้ใช้, บัญชีที่มีการจัดการ, BYOD, แอปภายในบริษัท, แอปของนักพัฒนา, แอปที่ปิดกั้น, ลงชื่อเข้าบัญชีที่ทำงานหรือที่โรงเรียน, เครือข่ายส่วนตัวเสมือน",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "MDM, Gestió de dispositius mòbils, Perfils, Perfils de configuració, Perfils descarregats, Inscripció d’usuaris, Compte gestionat, BYOD, Apps empresarials, Apps per a desenvolupadors, Apps bloquejades, Inicia sessió en un compte de la feina o el centre educatiu, Iniciar sessió en un compte de la feina o el centre educatiu, Xarxa privada virtual, VPN",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "MDM, మొబైల్ డివైజ్ నిర్వహణ, ప్రొఫైల్‌లు, కాన్ఫిగరేషన్ ప్రొఫైల్‌లు, డౌన్‌లోడ్ చేయబడిన ప్రొఫైల్‌లు, యూజర్ ఎన్‌రోల్‌మెంట్, నిర్వహించబడే ఖాతా, BYOD, ఎంటర్‌ప్రైజ్ యాప్‌లు, డెవలపర్ యాప్‌లు, బ్లాక్ చేయబడిన యాప్‌లు, కార్యాలయ లేదా స్కూల్ ఖాతాకు సైన్ ఇన్, వర్చువల్ ప్రైవేట్ నెట్‌వర్క్",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "MDM, Manajemen Perangkat Bergerak, Profil, Profil Konfigurasi, Profil yang Diunduh, Pendaftaran Pengguna, Akun yang Dikelola, BYOD, App Perusahaan, App Pengembang, App yang Diblokir, Masuk ke Akun Kerja atau Sekolah, Jaringan Pribadi Virtual",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "MDM, Upravljanje mobilnih naprav, Profili, Konfiguracijski profili, Preneseni profili, Včlanitev uporabnikov, Upravljan račun, BYOD, Aplikacije za podjetja, Aplikacije za razvijalce, Blokirane aplikacije, Vpis v službeni ali šolski račun, Navidezno zasebno omrežje",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "MDM, Mobile Device Management, Profiler, Konfigurationsprofiler, Hentede profiler, Brugertilmelding, Administreret konto, BYOD, Firmaapps, Udviklerapps, Blokerede apps, Log ind på arbejds- eller skolekonto, VPN",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "MDM, ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਪ੍ਰਬੰਧਨ, ਪ੍ਰੋਫ਼ਾਈਲਾਂ, ਕੌਨਫ਼ਿਗਰੇਸ਼ਨ ਪ੍ਰੋਫ਼ਾਈਲਾਂ, ਡਾਊਨਲੋਡ ਕੀਤੀਆਂ ਪ੍ਰੋਫ਼ਾਈਲਾਂ, ਵਰਤੋਂਕਾਰ ਇਨਰੋਲਮੈਂਟ, ਪ੍ਰਬੰਧਿਤ ਖਾਤਾ, BYOD, ਇੰਟਰਪ੍ਰਾਈਜ਼ ਐਪਾਂ, ਡਿਵੈਲਪਰ ਐਪਾਂ, ਬਲੌਕ ਕੀਤੀਆਂ ਐਪਾਂ, ਕਾਰਜ ਸਥਾਨ ਜਾਂ ਸਕੂਲ ਖਾਤੇ ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰੋ, ਵਰਚੁਅਲ ਪ੍ਰਾਈਵੇਟ ਨੈੱਟਵਰਕ",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "MDM, மொபைல் சாதன மேலாண்மை, சுயவிவரங்கள், உள்ளமைவுச் சுயவிவரங்கள், பதிவிறக்கப்பட்ட சுயவிவரங்கள், பயனர் பதிவுசெய்தல், நிர்வகிக்கப்பட்ட கணக்கு, BYOD, என்டர்பிரைஸ் செயலிகள், டெவலப்பர் செயலிகள், தடுக்கப்பட்ட செயலிகள், பணி அல்லது பள்ளிக் கணக்கில் உள்நுழைதல், விர்ச்சுவல் பிரைவேட் நெட்வொர்க்",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "MDM, ಮೊಬೈಲ್ ಸಾಧನ ನಿರ್ವಹಣೆ, ಪ್ರೊಫೈಲ್‌ಗಳು, ಕಾನ್ಫಿಗರೇಶನ್ ಪ್ರೊಫೈಲ್‌ಗಳು, ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಪ್ರೊಫೈಲ್‌ಗಳು, ಬಳಕೆದಾರರ ನೋಂದಣಿ, ನಿರ್ವಹಿಸಿದ ಖಾತೆ, BYOD, ಎಂಟರ್‌ಪ್ರೈಸ್ ಆ್ಯಪ್‌ಗಳು, ಡೆವಲಪರ್ ಆ್ಯಪ್‌ಗಳು, ಬ್ಲಾಕ್ ಮಾಡಿದ ಆ್ಯಪ್‌ಗಳು, ಕೆಲಸ ಅಥವಾ ಶಾಲೆಯ ಖಾತೆಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ, ವರ್ಚುವಲ್ ಖಾಸಗಿ ನೆಟ್‌ವರ್ಕ್",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "MDM, Mobile Device Management, Profiles, Configuration Profiles, Downloaded Profiles, User Enrolment, Managed Account, BYOD, Enterprise Apps, Developer Apps, Blocked Apps, Sign In to Work or School Account, Virtual Private Network",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "MDM, Mobile Device Management, Profiilit, Määritysprofiilit, Ladatut profiilit, Käyttäjärekisteröinti, Hallittu tili, BYOD, Yritysapit, Kehittäjäapit, Estetyt apit, Kirjautuminen koulun tai työpaikan tilille, VPN, Virtual Private Network",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "MDM, Mobile Device Management, Gestion des appareils mobiles, Profils, Profils de configuration, Profils téléchargés, Inscription d’utilisateurs, BYOD, Apps d’entreprise, Apps de développeur, Apps bloquées, Connexion à un compte professionnel ou scolaire, Réseau privé virtuel",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "MDM, διαχείριση φορητών συσκευών, προφίλ, προφίλ διαμόρφωσης, ληφθέντα προφίλ, εγγραφή χρήστη, διαχειριζόμενος λογαριασμός, προσωπική συσκευή, εταιρικές εφαρμογές, εφαρμογές δημιουργών, αποκλεισμένες εφαρμογές, σύνδεση σε λογαριασμό εργασίας ή σχολείου, εικονικό ιδιωτικό δίκτυο",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "MDM, મોબાઇલ ડિવાઇસ મૅનેજમેંટ,પ્રોફાઇલ, કંફિગરેશન પ્રોફાઇલ, ડાઉનલોડ કરેલી પ્રોફાઇલ, .યૂઝર એનરોલમેંટ, મૅનેજ કરેલ અકાઉંટ, BYOD, એંટરપ્રાઇઝ ઍપ્સ, ડેવલપર ઍપ્સ,બ્લૉક કરેલી ઍપ્સ, ઑફિસ અથવા સ્કૂલ એકાઉંટમાં સાઇન ઇન કરો, વર્ચ્યુઅલ પ્રાઇવેટ નેટવર્ક",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "MDM, Mobile Device Management, mobileszköz-kezelés, mobileszköz-felügyelet, profilok, konfigurációs profilok, letöltött profilok, felhasználói regisztráció, felügyelt fiók, BYOD, vállalati appok, fejlesztői appok, blokkolt appok, bejelentkezés munkahelyi vagy iskolai fiókba, virtuális magánhálózat",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "GAM, Gestion des appareils mobiles, Profils, Profils de configuration, Profils téléchargés, Inscription, Compte géré, PAP, Apps d’entreprise, Apps du développeur, Apps bloquées, Se connecter au compte professionnel ou scolaire, Réseau privé virtuel",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "MDM, Mobile Device Management, Administrering av mobile enheter, Profiler, Konfigurasjonsprofiler, Nedlastingsprofiler, Brukerregistrering, Administrert konto, BYOD, Bedriftsinterne apper, Utviklerapper, Blokkerte apper, Logg på jobb-eller skolekontoen, VPN, Virtual Private Network",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "MDM, Mobil Aygıt Yönetimi, Profiller, Konfigürasyon Profilleri, İndirilen Profiller, Kullanıcı Kaydı, Yönetilen Hesap, Kendi Cihazını Getir, Kurumsal Uygulamalar, Geliştirici Uygulamaları, Engellenmiş Uygulamalar, Engellenen uygulamalar, İş veya Okul Hesabına Giriş Yap, Sanal Özel Ağ, VPN",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "MDM, 流動裝置管理, 描述檔, 設定描述檔, 已下載的描述檔, 用户註冊, 受管理的帳户, BYOD, 企業級App, 開發者App, 封鎖的App, 登入公司或學校帳户, 虛擬私人網絡",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "MDM, Správa mobilních zařízení, Profily, Konfigurační profily, Stažené profily, Registrace uživatele, Spravovaný účet, BYOD, Podnikové aplikace, Vývojářské aplikace, Zablokované aplikace, Přihlaste se k pracovnímu nebo školnímu účtu, Virtuální privátní síť",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "MDM, мобильді құрылғыларды басқару, профильдер, конфигурация профильдері, жүктеп алынған профильдер, пайдаланушыны тіркеу, басқарылатын аккаунт, BYOD, корпоративтік қолданбалар, әзірлеуші қолданбалары, блокталған қолданбалар, жұмыстағы немесе мектептегі аккаунтқа кіру, VPN, виртуалды жеке желі",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "MDM, Mobile Device Management, Profiles, Configuration Profiles, Downloaded Profiles, User Enrollment, Managed Account, BYOD, Enterprise Apps, Developer Apps, Blocked Apps, Sign In to Work or School Account, Virtual Private Network",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "MDM, 行動裝置管理, 描述檔, 設定描述檔, 已下載的描述檔, 使用者註冊, 受管理的帳號, 受管理帳號, BYOD, 企業級App, 開發者App, 封鎖的App, 登入學校或工作用帳號, 虛擬私人網路",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "MDM, Gestione dei dispositivi mobili, Profili, Profili di configurazione, Profili scaricati, Registrazione utente, Account gestito, BYOD, App aziendali, App di sviluppo, App bloccate, Accedi all’account di lavoro o scolastico, VPN, Virtual Private Network",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "MDM, मोबाइल डिवाइस प्रबंधन, प्रोफ़ाइल, कॉन्फ़िगरेशन प्रोफ़ाइल, डाउनलोड की गई प्रोफ़ाइल, यूज़र नामांकन, प्रबंधित खाता, BYOD, एंटरप्राइज़ ऐप्स, डेवलपर ऐप्स, ब्लॉक किए गए ऐप्स, कार्यस्थल या स्कूल खाते में साइन इन करें, वर्चुअल प्राइवेट नेटवर्क",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "MDM, gestão de dispositivos móveis, perfis, perfis de configuração, perfis descarregados, inscrição de utilizadores, conta gerida, BYOD, aplicações empresariais, aplicações de programadores, aplicações bloqueadas, iniciar sessão na conta do trabalho ou da escola, rede privada virtual",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "MDM, Správa mobilných zariadení, Profily, Konfiguračné profily, Stiahnuté profily, Registrácia užívateľa, Spravovaný účet, BYOD, Podnikové apky, Vývojárske apky, Zablokované apky, Prihlásenie do pracovného alebo školského konta, Virtuálna privátna sieť",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "MDM, Mobile Device Management, Verwaltung mobiler Geräte, Profile, Konfigurationsprofile, geladene Profile, Benutzerregistrierung, verwalteter Account, BYOD, Enterprise Apps, Entwickler-Apps, blockierte Apps, bei Arbeits- oder Schulaccount anmelden, Virtual Private Network, VPN, virtuelles privates Netzwerk",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "MDM, Zarządzanie urządzeniem przenośnym, Mobile Device Management, Profile, Profile konfiguracji, Pobrane profile, Rejestracja użytkownika, Konto zarządzane, BYOD, Aplikacje firmowe, Aplikacje dewelopera, Zablokowane aplikacje, Zaloguj się na koncie służbowym lub szkolnym, VPN, Wirtualna sieć prywatna, Virtual Private Network",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "MDM, Mobile Device Management, Profiler, Konfigurationsprofiler, Konfigureringsprofiler, Hämtade profiler, Användarregistrering, Hanterat konto, Hanterade konton, BYOD, Företagsappar, Utvecklarappar, Blockerade appar, Logga in på arbets- eller skolkonto, Virtuellt privat nätverk",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "MDM, മൊബൈൽ ഡിവൈസ് മാനേജ്മെന്റ്, പ്രൊഫൈലുകൾ, കോൺഫിഗറേഷൻ പ്രൊഫൈലുകൾ, ഡൗൺലോഡ് ചെയ്ത പ്രൊഫൈലുകൾ, യൂസർ എൻറോൾമെന്റ്, മാനേജ് ചെയ്ത അക്കൗണ്ടുകൾ, BYOD, എന്റർപ്രൈസ് ആപ്പുകൾ, ഡെവലപ്പർ ആപ്പുകൾ,ബ്ലോക്ക് ചെയ്ത ആപ്പുകൾ, ജോലിസ്ഥലത്തെ അല്ലെങ്കിൽ സ്കൂൾ അക്കൗണ്ടിൽ സൈൻ ഇൻ ചെയ്യൂ, വെർച്ച്വൽ സ്വകാര്യ നെറ്റ്‌വർക്ക്",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "MDM, 移动设备管理, 描述文件, 配置描述文件, 已下载的描述文件, 用户注册, 管理式账户, BYOD, 企业级App, 开发者App, 已阻止的App, 登录工作或学校账户, 虚拟专用网络",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "MDM, Mobile Device Management, Mobielapparaatbeheer, Profielen, Configuratieprofielen, Gedownloade profielen, Gebruikersinschrijving, Beheerde account, BYOD, Enterprise Apps, Bedrijfsapps, Developer Apps, Ontwikkelaarsapps, Geblokkeerde apps, Log in bij je werk- of schoolaccount, Virtual Private Network, VPN",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "MDM, 모바일 기기 관리, 프로필, 구성 프로필, 다운로드 프로필, 사용자 등록, 관리형 계정, BYOD, 기업용 앱, 개발자 앱, 차단된 앱, 직장 또는 학교 계정에 로그인, 가상 개인 네트워크",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "إدارة جهاز الجوال، إدارة الجهاز الجوال، إدارة الأجهزة الجوالة، إدارة جهاز المحمول، إدارة الجهاز المحمول، إدارة الأجهزة المحمولة، ملفات تعريف، ملفات تعريف تكوين، ملفات تعريف تم تنزيلها، ملفات تعريف منزلة، تسجيل المستخدم، حساب مدار، حساب تتم إدارته، حساب يخضع للإدارة، أحضر جهازك الشخصي، أحضر جهازك الخاص، مؤسسة، شركة، تطبيقات، تطبيقات المطورين، تطبيقات محظورة، تسجيل الدخول إلى حساب العمل أو المدرسة، شبكة خاصة ظاهرية، شبكة خاصة افتراضية، MDM, Mobile Device Management, Profiles, Configuration Profiles, Downloaded Profiles, User Enrollment, Managed Account, BYOD, Enterprise Apps, Developer Apps, Blocked Apps, Sign In to Work or School Account, Virtual Private Network",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "MDM, Керування мобільним пристроєм, Профілі, Профілі конфігурації, Викачані профілі, Реєстрація користувача, Керований обліковий запис, BYOD, Корпоративні програми, Програми розробника, Заблоковані програми, Увійти в робочий або шкільний обліковий запис, Віртуальна приватна мережа",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "MDM, Mobile Device Management, Profiles, Configuration Profiles, Downloaded Profiles, User Enrollment, Managed Account, BYOD, Enterprise Apps, Developer Apps, Blocked Apps, Sign In to Work or School Account, Virtual Private Network, モバイルデバイス管理, プロファイル, 構成プロファイル, ダウンロード済みプロファイル, ユーザ登録, 管理対象アカウント, エンタープライズアプリ, デベロッパアプリ, ブロックされたアプリ, 勤務先または学校のアカウントでサインイン, 仮想プライベートネットワーク, バーチャルプライベートネットワーク, VPN",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "MDM, Gestionare dispozitive mobile, Profiluri, Profiluri de configurare, Profiluri descărcate, Înscriere utilizator, Cont gestionat, BYOD, Aplicații organizaționale, Aplicații dezvoltator, Aplicații blocate, Autentificați‑vă în contul de serviciu sau de la școală, Rețea virtuală privată",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "‏MDM، موبائل ڈیوائس مینجمنٹ، پروفائل، کنفیگریشن پروفائل، ڈاؤنلوڈ کردہ پروفائل، صارف کا اندراج، زیر انتظام اکاؤنٹ، ‏BYOD، انٹرپرائز ایپ، ڈیولپر ایپ، بلاک کردہ ایپ، دفتر یا اسکول کے اکاؤنٹ میں سائن اِن کریں، ورچوئل نجی نیٹ ورک",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "MDM, ମୋବାଇଲ୍ ଡିଭାଇସ୍ ପରିଚାଳନା, ପ୍ରୋଫାଇଲ୍, କନ୍‌ଫିଗରେଶନ୍‌ ପ୍ରୋଫାଇଲ୍, ଡାଉନ୍‌ଲୋଡ୍ ହୋଇଥିବା ପ୍ରୋଫାଇଲ୍, ୟୁଜର୍‌ ନାମାଙ୍କନ, ପରିଚାଳିତ ଆକାଉଣ୍ଟ୍‌, BYOD, ଏଣ୍ଟର୍‌ପ୍ରାଇଜ୍‌ ଆପ୍‌, ଡିଭେଲେପର୍‌ ଆପ୍‌, ବ୍ଲକ୍‌ ହୋଇଥିବା ଆପ୍‌, କାର୍ଯ୍ୟ କିମ୍ବା ସ୍କୂଲ ଆକାଉଣ୍ଟ୍‌ରେ ସାଇନ୍ ଇନ୍ କରନ୍ତୁ, ଭର୍ଚୁଅଲ୍ ବ୍ଯକ୍ତିଗତ ନେଟ୍‌ୱର୍କ୍‌",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "‏MDM, ניהול מכשירים ניידים, פרופילים, פרופילי הגדרות, פרופילים שהורדו, רישום משתמש, חשבון מנוהל, BYOD, יישומים ארגוניים, יישומים למפתחים, יישומים חסומים, התחברות לחשבון עבודה או בית ספר, רשת פרטית וירטואלית",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "pt",
+        "target" : "MDM, Gerenciamento de Dispositivo Celular, Perfis, Perfis de Configuração, Perfis Baixados, Registro do Usuário, Conta Gerenciada, BYOD, Apps Empresariais, Apps do Desenvolvedor, Apps Bloqueados, Iniciar a Sessão na Conta do Trabalho ou da Escola, Virtual Private Network, VPN",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "MDM, Мобилно управление на устройства, Профили, Конфигурационни профили, Изтеглени профили, Записвания на потребител, Управляема регистрация, BYOD, Корпоративни приложения, Приложения на разработчици, Блокирани приложения, Регистрации с вход за работа или училище, Виртуална частна мрежа",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "MDM, mobiliųjų įrenginių valdymas, profiliai, konfigūracijos profiliai, atsisiųsti profiliai, naudotojo registracija, valdoma paskyra, BYOD, įmonės programos, kūrėjo programos, užblokuotos programos, prisijungimas prie darbo ar mokymo įstaigos paskyros, virtualus privatusis tinklas",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "MDM, मोबाइल डिव्हाइस व्यवस्थापन, प्रोफाइल, कॉन्फिगरेशन प्रोफाइल, डाउनलोड केलेले प्रोफाइल, यूझर नोंदणी, मॅनेज केलेले अकाउंट, BYOD, एंटरप्राइझ ॲप, डेव्हलपर ॲप, ब्लॉक केलेले ॲप, कार्यस्थळ किंवा शाळेच्या अकाउंटमध्ये साइन इन करा, व्हर्चुअल गोपनीय नेटवर्क",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "MDM, Mobile Device Management, Profiles, Configuration Profiles, Downloaded Profiles, User Enrolment, Managed Account, BYOD, Enterprise Apps, Developer Apps, Blocked Apps, Sign In to Work or School Account, Virtual Private Network",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "MDM, administración de dispositivos móviles, perfiles, perfiles de configuración, perfiles descargados, inscripción del usuario, cuenta administrada, BYOD, apps empresariales, app para desarrolladores, apps bloqueadas, iniciar sesión en cuenta de escuela o trabajo, VPN, red privada virtual",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "MDM, Quản lý thiết bị di động, Hồ sơ, Hồ sơ cấu hình, Hồ sơ đã tải về, Đăng ký người dùng, Tài khoản được quản lý, BYOD, Ứng dụng doanh nghiệp, Ứng dụng của nhà phát triển, Ứng dụng bị chặn, Đăng nhập vào tài khoản công ty hoặc trường học, Mạng riêng ảo",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      }
+    ],
+    "SEARCH_LABEL" : [
+      {
+        "language" : "ms",
+        "target" : "VPN & Pengurusan Peranti",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "VPN y gestión de dispositivos",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "VPN এবং ডিভাইস ম্যানেজমেন্ট",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "VPN и управление устройством",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "VPN i upravljanje uređajem",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "th",
+        "target" : "การจัดการ VPN และอุปกรณ์",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "VPN i gestió de dispositius",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "VPN & డివైజ్ మేనేజ్‌మెంట్",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Manajemen VPN & Perangkat",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "VPN in upravljanje naprav",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "VPN og Administration af enhed",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "VPN ਅਤੇ ਡਿਵਾਈਸ ਪ੍ਰਬੰਧਨ",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "VPN & சாதன மேலாண்மை",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "VPN ಹಾಗೂ ಸಾಧನ ನಿರ್ವಹಣೆ",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "VPN & Device Management",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "VPN ja laitehallinta",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "VPN et gestion de l’appareil",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "VPN και διαχείριση συσκευών",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "VPN અને ડિવાઇસ મૅનેજમેંટ",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "VPN- és eszközfelügyelet",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "VPN et gestion de l’appareil",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "VPN og enhetsadministrering",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "VPN ve Aygıt Yönetimi",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "VPN與裝置管理",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "VPN a správa zařízení",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "VPN және құрылғыларды басқару",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "VPN & Device Management",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "VPN與裝置管理",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "VPN e gestione dispositivo",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "VPN और डिवाइस प्रबंधन",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Gestão de dispositivos e VPN",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "VPN a správa zariadenia",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "VPN und Geräteverwaltung",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "VPN i urządzenia zarządzane",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "VPN och enhetshantering",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "VPN-ഉം ഡിവൈസ് മാനേജ്മെന്റും",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "VPN与设备管理",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "VPN- en apparaatbeheer",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "VPN 및 기기 관리",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "‏VPN وإدارة الأجهزة",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "VPN і керування пристроєм",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "VPNとデバイス管理",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "VPN și gestionare dispozitive",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "‏VPN اور ڈیوائس مینیجمنٹ",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "VPN ଓ ଡିଭାଇସ୍ ପରିଚାଳନା",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "ניהול מכשירים ו-VPN",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "pt",
+        "target" : "Gestão de VPN e Dispositivo",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "VPN и Управление на устройство",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "VPN ir įrenginių valdymas",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "VPN व डिव्हाइस व्यवस्थापन",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "VPN & Device Management",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Admón. de dispositivos y VPN",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Quản lý VPN & thiết bị",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      }
+    ],
+    "SEARCH_DESCRIPTION" : [
+      {
+        "language" : "ms",
+        "target" : "Umum → VPN & Pengurusan Peranti",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "General → VPN y gestión de dispositivos",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "জেনারেল → VPN ও ডিভাইস ম্যানেজমেন্ট",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Основные → VPN и управление устройством",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Općenito → VPN i upravljanje uređajem",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "th",
+        "target" : "ทั่วไป → การจัดการ VPN และอุปกรณ์",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "General → VPN i gestió de dispositius",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "సాధారణం → VPN & డివైజ్ మేనేజ్‌మెంట్",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Umum → Manajemen VPN & Perangkat",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Splošno > VPN in upravljanje naprav",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Generelt → VPN og Administration af enhed",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "ਆਮ→VPN ਅਤੇ ਡਿਵਾਈਸ ਪ੍ਰਬੰਧਨ",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "பொது அமைப்புகள் → VPN & சாதன மேலாண்மை",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ಸಾಮಾನ್ಯ → VPN ಹಾಗೂ ಸಾಧನ ನಿರ್ವಹಣೆ",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "General → VPN & Device Management",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Yleiset → VPN ja laitehallinta",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Général → VPN et gestion de l’appareil",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Γενικά → VPN και διαχείριση συσκευών",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "સામાન્ય → VPN અને ડિવાઇસ મૅનેજમેંટ",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Általános → VPN- és eszközfelügyelet",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Général → VPN et gestion de l’appareil",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Generelt → VPN og enhetsadministrering",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "Genel → VPN ve Aygıt Yönetimi",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "一般 → VPN與裝置管理",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Obecné → VPN a správa zařízení",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "«Жалпы» → «VPN және құрылғыны басқару»",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "General → VPN & Device Management",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "一般 → VPN與裝置管理",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Generali → VPN e gestione dispositivo",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "सामान्य → VPN और डिवाइस प्रबंधन",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Geral → Gestão de dispositivos e VPN",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Všeobecné → VPN a správa zariadenia",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Allgemein → VPN und Geräteverwaltung",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Ogólne → VPN i urządzenia zarządzane",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Allmänt → VPN och enhetshantering",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "പൊതുവായവ → VPN-ഉം ഡിവൈസ് മാനേജ്മെന്റും",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "通用→VPN与设备管理",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Algemeen → VPN- en apparaatbeheer",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "일반 → VPN 및 기기 관리",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "عام ← ‏VPN وإدارة الأجهزة",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Загальні → VPN і керування пристроєм",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "一般 → VPNとデバイス管理",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "General → VPN și gestionare dispozitive",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "عام ← ‏VPNاور ڈیوائس مینجمنٹ",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "ସାଧାରଣ → VPN ଓ ଡିଭାଇସ୍ ପରିଚାଳନା",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "כללי ← ניהול מכשירים ו-VPN",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "pt",
+        "target" : "Geral → Gestão de VPN e Dispositivo",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Основни → VPN и Управление на устройство",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "Bendrieji → VPN ir įrenginių valdymas",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "सामान्य → VPN व डिव्हाइस व्यवस्थापन",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "General → VPN & Device Management",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "General → Admón. de dispositivos y VPN",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Cài đặt chung → Quản lý VPN & thiết bị",
+        "filename" : "SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/PreferenceManifests\/MCUISettingsSearch.bundle\/SettingsSearchManifest-com.apple.devicemanagementclient.MCUISettingsSearch.loctable",
+  "bundlePath" : "\/System\/Library\/PreferenceManifests\/MCUISettingsSearch.bundle"
+}

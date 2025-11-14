@@ -1,0 +1,279 @@
+{
+  "framework" : "ReplayKit.framework",
+  "localizations" : {
+    "PRIVACY_INDICATOR_APPNAME_BODY" : [
+      {
+        "language" : "th",
+        "target" : "{\"days\":{\"other\":\"%ld วัน\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"other\":\"%ld ครั้ง\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%@” ได้เข้าถึงหน้าจอและเสียงของระบบของคุณไปแล้ว %#@times@ใน %#@days@ที่ผ่านมา คุณสามารถจัดการการเข้าถึงได้ในการตั้งค่า\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "{\"days\":{\"one\":\"நேற்று\",\"other\":\"கடந்த %ld நாட்களில்\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld முறை\",\"other\":\"%ld முறை\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"%3$#@days@ உங்கள் திரையையும் சிஸ்டம் ஆடியோவையும் %2$#@times@ “%1$@” அணுகியுள்ளது. இதை அமைப்புகளில் நீங்கள் நிர்வகிக்கலாம்.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "{\"days\":{\"one\":\"el último día\",\"other\":\"los últimos %ld días\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld vez\",\"other\":\"%ld veces\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"%@ accedió a tu pantalla y al audio del sistema %#@times@ en %#@days@. Puedes administrar esto en Configuración.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "{\"days\":{\"few\":\"последние %ld дня\",\"one\":\"последний %ld день\",\"other\":\"последние %ld дня\",\"many\":\"последние %ld дней\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"few\":\"%ld раза\",\"one\":\"%ld раз\",\"other\":\"%ld раза\",\"many\":\"%ld раз\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"За последние %3$#@days@ приложение «%1$@» %2$#@times@ получило доступ к Вашему экрану и системному звуку. Этим можно управлять в Настройках.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "{\"days\":{\"one\":\"دن\",\"other\":\"‏%ld دن\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld بار\",\"other\":\"%ld بار\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%1$@” نے گزشتہ %3$#@days@ میں آپ کی اسکرین اور سسٹم آڈیو تک %2$#@times@ رسائی کی ہے۔ آپ سیٹنگ میں جا کر اس کا نظم کر سکتے ہیں۔\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "{\"days\":{\"one\":\"el darrer dia\",\"other\":\"els darrers %ld dies\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld vegada\",\"other\":\"%ld vegades\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"L’app %@ ha accedit a tot el contingut de la pantalla i a l’àudio del sistema %#@times@ durant %#@days@. Pots gestionar‑ho a la configuració.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"days\":{\"one\":\"दिन\",\"other\":\"%ld दिन\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld बार\",\"other\":\"%ld बार\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%1$@” ने पिछले %3$#@days@ में आपकी स्क्रीन और सिस्टम ऑडियो को %2$#@times@ बार ऐक्सेस किया है। आप इसे सेटिंग में प्रबंधित कर सकते हैं।\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"days\":{\"other\":\"%ld일\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"other\":\"%ld번\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"‘%1$@’ 앱이 지난 %3$#@days@일 동안 사용자의 화면 및 시스템 오디오에 %2$#@times@번 접근했습니다. 설정에서 이를 관리할 수 있습니다.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "{\"days\":{\"one\":\"দিনে\",\"other\":\"%ld দিনে\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld বার\",\"other\":\"%ld বার\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%1$@” গত %3$#@days@ দিনে আপনার স্ক্রিন ও সিস্টেম অডিওতে %2$#@times@ বার অ্যাক্সেস করেছে। আপনি সেটিংসে এটি পরিচালনা করতে পারেন।\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"days\":{\"one\":\"päivän\",\"other\":\"%ld päivän\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld kerran\",\"other\":\"%ld kertaa\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"%@ on käyttänyt näyttöäsi ja järjestelmän ääntä %#@times@ kuluneen %#@days@ aikana. Voit hallita tätä Asetuksissa.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "{\"days\":{\"other\":\"%ld hari\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"other\":\"%ld kali\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%@” telah mengakses layar dan audio sistem Anda %#@times@ dalam %#@days@ ke belakang. Anda dapat mengelola ini di Pengaturan.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"days\":{\"one\":\"ημέρα\",\"other\":\"%ld ημέρες\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld φορά\",\"other\":\"%ld φορές\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Η οθόνη και ο ήχος συστήματός σας προσπελάστηκαν %2$#@times@ τις περασμένες %3$#@days@ από «%1$@». Μπορείτε να διαχειριστείτε αυτήν την επιλογή στις Ρυθμίσεις.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"days\":{\"few\":\"protekla %ld dana\",\"one\":\"protekli %ld dan\",\"other\":\"proteklih %ld dana\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"few\":\"%ld puta\",\"one\":\"%ld put\",\"other\":\"%ld puta\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Aplikacija “%@” pristupila je vašem zaslonu i zvuku sustava %#@times@ u proteklih %#@days@. Time možete upravljati u Postavkama.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"days\":{\"one\":\"gestern\",\"other\":\"in den letzten %ld Tagen\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld-mal\",\"other\":\"%ld-mal\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"„%1$@“ hat in den letzten %3$#@days@ %2$#@times@ auf deinen Bildschirm und dein Systemaudio zugegriffen. Du kannst dies in den Einstellungen verwalten.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"days\":{\"one\":\"den senaste dagen\",\"other\":\"de senaste %ld dagarna\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld gång\",\"other\":\"%ld gånger\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"%@ har använt skärmen och systemljudet %#@times@ under %#@days@. Du kan hantera detta i Inställningar.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "{\"days\":{\"one\":\"દિવસમાં\",\"other\":\"%ld દિવસમાં\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld વાર\",\"other\":\"%ld વખત\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"પાછલાં %3$#@days@માં તમારી સ્ક્રીન અને સિસ્ટમ ઑડિઓને “%1$@” દ્વારા %2$#@times@ ઍક્સેસ કરવામાં આવ્યું. તમે સેટિંગ્સમાં આને મૅનેજ કરી શકો છો.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "{\"days\":{\"few\":\"%ld dni\",\"one\":\"1 dnia\",\"other\":\"%ld dnia\",\"many\":\"%ld dni\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"few\":\"%ld razy\",\"one\":\"%ld raz\",\"other\":\"%ld raza\",\"many\":\"%ld razy\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Aplikacja %@ uzyskała dostęp do Twojego ekranu i dźwięku systemowego %#@times@ w ciągu ostatnich %#@days@. Możesz tym zarządzać w Ustawieniach.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "{\"days\":{\"other\":\"%ld ngày\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"other\":\"%ld lần\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%@” đã truy cập vào màn hình và âm thanh hệ thống của bạn %#@times@ trong %#@days@ qua. Bạn có thể quản lý việc này trong Cài đặt.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"days\":{\"few\":\"zadnjih %ld dneh\",\"one\":\"zadnjem %ld dnevu\",\"other\":\"zadnjih %ld dneh\",\"two\":\"zadnjih %ld dneh\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"few\":\"%ld‑krat\",\"one\":\"%ld‑krat\",\"other\":\"%ld‑krat\",\"two\":\"%ld‑krat\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Aplikacija »%1$@« je v %3$#@days@ %2$#@times@dostopala do zaslona in sistemskega zvoka. To lahko upravljate v Nastavitvah.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"days\":{\"few\":\"posledných %ld dní\",\"one\":\"posledného %ld dňa\",\"other\":\"posledných %ld dní\",\"many\":\"posledného %ld dňa\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"few\":\"%ld-krát\",\"one\":\"%ld-krát\",\"other\":\"%ld-krát\",\"many\":\"%ld-krát\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Apka %1$@ počas %3$#@days@ pristupovala k vašej obrazovke a systémovému zvuku %2$#@times@. Spravovať to môžete v Nastaveniach.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"days\":{\"one\":\"dag\",\"other\":\"%ld dagen\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld keer\",\"other\":\"%ld keer\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"%1$@ heeft in de afgelopen %3$#@days@ %2$#@times@ toegang gehad tot je scherm en systeemaudio. Je kunt dit beheren in Instellingen.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "{\"days\":{\"one\":\"ଦିନ\",\"other\":\"%ld ଦିନ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld ଥର\",\"other\":\"%ld ଥର\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"ଗତ %3$#@days@ରେ “%1$@” ଆପଣଙ୍କ ସ୍କ୍ରୀନ୍‌ ଓ ସିଷ୍ଟମ୍ ଅଡିଓକୁ %2$#@times@ ଆକ୍ସେସ୍ କରିଛି। ଆପଣ ସେଟିଂସ୍‌ରେ ଏହାକୁ ପରିଚାଳନା କରିପାରିବେ।\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "{\"days\":{\"one\":\"ദിവസം\",\"other\":\"%ld ദിവസത്തിൽ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld തവണ\",\"other\":\"%ld തവണ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"കഴിഞ്ഞ %3$#@days@ ‘%1$@‘ നിങ്ങളുടെ സ്ക്രീനും സിസ്റ്റം ഓഡിയോയും %2$#@times@ ആക്സസ് ചെയ്തു. നിങ്ങൾക്ക് ഇത് ക്രമീകരണത്തിൽ മാനേജ് ചെയ്യാം.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"days\":{\"one\":\"el último día\",\"other\":\"los últimos %ld días\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld vez\",\"other\":\"%ld veces\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"%@ accedió a tu pantalla y al audio del sistema %#@times@ en %#@days@. Puedes administrar esto en Configuración.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "{\"days\":{\"other\":\"%ld天\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"other\":\"%ld次\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"「%1$@」在過去%3$#@days@已取用你的螢幕和系統音訊%2$#@times@。你可以在「設定」中加以管理。\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"days\":{\"one\":\"day\",\"other\":\"%ld days\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld time\",\"other\":\"%ld times\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%@” has accessed your screen and system audio %#@times@ in the past %#@days@. You can manage this in Settings.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"days\":{\"other\":\"%ld天\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"other\":\"%ld次\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%1$@”已在过去%3$#@days@%2$#@times@访问你的屏幕和系统音频。你可以在“设置”中进行管理。\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"days\":{\"one\":\"no último dia\",\"other\":\"nos últimos %ld dias\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld vez\",\"other\":\"%ld vezes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"A aplicação %@ acedeu ao seu ecrã e ao áudio do sistema %#@times@ nos últimos %#@days@. Pode gerir este acesso nas Definições.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"days\":{\"few\":\"%ld днів\",\"one\":\"%ld дня\",\"other\":\"%ld дня\",\"many\":\"%ld днів\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"few\":\"%ld рази\",\"one\":\"%ld раз\",\"other\":\"%ld раза\",\"many\":\"%ld разів\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Програма «%@» отримувала доступ до вашого екрана й системного звуку %#@times@ протягом %#@days@. Можна керувати цим у Параметрах.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "{\"days\":{\"one\":\"nas últimas 24 horas\",\"other\":\"nos últimos %ld dias\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld vez\",\"other\":\"%ld vezes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"O app %@ acessou a tela e o áudio do sistema %#@times@ nos últimos %#@days@. Você pode gerenciar isso nos Ajustes.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"days\":{\"one\":\"day\",\"other\":\"%ld days\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld time\",\"other\":\"%ld times\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%@” has accessed your screen and system audio %#@times@ in the past %#@days@. You can manage this in Settings.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"days\":{\"one\":\"اليوم الماضي\",\"few\":\"%ld أيام الماضية\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"%ld يومًا الماضي\",\"two\":\"اليومين الماضيين\",\"other\":\"%ld يوم الماضي\",\"NSStringFormatValueTypeKey\":\"ld\",\"zero\":\"%ld يوم الماضي\"},\"times\":{\"one\":\"مرة واحدة\",\"few\":\"%ld مرات\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"%ld مرة\",\"two\":\"مرتين\",\"other\":\"%ld مرة\",\"NSStringFormatValueTypeKey\":\"ld\",\"zero\":\"%ld مرة\"},\"NSStringLocalizedFormatKey\":\"تمكَّن \\\"%@\\\" من الوصول إلى شاشتك وصوت النظام %#@times@ خلال %#@days@ الماضية. يمكنك إدارة ذلك في الإعدادات.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"days\":{\"other\":\"%ld日\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"other\":\"%ld次\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"「%1$@」在過去%3$#@days@內已取用你的螢幕和系統音訊%2$#@times@。你可以在「設定」中管理有關設定。\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "{\"days\":{\"one\":\"ден\",\"other\":\"%ld дни\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld път\",\"other\":\"%ld пъти\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"„%@“ имаше достъп до вашите екран и системно аудио %#@times@ в последните %#@days@. Можете да управлявате това в Настройки.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"days\":{\"one\":\"hier\",\"other\":\"au cours des %ld derniers jours\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld fois\",\"other\":\"%ld fois\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"« %@ » a accédé à votre écran et au son système %#@times@ %#@days@. Vous pouvez gérer ceci dans Réglages.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "{\"days\":{\"one\":\"दिवस\",\"other\":\"%ld दिवस\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld वेळ\",\"other\":\"%ld वेळा\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"‘%@’ ने तुमची स्क्रीन आणि सिस्टीम ऑडिओ मागील %#@times@ दिवसांमध्ये %#@days@ वेळा ॲक्सेस केली आहे. हे तुम्ही सेटिंगमध्ये मॅनेज करू शकता.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"days\":{\"few\":\"posledních %ld dnů\",\"one\":\"posledního dne\",\"other\":\"posledních %ld dnů\",\"many\":\"posledního %ld dne\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"few\":\"%ld×\",\"one\":\"%ld×\",\"other\":\"%ld×\",\"many\":\"%ld×\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Aplikace %1$@ během %3$#@days@ %2$#@times@ využila přístup k vaší obrazovce a systémovému zvuku. Volby přístupu můžete spravovat v Nastavení.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"days\":{\"one\":\"dag\",\"other\":\"%ld dager\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld gang\",\"other\":\"%ld ganger\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"«%@» har hatt tilgang til skjermen og systemlyden %#@times@ i løpet av siste %#@days@. Du kan administrere dette i Innstillinger.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "{\"days\":{\"other\":\"%ld hari\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"other\":\"%ld kali\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%@” telah mengakses skrin dan audio sistem anda %#@times@ kali dalam masa %#@days@ lalu. Anda boleh mengurusnya dalam Seting.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "{\"days\":{\"few\":\"ultimele %ld zile\",\"one\":\"ultima zi\",\"other\":\"ultimele %ld de zile\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"few\":\"de %ld ori\",\"one\":\"%ld dată\",\"other\":\"de %ld de ori\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"„%@” a accesat întregul ecran și sunetul sistemului dvs. %#@times@ în ultimele %#@days@. Puteți gestiona această opțiune în Configurări.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "{\"days\":{\"other\":\"%ld日間\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"other\":\"%ld回\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"過去%3$#@days@日間で%2$#@times@回、%1$[tt]@から画面とシステムオーディオにアクセスがありました。これは“設定”で管理できます。\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"times\":{\"one\":\"%ld time\",\"other\":\"%ld times\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"days\":{\"one\":\"day\",\"other\":\"%ld days\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%@” has accessed your screen and system audio %#@times@ in the past %#@days@. You can manage this in Settings.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "{\"days\":{\"one\":\"ਦਿਨ\",\"other\":\"%ld ਦਿਨ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld ਵਾਰ\",\"other\":\"%ld ਵਾਰ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%1$@” ਨੇ ਪਿਛਲੇ %3$#@days@ ਵਿੱਚ ਤੁਹਾਡੀ ਸਕਰੀਨ ਅਤੇ ਸਿਸਟਮ ਆਡੀਓ ਨੂੰ %2$#@times@ ਐਕਸੈੱਸ ਕੀਤਾ ਹੈ। ਤੁਸੀਂ ਇਸ ਨੂੰ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਪ੍ਰਬੰਧਿਤ ਕਰ ਸਕਦੇ ਹੋ।\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "{\"days\":{\"one\":\"రోజు\",\"other\":\"%ld రోజులు\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld సారి\",\"other\":\"%ld సార్లు\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%1$@” గత %3$#@days@ రోజులలో మీ పూర్తి స్క్రీన్‌ను, సిస్టమ్ ఆడియోను %2$#@times@ సార్లు యాక్సెస్ చేసారు. దీన్ని మీరు సెట్టింగ్స్‌లో నిర్వహించవచ్చు.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "{\"days\":{\"one\":\"היום האחרון\",\"NSStringFormatValueTypeKey\":\"ld\",\"other\":\"‏%ld הימים האחרונים\",\"two\":\"היומיים האחרונים\",\"many\":\"‏%ld הימים האחרונים\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"times\":{\"one\":\"פעם אחת\",\"NSStringFormatValueTypeKey\":\"ld\",\"other\":\"‏%ld פעמים\",\"two\":\"פעמיים\",\"many\":\"‏%ld פעמים\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"היישום ״⁨%@⁩״ השתמש במסך ובשמע המערכת %#@times@ במהלך %#@days@. ניתן לנהל הרשאה זו ב״הגדרות״.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "{\"days\":{\"one\":\"күнде\",\"other\":\"%ld күнде\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld рет\",\"other\":\"%ld рет\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"«%1$@» соңғы %3$#@days@ экранға және жүйе дыбысына %2$#@times@ қол жеткізді. Мұны «Реттеулер» қолданбасында басқаруға болады.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"days\":{\"one\":\"nap\",\"other\":\"%ld nap\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld alkalom\",\"other\":\"%ld alkalom\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"A(z) „%@” %#@times@ fért hozzá az Ön képernyőjéhez és rendszerhangjához az elmúlt %#@days@ során. Ezt a Beállításokban kezelheti.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "{\"days\":{\"one\":\"dernières 24 heures\",\"other\":\"%ld derniers jours\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld fois\",\"other\":\"%ld fois\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"« %@ » a accédé à votre écran et aux sons du système %#@times@ au cours des %#@days@. Vous pouvez gérer ceci dans Réglages.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "{\"days\":{\"few\":\"%ld dienas\",\"one\":\"%ld dieną\",\"other\":\"%ld dienų\",\"many\":\"%ld dienos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"few\":\"%ld kartus\",\"one\":\"%ld kartą\",\"other\":\"%ld kartų\",\"many\":\"%ld karto\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"Per pastarąsias %3$#@days@ „%1$@” gavo prieigą prie jūsų ekrano ir sistemos garso %2$#@times@. Tai galite keisti „Nustatymuose“.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "{\"days\":{\"one\":\"ದಿನದಲ್ಲಿ\",\"other\":\"%ld ದಿನಗಳಲ್ಲಿ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld ಬಾರಿ\",\"other\":\"%ld ಬಾರಿ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%@” ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಮತ್ತು ಸಿಸ್ಟಂ ಆಡಿಯೊವನ್ನು %#@times@ ಕಳೆದ %#@days@ ಆ್ಯಕ್ಸೆಸ್ ಮಾಡಿದೆ. ಇದನ್ನು ನೀವು ಸೆಟ್ಟಿಂಗ್ಸ್ ಆ್ಯಪ್‌ನಲ್ಲಿ ನಿರ್ವಹಿಸಬಹುದು.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"days\":{\"one\":\"den seneste dag\",\"other\":\"de seneste %ld dage\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld gang\",\"other\":\"%ld gange\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%@” har fået adgang til din skærm og systemlyden %#@times@ gange inden for de seneste %#@days@ dage. Du kan administrere dette valg i Indstillinger.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"days\":{\"one\":\"nell’ultimo giorno\",\"other\":\"negli ultimi %ld giorni\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld volta\",\"other\":\"%ld volte\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"L’app %@ ha avuto accesso allo schermo e all’audio di sistema %#@times@ %#@days@. Puoi gestire l’opzione in Impostazioni.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"days\":{\"one\":\"bir gün\",\"other\":\"%ld gün\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld kez\",\"other\":\"%ld kez\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"“%1$@”, son %3$#@days@ içinde ekranınıza ve sistem sesinize %2$#@times@ erişti. Bunu Ayarlar’da yönetebilirsiniz.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "{\"days\":{\"one\":\"el último día\",\"other\":\"los últimos %ld días\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"times\":{\"one\":\"%ld vez\",\"other\":\"%ld veces\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"ld\"},\"NSStringLocalizedFormatKey\":\"La app %@ ha accedido a tu pantalla y al audio del sistema %#@times@ en los últimos %#@days@. Puedes gestionar los accesos en Ajustes.\"}",
+        "filename" : "LocalizablePlural.loctable"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/Frameworks\/ReplayKit.framework\/LocalizablePlural.loctable",
+  "bundlePath" : "\/System\/Library\/Frameworks\/ReplayKit.framework"
+}

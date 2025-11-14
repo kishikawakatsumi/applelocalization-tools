@@ -1,0 +1,896 @@
+{
+  "framework" : "MessageLegacy.framework",
+  "localizations" : {
+    "FAILED_FETCH_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Cannot Get Mail",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMTP_INVALID_SENDER_ADDRESS" : [
+      {
+        "language" : "en",
+        "target" : "The sender address “%@” was rejected by the server.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MF_SMTP_RECIPIENT_INVALID_ADDRESS" : [
+      {
+        "language" : "en",
+        "target" : "The recipient “%@” was rejected by the server because it is not a valid email address.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SSL_BAD_CERT_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "The format of the certificate for the server is bad.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "IMAP_SERVER_ALERT_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "The IMAP server for “%1$@” wishes to alert you to the following:\n\n%2$@",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "PASSWORD_OK" : [
+      {
+        "language" : "en",
+        "target" : "OK",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "DOWNLOADING_STATUS" : [
+      {
+        "language" : "en",
+        "target" : "Downloading",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "DISABLING_ACCOUNT_TASK_NAME_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "Disabling account “%@”",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_CANT_ENCRYPT_MESSAGE" : [
+      {
+        "language" : "en",
+        "target" : "An error occurred while trying to encrypt your message. Verify that you have valid certificates in your keychain for all of the recipients.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "TLS_NOT_SUPPORTED_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "The %1$@ server “%2$@” doesn’t support TLS (SSL) on port %3$u. Please check your account settings and try again.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_CANT_SIGN_MESSAGE" : [
+      {
+        "language" : "en",
+        "target" : "An error occurred while trying to sign this message with a certificate from “%@”. Verify that your certificate for this address is correct, and that its private key is in your keychain.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SSL_GENERIC_READ_ERROR" : [
+      {
+        "language" : "en",
+        "target" : "An SSL error occurred while trying to read data from the server “%@”. Verify that this server supports SSL and that your account settings are correct.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "DOWNLOADING_STATUS_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "Downloading %1$@ of %2$@",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "IMAP_COMMAND_FAILED_FORMAT1" : [
+      {
+        "language" : "en",
+        "target" : "IMAP command “%@” failed.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "FAILED_LOGIN" : [
+      {
+        "language" : "en",
+        "target" : "The user name or password for “%@” is incorrect.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "PASSWORD_REQUIRED_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Password Required",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MF_FAILED_SEND_MESSAGE_REJECTED" : [
+      {
+        "language" : "en",
+        "target" : "The message was rejected by the server.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "PASSWORD_CONTINUE" : [
+      {
+        "language" : "en",
+        "target" : "Continue",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MIME_GENERIC_REMOTE_ENCRYPTION_CERT_MESSAGE" : [
+      {
+        "language" : "en",
+        "target" : "An error occurred while retrieving the encryption certificate.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "FORWARDED_MESSAGE_PREFIX" : [
+      {
+        "language" : "en",
+        "target" : "Begin forwarded message:\n\n",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MF_SMTP_RECIPIENT_UNKNOWN" : [
+      {
+        "language" : "en",
+        "target" : "The recipient “%@” was rejected by the server because the user is unknown.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "INVALID_PASSWORD_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "Enter the password for the %1$@ account “%2$@”",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMTP_SENDING_CONTENT_LATER" : [
+      {
+        "language" : "en",
+        "target" : "Mail will try to send the message again later.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "BAD_CHARSET_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "Some characters in your message could not be converted to the “%@” text encoding. Please choose a different entry from the “Text Encoding” menu.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_MISSING_REMOTE_ENCRYPTION_CERT_MESSAGE" : [
+      {
+        "language" : "en",
+        "target" : "An encryption certificate for “%@” could not be found on the server. Without a certificate, you can’t encrypt messages sent to this address.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MESSAGE_AUTH_ATOKEN" : [
+      {
+        "language" : "en",
+        "target" : "Apple Token",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "READONLY_ACCOUNT_DIR_MESSAGE_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "The account path %@ is not writable. Please change the Account Directory field in the Account Options tab to a writable directory",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MF_FAILED_SEND_INACTIVE_ACCOUNT" : [
+      {
+        "language" : "en",
+        "target" : "This account is inactive. Check the settings in Settings > Accounts & Passwords.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SSL_ALERT_TITLE_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "Unable to verify SSL server %@",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MESSAGE_AUTH_OAUTH2TOKEN" : [
+      {
+        "language" : "en",
+        "target" : "OAuth 2.0 Token",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "INVALID_ACCOUNT_DIR_MESSAGE_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "The account path %1$@ is already being used by the account “%2$@”",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MESSAGE_AUTH_APOP" : [
+      {
+        "language" : "en",
+        "target" : "Authenticated POP (APOP)",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "HOST_UNREACHABLE" : [
+      {
+        "language" : "en",
+        "target" : "The server “%1$@” cannot be contacted on port %2$d.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MF_FAILED_SEND_NO_SERVER" : [
+      {
+        "language" : "en",
+        "target" : "Check the settings for the outgoing servers in Settings > Accounts & Passwords.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "DONT_KNOW_SERVICE_PORT" : [
+      {
+        "language" : "en",
+        "target" : "Can’t determine port to use for the TCP\/IP service “%@”.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MESSAGE_AUTH_GMAIL_CLIENTTOKEN" : [
+      {
+        "language" : "en",
+        "target" : "Gmail Client Token",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_MISSING_SIGNING_IDENTITY_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "You can’t send signed messages because a signing identity for the address “%@” could not be found.  Go to the Advanced settings for this account to choose a signing identity.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MF_SMTP_SENDING_LIMIT_EXCEEDED" : [
+      {
+        "language" : "en",
+        "target" : "Sending the message failed because you exceeded your sending limit.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_NO_RECIPIENTS" : [
+      {
+        "language" : "en",
+        "target" : "There are no recipients in this message.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "FAILED_SEND_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Cannot Send Mail",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MESSAGE_AUTH_CRAM_MD5" : [
+      {
+        "language" : "en",
+        "target" : "MD5 Challenge-Response",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "DELETING_ACCOUNT_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "Deleting account “%@”",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_CANT_DECRYPT_MESSAGE" : [
+      {
+        "language" : "en",
+        "target" : "This message is encrypted.  Install a profile containing your encryption identity to decrypt this message.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "VERIFICATION_REQUIRED_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Verification Required",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "DUP_ACCOUNT_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "The account “%@” already has this hostname and username.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "YAHOO_DELIVERY_HOSTNAME" : [
+      {
+        "language" : "en",
+        "target" : "Yahoo! SMTP Server",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "IMAP_UNAVAILABLE_SERVER" : [
+      {
+        "language" : "en",
+        "target" : "%@ is currently unavailable.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "FAILED_SEND_SSL_NEEDED" : [
+      {
+        "language" : "en",
+        "target" : "Check the SSL setting for the outgoing server “%@”.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_MISSING_SIGNING_AND_ENCRYPTION_IDENTITY_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "You can’t send signed or encrypted messages because identities for the address “%@” could not be found.  Go to the Advanced settings for this account to choose signing and encryption identities.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "INVALID_DIRECTORY_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Invalid Directory",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "INTERNAL_DELIVERY_ERROR_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "This message couldn’t be delivered because the following internal error occurred: %@",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_MISSING_ENCRYPTION_CERT_MESSAGES" : [
+      {
+        "language" : "en",
+        "target" : "You don’t have certificates in your keychain matching the following email addresses:\n\n%@\n\nWithout certificates, you can’t encrypt messages sent to these addresses.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_CANT_DECRYPT_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Unable to decrypt message",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MAILBOX_NAME_INCLUDES_SPECIAL_CHARACTERS" : [
+      {
+        "language" : "en",
+        "target" : "This account does not allow mailbox names containing “%@”.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "CONNECTION_FAILED" : [
+      {
+        "language" : "en",
+        "target" : "The mail server “%@” is not responding. Verify that you have entered the correct account info in Mail settings.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MF_SSL_CERT_VERIFICATION_FAILED_MESSAGE" : [
+      {
+        "language" : "en",
+        "target" : "Mail was unable to verify the identity of this server, which has a certificate issued to “%1$@”. The error was:\n\n%2$@\n\nYou might be connecting to a computer that is pretending to be “%3$@”, and putting your confidential information at risk.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SSL_GENERIC_WRITE_ERROR" : [
+      {
+        "language" : "en",
+        "target" : "An SSL error occurred while trying to provide data to the server “%@”. Verify that this server supports SSL and that your account settings are correct.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_CANT_SIGN_OR_ENCRYPT_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Unable to Sign or Encrypt",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_UNREADABLE_SIG" : [
+      {
+        "language" : "en",
+        "target" : "There was a problem reading the digital signature for this message.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "REPLY_ATTRIBUTION" : [
+      {
+        "language" : "en",
+        "target" : "On %1$@, at %2$@, %3$@ wrote:\n\n",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "DELETE_FAILED_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "Unable to delete “%@”.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MAILBOX_NAME_INCLUDES_PATH_SEPARATOR" : [
+      {
+        "language" : "en",
+        "target" : "Mailbox names may not include “%@”.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "CANNOT_DECODE_MULTIPART_MESSAGE" : [
+      {
+        "language" : "en",
+        "target" : "This message cannot be displayed because of the way it is formatted. Ask the sender to send it again using a different format or email program.\n\n%1$@\/%2$@",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MESSAGE_AUTH_PLAIN_TEXT" : [
+      {
+        "language" : "en",
+        "target" : "Password",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "FAILED_SEND" : [
+      {
+        "language" : "en",
+        "target" : "Check the account settings for the outgoing server “%@”.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SSL_CERT_CHAIN_INVALID_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "The certificate for the server is invalid.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "GMAIL_DELIVERY_HOSTNAME" : [
+      {
+        "language" : "en",
+        "target" : "Gmail SMTP Server",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "BAD_CHARSET_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Invalid Text Encoding",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SSL_CERT_EXPIRED_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "The certificate for this server has expired.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MAILBOX_EXISTS_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "The mailbox “%@” already exists.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MF_SMTP_RECIPIENT_RELAYING_NOT_ALLOWED" : [
+      {
+        "language" : "en",
+        "target" : "The recipient “%@” was rejected by the server because it does not allow relaying.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SSL_HOST_MISMATCH_MESSAGE" : [
+      {
+        "language" : "en",
+        "target" : "The certificate hostname does not match “%@”.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "DUP_ACCOUNT_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Duplicate Account",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMTP_GENERIC_ERROR_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "An error occurred while delivering this message via the SMTP server “%@”",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "CONNECTION_TIMED_OUT" : [
+      {
+        "language" : "en",
+        "target" : "The connection to the server “%1$@” on port %2$d timed out.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "CONNECTION_REFUSED" : [
+      {
+        "language" : "en",
+        "target" : "The server “%1$@” refused to allow a connection on port %2$d.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_CONFIRM_SIGNATURE_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "Mail was unable to verify the authenticity of the S\/MIME certificate provided by “%@”. Messages signed by this user may be coming from a different source.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "NO_OFFLINE_MAILBOX_RENAMING" : [
+      {
+        "language" : "en",
+        "target" : "You can’t rename mailboxes while an account is offline.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_CANT_SIGN_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Unable to Sign",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMTP_1_BAD_RECIPIENT" : [
+      {
+        "language" : "en",
+        "target" : "The recipient “%@” was rejected by the server.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_DAMAGED_SIG" : [
+      {
+        "language" : "en",
+        "target" : "The digital signature for this message is incorrect. The message may have been tampered with or corrupted since being signed by “%@”.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "CASTLE_SMTP_SERVER" : [
+      {
+        "language" : "en",
+        "target" : "iCloud SMTP Server",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "INVALID_USER_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Invalid User Name",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MSG_SERVER_ERROR" : [
+      {
+        "language" : "en",
+        "target" : "%1$@\n\nThe server error encountered was: %2$@",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "INVALID_HOST_MESSAGE_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "The “Incoming Mail Server” field cannot be empty.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "RENAME_FAILED" : [
+      {
+        "language" : "en",
+        "target" : "Mail was unable to rename “%@”.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "INVALID_PASSWORD_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Password Incorrect",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "DOWNLOADABLE_STATUS" : [
+      {
+        "language" : "en",
+        "target" : "Tap to Download",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMTP_SENDING_CONTENT_FAILED" : [
+      {
+        "language" : "en",
+        "target" : "Sending the message content to the server failed.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_OTHER_ENCRYPTION_CERT_ERROR_MESSAGE" : [
+      {
+        "language" : "en",
+        "target" : "An error occurred while searching for an encryption certificate for “%@” in your keychain.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "WEBLOGIN_PROMPT_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "Log in to your %@ account",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_CANT_ENCRYPT_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Unable to Encrypt",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "PASSWORD_PLACEHOLDER" : [
+      {
+        "language" : "en",
+        "target" : "Password",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMTP_SENDING_FAILED_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Unable to Send Email",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "NO_SMTP_HOST" : [
+      {
+        "language" : "en",
+        "target" : "You have not specified an SMTP server in Mail Preferences. You must specify a server before you can send mail.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "WARNING_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Warning",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_MISSING_ENCRYPTION_IDENTITY_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "You can’t send encrypted messages because an encryption identity for the address “%@” could not be found.  Go to the Advanced settings for this account to choose an encryption identity.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_CANT_ENCRYPT_FOR_USER_MESSAGE" : [
+      {
+        "language" : "en",
+        "target" : "An error occurred while trying to encrypt your message for “%@”. Verify that you have a valid certificate in your keychain for this address.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MF_SSL_CONNECTION_FAILURE" : [
+      {
+        "language" : "en",
+        "target" : "Mail was unable to connect to server “%1$@” using SSL on port %2$d. Verify that this server supports SSL and that your account settings are correct.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MF_FAILED_SEND_MESSAGE_TOO_LARGE" : [
+      {
+        "language" : "en",
+        "target" : "The message was rejected by the server because it is too large.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "AUTH_NOT_SUPPORTED_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "The %1$@ server “%2$@” doesn’t support %3$@ authentication. Please check your account settings and try again.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MF_SMIME_CERTIFICATE_NOT_YET_VALID_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "The certificate for the address “%1$@” is not valid until %2$@.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_SIG_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Unable to verify message signature",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "CONNECT_FAILED_NO_REASON_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "There may be a problem with the mail server or network. Check the settings for account “%@” or try again.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "POP_BAD_USERNAME_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "POP user name “%@” unrecognized.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "TLS_FAILED_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "Starting TLS failed on %1$@ server “%2$@”. Please check your account settings and try again.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "NO_RECIPIENTS" : [
+      {
+        "language" : "en",
+        "target" : "This message couldn’t be delivered because you haven’t specified any recipients.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMTP_NO_CONNECTION" : [
+      {
+        "language" : "en",
+        "target" : "The connection to the outgoing server “%@” failed. Additional Outgoing Mail Servers can be configured for Mail accounts in Settings > Accounts & Passwords.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MF_SMIME_CERTIFICATE_EXPIRED_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "The certificate for the address “%1$@” expired on %2$@.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "MESSAGE_AUTH_NTLM" : [
+      {
+        "language" : "en",
+        "target" : "NTLM",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMTP_BAD_RECIPIENTS" : [
+      {
+        "language" : "en",
+        "target" : "The recipients were rejected by the server.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SSL_NO_ROOT_CERT_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "There is no root certificate for this server.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "IMAP_COMPACT_FAILED" : [
+      {
+        "language" : "en",
+        "target" : "Mail was unable to remove the deleted messages in the mailbox “%1$@” on server “%2$@”.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "INVALID_ACCOUNT_NAME_MESSAGE_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "You already have an account named “%@”.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_MISSING_ENCRYPTION_CERT_MESSAGE" : [
+      {
+        "language" : "en",
+        "target" : "You can’t send encrypted messages because an encryption certificate for the address “%@” could not be found.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "INVALID_HOST_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Invalid Incoming Mail Server",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "DUP_ACCOUNT_DIFFERENT_TYPES_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "The account “%@” already has this hostname and username, but it is of a different type.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMTP_RECIPIENTS_UNRECOGNIZED" : [
+      {
+        "language" : "en",
+        "target" : "Verify that you have addressed this message correctly. Check your SMTP server settings in Mail Preferences and verify any advanced settings with your system administrator.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "PASSWORD_CANCEL" : [
+      {
+        "language" : "en",
+        "target" : "Cancel",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SMIME_UNTRUSTED_SIGNING_CERT_MESSAGE" : [
+      {
+        "language" : "en",
+        "target" : "You have chosen not to trust the S\/MIME certificate used by “%@” to sign this message.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "INVALID_USER_MESSAGE" : [
+      {
+        "language" : "en",
+        "target" : "The “User Name” field cannot be empty.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "ERROR_TITLE" : [
+      {
+        "language" : "en",
+        "target" : "Error",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "IMAP_OPEN_FAILED_TITLE_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "Unable to open “%@”",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "AOL_DELIVERY_HOSTNAME" : [
+      {
+        "language" : "en",
+        "target" : "AOL SMTP Server",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "IMAP_OPEN_FAILED_MSG_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "Mail was unable to open this mailbox on the server “%@”.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "SSL_UNKNOWN_ROOT_CERT_FORMAT" : [
+      {
+        "language" : "en",
+        "target" : "The root certificate for this server could not be verified.",
+        "filename" : "Delayed.loctable"
+      }
+    ],
+    "DISABLED_STATUS" : [
+      {
+        "language" : "en",
+        "target" : "Not Available",
+        "filename" : "Delayed.loctable"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/PrivateFrameworks\/MessageLegacy.framework\/Delayed.loctable",
+  "bundlePath" : "\/System\/Library\/PrivateFrameworks\/MessageLegacy.framework"
+}

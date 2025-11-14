@@ -1,0 +1,808 @@
+{
+  "framework" : "_MusicKitInternal_SwiftUI.framework",
+  "localizations" : {
+    "SONGS_COUNT" : [
+      {
+        "language" : "ms",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"other\":\"%lu lagu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu canción\",\"other\":\"%lu canciones\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%luটি গান\",\"other\":\"%luটি গান\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"few\":\"%lu песни\",\"one\":\"%lu песня\",\"other\":\"%lu песни\",\"many\":\"%lu песен\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"few\":\"%lu pjesme\",\"one\":\"%lu pjesma\",\"other\":\"%lu pjesama\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "th",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"other\":\"%lu เพลง\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu cançó\",\"other\":\"%lu cançons\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu పాట\",\"other\":\"%lu పాటలు\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"other\":\"%lu lagu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"few\":\"%lu skladbe\",\"one\":\"%lu skladba\",\"other\":\"%lu skladb\",\"two\":\"%lu skladbi\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu sang\",\"other\":\"%lu sange\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu ਗੀਤ\",\"other\":\"%lu ਗੀਤਾਂ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu song\",\"other\":\"%lu songs\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu ಹಾಡು\",\"other\":\"%lu ಹಾಡುಗಳು\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu பாடல்\",\"other\":\"%lu பாடல்கள்\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu kappale\",\"other\":\"%lu kappaletta\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu música\",\"other\":\"%lu músicas\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu morceau\",\"other\":\"%lu morceaux\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"Προστέθηκε %lu τραγούδι\",\"other\":\"Προστέθηκαν %lu τραγούδια\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu dal\",\"other\":\"%lu dal\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu ગીત\",\"other\":\"%lu ગીત\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu chanson\",\"other\":\"%lu chansons\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu sang\",\"other\":\"%lu sanger\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu parça\",\"other\":\"%lu parça\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"other\":\"%lu首歌\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"few\":\"%lu skladby\",\"one\":\"%lu skladba\",\"other\":\"%lu skladeb\",\"many\":\"%lu skladby\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu ән\",\"other\":\"%lu ән\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu song\",\"other\":\"%lu songs\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"other\":\"%lu首歌\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu brano\",\"other\":\"%lu brani\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu गीत जोड़ा गया\",\"other\":\"%lu गीत जोड़े गए\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu música\",\"other\":\"%lu músicas\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@\",\"songscount\":{\"one\":\"%lu Titel\",\"other\":\"%lu Titel\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"songscount\":{\"few\":\"%lu skladby\",\"one\":\"%lu skladba\",\"other\":\"%lu skladieb\",\"many\":\"%lu skladby\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "{\"songscount\":{\"few\":\"%lu utwory\",\"one\":\"%lu utwór\",\"other\":\"%lu utworu\",\"many\":\"%lu utworów\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"songscount\":{\"one\":\"%lu låt\",\"other\":\"%lu låtar\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "{\"songscount\":{\"one\":\"%lu പാട്ട്\",\"other\":\"%lu പാട്ടുകൾ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"songscount\":{\"other\":\"%lu首歌曲\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"songscount\":{\"one\":\"%lu nummer\",\"other\":\"%lu nummers\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"songscount\":{\"other\":\"%lu곡\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"songscount\":{\"one\":\"أغنية واحدة\",\"few\":\"‏%lu أغانٍ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"‏%lu أغنية\",\"two\":\"أغنيتان\",\"other\":\"%lu أغنية\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"‏%lu أغنية\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"songscount\":{\"few\":\"%lu пісні\",\"one\":\"%lu пісня\",\"other\":\"%lu пісні\",\"many\":\"%lu пісень\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "{\"songscount\":{\"other\":\"%lu曲\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "{\"songscount\":{\"few\":\"%lu melodii\",\"one\":\"%lu melodie\",\"other\":\"%lu de melodii\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "{\"songscount\":{\"one\":\"‏%lu گانا\",\"other\":\"‏%lu گانے\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "{\"songscount\":{\"one\":\"%lu ଟି ଗୀତ\",\"other\":\"%lu ଟି ଗୀତ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "{\"songscount\":{\"one\":\"שיר אחד\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"‏%lu שירים\",\"two\":\"שני שירים\",\"many\":\"‏%lu שירים\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "{\"songscount\":{\"one\":\"%lu песен\",\"other\":\"%lu песни\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "{\"songscount\":{\"few\":\"%lu dainos\",\"one\":\"%lu daina\",\"other\":\"%lu dainų\",\"many\":\"%lu dainos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "{\"songscount\":{\"one\":\"%lu गाणे\",\"other\":\"%lu गाणी\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"songscount\":{\"one\":\"%lu song\",\"other\":\"%lu songs\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"songscount\":{\"one\":\"%lu canción\",\"other\":\"%lu canciones\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "{\"songscount\":{\"other\":\"%lu bài hát\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      }
+    ],
+    "ADDED_SONGS_COUNT_TO_PLAYLIST_TITLE" : [
+      {
+        "language" : "ms",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ ditambahkan ke “%@”\",\"songscount\":{\"other\":\"%lu lagu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ a “%@”\",\"songscount\":{\"one\":\"Se ha añadido %lu canción\",\"other\":\"Se han añadido %lu canciones\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@টি গান “%@”-এ যোগ করা হয়েছে\",\"songscount\":{\"one\":\"%luটি গান\",\"other\":\"%luটি গান\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ в плейлист «%@».\",\"songscount\":{\"few\":\"%lu песни добавлены\",\"one\":\"%lu песня добавлена\",\"other\":\"%lu песни добавлены\",\"many\":\"%lu песен добавлены\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ u “%@”\",\"songscount\":{\"few\":\"%lu pjesme dodane\",\"one\":\"%lu pjesma dodana\",\"other\":\"%lu pjesama dodano\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "th",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"เพิ่ม %#@songscount@ไปยัง “%@” แล้ว\",\"songscount\":{\"other\":\"%lu เพลง\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ a “%@”.\",\"songscount\":{\"one\":\"S’ha afegit %lu cançó\",\"other\":\"S’han afegit %lu cançons\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"“%2$@”కి %1$#@songscount@\",\"songscount\":{\"one\":\"%lu పాట జోడించబడింది\",\"other\":\"%lu పాటలు జోడించబడ్డాయి\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ ditambahkan ke “%@”\",\"songscount\":{\"other\":\"%lu lagu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ na seznam predvajanja »%@«\",\"songscount\":{\"few\":\"%lu skladbe so bile dodane\",\"one\":\"%lu skladba je bila dodana\",\"other\":\"%lu skladb je bilo dodanih\",\"two\":\"%lu skladbi sta bili dodani\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ føjet til “%@”\",\"songscount\":{\"one\":\"%lu sang\",\"other\":\"%lu sange\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ ਨੂੰ “%@” ਵਿੱਚ ਜੋੜਿਆ ਗਿਆ\",\"songscount\":{\"one\":\"%lu ਗੀਤ\",\"other\":\"%lu ਗੀਤਾਂ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ added to “%@”\",\"songscount\":{\"one\":\"%lu song\",\"other\":\"%lu songs\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ “%@”ಗೆ ಸೇರಿಸಲಾಗಿದೆ\",\"songscount\":{\"one\":\"%lu ಹಾಡನ್ನು\",\"other\":\"%lu ಹಾಡುಗಳನ್ನು\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"“%2$@”இல் சேர்க்கப்பட்டவை: %1$#@songscount@\",\"songscount\":{\"one\":\"%lu பாடல்\",\"other\":\"%lu பாடல்கள்\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ lisättiin listaan %@\",\"songscount\":{\"one\":\"%lu kappale\",\"other\":\"%lu kappaletta\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ à playlist “%@”\",\"songscount\":{\"one\":\"%lu música adicionada\",\"other\":\"%lu músicas adicionadas\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ à « %@ ».\",\"songscount\":{\"one\":\"%lu morceau ajouté\",\"other\":\"%lu morceaux ajoutés\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ σε «%@».\",\"songscount\":{\"one\":\"Προστέθηκε %lu τραγούδι\",\"other\":\"Προστέθηκαν %lu τραγούδια\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ hozzáadva a következőhöz: „%@”\",\"songscount\":{\"one\":\"%lu dal\",\"other\":\"%lu dal\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"“%2$@” માં %1$#@songscount@ ઉમેરો\",\"songscount\":{\"one\":\"%lu ગીત\",\"other\":\"%lu ગીત\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ à « %@ »\",\"songscount\":{\"one\":\"%lu chanson ajoutée\",\"other\":\"%lu chansons ajoutées\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ lagt til i «%@»\",\"songscount\":{\"one\":\"%lu sang\",\"other\":\"%lu sanger\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ “%@” listesine eklendi.\",\"songscount\":{\"one\":\"%lu parça\",\"other\":\"%lu parça\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"已將%#@songscount@加至「%@」\",\"songscount\":{\"other\":\"%lu首歌\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"Do playlistu %2$@ %1$#@songscount@.\",\"songscount\":{\"few\":\"byly přidány %lu skladby\",\"one\":\"byla přidána %lu skladba\",\"other\":\"bylo přidáno %lu skladeb\",\"many\":\"bylo přidáno %lu skladby\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ «%@» плейлистіне қосылды\",\"songscount\":{\"one\":\"%lu ән\",\"other\":\"%lu ән\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ added to “%@”\",\"songscount\":{\"one\":\"%lu song\",\"other\":\"%lu songs\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"已將%#@songscount@加入「%@」\",\"songscount\":{\"other\":\"%lu首歌\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ a “%@”\",\"songscount\":{\"one\":\"%lu brano aggiunto\",\"other\":\"%lu brani aggiunti\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"“%2$@” में %1$#@songscount@\",\"songscount\":{\"one\":\"%lu गीत जोड़ा गया\",\"other\":\"%lu गीत जोड़े गए\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ a “%@”\",\"songscount\":{\"one\":\"%lu música adicionada\",\"other\":\"%lu músicas adicionadas\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ hinzugefügt zu „%@“\",\"songscount\":{\"one\":\"%lu Titel\",\"other\":\"%lu Titel\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"songscount\":{\"few\":\"boli pridané %lu skladby\",\"one\":\"bola pridaná %lu skladba\",\"other\":\"bolo pridaných %lu skladieb\",\"many\":\"bolo pridanej %lu skladby\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"Do „%2$@“ %1$#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "{\"songscount\":{\"few\":\"%lu utwory\",\"one\":\"%lu utwór\",\"other\":\"%lu utworu\",\"many\":\"%lu utworów\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ dodano do „%@”.\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"songscount\":{\"one\":\"%lu låt\",\"other\":\"%lu låtar\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ har lagts till i ”%@”.\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "{\"songscount\":{\"one\":\"%lu പാട്ട്\",\"other\":\"%lu പാട്ടുകൾ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%1$#@songscount@ ‘%2$@’ എന്നതിലേക്ക് ചേർത്തു\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"songscount\":{\"other\":\"%lu首歌曲\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"已将%#@songscount@添加到“%@”\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"songscount\":{\"one\":\"%lu nummer\",\"other\":\"%lu nummers\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ in '%@' gezet\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"songscount\":{\"other\":\"%lu곡\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@이 ‘%@’에 추가됨\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"songscount\":{\"one\":\"أغنية واحدة\",\"few\":\"‏%lu أغانٍ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"‏%lu أغنية\",\"two\":\"أغنيتين\",\"other\":\"%lu أغنية\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"‏%lu أغنية\"},\"NSStringLocalizedFormatKey\":\"تمت إضافة %#@songscount@ إلى \\\"%@\\\"\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"songscount\":{\"few\":\"%lu пісні\",\"one\":\"%lu пісню\",\"other\":\"%lu пісні\",\"many\":\"%lu пісень\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ додано до «%@»\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "{\"songscount\":{\"other\":\"%lu曲\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@が“%@”に追加されました\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "{\"songscount\":{\"few\":\"%lu melodii adăugate\",\"one\":\"%lu melodie adăugată\",\"other\":\"%lu de melodii adăugate\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ în „%@”\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "{\"songscount\":{\"one\":\"‏%lu گانا شامل کیا گیا\",\"other\":\"‏%lu گانے شامل کیے گئے\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"‏”%2$@“ میں ‏%#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "{\"songscount\":{\"one\":\"%lu ଟି ଗୀତ\",\"other\":\"%lu ଟି ଗୀତ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"“%2$@”ରେ %1$#@songscount@ ଯୋଡ଼ାଯାଇଛି\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "{\"songscount\":{\"one\":\"שיר אחד נוסף\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"‏%lu שירים נוספו\",\"two\":\"שני שירים נוספו\",\"many\":\"‏%lu שירים נוספו\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"‏%#@songscount@ אל ״%@״.\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "{\"songscount\":{\"one\":\"%lu песен\",\"other\":\"%lu песни\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"Добавихте %#@songscount@ към „%@“\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "{\"songscount\":{\"few\":\"%lu dainos\",\"one\":\"%lu daina\",\"other\":\"%lu dainų\",\"many\":\"%lu dainos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ įtraukta į „%@“\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "{\"songscount\":{\"one\":\"%lu गाणे\",\"other\":\"%lu गाणी\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"‘%2$@’ मध्ये ‘%#@songscount@’ जोडण्यात आले\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"songscount\":{\"one\":\"%lu song\",\"other\":\"%lu songs\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ added to “%@”\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"songscount\":{\"one\":\"%lu canción\",\"other\":\"%lu canciones\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ a “%@”\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "{\"songscount\":{\"other\":\"%lu bài hát\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"Đã thêm %#@songscount@ vào “%@”\"}",
+        "filename" : "MusicPicker.loctable"
+      }
+    ],
+    "ADDED_SONGS_COUNT_TO_QUEUE_TITLE" : [
+      {
+        "language" : "ms",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ ditambah ke Baris Gilir\",\"songscount\":{\"other\":\"%lu lagu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ a la cola\",\"songscount\":{\"one\":\"%lu canción añadida\",\"other\":\"%lu canciones añadidas\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ তালিকায় যোগ করা হয়েছে\",\"songscount\":{\"one\":\"%luটি গান\",\"other\":\"%luটি গান\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ в очередь\",\"songscount\":{\"few\":\"%lu песни добавлены\",\"one\":\"%lu песня добавлена\",\"other\":\"%lu песни добавлены\",\"many\":\"%lu песен добавлены\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ u redoslijed\",\"songscount\":{\"few\":\"%lu pjesme dodane su\",\"one\":\"%lu pjesma dodana je\",\"other\":\"%lu pjesama dodano je\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "th",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"เพิ่ม %#@songscount@ไปยังคิวแล้ว\",\"songscount\":{\"other\":\"%lu เพลง\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ a la cua\",\"songscount\":{\"one\":\"%lu cançó afegida\",\"other\":\"%lu cançons afegides\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ క్యూకి జోడించబడింది\",\"songscount\":{\"one\":\"%lu పాట\",\"other\":\"%lu పాటలు\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ ditambahkan ke Antrean\",\"songscount\":{\"other\":\"%lu lagu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ v čakalno vrsto\",\"songscount\":{\"few\":\"%lu skladbe so bile dodane\",\"one\":\"%lu skladba je bila dodana\",\"other\":\"%lu skladb je bilo dodanih\",\"two\":\"%lu skladbi sta bili dodani\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ føjet til kø\",\"songscount\":{\"one\":\"%lu sang\",\"other\":\"%lu sange\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ ਨੂੰ ਕਤਾਰ ਵਿੱਚ ਜੋੜਿਆ ਗਿਆ\",\"songscount\":{\"one\":\"%lu ਗੀਤ\",\"other\":\"%lu ਗੀਤਾਂ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ added to queue\",\"songscount\":{\"one\":\"%lu song\",\"other\":\"%lu songs\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ ಅನ್ನು ಸರತಿಗೆ ಸೇರಿಸಿ\",\"songscount\":{\"one\":\"%lu ಹಾಡನ್ನು\",\"other\":\"%lu ಹಾಡುಗಳನ್ನು\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"வரிசையில் %#@songscount@ சேர்க்கப்பட்டது\",\"songscount\":{\"one\":\"%lu பாடல்\",\"other\":\"%lu பாடல்கள்\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ lisättiin jonoon\",\"songscount\":{\"one\":\"%lu kappale\",\"other\":\"%lu kappaletta\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ à Fila\",\"songscount\":{\"one\":\"%lu música adicionada\",\"other\":\"%lu músicas adicionadas\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ à la file d’attente\",\"songscount\":{\"one\":\"%lu morceau ajouté\",\"other\":\"%lu morceaux ajoutés\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ στην ουρά\",\"songscount\":{\"one\":\"Προστέθηκε %lu τραγούδι\",\"other\":\"Προστέθηκαν %lu τραγούδια\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ hozzáadva a lejátszási sorhoz\",\"songscount\":{\"one\":\"%lu dal\",\"other\":\"%lu dal\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"કતારમાં %#@songscount@ ઉમેર્યાં\",\"songscount\":{\"one\":\"%lu ગીત\",\"other\":\"%lu ગીત\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ à la liste d’écoute\",\"songscount\":{\"one\":\"%lu chanson ajoutée\",\"other\":\"%lu chansons ajoutées\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ lagt til i køen\",\"songscount\":{\"one\":\"%lu sang\",\"other\":\"%lu sanger\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ sıraya eklendi\",\"songscount\":{\"one\":\"%lu parça\",\"other\":\"%lu parça\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"已將%#@songscount@加至佇列\",\"songscount\":{\"other\":\"%lu首歌\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"Do fronty %#@songscount@\",\"songscount\":{\"few\":\"byly přidány %lu skladby\",\"one\":\"byla přidána %lu skladba\",\"other\":\"bylo přidáno %lu skladeb\",\"many\":\"bylo přidáno %lu skladby\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ кезекке қосылды\",\"songscount\":{\"one\":\"%lu ән\",\"other\":\"%lu ән\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ added to Queue\",\"songscount\":{\"one\":\"%lu song\",\"other\":\"%lu songs\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"已將%#@songscount@加入佇列\",\"songscount\":{\"other\":\"%lu首歌\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ in coda\",\"songscount\":{\"one\":\"%lu brano aggiunto\",\"other\":\"%lu brani aggiunti\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ क़तार में जोड़ा गया\",\"songscount\":{\"one\":\"%lu गीत को क़तार में जोड़ा गया\",\"other\":\"%lu गीतों को क़तार में जोड़ा गया\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ à fila de espera\",\"songscount\":{\"one\":\"%lu música adicionada\",\"other\":\"%lu músicas adicionadas\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@songscount@ zu Warteliste hinzugefügt\",\"songscount\":{\"one\":\"%lu Titel\",\"other\":\"%lu Titel\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"songscount\":{\"few\":\"boli pridané %lu skladby\",\"one\":\"bola pridaná %lu skladba\",\"other\":\"bolo pridaných %lu skladieb\",\"many\":\"bolo pridanej %lu skladby\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"Do poradia %#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "{\"songscount\":{\"few\":\"%lu utwory\",\"one\":\"%lu utwór\",\"other\":\"%lu utworu\",\"many\":\"%lu utworów\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ dodano do kolejki\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"songscount\":{\"one\":\"%lu låt\",\"other\":\"%lu låtar\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ har lagts till i kön\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "{\"songscount\":{\"one\":\"%lu പാട്ട്\",\"other\":\"%lu പാട്ടുകൾ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ ക്യൂവിൽ ചേർത്തു\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"songscount\":{\"other\":\"%lu首歌曲\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"已将%#@songscount@添加到队列\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"songscount\":{\"one\":\"%lu nummer\",\"other\":\"%lu nummers\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ in wachtrij gezet\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"songscount\":{\"other\":\"%lu곡\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@이 대기 목록에 추가됨\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"songscount\":{\"one\":\"أغنية واحدة\",\"few\":\"‏%lu أغانٍ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"‏%lu أغنية\",\"two\":\"أغنيتين\",\"other\":\"%lu أغنية\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"‏%lu أغنية\"},\"NSStringLocalizedFormatKey\":\"تمت إضافة %#@songscount@ إلى قائمة الانتظار\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"songscount\":{\"few\":\"%lu пісні\",\"one\":\"%lu пісню\",\"other\":\"%lu пісні\",\"many\":\"%lu пісень\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ додано до черги\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "{\"songscount\":{\"other\":\"%lu曲\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@がキューに追加されました\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "{\"songscount\":{\"few\":\"%lu melodii adăugate\",\"one\":\"%lu melodie adăugată\",\"other\":\"%lu de melodii adăugate\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ la rând\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "{\"songscount\":{\"one\":\"‏%lu گانا\",\"other\":\"‏%lu گانے\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"‏%#@songscount@ قطار میں شامل کیے گئے\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "{\"songscount\":{\"one\":\"%lu ଟି ଗୀତ\",\"other\":\"%lu ଟି ଗୀତ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@କୁ ଧାଡ଼ିରେ ଯୋଡ଼ାଯାଇଛି\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "{\"songscount\":{\"one\":\"שיר אחד נוסף\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"‏%lu שירים נוספו\",\"two\":\"שני שירים נוספו\",\"many\":\"‏%lu שירים נוספו\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"‏%#@songscount@ לתור\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "{\"songscount\":{\"one\":\"%lu песен\",\"other\":\"%lu песни\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"Добавихте %#@songscount@ към опашката\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "{\"songscount\":{\"few\":\"%lu dainos\",\"one\":\"%lu daina\",\"other\":\"%lu dainų\",\"many\":\"%lu dainos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"Į eilę įtraukta: %#@songscount@\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "{\"songscount\":{\"one\":\"%lu गाणे\",\"other\":\"%lu गाणी\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ यादीमध्ये जोडण्यात आले\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"songscount\":{\"one\":\"%lu song\",\"other\":\"%lu songs\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ added to Queue\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"songscount\":{\"one\":\"%lu canción agregada\",\"other\":\"%lu canciones agregadas\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@songscount@ a la fila\"}",
+        "filename" : "MusicPicker.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "{\"songscount\":{\"other\":\"%lu bài hát\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"Đã thêm %#@songscount@ vào hàng đợi\"}",
+        "filename" : "MusicPicker.loctable"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/PrivateFrameworks\/_MusicKitInternal_SwiftUI.framework\/MusicPicker.loctable",
+  "bundlePath" : "\/System\/Library\/PrivateFrameworks\/_MusicKitInternal_SwiftUI.framework"
+}

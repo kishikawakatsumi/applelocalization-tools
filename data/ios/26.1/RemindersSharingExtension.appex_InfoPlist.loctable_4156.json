@@ -1,0 +1,1911 @@
+{
+  "framework" : "RemindersSharingExtension.appex",
+  "localizations" : {
+    "NSPhotoLibraryUsageDescription" : [
+      {
+        "language" : "th",
+        "target" : "การเข้าถึงคลังรูปภาพช่วยให้คุณสามารถแนบรูปภาพเข้าในเตือนความจำได้",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "“புகைப்பட லைப்ரரி அணுகல்” அம்சம் நினைவூட்டல்களுடன் புகைப்படங்களை இணைக்க உங்களை அனுமதிக்கும்.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "El acceso a la fototeca te permite adjuntar fotos a tus recordatorios.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Если предоставить доступ к медиатеке Фото, Вы сможете добавлять свои фото в напоминания.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "فوٹو لائبریری تک رسائی کے ذریعے آپ ریمائنڈر میں تصاویر اٹیچ کر سکتے ہیں۔",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "L’accés a la fototeca et permet adjuntar fotos als recordatoris.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "तस्वीर लाइब्रेरी ऐक्सेस रिमाइंडर में तस्वीरों को अटैच करने की अनुमति देता है।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "사진 보관함 접근을 허용하면 사진을 미리 알림에 첨부할 수 있습니다.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "ছবির লাইব্রেরিতে অ্যাক্সেসের মাধ্যমে আপনি রিমাইন্ডারগুলিতে ছবি অ্যাটাচ করতে পারবেন।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Kuvakirjaston käyttöoikeus mahdollistaa kuvien liittämisen muistutuksiin.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Akses perpustakaan foto memungkinkan Anda melampirkan foto ke pengingat.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Η πρόσβαση στη βιβλιοθήκη φωτογραφιών επιτρέπει την επισύναψη φωτογραφιών σε υπομνήσεις.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Pristup medijateci fotografija omogućuje vam da podsjetnicima priložite fotografije.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Zugriff auf die Fotomediathek erlaubt dir, Fotos an Erinnerungen anzuhängen.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Åtkomst till bildbiblioteket gör att du kan lägga till bilder i påminnelser.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "ફોટો લાઇબ્રેરી ઍક્સેસ તમને રિમાઇંડરમાં ફોટો જોડવાની અનુમતિ આપે છે.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Dostęp do biblioteki Zdjęć pozwala na dołączanie zdjęć do przypomnień.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Quyền truy cập thư viện ảnh cho phép bạn đính kèm ảnh vào lời nhắc.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Dostop do aplikacije Knjižnica fotografij vam omogoča, da opomnikom priložite fotografije.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Prístup ku knižnici fotiek vám umožňuje pridávať fotky do pripomienok.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Met toegang tot de fotobibliotheek kun je foto's aan herinneringen toevoegen.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "ଫଟୋ ଲାଇବ୍ରେରି ଆକ୍ସେସ୍ ଆପଣଙ୍କୁ ରିମାଇଣ୍ଡର୍‌ରେ ଫଟୋ ଯୋଡିବାକୁ ଅନୁମତି ଦିଏ।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "ഓർമപ്പെടുത്തലുകളിലേക്ക് ഫോട്ടോകൾ അറ്റാച്ചുചെയ്യാൻ ‘ഫോട്ടോ ലൈബ്രറി ആക്സസ്’ നിങ്ങളെ അനുവദിക്കുന്നു.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "El acceso a la fototeca te permite adjuntar fotos a tus recordatorios.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "取用照片圖庫可讓你將照片附加到提醒事項。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Photo library access allows you to attach photos to reminders.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "访问照片图库可让你将照片添加到提醒事项。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Acesso à fototeca permite‑lhe anexar fotografias aos lembretes.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Доступ до Фототеки дозволить вам вкладати фото до нагадувань.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Photo library access allows you to attach photos to reminders.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "يسمح لك إذن الوصول إلى المكتبة بإرفاق صور مع التذكيرات.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "O acesso à fototeca permite anexar fotos a lembretes.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "相片圖庫取用權限允許你將相片附加到提醒事項。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Достъпът до Фотобиблиотеката ви позволява да прикачвате снимки към напомняния.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "L’accès à la photothèque vous permet de joindre des photos aux rappels.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "छायाचित्र लायब्ररी ॲक्सेस तुम्हाला तुमच्या रिमाइंडरमध्ये छायाचित्रे जोडण्याची अनुमती देते.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Přístup ke knihovně fotek vám umožňuje připojovat fotky k připomínkám.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Tilgang til bildebiblioteket gjør at du kan legge ved bilder i påminnelser.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Akses pustaka foto membolehkan anda melampirkan foto pada peringatan.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Accesul la biblioteca foto vă permite să atașați poze la mementouri.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "Photo library access allows you to attach photos to reminders.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "写真ライブラリにアクセスすることにより、リマインダーに写真を添付できます。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "ਤਸਵੀਰ ਲਾਇਬ੍ਰੇਰੀ ਐਕਸੈੱਸ ਤੁਹਾਨੂੰ ਰਿਮਾਈਂਡਰਾਂ ਵਿੱਚ ਤਸਵੀਰਾਂ ਅਟੈਚ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "రిమైండర్‌లకు ఫోటోలను అటాచ్ చేయడానికి ఫోటో లైబ్రరీ యాక్సెస్ మిమ్మల్ని అనుమతిస్తుంది.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "גישה אל ספריית התמונות מאפשרת לך לצרף תמונות לתזכורות.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "Еске салғыштарға фотоларды тіркеу үшін фотолар жинағына қол жеткізу мүмкіндігін қосыңыз.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "A fotókönyvtárhoz való hozzáférés lehetővé teszi, hogy fotókat csatoljon az emlékeztetőkhöz.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "L’accès à la photothèque vous permet de joindre des photos aux rappels.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "Prieiga prie nuotraukų bibliotekos leidžia prie priminimų pridėti nuotraukų.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ಫೋಟೋ ಲೈಬ್ರರಿಯ ಆ್ಯಕ್ಸೆಸ್ ನಿಮಗೆ ಫೋಟೋಗಳನ್ನು ರಿಮೈಂಡರ್‌ಗಳಿಗೆ ಅಟ್ಯಾಚ್ ಮಾಡಲು ಅನುಮತಿಸುತ್ತದೆ.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Med adgang til fotobiblioteket kan du vedlægge fotos til påmindelser.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "L’accesso alla libreria fotografica ti consente di allegare foto ai promemoria.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "Fotoğraf arşivi erişimi, anımsatıcılara fotoğraf eklemenizi sağlar.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "El acceso a la fototeca te permite adjuntar fotos a los recordatorios.",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "NSContactsUsageDescription" : [
+      {
+        "language" : "th",
+        "target" : "เตือนความจำใช้รายชื่อสำหรับตำแหน่งที่ตั้ง เช่น บ้านและที่ทำงาน และแสดงชื่อเมื่อโต้ตอบกับผู้อื่น",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "வீடு, பணியிடம் போன்ற இருப்பிடங்களுக்காகவும் பிறரைத் தொடர்பு கொள்ளும்போது பெயர்களைக் காட்டவும் “தொடர்புகளை” நினைவூட்டல் பயன்படுத்தும்.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "La app Recordatorios usa información de Contactos para ubicaciones —como la de casa o trabajo— y para mostrar los nombres de las personas con las que interactúas.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Напоминания используют информацию о контактах для таких геопозиций, как «Дом» и «Работа», а также для отображения имен при взаимодействии с другими людьми.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "ریمائنڈر کے ذریعے گھر اور کام جیسے لوکیشن کے لیے اور دوسروں کے ساتھ سامنا کرتے وقت نام دکھانے کے لیے رابطے کا استعمال کیا جاتا ہے۔",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "L’app Recordatoris utilitza els contactes per obtenir la ubicació de casa o la feina, i per mostrar els noms en interactuar amb altres persones.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "रिमाइंडर द्वारा घर और कार्यस्थल जैसे स्थानों के लिए और दूसरों के साथ इंटरऐक्ट करते समय नाम दिखाने के लिए संपर्क का इस्तेमाल किया जाता है।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "미리 알림은 집과 직장 등의 위치와 관련하여, 그리고 다른 사람과 상호 작용할 때 이름을 표시하기 위해 연락처를 사용합니다.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "রিমাইন্ডারগুলি লোকেশনের জন্য, যেমন- বাড়ি এবং কর্মস্থল, এবং অন্যের সঙ্গে কথোপকথনের সময় তাদের নামগুলি দেখানোর জন্য কন্ট্যাক্টগুলিকে ব্যবহার করে।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Muistutukset hakee Yhteystiedoista sijainnit, kuten työ ja koti, ja nimet, jotka näytetään kun olet yhteydessä muihin.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Pengingat menggunakan Kontak untuk lokasi, seperti Rumah dan Kantor, serta untuk menampilkan nama saat berinteraksi dengan orang lain.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Οι Υπομνήσεις χρησιμοποιούν τις Επαφές για τοποθεσίες, όπως η οικία και η εργασία, καθώς και για προβολή ονομάτων κατά την αλληλεπίδραση με άλλα άτομα.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Podsjetnici koriste Kontakate za lokacije poput doma ili posla i za prikazivanje imena tijekom interakcije s drugima.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "„Erinnerungen“ verwendet „Kontakte“ für Orte wie „Zuhause“ oder „Arbeit“ und zum Anzeigen der Namen von Personen, mit denen interagiert wird.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Påminnelser använder Kontakter för platser som Hem och Arbete samt till att visa namn vid interaktioner med andra.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "રિમાઇંડર લોકેશન માટે સંપર્કનો ઉપયોગ કરે છે જેમ કે ઘર અને કાર્યસ્થળ અને જ્યારે અન્ય સાથે પ્રતિક્રિયા કરે ત્યારે નામ બતાવે છે.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Aplikacja Przypomnienia wykorzystuje dane kontaktów do określania miejsc (np. adresu domowego i służbowego) oraz wyświetlania nazw podczas interakcji z innymi osobami.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Lời nhắc sử dụng Danh bạ cho các vị trí, như Nhà và Công ty, cũng như để hiển thị tên khi tương tác với người khác.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Opomniki uporabljajo aplikacijo Stiki pri lokacijah, kot sta dom in delo, ter za prikaz imen med interakcijami z drugimi osebami.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Pripomienky využívajú Kontakty pri určovaní polohy, napríklad adresy Domov alebo Práca, a na zobrazovanie mien pri interakcii s ostatnými.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "De Herinneringen-app gebruikt informatie over je contacten voor locaties, zoals je huis- en werkadres, en om namen weer te geven wanneer je met anderen communiceert.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "ରିମାଇଣ୍ଡର୍‌ ଘର ଏବଂ କାର୍ଯ୍ଯ ପରି ସ୍ଥାନଗୁଡ଼ିକ ପାଇଁ କଣ୍ଟାକ୍ଟ୍‌ ବ୍ୟବହାର କରେ, ଏବଂ ଅନ୍ୟମାନଙ୍କ ସହିତ କଥାବାର୍ତ୍ତା କରିବା ସମୟରେ ନାମ ଦେଖାଇଥାଏ।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "വീട്, ജോലിസ്ഥലം എന്നിങ്ങനെയുള്ള ലൊക്കേഷനുകൾക്കും മറ്റുള്ളവരുമായി ഇടപഴകുമ്പോൾ അവരുടെ പേരുകൾ കാണിക്കാനും ഓർമപ്പെടുത്തലുകൾ കോൺടാക്റ്റ്സിനെ ഉപയോഗിക്കുന്നു.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "La app Recordatorios usa información de Contactos para ubicaciones —como la de casa o trabajo— y para mostrar los nombres de las personas con las que interactúas.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "「提醒事項」會使用「住家」和「公司」等位置的「聯絡人」資訊，並在與其他人互動時顯示名稱。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Reminders uses Contacts for locations, like Home and Work, and to show names when interacting with others.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "“提醒事项”使用“通讯录”来显示家庭和工作等位置，并在与他人互动时显示姓名。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "A aplicação Lembretes usa a aplicação Contactos para localizações, como casa e trabalho, e para mostrar os nomes das pessoas com quem interage.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Програма «Нагадування» використовує дані з Контактів, щоб правильно визначати геопозиції, як‑от дім чи робота, а також показувати імена інших користувачів під час взаємодії.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Reminders uses Contacts for locations, like Home and Work, and to show names when interacting with others.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "يستخدم تطبيق التذكيرات جهات الاتصال لمواقع مثل المنزل والعمل، ولعرض الأسماء عند التفاعل مع الآخرين.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "Os Lembretes usam informações dos Contatos para localizações como Casa e Trabalho, e para mostrar nomes nas interações com outras pessoas.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "「提醒事項」使用「通訊錄」中「住所」和「公司」等位置資料，並在與其他人互動時顯示姓名。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Напомняния използва информация от Контакти за местоположения като Дом и Работа и за да показва имена, когато взаимодействате с други хора.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "L’app Rappels utilise l’app Contacts pour rechercher des lieux comme Domicile ou Travail et pour afficher des noms lors d’interactions avec d’autres personnes.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "घर आणि कार्यस्थळ, यासारख्या स्थानांसाठी आणि इतरांबरोबर संवाद साधताना नावे दाखविण्यासाठी रिमाइंडर संपर्कांचा वापर करते.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Připomínky využívají aplikaci Kontakty k získávání údajů o místech, jako je domov a práce, a k zobrazení jmen při komunikaci s dalšími uživateli.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Påminnelser bruker Kontakter for informasjon om steder, som hjemme- og jobbadresser, og til å vise navnet på andre du samhandler med.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Peringatan menggunakan Kenalan untuk lokasi, seperti Rumah dan Kerja, serta untuk menunjukkan nama semasa berinteraksi dengan orang lain.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Aplicația Mementouri utilizează informații din Contacte pentru localizări, precum Acasă și Serviciu, și pentru a afișa numele atunci când interacționați cu alte persoane.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "Reminders uses Contacts for locations, like Home and Work, and to show names when interacting with others.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "リマインダーでは、自宅や勤務先などの場所に関して、また誰かとやりとりするときに名前を表示するのに、“連絡先”が使用されます。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "ਰਿਮਾਈਂਡਰਾਂ ਵੱਲੋਂ ਘਰ ਅਤੇ ਕਾਰਜ-ਸਥਾਨ ਵਰਗੇ ਟਿਕਾਣਿਆਂ ਲਈ ਅਤੇ ਹੋਰਾਂ ਨਾਲ ਗੱਲਬਾਤ ਕਰਨ ਦੌਰਾਨ ਨਾਮ ਦਿਖਾਉਣ ਲਈ ਸੰਪਰਕਾਂ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "రిమైండర్స్ యాప్ లొకేషన్‌ల కోసం కార్యాలయం మరియు ఇల్లు వంటి కాంటాక్ట్‌లను ఉపయోగిస్తాయి మరియు ఇతరులతో ఇంటరాక్ట్ చేసే సమయంలో పేర్లను చూపిస్తాయి.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "היישום ״תזכורות״ משתמש ב״אנשי קשר״ כדי לקבוע מיקומים כמו ״בית ו״עבודה״, וגם כדי להציג שמות בעת יצירת קשר עם אחרים.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "Еске салғыштарда контактілер «үй» және «жұмыс» сияқты геолокациялар үшін, сондай-ақ басқа пайдаланушылармен өзара әрекеттесу кезінде аттарын көрсету үшін пайдаланылады.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Az Emlékeztetők a Kontaktokat használja fel néhány helyhez, mint például az otthonához vagy a munkahelyéhez, valamint a nevek megjelenítéséhez a másokkal való együttműködés során.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "L’app Rappels utilise votre app Contacts pour certains lieux tels que votre domicile et votre bureau, et pour afficher les noms des personnes avec qui vous interagissez.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "Programa „Priminimai“ naudoja adresatus vietoms, pvz., namams ir darbui bei vardams bendraujant su kitais rodyti.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ರಿಮೈಂಡರ್ಸ್ ಆ್ಯಪ್, ಮನೆ ಹಾಗೂ ಕೆಲಸದಂತಹ ಸ್ಥಳಗಳಿಗೆ ಮತ್ತು ಇತರರ ಜೊತೆಗೆ ಮಾತುಕತೆ ನಡೆಸುವಾಗ ಹೆಸರುಗಳನ್ನು ತೋರಿಸಲು ಸಂಪರ್ಕಗಳನ್ನು ಬಳಸುತ್ತದೆ.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Påmindelser bruger Kontakter til lokaliteter som Hjem og Arbejde og til at vise navnene på personer, du interagerer med.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "I promemoria utilizzano i contatti per posizioni come casa e lavoro, nonché per mostrare i nomi quando interagisci con altre persone.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "Anımsatıcılar, Ev ve İş gibi konumlar için ve başkalarıyla iletişimdeyken adları göstermek amacıyla Kişiler’i kullanır.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "La app Recordatorios usa la app Contactos para mostrar ubicaciones (como “casa” o “trabajo”) y los nombres de las personas con las que interactúas.",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "Reminders rich text pasteboard data" : [
+      {
+        "language" : "th",
+        "target" : "ข้อมูลกระดานวางข้อความเตือนความจำแบบ RTF",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "நினைவூட்டல்கள் ரிச் டெக்ஸ்ட் பேஸ்ட்போர்டு தரவு",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "Datos del portapapeles de texto enriquecido de Recordatorios",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Форматированные данные Напоминаний в буфере обмена",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "ریمائنڈر رِچ ٹیکسٹ پیسٹ بورڈ ڈیٹا",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "Dades del porta‑retalls en text enriquit dels recordatoris",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "रिमाइंडर रिच टेक्स्ट पेस्टबोर्ड डेटा",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "미리 알림 리치 텍스트 붙여넣기 보드 데이터",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "রিমাইন্ডার রিচ টেক্সট পেস্টবোর্ড ডেটা",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Muistutusten leikepöydän rtf-tiedot",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Data papan tempel teks kaya Pengingat",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Δεδομένα πίνακα επικόλλησης εμπλουτισμένου κειμένου των Υπομνήσεων",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Podaci bogatog teksta memorijskog pretinca za podsjetnike",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Zwischenablagedaten von formatiertem Text aus „Erinnerungen“",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Data från urklipp med formaterad text från Påminnelser",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "રિમાઇંડર રીચ ટેક્સ્ટ પેસ્ટબોર્ડ ડેટા",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Dane schowka Przypomnień (RTF)",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Dữ liệu bảng dán văn bản phong phú của Lời nhắc",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Podatki v odložišču iz obogatenega besedila iz aplikacije Opomniki",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Dáta formátovaného textu pripomienky zo schránky",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Gegevens in RTF-indeling op klembord in Herinneringen",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "ରିମାଇଣ୍ଡର୍ ରିଚ୍ ଟେକ୍ସ୍‌ଟ୍‌ ପେଷ୍ଟ୍‌ବୋର୍ଡ୍ ଡେଟା",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "ഓർമപ്പെടുത്തലുകൾ റിച്ച് ടെക്സ്റ്റ് പേസ്റ്റ്ബോർഡ് ഡാറ്റ",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Datos del portapapeles de texto enriquecido de Recordatorios",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "提醒事項RTF剪貼板資料",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Reminders rich text pasteboard data",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "提醒事项多信息文本粘贴板数据",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Dados colados de texto formatado de Lembretes",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Дані буфера компонування форматованого тексту нагадувань",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Reminders rich text pasteboard data",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "بيانات لوحة اللصق بنص منسق في التذكيرات",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "Dados de texto com formatação da área de transferência do app Lembretes",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "提醒事項RTF剪貼板資料",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Данни от буфера за форматиран текст на приложението Напомняния",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Données texte enrichi du presse-papiers pour Rappels",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "रिमाइंडर रिच टेक्स्ट पेस्टबोर्ड डेटा",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Data formátovaného textu aplikace Připomínky ze schránky",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Utklippsdata i rik tekst i Påminnelser",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Data papan tampal teks beraneka peringatan",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Date din clipboard de text îmbogățit Mementouri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "Reminders rich text pasteboard data",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "リマインダーのリッチテキストペーストボードデータ",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "ਰਿਮਾਈਂਡਰ ਰਿੱਚ ਟੈਕਸਟ ਪੇਸਟਬੋਰਡ ਡੇਟਾ",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "రిమైండర్‌ల రిచ్ టెక్స్ట్ పేస్ట్‌బోర్డ్ డేటా",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "נתונים מודבקים במלל עשיר של ״תזכורות״",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "Сақтау буферіндегі еске салғыштардың форматталған деректері",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Az Emlékeztetők formázott szöveges adatai a beillesztőlapon",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Données texte enrichi du presse-papiers pour Rappels",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "Priminimų raiškiojo teksto laikinosios lentos duomenys",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ರಿಮೈಂಡರ್‌ಗಳ ರಿಚ್ ಪಠ್ಯ ಪೇಸ್ಟ್‌ಬೋರ್ಡ್ ಡೇಟ",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Pasteboard-data i RTF-format i Påmindelser",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Dati appunti RTF di Promemoria",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "Anımsatıcılar zengin metin yapıştırma alanı verileri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "Datos del portapapeles de texto enriquecido de los recordatorios",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "CFBundleDisplayName" : [
+      {
+        "language" : "th",
+        "target" : "เตือนความจำ",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "நினைவூட்டல்கள்",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "Recordatorios",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Напоминания",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "ریمائنڈر",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "Recordatoris",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "रिमाइंडर",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "미리 알림",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "রিমাইন্ডার",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Muistutukset",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Pengingat",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Υπομνήσεις",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Podsjetnici",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Erinnerungen",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Påminnelser",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "રિમાઇંડર",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Przypomnienia",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Lời nhắc",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Opomniki",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Pripomienky",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Herinneringen",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "ରିମାଇଣ୍ଡର୍‌",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "ഓർമപ്പെടുത്തൽ",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Recordatorios",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "提醒事項",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Reminders",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "提醒事项",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Lembretes",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Нагадування",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Reminders",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "التذكيرات",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "Lembretes",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "提醒事項",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Напомняния",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Rappels",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "रिमाइंडर",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Připomínky",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Påminnelser",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Peringatan",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Mementouri",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "Reminders",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "リマインダー",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "ਰਿਮਾਈਂਡਰ",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "రిమైండర్స్",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "תזכורות",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "Еске салғыш",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Emlékeztetők",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Rappels",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "Priminimai",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ರಿಮೈಂಡರ್ಸ್",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Påmindelser",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Promemoria",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "Anımsatıcılar",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "Recordatorios",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "CFBundleName" : [
+      {
+        "language" : "th",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "‏RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "RemindersSharingExtension",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "NSPhotoLibraryAddUsageDescription" : [
+      {
+        "language" : "th",
+        "target" : "สิทธิ์การเขียนคลังรูปภาพอนุญาตให้คุณเพิ่มรูปภาพที่ถ่ายภายในแอปเตือนความจำไปยังคลังรูปภาพของคุณได้",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "“புகைப்பட லைப்ரரி ரைட் அணுகல்” அம்சம் நினைவூட்டல்களுக்குள் எடுக்கப்பட்ட புகைப்படங்களை உங்கள் புகைப்பட லைப்ரரியில் சேர்க்க அனுமதிக்கும்.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "El acceso de escritura en la fototeca te permite agregar a ella las fotos tomadas al usar Recordatorios.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Если предоставить доступ к медиатеке Фото, Вы сможете добавлять в нее фото, снятые в приложении «Напоминания».",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "فوٹو لائبریری میں رائٹ کرنے کی رسائی حاصل کر کے آپ ریمائنڈر کے اندر لی گئی تصویروں کو اپنی فوٹو لائبریری میں شامل کر سکتے ہیں۔",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "L’accés d’escriptura a la fototeca et permet afegir a la fototeca fotos fetes a l’app Recordatoris.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "तस्वीर लाइब्रेरी राइट ऐक्सेस अपनी तस्वीर लाइब्रेरी में रिमाइंडर के अंदर ली गई तस्वीरों को जोड़ने की अनुमति देता है।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "사진 보관함 쓰기 접근을 허용하면 미리 알림 앱에서 찍은 사진을 사진 보관함에 추가할 수 있습니다.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "ছবির লাইব্রেরি রাইট অ্যাক্সেসের মাধ্যমে আপনি রিমাইন্ডারের সময়সীমার মধ্যে তোলা ছবিগুলি আপনার ছবির লাইব্রেরিতে যোগ করতে পারবেন।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Kuvakirjaston kirjoitusoikeus sallii Muistutukset-apilla otettujen kuvien lisäämisen kuvakirjastoon.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Akses tulis perpustakaan foto memungkinkan Anda untuk menambahkan foto yang diambil di Pengingat ke perpustakaan foto Anda.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Η πρόσβαση εγγραφής στη βιβλιοθήκη φωτογραφιών επιτρέπει την προσθήκη φωτογραφιών που έχουν τραβηχτεί μέσω των Υπομνήσεων, στη βιβλιοθήκη φωτογραφιών σας.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Pristup za pisanje u foto medijateku omogućava vam dodavanje fotografija snimljenih unutar Podsjetnika u foto medijateku.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Schreibzugriff auf die Fotomediathek erlaubt dir, Fotos zur Fotomediathek hinzuzufügen, die in „Erinnerungen“ aufgenommen wurden.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Skrivåtkomst till bildbiblioteket gör att du kan lägga till bilder som har tagits i Påminnelser till bildbiblioteket.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "ફોટો લાઇબ્રેરી રાઇટ ઍક્સેસ તમને લાઇબ્રેરીમાં રિમાઇંડર દ્વારા લીધેલા ફોટોને જોડવાની અનુમતિ આપે છે.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Dostęp do zapisu w bibliotece Zdjęć pozwala na dodawanie do niej zdjęć robionych w Przypomnieniach.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Quyền truy cập ghi thư viện ảnh cho phép bạn thêm ảnh được chụp bên trong Lời nhắc vào thư viện ảnh.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Dostop za pisanje v aplikacijo Knjižnica fotografij vam omogoča, da v knjižnico fotografij dodate fotografije, zajete z aplikacijo Opomniki.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Prístup na zápis do knižnice fotiek vám umožňuje pridávať do knižnice fotky spravené v apke Pripomienky.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Met schrijftoegang tot de fotobibliotheek kun je foto's die binnen Herinneringen zijn gemaakt aan je fotobibliotheek toevoegen.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "ଫଟୋ ଲାଇବ୍ରେରି ଲେଖିବା ଆକ୍ସେସ୍ ଆପଣଙ୍କୁ ନିଜର ଫଟୋ ଲାଇବ୍ରେରିରେ ରିମାଇଣ୍ଡର୍ ଭିତରେ ନିଆଯାଇଥିବା ଫଟୋଗୁଡ଼ିକ ଯୋଡିବାକୁ ଅନୁମତି ଦିଏ।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "നിങ്ങളുടെ ഫോട്ടോ ലൈബ്രറിയിലേക്ക് ഓർമപ്പെടുത്തലുകളിൽ എടുത്ത ഫോട്ടോകൾ ചേർക്കാൻ ‘ഫോട്ടോ ലൈബ്രറി റൈറ്റ് ആക്‌സസ്’ നിങ്ങളെ അനുവദിക്കുന്നു.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "El acceso de escritura en la fototeca te permite agregar a ella las fotos tomadas al usar Recordatorios.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "照片圖庫寫入權限可讓你將「提醒事項」中拍攝的照片加入照片圖庫。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Photo library write access allows you to add photos taken within Reminders to your photo library.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "写入照片图库可让你将“提醒事项”中拍摄的照片添加到照片图库。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Acesso de escrita à fototeca permite‑lhe adicionar à fototeca fotografias tiradas a partir da aplicação Lembretes.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Доступ до Фототеки з можливістю запису дозволяє вам додавати фото, зроблені в Нагадуваннях, до своєї фототеки.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Photo library write access allows you to add photos taken within Reminders to your photo library.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "حق الكتابة إلى مكتبة الصور يتيح لك إضافة الصور التي تلتقطها داخل التذكيرات إلى مكتبة الصور.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "O acesso de gravação permite adicionar à fototeca as fotos capturadas dentro do app Lembretes.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "相片圖庫寫入權限允許你將「提醒事項」中拍攝的相片加入相片圖庫。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Достъпът до записване във Фотобиблиотеката ви позволява да добавяте снимки, направени в Напомняния, към вашата фотобиблиотека.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "L’accès en écriture à la photothèque vous permet d’y ajouter des photos prises dans Rappels.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "छायाचित्र लायब्ररी राइट ॲक्सेस तुमचे छायाचित्र लायब्ररीमध्ये रिमाइंडरच्या आतमध्ये घेतलेल्या छायाचित्रांना समाविष्ट करण्याची अनुमती देते.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Oprávnění k zápisu do knihovny fotek vám umožňuje přidávat fotky pořízené v aplikaci Připomínky do knihovny fotek.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Skrivetilgang til bildebiblioteket gjør bilder du tar i Påminnelser-appen, blir lagt til i bildebiblioteket ditt.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Akses tulis pustaka foto membolehkan anda menambahkan foto yang diambil dalam Peringatan ke pustaka foto anda.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Accesul de scriere în biblioteca foto vă permite să adăugați pozele realizate în cadrul aplicației Mementouri în biblioteca dvs. foto.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "Photo library write access allows you to add photos taken within Reminders to your photo library.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "写真ライブラリへの書き込みできるようにすることにより、“リマインダー”で撮影した写真を写真ライブラリに追加できます。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "ਤਸਵੀਰ ਲਾਇਬ੍ਰੇਰੀ ਰਾਈਟ ਐਕਸੈੱਸ ਤੁਹਾਨੂੰ ਰਿਮਾਈਂਡਰ ਵਿੱਚ ਖਿੱਚੀਆਂ ਗਈਆਂ ਤਸਵੀਰਾਂ ਨੂੰ ਆਪਣੀ ਤਸਵੀਰ ਲਾਇਬ੍ਰੇਰੀ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "రిమైండర్స్ యాప్‌లో తీసుకున్న ఫోటోలను మీ ఫోటో లైబ్రరీకి జోడించడానికి ఫోటో లైబ్రరీ రైట్ యాక్సెస్ మిమ్మల్ని అనుమతిస్తుంది.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "גישה לכתיבה בספריית התמונות מאפשרת לך להוסיף תמונות שצולמו דרך ״תזכורות״ לספריה שלך.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "«Еске салғыш» қолданбасында түсірілген фотоларды фотолар жинағына қосу үшін фотолар жинағына жазуға қол жеткізу мүмкіндігін қосыңыз.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "A fotókönyvtárhoz való írásengedély lehetővé teszi, hogy az Emlékeztetőkön belül készített fotókat hozzáadja a fotókönyvtárhoz.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "L’accès à la photothèque vous permet d’ajouter des photos prises dans Rappels à votre photothèque.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "Nuotraukų bibliotekos rašymo prieiga prie leidžia į nuotraukų biblioteką įtraukti nuotraukas, sukurtas programoje „Priminimai“.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ಫೋಟೋ ಲೈಬ್ರರಿ ರೈಟ್ ಆ್ಯಕ್ಸೆಸ್ ನಿಮಗೆ ರಿಮೈಂಡರ್ಸ್ ಆ್ಯಪ್‌ನಲ್ಲಿ ತೆಗೆದುಕೊಂಡ ಫೋಟೋಗಳನ್ನು ನಿಮ್ಮ ಫೋಟೋ ಲೈಬ್ರರಿಗೆ ಸೇರಿಸಲು ಅನುಮತಿಸುತ್ತದೆ.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Med skriveadgang til fotobiblioteket kan du føje fotos, der er taget i Påmindelser, til dit fotobibliotek.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "L’accesso in scrittura alla libreria di Foto ti consente di aggiungere alla libreria fotografica le foto scattate all’interno di Promemoria.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "Fotoğraf arşivi yazma erişimi, Anımsatıcılar içerisinde çekilen fotoğrafları fotoğraf arşivinize eklemenizi sağlar.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "El acceso de escritura de la fototeca te permite añadir a tu fototeca las fotos hechas dentro de Recordatorios.",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "NSLocationWhenInUseUsageDescription" : [
+      {
+        "language" : "th",
+        "target" : "เมื่อเปิดใช้งานที่ตั้งจริง ตำแหน่งที่ตั้งของคุณจะถูกใช้สำหรับการแจ้งเตือนความจำเมื่อคุณถึงหรือออกจากสถานที่",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "“துல்லியம்” ஆன் ஆகி இருக்கும்போது, இடங்களுக்கு வரும்போதும் அங்கிருந்து செல்லும்போதும் நினைவூட்டல் அறிவிப்புகளுக்காகவும் உங்கள் மளிகைப் பட்டியல்களில் நினைவூட்டல்களை வகைப்படுத்த கூடுதல் மொழியை அமைக்கவும் உங்கள் இருப்பிடம் பயன்படுத்தப்படும்.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "Si se activa la ubicación precisa, se usará tu ubicación para enviar notificaciones de recordatorios cuando llegues a un lugar o salgas de él, así como para configurar un idioma adicional para categorizar los recordatorios de tus listas del súper.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Доступ к геопозиции позволяет настроить напоминания, которые Вы будете получать в тот момент, когда прибываете в определенное место или покидаете его.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "جب من و عن چالو ہوتا ہے، تو آپ کی لوکیشن کا استعمال آپ کے مقامات پر پہنچنے یا وہاں سے نکلنے پر ریمائنڈر اطلاعات کے لیے کیا جاتا ہے، اور آپ کی کرانے کے سامان کی فہرست میں ریمائنڈر کو زمرہ بند کرنے کے لیے ایک اضافی زبان سیٹ کرنے کے لیے کیا جاتا ہے۔",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "Si la ubicació exacta està activada, s’utilitza per enviar notificacions de recordatoris quan arribes a un lloc o te’n vas.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "जब सटीक चालू होता है, तो आपके स्थान का उपयोग स्थानों पर पहुँचने या वहाँ से जाने पर रिमाइंडर सूचनाओं के लिए किया जाता है।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "정확한 위치가 켜져 있으면 사용자의 위치를 사용하여 어떤 장소에 도착하거나 장소에서 떠날 때 사용자에게 미리 알림을 보내고, 식료품 목록을 분류할 때 미리 알림에 사용할 추가 언어를 설정합니다.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "সুনির্দিষ্ট লোকেশন চালু থাকলে আপনি যখন কোনো স্থানে পৌঁছান বা কোনো স্থান ছেড়ে চলে যান, তখন রিমাইন্ডারের নোটিফিকেশন পাঠানোর জন্য ও আপনার কেনাকাটার তালিকাতে রিমাইন্ডার শ্রেণীবদ্ধ করার জন্য একটি অতিরিক্ত ভাষা সেট করতে আপনার লোকেশন ব্যবহার করা হয়।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Kun tarkka on päällä, sijaintiasi käytetään ilmoituksiin, kun saavut paikkoihin tai lähdet paikoista.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Jika tepat menyala, lokasi Anda akan digunakan untuk pemberitahuan pengingat saat Anda tiba di atau pergi dari berbagai tempat.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Όταν είναι ενεργή η ακριβής τοποθεσία, η τοποθεσία σας χρησιμοποιείται για γνωστοποιήσεις υπομνήσεων όταν φτάνετε ή φεύγετε από ένα μέρος.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Kad je uključeno precizno određivanje, vaša lokacija koristi se za obavijesti podsjetnika kad stignete ili napustite mjesta.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Wenn „Genau“ aktiviert ist, wird dein Standort für Erinnerungsmitteilungen verwendet, wenn du Orte betrittst oder verlässt. Zudem ermöglicht dir die Option, eine zusätzliche Sprache zum Kategorisieren von Erinnerungen in deinen Einkaufslisten hinzuzufügen.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "När exakt platsinformation är på används din platsinformation för påminnelsenotiser när du kommer fram till eller lämnar en viss plats.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "જ્યારે સચોટ ચાલુ હોય ત્યારે તમારા લોકેશનનો ઉપયોગ તમે કોઈ સ્થળ પર પહોંચો અથવા ત્યાંથી નીકળો ત્યારે રિમાઇંડરની સૂચના માટે અને તમારા કરિયાણાના લિસ્ટમાં રિમાઇંડરને વર્ગીકૃત કરવા માટે એક વધારાની ભાષા સેટ કરવા માટે કરવામાં આવે છે.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Gdy opcja dokładnego położenia jest włączona, Twoje położenie jest używane do powiadamiania o przypomnieniach wyzwalanych po przybyciu w określone miejsce lub opuszczeniu go.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Khi vị trí chính xác được bật, vị trí của bạn sẽ được sử dụng cho thông báo lời nhắc khi bạn đến nơi hoặc rời khỏi địa điểm.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Ko je vklopljena natančna lokacija, se vaša lokacija uporablja za pošiljanje obvestil z opomniki, ko prispete na določeno mesto ali ko ga zapustite.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Keď je zapnutá presná poloha, vaša poloha sa bude používať pre pripomienky pri príchode alebo odchode z konkrétneho miesta.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Wanneer je exacte locatie is ingeschakeld, wordt deze gebruikt voor herinneringsmeldingen bij aankomst of vertrek.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "ସଠିକ‌ତା‌ ଅନ୍‌ ଥିଲେ, ଆପଣ ସ୍ଥାନରେ ପହଞ୍ଚିବା କିମ୍ବା ଛାଡ଼ିବା ସମୟରେ ଆପଣଙ୍କ ଲୋକେଶନ୍‌ ରିମାଇଣ୍ଡର୍ ନୋଟିଫିକେଶନ୍‌ଗୁଡ଼ିକ ପାଇଁ ଏବଂ ଆପଣଙ୍କ ଗ୍ରୋସରୀ ଲିଷ୍ଟ୍‌ରେ ରିମାଇଣ୍ଡର୍‌ ବର୍ଗୀକରଣ କରିବା ପାଇଁ ଏକ ଅତିରିକ୍ତ ଭାଷା ସେଟ୍ କରିବା ପାଇଁ ବ୍ୟବହାର କରାଯାଏ।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "‘കൃത്യമായ ലൊക്കേഷൻ’ ഓണായിരിക്കുമ്പോൾ, നിങ്ങൾ ഏതെങ്കിലും സ്ഥലങ്ങളിൽ എത്തുമ്പോഴോ അവിടെ നിന്ന് പോകുമ്പോഴോ ഓർമപ്പെടുത്തൽ അറിയിപ്പുകൾക്കായും, നിങ്ങളുടെ പലചരക്ക് ലിസ്റ്റുകളിലെ ഓർമപ്പെടുത്തലുകൾ തരംതിരിക്കാനായി ഒരു അധിക ഭാഷ സജ്ജമാക്കാനും നിങ്ങളുടെ ലൊക്കേഷൻ ഉപയോഗിക്കും.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Si se activa la ubicación precisa, se usará tu ubicación para enviar notificaciones de recordatorios cuando llegues a un lugar o salgas de él, así como para configurar un idioma adicional para categorizar los recordatorios de tus listas del súper.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "開啟準確位置後，在你抵達或離開某些地點時，你的位置可用於設定提醒事項通知。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "When precise is on, your location is used for reminder notifications when you arrive at or leave places, and to set an additional language for categorising reminders in your shopping lists.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "启用精确位置时，你的位置会在你到达或离开某地点时用于提醒通知，以及设定额外语言以分类日常采购清单中的提醒事项。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Quando a localização exata está ativada, a informação de localização é usada para enviar notificações quando chega ou sai de um local.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Коли ввімкнено, дані точної геопозиції використовуються для нагадувань, що сповіщають, коли ви прибуваєте в певне місце чи покидаєте його.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "When precise is on, your location is used for reminder notifications when you arrive at or leave places, and to set an additional language for categorising reminders in your shopping lists.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "عند تشغيل الموضع الدقيق، سيُستخدَم موقعك لإشعارات التذكير عند الوصول إلى الأماكن ومغادرتها.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "Quando a localização precisa está ativada, a sua localização é usada para notificações de lembretes quando você chega ou sai de lugares.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "開啟精確位置後，在你抵達或離開某地點時，你的位置會用於提醒事項通知。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Когато точното местоположение е включено, вашето местоположение се използва за известия за напомняния, когато пристигнете на или си тръгнете от някое място.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Lorsque la localisation exacte est activée, votre position est utilisée pour afficher les notifications de rappel lorsque vous arrivez à certains lieux ou les quittez, ainsi que pour configurer une langue supplémentaire pour classer les rappels dans vos listes d’épicerie.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "जेव्हा अचूक चालू असते, तेव्हा तुमच्या स्थानाचा वापर तुम्ही त्या ठिकाणी पोहोचल्यानंतर किंवा तिथून निघाल्यानंतर रिमाइंडर नोटिफिकेशनसाठी, आणि तुमच्या किराणा याद्यांमधील रिमाइंडर श्रेणीबद्ध करण्यासाठी अतिरिक्त भाषा सेट करण्यासाठी केला जातो.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Když je zapnutá přesná poloha, používá se k posílání oznámení s připomínkami při příchodu na určitá místa a při odchodu z nich.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Når nøyaktig er på, blir posisjonen din brukt til påmin­nelses­varslinger når du ankommer eller drar fra steder.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Apabila tepat aktif, lokasi anda digunakan untuk pemberitahuan peringatan apabila anda tiba atau bertolak dari tempat.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Când opțiunea de localizare precisă este activată, localizarea este utilizată pentru notificările de reamintire atunci când ajungeți sau plecați din anumite locuri.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "When precise is on, your location is used for reminder notifications when you arrive at or leave places, and to set an additional language for categorising reminders in your shopping lists.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "正確な位置情報がオンになっている場合、特定の場所に到着または出発したときの通知に、または買い物リストのリマインダーを分類するための追加言語を設定するために、あなたの位置情報が使用されます。",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "ਸਟੀਕ ਟਿਕਾਣਾ ਚਾਲੂ ਰਹਿਣ ’ਤੇ, ਤੁਹਾਡੇ ਵੱਲੋਂ ਕਿਸੇ ਥਾਂ ’ਤੇ ਪਹੁੰਚਣ ਅਤੇ ਉੱਥੋਂ ਨਿਕਲਣ ’ਤੇ ਰਿਮਾਈਂਡਰ ਸੂਚਨਾਵਾਂ ਲਈ ਅਤੇ ਤੁਹਾਡੀ ਕਰਿਆਨਾ ਸੂਚੀ ਵਿੱਚ ਰਿਮਾਈਂਡਰਾਂ ਨੂੰ ਸ਼੍ਰੇਣੀਬੱਧ ਕਰਨ ਵਾਸਤੇ ਵਧੀਕ ਭਾਸ਼ਾ ਸੈੱਟ ਕਰਨ ਲਈ ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "ఖచ్చితమైన లొకేషన్ ఆన్‌లో ఉన్నప్పుడు, మీరు ప్రదేశాలను చేరుకున్నప్పుడు లేదా విడిచి వెళుతున్నప్పుడు రిమైండర్ నోటిఫికేషన్‌లను పొందడానికి, మీ కిరాణా సరకుల జాబితాలలో రిమైండర్‌ల‌ను వర్గీకరించడానికి అదనపు భాషను సెట్ చేయడానికి మీ లొకేషన్ ఉపయోగించబడుతుంది.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "כאשר ״מיקום מדויק״ פעיל, המיקום שלך יכול לשמש לקבלת עדכוני תזכורות בעת הגעה למקומות או עזיבתם.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "Нақты геолокация функциясы қосылған болса, ол белгілі бір жерге келгенде немесе ол жерден кеткенде, еске салғыш хабарландырулары үшін пайдаланылады.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Ha a pontos lehetőség be van kapcsolva, akkor a helyzete az emlékeztetőértesítésekhez van felhasználva, amikor megérkezik egy adott helyre, vagy onnan távozik.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Lorsque la position exacte est activée, votre position est utilisée pour l’envoi de notifications de rappels lorsque vous arrivez à certains endroits ou que vous les quittez. Elle est aussi utilisée pour définir une langue supplémentaire pour catégoriser des rappels dans vos listes de courses.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "Kai įjungta tiksli vieta, ji yra naudojama priminimo pranešimams atvykstant į vietas ar iš jų išvykstant.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ನಿಖರ ಎಂಬುದು ಆನ್ ಆಗಿರುವಾಗ, ನೀವು ಒಂದು ಸ್ಥಳಕ್ಕೆ ಆಗಮಿಸಿದಾಗ ಅಥವಾ ಅಲ್ಲಿಂದ ನಿರ್ಗಮಿಸಿದಾಗ ರಿಮೈಂಡರ್ ನೋಟಿಫಿಕೇಷನ್‌ಗಳಿಗಾಗಿ ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ ಮತ್ತು ನಿಮ್ಮ ದಿನಸಿ ಪಟ್ಟಿಗಳಲ್ಲಿ ರಿಮೈಂಡರ್‌ಗಳನ್ನು ವರ್ಗೀಕರಿಸಲು ಹೆಚ್ಚುವರಿ ಭಾಷೆಯನ್ನು ಸೆಟ್ ಮಾಡಲು ಬಳಸಲಾಗುತ್ತದೆ.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Når Præcis er slået til, bruges din lokalitet til påmindelsesnotifikationer, når du ankommer til eller forlader et sted.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Quando la posizione esatta è attivata, viene utilizzata per inviarti notifiche dei promemoria nel momento in cui raggiungi o lasci un determinato luogo.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "Tam konum açıkken bir yere vardığınızda ya da bir yerden ayrıldığınızda anımsatıcı bildirimleri için konumunuz kullanılır.",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "Cuando la ubicación exacta está activada, se utiliza para enviar notificaciones de recordatorios cuando llegues a un sitio o te vayas de él, y para definir un idioma adicional para clasificar los recordatorios de las listas de la compra.",
+        "filename" : "InfoPlist.loctable"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/AppPlaceholders\/Reminders.app\/PlugIns\/RemindersSharingExtension.appex\/InfoPlist.loctable",
+  "bundlePath" : "\/System\/Library\/AppPlaceholders\/Reminders.app\/PlugIns\/RemindersSharingExtension.appex"
+}

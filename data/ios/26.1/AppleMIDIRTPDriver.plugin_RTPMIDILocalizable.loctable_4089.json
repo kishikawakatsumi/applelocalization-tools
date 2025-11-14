@@ -1,0 +1,1609 @@
+{
+  "framework" : "AppleMIDIRTPDriver.plugin",
+  "localizations" : {
+    "IncompatibleProtocolErr" : [
+      {
+        "language" : "th",
+        "target" : "เนื่องจากเวอร์ชั่นโปรโตคอลไม่รองรับ %s จึงปฏิเสธคำขอเชื่อมต่อ",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "இணக்கமில்லாத புரோட்டோகால் வெர்ஷன்களால் %s இணைவதற்கான கோரிக்கையை மறுத்தது.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Запрос на подключение к %s был отклонен из-за несовместимости версий протокола.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "پروٹوکول کے غیر موافق ورژن کی وجہ سے ‏%s نے کنکشن کی درخواست مسترد کر دی ہے۔",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "A causa de versions de protocol incompatibles, %s ha rebutjat la petició de connexió.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "असंगत प्रोटोकॉल संस्करणों के चलते, %s ने कनेक्शन अनुरोध अस्वीकार कर दिया।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "호환되지 않는 프로토콜 버전이기 때문에 %s이(가) 연결 요청을 거부했습니다.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "অসঙ্গত প্রোটোকল ভার্সনের জন্য %s কানেকশনের অনুরোধ প্রত্যাখান করেছে।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "%s kieltäytyi yhteyspyynnöstä, koska protokollaversiot ovat epäyhteensopivia.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Karena versi protokol tidak kompatibel, %s menolak permintaan koneksi.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Εξαιτίας μη συμβατών εκδόσεων πρωτοκόλλου, το %s απέρριψε το αίτημα σύνδεσης.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "%s je odbio zahtjev za spajanjem zbog nekompatibilnih verzija protokola.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Aufgrund inkompatibler Protokollversionen wurde die Verbindungsanfrage von %s abgelehnt.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Eftersom protokollversionerna inte är kompatibla nekade %s begäran om anslutning.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "અસંગત પ્રોટોકોલ વર્ઝનને કારણે, %s એ કનેક્શનની વિનંતીને નકારી.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Z powodu niezgodnych wersji protokołu żądanie połączenia zostało przez %s odrzucone.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Do các phiên bản giao thức không tương thích nên %s đã từ chối yêu cầu kết nối.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Zaradi nezdružljivih različic protokola je naprava %s zavrnila zahtevo za povezavo.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Zariadenie %s odmietlo požiadavku na pripojenie z dôvodu nekompatibilných verzií protokolu.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Vanwege incompatibele protocolversies is het verbindingsverzoek geweigerd door '%s'.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "ଅସଙ୍ଗତ ପ୍ରୋଟୋକଲ୍ ଭର୍ଶନ୍‌ଗୁଡ଼ିକ କାରଣରୁ, %s ସଂଯୋଗ ଅନୁରୋଧ ମନାକରିଛନ୍ତି ।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "അനുയോജ്യതയില്ലാത്ത പ്രോട്ടോക്കോൾ പതിപ്പുകൾ കാരണം, കണക്‌ഷൻ റിക്വസ്റ്റ് %s നിരസിച്ചു.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "%s rechazó la solicitud de conexión porque las versiones de los protocolos son incompatibles.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "由於不相容的通訊協定版本，「%s」拒絕了連線請求。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Due to incompatible protocol versions, %s refused the connection request.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "由于不兼容的协议版本，%s拒绝了连接请求。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "%s recusou o pedido de ligação devido a versões de protocolo incompatíveis.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "%s відхилив запит на зʼєднання через несумісні версії протоколів.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "Devido a versões de protocolo incompatíveis, %s recusou o pedido de conexão.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Due to incompatible protocol versions, %s refused the connection request.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "نظرًا لوجود إصدارات بروتوكول غير متوافقة، رفض %s طلب الاتصال.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "由於通訊協定版本不相容，「%s」拒絕了連線要求。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Поради несъвместими версии на протокола, %s отказа заявката за свързване.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "En raison de versions incompatibles de protocole, %s a refusé la demande de connexion.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "विसंगत प्रोटोकॉल व्हर्जनमुळे, %s ने कनेक्शन विनंती नाकारली.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "%s odmítá žádost o připojení pro nekompatibilitu verzí protokolů.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "%s avviste tilkoblingsforespørselen på grunn av inkompatible protokollversjoner.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Disebabkan versi protokol yang tidak serasi, %s menolak permintaan sambungan.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Din cauza versiunilor incompatibile de protocol, %s a refuzat solicitarea de conectare.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "プロトコルのバージョンに互換性がないため、%sは接続要求を拒否しました。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "Due to incompatible protocol versions, %s refused the connection request.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "ਅਸੰਗਤ ਪ੍ਰੋਟੋਕੌਲ ਸੰਸਕਰਨ ਕਾਰਨ, %s ਨੇ ਕਨੈਕਸ਼ਨ ਬੇਨਤੀ ਅਸਵੀਕਾਰ ਕੀਤੀ।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "అనుకూలత లేని ప్రోటోకాల్ వెర్షన్‌ల కారణంగా, %s కనెక్షన్ రిక్వెస్ట్‌ను తిరస్కరించారు.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "עקב גירסאות פרוטוקול לא תואמות, %s סירב לבקשת החיבור.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "%s құрылғысына қосылу сұрауы протокол нұсқасының үйлеспеуіне байланысты қабылданбады.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Nem kompatibilis protokollverziók miatt a(z) %s visszautasította a csatlakozási kérelmet.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "En raison de versions incompatibles de protocole, %s a refusé la demande de connexion.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "Dėl nesuderinamų protokolo versijų „%s“ atmetė prisijungimo užklausą.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ಹೊಂದಾಣಿಕೆಯಾಗದ ಪ್ರೋಟೋಕಾಲ್ ಆವೃತ್ತಿಗಳಿಂದಾಗಿ, %s ಅವರು ಕನೆಕ್ಷನ್ ವಿನಂತಿಯನ್ನು ನಿರಾಕರಿಸಿದ್ದಾರೆ.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "%s afviste anmodningen om forbindelse pga. inkompatible protokolversioner.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "A causa dell’incompatibilità della versione del protocollo, %s ha rifiutato la connessione richiesta.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "%s, uyumsuz protokol sürümlerinden dolayı bağlantı isteğini reddetti.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "%s ha rechazado la solicitud de conexión debido a versiones de protocolo incompatibles.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      }
+    ],
+    "BadHostErr" : [
+      {
+        "language" : "th",
+        "target" : "ไม่สามารถระบุตำแหน่ง %@ ตรวจสอบว่ากรอกที่อยู่ถูกต้อง",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "%@ஐக் கண்டறிய முடியவில்லை. சரியான முகவரியை உள்ளிட்டுள்ளதை உறுதிசெய்யவும்.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Не удалось обнаружить %@. Убедитесь, что введен верный адрес.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "‏%@ کا پتہ نہیں لگایا جا سکا۔ یقینی بنائیں کہ آپ نے صحیح پتہ درج کیا ہے۔",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "%@ no s’ha pogut localitzar. Comprova que l’adreça que has introduït és correcta.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "%@ का पता नहीं लगाया जा सका। सुनिश्चित करें कि आपने सही पता दर्ज किया।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "%@을(를) 찾을 수 없습니다. 주소를 올바르게 입력했는 지 확인하십시오.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "%@-এর অবস্থান নির্ণয় করতে পারা যায়নি। আপনি সঠিকভাবে অ্যাড্রেসটি লিখেছেন কিনা তা নিশ্চিত করুন।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "%@ ei löytynyt. Varmista, että syötit osoitteen oikein.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "%@ tidak dapat ditemukan. Pastikan Anda memasukkan alamat dengan benar.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Δεν ήταν δυνατός ο εντοπισμός του %@. Βεβαιωθείτε ότι έχετε εισάγει σωστά τη διεύθυνση.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Ne može se pronaći %@. Provjerite jeste li ispravno unijeli adresu.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "„%@“ wurde nicht gefunden. Vergewissere dich, dass du die Adresse korrekt eingegeben hast.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "%@ hittades inte. Kontrollera att du har angett rätt adress.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "%@ને શોધી શક્યા નથી. ખાતરી કરો કે તમે સાચું સરનામું એંટર કર્યું છે.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Nie można znaleźć %@. Sprawdź, czy podany adres jest poprawny.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Không thể định vị %@. Đảm bảo bạn đã nhập đúng địa chỉ.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "%@ ni bilo mogoče najti. Preverite, ali ste pravilno vnesli naslov.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "%@ sa nepodarilo načítať. Skontrolujte správnosť zadanej adresy.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "%@ is onvindbaar. Controleer of je het adres juist hebt ingevoerd.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "%@ ଖୋଜିହେଲା ନାହିଁ। ଆପଣ ଏଣ୍ଟର୍ କରିଥିବା ଠିକଣା ସଠିକ୍ ବୋଲି ନିଶ୍ଚିତ ହୁଅନ୍ତୁ।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "%@ എന്നതിനെ ലൊക്കേറ്റ് ചെയ്യാനായില്ല. നിങ്ങൾ ശരിയായ വിലാസമാണ് നൽകിയതെന്ന് ഉറപ്പാക്കൂ.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "%@ no se pudo encontrar. Asegúrate de haber ingresado la dirección correctamente.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "無法找到「%@」。請確定你輸入了正確的位址。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "%@ couldn’t be located. Make sure you entered the address correctly.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "找不到%@的位置。请确保你输入的地址是正确的。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Não foi possível encontrar %@. Certifique‑se de que escreveu o endereço corretamente.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Не вдалося знайти %@. Переконайтеся, що адресу введено правильно.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "%@ não pôde ser localizado. Certifique-se de que você digitou o endereço corretamente.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "%@ couldn’t be located. Make sure you entered the address correctly.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "تعذر تحديد موقع ‪%@‬. تأكد من إدخال العنوان بشكل صحيح.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "找不到「%@」。請確認你輸入的地址正確。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "%@ не може да бъде намерен. Уверете се, че сте въвели адреса правилно.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Impossible de localiser %@. Assurez-vous d’avoir entré l’adresse correctement.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "%@ चे स्थान शोधले जाऊ शकले नाही. पत्ता बरोबर प्रविष्ट केल्याची खात्री करा.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Hostitele %@ nelze nalézt. Ujistěte se, že jste zadali správnou adresu.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Fant ikke %@. Forsikre deg om at du har oppgitt riktig adresse.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "%@ tidak boleh dicari. Pastikan anda telah memasukkan alamat dengan betul.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "%@ nu s-a putut localiza. Asigurați-vă că ați introdus adresa corect.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "%@が見つかりませんでした。正しいアドレスを入力したことを確認してください。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "%@ couldn’t be located. Make sure you entered the address correctly.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "%@ ਦਾ ਪਤਾ ਨਹੀਂ ਲੱਗ ਸਕਿਆ। ਪੱਕਾ ਕਰੋ ਕਿ ਤੁਸੀਂ ਸਹੀ ਪਤਾ ਭਰਿਆ ਹੈ।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "%@ లొకేషన్ పొందటం వీలుపడలేదు. మీరు సరైన అడ్రెస్‌ను నమోదు చేసినట్లు నిర్ధారించుకోండి.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "לא ניתן היה לאתר את %@. נא לוודא שהזנת את הכתובת כראוי.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "%@ табылмады. Дұрыс мекенжайды енгізгеніңізге көз жеткізіңіз.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "A(z) %@ nem található. Győződjön meg róla, hogy helyesen adta meg a címet.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Impossible de localiser %@. Assurez-vous d’avoir entré l’adresse correctement.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "Nepavyko rasti „%@“. Įsitikinkite, kad adresą įvedėte teisingai.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "%@ ಅನ್ನು ಪತ್ತೆ ಮಾಡಲಾಗಲಿಲ್ಲ. ನೀವು ವಿಳಾಸವನ್ನು ಸರಿಯಾಗಿ ನಮೂದಿಸಿರುವಿರಾ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Fandt ikke %@. Kontroller, at du har indtastet adressen korrekt.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Impossibile individuare %@. Assicurati di aver inserito l’indirizzo corretto.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "%@ bulunamadı. Adresi doğru girdiğinizden emin olun.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "%@ no se ha podido encontrar. Comprueba que has introducido la dirección correctamente.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      }
+    ],
+    "LostConnectionErr" : [
+      {
+        "language" : "th",
+        "target" : "การเชื่อมต่อกับ %@ ขาดหาย",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "%@க்கான இணைப்பு துண்டிக்கப்பட்டது.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Подключение к «%@» прервано.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "‏%@ سے کنکشن منقطع ہو گیا۔",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "S’ha perdut la connexió amb %@.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "%@ से कनेक्शन अनुपलब्ध हुआ।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "%@에 대한 연결이 유실되었습니다.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "%@-এর সাথে কানেকশন বিচ্ছিন্ন হয়েছে।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "%[tt]@-yhteys katkesi.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Koneksi ke %@ hilang.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Χάθηκε η σύνδεση με το %@.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Izgubila se veza s %@.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Die Verbindung zu %@ wurde getrennt.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Anslutningen till %@ bröts.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "%@ સાથેનું કનેક્શન છૂટી ગયું હતું.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Połączenie z %@ zostało utracone.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Kết nối tới %@ bị mất.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Povezava z napravo %@ je bila prekinjena.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Pripojenie k zariadeniu %@ bolo stratené.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "De verbinding met '%@' is verbroken.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "%@ କୁ ସଂଯୋଗ ହରାଇଛି।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "%@ എന്നതുമായുള്ള കണക്‌ഷൻ നഷ്ടമായി.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Se perdió la conexión con %@.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "與「%@」的連線中斷。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "The connection to %@ was lost.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "已失去与“%@”的连接。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "A ligação a %@ foi interrompida.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Зʼєднання з %@ обірвалося.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "A conexão com %@ foi perdida.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "The connection to %@ was lost.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "فُقد الاتصال بـ %@.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "「%@」的連線中斷。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Връзката с %@ е загубена.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "La connexion à %@ a été interrompue.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "%@ शी कनेक्शन तुटले.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Připojení k „%@“ bylo ztraceno.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Forbindelsen til %@ ble brutt.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Sambungan ke %@ terputus.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Conexiunea cu %@ s-a întrerupt.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "%@への接続が失われました。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "The connection to %@ was lost.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "%@ ਨਾਲ ਕਨੈਕਸ਼ਨ ਟੁੱਟ ਗਿਆ।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "%@‌తో కనెక్షన్ కోల్పోయింది.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "החיבור ל-%@ נותק.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "%@ құрылғысымен қосылым үзілді.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "A kapcsolat megszakadt a következővel: %@.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "La connexion à %@ a été interrompue.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "Ryšys su „%@“ buvo prarastas.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "%@ಗೆ ಮಾಡಿದ ಕನೆಕ್ಷನ್ ಕಡಿತಗೊಂಡಿದೆ.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Forbindelsen til %@ blev afbrudt.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "La connessione a %@ è stata persa.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "%@ bağlantısı kesildi.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "Se ha perdido la conexión con %@.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      }
+    ],
+    "NoConnectResponseErr" : [
+      {
+        "language" : "th",
+        "target" : "%s ไม่ตอบสนองต่อคำขอเชื่อมต่อ ตรวจสอบที่อยู่และพอร์ต รวมทั้งการตั้งค่าไฟร์วอลล์หรือเราท์เตอร์",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "%s இணைவதற்கான கோரிக்கைக்குப் பதிலளிக்கவில்லை. முகவரி மற்றும் போர்ட்டுடன் ஃபயர்வால் அல்லது ரௌட்டர் அமைப்புகளையும் சரிபார்க்கவும்.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "%s не отвечает на запрос на подключение. Проверьте адрес, порт и настройки брандмауэра или маршрутизатора.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "‏%s نے کنکشن کی درخواست کا کوئی جواب نہیں دیا۔ ایڈریس اور پورٹ نیز فائروال یا راؤٹر کی سیٹنگ کو چیک کر لیں۔",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "%s no ha respost a la petició de connexió. Comprova l’adreça i el port a més de la configuració del tallafoc o l’encaminador.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "%s ने कनेक्शन अनुरोध पर प्रतिक्रिया नहीं दी। पता और पोर्ट, और कोई फ़ायरवॉल या राउटर हों, तो उनकी सेटिंग जाँच लें।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "%s이(가) 연결 요청에 응답하지 않았습니다. 주소, 포트 및 모든 방화벽 또는 라우터 설정을 확인하십시오.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "%s কানেকশনের অনুরোধে উত্তর দেয়নি। অ্যাড্রেস ও পোর্ট এবং যেকোনো ফায়ারওয়াল অথবা রাউটার সেটিংস চেক করুন।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "%s ei vastannut yhteyspyyntöön. Tarkista osoite ja portti sekä palomuurin tai reitittimen asetukset.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "%s tidak merespons permintaan koneksi. Periksa alamat dan port, dan setiap pengaturan firewall atau ruter.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Το %s δεν αποκρίθηκε στο αίτημα σύνδεσης. Ελέγξτε τη διεύθυνση και τη θύρα, καθώς και τις ρυθμίσεις του τείχους προστασίας ή του δρομολογητή.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Stavka %s nije odgovorila na zahtjev za spajanjem. Provjerite adresu i port, kao i bilo kakve postavke vatrozida ili routera.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "%s hat auf die Verbindungsanfrage nicht geantwortet. Überprüfe die Adresse, den Port und die Firewall- oder Router-Einstellungen.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "%s svarade inte på anslutningsbegäran. Kontrollera adressen, porten och eventuella brandväggs- eller routerinställningar.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "%sએ કનેક્શનની વિનંતીનો પ્રતિભાવ આપ્યો નથી. સરનામું અને પોર્ટ અને કોઈ ફાયરવૉલ કે રાઉટર હોય તો તેમના સેટિંગ્સ તપાસી લો.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Brak odpowiedzi ze strony %s na żądanie połączenia. Sprawdź adres, port oraz ustawienia zapory sieciowej lub routera.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "%s không phản hồi yêu cầu kết nối. Kiểm tra địa chỉ và cổng, và bất kỳ cài đặt tường lửa hoặc bộ định tuyến nào.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "%s se ne odziva na zahtevo za vzpostavljanje povezave. Preverite naslov in vrata ter nastavitve požarnega zidu in usmerjevalnika.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Zariadenie %s nereagovalo na požiadavku na pripojenie. Skontrolujte adresu a port, prípadne nastavenia firewallu alebo routera.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "'%s' heeft niet gereageerd op het verbindingsverzoek. Controleer het adres en de poort, en eventuele instellingen voor een firewall of router.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "%s ସଂଯୋଗ ଅନୁରୋଧକୁ କୌଣସି ପ୍ରତିକ୍ରିୟା ଦେଇନାହିଁ। ଠିକଣା ଏବଂ ପୋର୍ଟ୍ ଏବଂ କୌଣସି ଫାୟାର୍ୱାଲ୍ କିମ୍ବା ରାଉଟର୍ ସେଟିଂସ୍‌ ଯାଞ୍ଚ କରନ୍ତୁ।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "കണക്‌ഷൻ റിക്വസ്റ്റിനോട് %s പ്രതികരിച്ചില്ല. വിലാസവും പോർട്ടും, വല്ല ഫയർവാളോ റൂട്ടറോ ഉണ്ടെങ്കിൽ, അവയുടെ ക്രമീകരണവും പരിശോധിക്കൂ.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "%s no respondió a la solicitud de conexión. Verifica la dirección y el puerto, y cualquier configuración del firewall o router.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "「%s」並未回應連線要求。請檢查位址和連接埠與所有防火牆或路由器設定。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "%s didn’t respond to the connection request. Check the address and port, and any firewall or router settings.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "%s未响应连接请求。请检查地址和端口以及所有防火墙或路由器设置。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Não houve resposta de %s ao pedido de ligação. Verifique o endereço e a porta e as definições de qualquer firewall ou router existentes.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "%s не відповів на запит про зʼєднання. Перевірте адресу та порт, а також параметри брандмауера й маршрутизатора.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "%s não respondeu ao pedido de conexão. Verifique o endereço, a porta e todos os ajustes do roteador e da firewall.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "%s didn’t respond to the connection request. Check the address and port, and any firewall or router settings.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "لم يستجب %s لطلب الاتصال. تحقق من العنوان والمنفذ وكذلك أية إعدادات خاصة بجدار الحماية أو جهاز التوجيه.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "「%s」並未回應連線要求。請檢查地址和連接埠，以及所有防火牆或路由器設定。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "%s не отговори на заявката за свързване. Проверете адреса и порта, както и всички настройки на защитната стена или рутера.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "%s n’a pas répondu à la demande de connexion. Vérifiez l’adresse et le port, ainsi que les réglages de coupe-feu ou de routeur.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "%s ने कनेक्शन विनंतीला प्रतिसाद दिला नाही. पत्ता व पोर्ट, आणि कोणतीही फायरवॉल किंवा राउटर सेटिंग तपासा.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "%s neodpovídá na žádost o připojení. Zkontrolujte adresu, port a případně nastavení brány firewall nebo směrovače.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "%s svarte ikke på tilkoblingsforespørselen. Kontroller adressen og porten og eventuelle brannmur- eller ruterinnstillinger.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "%s tidak membalas permintaan sambungan. Semak alamat dan port serta sebarang seting firewall atau penghala.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "%s nu a răspuns la solicitarea de conectare. Verificați adresa și portul, precum și toate configurările firewallului sau ruterului.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "%sから接続要求への応答がありません。アドレスやポート、およびファイアウォールまたはルーターの設定を確認してください。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "%s didn’t respond to the connection request. Check the address and port, and any firewall or router settings.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "%s ਨੇ ਕਨੈਕਸ਼ਨ ਬੇਨਤੀ ’ਤੇ ਪ੍ਰਤੀਕਿਰਿਆ ਨਹੀਂ ਦਿੱਤੀ। ਪਤਾ ਅਤੇ ਪੋਰਟ ਅਤੇ ਕੋਈ ਫ਼ਾਇਰਵਾਲ ਜਾਂ ਰਾਊਟਰ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਦੀ ਜਾਂਚ ਕਰੋ।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "%s కనెక్షన్ రిక్వెస్ట్‌కు స్పందించలేదు. అడ్రెస్ మరియు పోర్ట్‌లను సరిచూడండి, అలాగే ఫైర్‌వాల్ లేదా రూటర్ సెట్టింగ్‌లను చూడండి.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "%s לא הגיב לבקשת החיבור. נא לבדוק את הכתובת והשקע, וכן את הגדרות חומת האש או הנתב.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "%s қосылым сұрауына жауап бермеді. Мекенжай, порт және брандмауэр немесе маршрутизатор реттеулерін тексеріңіз.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "A(z) %s nem válaszolt a csatlakozási kérelemre. Ellenőrizze a címet és a portot, valamint az esetleges tűzfal vagy router beállításait.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "%s n’a pas répondu à la demande de connexion. Vérifiez l’adresse et le port, ainsi que les réglages de coupe-feu ou de routeur.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "„%s“ neatsakė į prisijungimo užklausą. Patikrinkite adresą ir prievadą bei visus užkardos ar maršrutizatoriaus nustatymus.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ಕನೆಕ್ಷನ್ ವಿನಂತಿಗೆ %s ಅವರು ಪ್ರತಿಕ್ರಿಯಿಸಲಿಲ್ಲ. ವಿಳಾಸ ಮತ್ತು ಪೋರ್ಟ್ ಹಾಗೂ ಯಾವುದೇ ಫೈರ್‌ವಾಲ್ ಅಥವಾ ರೂಟರ್ ಸೆಟ್ಟಿಂಗ್ಸ್ ಪರಿಶೀಲಿಸಿ.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "%s svarede ikke på anmodning om forbindelse. Kontroller adresse og port og evt. firewall- og routerindstillinger.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "%s non ha risposto alla richiesta di connessione. Controlla l’indirizzo, la porta e tutte le impostazioni per firewall o router.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "%s, bağlantı isteğine yanıt vermedi. Adresi, kapıyı ve güvenlik duvarı ile yöneltici ayarlarını denetleyin.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "%s no ha respondido a la petición de conexión. Verifica la dirección y el puerto y los posibles ajustes del firewall o router.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      }
+    ],
+    "NetworkDevice" : [
+      {
+        "language" : "th",
+        "target" : "เครือข่าย",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "நெட்வொர்க்",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Сеть",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "نیٹ ورک",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "Xarxa",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "नेटवर्क",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "네트워크",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "নেটওয়ার্ক",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Verkko",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Jaringan",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Δίκτυο",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Mreža",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Netzwerk",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Nätverk",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "નેટવર્ક",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Sieć",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Mạng",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Omrežje",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Sieťové",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Netwerk",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "ନେଟ୍‌ୱର୍କ୍‌",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "നെറ്റ്‌വർക്ക്",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Red",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "網路",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Network",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "网络",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Rede",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Мережа",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "Rede",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Network",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "شبكة",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "網絡",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Мрежа",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Réseau",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "नेटवर्क",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Síť",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Nettverk",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Rangkaian",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Rețea",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "ネットワーク",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "Network",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "ਨੈੱਟਵਰਕ",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "నెట్‌వర్క్",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "רשת",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "Желі",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Hálózat",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Réseau",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "Tinklas",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ನೆಟ್‌ವರ್ಕ್",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Netværk",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Rete",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "Ağ",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "Red",
+        "filename" : "RTPMIDILocalizable.loctable"
+      }
+    ],
+    "RefusedConnectionErr" : [
+      {
+        "language" : "th",
+        "target" : "%s ปฏิเสธคำขอเชื่อมต่อ",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "இணைவதற்கான கோரிக்கை %sஆல் மறுக்கப்பட்டது.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "%s отказал в подключении.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "‏%s نے کنکشن کی درخواست مسترد کر دی۔",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "%s ha rebutjat la petició de connexió.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "%s ने कनेक्शन अनुरोध अस्वीकार कर दिया।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "%s이(가) 연결 요청을 거부했습니다.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "%s কানেকশনের অনুরোধ অস্বীকার করেছে।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "%s hylkäsi yhteyspyynnön.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "%s menolak permintaan koneksi.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Το %s απέρριψε το αίτημα σύνδεσης.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Stavka %s odbila je zahtjev za spajanjem.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "%s hat die Verbindungsanfrage abgelehnt.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "%s avvisade anslutningsbegäran.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "%sએ કનેક્શનની વિનંતીને નકારી દીધી.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "%s odrzucił żądanie połączenia.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "%s đã từ chối yêu cầu kết nối.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Naprava %s je zavrnila prošnjo za povezavo.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Zariadenie %s odmietlo požiadavku na pripojenie.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "'%s' heeft het verbindingsverzoek geweigerd.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "%s ସଂଯୋଗ ଅନୁରୋଧ ମନାକରିଛନ୍ତି।",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "കണക്‌ഷൻ ആവശ്യത്തെ %s നിരസിച്ചു.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "%s rechazó la solicitud de conexión.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "「%s」拒絕了連線要求。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "%s refused the connection request.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "%s拒绝连接请求。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Pedido de ligação recusado por %s.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "%s відмовив у зʼєднанні.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "%s recusou o pedido de conexão.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "%s refused the connection request.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "قام %s برفض طلب الاتصال.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "「%s」拒絕了連線要求。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "%s отказа заявката за свързване.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "%s a refusé la demande de connexion.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "%s ने कनेक्शन विनंती नाकारली.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "%s odmítá žádost o připojení.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "%s avviste tilkoblingsforespørselen.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "%s telah menolak permintaan sambungan.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "%s a refuzat solicitarea de conectare.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "%sによって接続要求が拒否されました。",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "%s refused the connection request.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "%s ਨੇ ਕਨੈਕਸ਼ਨ ਬੇਨਤੀ ਰੱਦ ਕੀਤੀ",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "%s కనెక్షన్ రిక్వెస్ట్‌ను తిరస్కరించారు.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "%s סירב לבקשת החיבור.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "%s қосылымнан бас тартты.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "A(z) %s visszautasította a csatlakozási kérelmet.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "%s a refusé la demande de connexion.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "„%s“ atmetė prisijungimo užklausą.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ಕನೆಕ್ಷನ್ ವಿನಂತಿಯನ್ನು %s ಅವರು ನಿರಾಕರಿಸಿದ್ದಾರೆ.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "%s afviste forbindelsen.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "%s ha rifiutato la richiesta di connessione.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "%s bağlantı isteğini geri çevirdi.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "%s ha denegado la petición de conexión.",
+        "filename" : "RTPMIDILocalizable.loctable"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/Audio\/MIDI Drivers\/AppleMIDIRTPDriver.plugin\/RTPMIDILocalizable.loctable",
+  "bundlePath" : "\/System\/Library\/Audio\/MIDI Drivers\/AppleMIDIRTPDriver.plugin"
+}

@@ -1,0 +1,541 @@
+{
+  "framework" : "NanoCalendarComplicationsCompanion.bundle",
+  "localizations" : {
+    "NEXTEVENT_CONFLICT_SIGNATURE_CORNER" : [
+      {
+        "language" : "th",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"other\":\"!⃝● %lu กิจกรรม\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu நிகழ்வுகள்\",\"other\":\"!⃝● %lu நிகழ்வுகள்\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"few\":\"!⃝● %lu СОБЫТИЯ\",\"one\":\"!⃝● %lu СОБЫТИЕ\",\"other\":\"!⃝● %lu СОБЫТИЯ\",\"many\":\"!⃝● %lu СОБЫТИЙ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"‏!⃝● %lu ایونٹ\",\"other\":\"‏!⃝● %lu ایونٹ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu ESDEVENIMENT\",\"other\":\"!⃝● %lu ESDEVENIMENTS\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu इवेंट\",\"other\":\"!⃝● %lu इवेंट\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"other\":\"!⃝● %lu개의 이벤트\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %luটি ইভেন্ট\",\"other\":\"!⃝● %luটি ইভেন্ট\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu TAPAHT.\",\"other\":\"!⃝● %lu TAPAHT.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"other\":\"!⃝● %lu ACARA\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu ΓΕΓΟΝΟΣ\",\"other\":\"!⃝● %lu ΓΕΓΟΝΟΤΑ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"few\":\"!⃝● %lu DOGAĐAJA\",\"one\":\"!⃝● %lu DOGAĐAJ\",\"other\":\"!⃝● %lu DOGAĐAJA\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu EREIGNISSE\",\"other\":\"!⃝● %lu EREIGNISSE\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu AKTIVITET\",\"other\":\"!⃝● %lu AKTIVITETER\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu ઇવેંટ\",\"other\":\"!⃝● %lu ઇવેંટ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"few\":\"!⃝● %lu WYDARZ.\",\"one\":\"!⃝● %lu WYDARZ.\",\"other\":\"!⃝● %lu WYDARZ.\",\"many\":\"!⃝● %lu WYDARZ.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"other\":\"!⃝● %lu SỰ KIỆN\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"few\":\"!⃝● %lu DOGODKI\",\"one\":\"!⃝● %lu DOGODEK\",\"other\":\"!⃝● %lu DOGODKOV\",\"two\":\"!⃝● %lu DOGODKA\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"few\":\"!⃝● %lu UDALOSTI\",\"one\":\"!⃝● %lu UDALOSŤ\",\"other\":\"!⃝● %lu UDALOSTÍ\",\"many\":\"!⃝● %lu UDALOSTI\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu ACTIVITEITEN\",\"other\":\"!⃝● %lu ACTIVITEITEN\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu କାର୍ଯ୍ଯକ୍ରମ\",\"other\":\"!⃝● %lu କାର୍ଯ୍ଯକ୍ରମ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu ഇവന്റുകൾ\",\"other\":\"!⃝● %lu ഇവന്റുകൾ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu EVENTO\",\"other\":\"!⃝● %lu EVENTOS\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"other\":\"!⃝● %lu個行程\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu EVENTS\",\"other\":\"!⃝● %lu EVENTS\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"other\":\"!⃝● %lu个日程\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu EVENTOS\",\"other\":\"!⃝● %lu EVENTOS\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"few\":\"!⃝● %lu ПОДІЇ\",\"one\":\"!⃝● %lu ПОДІЯ\",\"other\":\"!⃝● %lu ПОДІЇ\",\"many\":\"!⃝● %lu ПОДІЙ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu EVENTS\",\"other\":\"!⃝● %lu EVENTS\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"‏!⃝● حدث واحد\",\"few\":\"‏!⃝● %lu أحداث\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"‏!⃝● %lu حدثًا\",\"two\":\"‏!⃝● حدثان\",\"other\":\"‏!⃝● %lu حدث\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"‏!⃝● %lu حدث\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu EVENTOS\",\"other\":\"!⃝● %lu EVENTOS\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"other\":\"!⃝● %lu個行程\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu СЪБИТИЯ\",\"other\":\"!⃝● %lu СЪБИТИЯ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\",\"numberOfEvents\":{\"one\":\"!⃝● %lu ÉVÉNEMENT\",\"other\":\"!⃝● %lu ÉVÉNEMENTS\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "{\"numberOfEvents\":{\"one\":\"!⃝● %lu इव्हेंट\",\"other\":\"!⃝● %lu इव्हेंट\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"numberOfEvents\":{\"few\":\"!⃝● %lu UDÁLOSTI\",\"one\":\"!⃝● %lu UDÁLOST\",\"other\":\"!⃝● %lu UDÁLOSTÍ\",\"many\":\"!⃝● %lu UDÁLOSTI\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"numberOfEvents\":{\"one\":\"!⃝● %lu HENDELSER\",\"other\":\"!⃝● %lu HENDELSER\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "{\"numberOfEvents\":{\"other\":\"!⃝● %lu PERISTIWA\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "{\"numberOfEvents\":{\"few\":\"!⃝● %lu EVENIMENTE\",\"one\":\"!⃝● %lu EVENIMENT\",\"other\":\"!⃝● %lu DE EVENIMENTE\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "{\"numberOfEvents\":{\"other\":\"!⃝● %lu件の予定\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"numberOfEvents\":{\"other\":\"!⃝● %lu EVENTS\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "{\"numberOfEvents\":{\"one\":\"!⃝● %lu ਇਵੈਂਟ\",\"other\":\"!⃝● %lu ਇਵੈਂਟ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "{\"numberOfEvents\":{\"one\":\"!⃝● %lu ఇవెంట్‌లు\",\"other\":\"!⃝● %lu ఇవెంట్‌లు\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "{\"numberOfEvents\":{\"one\":\"!⃝● אירוע אחד\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"!⃝● %lu אירועים\",\"two\":\"!⃝● שני אירועים\",\"many\":\"!⃝● %lu אירועים\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "{\"numberOfEvents\":{\"one\":\"!⃝● %lu ОҚИҒА\",\"other\":\"!⃝● %lu ОҚИҒА\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"numberOfEvents\":{\"one\":\"!⃝● %lu ESEMÉNY\",\"other\":\"!⃝● %lu ESEMÉNY\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "{\"numberOfEvents\":{\"one\":\"!⃝● %lu ÉVÈNEMENT\",\"other\":\"!⃝● %lu ÉVÈN.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "{\"numberOfEvents\":{\"few\":\"!⃝● %lu ĮVYKIAI\",\"one\":\"!⃝● %lu ĮVYKIS\",\"other\":\"!⃝● %lu ĮVYKIŲ\",\"many\":\"!⃝● %lu ĮVYKIO\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "{\"numberOfEvents\":{\"one\":\"!⃝● %lu ಇವೆಂಟ್‌ಗಳು\",\"other\":\"!⃝● %lu ಇವೆಂಟ್‌ಗಳು\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"numberOfEvents\":{\"one\":\"!⃝● %lu BEGIVENHEDER\",\"other\":\"!⃝● %lu BEGIVENHEDER\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"numberOfEvents\":{\"one\":\"!⃝● %lu EVENTO\",\"other\":\"!⃝● %lu EVENTI\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"numberOfEvents\":{\"one\":\"!⃝● %lu ETKİNLİK\",\"other\":\"!⃝● %lu ETKİNLİK\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "{\"numberOfEvents\":{\"one\":\"!⃝● %lu EVENTO\",\"other\":\"!⃝● %lu EVENTOS\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numberOfEvents@\"}",
+        "filename" : "Formats.loctable"
+      }
+    ],
+    "NEXTEVENT_N_MORE_EVENTS_SIGNATURE_RECTANGULAR" : [
+      {
+        "language" : "th",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"other\":\"+อีก %lu กิจกรรม\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"மேலும் +%lu நிகழ்வுகள்\",\"other\":\"மேலும் +%lu நிகழ்வுகள்\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"few\":\"+ еще %lu события\",\"one\":\"+ еще %lu событие\",\"other\":\"+ еще %lu события\",\"many\":\"+ еще %lu событий\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"‏+%lu مزید ایونٹ\",\"other\":\"‏+%lu مزید ایونٹ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"%lu esdev. més\",\"other\":\"%lu esdev. més\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+%lu अधिक इवेंट\",\"other\":\"+%lu अधिक इवेंट\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"other\":\"+%lu개의 이벤트\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+%luটি অধিক ইভেন্ট\",\"other\":\"+%luটি অধিক ইভেন্ট\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+%lu tapahtumaa lisää\",\"other\":\"+%lu tapahtumaa lisää\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"other\":\"+%lu Acara Lainnya\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+%lu ακόμη\",\"other\":\"+%lu ακόμη\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"few\":\"+ %lu događaja\",\"one\":\"+ %lu događaj\",\"other\":\"+ %lu događaja\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+%lu weitere Ereignisse\",\"other\":\"+%lu weitere\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+%lu aktiviteter till\",\"other\":\"+%lu aktiviteter till\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+%lu બીજી ઇવેંટ\",\"other\":\"+%lu બીજા ઇવેંટ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"few\":\"+%lu wydarzenia\",\"one\":\"+%lu wydarzenie\",\"other\":\"+%lu wydarzenia\",\"many\":\"+%lu wydarzeń\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"other\":\"+%lu sự kiện khác\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"few\":\"in še %lu dogodki\",\"one\":\"in še %lu dogodek\",\"other\":\"in še %lu dogodkov\",\"two\":\"in še %lu dogodka\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"few\":\"+%lu ďalšie udalosti\",\"one\":\"+%lu ďalšia udalosť\",\"other\":\"+%lu ďalších udalostí\",\"many\":\"+%lu ďalšej udalosti\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+%lu andere activit.\",\"other\":\"+%lu andere activit.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+%lu ଅଧିକ କାର୍ଯ୍ଯକ୍ରମ\",\"other\":\"+%lu ଅଧିକ କାର୍ଯ୍ଯକ୍ରମ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+%lu ഇവന്റ് കൂടി\",\"other\":\"+%lu ഇവന്റുകൾ കൂടി\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"y %lu eventos más\",\"other\":\"y %lu eventos más\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"other\":\"+%lu個行程\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+%lu More Events\",\"other\":\"+%lu More Events\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"other\":\"+%lu个日程\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+ %lu outros eventos\",\"other\":\"+ %lu outros eventos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"few\":\"і ще %lu події\",\"one\":\"і ще %lu подія\",\"other\":\"і ще %lu події\",\"many\":\"і ще %lu подій\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+%lu More Events\",\"other\":\"+%lu More Events\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"‏+ حدث واحد آخر\",\"few\":\"‏+%lu أحداث أخرى\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"‏+%lu حدثًا آخر\",\"two\":\"‏+ حدثان آخران\",\"other\":\"‏+%lu حدث آخر\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"‏+%lu حدث آخر\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+Mais %lu Evento\",\"other\":\"+Mais %lu Eventos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"other\":\"+%lu個行程\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+ още %lu събития\",\"other\":\"+ още %lu събития\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+%lu événement de plus\",\"other\":\"+%lu événements\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\",\"numConflictingEvents\":{\"one\":\"+%lu अजून इव्हेंट\",\"other\":\"+%lu अजून इव्हेंट\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"numConflictingEvents\":{\"few\":\"a %lu další události\",\"one\":\"a %lu další událost\",\"other\":\"a %lu dalších událostí\",\"many\":\"a %lu další události\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"numConflictingEvents\":{\"one\":\"+%lu hendelser til\",\"other\":\"+%lu hendelser til\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "{\"numConflictingEvents\":{\"other\":\"+%lu Lagi Peristiwa\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "{\"numConflictingEvents\":{\"few\":\"+ încă %lu evenimente\",\"one\":\"+ încă %lu eveniment\",\"other\":\"+ încă %lu de evenimente\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "{\"numConflictingEvents\":{\"other\":\"+%lu件のその他の予定\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"numConflictingEvents\":{\"other\":\"+%lu More Events\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "{\"numConflictingEvents\":{\"one\":\"+%lu ਹੋਰ ਇਵੈਂਟ\",\"other\":\"+%lu ਹੋਰ ਇਵੈਂਟ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "{\"numConflictingEvents\":{\"one\":\"+మరో %lu ఇవెంట్‌లు\",\"other\":\"+మరో %lu ఇవెంట్‌లు\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "{\"numConflictingEvents\":{\"one\":\"‏+אירוע נוסף\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"‏+%lu אירועים נוספים\",\"two\":\"‏+שני אירועים נוספים\",\"many\":\"‏+%lu אירועים נוספים\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "{\"numConflictingEvents\":{\"one\":\"+ тағы %lu оқиға\",\"other\":\"+ тағы %lu оқиға\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"numConflictingEvents\":{\"one\":\"+%lu másik esemény\",\"other\":\"+%lu másik esemény\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "{\"numConflictingEvents\":{\"one\":\"+%lu évènement\",\"other\":\"+%lu évènements\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "{\"numConflictingEvents\":{\"few\":\"dar %lu įvykiai\",\"one\":\"dar %lu įvykis\",\"other\":\"dar %lu įvykių\",\"many\":\"dar %lu įvykio\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "{\"numConflictingEvents\":{\"one\":\"ಇನ್ನೂ +%lu ಇವೆಂಟ್‌ಗಳು\",\"other\":\"ಇನ್ನೂ +%lu ಇವೆಂಟ್‌ಗಳು\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"numConflictingEvents\":{\"one\":\"+%lu anden begivenhed\",\"other\":\"+%lu andre\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"numConflictingEvents\":{\"one\":\"+%lu altro evento\",\"other\":\"+ altri %lu eventi\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"numConflictingEvents\":{\"one\":\"+%lu Etkinlik Daha\",\"other\":\"+%lu Etkinlik Daha\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "{\"numConflictingEvents\":{\"one\":\"y %lu eventos más\",\"other\":\"y %lu eventos más\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@numConflictingEvents@\"}",
+        "filename" : "Formats.loctable"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/NanoTimeKit\/ComplicationBundles\/NanoCalendarComplicationsCompanion.bundle\/Formats.loctable",
+  "bundlePath" : "\/System\/Library\/NanoTimeKit\/ComplicationBundles\/NanoCalendarComplicationsCompanion.bundle"
+}

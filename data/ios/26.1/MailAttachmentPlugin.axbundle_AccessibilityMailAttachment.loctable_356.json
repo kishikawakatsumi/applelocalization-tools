@@ -1,0 +1,853 @@
+{
+  "framework" : "MailAttachmentPlugin.axbundle",
+  "localizations" : {
+    "download.attachment.inprogress.hint" : [
+      {
+        "language" : "th",
+        "target" : "อยู่ในระหว่างดาวน์โหลด",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "பதிவிறக்கம் செயலிலுள்ளது.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "Descarga en curso.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Идет процесс загрузки.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "ڈاؤنلوڈ جاری ہے۔",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "Descàrrega en curs.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "डाउनलोड जारी है।",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "다운로드가 진행 중입니다.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "ডাউনলোড করা হচ্ছে।",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Lataus käynnissä.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Pengunduhan sedang berlangsung.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Λήψη σε εξέλιξη.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Preuzimanje je u tijeku.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Download wird durchgeführt.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "yue_CN",
+        "target" : "正在下载。",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Hämtning pågår.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "ડાઉનલોડ પ્રગતિમાં છે.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Trwa pobieranie.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Đang tiến hành tải về.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Prenos je v teku.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Prebieha sťahovanie.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Bezig met downloaden.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "ଡାଉନ୍‌ଲୋଡ୍‌ ଚାଲିଛି।",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "ഡൗൺലോഡ് പുരോഗമിക്കുന്നു.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Descarga en curso.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "正在進行下載。",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Download in progress.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "正在下载。",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Descarga em curso.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Триває викачування.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Download in progress.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "التنزيل قيد التقدم.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "В процес на изтегляне.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "下載進行中。",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "डाउनलोड सुरू आहे.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Téléchargement…",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Probíhá stahování.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Nedlasting pågår.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Muat turun sedang berjalan.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Descărcare în curs.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "Download in progress.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "pt",
+        "target" : "Download em andamento.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "ダウンロード中です。",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "Download in progress.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "ਡਾਊਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "డౌన్‌లోడ్ ప్రోగ్రెస్‌లో ఉంది.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "מתבצעת הורדה.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "Жүктеп алу орындалуда.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Letöltés folyamatban.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Téléchargement…",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "Atsisiunčiama.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ಡೌನ್‌ಲೋಡ್ ಪ್ರಗತಿಯಲ್ಲಿದೆ.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Overførsel i gang.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Download in corso.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "İndirme sürüyor.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "Descarga en curso.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      }
+    ],
+    "view.attachment.hint" : [
+      {
+        "language" : "th",
+        "target" : "ดูไฟล์แนบ",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "இணைப்பைக் காட்டும்.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "Visualiza el archivo adjunto.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Просматривает вложенный файл.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "اٹیچمنٹ دکھاتا ہے۔",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "Visualitza l’arxiu adjunt.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "अटैचमेंट को दिखाता है।",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "첨부 파일을 봅니다.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "অ্যাটাচমেন্ট দেখে।",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Näyttää liitteen.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Lihat lampiran.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Προβάλλει το συνημμένο.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Pregled privitka.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Anhang anzeigen.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "yue_CN",
+        "target" : "显示附件。",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Visar bilagan.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "અટૅચમેંટને બતાવે છે.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Wyświetlenie załącznika.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Xem tệp đính kèm.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Prikaže prilogo.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Zobrazí prílohu.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Geeft de bijlagen weer.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "ଆଟାଚ୍‌ମେଣ୍ଟ୍‌ ଦେଖନ୍ତୁ।",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "അറ്റാച്ച്മെന്റ് കാണുന്നു.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Visualiza el archivo adjunto.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "檢視附件。",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Views the attachment.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "显示附件。",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Mostra o anexo.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Показує вкладення.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Views the attachment.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "عرض للمرفق.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Преглежда прикачен файл.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "檢視附件。",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "अटॅचमेंट बघते.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Permet d’afficher la pièce jointe.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Zobrazí přílohu.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Viser vedlegget.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Melihat lampiran.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Vizualizați fișierul atașat.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "Views the attachment.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "pt",
+        "target" : "Visualiza o anexo.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "添付ファイルを表示します。",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "Views the attachment.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "ਅਟੈਚਮੈਂਟਾਂ ਦੇਖਦਾ ਹੈ।",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "అటాచ్‌మెంట్‌ను చూస్తుంది.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "מציג את הקובץ המצורף.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "Тіркемені көреді.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Megtekinti a mellékletet.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Permet d’afficher la pièce jointe.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "Peržiūrimas priedas.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ಅಟ್ಯಾಚ್‌ಮೆಂಟ್ ಅನ್ನು ನೋಡುತ್ತದೆ.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Viser bilaget.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Visualizza l’allegato.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "İlişiği görüntüler.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "Visualiza el archivo adjunto.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      }
+    ],
+    "download.attachment.hint" : [
+      {
+        "language" : "th",
+        "target" : "ดาวน์โหลดไฟล์แนบ",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ta",
+        "target" : "இணைப்பைப் பதிவிறக்கும்.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "es_US",
+        "target" : "Descarga el archivo adjunto.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "Загружает вложенный файл.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ur",
+        "target" : "اٹیچمنٹ کو ڈاؤنلوڈ کرتا ہے۔",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "Descarrega l’arxiu adjunt.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "अटैचमेंट को डाउनलोड करता है।",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "첨부 파일을 다운로드합니다.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "bn",
+        "target" : "অ্যাটাচমেন্ট ডাউনলোড করা হয়।",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "Lataa liitettä.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "Mengunduh lampiran.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "Κάνει λήψη του συνημμένου.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "Preuzimanje privitka.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "Anhang wird geladen.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "yue_CN",
+        "target" : "下载附件。",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "Hämtar bilagan.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "gu",
+        "target" : "અટૅચમેંટને ડાઉનલોડ કરે છે.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "Pobieranie załącznika.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "Tải tệp đính kèm về.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "Prenese prilogo.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "Stiahne prílohu.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "Downloads de bijlage.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "or",
+        "target" : "ଆଟାଚ୍‌ମେଣ୍ଟ୍‌ ଡାଉନ୍‌ଲୋଡ୍‌ କରେ।",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ml",
+        "target" : "അറ്റാച്ച്മെന്റ് ഡൗൺലോഡ് ചെയ്യും.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "Descarga el archivo adjunto.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "下載附件。",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "Downloads the attachment.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "下载附件。",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "Descarrega o anexo.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "Викачує вкладення.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Downloads the attachment.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "تنزيل المرفق.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "bg",
+        "target" : "Изтегля прикачен файл.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "下載附件。",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "mr",
+        "target" : "अटॅचमेंट डाउनलोड करा.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "Permet de télécharger la pièce jointe.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "Stáhne přílohu.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "Laster ned vedlegget.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "Muat turun lampiran.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "Descărcați fișierul atașat.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "en_IN",
+        "target" : "Downloads the attachment.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "pt",
+        "target" : "Baixa o anexo.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "添付ファイルをダウンロードします。",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "Downloads the attachment.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "pa",
+        "target" : "ਅਟੈਚਮੈਂਟਾਂ ਡਾਊਨਲੋਡ ਕਰਦਾ ਹੈ।",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "te",
+        "target" : "అటాచ్‌మెంట్‌ను డౌన్‌లోడ్ చేస్తుంది.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "מוריד את הקובץ המצורף.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "kk",
+        "target" : "Тіркемені жүктеп алады.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "Letölti a mellékletet.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "Permet de télécharger la pièce jointe.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "lt",
+        "target" : "Atsisiunčiamas priedas.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "kn",
+        "target" : "ಅಟ್ಯಾಚ್‌ಮೆಂಟ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡುತ್ತದೆ.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "Henter bilaget.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "Scarica l’allegato.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "İlişiği indirir.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "Descarga el archivo adjunto.",
+        "filename" : "AccessibilityMailAttachment.loctable"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/AccessibilityBundles\/MailAttachmentPlugin.axbundle\/AccessibilityMailAttachment.loctable",
+  "bundlePath" : "\/System\/Library\/AccessibilityBundles\/MailAttachmentPlugin.axbundle"
+}
