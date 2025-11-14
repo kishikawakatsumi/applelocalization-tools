@@ -1,0 +1,613 @@
+{
+  "framework" : "AppleService.xpc",
+  "bundlePath" : "\/System\/Library\/PrivateFrameworks\/ConfigurationProfiles.framework\/XPCServices\/AppleService.xpc",
+  "loctablePath" : "\/System\/Library\/PrivateFrameworks\/ConfigurationProfiles.framework\/XPCServices\/AppleService.xpc\/Contents\/Resources\/InternalDiagnostics.loctable",
+  "localizations" : {
+    "CPPayloadCountStringsDictKey_CountLast" : [
+      {
+        "language" : "th",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"การวินิจฉัยภายใน (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Internal Diagnostics\",\"other\":\"Internal Diagnostics (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"आंतरिक डायग्नॉस्टिक\",\"other\":\"आंतरिक डायग्नॉस्टिक (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnostic interne\",\"other\":\"Diagnostics internes (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Interné diagnostiky (%lu)\",\"one\":\"Interná diagnostika\",\"other\":\"Interné diagnostiky (%lu)\",\"many\":\"Interné diagnostiky (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"כלי אבחון פנימי\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"כלי אבחון פנימיים (%lu)\",\"two\":\"כלי אבחון פנימיים (%lu)\",\"many\":\"כלי אבחון פנימיים (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Chẩn đoán nội bộ (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"التشخيصات الداخلية\",\"few\":\"التشخيصات الداخلية (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"التشخيصات الداخلية (%lu)\",\"two\":\"التشخيصات الداخلية (%lu)\",\"other\":\"التشخيصات الداخلية (%lu)\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"التشخيصات الداخلية (%lu)\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnosi interna\",\"other\":\"Diagnosi interne (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnóstico interno\",\"other\":\"Diagnósticos internos (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Notranje diagnostike (%lu)\",\"one\":\"%lu notranja diagnostika\",\"other\":\"Notranje diagnostike (%lu)\",\"two\":\"Notranji diagnostiki (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Interne Diagnose\",\"other\":\"Interne Diagnose (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Внутрішні діагностичні звіти (%lu)\",\"one\":\"Внутрішній діагностичний звіт (%lu)\",\"other\":\"Внутрішні діагностичні звіти (%lu)\",\"many\":\"Внутрішні діагностичні звіти (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"內部診斷（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnostics internes\",\"other\":\"Diagnostics internes (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"内部診断（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnóstico interno\",\"other\":\"Diagnóstico interno (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnóstico interno\",\"other\":\"Diagnósticos internos (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Diagnostik Dalaman (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Interne diagnostische info\",\"other\":\"Interne diagnostische info (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Sisäinen vianmääritys\",\"other\":\"Sisäinen vianmääritys (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Unutarnje dijagnostike (%lu)\",\"one\":\"Unutarnja dijagnostika (%lu)\",\"other\":\"Unutarnje dijagnostike (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Intern diagnos\",\"other\":\"Intern diagnos (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnóstico Interno\",\"other\":\"Diagnósticos Internos (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Internal Diagnostics\",\"other\":\"Internal Diagnostics (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Interní diagnostiky (%lu)\",\"one\":\"Interní diagnostika\",\"other\":\"Interní diagnostiky (%lu)\",\"many\":\"Interní diagnostiky (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Dahili Tanı\",\"other\":\"Dahili Tanılar (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Diagnoze interne (%lu)\",\"one\":\"Diagnoză internă\",\"other\":\"Diagnoze interne (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnòstic intern\",\"other\":\"Diagnòstics interns (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Εσωτερικά διαγνωστικά\",\"other\":\"Εσωτερικά διαγνωστικά (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"내부 진단(%lu개)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Внутренняя диагностика (%lu)\",\"one\":\"Внутренняя диагностика (%lu)\",\"other\":\"Внутренняя диагностика (%lu)\",\"many\":\"Внутренняя диагностика (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"內部診斷（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Intern diagnostik\",\"other\":\"Intern diagnostik (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Diagnostyki wewnętrzne (%lu)\",\"one\":\"Diagnostyka wewnętrzna\",\"other\":\"Diagnostyki wewnętrzne (%lu)\",\"many\":\"Diagnostyki wewnętrzne (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"intern diagnostikk\",\"other\":\"intern diagnostikk (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Internal Diagnostics\",\"other\":\"Internal Diagnostics (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Belső diagnosztika\",\"other\":\"Belső diagnosztika (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"内部诊断(%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Diagnostik Internal (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_SingularOnly" : [
+      {
+        "language" : "th",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Internal Diagnostics\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"आंतरिक डायग्नॉस्टिक\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnostic interne\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Interná diagnostika\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"כלי אבחון פנימי\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"\",\"two\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"التشخيصات الداخلية\",\"few\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"\",\"two\":\"\",\"other\":\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnosi interna\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnóstico interno\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Notranja diagnostika\",\"other\":\"\",\"two\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Interne Diagnose\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Внутрішній діагностичний звіт\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnostics internes\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnóstico interno\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnóstico interno\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Interne diagnostische info\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Sisäinen vianmääritys\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Unutarnja dijagnostika\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Intern diagnos\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnóstico Interno\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Internal Diagnostics\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Interní diagnostika\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Dahili Tanı\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Diagnoză internă\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnòstic intern\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Εσωτερικά διαγνωστικά\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Внутренняя диагностика\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Intern diagnostik\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Diagnostyka wewnętrzna\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"intern diagnostikk\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Internal Diagnostics\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Belső diagnosztika\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_CountFirst" : [
+      {
+        "language" : "th",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"การวินิจฉัยภายใน %lu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Internal Diagnostics\",\"other\":\"%lu Internal Diagnostics\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "hi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"आंतरिक डायग्नॉस्टिक\",\"other\":\"%lu आंतरिक डायग्नॉस्टिक\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "fr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnostic interne\",\"other\":\"%lu diagnostics internes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "sk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu interné diagnostiky\",\"one\":\"Interná diagnostika\",\"other\":\"%lu interných diagnostík\",\"many\":\"%lu interných diagnostík\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "he",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"כלי אבחון פנימי\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"%lu כלי אבחון פנימיים \",\"two\":\"%lu כלי אבחון פנימיים \",\"many\":\"%lu כלי אבחון פנימיים \",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "vi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Chẩn đoán nội bộ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ar",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"التشخيصات الداخلية\",\"few\":\"%lu حمولات من \\\"التشخيصات الداخلية\\\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"%lu حمولة من \\\"التشخيصات الداخلية\\\"\",\"two\":\"حمولتان من \\\"التشخيصات الداخلية\\\"\",\"other\":\"%lu حمولة من \\\"التشخيصات الداخلية\\\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"لا توجد حمولات من \\\"التشخيصات الداخلية\\\"\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "it",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnosi interna\",\"other\":\"%lu diagnosi interne\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnóstico interno\",\"other\":\"%lu diagnósticos internos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "sl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu notranje diagnostike\",\"one\":\"%lu notranja diagnostika\",\"other\":\"%lu notranjih diagnostik\",\"two\":\"%lu notranji diagnostiki\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "de",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Interne Diagnose\",\"other\":\"%lu interne Diagnose\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "uk",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu внутрішні діагностичні звіти\",\"one\":\"%lu внутрішній діагностичний звіт\",\"other\":\"%lu внутрішнього діагностичного звіту\",\"many\":\"%lu внутрішніх діагностичних звітів\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "zh_HK",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu項內部診斷\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "fr_CA",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnostics internes\",\"other\":\"%lu diagnostics internes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ja",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu個の内部診断\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "es_419",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnóstico interno\",\"other\":\"%lu diagnóstico interno\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "pt_PT",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnóstico interno\",\"other\":\"%lu diagnósticos internos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ms",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Diagnostik Dalaman\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "nl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Interne diagnostische info\",\"other\":\"%lu interne diagnostische info\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "fi",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Sisäinen vianmääritys\",\"other\":\"%lu sisäistä vianmääritysasetusta\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "hr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu unutarnje dijagnostike\",\"one\":\"%lu unutarnja dijagnostika\",\"other\":\"%lu unutarnjih dijagnostika\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "sv",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Intern diagnos\",\"other\":\"%lu Intern diagnos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "pt_BR",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnóstico Interno\",\"other\":\"%lu Diagnósticos Internos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "en",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Internal Diagnostics\",\"other\":\"%lu Internal Diagnostics\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "cs",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu interní diagnostiky\",\"one\":\"Interní diagnostika\",\"other\":\"%lu interních diagnostik\",\"many\":\"%lu interní diagnostiky\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "tr",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Dahili Tanı\",\"other\":\"%lu Dahili Tanı\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ro",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu diagnoze interne\",\"one\":\"Diagnoză internă\",\"other\":\"%lu de diagnoze interne\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ca",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Diagnòstic intern\",\"other\":\"%lu diagnòstics interns\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "el",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Εσωτερικά διαγνωστικά\",\"other\":\"%lu Εσωτερικά διαγνωστικά\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ko",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu개의 내부 진단\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "ru",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Внутренняя диагностика (%lu)\",\"one\":\"Внутренняя диагностика (%lu)\",\"other\":\"Внутренняя диагностика (%lu)\",\"many\":\"Внутренняя диагностика (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "zh_TW",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu項內部診斷\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "da",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Intern diagnostik\",\"other\":\"%lu intern diagnostik\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "pl",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu diagnostyki wewnętrzne\",\"one\":\"Diagnostyka wewnętrzna\",\"other\":\"%lu diagnostyki wewnętrznej\",\"many\":\"%lu diagnostyk wewnętrznych\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "no",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"intern diagnostikk\",\"other\":\"%lu intern diagnostikk\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "en_GB",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Internal Diagnostics\",\"other\":\"%lu Internal Diagnostics\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "hu",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Belső diagnosztika\",\"other\":\"%lu belső diagnosztika\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu个内部诊断\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      },
+      {
+        "language" : "id",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Diagnostik Internal\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}",
+        "filename" : "InternalDiagnostics.loctable"
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "bundlePath" : "\/System\/iOSSupport\/System\/Library\/PrivateFrameworks\/FeedbackCore.framework",
+  "loctablePath" : "\/System\/iOSSupport\/System\/Library\/PrivateFrameworks\/FeedbackCore.framework\/Versions\/A\/Resources\/Plurals.loctable",
+  "localizations" : {
+    "%@, %u unread items" : [
+      {
+        "language" : "en",
+        "filename" : "Plurals.loctable",
+        "target" : "{\"Comment\":\"Read for the smart mailboxes in VoiceOver as \\\"Announcements, 19 unread items\\\", for example.\",\"FEEDBACK_COUNT\":{\"other\":\"%@, %u unread items\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@FEEDBACK_COUNT@\"}"
+      }
+    ],
+    "Do you want to remove %u selected feedback?" : [
+      {
+        "language" : "en",
+        "filename" : "Plurals.loctable",
+        "target" : "{\"Comment\":\"Title view for alert informing the user they are about to remove multiple feedback from their account. FEEDBACK_COUNT == 1 is handled with a different string, and FEEDBACK_COUNT will never be 0.\",\"FEEDBACK_COUNT\":{\"other\":\"Do you want to remove %u selected feedback?\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@FEEDBACK_COUNT@\"}"
+      }
+    ],
+    "Are you sure that you want to close %u selected feedback?" : [
+      {
+        "language" : "en",
+        "filename" : "Plurals.loctable",
+        "target" : "{\"Comment\":\"Title for alert view informing user that they are about to close multiple feedback. FEEDBACK_COUNT == 1 is handled with a differnt string. FEEDBACK_COUNT == 0 is an invalid use case and does not need localization.\",\"FEEDBACK_COUNT\":{\"other\":\"Are you sure that you want to close %u selected feedback?\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@FEEDBACK_COUNT@\"}"
+      }
+    ],
+    "You have not submitted the additional information and files for %lu feedback." : [
+      {
+        "language" : "en",
+        "filename" : "Plurals.loctable",
+        "target" : "{\"Comment\":\"Text in alert when closing feedbacks with pending followups.\",\"FEEDBACK_COUNT\":{\"one\":\"You have not submitted the additional information and files.\",\"other\":\"You have not submitted the additional information and files for %lu feedback.\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@FEEDBACK_COUNT@\"}"
+      }
+    ],
+    "%@, %u items" : [
+      {
+        "language" : "en",
+        "filename" : "Plurals.loctable",
+        "target" : "{\"Comment\":\"Read for the smart mailboxes in VoiceOver as \\\"Recent Activity, 19 items\\\", for example.\",\"FEEDBACK_COUNT\":{\"other\":\"%@, %u items\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@FEEDBACK_COUNT@\"}"
+      }
+    ],
+    "Delete %lu Drafts?" : [
+      {
+        "language" : "en",
+        "filename" : "Plurals.loctable",
+        "target" : "{\"Comment\":\"Text in alert when deleting draft items\",\"FEEDBACK_COUNT\":{\"one\":\"Delete Draft?\",\"other\":\"Delete %lu Drafts?\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@FEEDBACK_COUNT@\"}"
+      }
+    ],
+    "Do you want to move %u selected feedback?" : [
+      {
+        "language" : "en",
+        "filename" : "Plurals.loctable",
+        "target" : "{\"Comment\":\"Title view for alert informing the user they are about to move multiple feedback to another account. FEEDBACK_COUNT == 1 is handled with a different string, and FEEDBACK_COUNT will never be 0.\",\"FEEDBACK_COUNT\":{\"other\":\"Do you want to move %u selected feedback?\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@FEEDBACK_COUNT@\"}"
+      }
+    ],
+    "After %lu minutes" : [
+      {
+        "language" : "en",
+        "filename" : "Plurals.loctable",
+        "target" : "{\"Comment\":\"Touch ID or Face ID Timeout, in minutes\",\"MINUTES_COUNT\":{\"one\":\"After 1 minute\",\"zero\":\"Immediately\",\"other\":\"After %lu minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@MINUTES_COUNT@\"}"
+      }
+    ],
+    "Reassign %lu Feedback" : [
+      {
+        "language" : "en",
+        "filename" : "Plurals.loctable",
+        "target" : "{\"Comment\":\"Title view for sheet informing the user they are about to reassign multiple feedback to another account. FEEDBACK_COUNT == 1 is handled with a different string, and FEEDBACK_COUNT will never be 0.\",\"FEEDBACK_COUNT\":{\"other\":\"Reassign %lu Feedback\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@FEEDBACK_COUNT@\"}"
+      }
+    ],
+    "Do you want to move %u selected feedback to %@?" : [
+      {
+        "language" : "en",
+        "filename" : "Plurals.loctable",
+        "target" : "{\"Comment\":\"Title view for alert informing the user they are about to move multiple feedback to a single other account. FEEDBACK_COUNT == 1 is handled with a different string, and FEEDBACK_COUNT will never be 0.\",\"FEEDBACK_COUNT\":{\"other\":\"Do you want to move %u selected feedback to %@?\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@FEEDBACK_COUNT@\"}"
+      }
+    ],
+    "Attaching %d files" : [
+      {
+        "language" : "en",
+        "filename" : "Plurals.loctable",
+        "target" : "{\"Comment\":\"Used to inform user that files are being attached to a Feedback or Feedback Followup.\",\"FILES_COUNT\":{\"one\":\"Attaching %d file\",\"other\":\"Attaching %d files\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"d\"},\"NSStringLocalizedFormatKey\":\"%#@FILES_COUNT@\"}"
+      }
+    ],
+    "%u Filters" : [
+      {
+        "language" : "en",
+        "filename" : "Plurals.loctable",
+        "target" : "{\"Comment\":\"Label for filters when there are multiple selected. Will never be zero or 1.\",\"FILTER_COUNT\":{\"other\":\"%u Filters\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"u\"},\"NSStringLocalizedFormatKey\":\"%#@FILTER_COUNT@\"}"
+      }
+    ]
+  },
+  "framework" : "FeedbackCore.framework"
+}

@@ -1,0 +1,795 @@
+{
+  "bundlePath" : "\/System\/Library\/Automator\/Get Attachments from Mail Messages.action",
+  "framework" : "Get Attachments from Mail Messages.action",
+  "localizations" : {
+    "14.placeholder" : [
+      {
+        "filename" : "main.loctable",
+        "language" : "th",
+        "target" : "ไม่ได้เลือก"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_AU",
+        "target" : "No Selection"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hi",
+        "target" : "कोई चयन नहीं"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr",
+        "target" : "Aucune sélection"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sk",
+        "target" : "Žiadny výber"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "he",
+        "target" : "לא נבחר כלום"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ar",
+        "target" : "لا يوجد تحديد"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "vi",
+        "target" : "Không có Lựa chọn"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "it",
+        "target" : "Nessuna selezione"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es",
+        "target" : "Ningún elemento seleccionado"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sl",
+        "target" : "Ni izbora"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "de",
+        "target" : "Nichts ausgewählt"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "uk",
+        "target" : "Нічого не вибрано"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_HK",
+        "target" : "沒有選取項目"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr_CA",
+        "target" : "Aucune sélection"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ja",
+        "target" : "選択なし"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es_419",
+        "target" : "Ningún elemento seleccionado"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt_PT",
+        "target" : "Nada selecionado"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ms",
+        "target" : "Tiada Pilihan"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "nl",
+        "target" : "Niets geselecteerd"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fi",
+        "target" : "Ei valintaa"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hr",
+        "target" : "Bez odabira"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sv",
+        "target" : "Ingen markering"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt_BR",
+        "target" : "Nada Selecionado"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "cs",
+        "target" : "Nic nevybráno"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "tr",
+        "target" : "Seçim Yok"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ro",
+        "target" : "Nicio selecție"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ca",
+        "target" : "No hi ha res seleccionat"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "el",
+        "target" : "Καμία επιλογή"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pl",
+        "target" : "brak zaznaczenia"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ru",
+        "target" : "Ничего не выбрано"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "da",
+        "target" : "Intet valgt"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_TW",
+        "target" : "沒有選取項目"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "id",
+        "target" : "Tidak Ada Pilihan"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_CN",
+        "target" : "未选择"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "no",
+        "target" : "Ikke valgt"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hu",
+        "target" : "Nincs kijelölés"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_GB",
+        "target" : "No Selection"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ko",
+        "target" : "선택된 항목 없음"
+      }
+    ],
+    "25.title" : [
+      {
+        "filename" : "main.loctable",
+        "language" : "th",
+        "target" : "โฟลเดอร์รายการดาวน์โหลดเมลเริ่มต้น"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_AU",
+        "target" : "Default Mail downloads folder"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hi",
+        "target" : "डिफ़ॉल्ट मेल डाउनलोड फ़ोल्डर"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr",
+        "target" : "Dossier de téléchargement par défaut des e-mails"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sk",
+        "target" : "Predvolený priečinok pre stiahnuté prílohy emailov"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "he",
+        "target" : "תיקיית ברירת המחדל של הורדות מ״דואר״"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ar",
+        "target" : "مجلد تنزيلات البريد الافتراضي"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "vi",
+        "target" : "Thư mục tải về mặc định của Mail"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "it",
+        "target" : "Cartella di default di Mail per i download"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es",
+        "target" : "Carpeta de descargas de Mail por omisión"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sl",
+        "target" : "Privzeta mapa za prenos e-pošte"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "de",
+        "target" : "Standardordner für E-Mail-Downloads"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "uk",
+        "target" : "Стандартна папка для викачувань Пошти"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_HK",
+        "target" : "預設的「郵件」下載資料夾"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr_CA",
+        "target" : "Dossier de téléchargement par défaut des courriels"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ja",
+        "target" : "“メール”のデフォルトのダウンロードフォルダ"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es_419",
+        "target" : "Carpeta de descargas de Mail predeterminada"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt_PT",
+        "target" : "Pasta predefinida para descarga de correio"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ms",
+        "target" : "Folder muat turun Mail lalai"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "nl",
+        "target" : "Standaardmap voor Mail-downloads"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fi",
+        "target" : "Mailin oletusarvoiseen hakukansioon"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hr",
+        "target" : "Standardna mapa za preuzimanje stavki aplikacije Mail"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sv",
+        "target" : "Förvald Mail-hämtningsmapp"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt_BR",
+        "target" : "Pasta de downloads padrão do Mail"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "cs",
+        "target" : "Výchozí složka stahování pošty"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "tr",
+        "target" : "Saptanmış Mail ile indirilenler klasörü"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ro",
+        "target" : "Dosarul implicit de descărcări Mail"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ca",
+        "target" : "Carpeta de descàrregues del Mail per omissió"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "el",
+        "target" : "Προεπιλεγμένος φάκελος λήψεων Mail"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pl",
+        "target" : "Domyślny folder pobranych rzeczy Poczty"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ru",
+        "target" : "Папка загрузки почты по умолчанию"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "da",
+        "target" : "Mails standardmappe til overførte emner"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_TW",
+        "target" : "預設的「郵件」下載檔案夾"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "id",
+        "target" : "Folder pengunduhan Mail default"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_CN",
+        "target" : "默认“邮件”下载文件夹"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "no",
+        "target" : "Standard nedlastingsmappe for Mail"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hu",
+        "target" : "A Mail letöltések alapértelmezett mappája"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_GB",
+        "target" : "Default Mail downloads folder"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ko",
+        "target" : "기본 Mail 다운로드 폴더"
+      }
+    ],
+    "15.title" : [
+      {
+        "filename" : "main.loctable",
+        "language" : "th",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_AU",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hi",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sk",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "he",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ar",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "vi",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "it",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sl",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "de",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "uk",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_HK",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr_CA",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ja",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es_419",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt_PT",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ms",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "nl",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fi",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hr",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sv",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt_BR",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "cs",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "tr",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ro",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ca",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "el",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pl",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ru",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "da",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_TW",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "id",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_CN",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "no",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hu",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_GB",
+        "target" : "OtherViews"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ko",
+        "target" : "OtherViews"
+      }
+    ],
+    "23.title" : [
+      {
+        "filename" : "main.loctable",
+        "language" : "th",
+        "target" : "บันทึกสิ่งที่แนบใน:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_AU",
+        "target" : "Save attachments in:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hi",
+        "target" : "अटैचमेंट इसमें सहेजें :"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr",
+        "target" : "Enregistrer les pièces jointes dans :"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sk",
+        "target" : "Uložiť prílohy do:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "he",
+        "target" : "שמירת הקבצים המצורפים במיקום זה:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ar",
+        "target" : "حفظ المرفقات في:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "vi",
+        "target" : "Lưu tệp đính kèm trong:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "it",
+        "target" : "Salva allegati in:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es",
+        "target" : "Guardar archivos adjuntos en:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sl",
+        "target" : "Shrani priloge na:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "de",
+        "target" : "Anhänge sichern in:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "uk",
+        "target" : "Зберігати вкладення в:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_HK",
+        "target" : "將附件儲存在："
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr_CA",
+        "target" : "Enregistrer les pièces jointes dans :"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ja",
+        "target" : "添付ファイルの保存先:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es_419",
+        "target" : "Guardar archivos adjuntos en:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt_PT",
+        "target" : "Guardar anexos em:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ms",
+        "target" : "Simpan lampiran dalam:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "nl",
+        "target" : "Bewaar bijlagen in:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fi",
+        "target" : "Tallenna liitteet kohteeseen:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hr",
+        "target" : "Spremi privitke u:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sv",
+        "target" : "Spara bilagor i:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt_BR",
+        "target" : "Salvar anexos em:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "cs",
+        "target" : "Uložit přílohy do:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "tr",
+        "target" : "İlişikleri kaydet:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ro",
+        "target" : "Salvați fișierele atașate în:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ca",
+        "target" : "Desa els arxius adjunts a:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "el",
+        "target" : "Αποθήκευση συνημμένων σε:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pl",
+        "target" : "Zachowaj załączniki w:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ru",
+        "target" : "Сохранить вложенные файлы в:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "da",
+        "target" : "Gem bilag i:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_TW",
+        "target" : "將附件儲存在："
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "id",
+        "target" : "Simpan lampiran di:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_CN",
+        "target" : "将附件保存在："
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "no",
+        "target" : "Arkiver vedlegg i:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hu",
+        "target" : "Mellékletek mentése ide:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_GB",
+        "target" : "Save attachments in:"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ko",
+        "target" : "첨부 파일 저장:"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/Automator\/Get Attachments from Mail Messages.action\/Contents\/Resources\/main.loctable"
+}

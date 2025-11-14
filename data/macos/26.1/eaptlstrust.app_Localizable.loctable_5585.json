@@ -1,0 +1,613 @@
+{
+  "bundlePath" : "\/System\/Library\/PrivateFrameworks\/EAP8021X.framework\/Support\/eaptlstrust.app",
+  "localizations" : {
+    "INFORMATIVE_TEXT" : [
+      {
+        "language" : "th",
+        "filename" : "Localizable.loctable",
+        "target" : "ก่อนที่จะรับรองความถูกต้องของเซิร์ฟเวอร์ “%@” คุณควรตรวจสอบใบรับรองของเซิร์ฟเวอร์เพื่อดูให้แน่ใจว่าใบรับรองนั้นเหมาะกับเครือข่ายนี้\n\nคลิก ‘แสดงใบรับรอง’ เพื่อดูใบรับรอง"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "Localizable.loctable",
+        "target" : "Before authenticating to server “%@”, you should examine the server’s certificate to ensure that it is appropriate for this network.\n\nTo view the certificate, click ‘Show Certificate’."
+      },
+      {
+        "language" : "hi",
+        "filename" : "Localizable.loctable",
+        "target" : "“%@” सर्वर से प्रमाणित किए जाने से पहले, आपको यह सुनिश्चित करने के लिए सर्वर के सर्टिफ़िकेट का निरीक्षण करना चाहिए कि यह इस नेटवर्क के लिए उपयुक्त है।\n\nसर्टिफ़िकेट देखने के लिए, ‘सर्टिफ़िकेट दिखाएँ’ पर क्लिक करें।"
+      },
+      {
+        "language" : "fr",
+        "filename" : "Localizable.loctable",
+        "target" : "Avant de vous authentifier auprès du serveur « %@ », vous devez examiner son certificat pour vous assurer qu’il est approprié pour ce réseau.\n\nPour consulter le certificat, cliquez sur « Afficher le certificat »."
+      },
+      {
+        "language" : "sk",
+        "filename" : "Localizable.loctable",
+        "target" : "Pred autentifikáciou na server „%@“ by ste mali preskúmať certifikát servera a uistiť sa, že je vhodný pre túto sieť.\n\nCertifikát zobrazíte kliknutím na Zobraziť certifikát."
+      },
+      {
+        "language" : "he",
+        "filename" : "Localizable.loctable",
+        "target" : "בטרם אימות בפני השרת ״%@״, יש לבחון את האישור שלו כדי לוודא שהוא מתאים לרשת זו.\n\nכדי לצפות באישור, יש ללחוץ על ״הצגת האישור״."
+      },
+      {
+        "language" : "ar",
+        "filename" : "Localizable.loctable",
+        "target" : "قبل المصادقة لدى الخادم \"%@\"، ينبغي لك فحص شهادة الخادم للتأكد من ملاءمتها لهذه الشبكة.\n\nلعرض الشهادة، انقر على \"إظهار الشهادة\"."
+      },
+      {
+        "language" : "vi",
+        "filename" : "Localizable.loctable",
+        "target" : "Trước khi xác thực cho máy chủ “%@”, bạn nên kiểm tra chứng nhận của máy chủ để đảm bảo rằng máy chủ phù hợp với mạng này.\n\nĐể xem chứng nhận, bấm vào ‘Hiển thị chứng nhận‘."
+      },
+      {
+        "language" : "it",
+        "filename" : "Localizable.loctable",
+        "target" : "Prima di effettuare l’autenticazione al server “%@”, dovresti esaminare il certificato del server per assicurarti che sia adatto a questa rete.\n\nPer visualizzare il certificato, fai clic su “Mostra certificato”."
+      },
+      {
+        "language" : "es",
+        "filename" : "Localizable.loctable",
+        "target" : "Antes de llevar a cabo la autenticación en el servidor “%@”, deberás examinar el certificado del servidor para asegurarte de que es adecuado para esta red.\n\nPara ver el certificado, haz clic en “Mostrar certificado”."
+      },
+      {
+        "language" : "sl",
+        "filename" : "Localizable.loctable",
+        "target" : "Pred preverjanjem pristnosti za strežnik »%@« preglejte potrdilo strežnika in se prepričajte, da je ustrezen za to omrežje.\n\nZa ogled potrdila kliknite »Prikaži potrdilo«."
+      },
+      {
+        "language" : "de",
+        "filename" : "Localizable.loctable",
+        "target" : "Bevor du dich bei dem Server „%@“ identifizierst, solltest du dessen Zertifikat überprüfen, um seine Eignung für dieses Netzwerk sicherzustellen.\n\nKlicke dazu auf „Zertifikat einblenden“."
+      },
+      {
+        "language" : "uk",
+        "filename" : "Localizable.loctable",
+        "target" : "Перед автентифікацією на сервері «%@» ви повинні перевірити його сертифікат і упевнитися в тому, що він відповідає цій мережі.\n\nЩоб переглянути сертифікат, клацніть «Показати сертифікат»."
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "Localizable.loctable",
+        "target" : "在認證伺服器「%@」之前，你應檢查伺服器的證書以確定適用於此網絡。\n\n如要檢視此證書，請按「顯示證書」一下。"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable",
+        "target" : "Avant de vous authentifier auprès du serveur « %@ », vous devez examiner son certificat pour vous assurer qu’il est approprié pour ce réseau.\n\nPour consulter le certificat, cliquez sur « Afficher le certificat »."
+      },
+      {
+        "language" : "ja",
+        "filename" : "Localizable.loctable",
+        "target" : "サーバ“%@”に認証する前に、このネットワークに適切であることを確認するため、サーバの証明書を検査しなければなりません。\n\n証明書を表示するには、“証明書を表示”をクリックします。"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "Localizable.loctable",
+        "target" : "Antes de autenticarse en el servidor “%@”, deberías examinar el certificado del servidor para asegurarte de que es adecuado para esta red.\n\nPara ver el certificado, haz clic en “Mostrar certificado”."
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "Localizable.loctable",
+        "target" : "Antes de proceder à autenticação no servidor “%@”, deve examinar o certificado do servidor para se certificar de que é apropriado para esta rede.\n\nPara ver o certificado, clique em “Mostrar certificado”."
+      },
+      {
+        "language" : "ms",
+        "filename" : "Localizable.loctable",
+        "target" : "Sebelum menjalankan pengesahan pada pelayan “%@”, anda patut memeriksa sijil pelayan untuk memastikan bahawa ia adalah sesuai untuk rangkaian ini.\n\nUntuk melihat sijil, klik ‘Tunjukkan Sijil’."
+      },
+      {
+        "language" : "nl",
+        "filename" : "Localizable.loctable",
+        "target" : "Voordat je je authenticeert bij de server '%@', moet je controleren of het certificaat van de server geschikt is voor dit netwerk.\n\nKlik op 'Toon certificaat' om het certificaat te bekijken."
+      },
+      {
+        "language" : "fi",
+        "filename" : "Localizable.loctable",
+        "target" : "Ennen todentautumista palvelimelle ”%@” kannattaa tutkia palvelimen varmennetta ja varmistaa, että se on sopiva tälle verkolle.\n\nJos haluat katsella varmennetta, klikkaa Näytä varmenne."
+      },
+      {
+        "language" : "hr",
+        "filename" : "Localizable.loctable",
+        "target" : "Prije autorizacije za poslužitelja \"%@\", pregledajte njegov certifikat kako bi bio prikladan za ovu mrežu.\n\nZa prikaz certifikata kliknite ”Prikaži certifikat”."
+      },
+      {
+        "language" : "sv",
+        "filename" : "Localizable.loctable",
+        "target" : "Innan du autentiserar till servern ”%@” bör du kontrollera serverns certifikat så att det är lämpligt för nätverket.\n\nDu kontrollerar det genom att klicka på ”Visa certifikat”."
+      },
+      {
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable",
+        "target" : "Antes de autenticar no servidor “%@”, você deve examinar o certificado do servidor para garantir que ele seja adequado a esta rede.\n\nPara visualizar o certificado, clique em “Mostrar Certificado”."
+      },
+      {
+        "language" : "en",
+        "filename" : "Localizable.loctable",
+        "target" : "Before authenticating to server “%@”, you should examine the server's certificate to ensure that it is appropriate for this network.\n\nTo view the certificate, click ‘Show Certificate’."
+      },
+      {
+        "language" : "cs",
+        "filename" : "Localizable.loctable",
+        "target" : "Před ověřením totožnosti na serveru „%@“ byste měli přezkoumat certifikát serveru a ujistit se, že je pro tuto síť vhodný.\n\nChcete-li si certifikát prohlédnout, klikněte na „Zobrazit certifikát“."
+      },
+      {
+        "language" : "tr",
+        "filename" : "Localizable.loctable",
+        "target" : "“%@” sunucusunda kimliği doğrulamadan önce, sunucu sertifikasını inceleyip onun bu ağ için uygun olduğundan emin olmalısınız.\n\nSertifikayı görüntülemek için “Sertifikayı Göster”i tıklayın."
+      },
+      {
+        "language" : "ro",
+        "filename" : "Localizable.loctable",
+        "target" : "Înainte de a vă autentifica la serverul „%@”, este recomandat să examinați certificatul serverului pentru a vă asigura că acesta este potrivit pentru această rețea.\n\nPentru a vizualiza certificatul, faceți clic pe „Afișați certificatul”."
+      },
+      {
+        "language" : "ca",
+        "filename" : "Localizable.loctable",
+        "target" : "Abans d’autenticar-te al servidor %@ hauries d’examinar el certificat del servidor per comprovar que és adequat per a la xarxa.\n\nPer veure el certificat, fes clic a “Mostra el certificat”."
+      },
+      {
+        "language" : "el",
+        "filename" : "Localizable.loctable",
+        "target" : "Πριν από τον έλεγχο ταυτότητας στον διακομιστή «%@», πρέπει να εξετάσετε το πιστοποιητικό του διακομιστή για να βεβαιωθείτε ότι είναι κατάλληλο για αυτό το δίκτυο.\n\nΓια να προβάλετε το πιστοποιητικό, κάντε κλικ στην «Εμφάνιση πιστοποιητικού»."
+      },
+      {
+        "language" : "ko",
+        "filename" : "Localizable.loctable",
+        "target" : "‘%@’ 서버에 인증하기 전에 서버 인증서를 점검하여 이 네트워크에 적합한지를 확인해야 합니다.\n\n인증서를 보려면 ‘인증서 보기’를 클릭하십시오."
+      },
+      {
+        "language" : "pl",
+        "filename" : "Localizable.loctable",
+        "target" : "Przed uwierzytelnieniem do serwera „%@” należy sprawdzić jego certyfikat, aby upewnić się, że jest właściwy dla tej sieci.\n\nAby zobaczyć certyfikat, kliknij w przycisk Pokaż certyfikat."
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "Localizable.loctable",
+        "target" : "在認證伺服器「%@」之前，你應檢查伺服器的憑證以確定它適用於此網路。\n\n若要檢視此憑證，請按一下「顯示憑證」。"
+      },
+      {
+        "language" : "da",
+        "filename" : "Localizable.loctable",
+        "target" : "Før du prøver at godkende til serveren “%@”, bør du undersøge serverens certifikat for at sikre, at det passer til dette netværk.\nKlik på “Vis certifikat” for at se certifikatet."
+      },
+      {
+        "language" : "ru",
+        "filename" : "Localizable.loctable",
+        "target" : "Прежде чем выполнять аутентификацию на сервере «%@», Вам необходимо проверить сертификат сервера и убедиться, что он подходит для данной сети.\n\nЧтобы просмотреть сертификат, нажмите «Показать сертификат»."
+      },
+      {
+        "language" : "no",
+        "filename" : "Localizable.loctable",
+        "target" : "Før du logger inn på tjeneren «%@», bør du undersøke tjenerens sertifikat for å forsikre deg om det passer til dette nettverket.\n\nHvis du vil vise sertifikatet, klikker du på «Vis sertifikat»."
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable",
+        "target" : "Before authenticating to server “%@”, you should examine the server's certificate to ensure that it is appropriate for this network.\n\nTo view the certificate, click ‘Show Certificate’."
+      },
+      {
+        "language" : "hu",
+        "filename" : "Localizable.loctable",
+        "target" : "A(z) „%@” szerverhez való hitelesítés előtt meg kell vizsgálnia a szerver tanúsítványát, hogy megfelelő-e ehhez a hálózathoz.\n\nA tanúsítvány megtekintéséhez kattintson a „Tanúsítvány megjelenítése” lehetőségre."
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "Localizable.loctable",
+        "target" : "在对服务器“%@”进行认证之前，你应该检查服务器的证书以确保它适合此网络。\n\n若要查看证书，请点按“显示证书”。"
+      },
+      {
+        "language" : "id",
+        "filename" : "Localizable.loctable",
+        "target" : "Sebelum mengesahkan ke server “%@”, Anda harus memeriksa sertifikat server untuk memastikan sertifikat ini sesuai untuk jaringan ini.\n\nUntuk melihat sertifikat, klik ‘Tampilkan Sertifikat’."
+      }
+    ],
+    "CANCEL" : [
+      {
+        "language" : "th",
+        "filename" : "Localizable.loctable",
+        "target" : "ยกเลิก"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "Localizable.loctable",
+        "target" : "Cancel"
+      },
+      {
+        "language" : "hi",
+        "filename" : "Localizable.loctable",
+        "target" : "रद्द करें"
+      },
+      {
+        "language" : "fr",
+        "filename" : "Localizable.loctable",
+        "target" : "Annuler"
+      },
+      {
+        "language" : "sk",
+        "filename" : "Localizable.loctable",
+        "target" : "Zrušiť"
+      },
+      {
+        "language" : "he",
+        "filename" : "Localizable.loctable",
+        "target" : "ביטול"
+      },
+      {
+        "language" : "ar",
+        "filename" : "Localizable.loctable",
+        "target" : "إلغاء"
+      },
+      {
+        "language" : "vi",
+        "filename" : "Localizable.loctable",
+        "target" : "Hủy"
+      },
+      {
+        "language" : "it",
+        "filename" : "Localizable.loctable",
+        "target" : "Annulla"
+      },
+      {
+        "language" : "es",
+        "filename" : "Localizable.loctable",
+        "target" : "Cancelar"
+      },
+      {
+        "language" : "sl",
+        "filename" : "Localizable.loctable",
+        "target" : "Prekliči"
+      },
+      {
+        "language" : "de",
+        "filename" : "Localizable.loctable",
+        "target" : "Abbrechen"
+      },
+      {
+        "language" : "uk",
+        "filename" : "Localizable.loctable",
+        "target" : "Скасувати"
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "Localizable.loctable",
+        "target" : "取消"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable",
+        "target" : "Annuler"
+      },
+      {
+        "language" : "ja",
+        "filename" : "Localizable.loctable",
+        "target" : "キャンセル"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "Localizable.loctable",
+        "target" : "Cancelar"
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "Localizable.loctable",
+        "target" : "Cancelar"
+      },
+      {
+        "language" : "ms",
+        "filename" : "Localizable.loctable",
+        "target" : "Batal"
+      },
+      {
+        "language" : "nl",
+        "filename" : "Localizable.loctable",
+        "target" : "Annuleer"
+      },
+      {
+        "language" : "fi",
+        "filename" : "Localizable.loctable",
+        "target" : "Kumoa"
+      },
+      {
+        "language" : "hr",
+        "filename" : "Localizable.loctable",
+        "target" : "Odustani"
+      },
+      {
+        "language" : "sv",
+        "filename" : "Localizable.loctable",
+        "target" : "Avbryt"
+      },
+      {
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable",
+        "target" : "Cancelar"
+      },
+      {
+        "language" : "en",
+        "filename" : "Localizable.loctable",
+        "target" : "Cancel"
+      },
+      {
+        "language" : "cs",
+        "filename" : "Localizable.loctable",
+        "target" : "Zrušit"
+      },
+      {
+        "language" : "tr",
+        "filename" : "Localizable.loctable",
+        "target" : "Vazgeç"
+      },
+      {
+        "language" : "ro",
+        "filename" : "Localizable.loctable",
+        "target" : "Anulați"
+      },
+      {
+        "language" : "ca",
+        "filename" : "Localizable.loctable",
+        "target" : "Cancel·la"
+      },
+      {
+        "language" : "el",
+        "filename" : "Localizable.loctable",
+        "target" : "Ακύρωση"
+      },
+      {
+        "language" : "ko",
+        "filename" : "Localizable.loctable",
+        "target" : "취소"
+      },
+      {
+        "language" : "pl",
+        "filename" : "Localizable.loctable",
+        "target" : "Anuluj"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "Localizable.loctable",
+        "target" : "取消"
+      },
+      {
+        "language" : "da",
+        "filename" : "Localizable.loctable",
+        "target" : "Annuller"
+      },
+      {
+        "language" : "ru",
+        "filename" : "Localizable.loctable",
+        "target" : "Отменить"
+      },
+      {
+        "language" : "no",
+        "filename" : "Localizable.loctable",
+        "target" : "Avbryt"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable",
+        "target" : "Cancel"
+      },
+      {
+        "language" : "hu",
+        "filename" : "Localizable.loctable",
+        "target" : "Mégsem"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "Localizable.loctable",
+        "target" : "取消"
+      },
+      {
+        "language" : "id",
+        "filename" : "Localizable.loctable",
+        "target" : "Batalkan"
+      }
+    ],
+    "CONTINUE" : [
+      {
+        "language" : "th",
+        "filename" : "Localizable.loctable",
+        "target" : "ดำเนินการต่อ"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "Localizable.loctable",
+        "target" : "Continue"
+      },
+      {
+        "language" : "hi",
+        "filename" : "Localizable.loctable",
+        "target" : "जारी रखें"
+      },
+      {
+        "language" : "fr",
+        "filename" : "Localizable.loctable",
+        "target" : "Continuer"
+      },
+      {
+        "language" : "sk",
+        "filename" : "Localizable.loctable",
+        "target" : "Pokračovať"
+      },
+      {
+        "language" : "he",
+        "filename" : "Localizable.loctable",
+        "target" : "המשך"
+      },
+      {
+        "language" : "ar",
+        "filename" : "Localizable.loctable",
+        "target" : "متابعة"
+      },
+      {
+        "language" : "vi",
+        "filename" : "Localizable.loctable",
+        "target" : "Tiếp tục"
+      },
+      {
+        "language" : "it",
+        "filename" : "Localizable.loctable",
+        "target" : "Continua"
+      },
+      {
+        "language" : "es",
+        "filename" : "Localizable.loctable",
+        "target" : "Continuar"
+      },
+      {
+        "language" : "sl",
+        "filename" : "Localizable.loctable",
+        "target" : "Nadaljuj"
+      },
+      {
+        "language" : "de",
+        "filename" : "Localizable.loctable",
+        "target" : "Fortfahren"
+      },
+      {
+        "language" : "uk",
+        "filename" : "Localizable.loctable",
+        "target" : "Продовжити"
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "Localizable.loctable",
+        "target" : "繼續"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable",
+        "target" : "Continuer"
+      },
+      {
+        "language" : "ja",
+        "filename" : "Localizable.loctable",
+        "target" : "続ける"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "Localizable.loctable",
+        "target" : "Continuar"
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "Localizable.loctable",
+        "target" : "Continuar"
+      },
+      {
+        "language" : "ms",
+        "filename" : "Localizable.loctable",
+        "target" : "Teruskan"
+      },
+      {
+        "language" : "nl",
+        "filename" : "Localizable.loctable",
+        "target" : "Ga door"
+      },
+      {
+        "language" : "fi",
+        "filename" : "Localizable.loctable",
+        "target" : "Jatka"
+      },
+      {
+        "language" : "hr",
+        "filename" : "Localizable.loctable",
+        "target" : "Nastavi"
+      },
+      {
+        "language" : "sv",
+        "filename" : "Localizable.loctable",
+        "target" : "Fortsätt"
+      },
+      {
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable",
+        "target" : "Continuar"
+      },
+      {
+        "language" : "en",
+        "filename" : "Localizable.loctable",
+        "target" : "Continue"
+      },
+      {
+        "language" : "cs",
+        "filename" : "Localizable.loctable",
+        "target" : "Pokračovat"
+      },
+      {
+        "language" : "tr",
+        "filename" : "Localizable.loctable",
+        "target" : "Sürdür"
+      },
+      {
+        "language" : "ro",
+        "filename" : "Localizable.loctable",
+        "target" : "Continuați"
+      },
+      {
+        "language" : "ca",
+        "filename" : "Localizable.loctable",
+        "target" : "Continua"
+      },
+      {
+        "language" : "el",
+        "filename" : "Localizable.loctable",
+        "target" : "Συνέχεια"
+      },
+      {
+        "language" : "ko",
+        "filename" : "Localizable.loctable",
+        "target" : "계속"
+      },
+      {
+        "language" : "pl",
+        "filename" : "Localizable.loctable",
+        "target" : "Dalej"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "Localizable.loctable",
+        "target" : "繼續"
+      },
+      {
+        "language" : "da",
+        "filename" : "Localizable.loctable",
+        "target" : "Fortsæt"
+      },
+      {
+        "language" : "ru",
+        "filename" : "Localizable.loctable",
+        "target" : "Продолжить"
+      },
+      {
+        "language" : "no",
+        "filename" : "Localizable.loctable",
+        "target" : "Fortsett"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable",
+        "target" : "Continue"
+      },
+      {
+        "language" : "hu",
+        "filename" : "Localizable.loctable",
+        "target" : "Folytatás"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "Localizable.loctable",
+        "target" : "继续"
+      },
+      {
+        "language" : "id",
+        "filename" : "Localizable.loctable",
+        "target" : "Lanjutkan"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/PrivateFrameworks\/EAP8021X.framework\/Support\/eaptlstrust.app\/Contents\/Resources\/Localizable.loctable",
+  "framework" : "eaptlstrust.app"
+}

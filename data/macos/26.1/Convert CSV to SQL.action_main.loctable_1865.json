@@ -1,0 +1,992 @@
+{
+  "bundlePath" : "\/System\/Library\/Automator\/Convert CSV to SQL.action",
+  "framework" : "Convert CSV to SQL.action",
+  "loctablePath" : "\/System\/Library\/Automator\/Convert CSV to SQL.action\/Contents\/Resources\/main.loctable",
+  "localizations" : {
+    "16.label" : [
+      {
+        "filename" : "main.loctable",
+        "language" : "th",
+        "target" : "ต่อแถว"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_AU",
+        "target" : "Per Row"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hi",
+        "target" : "प्रति पंक्ति"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr",
+        "target" : "Par ligne"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sk",
+        "target" : "Na riadok"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "he",
+        "target" : "לפי שורה"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ar",
+        "target" : "لكل صف"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "vi",
+        "target" : "Mỗi hàng"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "it",
+        "target" : "Per riga"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es",
+        "target" : "Por fila"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sl",
+        "target" : "Na vrstico"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "de",
+        "target" : "Pro Zeile"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "uk",
+        "target" : "В рядках"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_HK",
+        "target" : "每一列"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr_CA",
+        "target" : "Par ligne"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ja",
+        "target" : "行ごと"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es_419",
+        "target" : "Por fila"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt_PT",
+        "target" : "Por Linha"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ms",
+        "target" : "Per Baris"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "nl",
+        "target" : "Per rij"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fi",
+        "target" : "Riviä kohti"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hr",
+        "target" : "Po retku"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sv",
+        "target" : "Per rad"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt",
+        "target" : "Por Linha"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "cs",
+        "target" : "Po řádcích"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "tr",
+        "target" : "Her Bir Satıra"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ro",
+        "target" : "Per rând"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ca",
+        "target" : "Per fila"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "el",
+        "target" : "Ανά σειρά"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pl",
+        "target" : "W wierszach"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ru",
+        "target" : "В строке"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "da",
+        "target" : "Pr. række"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_TW",
+        "target" : "每一列"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "id",
+        "target" : "Per Baris"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "no",
+        "target" : "Per rad"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_CN",
+        "target" : "每行"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hu",
+        "target" : "Soronként"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_GB",
+        "target" : "Per Row"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ko",
+        "target" : "행당"
+      }
+    ],
+    "20.label" : [
+      {
+        "filename" : "main.loctable",
+        "language" : "th",
+        "target" : "หลังจาก"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_AU",
+        "target" : "After"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hi",
+        "target" : "के बाद"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr",
+        "target" : "Après"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sk",
+        "target" : "Po"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "he",
+        "target" : "אחרי"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ar",
+        "target" : "بعد"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "vi",
+        "target" : "Sau"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "it",
+        "target" : "Dopo"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es",
+        "target" : "Después"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sl",
+        "target" : "Po"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "de",
+        "target" : "Am Ende"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "uk",
+        "target" : "Після"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_HK",
+        "target" : "之後"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr_CA",
+        "target" : "Après"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ja",
+        "target" : "後"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es_419",
+        "target" : "Después"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt_PT",
+        "target" : "Após"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ms",
+        "target" : "Selepas"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "nl",
+        "target" : "Na"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fi",
+        "target" : "Jälkeen"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hr",
+        "target" : "Nakon"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sv",
+        "target" : "Efter"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt",
+        "target" : "Depois"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "cs",
+        "target" : "Konec"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "tr",
+        "target" : "Sonra"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ro",
+        "target" : "După"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ca",
+        "target" : "Després"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "el",
+        "target" : "Μετά από"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pl",
+        "target" : "Po"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ru",
+        "target" : "После"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "da",
+        "target" : "Efter"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_TW",
+        "target" : "之後"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "id",
+        "target" : "Setelah"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "no",
+        "target" : "Etter"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_CN",
+        "target" : "之后"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hu",
+        "target" : "Utána"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_GB",
+        "target" : "After"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ko",
+        "target" : "뒤"
+      }
+    ],
+    "62.title" : [
+      {
+        "filename" : "main.loctable",
+        "language" : "th",
+        "target" : "ใส่ SQL ที่จะแทรกในตอนเริ่มของเอาท์พุท ต่อเอาท์พุทหนึ่งแถว และในตอนท้ายของเอาท์พุท"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_AU",
+        "target" : "Enter the SQL to be inserted at the beginning of the output, per each row of output, and at the end of the output."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hi",
+        "target" : "आउटपुट की शुरुआत, आउटपुट की प्रत्येक पंक्ति और आउटपुट की समाप्ति में डालने के लिए SQL दर्ज करें।"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr",
+        "target" : "Saisissez les commandes SQL à insérer au début, pour chaque ligne et à la fin des données de sortie."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sk",
+        "target" : "Zadajte SQL, ktoré bude umiestnené na začiatku, v každom riadku výstupu a na konci výstupu."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "he",
+        "target" : "יש להזין את ה-SQL שיתווסף בתחילת הפלט, לפי כל שורת פלט ובסוף הפלט כולו."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ar",
+        "target" : "أدخل جملة SQL المراد إدراجها في بداية الإخراج، لكل صف من الإخراج، وفي نهاية الإخراج."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "vi",
+        "target" : "Nhập SQL được chèn ở đầu của đầu ra, trên mỗi hàng của đầu ra và ở cuối đầu ra."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "it",
+        "target" : "Inserisci i dati SQL da inserire all’inizio dei dati in uscita, per ogni riga di dati in uscita e alla fine degli stessi."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es",
+        "target" : "Introduce el comando SQL que debe insertarse al principio del resultado, en cada una de las filas y al final."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sl",
+        "target" : "Vnesite SQL, ki ga je treba vstaviti na začetku rezultata za posamezno vrstico rezultata in na koncu rezultata."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "de",
+        "target" : "Gib die SQL-Befehle ein, die am Anfang der Ausgabe, jeweils pro Zeile der Ausgabe und am Ende der Ausgabe ausgeführt werden."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "uk",
+        "target" : "Введіть SQL-текст, який потрібно додати на виводі перед даними, для кожного рядка та після даних."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_HK",
+        "target" : "輸入要插入在輸出資料的起始處、每一列和結尾處的SQL。"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr_CA",
+        "target" : "Saisissez les commandes SQL à insérer au début, pour chaque ligne et à la fin des données de sortie."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ja",
+        "target" : "出力の先頭、各行、または最後に挿入するSQLを入力してください。"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es_419",
+        "target" : "Ingresa el comando SQL que debe insertarse al principio del resultado, para cada fila de éste y al final del mismo."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt_PT",
+        "target" : "Digite o comando SQL a inserir no início de cada saída, por cada linha de saída e no final de cada saída."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ms",
+        "target" : "Masukkan SQL yang akan diselit pada permulaan output, per baris output dan pada akhir output."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "nl",
+        "target" : "Geef de SQL-instructies op die je wilt invoegen aan het begin van de uitvoer, per uitvoerrij en aan het einde van de uitvoer."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fi",
+        "target" : "Syötä SQL, joka lisätään jokaisen syöterivin alkuun ja loppuun ja riviä kohti."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hr",
+        "target" : "Unesite SQL koji će se umetnuti na početak izlaza, u svaki redak izlaza i na kraj izlaza."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sv",
+        "target" : "Ange SQL som ska sättas in i början av utdatan, per utdatarad, och vid slutet av utdatan."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt",
+        "target" : "Digite os comandos SQL que devem ser inseridos no início da saída, em cada linha de saída e ao final da saída."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "cs",
+        "target" : "Zadejte kód SQL, který má být vložen na začátek výstupu, pro každý řádek výstupu a na konec výstupu."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "tr",
+        "target" : "Çıkışın başına, çıkışın her bir satırına ve çıkışın sonuna eklenecek SQL’i girin."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ro",
+        "target" : "Introduceți SQL-ul de inserat la începutul ieșirii, pe fiecare rând de ieșire și la sfârșitul ieșirii."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ca",
+        "target" : "Introdueix l’ordre SQL que s’inserirà al principi de la sortida (per a cada fila d’aquesta) i al final de la sortida."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "el",
+        "target" : "Εισάγετε το SQL που πρόκειται να τοποθετηθεί στην αρχή της εξόδου, ανά σειρά εξόδου, και στο τέλος της εξόδου."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pl",
+        "target" : "Podaj polecenie SQL, jakie zostanie wstawione na wyjściu, w każdym wierszu wyjściowym oraz na końcu wyjścia."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ru",
+        "target" : "Введите SQL-команды, которые должны быть выполнены до начала вывода, в каждой строке вывода и после вывода."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "da",
+        "target" : "Skriv den SQL-kommando, der skal indsættes i begyndelsen af resultatet, i hver række med resultater samt i slutningen af resultatet."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_TW",
+        "target" : "輸入要插入在輸出資料的起始處、每一列和結尾處的SQL。"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "id",
+        "target" : "Masukkan SQL yang akan disisipkan di awal output, per tiap baris output, dan di akhir output."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "no",
+        "target" : "Oppgi SQL som skal settes inn i begynnelsen av utdataene, per rad i utdataene og ved slutten av utdataene."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_CN",
+        "target" : "输入将要插入到输出的起始处、每一行和结尾处的SQL。"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hu",
+        "target" : "Adja meg a kimenet kezdetén, a kimenet egyes sorai szerint, illetve a kimenet végén beszúrandó SQL-t."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_GB",
+        "target" : "Enter the SQL to be inserted at the beginning of the output, per each row of output, and at the end of the output."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ko",
+        "target" : "출력의 시작, 출력의 각 행당, 출력의 끝에 삽입할 SQL을 입력하십시오."
+      }
+    ],
+    "63.title" : [
+      {
+        "filename" : "main.loctable",
+        "language" : "th",
+        "target" : "แถวแรกคือหัวเรื่อง"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_AU",
+        "target" : "First Row is Header"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hi",
+        "target" : "प्रथम पंक्ति हेडर है"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr",
+        "target" : "La première ligne est un en-tête."
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sk",
+        "target" : "Prvý riadok je hlavička"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "he",
+        "target" : "השורה הראשונה היא כותרת עליונה"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ar",
+        "target" : "الصف الأول عبارة عن رأس"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "vi",
+        "target" : "Hàng Đầu tiên là Tiêu đề"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "it",
+        "target" : "La prima riga è un’intestazione"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es",
+        "target" : "La primera línea es una cabecera"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sl",
+        "target" : "Prva vrstica je glava"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "de",
+        "target" : "Die erste Zeile ist die Überschrift"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "uk",
+        "target" : "Перший рядок є заголовком"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_HK",
+        "target" : "第一列為標頭"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr_CA",
+        "target" : "La première ligne est un en-tête"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ja",
+        "target" : "最初の行はヘッダとする"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es_419",
+        "target" : "La primera línea es un encabezado"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt_PT",
+        "target" : "Primeira linha é o cabeçalho"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ms",
+        "target" : "Baris Pertama adalah Pengepala"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "nl",
+        "target" : "Eerste rij is koptekst"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fi",
+        "target" : "Ensimmäinen rivi on otsake"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hr",
+        "target" : "Prvi redak je zaglavlje"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sv",
+        "target" : "Första raden är en rubrik"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt",
+        "target" : "A Primeira Linha é o Cabeçalho"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "cs",
+        "target" : "První řádek je záhlaví"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "tr",
+        "target" : "İlk Satır Başlık"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ro",
+        "target" : "Primul rând este antet"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ca",
+        "target" : "La primera línia és una capçalera"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "el",
+        "target" : "Η πρώτη σειρά είναι η κεφαλίδα"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pl",
+        "target" : "Pierwszy wiersz jest nagłówkiem"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ru",
+        "target" : "Первая строка — заголовок"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "da",
+        "target" : "Første række er header"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_TW",
+        "target" : "第一列為頭標"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "id",
+        "target" : "Baris Pertama adalah Header"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "no",
+        "target" : "Første rad er tittel"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_CN",
+        "target" : "第一行是标题"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hu",
+        "target" : "Az első sor fejléc"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_GB",
+        "target" : "First Row is Header"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ko",
+        "target" : "첫 번째 행은 헤더입니다."
+      }
+    ],
+    "14.label" : [
+      {
+        "filename" : "main.loctable",
+        "language" : "th",
+        "target" : "ก่อน"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_AU",
+        "target" : "Before"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hi",
+        "target" : "पहले"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr",
+        "target" : "Avant"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sk",
+        "target" : "Pred"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "he",
+        "target" : "לפני"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ar",
+        "target" : "قبل"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "vi",
+        "target" : "Trước"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "it",
+        "target" : "Prima"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es",
+        "target" : "Antes"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sl",
+        "target" : "Pred"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "de",
+        "target" : "Am Anfang"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "uk",
+        "target" : "До"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_HK",
+        "target" : "之前"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fr_CA",
+        "target" : "Avant"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ja",
+        "target" : "前"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "es_419",
+        "target" : "Antes"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt_PT",
+        "target" : "Antes"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ms",
+        "target" : "Sebelum"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "nl",
+        "target" : "Voor"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "fi",
+        "target" : "Ennen"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hr",
+        "target" : "Prije"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "sv",
+        "target" : "Före"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pt",
+        "target" : "Antes"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "cs",
+        "target" : "Začátek"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "tr",
+        "target" : "Önce"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ro",
+        "target" : "Înainte"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ca",
+        "target" : "Abans"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "el",
+        "target" : "Πριν"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "pl",
+        "target" : "Przed"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ru",
+        "target" : "До"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "da",
+        "target" : "Før"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_TW",
+        "target" : "之前"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "id",
+        "target" : "Sebelumnya"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "no",
+        "target" : "Før"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "zh_CN",
+        "target" : "之前"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "hu",
+        "target" : "Előtte"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "en_GB",
+        "target" : "Before"
+      },
+      {
+        "filename" : "main.loctable",
+        "language" : "ko",
+        "target" : "앞"
+      }
+    ]
+  }
+}

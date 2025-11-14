@@ -1,0 +1,628 @@
+{
+  "framework" : "mcx.profileDomainPlugin",
+  "localizations" : {
+    "CPPayloadCountStringsDictKey_CountFirst" : [
+      {
+        "language" : "th",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"การตั้งค่าการแจ้งเตือน %lu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Notification Settings\",\"other\":\"%lu Notification Settings\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hi",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"सूचना सेटिंग\",\"other\":\"%lu सूचना सेटिंग\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fr",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Réglages des notifications\",\"other\":\"%lu réglages des notifications\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sk",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu nastavenia hlásení\",\"one\":\"Nastavenia hlásení\",\"other\":\"%lu nastavení hlásení\",\"many\":\"%lu nastavenia hlásení\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "he",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"הגדרות עדכונים\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"%lu הגדרות עדכון\",\"two\":\"שתי הגדרות עדכון\",\"many\":\"%lu הגדרות עדכון\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}"
+      },
+      {
+        "language" : "vi",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Cài đặt thông báo\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ar",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"حمولة واحدة من \\\"إعدادات الإشعارات\\\"\",\"few\":\"%lu حمولات من \\\"إعدادات الإشعارات\\\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"%lu حمولة من \\\"إعدادات الإشعارات\\\"\",\"two\":\"حمولتان من \\\"إعدادات الإشعارات\\\"\",\"other\":\"%lu حمولة من \\\"إعدادات الإشعارات\\\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"%lu حمولة من \\\"إعدادات الإشعارات\\\"\"}}"
+      },
+      {
+        "language" : "it",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Impostazioni notifiche\",\"other\":\"Impostazioni notifiche %lu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ajuste de notificaciones\",\"other\":\"%lu ajustes de notificaciones\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sl",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu nastavitve obvestil\",\"one\":\"%lu nastavitev obvestil\",\"other\":\"%lu nastavitev obvestil\",\"two\":\"%lu nastavitvi obvestil\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "de",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Mitteilungseinstellungen\",\"other\":\"%lu-Mitteilungseinstellungen\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "uk",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu набори корисних даних параметрів сповіщень\",\"one\":\"%lu набір корисних даних параметрів сповіщення\",\"other\":\"%lu набору корисних даних параметрів сповіщень\",\"many\":\"%lu наборів корисних даних параметрів сповіщень\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu通知設定\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Réglages de notification\",\"other\":\"Réglages de notification de %lu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ja",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu個の通知設定\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Configuración de notificaciones\",\"other\":\"%lu Configuraciones de notificaciones\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Definições das notificações\",\"other\":\"Definições de notificação de %lu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ms",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Seting Pemberitahuan\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "nl",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Meldingsinstellingen\",\"other\":\"Meldingsinstellingen voor %lu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fi",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ilmoitusasetukset\",\"other\":\"Ilmoitukset-asetukset (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hr",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu postavke za obavijesti\",\"one\":\"%lu postavka za obavijesti\",\"other\":\"%lu postavki za obavijesti\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sv",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Notisinställningar\",\"other\":\"Notisinställningar för %lu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es_US",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Configuración de notificaciones\",\"other\":\"%lu Configuraciones de notificaciones\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pt_BR",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ajustes de Notificações\",\"other\":\"%lu Ajustes de Notificações\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Notification Settings\",\"other\":\"%lu Notification Settings\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "cs",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu nastavení oznámení\",\"one\":\"Nastavení oznámení\",\"other\":\"%lu nastavení oznámení\",\"many\":\"%lu nastavení oznámení\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "tr",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Bildirim Ayarları\",\"other\":\"%lu Bildirim Ayarı\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ro",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu configurări notificări\",\"one\":\"Configurări notificare\",\"other\":\"%lu de configurări notificări\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ca",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Configuració de notificacions\",\"other\":\"%lu configuracions de notificacions\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "el",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ρυθμίσεις γνωστοποιήσεων\",\"other\":\"%lu Ρυθμίσεις γνωστοποιήσεων\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ko",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu 알림 설정\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ru",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Настройки %lu уведомлений\",\"one\":\"Настройки %lu уведомления\",\"other\":\"Настройки %lu уведомления\",\"many\":\"Настройки %lu уведомлений\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "da",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Notifikationsindstillinger\",\"other\":\"%lu notifikationsindstillinger\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pl",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu ustawienia powiadomień\",\"one\":\"ustawienie powiadomień\",\"other\":\"%lu ustawienia powiadomień\",\"many\":\"%lu ustawień powiadomień\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu項通知設定\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "no",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Varslingsinnstillinger\",\"other\":\"%lu varslingsinnstillinger\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Notification Settings\",\"other\":\"%lu Notification Settings\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hu",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Értesítésbeállítások\",\"other\":\"%lu értesítésbeállítás\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu个通知设置\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "id",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Pengaturan Pemberitahuan\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_SingularOnly" : [
+      {
+        "language" : "th",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Notification Settings\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hi",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"सूचना सेटिंग\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fr",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Réglages des notifications\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sk",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Nastavenia hlásení\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "he",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"הגדרות עדכונים\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"\",\"two\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}"
+      },
+      {
+        "language" : "vi",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ar",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"حمولة واحدة من \\\"إعدادات الإشعارات\\\"\",\"few\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"\",\"two\":\"\",\"other\":\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"\"}}"
+      },
+      {
+        "language" : "it",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Impostazioni notifiche\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ajuste de notificaciones\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sl",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Nastavitev obvestil\",\"other\":\"\",\"two\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "de",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Mitteilungseinstellungen\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "uk",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Параметри сповіщення\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Réglages de notification\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ja",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Configuración de notificaciones\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Definições das notificações\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ms",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "nl",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Meldingsinstellingen\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fi",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ilmoitusasetukset\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hr",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Postavke za obavijesti\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sv",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Notisinställningar\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es_US",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Configuración de notificaciones\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pt_BR",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ajustes de Notificações\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Notification Settings\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "cs",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Nastavení oznámení\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "tr",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Bildirim Ayarları\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ro",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Configurări notificare\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ca",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Configuració de notificacions\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "el",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ρυθμίσεις γνωστοποιήσεων\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ko",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ru",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Настройки уведомления\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "da",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Notifikationsindstillinger\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pl",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"ustawienie powiadomień\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "no",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Varslingsinnstillinger\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Notification Settings\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hu",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Értesítésbeállítások\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "id",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_CountLast" : [
+      {
+        "language" : "th",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"การตั้งค่าการแจ้งเตือน (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Notification Settings\",\"other\":\"Notification Settings (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hi",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"सूचना सेटिंग\",\"other\":\"सूचना सेटिंग (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fr",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Réglages des notifications\",\"other\":\"Réglages des notifications (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sk",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Nastavenia hlásení (%lu)\",\"one\":\"Nastavenia hlásení\",\"other\":\"Nastavenia hlásení (%lu)\",\"many\":\"Nastavenia hlásení (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "he",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"הגדרות עדכונים\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"הגדרות עדכונים (%lu)\",\"two\":\"הגדרות עדכונים (%lu)\",\"many\":\"הגדרות עדכונים (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}"
+      },
+      {
+        "language" : "vi",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Cài đặt thông báo (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ar",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"حمولة واحدة من \\\"إعدادات الإشعارات\\\"\",\"few\":\"إعدادات الإشعارات (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"إعدادات الإشعارات (%lu)\",\"two\":\"إعدادات الإشعارات (%lu)\",\"other\":\"إعدادات الإشعارات (%lu)\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"إعدادات الإشعارات (%lu)\"}}"
+      },
+      {
+        "language" : "it",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Impostazioni notifiche\",\"other\":\"Impostazioni notifiche (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ajuste de notificaciones\",\"other\":\"Ajustes de notificaciones (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sl",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Nastavitve obvestil (%lu)\",\"one\":\"%lu nastavitev obvestil\",\"other\":\"Nastavitve obvestil (%lu)\",\"two\":\"Nastavitvi obvestil (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "de",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Mitteilungseinstellungen\",\"other\":\"Mitteilungseinstellungen (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "uk",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Параметри сповіщень (%lu)\",\"one\":\"Параметри сповіщення (%lu)\",\"other\":\"Параметри сповіщень (%lu)\",\"many\":\"Параметри сповіщень (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"通知設定(%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Réglages de notification\",\"other\":\"Réglages de notification (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ja",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"通知設定（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Configuración de notificaciones\",\"other\":\"Configuraciones de notificaciones (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Definições das notificações\",\"other\":\"Definições das notificações (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ms",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Seting Pemberitahuan (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "nl",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Meldingsinstellingen\",\"other\":\"Meldingsinstellingen (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fi",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ilmoitusasetukset\",\"other\":\"Ilmoitusasetukset (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hr",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Postavke za obavijesti (%lu)\",\"one\":\"%lu postavka za obavijesti\",\"other\":\"Postavke za obavijesti (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sv",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Notisinställningar\",\"other\":\"Notisinställningar (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es_US",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Configuración de notificaciones\",\"other\":\"Configuraciones de notificaciones (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pt_BR",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ajustes de Notificações\",\"other\":\"Ajustes de Notificações (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Notification Settings\",\"other\":\"Notification Settings (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "cs",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Nastavení oznámení (%lu)\",\"one\":\"Nastavení oznámení\",\"other\":\"Nastavení oznámení (%lu)\",\"many\":\"Nastavení oznámení (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "tr",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Bildirim Ayarları\",\"other\":\"Bildirim Ayarları (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ro",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Configurări notificări (%lu)\",\"one\":\"Configurări notificare\",\"other\":\"Configurări notificări (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ca",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Configuració de notificacions\",\"other\":\"Configuracions de notificacions (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "el",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Ρυθμίσεις γνωστοποιήσεων\",\"other\":\"Ρυθμίσεις γνωστοποιήσεων (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ko",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"알림 설정(%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ru",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Настройки %lu уведомлений\",\"one\":\"Настройки %lu уведомления\",\"other\":\"Настройки %lu уведомления\",\"many\":\"Настройки %lu уведомлений\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "da",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Notifikationsindstillinger\",\"other\":\"Notifikationsindstillinger (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pl",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu ustawienia powiadomień\",\"one\":\"ustawienie powiadomień\",\"other\":\"%lu ustawienia powiadomień\",\"many\":\"%lu ustawień powiadomień\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"通知設定（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "no",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Varslingsinnstillinger\",\"other\":\"Varslingsinnstillinger (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Notification Settings\",\"other\":\"Notification Settings (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hu",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Értesítésbeállítások\",\"other\":\"Értesítési beállításai (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"通知设置(%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "id",
+        "filename" : "NotificationSettings.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Pengaturan Pemberitahuan (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      }
+    ]
+  },
+  "bundlePath" : "\/System\/Library\/CoreServices\/ManagedClient.app\/Contents\/PlugIns\/mcx.profileDomainPlugin",
+  "loctablePath" : "\/System\/Library\/CoreServices\/ManagedClient.app\/Contents\/PlugIns\/mcx.profileDomainPlugin\/Contents\/Resources\/NotificationSettings.loctable"
+}

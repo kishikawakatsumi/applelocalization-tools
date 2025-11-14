@@ -1,0 +1,35 @@
+{
+  "framework" : "CoreMediaIO.framework",
+  "loctablePath" : "\/System\/Library\/Frameworks\/CoreMediaIO.framework\/Versions\/A\/Resources\/Localizable.loctable",
+  "bundlePath" : "\/System\/Library\/Frameworks\/CoreMediaIO.framework",
+  "localizations" : {
+    "SYSEXT_INTERNAL_ERROR" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "System extension %@ could not be started because an internal error occurred.",
+        "language" : "en"
+      }
+    ],
+    "SYSEXT_INVALID_DICTIONARY" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "System extension %@ has an invalid CMIOExtension key in its Info.plist: the value of the CMIOExtension key must be a non-empty dictionary.",
+        "language" : "en"
+      }
+    ],
+    "SYSEXT_INVALID_MACH_SERVICE_NAME" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "System extension %@ has an invalid mach service name or is not signed, the value must be prefixed with one of the App Groups in the entitlement.",
+        "language" : "en"
+      }
+    ],
+    "SYSEXT_CANNOT_READ_BUNDLE" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Failed to load the system extension bundle at %@.",
+        "language" : "en"
+      }
+    ]
+  }
+}

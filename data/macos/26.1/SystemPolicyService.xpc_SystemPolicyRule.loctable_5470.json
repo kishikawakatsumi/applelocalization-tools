@@ -1,0 +1,613 @@
+{
+  "framework" : "SystemPolicyService.xpc",
+  "localizations" : {
+    "CPPayloadCountStringsDictKey_CountFirst" : [
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "th",
+        "target" : "{\"PayloadType\":{\"other\":\"กฎนโยบายระบบ %lu ข้อ\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "en_AU",
+        "target" : "{\"PayloadType\":{\"one\":\"System Policy Rule\",\"other\":\"%lu System Policy Rules\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "hi",
+        "target" : "{\"PayloadType\":{\"one\":\"सिस्टम नीति नियम\",\"other\":\"%lu सिस्टम नीति नियम\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "fr",
+        "target" : "{\"PayloadType\":{\"one\":\"Règle de Politique système\",\"other\":\"%lu règles de politique système\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "sk",
+        "target" : "{\"PayloadType\":{\"few\":\"%lu zásady pre pravidlá systému\",\"one\":\"Zásada pre pravidlá systému\",\"other\":\"%lu zásad pre pravidlá systému\",\"many\":\"%lu zásad pre pravidlá systému\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "he",
+        "target" : "{\"PayloadType\":{\"one\":\"כלל מדיניות מערכת\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"%lu כללי מדיניות מערכת\",\"two\":\"שני כללי מדיניות מערכת\",\"many\":\"%lu כללי מדיניות מערכת\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ar",
+        "target" : "{\"PayloadType\":{\"one\":\"قاعدة سياسة النظام\",\"few\":\"‏%lu حمولات من \\\"قواعد سياسة النظام\\\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"‏%lu حمولة من \\\"قواعد سياسة النظام\\\"\",\"two\":\"حمولتان من \\\"قواعد سياسة النظام\\\"\",\"other\":\"‏%lu حمولة من \\\"قواعد سياسة النظام\\\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"لا توجد حمولات من \\\"قواعد سياسة النظام\\\"\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "vi",
+        "target" : "{\"PayloadType\":{\"other\":\"%lu Quy tắc chính sách hệ thống\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "it",
+        "target" : "{\"PayloadType\":{\"one\":\"Regola di sistema\",\"other\":\"%lu regole policy di sistema\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "es",
+        "target" : "{\"PayloadType\":{\"one\":\"Regla de la política del sistema\",\"other\":\"%lu reglas de la política del sistema\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "sl",
+        "target" : "{\"PayloadType\":{\"few\":\"%lu pravila sistemskega pravilnika\",\"one\":\"%lu pravilo sistemskega pravilnika\",\"other\":\"%lu pravil sistemskega pravilnika\",\"two\":\"%lu pravili sistemskega pravilnika\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "de",
+        "target" : "{\"PayloadType\":{\"one\":\"Regel für Systemrichtlinien\",\"other\":\"%lu Regeln für Systemrichtlinien\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "uk",
+        "target" : "{\"PayloadType\":{\"few\":\"%lu правила політики системи\",\"one\":\"%lu правило політики системи\",\"other\":\"%lu правила політики системи\",\"many\":\"%lu правил політики системи\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "zh_HK",
+        "target" : "{\"PayloadType\":{\"other\":\"%lu個系統規則規定\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "fr_CA",
+        "target" : "{\"PayloadType\":{\"one\":\"Règle de politique système\",\"other\":\"%lu règles de politique système\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ja",
+        "target" : "{\"PayloadType\":{\"other\":\"%lu個のシステムポリシールール\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "es_419",
+        "target" : "{\"PayloadType\":{\"one\":\"Regla de las políticas del sistema\",\"other\":\"%lu reglas de las políticas del sistema\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "pt_PT",
+        "target" : "{\"PayloadType\":{\"one\":\"Regra das normas do sistema\",\"other\":\"%lu regras das normas do sistema\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ms",
+        "target" : "{\"PayloadType\":{\"other\":\"%lu Peraturan Dasar Sistem\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "nl",
+        "target" : "{\"PayloadType\":{\"one\":\"Systeembeleidsregel\",\"other\":\"%lu systeembeleidsregels\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "fi",
+        "target" : "{\"PayloadType\":{\"one\":\"Järjestelmäkäytännön sääntö\",\"other\":\"%lu järjestelmäkäytännön sääntöä\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "hr",
+        "target" : "{\"PayloadType\":{\"few\":\"%lu pravila za pravila sustava\",\"one\":\"%lu stavka pravila sustava\",\"other\":\"%lu pravila za pravila sustava\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "sv",
+        "target" : "{\"PayloadType\":{\"one\":\"Systempolicyregel\",\"other\":\"%lu systempolicyregler\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "pt_BR",
+        "target" : "{\"PayloadType\":{\"one\":\"Regra de Política do Sistema\",\"other\":\"%lu Regras de Política do Sistema\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "en",
+        "target" : "{\"PayloadType\":{\"one\":\"System Policy Rule\",\"other\":\"%lu System Policy Rules\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "cs",
+        "target" : "{\"PayloadType\":{\"few\":\"%lu pravidla systémových zásad\",\"one\":\"Pravidlo systémové zásady\",\"other\":\"%lu pravidel systémových zásad\",\"many\":\"%lu pravidla systémové zásady\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "tr",
+        "target" : "{\"PayloadType\":{\"one\":\"Sistem Politikası Kuralı\",\"other\":\"%lu Sistem Politikası Kuralı\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ro",
+        "target" : "{\"PayloadType\":{\"few\":\"%lu reguli ale politicii de sistem\",\"one\":\"Regulă a politicii de sistem\",\"other\":\"%lu de reguli ale politicii de sistem\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ca",
+        "target" : "{\"PayloadType\":{\"one\":\"Regla de política del sistema\",\"other\":\"%lu normes de política del sistema\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "el",
+        "target" : "{\"PayloadType\":{\"one\":\"Κανόνας πολιτικής συστήματος\",\"other\":\"%lu κανόνες πολιτικών συστήματος\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ko",
+        "target" : "{\"PayloadType\":{\"other\":\"%lu개의 시스템 정책 규칙\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "pl",
+        "target" : "{\"PayloadType\":{\"few\":\"%lu reguły zasad systemowych\",\"one\":\"Reguła zasady systemowej\",\"other\":\"%lu reguły zasad systemowych\",\"many\":\"%lu reguł zasad systemowych\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "da",
+        "target" : "{\"PayloadType\":{\"one\":\"Regel i systempolitik\",\"other\":\"%lu systempolitikregler\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "zh_TW",
+        "target" : "{\"PayloadType\":{\"other\":\"%lu個系統規則規定\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ru",
+        "target" : "{\"PayloadType\":{\"few\":\"Правила политик системы (%lu)\",\"one\":\"Правило политик системы (%lu)\",\"other\":\"Правила политик системы (%lu)\",\"many\":\"Правила политик системы (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "no",
+        "target" : "{\"PayloadType\":{\"one\":\"Systemkriterieregel\",\"other\":\"%lu systemkriterieregler\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "en_GB",
+        "target" : "{\"PayloadType\":{\"one\":\"System Policy Rule\",\"other\":\"%lu System Policy Rules\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "hu",
+        "target" : "{\"PayloadType\":{\"one\":\"Rendszerirányelvek szabálya\",\"other\":\"%lu Rendszerirányelv szabályok\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "zh_CN",
+        "target" : "{\"PayloadType\":{\"other\":\"%lu个系统策略规则\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "id",
+        "target" : "{\"PayloadType\":{\"other\":\"%lu Aturan Kebijakan Sistem\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_SingularOnly" : [
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "th",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "en_AU",
+        "target" : "{\"PayloadType\":{\"one\":\"System Policy Rule\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "hi",
+        "target" : "{\"PayloadType\":{\"one\":\"सिस्टम नीति नियम\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "fr",
+        "target" : "{\"PayloadType\":{\"one\":\"Règle de Politique système\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "sk",
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Zásada pre pravidlá systému\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "he",
+        "target" : "{\"PayloadType\":{\"one\":\"כלל מדיניות מערכת\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"\",\"two\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ar",
+        "target" : "{\"PayloadType\":{\"one\":\"قاعدة سياسة النظام\",\"few\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"\",\"two\":\"\",\"other\":\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "vi",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "it",
+        "target" : "{\"PayloadType\":{\"one\":\"Regola di sistema\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "es",
+        "target" : "{\"PayloadType\":{\"one\":\"Regla de la política del sistema\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "sl",
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Pravilo sistemskega pravilnika\",\"other\":\"\",\"two\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "de",
+        "target" : "{\"PayloadType\":{\"one\":\"Regel für Systemrichtlinien\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "uk",
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Правило політики системи\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "zh_HK",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "fr_CA",
+        "target" : "{\"PayloadType\":{\"one\":\"Règle de politique système\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ja",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "es_419",
+        "target" : "{\"PayloadType\":{\"one\":\"Regla de las políticas del sistema\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "pt_PT",
+        "target" : "{\"PayloadType\":{\"one\":\"Regra das normas do sistema\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ms",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "nl",
+        "target" : "{\"PayloadType\":{\"one\":\"Systeembeleidsregel\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "fi",
+        "target" : "{\"PayloadType\":{\"one\":\"Järjestelmäkäytännön sääntö\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "hr",
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Stavka pravila sustava\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "sv",
+        "target" : "{\"PayloadType\":{\"one\":\"Systempolicyregel\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "pt_BR",
+        "target" : "{\"PayloadType\":{\"one\":\"Regra de Política do Sistema\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "en",
+        "target" : "{\"PayloadType\":{\"one\":\"System Policy Rule\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "cs",
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Pravidlo systémové zásady\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "tr",
+        "target" : "{\"PayloadType\":{\"one\":\"Sistem Politikası Kuralı\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ro",
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Regulă a politicii de sistem\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ca",
+        "target" : "{\"PayloadType\":{\"one\":\"Regla de política del sistema\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "el",
+        "target" : "{\"PayloadType\":{\"one\":\"Κανόνας πολιτικής συστήματος\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ko",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "pl",
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Reguła zasady systemowej\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "da",
+        "target" : "{\"PayloadType\":{\"one\":\"Regel i systempolitik\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "zh_TW",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ru",
+        "target" : "{\"PayloadType\":{\"few\":\"\",\"one\":\"Правило политик системы\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "no",
+        "target" : "{\"PayloadType\":{\"one\":\"Systemkriterieregel\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "en_GB",
+        "target" : "{\"PayloadType\":{\"one\":\"System Policy Rule\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "hu",
+        "target" : "{\"PayloadType\":{\"one\":\"Rendszerirányelvek szabálya\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "zh_CN",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "id",
+        "target" : "{\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_CountLast" : [
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "th",
+        "target" : "{\"PayloadType\":{\"other\":\"กฎนโยบายระบบ (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "en_AU",
+        "target" : "{\"PayloadType\":{\"one\":\"System Policy Rule\",\"other\":\"System Policy Rules (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "hi",
+        "target" : "{\"PayloadType\":{\"one\":\"सिस्टम नीति नियम\",\"other\":\"सिस्टम नीति नियम (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "fr",
+        "target" : "{\"PayloadType\":{\"one\":\"Règle de Politique système\",\"other\":\"Règles de politique système (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "sk",
+        "target" : "{\"PayloadType\":{\"few\":\"Zásady pre pravidlá systému (%lu)\",\"one\":\"Zásada pre pravidlá systému\",\"other\":\"Zásady pre pravidlá systému (%lu)\",\"many\":\"Zásady pre pravidlá systému (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "he",
+        "target" : "{\"PayloadType\":{\"one\":\"כלל מדיניות מערכת\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"כללי מדיניות מערכת (%lu)\",\"two\":\"כללי מדיניות מערכת (%lu)\",\"many\":\"כללי מדיניות מערכת (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ar",
+        "target" : "{\"PayloadType\":{\"one\":\"قاعدة سياسة النظام\",\"few\":\"قواعد سياسة النظام (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"قواعد سياسة النظام (%lu)\",\"two\":\"قواعد سياسة النظام (%lu)\",\"other\":\"قواعد سياسة النظام (%lu)\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"قواعد سياسة النظام (%lu)\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "vi",
+        "target" : "{\"PayloadType\":{\"other\":\"Quy tắc chính sách hệ thống (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "it",
+        "target" : "{\"PayloadType\":{\"one\":\"Regola di sistema\",\"other\":\"Regole policy di sistema (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "es",
+        "target" : "{\"PayloadType\":{\"one\":\"Regla de la política del sistema\",\"other\":\"Reglas de la política del sistema (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "sl",
+        "target" : "{\"PayloadType\":{\"few\":\"Pravila sistemskega pravilnika (%lu)\",\"one\":\"%lu pravilo sistemskega pravilnika\",\"other\":\"Pravila sistemskega pravilnika (%lu)\",\"two\":\"Pravili sistemskega pravilnika (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "de",
+        "target" : "{\"PayloadType\":{\"one\":\"Regel für Systemrichtlinien\",\"other\":\"Regeln für Systemrichtlinien (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "uk",
+        "target" : "{\"PayloadType\":{\"few\":\"Правила політики системи (%lu)\",\"one\":\"Правило політики системи (%lu)\",\"other\":\"Правила політики системи (%lu)\",\"many\":\"Правила політики системи (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "zh_HK",
+        "target" : "{\"PayloadType\":{\"other\":\"系統規則規定（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "fr_CA",
+        "target" : "{\"PayloadType\":{\"one\":\"Règle de politique système\",\"other\":\"Règles de politique système (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ja",
+        "target" : "{\"PayloadType\":{\"other\":\"システムポリシールール（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "es_419",
+        "target" : "{\"PayloadType\":{\"one\":\"Regla de las políticas del sistema\",\"other\":\"Reglas de las políticas del sistema (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "pt_PT",
+        "target" : "{\"PayloadType\":{\"one\":\"Regra das normas do sistema\",\"other\":\"Regras das normas do sistema (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ms",
+        "target" : "{\"PayloadType\":{\"other\":\"Peraturan Dasar Sistem (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "nl",
+        "target" : "{\"PayloadType\":{\"one\":\"Systeembeleidsregel\",\"other\":\"Systeembeleidsregels (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "fi",
+        "target" : "{\"PayloadType\":{\"one\":\"Järjestelmäkäytännön sääntö\",\"other\":\"Järjestelmäkäytännön säännöt (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "hr",
+        "target" : "{\"PayloadType\":{\"few\":\"Pravila za pravila sustava (%lu)\",\"one\":\"Stavka pravila sustava (%lu)\",\"other\":\"Pravila za pravila sustava (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "sv",
+        "target" : "{\"PayloadType\":{\"one\":\"Systempolicyregel\",\"other\":\"Systempolicyregler (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "pt_BR",
+        "target" : "{\"PayloadType\":{\"one\":\"Regra de Política do Sistema\",\"other\":\"Regras de Política do Sistema (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "en",
+        "target" : "{\"PayloadType\":{\"one\":\"System Policy Rule\",\"other\":\"System Policy Rules (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "cs",
+        "target" : "{\"PayloadType\":{\"few\":\"Pravidla systémových zásad (%lu)\",\"one\":\"Pravidlo systémové zásady\",\"other\":\"Pravidla systémových zásad (%lu)\",\"many\":\"Pravidla systémových zásad (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "tr",
+        "target" : "{\"PayloadType\":{\"one\":\"Sistem Politikası Kuralı\",\"other\":\"Sistem Politikası Kuralları (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ro",
+        "target" : "{\"PayloadType\":{\"few\":\"Reguli ale politicii de sistem (%lu)\",\"one\":\"Regulă a politicii de sistem\",\"other\":\"Reguli ale politicii de sistem (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ca",
+        "target" : "{\"PayloadType\":{\"one\":\"Regla de política del sistema\",\"other\":\"Normes de política del sistema (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "el",
+        "target" : "{\"PayloadType\":{\"one\":\"Κανόνας πολιτικής συστήματος\",\"other\":\"Κανόνες πολιτικών συστήματος (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ko",
+        "target" : "{\"PayloadType\":{\"other\":\"시스템 정책 규칙(%lu개)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "pl",
+        "target" : "{\"PayloadType\":{\"few\":\"Reguły zasad systemowych (%lu)\",\"one\":\"Reguła zasady systemowej\",\"other\":\"Reguły zasad systemowych (%lu)\",\"many\":\"Reguły zasad systemowych (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "da",
+        "target" : "{\"PayloadType\":{\"one\":\"Regel i systempolitik\",\"other\":\"Regler i systempolitik (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "zh_TW",
+        "target" : "{\"PayloadType\":{\"other\":\"系統規則規定（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "ru",
+        "target" : "{\"PayloadType\":{\"few\":\"Правила политик системы (%lu)\",\"one\":\"Правило политик системы (%lu)\",\"other\":\"Правила политик системы (%lu)\",\"many\":\"Правила политик системы (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "no",
+        "target" : "{\"PayloadType\":{\"one\":\"Systemkriterieregel\",\"other\":\"systemkriterieregler (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "en_GB",
+        "target" : "{\"PayloadType\":{\"one\":\"System Policy Rule\",\"other\":\"System Policy Rules (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "hu",
+        "target" : "{\"PayloadType\":{\"one\":\"Rendszerirányelvek szabálya\",\"other\":\"Rendszerirányelv szabályok (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "zh_CN",
+        "target" : "{\"PayloadType\":{\"other\":\"系统策略规则（%lu个）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      },
+      {
+        "filename" : "SystemPolicyRule.loctable",
+        "language" : "id",
+        "target" : "{\"PayloadType\":{\"other\":\"Aturan Kebijakan Sistem (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"},\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\"}"
+      }
+    ]
+  },
+  "bundlePath" : "\/System\/Library\/PrivateFrameworks\/ConfigurationProfiles.framework\/XPCServices\/SystemPolicyService.xpc",
+  "loctablePath" : "\/System\/Library\/PrivateFrameworks\/ConfigurationProfiles.framework\/XPCServices\/SystemPolicyService.xpc\/Contents\/Resources\/SystemPolicyRule.loctable"
+}

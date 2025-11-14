@@ -1,0 +1,4653 @@
+{
+  "framework" : "LoginItems.appex",
+  "localizations" : {
+    "%lld%lld" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"other\":\": %2$lld รายการส่งผลกระทบต่อผู้ใช้ทั้งหมด\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"other\":\"%1$lld รายการ\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld item affects all users\",\"other\":\": %2$lld items affect all users\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld item\",\"other\":\"%1$lld items\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld आइटम सभी यूज़र को प्रभावित करता है\",\"other\":\": %2$lld आइटम सभी यूज़र को प्रभावित करते हैं\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld आइटम\",\"other\":\"%1$lld आइटम\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld élément s’applique à tous les utilisateurs\",\"other\":\": %2$lld éléments s’appliquent à tous les utilisateurs\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld élément\",\"other\":\"%1$lld éléments\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld položka sa týka všetkých užívateľov\",\"few\":\": %2$lld položky sa týkajú všetkých užívateľov\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\": %2$lld položky sa týka všetkých užívateľov\",\"other\":\": %2$lld položiek sa týka všetkých užívateľov\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"\"},\"arg1\":{\"one\":\"%1$lld položka\",\"few\":\"%1$lld položky\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"%1$lld položky\",\"other\":\"%1$lld položiek\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": פריט אחד משפיע על כל המשתמשים\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"two\":\": שני פריטים משפיעים על כל המשתמשים\",\"many\":\": ‏%2$lld פריטים משפיעים על כל המשתמשים\",\"NSStringFormatValueTypeKey\":\"lld\",\"other\":\": ‏%2$lld פריטים משפיעים על כל המשתמשים\",\"zero\":\"\"},\"arg1\":{\"one\":\"פריט אחד\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"two\":\"שני פריטים\",\"many\":\"‏%1$lld פריטים\",\"NSStringFormatValueTypeKey\":\"lld\",\"other\":\"‏%1$lld פריטים\",\"zero\":\"\"},\"NSStringLocalizedFormatKey\":\"‏%1$#@arg1@‏%2$#@arg2@\"}",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"other\":\": %2$lld mục ảnh hưởng tới tất cả người dùng\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"other\":\"%1$lld mục\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": عنصر واحد يؤثر على كل المستخدمين\",\"few\":\": %2$lld عناصر تؤثر على كل المستخدمين\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\": %2$lld عنصرًا يؤثر على كل المستخدمين\",\"two\":\": عنصران يؤثران على كل المستخدمين\",\"other\":\": %2$lld عنصر يؤثر على كل المستخدمين\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"\"},\"arg1\":{\"one\":\"عنصر واحد\",\"few\":\"%1$lld عناصر\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"%1$lld عنصرًا\",\"two\":\"عنصران\",\"other\":\"%1$lld عنصر\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"\"},\"NSStringLocalizedFormatKey\":\"‏%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld elemento riguarda tutti gli utenti\",\"other\":\": %2$lld elementi riguardano tutti gli utenti\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld elemento\",\"other\":\"%1$lld elementi\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\"; %2$lld ítem afecta a todos los usuarios\",\"other\":\"; %2$lld ítems afectan a todos los usuarios\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld ítem\",\"other\":\"%1$lld ítems\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld element vpliva na vse uporabnike\",\"few\":\": %2$lld elementi vplivajo na vse uporabnike\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"two\":\": %2$lld elementa vplivata na vse uporabnike\",\"other\":\": %2$lld elementov vpliva na vse uporabnike\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"\"},\"arg1\":{\"one\":\"%1$lld element\",\"few\":\"%1$lld elementi\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"two\":\"%1$lld elementa\",\"other\":\"%1$lld elementov\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld Objekt betrifft alle Benutzer:innen\",\"other\":\": %2$lld Objekte betreffen alle Benutzer:innen\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld Objekt\",\"other\":\"%1$lld Objekte\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld елемент впливає на всіх користувачів\",\"few\":\": %2$lld елементи впливають на всіх користувачів\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\": %2$lld елементів впливають на всіх користувачів\",\"other\":\": %2$lld елемента впливають на всіх користувачів\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"\"},\"arg1\":{\"one\":\"%1$lld елемент\",\"few\":\"%1$lld елементи\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"%1$lld елементів\",\"other\":\"%1$lld елемента\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"other\":\"：%2$lld個項目影響所有用户\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"other\":\"%1$lld個項目\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\" : %2$lld élément affecte tous les utilisateurs.\",\"other\":\" : %2$lld éléments affectent tous les utilisateurs.\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld élément\",\"other\":\"%1$lld éléments\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"other\":\": %2$lld項目はすべてのユーザに影響します\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"other\":\"%1$lld項目\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld elemento afecta a todos los usuarios\",\"other\":\": %2$lld elementos afectan a todos los usuarios\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld elemento\",\"other\":\"%1$lld elementos\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld elemento afeta todos os utilizadores\",\"other\":\": %2$lld elementos afetam todos os utilizadores\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld elemento\",\"other\":\"%1$lld elementos\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"other\":\": %2$lld item mempengaruhi semua pengguna\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"other\":\"%1$lld item\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld onderdeel dat invloed heeft op alle gebruikers\",\"other\":\": %2$lld onderdelen die invloed hebben op alle gebruikers\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld onderdeel\",\"other\":\"%1$lld onderdelen\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld kohde koskee kaikkia käyttäjiä\",\"other\":\": %2$lld kohdetta koskee kaikkia käyttäjiä\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld kohde\",\"other\":\"%1$lld kohdetta\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"few\":\": %2$lld stavke utječu na sve korisnike\",\"one\":\": %2$lld stavka utječe na sve korisnike\",\"other\":\": %2$lld stavki utječe na sve korisnike\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"few\":\"%1$lld stavke\",\"one\":\"%1$lld stavka\",\"other\":\"%1$lld stavki\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld objekt påverkar alla användare\",\"other\":\": %2$lld objekt påverkar alla användare\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld objekt\",\"other\":\"%1$lld objekt\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld item afeta todos os usuários\",\"other\":\": %2$lld itens afetam todos os usuários\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld item\",\"other\":\"%1$lld itens\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld item affects all users\",\"other\":\": %2$lld items affect all users\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld item\",\"other\":\"%1$lld items\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\". %2$lld položka se týká všech uživatelů\",\"few\":\". %2$lld položky se týkají všech uživatelů\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\". %2$lld položky se týká všech uživatelů\",\"other\":\". %2$lld položek se týká všech uživatelů\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"\"},\"arg1\":{\"one\":\"%1$lld položka\",\"few\":\"%1$lld položky\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"%1$lld položky\",\"other\":\"%1$lld položek\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld öğe tüm kullanıcıları etkiliyor\",\"other\":\": %2$lld öğe tüm kullanıcıları etkiliyor\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld öğe\",\"other\":\"%1$lld öğe\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"few\":\": %2$lld articole afectează toți utilizatorii\",\"one\":\": %2$lld articol afectează toți utilizatorii\",\"other\":\": %2$lld de articole afectează toți utilizatorii\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"few\":\"%1$lld articole\",\"one\":\"%1$lld articol\",\"other\":\"%1$lld de articole\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\" i %2$lld afecta tots els usuaris\",\"other\":\" i %2$lld afecten tots els usuaris\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"Hi ha %1$lld ítem\",\"other\":\"Hi ha %1$lld ítems\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@.\"}",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld rzecz ma wpływ na wszystkich użytkowników\",\"few\":\": %2$lld rzeczy mają wpływ na wszystkich użytkowników\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\": %2$lld rzeczy ma wpływ na wszystkich użytkowników\",\"other\":\": %2$lld rzeczy ma wpływ na wszystkich użytkowników\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"\"},\"arg1\":{\"one\":\"%1$lld rzecz\",\"few\":\"%1$lld rzeczy\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"%1$lld rzeczy\",\"other\":\"%1$lld rzeczy\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld στοιχείο επηρεάζει όλους τους χρήστες\",\"other\":\": %2$lld στοιχεία επηρεάζουν όλους τους χρήστες\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld στοιχείο\",\"other\":\"%1$lld στοιχεία\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld объект влияет на всех пользователей\",\"few\":\": %2$lld объекта влияют на всех пользователей\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\": %2$lld объектов влияют на всех пользователей\",\"other\":\": %2$lld объекта влияют на всех пользователей\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"\"},\"arg1\":{\"one\":\"%1$lld объект\",\"few\":\"%1$lld объекта\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"%1$lld объектов\",\"other\":\"%1$lld объекта\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld emne påvirker alle brugere\",\"other\":\": %2$lld emner påvirker alle brugere\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld emne\",\"other\":\"%1$lld emner\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"other\":\"：%2$lld個項目影響所有使用者\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"other\":\"%1$lld個項目\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"other\":\": %2$lld item memengaruhi semua pengguna\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"other\":\"%1$lld item\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld item affects all users\",\"other\":\": %2$lld items affect all users\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld item\",\"other\":\"%1$lld items\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"other\":\"：%2$lld个项目影响所有用户\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"other\":\"%1$lld个项目\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld elem érint minden felhasználót\",\"other\":\": %2$lld elem érint minden felhasználót\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld elem\",\"other\":\"%1$lld elem\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"one\":\": %2$lld objekt gjelder for alle brukere\",\"other\":\": %2$lld objekter gjelder for alle brukere\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"one\":\"%1$lld objekt\",\"other\":\"%1$lld objekter\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "{\"arg2\":{\"other\":\": %2$lld개의 항목이 모든 사용자에게 영향을 줌\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"arg1\":{\"other\":\"%1$lld개의 항목\",\"zero\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"},\"NSStringLocalizedFormatKey\":\"%1$#@arg1@%2$#@arg2@\"}",
+        "language" : "ko"
+      }
+    ],
+    "Legacy Background Tasks" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "งานที่ทำอยู่เบื้องหลังแบบเก่า",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Legacy Background Tasks",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "लेगसी बैकग्राउंड कार्य",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Anciennes tâches d’arrière-plan",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Staršie verzie úloh na pozadí",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "משימות ישנות ברקע",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tác vụ trong nền cũ",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "المهام القديمة في الخلفية",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Attività in background legacy",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tareas en segundo plano antiguas",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Starejša združljiva opravila v ozadju",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ältere Hintergrundaktionen",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Застарілі фонові завдання",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "舊有背景工作",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Anciennes tâches d’arrière-plan",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "レガシーバックグラウンドタスク",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tareas en segundo plano antiguas",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tarefas em segundo plano antigas",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tugas Latar Belakang Legasi",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Verouderde achtergrondtaken",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Vanhat taustatehtävät",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Naslijeđeni pozadinski zadaci",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Äldre bakgrundsåtgärder",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tarefas Legadas em Segundo Plano",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Legacy Background Tasks",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Starší verze úloh na pozadí",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Eski Arka Plan Görevleri",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Sarcini de fundal (vechi)",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tasques en segon pla antigues",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Starsze zadania wykonywane w tle",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Εργασίες παρασκηνίου παλαιού τύπου",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Устаревшие фоновые задачи",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ældre opgaver i baggrunden",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "傳統背景作業",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tugas Latar Belakang Versi Lama",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Legacy Background Tasks",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "旧后台任务",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Korábbi háttérfeladatok",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Eldre bakgrunnsoppgaver",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "레거시 백그라운드 작업",
+        "language" : "ko"
+      }
+    ],
+    "Show in Finder" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "แสดงใน Finder",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Show in Finder",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Finder में दिखाएँ",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Afficher dans le Finder",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Zobraziť vo Finderi",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "הצגה ב-Finder",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Hiển thị trong Finder",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "إظهار في فايندر",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Mostra nel Finder",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Mostrar en el Finder",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Prikaži v aplikaciji Finder",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Im Finder anzeigen",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Показати у Finder",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "在Finder顯示",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Afficher dans le Finder",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Finderに表示",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Mostrar en el Finder",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Mostrar no Finder",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tunjukkan dalam Finder",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Toon in Finder",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Näytä Finderissa",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Prikaži u Finderu",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Visa i Finder",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Mostrar no Finder",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Show in Finder",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Zobrazit ve Finderu",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Finder’da Göster",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Afișați în Finder",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Mostra al Finder",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Pokaż w Finderze",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Εμφάνιση στο Finder",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Показать в Finder",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Vis i Finder",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "顯示於Finder",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tampilkan pada Finder",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Show in Finder",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "在访达中显示",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Megjelenítés a Finderben",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Vis i Finder",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Finder에서 보기",
+        "language" : "ko"
+      }
+    ],
+    "App Background Activity" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "กิจกรรมที่อยู่เบื้องหลังของแอป",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App Background Activity",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "ऐप बैकग्राउंड ऐक्टिविटी",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Activité des apps en arrière-plan",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aktivity apiek na pozadí",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "פעילות יישומים ברקע",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Hoạt động trong nền của ứng dụng",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "نشاط التطبيق في الخلفية",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Attività app in background",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Actividad en segundo plano de las apps",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aktivnost aplikacij v ozadju",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App-Hintergrundaktivitäten",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Фонова активність програм",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App背景活動",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Activité des apps en arrière-plan",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "アプリのバックグラウンドでのアクティビティ",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Actividad de app en segundo plano",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Atividade em segundo plano",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aktiviti Latar Belakang App",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App-activiteit op achtergrond",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Appien toiminta taustalla",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Pozadinska aktivnost aplikacija",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Appaktivitet i bakgrunden",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Atividade de apps em segundo plano",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App Background Activity",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aktivita aplikací na pozadí",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Uygulamanın Arka Plan Aktivitesi",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplicație cu activitate în fundal",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Activitat en segon pla de les apps",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aktywność aplikacji w tle",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Δραστηριότητα παρασκηνίου",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Фоновая активность приложений",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Appaktivitet i baggrunden",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App背景活動",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aktivitas Latar Belakang App",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App Background Activity",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App后台活动",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Apptevékenység a háttérben",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Appaktivitet i bakgrunnen",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "앱 백그라운드 활동",
+        "language" : "ko"
+      }
+    ],
+    "Unknown" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "ไม่ทราบ",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Unknown",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "अज्ञात",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Inconnu",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Neznámy",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "לא ידוע",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Không xác định",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "غير معروف",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Sconosciuto",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Desconocido",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Neznano",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Unbekannt",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Невідомо",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "未知",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Inconnu",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "不明",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Desconocido",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Desconhecido",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tidak Diketahui",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Onbekend",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tuntematon",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Nepoznato",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Okänd",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Desconhecido",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Unknown",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Neznámý typ",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Bilinmeyen",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Necunoscut",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Desconegut",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Nieznany",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Άγνωστο",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Неизвестно",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ukendt",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "未知",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tidak Diketahui",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Unknown",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "未知",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ismeretlen",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ukjent",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "알 수 없음",
+        "language" : "ko"
+      }
+    ],
+    "These items will open automatically when you log in." : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "รายการเหล่านี้จะเปิดโดยอัตโนมัติเมื่อคุณเข้าสู่ระบบ",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "These items will open automatically when you log in.",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "आपके लॉगइन करने पर ये आइटम ऑटोमैटिकली खुल जाएँगे।",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ces éléments s’ouvriront automatiquement à l’ouverture de session.",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tieto položky sa automaticky otvoria po vašom prihlásení.",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "פריטים אלו ייפתחו אוטומטית עם כניסתך לחשבון.",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Các mục sau sẽ tự động mở khi bạn đăng nhập.",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "سيتم فتح العناصر التالية تلقائيًا عند تسجيل الدخول.",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Questi elementi si apriranno automaticamente al login.",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Estos ítems se abrirán automáticamente al iniciar la sesión.",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ti elementi se bodo samodejno odprli, ko se prijavite.",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Diese Objekte werden bei der Anmeldung automatisch geöffnet.",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Під час входу в систему автоматично відкриватимуться перелічені нижче елементи.",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "這些項目會在你登入時自動開啟。",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ces éléments s’ouvriront automatiquement à l’ouverture de session.",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "以下の項目がログイン時に自動的に開きます。",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Estos elementos se abrirán automáticamente al iniciar la sesión.",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Estes elementos serão automaticamente abertos ao iniciar sessão.",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item ini akan dibuka secara automatik apabila anda log masuk.",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Deze onderdelen worden automatisch geopend als je inlogt.",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Nämä kohteet avautuvat automaattisesti sisäänkirjauduttaessa.",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ove stavke automatski se otvaraju prilikom prijave.",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Dessa objekt öppnas automatiskt när du loggar in.",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Estes itens serão abertos automaticamente quando você iniciar a sessão.",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "These items will open automatically when you log in.",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tyto položky se automaticky otevřou po přihlášení.",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Bu öğeler, oturum açtığınızda otomatik olarak açılır.",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aceste articole se vor deschide automat când faceți login.",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aquests ítems s’obriran automàticament en iniciar sessió.",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Te rzeczy będą automatycznie otwierane w czasie logowania.",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Τα στοιχεία αυτά θα ανοίγουν αυτόματα κατά την είσοδο.",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Эти объекты будут открываться автоматически при входе.",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Disse emner åbnes automatisk, når du logger ind.",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "這些項目在你登入時會自動打開。",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item ini akan terbuka secara otomatis saat Anda masuk.",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "These items will open automatically when you log in.",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "当你登录时，这些项目将自动打开。",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Bejelentkezéskor ezek az elemek automatikusan megnyílnak.",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Disse objektene vil bli åpnet automatisk når du logger på.",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "이 항목들은 로그인할 때 자동으로 실행됩니다.",
+        "language" : "ko"
+      }
+    ],
+    "removing items" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "เอารายการออก",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "removing items",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "आइटम हटाए जा रहे हैं",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "la suppression d’éléments",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "odstránenie položiek",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "הסרת פריטים",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "đang xóa các mục",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "إزالة العناصر",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "rimozione elementi",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "eliminación de ítems",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "odstranjevanje elementov",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Objekte entfernen",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "вилучення елементів",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "正在移除項目",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "la suppression d’éléments",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : ": 項目を削除",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "eliminación de elementos",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Remover elementos",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "mengeluarkan item",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "onderdelen verwijderen",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "kohteiden poisto",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "uklanjanje stavki",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "tar bort objekt",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "remoção de itens",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "removing items",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Odstranit položky",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Öğe Silme",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "eliminarea articolelor",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "l’eliminació dels ítems",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "usunięcie rzeczy",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Αφαίρεση στοιχείων",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "удаление объектов",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "fjerner emner",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "移除項目",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "menghapus item",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "removing items",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "移除项目",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "elemek eltávolítása",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "fjerning av objekter",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "항목 제거",
+        "language" : "ko"
+      }
+    ],
+    "Application" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "แอปพลิเคชัน",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Application",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "ऐप्लिकेशन",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Application",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplikácia",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "יישום",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ứng dụng",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "تطبيق",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Applicazione",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplicación",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplikacija",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Програма",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "應用程式",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Application",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "アプリケーション",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplicação",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplikasi",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Appi",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplikacija",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplicativo",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Application",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplikace",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Uygulama",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplicație",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplikacja",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Εφαρμογή",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Приложение",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "應用程式",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplikasi",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Application",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "应用程序",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Alkalmazás",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "응용 프로그램",
+        "language" : "ko"
+      }
+    ],
+    "turning on %@" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "เปิดใช้%[tt]@",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "turning on %@",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "%@ चालू किया जा रहा है",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "l’activation de %@",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "zapnutie apky %@",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "הפעלת %@",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "bật %@",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "تشغيل %@",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "attivazione %@",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "activación de %@",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "vklop (%@)",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "%@ aktivieren",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "увімкнення %@",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "正在開啟%@",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "l’activation de %@",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : ": %@をオンにする",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "activación de %@",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ativar %@",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "mengaktifkan %@",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "'%@' inschakelen",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "%[tt]@-asetuksen laittaminen päälle",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "uključenje %@",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "slår på %@",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "ativação de %@",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "turning on %@",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Zapnout aplikaci %@",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "%@ açılıyor",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "activarea %@",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "l’activació de l’app %@",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "włączam %@",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ενεργοποίηση της ρύθμισης «%@»",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "включение параметра «%@»",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "slår %@ til",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "開啟%@",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "menyalakan %@",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "turning on %@",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "打开%@",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "%@ bekapcsolása",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "påslåing av %@",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "%@ 켜기",
+        "language" : "ko"
+      }
+    ],
+    "Apps run in the background after you close them to perform tasks such as checking for updates. Personal data and device sensors can be accessed by apps while they run in the background, if you grant permission." : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "แอปทำงานอยู่เบื้องหลังหลังจากที่คุณปิดเพื่อทำงานต่างๆ เช่น การตรวจหารายการอัปเดต แอปสามารถเข้าถึงข้อมูลส่วนบุคคลและเซ็นเซอร์อุปกรณ์ได้ในระหว่างที่ทำงานอยู่เบื้องหลังหากคุณให้สิทธิ์",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Apps run in the background after you close them to perform tasks such as checking for updates. Personal data and device sensors can be accessed by apps while they run in the background if you grant permission.",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "ऐप्स तब बैकग्राउंड में चलाए जाते हैं जब आप अपडेट की जाँच जैसे कार्यों को करने के लिए उन्हें बंद करते हैं। बैकग्राउंड में चलने के दौरान व्यक्तिगत डेटा और डिवाइस सेंसर को ऐप्स के द्वारा ऐक्सेस किया जा सकता है, अगर आप अनुमति प्रदान करते हैं।",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Les apps s’exécutent en arrière-plan après leur fermeture pour effectuer des tâches telles que la recherche de mises à jour. Si vous leur en accordez l’autorisation, les apps peuvent avoir accès aux données personnelles et aux capteurs de l’appareil lorsqu’elles s’exécutent en arrière-plan.",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Apky môžu bežať na pozadí aj po tom, ako ich zatvoríte, a vykonávať rôzne úlohy, napríklad vyhľadávať aktualizácie. Ak im udelíte príslušné oprávnenia, môžu pristupovať k vašim osobným údajom a senzorom zariadenia.",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "יישומים ממשיכים לפעול ברקע לאחר סגירתם כדי לבצע פעולות כמו חיפוש עדכונים. בזמן שהם פועלים ברקע, יישומים יוכלו לגשת לנתונים אישיים ולחיישני המכשיר אם הענקת להם הרשאה לכך.",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Các ứng dụng sẽ chạy trong nền sau khi bạn đóng để thực hiện các tác vụ như kiểm tra bản cập nhật. Các ứng dụng có thể truy cập dữ liệu cá nhân và cảm biến thiết bị trong khi chạy trong nền nếu được bạn cấp phép.",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "تعمل التطبيقات في الخلفية بعد إغلاقها لتنفيذ مهام مثل التحقق من التحديثات. يمكن للتطبيقات الوصول إلى البيانات الشخصية ومستشعرات الجهاز أثناء عملها في الخلفية، إذا منحت الإذن بذلك.",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Dopo la chiusura, le app possono eseguire operazioni in background, ad esempio verificare la presenza di aggiornamenti. Se concedi l’autorizzazione, possono accedere ai dati personali e ai sensori del dispositivo mentre vengono eseguite in background.",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Una vez cerradas, las apps siguen ejecutando algunas tareas en segundo plano, como buscar actualizaciones, y, si lo permites, pueden también acceder a tus datos personales y a los sensores del dispositivo.",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplikacije, ki jih zaprete, lahko v ozadju izvajajo opravila, kot je preverjanje razpoložljivosti posodobitev. Če jim podate dovoljenje, lahko aplikacije med izvajanjem v ozadju dostopajo do osebnih podatkov in senzorjev naprave.",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Apps werden im Hintergrund ausgeführt, nachdem du sie geschlossen hast, um Aufgaben wie das Suchen nach Updates auszuführen. Apps können auf persönliche Daten und Gerätesensoren zugreifen, während sie im Hintergrund ausgeführt werden, sofern du die Erlaubnis erteilst.",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Програми працюють у фоновому режимі після закриття, щоб виконувати завдання, як‑от перевірку наявності оновлень. Програми у фоновому режимі можуть мати доступ до особистих даних і датчиків пристрою, якщо ви надасте дозвіл.",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App會在你將其關閉後於背景中執行，以進行檢查更新等任務。如你授權，App可以在背景中執行時取用個人資料和裝置感測器。",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Les apps s’exécutent en arrière-plan après leur fermeture pour effectuer des tâches telles que la recherche de mises à jour. Si vous les y autorisez, les apps peuvent accéder aux données personnelles et aux capteurs de l’appareil lorsqu’elles s’exécutent en arrière-plan.",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "アプリは閉じたあともバックグラウンドで動作し、アップデートの確認などのタスクを行います。アプリがバックグラウンドで動作している間、あなたが許可した場合は、個人データやデバイスのセンサーにアクセスできます。",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Las apps se ejecutan en segundo plano después de cerrarlas para realizar tareas como buscar actualizaciones. Si otorgas permiso, las apps pueden acceder a tus datos personales y a los sensores del dispositivo mientras se ejecutan en segundo plano.",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "As aplicações são executadas em segundo plano depois de serem fechadas para realizar tarefas como procurar atualizações. Se permitir, os seus dados pessoais e os sensores do dispositivo podem ser acedidos pelas aplicações em segundo plano.",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App berjalan di latar belakang selepas anda menutupnya untuk menjalankan tugas seperti menyemak kemas kini. Data peribadi dan sensor peranti boleh diakses oleh app semasa ia berjalan di latar belakang, jika anda memberikan keizinan.",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Nadat je een app hebt gesloten, blijft deze op de achtergrond actief om achtergrondtaken uit te voeren zoals het zoeken naar updates. Terwijl apps op de achtergrond worden uitgevoerd, kunnen ze toegang hebben tot persoonlijke gegevens en apparaatsensors als je hier toestemming voor geeft.",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Apit toimivat taustalla, kun olet sulkenut ne, ja suorittavat tehtäviä, kuten päivitysten tarkistus. Apit voivat käyttää henkilökohtaisia tietoja ja laitteen tunnistimia, kun ne toimivat taustalla, jos annat luvan.",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplikacije rade u pozadini nakon što ih zatvorite kako bi obavljale zadatke poput traženja ažuriranja. Aplikacije mogu pristupiti osobnim podacima i senzorima uređaja dok rade u pozadini, ako im date dopuštenje.",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Appar körs i bakgrunden efter det att du har stängt dem för att utföra uppgifter som att kontrollera om det finns uppdateringar. Appar kan få tillgång till personliga data och enhetssensorer medan de körs i bakgrunden om du ger tillstånd till detta.",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Depois que você fecha os apps para realizar tarefas como buscar atualizações, eles são executados em segundo plano. Se você conceder permissão, dados pessoais e sensores do dispositivo podem ser acessados pelos apps enquanto eles são executados em segundo plano.",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Apps run in the background after you close them to perform tasks such as checking for updates. Personal data and device sensors can be accessed by apps while they run in the background, if you grant permission.",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplikace někdy zůstávají spuštěné na pozadí, i když jste je už zavřeli, a provádějí různé úlohy, například vyhledávají aktualizace. Přitom můžou mít přístup k osobním údajům nebo k čidlům zařízení, pokud jste jim udělili příslušná oprávnění.",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Uygulamalar, kapatıldıktan sonra güncellemeleri denetleme gibi görevleri gerçekleştirmek için arka planda çalışır. Uygulamalar arka planda çalışırken izin verirseniz kişisel verilere ve aygıt sensörlerine erişebilir.",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "După ce le închideți, aplicațiile rulează în fundal pentru a efectua sarcini precum căutarea actualizărilor. Dacă le acordați această permisiune, aplicațiile pot accesa datele personale și senzorii dispozitivului în timp ce rulează în fundal.",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Les apps, fins i tot un cop tancades, poden fer certes tasques en segon pla, com ara cercar actualitzacions. A més, si els ho permets, també podran accedir als sensors dels dispositius i a les dades personals.",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aplikacje działają w tle po zamknięciu, aby na przykład sprawdzać dostępność uaktualnień. Mają w tym czasie dostęp do danych prywatnych i pochodzących z czujników urządzenia, jeśli uzyskały od Ciebie odpowiednie uprawnienie.",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Οι εφαρμογές εκτελούνται στο παρασκήνιο αφού τις κλείσετε, για εκτέλεση εργασιών όπως έλεγχος για ενημερώσεις. Τα προσωπικά δεδομένα και οι αισθητήρες συσκευής μπορούν να προσπελαστούν από εφαρμογές κατά την εκτέλεσή τους στο παρασκήνιο, αν παραχωρήσετε άδεια.",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Завершенные приложения могут выполнять различные задачи в фоновом режиме, например проверять наличие обновлений. Если Вы дадите такое разрешение, приложения в фоновом режиме смогут обращаться к Вашим персональным данным и сенсорам устройства.",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Apps afvikles i baggrunden, når du har lukket dem, for at udføre opgaver som f.eks. at søge efter opdateringer. Hvis du giver tilladelse til det, kan apps få adgang til personlige data og enhedssensorer, mens de afvikles i baggrunden.",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App會在你將其關閉後於背景中執行，以進行如檢查更新項目等作業。若你授予權限，App可以在背景中執行時取用個人資料和裝置感測器。",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App berjalan di latar belakang setelah Anda tutup untuk menjalankan tugas seperti memeriksa pembaruan. Data pribadi dan sensor perangkat dapat diakses oleh app selagi berjalan di latar belakang, jika Anda beri izin.",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Apps run in the background after you close them to perform tasks such as checking for updates. Personal data and device sensors can be accessed by apps while they run in the background if you grant permission.",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "App关闭后会在后台运行以执行检查更新等任务。若授权，App在后台运行时可访问个人数据和设备传感器。",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Az appok a háttérben futnak a bezárásuk után, hogy olyan feladatokat hajtsanak végre, mint a frissítések keresése. Ha engedélyezi, az appok hozzáférhetnek a személyes adatokhoz és az eszköz érzékelőihez, amíg a háttérben futnak.",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Apper som lukkes, fortsetter å kjøre i bakgrunnen for å utføre oppgaver som å se etter oppdateringer. Hvis du gir dem tilgang, har apper som kjører i bakgrunnen tilgang til personlige data og sensorer på enheten.",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "앱이 닫힌 후에도 업데이트 확인과 같은 작업을 수행하기 위해 백그라운드에서 실행됩니다. 앱에 접근 권한을 부여한 경우 백그라운드에서 실행 중인 앱이 개인 데이터 또는 기기 센서에 접근할 수 있습니다.",
+        "language" : "ko"
+      }
+    ],
+    "turning off %@" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "ปิดใช้%[tt]@",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "turning off %@",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "%@ को बंद किया जा रहा है",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "la désactivation de %@",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "vypnutie apky %@",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "כיבוי %@",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "tắt %@",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "إيقاف %@",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "disattivazione %@",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "desactivación de %@",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "izklop (%@)",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "%@ deaktivieren",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "вимкнення %@",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "正在關閉%@",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "la désactivation de %@",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : ": %@をオフにする",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "desactivación de %@",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Desativar %@",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "menyahaktifkan %@",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "'%@' uitschakelen",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "%[tt]@-asetuksen laittaminen pois päältä",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "isključenje %@",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "stänger av %@",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "desativação de %@",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "turning off %@",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Vypnout aplikaci %@",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "%@ kapatılıyor",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "dezactivarea %@",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "la desactivació de l’app %@",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "wyłączam %@",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Απενεργοποίηση της ρύθμισης «%@»",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "выключение параметра «%@»",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "slår %@ fra",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "關閉%@",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "mematikan %@",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "turning off %@",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "关闭%@",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "%@ kikapcsolása",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "avslåing av %@",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "%@ 끄기",
+        "language" : "ko"
+      }
+    ],
+    "Kind" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "ชนิด",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Kind",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "प्रकार",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Type",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Druh",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "סוג",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Loại",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "النوع",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tipo",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Clase",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Vrsta",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Art",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Тип",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "種類",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Type",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "種類",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Clase",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tipo",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Jenis",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Soort",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Laji",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Vrsta",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Typ",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tipo",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Kind",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Druh",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tür",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tip",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tipus",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Rodzaj",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Είδος",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Тип",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Type",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "種類",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Jenis",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Kind",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "种类",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Típus",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Type",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "종류",
+        "language" : "ko"
+      }
+    ],
+    "Extensions add extra functionality to your Mac and apps, and some may run in the background." : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "ส่วนขยายเพิ่มการทำงานเพิ่มเติมไปยัง Mac และแอปของคุณ และส่วนขยายบางส่วนอาจทำงานอยู่เบื้องหลัง",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensions add extra functionality to your Mac and apps, and some may run in the background.",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "एक्सटेंशन आपके Mac और ऐप्स में अतिरिक्त फ़ंक्शनैलिटी जोड़ते हैं और हो सकता है कि कुछ एक्सटेंशन बैकग्राउंड में चलें।",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Les extensions apportent des fonctionnalités supplémentaires à votre Mac et à vos apps. Certaines d’entre elles peuvent s’exécuter en arrière-plan.",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Rozšírenia pridávajú do systému a apiek na Macu nové funkcie. Niektoré rozšírenia môžu bežať na pozadí.",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "הרחבות מוסיפות תפקודיות נוספת ל-Mac וליישומים שלך וחלקן עשויות לפעול ברקע.",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Phần mở rộng thêm các chức năng bổ sung cho máy Mac và các ứng dụng của bạn. Một số phần mở rộng có thể chạy trong nền.",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "تضيف الملحقات قدرات وظيفية إضافية إلى Mac والتطبيقات وقد يعمل البعض في الخلفية.",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Le estensioni aggiungono ulteriori funzionalità al Mac e alle app. Alcune potrebbero venire eseguite in background.",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Las extensiones añaden a tu Mac y a las apps un nivel más de funcionalidad y algunas pueden ejecutarse en segundo plano.",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Razširitve Macu in aplikacijam omogočajo uporabo dodatnih funkcij. Nekatere razširitve se lahko izvajajo v ozadju.",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Mit Erweiterungen erhalten dein Mac und seine Apps neue Funktionen. Einige Erweiterungen können im Hintergrund ausgeführt werden.",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Розширення надають додаткові функції для компʼютера Mac і програм. Деякі розширення можуть працювати у фоновому режимі.",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "延伸功能為你的Mac和App加入額外功能，且部份延伸功能可能會在背景中執行。",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Les extensions apportent des fonctionnalités supplémentaires à votre Mac et à vos apps, et certaines extensions peuvent s’exécuter en arrière-plan.",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "機能拡張により、Macやアプリにさらに機能が追加され、一部の機能拡張はバックグラウンドで実行される場合があります。",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Las extensiones agregan más funcionalidades a tu Mac y a las apps, y algunas pueden ejecutarse en segundo plano.",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "As extensões ampliam a funcionalidade do Mac e das aplicações e algumas podem ser executadas em segundo plano.",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Sambungan menambah fungsi tambahan ke Mac dan app anda, serta sesetengah sambungan mungkin berjalan di latar belakang.",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Met extensies worden er extra functies toegevoegd aan je Mac en in apps en sommige worden mogelijk op de achtergrond uitgevoerd.",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Laajennukset lisäävät toimintoja Maciin ja appeihin. Jotkin laajennukset saattavat olla käynnissä taustalla.",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ekstenzije dodaju funkcionalnost vašem Macu i aplikacijama, a neke mogu raditi u pozadini.",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Med tillägg får du fler funktioner på datorn och i appar. Vissa tillägg kanske körs i bakgrunden.",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "As extensões acrescentam funcionalidade extra ao Mac e a apps. Algumas delas podem ser executadas em segundo plano.",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensions add extra functionality to your Mac and apps, and some may run in the background.",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Rozšíření přidávají do systému a aplikací na Macu nové funkce. Některá rozšíření můžou běžet na pozadí.",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Genişletmeler, Mac’inize ve uygulamalara ek işlevsellik ekler ve bazıları arka planda çalışabilir.",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensiile adaugă funcționalități suplimentare pentru Mac și aplicații, iar unele extensii pot rula în fundal.",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Les extensions amplien les funcionalitats del Mac i de les apps. N’hi ha que es poden executar en segon pla.",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Rozszerzenia dodają nowe możliwości systemu i aplikacji na Macu, a niektóre z nich mogą działać w tle.",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Οι επεκτάσεις προσθέτουν επιπλέον λειτουργικότητα στο Mac και τις εφαρμογές, και κάποιες επεκτάσεις ενδέχεται να εκτελούνται στο παρασκήνιο.",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Расширения добавляют новую функциональность для Вашего Mac и приложений. Некоторые расширения могут работать в фоновом режиме.",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Udvidelser føjer ekstra funktioner til din Mac og apps, og nogle udvidelser afvikles muligvis i baggrunden.",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "延伸功能可以為你的Mac和App加入額外的功能，部分延伸功能可能會在背景中執行。",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ekstensi dapat menambahkan fungsionalitas ekstra pada Mac dan app Anda, dan beberapa ekstensi mungkin dijalankan di latar belakang.",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensions add extra functionality to your Mac and apps, and some may run in the background.",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "扩展可在Mac和App中添加额外功能，部分扩展可能会在后台运行。",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "A bővítmények további funkciókat biztosítanak a Macjének és az appjainak. Előfordulhat, hogy a bővítmények némelyike a háttérben fut.",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Utvidelser gir ekstra funksjonalitet til både Macen og installerte apper, og noen utvidelser kjører kanskje i bakgrunnen.",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "확장 프로그램으로 Mac 및 앱에 기능이 추가되며, 일부는 백그라운드에서 실행될 수 있습니다.",
+        "language" : "ko"
+      }
+    ],
+    "Login Items & Extensions" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "รายการเข้าสู่ระบบและส่วนขยาย",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Login Items & Extensions",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "लॉगइन आइटम और एक्सटेंशन",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ouverture et extensions",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Položky a rozšírenia spúšťané pri prihlásení",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "פריטי התחברות והרחבות",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Mục đăng nhập & Phần mở rộng",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "عناصر الدخول والملحقات",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Elementi login ed estensioni",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ítems de inicio y extensiones",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Elementi prijave in razširitve",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Anmeldeobjekte & Erweiterungen",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Автозапуск і розширення",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "登入項目與延伸功能",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Éléments d’ouverture et extensions",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "ログイン項目と機能拡張",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Elementos de inicio y extensiones",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Início de sessão e extensões",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item Log Masuk & Sambungan",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Inlogonderdelen en extensies",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Kirjautumiskohteet ja laajennukset",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Stavke za prijavu i ekstenzije",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Startobjekt och tillägg",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Itens de Início de Sessão e Extensões",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Login Items & Extensions",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aktivace položek a rozšíření při přihlášení",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Oturum Açma Öğeleri ve Genişletmeler",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Lansare la login și extensii",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ítems d’inici de sessió i extensions",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Rzeczy i rozszerzenia otwierane podczas logowania",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Στοιχεία εισόδου και επεκτάσεις",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Объекты входа и расширения",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Loginemner & udvidelser",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "登入項目與延伸功能",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item Masuk & Ekstensi",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Login Items & Extensions",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "登录项与扩展",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Indítóelemek és bővítmények",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Påloggingsobjekter og utvidelser",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "로그인 항목 및 확장 프로그램",
+        "language" : "ko"
+      }
+    ],
+    "adding items" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "เพิ่มรายการ",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "adding items",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "आइटम जोड़े जा रहे हैं",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "l’ajout d’éléments",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "pridanie položiek",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "הוספת פריטים",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "đang thêm các mục",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "إضافة العناصر",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "aggiunta elementi",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "adición de ítems",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "dodajanje elementov",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Objekte hinzufügen",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "додавання елементів",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "正在加入項目",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "l’ajout d’éléments",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : ": 項目を追加",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "adición de elementos",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Adicionar elementos",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "menambah item",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "onderdelen toevoegen",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "kohteiden lisäys",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "dodavanje stavki",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "lägger till objekt",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "adição de itens",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "adding items",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Přidat položky",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Öğe Ekleme",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "adăugarea articolelor",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "l’addició dels ítems",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "dodanie rzeczy",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Προσθήκη στοιχείων",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "добавление объектов",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "tilføjer emner",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "加入項目",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "menambahkan item",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "adding items",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "添加项目",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "elemek hozzáadása",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "tillegging av objekter",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "항목 추가",
+        "language" : "ko"
+      }
+    ],
+    "Allow command line tools to be used for automating scheduled background tasks." : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "อนุญาตให้ใช้เครื่องมือบรรทัดคำสั่งสำหรับการทำงานที่ทำอยู่เบื้องหลังตามกำหนดเวลาแบบอัตโนมัติ",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Allow command line tools to be used for automating scheduled background tasks.",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "कमांड लाइन टूल को अनुमति दें कि शेड्यूल की गई बैकग्राउंड टास्क को ऑटोमैटिक करने के लिए उनका उपयोग किया जाए।",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Autorisez l’utilisation d’outils de ligne de commande pour l’automatisation de tâches d’arrière-plan programmées.",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Umožňuje používanie nástrojov príkazového riadka na automatické vykonávania naplánovaných úloh na pozadí.",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "ניתן לאשר שימוש בכלי שורת הפקודה לאוטומציה של משימות מתוזמנות הפועלות ברקע.",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Cho phép sử dụng các công cụ dòng lệnh để tự động hóa các tác vụ trong nền theo lịch trình.",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "السماح باستخدام أدوات سطر الأوامر للتنفيذ التلقائي للمهام المُجدولة في الخلفية.",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Consenti l’uso degli strumenti a riga di comando per l’automazione di attività in background programmate.",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Permite usar las herramientas de líneas de comando para automatizar las tareas en segundo plano programadas.",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Omogočite uporabo orodij v ukazni vrstici za avtomatizacijo načrtovanih opravil v ozadju.",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Erlaube die Verwendung von Befehlszeilen-Werkzeugen, um automatisch Hintergrundaktionen zu planen.",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Дозволити автоматизацію запланованих фонових завдань засобами командного рядка.",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "允許使用指令列工具來自動化執行編排的背景工作。",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Autorisez l’utilisation d’outils de ligne de commande pour l’automatisation de tâches d’arrière-plan programmées.",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "スケジュールされたバックグラウンドタスクの自動化に、コマンドラインツールを使用することを許可します。",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Permite que se usen las herramientas de la línea de comandos para automatizar las tareas en segundo plano programadas.",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Permitir usar as ferramentas de linha de comando para automatizar as tarefas em segundo plano programadas.",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Benarkan alat garis perintah untuk digunakan bagi mengautomasikan tugas latar belakang dijadualkan.",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Sta toe dat commandoregeltools worden gebruikt voor het automatiseren van geplande achtergrondtaken.",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Salli komentorivityökalujen käyttö ajastettujen taustatehtävien automatisointiin.",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Dozvolite uporabu alata s komandnim retkom za automatiziranje zakazanih pozadinskih zadataka.",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tillåt att kommandoradsverktyg används till att automatisera schemalagda bakgrundsåtgärder.",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Permita o uso das ferramentas de linha de comando para automatizar as tarefas agendadas em segundo plano.",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Allow command line tools to be used for automating scheduled background tasks.",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Umožní použití nástrojů příkazového řádku k automatickému provádění naplánovaných úloh na pozadí.",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Komut satırı araçlarının, zamanlanmış arka plan görevlerini otomatikleştirmek için kullanılmasına izin verir.",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Permiteți utilizarea instrumentelor în linie de comandă pentru a automatiza sarcinile programate în fundal.",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Permet utilitzar les eines de la línia d’ordres per automatitzar les tasques en segon pla programades.",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Pozwalaj na używanie narzędzi wiersza poleceń do automatyzowania zaplanowanych zadań wykonywanych w tle.",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Να επιτρέπεται η χρήση των εργαλείων γραμμής εντολών για τον αυτοματισμό προγραμματισμένων εργασιών παρασκηνίου.",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Разрешить автоматизацию запланированных фоновых задач с помощью инструментов командной строки.",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tillad, at kommandolinjeværktøjer kan bruges til automatisering af planlagte opgaver i baggrunden.",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "允許命令列工具用於自動排程的背景作業。",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Izinkan alat baris perintah agar dapat digunakan untuk mengautomasi tugas latar belakang terjadwal.",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Allow command line tools to be used for automating scheduled background tasks.",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "允许命令行工具被用于自动化已计划的后台任务。",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Engedélyezi a parancssori eszközök ütemezett háttérfeladatok automatizálására való használatát.",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tillat bruk av kommando­linje­verktøy til automatisering av planlagte bakgrunnsoppgaver.",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "명령어 라인 도구를 사용하여 예정된 백그라운드 작업을 자동화할 수 있습니다.",
+        "language" : "ko"
+      }
+    ],
+    "Add" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "เพิ่ม",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Add",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "जोड़ें",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ajouter",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Pridať",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "הוספה",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Thêm",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "إضافة",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Aggiungi",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Añadir",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Dodaj",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Hinzufügen",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Додати",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "加入",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ajouter",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "追加",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Agregar",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Adicionar",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tambah",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Voeg toe",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Lisää",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Dodaj",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Lägg till",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Adicionar",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Add",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Přidat",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ekle",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Adăugați",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Afegeix",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Dodaj",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Προσθήκη",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Добавить",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tilføj",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "加入",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tambah",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Add",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "添加",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Hozzáadás",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Legg til",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "추가",
+        "language" : "ko"
+      }
+    ],
+    "Extensions" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "ส่วนขยาย",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensions",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "एक्सटेंशन",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensions",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Rozšírenia",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "הרחבות",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Phần mở rộng",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "الملحقات",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Estensioni",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensiones",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Razširitve",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Erweiterungen",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Розширення",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "延伸功能",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensions",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "機能拡張",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensiones",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensões",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Sambungan",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensies",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Laajennukset",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ekstenzije",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Tillägg",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensões",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensions",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Rozšíření",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Genişletmeler",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensii",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensions",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Rozszerzenia",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Επεκτάσεις",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Расширения",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Udvidelser",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "延伸功能",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ekstensi",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Extensions",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "扩展",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Bővítmények",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Utvidelser",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "확장 프로그램",
+        "language" : "ko"
+      }
+    ],
+    "You cannot remove items managed by profile." : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "คุณไม่สามารถเอารายการที่จัดการโดยโปรไฟล์ออกได้",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "You cannot remove items managed by profile.",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "आप प्रोफ़ाइल द्वारा प्रबंधित किए जाने वाले आइटम हटा नहीं सकते हैं।",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Vous ne pouvez pas supprimer des éléments gérés par le profil.",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Položky spravované profilom nie je možné odstrániť.",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "אין לך אפשרות להסיר פריטים שמנוהלים על-ידי פרופיל.",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Bạn không thể xóa các mục được quản lý bởi cấu hình.",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "لا يمكنك إزالة العناصر المدارة بواسطة ملف تعريف.",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Non puoi rimuovere gli elementi gestiti da un profilo.",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "No se pueden eliminar los ítems gestionados por un perfil.",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Elementov, ki jih upravlja profil, ne morete odstraniti.",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Du kannst keine Objekte entfernen, die von Profilen verwaltet werden.",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ви не можете вилучити елементи, якими керує профіль.",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "你無法移除由描述檔管理的項目。",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Vous ne pouvez pas supprimer les éléments gérés par profil.",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "プロファイルによって管理されている項目は削除できません。",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "No puedes eliminar elementos administrador por un perfil.",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Não é possível remover elementos geridos por um perfil.",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Anda tidak boleh mengeluarkan item yang diuruskan oleh profil.",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Je kunt onderdelen die met een profiel worden beheerd niet verwijderen.",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Profiilin hallitsemia kohteita ei voida poistaa.",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ne možete ukloniti stavke kojima upravlja profil.",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Du kan inte ta bort objekt som hanteras av profilen.",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Não é possível remover itens gerenciados por perfis.",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "You cannot remove items managed by profile.",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Položky spravované pomocí profilu nelze odstranit.",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Profil tarafından yönetilen öğeleri silemezsiniz.",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Nu puteți elimina articole gestionate de profil.",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "No pots eliminar els ítems gestionats per un perfil.",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Nie można usuwać rzeczy zarządzanych przez profil.",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Δεν είναι δυνατή η αφαίρεση στοιχείων που βρίσκονται υπό διαχείριση από προφίλ.",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Нельзя удалять объекты, управляемые профилем.",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Det er ikke muligt at fjerne emner, der administreres af en profil.",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "你無法移除由描述檔管理的項目。",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Anda tidak dapat menghapus item yang dikelola oleh profil.",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "You cannot remove items managed by profile.",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "你无法移除受描述文件管理的项目。",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "A profil által kezelt elemek nem távolíthatók el.",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Objekter som administreres av en profil, kan ikke fjernes.",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "프로필에 의해 관리되는 항목은 제거할 수 없습니다.",
+        "language" : "ko"
+      }
+    ],
+    "Open at Login" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "เปิดเมื่อเข้าสู่ระบบ",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Open at Login",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "लॉगइन पर खोलें",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ouvrir avec la session",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Otvoriť po prihlásení",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "פתיחה בעת ההתחברות",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Mở khi đăng nhập",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "فتح عند الدخول",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Apri al login",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Abrir al iniciar sesión",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Odpiranje ob prijavi",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Bei der Anmeldung öffnen",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Відкривати під час входу в систему",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "在登入時開啟",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ouvrir avec la session",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "ログイン時に開く",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Abrir al iniciar sesión",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Abrir ao iniciar sessão",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Buka apabila Log Masuk",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Open bij inloggen",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Avaa sisäänkirjauduttaessa",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Otvori kod prijave",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Öppna vid inloggning",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Abrir no Início da Sessão",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Open at Login",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Otevřít při přihlášení",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Oturum Açıldığında Aç",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Deschideți la login",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Obre en iniciar la sessió",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Otwieraj podczas logowania",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Άνοιγμα κατά την είσοδο",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Открывать при входе",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Åbn ved login",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "在登入時打開",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Buka saat Masuk",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Open at Login",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "登录时打开",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Megnyitás bejelentkezéskor",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Åpne ved pålogging",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "로그인 시 열기",
+        "language" : "ko"
+      }
+    ],
+    "Item from unidentified developer." : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "รายการจากนักพัฒนาที่ไม่รู้จัก",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item from unidentified developer.",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "अज्ञात डेवलपर का आइटम।",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Élément d’un développeur non identifié.",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Položka od neidentifikovaného vývojára.",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "פריט ממפתח שאינו מזוהה.",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Mục từ nhà phát triển chưa được xác định.",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "عنصر من مطوِّر غير معروف.",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Elemento da un’azienda di sviluppo non identificata.",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ítem de un desarrollador no identificado.",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Element neprepoznanega razvijalca.",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Objekt eines unbekannten Entwicklers",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Елемент від невідомого розробника.",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "來自未識別開發者的項目。",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Élément provenant d’un développeur non identifié",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "開発元を識別できない項目です。",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Elemento de un desarrollador no identificado.",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Elemento de programador não identificado",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item daripada pembangun yang tidak boleh dikenal pasti.",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Onderdeel van onbekende ontwikkelaar.",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Kohde tuntemattomalta kehittäjältä.",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Stavka od neidentificiranog developera.",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Objekt från en oidentifierad utvecklare.",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item de desenvolvedor não identificado.",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item from unidentified developer.",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Položka od neidentifikovaného vývojáře.",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Kimliği belirsiz geliştiriciden gelen öğe.",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Articol de la un dezvoltator neidentificat.",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "L’ítem és d’un equip de desenvolupament no identificat.",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Rzecz od niezidentyfikowanego dewelopera.",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Στοιχείο από μη αναγνωρισμένο δημιουργό",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Объект от неподтвержденного разработчика.",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Emne fra ukendt udvikler.",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "來自未識別開發者的項目。",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item dari pengembang yang tidak dikenal.",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item from unidentified developer.",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "项目来自身份不明的开发者。",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Azonosítatlan fejlesztőtől származó elem.",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Objekt fra ukjent utvikler.",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "확인되지 않은 개발자가 배포한 항목",
+        "language" : "ko"
+      }
+    ],
+    "Item" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "รายการ",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "आइटम",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Élément",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Položka",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "פריט",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Mục",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "العنصر",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Elemento",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ítem",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Element",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Objekt",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Елемент",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "項目",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Élément",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "項目",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Elemento",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Elemento",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Onderdeel",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Kohde",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Stavka",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Objekt",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Položka",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Öğe",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Articol",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ítem",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Rzecz",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Στοιχείο",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Объект",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Emne",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "項目",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Item",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "项目",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Elem",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Objekt",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "항목",
+        "language" : "ko"
+      }
+    ],
+    "Remove" : [
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "เอาออก",
+        "language" : "th"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Remove",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "हटाएँ",
+        "language" : "hi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Supprimer",
+        "language" : "fr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Odstrániť",
+        "language" : "sk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "הסרה",
+        "language" : "he"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Xóa",
+        "language" : "vi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "إزالة",
+        "language" : "ar"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Rimuovi",
+        "language" : "it"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Eliminar",
+        "language" : "es"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Odstrani",
+        "language" : "sl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Entfernen",
+        "language" : "de"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Вилучити",
+        "language" : "uk"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "移除",
+        "language" : "zh_HK"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Supprimer",
+        "language" : "fr_CA"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "削除",
+        "language" : "ja"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Eliminar",
+        "language" : "es_419"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Remover",
+        "language" : "pt_PT"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Keluarkan",
+        "language" : "ms"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Verwijder",
+        "language" : "nl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Poista",
+        "language" : "fi"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ukloni",
+        "language" : "hr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Ta bort",
+        "language" : "sv"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Remover",
+        "language" : "pt_BR"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Remove",
+        "language" : "en"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Odstranit",
+        "language" : "cs"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Sil",
+        "language" : "tr"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Eliminați",
+        "language" : "ro"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Elimina",
+        "language" : "ca"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Usuń",
+        "language" : "pl"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Αφαίρεση",
+        "language" : "el"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Удалить",
+        "language" : "ru"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Fjern",
+        "language" : "da"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "移除",
+        "language" : "zh_TW"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Hapus",
+        "language" : "id"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Remove",
+        "language" : "en_GB"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "移除",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Eltávolítás",
+        "language" : "hu"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Fjern",
+        "language" : "no"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "제거",
+        "language" : "ko"
+      }
+    ]
+  },
+  "bundlePath" : "\/System\/Library\/ExtensionKit\/Extensions\/LoginItems.appex",
+  "loctablePath" : "\/System\/Library\/ExtensionKit\/Extensions\/LoginItems.appex\/Contents\/Resources\/Localizable.loctable"
+}
