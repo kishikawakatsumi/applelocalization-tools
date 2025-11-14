@@ -11,9 +11,12 @@ const tables = [
   "macos13",
   "macos14",
   "macos15",
+  "macos26",
   "ios15",
   "ios16",
   "ios17",
+  "ios18",
+  "ios26",
 ];
 
 for (const table of tables) {
@@ -31,18 +34,24 @@ for (const table of tables) {
     macos13: "data/macos/13.5.2",
     macos14: "data/macos/14.6",
     macos15: "data/macos/15.2",
+    macos26: "data/macos/26.1",
     ios15: "data/ios/15.7",
     ios16: "data/ios/16.6",
     ios17: "data/ios/17.7",
+    ios18: "data/ios/18.3",
+    ios26: "data/ios/26.1",
   }[table];
   const platform = {
     macos12: "macOS",
     macos13: "macOS",
     macos14: "macOS",
     macos15: "macOS",
+    macos26: "macOS",
     ios15: "iOS",
     ios16: "iOS",
     ios17: "iOS",
+    ios18: "iOS",
+    ios26: "iOS",
   }[table];
 
   await writeln(
