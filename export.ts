@@ -155,5 +155,5 @@ function escape(str: string) {
     .replace(/\t/g, " ")
     .replace(/\r/g, "\\r")
     .replace(/\n/g, "\\n")
-    .replace(/\0/g, "\\0");
+    .replace(/\0/g, "\\\\0");
 }
