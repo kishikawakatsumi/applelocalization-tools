@@ -11,28 +11,8 @@
 		14AD1C1F2AB8F5C800109F88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD1C1E2AB8F5C800109F88 /* ViewController.swift */; };
 		14AD1C212AB8F5C900109F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AD1C202AB8F5C900109F88 /* Assets.xcassets */; };
 		14AD1C242AB8F5C900109F88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14AD1C222AB8F5C900109F88 /* Main.storyboard */; };
-		14AD1C2F2AB8F5C900109F88 /* AppleLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD1C2E2AB8F5C900109F88 /* AppleLocalizationTests.swift */; };
-		14AD1C392AB8F5C900109F88 /* AppleLocalizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD1C382AB8F5C900109F88 /* AppleLocalizationUITests.swift */; };
-		14AD1C3B2AB8F5C900109F88 /* AppleLocalizationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AD1C3A2AB8F5C900109F88 /* AppleLocalizationUITestsLaunchTests.swift */; };
 		14AD1C492AB8F61E00109F88 /* TSCBasic in Frameworks */ = {isa = PBXBuildFile; productRef = 14AD1C482AB8F61E00109F88 /* TSCBasic */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		14AD1C2B2AB8F5C900109F88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 14AD1C112AB8F5C800109F88 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 14AD1C182AB8F5C800109F88;
-			remoteInfo = AppleLocalization;
-		};
-		14AD1C352AB8F5C900109F88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 14AD1C112AB8F5C800109F88 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 14AD1C182AB8F5C800109F88;
-			remoteInfo = AppleLocalization;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		14AD1C192AB8F5C800109F88 /* AppleLocalization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleLocalization.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,11 +21,6 @@
 		14AD1C202AB8F5C900109F88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14AD1C232AB8F5C900109F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14AD1C252AB8F5C900109F88 /* AppleLocalization.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleLocalization.entitlements; sourceTree = "<group>"; };
-		14AD1C2A2AB8F5C900109F88 /* AppleLocalizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleLocalizationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14AD1C2E2AB8F5C900109F88 /* AppleLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLocalizationTests.swift; sourceTree = "<group>"; };
-		14AD1C342AB8F5C900109F88 /* AppleLocalizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleLocalizationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14AD1C382AB8F5C900109F88 /* AppleLocalizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLocalizationUITests.swift; sourceTree = "<group>"; };
-		14AD1C3A2AB8F5C900109F88 /* AppleLocalizationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLocalizationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,20 +32,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14AD1C272AB8F5C900109F88 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14AD1C312AB8F5C900109F88 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,8 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				14AD1C1B2AB8F5C800109F88 /* AppleLocalization */,
-				14AD1C2D2AB8F5C900109F88 /* AppleLocalizationTests */,
-				14AD1C372AB8F5C900109F88 /* AppleLocalizationUITests */,
 				14AD1C1A2AB8F5C800109F88 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				14AD1C192AB8F5C800109F88 /* AppleLocalization.app */,
-				14AD1C2A2AB8F5C900109F88 /* AppleLocalizationTests.xctest */,
-				14AD1C342AB8F5C900109F88 /* AppleLocalizationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,23 +61,6 @@
 				14AD1C252AB8F5C900109F88 /* AppleLocalization.entitlements */,
 			);
 			path = AppleLocalization;
-			sourceTree = "<group>";
-		};
-		14AD1C2D2AB8F5C900109F88 /* AppleLocalizationTests */ = {
-			isa = PBXGroup;
-			children = (
-				14AD1C2E2AB8F5C900109F88 /* AppleLocalizationTests.swift */,
-			);
-			path = AppleLocalizationTests;
-			sourceTree = "<group>";
-		};
-		14AD1C372AB8F5C900109F88 /* AppleLocalizationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				14AD1C382AB8F5C900109F88 /* AppleLocalizationUITests.swift */,
-				14AD1C3A2AB8F5C900109F88 /* AppleLocalizationUITestsLaunchTests.swift */,
-			);
-			path = AppleLocalizationUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,42 +86,6 @@
 			productReference = 14AD1C192AB8F5C800109F88 /* AppleLocalization.app */;
 			productType = "com.apple.product-type.application";
 		};
-		14AD1C292AB8F5C900109F88 /* AppleLocalizationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 14AD1C412AB8F5C900109F88 /* Build configuration list for PBXNativeTarget "AppleLocalizationTests" */;
-			buildPhases = (
-				14AD1C262AB8F5C900109F88 /* Sources */,
-				14AD1C272AB8F5C900109F88 /* Frameworks */,
-				14AD1C282AB8F5C900109F88 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				14AD1C2C2AB8F5C900109F88 /* PBXTargetDependency */,
-			);
-			name = AppleLocalizationTests;
-			productName = AppleLocalizationTests;
-			productReference = 14AD1C2A2AB8F5C900109F88 /* AppleLocalizationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		14AD1C332AB8F5C900109F88 /* AppleLocalizationUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 14AD1C442AB8F5C900109F88 /* Build configuration list for PBXNativeTarget "AppleLocalizationUITests" */;
-			buildPhases = (
-				14AD1C302AB8F5C900109F88 /* Sources */,
-				14AD1C312AB8F5C900109F88 /* Frameworks */,
-				14AD1C322AB8F5C900109F88 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				14AD1C362AB8F5C900109F88 /* PBXTargetDependency */,
-			);
-			name = AppleLocalizationUITests;
-			productName = AppleLocalizationUITests;
-			productReference = 14AD1C342AB8F5C900109F88 /* AppleLocalizationUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,14 +98,6 @@
 				TargetAttributes = {
 					14AD1C182AB8F5C800109F88 = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					14AD1C292AB8F5C900109F88 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 14AD1C182AB8F5C800109F88;
-					};
-					14AD1C332AB8F5C900109F88 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 14AD1C182AB8F5C800109F88;
 					};
 				};
 			};
@@ -222,8 +118,6 @@
 			projectRoot = "";
 			targets = (
 				14AD1C182AB8F5C800109F88 /* AppleLocalization */,
-				14AD1C292AB8F5C900109F88 /* AppleLocalizationTests */,
-				14AD1C332AB8F5C900109F88 /* AppleLocalizationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +129,6 @@
 			files = (
 				14AD1C212AB8F5C900109F88 /* Assets.xcassets in Resources */,
 				14AD1C242AB8F5C900109F88 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14AD1C282AB8F5C900109F88 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14AD1C322AB8F5C900109F88 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,37 +144,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14AD1C262AB8F5C900109F88 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14AD1C2F2AB8F5C900109F88 /* AppleLocalizationTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14AD1C302AB8F5C900109F88 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14AD1C3B2AB8F5C900109F88 /* AppleLocalizationUITestsLaunchTests.swift in Sources */,
-				14AD1C392AB8F5C900109F88 /* AppleLocalizationUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		14AD1C2C2AB8F5C900109F88 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 14AD1C182AB8F5C800109F88 /* AppleLocalization */;
-			targetProxy = 14AD1C2B2AB8F5C900109F88 /* PBXContainerItemProxy */;
-		};
-		14AD1C362AB8F5C900109F88 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 14AD1C182AB8F5C800109F88 /* AppleLocalization */;
-			targetProxy = 14AD1C352AB8F5C900109F88 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		14AD1C222AB8F5C900109F88 /* Main.storyboard */ = {
@@ -471,74 +321,6 @@
 			};
 			name = Release;
 		};
-		14AD1C422AB8F5C900109F88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kishikawakatsumi.AppleLocalizationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleLocalization.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleLocalization";
-			};
-			name = Debug;
-		};
-		14AD1C432AB8F5C900109F88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kishikawakatsumi.AppleLocalizationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleLocalization.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleLocalization";
-			};
-			name = Release;
-		};
-		14AD1C452AB8F5C900109F88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kishikawakatsumi.AppleLocalizationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = AppleLocalization;
-			};
-			name = Debug;
-		};
-		14AD1C462AB8F5C900109F88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kishikawakatsumi.AppleLocalizationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = AppleLocalization;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -556,24 +338,6 @@
 			buildConfigurations = (
 				14AD1C3F2AB8F5C900109F88 /* Debug */,
 				14AD1C402AB8F5C900109F88 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		14AD1C412AB8F5C900109F88 /* Build configuration list for PBXNativeTarget "AppleLocalizationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				14AD1C422AB8F5C900109F88 /* Debug */,
-				14AD1C432AB8F5C900109F88 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		14AD1C442AB8F5C900109F88 /* Build configuration list for PBXNativeTarget "AppleLocalizationUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				14AD1C452AB8F5C900109F88 /* Debug */,
-				14AD1C462AB8F5C900109F88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
