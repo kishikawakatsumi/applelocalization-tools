@@ -1,0 +1,815 @@
+{
+  "framework" : "Contacts.framework",
+  "loctablePath" : "\/System\/Library\/Frameworks\/Contacts.framework\/Versions\/A\/Resources\/ContactProvider.loctable",
+  "bundlePath" : "\/System\/Library\/Frameworks\/Contacts.framework",
+  "localizations" : {
+    "ENABLE_ALERT_MESSAGE %@" : [
+      {
+        "target" : "%@, kişilerini kendi listesi olarak eklemek istiyor. Bu şekilde eklenen kişiler Ayarlar’da silinebilir.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "A(z) %@ szeretné saját listaként hozzáadni a saját kontaktjait. Az ilyen módon hozzáadott kontaktokat a Beállításokban távolíthatja el.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "%@ ingin menambahkan kontaknya sebagai Daftarnya sendiri. Kontak yang ditambahkan dengan cara ini dapat dihapus dari Pengaturan.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "%@ souhaite ajouter ses contacts en créant sa propre liste. Les contacts ajoutés de cette manière peuvent être supprimés dans Réglages.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "%@ would like to add its contacts as its own List. Contacts added this way can be removed from Settings.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "%@ vil legge til kontaktene sine i en egen liste. Kontakter som legges til på denne måten, kan fjernes fra Innstillinger.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "%@ wil contacten toevoegen als eigen lijst. Contacten die op deze manier worden toegevoegd, kunnen worden verwijderd uit Instellingen.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Aplikace %@ chce přidat své kontakty jako vlastní seznam. Kontakty přidané tímto způsobem lze smazat v Nastavení.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "%@ quiere añadir sus contactos en una lista propia. Para eliminar los contactos que se hayan añadido así, debes ir a Ajustes.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "%@ möchte Kontakte als eigene Liste hinzufügen. Auf diese Weise hinzugefügte Kontakte können aus den Einstellungen entfernt werden.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "%[tt]@想要添加其联系人并单独创建列表。以此方式添加的联系人可从“设置”移除。",
+        "filename" : "ContactProvider.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "يرغب تطبيق %@ في إضافة جهات اتصاله على أنها قائمته الخاصة. ستتم إزالة جهات الاتصال المضافة بهذه الطريقة من الإعدادات.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "%@ ar dori să adauge contactele sale într‑o listă proprie. Contactele adăugate astfel pot fi eliminate din Configurări.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Η εφαρμογή «%@» θέλει να προσθέσει τις επαφές της ως δική της λίστα. Οι επαφές που προσθέτονται με αυτόν τον τρόπο μπορούν να αφαιρεθούν από τις Ρυθμίσεις.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "%@ quiere agregar sus contactos como una lista propia. Los que se agreguen así, se pueden eliminar de Configuración.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "%[tt]@想將其聯絡人加入，作為自己的列表。透過此方式加入的聯絡人可以從「設定」中移除。",
+        "filename" : "ContactProvider.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "O app %@ deseja adicionar contatos em uma Lista própria. É possível remover os contatos adicionados desta forma nos Ajustes.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "%@ vill lägga till sina kontakter som sin egen lista. Du kan ta bort kontakter som blivit tillagda på detta sätt från Inställningar.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "%[tt]@想要將其聯絡人加入成個別列表。透過此方式加入的聯絡人可以從「設定」中移除。",
+        "filename" : "ContactProvider.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "%@ would like to add its contacts as its own List. Contacts added this way can be removed from Settings.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Програма «%@» хоче додати свої контакти окремим списком. Такі контакти можна вилучити з Параметрів.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "%[tt]@ต้องการที่จะเพิ่มรายชื่อเป็นลิสต์ของตัวเอง รายชื่อที่เพิ่มในแบบนี้สามารถเอาออกจากการตั้งค่าได้",
+        "filename" : "ContactProvider.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "%1$[tt]@から、%1$[tt]@の連絡先を専用のリストに追加できるようにすることを求められています。この方法で追加された連絡先は“設定”から削除できます。",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "%@ 앱이 자체적으로 연락처 목록을 추가하려고 합니다. 이렇게 추가된 연락처는 설정에서 제거할 수 있습니다.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Aplikacija %@ želi svoje stike dodati kot lasten seznam. Stike, dodane na ta način, lahko odstranite v Nastavitvah.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "L’app %@ vol afegir contactes en una llista pròpia. Per eliminar algun contacte que s’hagi afegit d’aquesta manera, ves a la configuració.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "%@ vil tilføje sine kontakter som sin egen liste. Kontakter, der tilføjes på denne måde, kan fjernes fra Indstillinger.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "%@ mahu menambah kenalannya sebagai Senarainya sendiri. Kenalan yang ditambahkan melalui cara ini boleh dikeluarkan daripada Seting.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "Aplikacja %@ chce dodać swoje kontakty na osobnej liście. Kontakty dodane w ten sposób można usunąć w Ustawieniach.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "%@ želi dodavati svoje kontakte u vlastiti popis. Kontakti koji su dodani na ovaj način mogu se ukloniti u Postavkama.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "%@ souhaite ajouter ses contacts dans sa propre liste. Les contacts ajoutés de la sorte peuvent être supprimés à partir de Réglages.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Приложение «%@» собирается добавить сохраненные в нем контакты в собственный список. Контакты, добавленные таким образом, можно удалить в Настройках.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "%@ would like to add its contacts as its own List. Contacts added this way can be removed from Settings.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "היישום ״⁨%@⁩״ מבקש להוסיף את אנשי הקשר שלו בתור רשימה נפרדת. ניתן להסיר אנשי קשר שנוספים בצורה זו דרך ״הגדרות״.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "%@ अपने संपर्कों को अपनी ख़ुद की सूची के रूप में जोड़ना चाहता है। इस तरह से जोड़े गए संपर्कों को सेटिंग्ज़ से हटाया जा सकता है।",
+        "filename" : "ContactProvider.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "%@ haluaa lisätä yhteystietonsa omaksi listakseen. Tällä tavalla lisätyt yhteystiedot voidaan poistaa Asetuksissa.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Apka %@ chce pridať svoje kontakty ako vlastný zoznam. Takto pridané kontakty môžete odstrániť v Nastaveniach.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "A aplicação %@ pretende adicionar os respetivos contactos numa lista própria. Os contactos que forem adicionados podem ser removidos nas Definições.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "%@ muốn thêm các liên hệ dưới dạng Danh sách riêng. Các liên hệ được thêm theo cách này có thể được xóa từ Cài đặt.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "%@ vorrebbe aggiungere i propri contatti come elenco separato. I contatti aggiunti in questo modo possono essere rimossi da Impostazioni.",
+        "filename" : "ContactProvider.loctable",
+        "language" : "it"
+      }
+    ],
+    "ENABLE_ALERT_TITLE %@" : [
+      {
+        "target" : "%@ Kişileri",
+        "filename" : "ContactProvider.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "%@ kontakt",
+        "filename" : "ContactProvider.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Kontak %@",
+        "filename" : "ContactProvider.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Contacts %@",
+        "filename" : "ContactProvider.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "%@ Contacts",
+        "filename" : "ContactProvider.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "%@-kontakter",
+        "filename" : "ContactProvider.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "%@ contacten",
+        "filename" : "ContactProvider.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Kontakty aplikace %@",
+        "filename" : "ContactProvider.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Contactos de %@",
+        "filename" : "ContactProvider.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "%@-Kontakte",
+        "filename" : "ContactProvider.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "%[tt]@联系人",
+        "filename" : "ContactProvider.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "جهات اتصال %@",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "Contacte %@",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Επαφές - %@",
+        "filename" : "ContactProvider.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Contactos de %@",
+        "filename" : "ContactProvider.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "%[tt]@聯絡人",
+        "filename" : "ContactProvider.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "%@ Contatos",
+        "filename" : "ContactProvider.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "%@-kontakter",
+        "filename" : "ContactProvider.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "%[tt]@聯絡人",
+        "filename" : "ContactProvider.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "%@ Contacts",
+        "filename" : "ContactProvider.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Контакти в програмі «%@»",
+        "filename" : "ContactProvider.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "รายชื่อ%[tt]@",
+        "filename" : "ContactProvider.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "%[tt]@の連絡先",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "%@ 앱의 연락처",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Stiki (%@)",
+        "filename" : "ContactProvider.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Contactes de l’app %@",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "%@ kontakter",
+        "filename" : "ContactProvider.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "%@ Kenalan",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "Kontakty (%@)",
+        "filename" : "ContactProvider.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "Kontakti: %@",
+        "filename" : "ContactProvider.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Contacts de l’app %@",
+        "filename" : "ContactProvider.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Контакты приложения «%@»",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "%@ Contacts",
+        "filename" : "ContactProvider.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "אנשי קשר של ״⁨%@⁩״",
+        "filename" : "ContactProvider.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "%@ संपर्क",
+        "filename" : "ContactProvider.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "%@ yhteystietoa",
+        "filename" : "ContactProvider.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Kontakty (%@)",
+        "filename" : "ContactProvider.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Contactos da aplicação %@",
+        "filename" : "ContactProvider.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "%@ liên hệ",
+        "filename" : "ContactProvider.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Contatti dell’app %@",
+        "filename" : "ContactProvider.loctable",
+        "language" : "it"
+      }
+    ],
+    "ENABLE_ALERT_BUTTON_DENY" : [
+      {
+        "target" : "Reddet",
+        "filename" : "ContactProvider.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Letiltás",
+        "filename" : "ContactProvider.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Tolak",
+        "filename" : "ContactProvider.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Refuser",
+        "filename" : "ContactProvider.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Deny",
+        "filename" : "ContactProvider.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "Avslå",
+        "filename" : "ContactProvider.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "Weiger",
+        "filename" : "ContactProvider.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Zakázat",
+        "filename" : "ContactProvider.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Denegar",
+        "filename" : "ContactProvider.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Verweigern",
+        "filename" : "ContactProvider.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "拒绝",
+        "filename" : "ContactProvider.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "رفض",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "{\"NSStringDeviceSpecificRuleType\":{\"mac\":\"Refuză\",\"other\":\"Refuzați\"}}",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Άρνηση",
+        "filename" : "ContactProvider.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Denegar",
+        "filename" : "ContactProvider.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "拒絕",
+        "filename" : "ContactProvider.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Negar",
+        "filename" : "ContactProvider.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Neka",
+        "filename" : "ContactProvider.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "拒絕",
+        "filename" : "ContactProvider.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Deny",
+        "filename" : "ContactProvider.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Заборонити",
+        "filename" : "ContactProvider.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "ปฏิเสธ",
+        "filename" : "ContactProvider.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "拒否",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "거부",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Zavrni",
+        "filename" : "ContactProvider.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Denega",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Afvis",
+        "filename" : "ContactProvider.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "Tolak",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "Nie pozwalaj",
+        "filename" : "ContactProvider.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "Nemoj dozvoliti",
+        "filename" : "ContactProvider.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Refuser",
+        "filename" : "ContactProvider.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Отказать",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Deny",
+        "filename" : "ContactProvider.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "סירוב",
+        "filename" : "ContactProvider.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "अस्वीकार करें",
+        "filename" : "ContactProvider.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Estä",
+        "filename" : "ContactProvider.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Zamietnuť",
+        "filename" : "ContactProvider.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Recusar",
+        "filename" : "ContactProvider.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Từ chối",
+        "filename" : "ContactProvider.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Rifiuta",
+        "filename" : "ContactProvider.loctable",
+        "language" : "it"
+      }
+    ],
+    "ENABLE_ALERT_BUTTON_ALLOW" : [
+      {
+        "target" : "Etkinleştir",
+        "filename" : "ContactProvider.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Engedélyezés",
+        "filename" : "ContactProvider.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Aktifkan",
+        "filename" : "ContactProvider.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Activer",
+        "filename" : "ContactProvider.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Enable",
+        "filename" : "ContactProvider.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "Aktiver",
+        "filename" : "ContactProvider.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "Schakel in",
+        "filename" : "ContactProvider.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Povolit",
+        "filename" : "ContactProvider.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Activar",
+        "filename" : "ContactProvider.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Aktivieren",
+        "filename" : "ContactProvider.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "启用",
+        "filename" : "ContactProvider.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "تمكين",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "{\"NSStringDeviceSpecificRuleType\":{\"mac\":\"Permite\",\"other\":\"Permiteți\"}}",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Ενεργοποίηση",
+        "filename" : "ContactProvider.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Activar",
+        "filename" : "ContactProvider.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "啟用",
+        "filename" : "ContactProvider.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Ativar",
+        "filename" : "ContactProvider.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Aktivera",
+        "filename" : "ContactProvider.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "啟用",
+        "filename" : "ContactProvider.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Enable",
+        "filename" : "ContactProvider.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Увімкнути",
+        "filename" : "ContactProvider.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "เปิดใช้งาน",
+        "filename" : "ContactProvider.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "許可",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "활성화",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Omogoči",
+        "filename" : "ContactProvider.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Permet",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Slå til",
+        "filename" : "ContactProvider.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "Dayakan",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "Włącz",
+        "filename" : "ContactProvider.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "Omogući",
+        "filename" : "ContactProvider.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Activer",
+        "filename" : "ContactProvider.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Разрешить",
+        "filename" : "ContactProvider.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Enable",
+        "filename" : "ContactProvider.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "אישור",
+        "filename" : "ContactProvider.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "सक्षम करें",
+        "filename" : "ContactProvider.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Ota käyttöön",
+        "filename" : "ContactProvider.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Zapnúť",
+        "filename" : "ContactProvider.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Ativar",
+        "filename" : "ContactProvider.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Bật",
+        "filename" : "ContactProvider.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Abilita",
+        "filename" : "ContactProvider.loctable",
+        "language" : "it"
+      }
+    ]
+  }
+}

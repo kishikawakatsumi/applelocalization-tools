@@ -1,0 +1,2095 @@
+{
+  "bundlePath" : "\/System\/Library\/ExtensionKit\/Extensions\/GenerativeAssistantExtension.appex",
+  "framework" : "GenerativeAssistantExtension.appex",
+  "localizations" : {
+    "This intent accepts a knowledge-seeking request and delegates the request to ChatGPT, which actually performs it and propagates back the generative result." : [
+      {
+        "target" : "Questa azione accetta una richiesta di informazioni e la delega a ChatGPT, che la esegue e restituisce il risultato generativo.",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "このインテントは、知識を求めるリクエストを受け付け、そのリクエストをChatGPTに委任します。ChatGPTにより、リクエストが実際に実行され、生成結果が反映されます。",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Cette action accepte une demande de recherche d’informations et délègue cette dernière à ChatGPT, qui la traite et renvoie le résultat généré.",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Esta intenção aceita uma solicitação de busca por informações e a delega ao ChatGPT, que a executa e fornece o resultado generativo.",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "This intent accepts a knowledge-seeking request and delegates the request to ChatGPT, which actually performs it and propagates back the generative result.",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Esta acción acepta una solicitud de búsqueda de información y la delega a ChatGPT, que luego la ejecuta y devuelve el resultado generativo.",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Dieser Intent akzeptiert eine Anfrage zu Wissensinhalten und leitet die Anfrage an ChatGPT weiter. ChatGPT führt die Anfrage dann aus und gibt das generative Ergebnis zurück.",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Cette intention accepte une demande de recherche d’informations et délègue cette demande à ChatGPT, qui la traite et renvoie le résultat génératif.",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "이 인텐트는 정보를 탐색하는 요청을 수락하고 해당 요청을 ChatGPT에 위임하며, ChatGPT가 실제로 이 요청을 처리하여 생성형 결과를 제공합니다.",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Esta acción acepta una solicitud de búsqueda de información y la delega a ChatGPT, que luego la ejecuta y devuelve el resultado generativo.",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "This intent accepts a knowledge-seeking request and delegates the request to ChatGPT, which actually performs it and propagates back the generative result.",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN",
+        "target" : "此意图接受知识寻求请求，并将请求委派给ChatGPT，由其实际执行并传回生成式结果。"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU",
+        "target" : "This intent accepts a knowledge-seeking request and delegates the request to ChatGPT, which actually performs it and propagates back the generative result."
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "es",
+        "target" : "Esta acción acepta una petición de búsqueda de información y la delega a ChatGPT, que la procesa y devuelve el resultado generado."
+      }
+    ],
+    "response" : [
+      {
+        "target" : "risposta",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "回答",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "réponse",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "resposta",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "response",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "respuesta",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Antwort",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "réponse",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "응답",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "respuesta",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "response",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "回复",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "response",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "respuesta",
+        "filename" : "Localizable.loctable"
+      }
+    ],
+    "type up" : [
+      {
+        "target" : "digita",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "清書",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "taper",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "digitar",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "type up",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "teclear",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "tippen",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "rédiger",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "입력",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "teclear",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "type up",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN",
+        "target" : "输入"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU",
+        "target" : "type up"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "es",
+        "target" : "teclear"
+      }
+    ],
+    "This intent answers a user query about on screen content, e.g., image, pdf, webpage, by delegating the request to ChatGPT in order to provide a generative response." : [
+      {
+        "target" : "Questa azione risponde a una richiesta riguardante il contenuto dello schermo (ad esempio, un’immagine, un PDF o una pagina web) delegandola a ChatGPT affinché fornisca una risposta generativa.",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "このインテントは、生成回答を提供するためにChatGPTにリクエストを委任することにより、画面上のコンテンツ（画像、PDF、Webページなど）に関するユーザクエリに回答します。",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Cette action répond à une demande de l’utilisateur sur un contenu affiché à l’écran, par exemple une image, un fichier PDF ou une page Web, en déléguant cette dernière à ChatGPT afin de fournir une réponse générée.",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Esta intenção delega uma consulta do usuário sobre o conteúdo na tela (por exemplo, imagem, pdf, página web) ao ChatGPT, que fornece uma resposta generativa.",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "This intent answers a user query about on screen content, e.g., image, pdf, webpage, by delegating the request to ChatGPT in order to provide a generative response.",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Esta acción responde a una consulta del usuario sobre el contenido en pantalla (por ejemplo, una imagen, archivo PDF o página web) y la delega a ChatGPT a fin de ofrecer una respuesta generativa.",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Dieser Intent beantwortet eine Benutzeranfrage über einen Bildschirminhalt, z. B. ein Bild, PDF, eine Webseite), indem die Anfrage an ChatGPT weitergeleitet wird, um eine generative Antwort bereitzustellen.",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Cette intention répond à une requête d’utilisateur concernant un contenu affiché à l’écran, par exemple une image, un fichier PDF ou une page web, en déléguant cette requête à ChatGPT afin de fournir une réponse générative.",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "이 인텐트는 화면상의 콘텐츠(예: 이미지, PDF, 웹 페이지)에 대한 사용자 요청을 ChatGPT에 위임하여 생성형 응답을 제공합니다.",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Esta acción responde a una consulta del usuario sobre el contenido en pantalla (por ejemplo, una imagen, archivo PDF o página web) y la delega a ChatGPT a fin de ofrecer una respuesta generativa.",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "This intent answers a user query about on screen content, e.g., image, pdf, web page, by delegating the request to ChatGPT in order to provide a generative response.",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "此意图将用户针对屏幕内容（如图像、PDF、网页）的查询请求委派给ChatGPT以提供生成式回复。",
+        "language" : "zh_CN",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "This intent answers a user query about on-screen content, e.g., image, pdf or web page, by delegating the request to ChatGPT in order to provide a generative response.",
+        "language" : "en_AU",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Esta acción responde a una consulta del usuario sobre el contenido en pantalla (por ejemplo, una imagen, un archivo PDF o una página web) y delega la petición a ChatGPT para proporcionar una respuesta generativa.",
+        "language" : "es",
+        "filename" : "Localizable.loctable"
+      }
+    ],
+    "Generate Rich Content" : [
+      {
+        "target" : "Genera contenuto arricchito",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "リッチコンテンツを生成",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Générer du contenu enrichi",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Gerar Conteúdo Rich Text",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generate Rich Content",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generar contenido enriquecido",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Rich Content generieren",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Générer du contenu enrichi",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "리치 콘텐츠 생성",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generar contenido enriquecido",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generate Rich Content",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN",
+        "target" : "生成多信息内容"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU",
+        "target" : "Generate Rich Content"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "es",
+        "target" : "Generar contenido enriquecido"
+      }
+    ],
+    "text" : [
+      {
+        "target" : "testo",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "テキスト",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "texte",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "texto",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "text",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "texto",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Text",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "texte",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "텍스트",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "texto",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "text",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "文本",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "text",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "texto",
+        "language" : "es"
+      }
+    ],
+    "Generative" : [
+      {
+        "target" : "Generativo",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "生成",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Génératif",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generativo",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generative",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generativo",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generativ",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Génératif",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "생성형",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generativo",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generative",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "生成式",
+        "language" : "zh_CN",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generative",
+        "language" : "en_AU",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generativo",
+        "language" : "es",
+        "filename" : "Localizable.loctable"
+      }
+    ],
+    "create" : [
+      {
+        "target" : "crea",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "作成",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "créer",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "criar",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "create",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "crear",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "erstellen",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "créer",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "생성",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "crear",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "create",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "创建",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "create",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "crear",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      }
+    ],
+    "GenerativeResponseEntity_ResponseImageEntity" : [
+      {
+        "target" : "GenerativeResponseEntity_ResponseImageEntity",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponseEntity_ResponseImageEntity",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponseEntity_ResponseImageEntity",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponseEntity_ResponseImageEntity",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponseEntity_ResponseImageEntity",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponseEntity_ResponseImageEntity",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponseEntity_ResponseImageEntity",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponseEntity_ResponseImageEntity",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponseEntity_ResponseImageEntity",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponseEntity_ResponseImageEntity",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponseEntity_ResponseImageEntity",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponseEntity_ResponseImageEntity",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "GenerativeResponseEntity_ResponseImageEntity",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "GenerativeResponseEntity_ResponseImageEntity",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      }
+    ],
+    "photo" : [
+      {
+        "target" : "foto",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "写真",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "photo",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "foto",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "photo",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "foto",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Foto",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "photo",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "사진",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "foto",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "photo",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "照片",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "photo",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "foto",
+        "filename" : "Localizable.loctable"
+      }
+    ],
+    "Generate Knowledge Response" : [
+      {
+        "target" : "Genera risposta con informazioni",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "知識に基づく回答を生成",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Générer une réponse contenant des informations",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Gerar Resposta com Informações",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generate Knowledge Response",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generar respuesta con la información",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Antwort auf Wissensfrage generieren",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Générer une réponse contenant des informations",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "지식 응답 생성",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generar respuesta con la información",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generate Knowledge Response",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "生成知识回复",
+        "language" : "zh_CN",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generate Knowledge Response",
+        "language" : "en_AU",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generar respuesta con información",
+        "language" : "es",
+        "filename" : "Localizable.loctable"
+      }
+    ],
+    "Generate Rich Content From Media" : [
+      {
+        "target" : "Genera contenuto arricchito da file multimediale",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "メディアからリッチコンテンツを生成",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Générer du contenu enrichi à partir de contenu multimédia",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Gerar Conteúdo Rich Text a Partir de Mídia",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generate Rich Content From Media",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generar contenido enriquecido a partir del contenido",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Rich Content aus Medien generieren",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Générer du contenu enrichi à partir de contenus multimédias",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "미디어에서 리치 콘텐츠 생성",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generar contenido enriquecido a partir del contenido",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Generate Rich Content From Media",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN",
+        "target" : "从媒体生成多信息内容"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU",
+        "target" : "Generate Rich Content From Media"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "es",
+        "target" : "Generar contenido enriquecido a partir de contenido multimedia"
+      }
+    ],
+    "This intent accepts a user request to generate a type of text content (for example ‘email’, ‘note’, ‘paragraph’) and delegates the request to ChatGPT, which actually performs it and propagates back the generative result." : [
+      {
+        "target" : "Questa azione accetta una richiesta da parte dell’utente di generare un tipo di contenuto testuale (ad esempio “email”, “nota” o “paragrafo”) e la delega a ChatGPT, che la esegue e restituisce il risultato generativo.",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "このインテントは、特定の種類のテキストコンテンツ（例えば、“メール”、“メモ”、“ひとまとまりの文章”など）を生成するユーザリクエストを受け付け、そのリクエストをChatGPTに委任します。ChatGPTにより、リクエストが実際に実行され、生成結果が反映されます。",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Cette action accepte une demande de l’utilisateur de génération d’un type de contenu textuel (par exemple, « courriel », « note » ou « paragraphe ») et délègue cette dernière à ChatGPT, qui la traite et renvoie le résultat généré.",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Esta intenção aceita uma solicitação do usuário para gerar um tipo de conteúdo de texto (por exemplo, e‑mail, nota, parágrafo) e a delega ao ChatGPT, que a executa e fornece o resultado generativo.",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "This intent accepts a user request to generate a type of text content (for example ‘email’, ‘note’, ‘paragraph’) and delegates the request to ChatGPT, which actually performs it and propagates back the generative result.",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Esta acción acepta una solicitud del usuario para generar un tipo de contenido de texto (por ejemplo, un correo, nota o párrafo) y la delega a ChatGPT, que luego la ejecuta y devuelve el resultado generativo.",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Dieser Intent akzeptiert eine Benutzeranfrage, um eine Art von Textinhalt (zum Beispiel „E‑Mail”, „Notiz“, „Absatz“) zu generieren, und leitet die Anfrage an ChatGPT weiter. ChatGPT führt die Anfrage dann aus und gibt das generative Ergebnis zurück.",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Cette intention accepte une demande d’utilisateur de génération d’un type de contenu textuel (par exemple, « e-mail », « note », « paragraphe »), et délègue cette demande à ChatGPT, qui la traite et renvoie le résultat génératif.",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "이 인텐트는 사용자 요청을 수락하여 텍스트 콘텐츠 유형(예: ‘이메일’, ‘메모’, ‘단락’)을 생성하고 해당 요청을 ChatGPT에 위임하며, ChatGPT가 실제로 이 요청을 처리하여 생성형 결과를 제공합니다.",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Esta acción acepta una solicitud del usuario para generar un tipo de contenido de texto (por ejemplo, un correo, nota o párrafo) y la delega a ChatGPT, que luego la ejecuta y devuelve el resultado generativo.",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "This intent accepts a user request to generate a type of text content (for example ‘email’, ‘note’, ‘paragraph’) and delegates the request to ChatGPT, which actually performs it and propagates back the generative result.",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "此意图接受用户请求以生成特定类型的文本内容（例如“电子邮件”、“备忘录”、“段落”），并将请求委派给ChatGPT，由其实际执行并传回生成式结果。",
+        "language" : "zh_CN",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "This intent accepts a user request to generate a type of text content (for example ‘email’, ‘note’, ‘paragraph’) and delegates the request to ChatGPT, which actually performs it and propagates back the generative result.",
+        "language" : "en_AU",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Esta acción acepta una petición del usuario para generar cierto tipo de texto (por ejemplo, un correo, una nota o un párrafo) y la delega a ChatGPT, que la procesa y devuelve el resultado generado.",
+        "language" : "es",
+        "filename" : "Localizable.loctable"
+      }
+    ],
+    "GenerativeResponse AppEntity" : [
+      {
+        "target" : "GenerativeResponse AppEntity",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponse AppEntity",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponse AppEntity",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponse AppEntity",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponse AppEntity",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "AppEntity de GenerativeResponse",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "App-Entität der generativen Antwort",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Entité d’app de réponse générative",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponse AppEntity",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "AppEntity de GenerativeResponse",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "GenerativeResponse AppEntity",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "Localizable.loctable",
+        "target" : "GenerativeResponse AppEntity"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "Localizable.loctable",
+        "target" : "GenerativeResponse AppEntity"
+      },
+      {
+        "language" : "es",
+        "filename" : "Localizable.loctable",
+        "target" : "AppEntity de GenerativeResponse"
+      }
+    ],
+    "imageContent" : [
+      {
+        "target" : "imageContent",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContent",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContent",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContent",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContent",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContent",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContent",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContent",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContent",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContent",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContent",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "Localizable.loctable",
+        "target" : "imageContent"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "Localizable.loctable",
+        "target" : "imageContent"
+      },
+      {
+        "language" : "es",
+        "filename" : "Localizable.loctable",
+        "target" : "imageContent"
+      }
+    ],
+    "generate" : [
+      {
+        "target" : "genera",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "生成",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "générer",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "gerar",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "generate",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "generar",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "generieren",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "générer",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "생성",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "es_US",
+        "filename" : "Localizable.loctable",
+        "target" : "generar"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable",
+        "target" : "generate"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "Localizable.loctable",
+        "target" : "生成"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "Localizable.loctable",
+        "target" : "generate"
+      },
+      {
+        "language" : "es",
+        "filename" : "Localizable.loctable",
+        "target" : "generar"
+      }
+    ],
+    "index" : [
+      {
+        "target" : "indice",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "インデックス",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "index",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "índice",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "index",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "índice",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Index",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "indice",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "인덱스",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "índice",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "index",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "索引",
+        "language" : "zh_CN",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "index",
+        "language" : "en_AU",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "índice",
+        "language" : "es",
+        "filename" : "Localizable.loctable"
+      }
+    ],
+    "Working…" : [
+      {
+        "target" : "Operazione in corso…",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "処理中…",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "En cours…",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Processando…",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Working…",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Procesando…",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Verarbeiten …",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "En cours…",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "처리 중…",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Procesando…",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Working…",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "正在操作…",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Working…",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "Procesando…",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      }
+    ],
+    "summary" : [
+      {
+        "target" : "riepilogo",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "ja",
+        "target" : "要約"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA",
+        "target" : "résumé"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR",
+        "target" : "resumo"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "en",
+        "target" : "summary"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "es_419",
+        "target" : "resumen"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "de",
+        "target" : "Zusammenfassung"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "fr",
+        "target" : "résumé"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "ko",
+        "target" : "요약"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "es_US",
+        "target" : "resumen"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB",
+        "target" : "summary"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN",
+        "target" : "摘要"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU",
+        "target" : "summary"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "es",
+        "target" : "resumen"
+      }
+    ],
+    "Additional Information" : [
+      {
+        "target" : "Informazioni aggiuntive",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "追加情報",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Autres informations",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Informações Adicionais",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Additional Information",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Información adicional",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Zusätzliche Infos",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Informations supplémentaires",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "추가 정보",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Información adicional",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Additional Information",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "其他信息",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "Additional Information",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "Información adicional",
+        "filename" : "Localizable.loctable"
+      }
+    ],
+    "data" : [
+      {
+        "target" : "dati",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "データ",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "données",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "dados",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "data",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "datos",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Daten",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "données",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "데이터",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "datos",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "data",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "target" : "数据",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "en_AU",
+        "target" : "data",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "es",
+        "target" : "datos",
+        "filename" : "Localizable.loctable"
+      }
+    ],
+    "User Query" : [
+      {
+        "target" : "Richiesta dell’utente",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "ユーザクエリー",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Demande de l’utilisateur",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Consulta do Usuário",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "User Query",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Consulta realizada",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Benutzeranfrage",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Requête de l’utilisateur",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "사용자 쿼리",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Consulta realizada",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "User Query",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "用户询问",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "User Query",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "Consulta realizada",
+        "language" : "es"
+      }
+    ],
+    "ImageEntity" : [
+      {
+        "target" : "ImageEntity",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "ImageEntity",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "ImageEntity",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "ImageEntity",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "ImageEntity",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "ImageEntity",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "ImageEntity",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "ImageEntity",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "ImageEntity",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "ImageEntity",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "ImageEntity",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "Localizable.loctable",
+        "target" : "ImageEntity"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "Localizable.loctable",
+        "target" : "ImageEntity"
+      },
+      {
+        "language" : "es",
+        "filename" : "Localizable.loctable",
+        "target" : "ImageEntity"
+      }
+    ],
+    "write" : [
+      {
+        "target" : "scrivi",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "文章作成",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "écrire",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "escrever",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "write",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "escribir",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "schreiben",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "écrire",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "작성",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "escribir",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "write",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "撰写",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "write",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "escribir",
+        "language" : "es"
+      }
+    ],
+    "imageContentUrls" : [
+      {
+        "target" : "imageContentUrls",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContentUrls",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContentUrls",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContentUrls",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContentUrls",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContentUrls",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContentUrls",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContentUrls",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContentUrls",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContentUrls",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContentUrls",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "imageContentUrls",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "imageContentUrls",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "imageContentUrls",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      }
+    ],
+    "Explicit Invocation" : [
+      {
+        "target" : "Attivazione esplicita",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "明示的な呼び出し",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Invocation explicite",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Invocação Explícita",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Explicit Invocation",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Mención explícita",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Explizit genannt",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Invocation explicite",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "명시적 호출",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Mención explícita",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Explicit Invocation",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN",
+        "target" : "明确唤醒"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU",
+        "target" : "Explicit Invocation"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "language" : "es",
+        "target" : "Mención explícita"
+      }
+    ],
+    "textContent" : [
+      {
+        "target" : "textContent",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "textContent",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "textContent",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "textContent",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "textContent",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "textContent",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "textContent",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "textContent",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "textContent",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "textContent",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "textContent",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "textContent",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "textContent",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "textContent",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      }
+    ],
+    "produce" : [
+      {
+        "target" : "produci",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "制作",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "produire",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "produzir",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "produce",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "producir",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "Ergebnis",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "produire",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "생성",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "producir",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "produce",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "产生",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "produce",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "producir",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      }
+    ],
+    "identify" : [
+      {
+        "target" : "identifica",
+        "language" : "it",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "識別",
+        "language" : "ja",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "identifier",
+        "language" : "fr_CA",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "identificar",
+        "language" : "pt_BR",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "identify",
+        "language" : "en",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "identificar",
+        "language" : "es_419",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "identifizieren",
+        "language" : "de",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "identifier",
+        "language" : "fr",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "식별",
+        "language" : "ko",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "identificar",
+        "language" : "es_US",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "target" : "identify",
+        "language" : "en_GB",
+        "filename" : "Localizable.loctable"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "识别",
+        "language" : "zh_CN"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "identify",
+        "language" : "en_AU"
+      },
+      {
+        "filename" : "Localizable.loctable",
+        "target" : "identificar",
+        "language" : "es"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/ExtensionKit\/Extensions\/GenerativeAssistantExtension.appex\/Contents\/Resources\/Localizable.loctable"
+}

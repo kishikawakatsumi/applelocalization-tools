@@ -1,0 +1,628 @@
+{
+  "framework" : "wifi.profileDomainPlugin",
+  "localizations" : {
+    "CPPayloadCountStringsDictKey_CountLast" : [
+      {
+        "language" : "fr",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Réseau Passpoint\",\"other\":\"Réseaux Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hr",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Passpoint mreže (%lu)\",\"one\":\"Passpoint mreža (%lu)\",\"other\":\"Passpoint mreže (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ro",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Rețele Passpoint (%lu)\",\"one\":\"Rețea Passpoint\",\"other\":\"Rețele Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "vi",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Mạng Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ru",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Сети Passpoint (%lu)\",\"one\":\"Сети Passpoint (%lu)\",\"other\":\"Сети Passpoint (%lu)\",\"many\":\"Сети Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Passpoint網絡（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es_US",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Red Passpoint\",\"other\":\"Redes Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "id",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Jaringan Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "he",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"רשת Passpoint\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"רשתות Passpoint (‏%lu)\",\"two\":\"רשתות Passpoint (‏%lu)\",\"many\":\"רשתות Passpoint (‏%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}"
+      },
+      {
+        "language" : "el",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Δίκτυο Passpoint\",\"other\":\"Δίκτυα Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Rede Passpoint\",\"other\":\"Redes Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Passpoint網路（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "it",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Rete Passpoint\",\"other\":\"Reti Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Réseau Passpoint\",\"other\":\"Réseaux Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Red Passpoint\",\"other\":\"Redes Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint Network\",\"other\":\"Passpoint Networks (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ja",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Passpointネットワーク（%lu）\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Red Passpoint\",\"other\":\"Redes Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "da",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Adgangspunktnetværk\",\"other\":\"Adgangspunktnetværk (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fi",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-verkko\",\"other\":\"Passpoint-verkot (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pl",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Sieci Passpoint (%lu)\",\"one\":\"Sieć Passpoint\",\"other\":\"Sieci Passpoint (%lu)\",\"many\":\"Sieci Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "th",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"เครือข่าย Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ca",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Xarxa Passpoint\",\"other\":\"Xarxes Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "no",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-nettverk\",\"other\":\"Passpoint-nettverk (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "de",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-Netzwerk\",\"other\":\"Passpoint-Netzwerke (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Passpoint网络(%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sv",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-nätverk\",\"other\":\"Passpoint-nätverk (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hu",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-hálózat\",\"other\":\"Passpoint-hálózatok (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sl",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Omrežja Passpoint (%lu)\",\"one\":\"%lu omrežje Passpoint\",\"other\":\"Omrežja Passpoint (%lu)\",\"two\":\"Omrežji Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ko",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Passpoint 네트워크(%lu개)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ms",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"Rangkaian Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "nl",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-netwerk\",\"other\":\"Passpoint-netwerken (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint Network\",\"other\":\"Passpoint Networks (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "cs",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Sítě Passpoint (%lu)\",\"one\":\"Síť Passpoint\",\"other\":\"Sítě Passpoint (%lu)\",\"many\":\"Sítě Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sk",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Passpoint siete (%lu)\",\"one\":\"Passpoint sieť\",\"other\":\"Passpoint siete (%lu)\",\"many\":\"Passpoint siete (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hi",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"पासपॉइंट नेटवर्क\",\"other\":\"पासपॉइंट नेटवर्क (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "tr",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Geçiş Noktası Ağı\",\"other\":\"Geçiş Noktası Ağları (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint Network\",\"other\":\"Passpoint Networks (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "uk",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Мережі Passpoint (%lu)\",\"one\":\"Мережа Passpoint (%lu)\",\"other\":\"Мережі Passpoint (%lu)\",\"many\":\"Мережі Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pt_BR",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Rede Passpoint\",\"other\":\"Redes Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ar",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"شبكة Passpoint\",\"few\":\"شبكات Passpoint‏ (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"شبكات Passpoint‏ (%lu)\",\"two\":\"شبكات Passpoint‏ (%lu)\",\"other\":\"شبكات Passpoint‏ (%lu)\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"شبكات Passpoint‏ (%lu)\"}}"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_CountFirst" : [
+      {
+        "language" : "fr",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Réseau Passpoint\",\"other\":\"%lu Réseaux Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hr",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu passpoint mreže\",\"one\":\"Passpoint mreža (%lu)\",\"other\":\"%lu passpoint mreža\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ro",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu rețele Passpoint\",\"one\":\"Rețea Passpoint\",\"other\":\"%lu rețele Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "vi",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Mạng Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ru",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"Сети Passpoint (%lu)\",\"one\":\"Сети Passpoint (%lu)\",\"other\":\"Сети Passpoint (%lu)\",\"many\":\"Сети Passpoint (%lu)\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu個Passpoint網絡\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es_US",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Red Passpoint\",\"other\":\"%lu Redes Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "id",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Jaringan Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "he",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"רשת Passpoint\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"‏%lu רשתות Passpoint\",\"two\":\"שתי רשתות Passpoint\",\"many\":\"‏%lu רשתות Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}"
+      },
+      {
+        "language" : "el",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Δίκτυο Passpoint\",\"other\":\"%lu Δίκτυα Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Rede Passpoint\",\"other\":\"%lu redes Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu個Passpoint網路\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "it",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Rete Passpoint\",\"other\":\"%lu “Rete Passpoint”\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Réseau Passpoint\",\"other\":\"%lu Réseaux Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Red Passpoint\",\"other\":\"%lu Redes Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint Network\",\"other\":\"%lu Passpoint Networks\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ja",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu個のPasspointネットワーク\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Red Passpoint\",\"other\":\"%lu Redes Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "da",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Adgangspunktnetværk\",\"other\":\"%lu adgangspunktnetværk\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fi",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-verkko\",\"other\":\"%lu Passpoint-verkkoa\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pl",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu sieci Passpoint\",\"one\":\"Sieć Passpoint\",\"other\":\"%lu sieci Passpoint\",\"many\":\"%lu sieci Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "th",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"เครือข่าย %lu Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ca",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Xarxa Passpoint\",\"other\":\"%lu xarxes Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "no",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-nettverk\",\"other\":\"%lu Passpoint-nettverk\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "de",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-Netzwerk\",\"other\":\"%lu Passpoint-Netzwerke\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu个Passpoint网络\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sv",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-nätverk\",\"other\":\"%lu Passpoint-nätverk\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hu",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-hálózat\",\"other\":\"%lu Passpoint-hálózatok\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sl",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu omrežja Passpoint\",\"one\":\"%lu omrežje Passpoint\",\"other\":\"%lu omrežij Passpoint\",\"two\":\"%lu omrežji Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ko",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu개의 Passpoint 네트워크\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ms",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"%lu Rangkaian Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "nl",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-netwerk\",\"other\":\"%lu Passpoint-netwerken\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint Network\",\"other\":\"%lu Passpoint Networks\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "cs",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lux síť Passpoint\",\"one\":\"1x síť Passpoint\",\"other\":\"%lux síť Passpoint\",\"many\":\"%lux síť Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sk",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu Passpoint siete\",\"one\":\"Passpoint sieť\",\"other\":\"%lu Passpoint sietí\",\"many\":\"%lu Passpoint sietí\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hi",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"पासपॉइंट नेटवर्क\",\"other\":\"%lu पासपॉइंट नेटवर्क\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "tr",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Geçiş Noktası Ağı\",\"other\":\"%lu Geçiş Noktası Ağı\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint Network\",\"other\":\"%lu Passpoint Networks\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "uk",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"%lu мережі Passpoint\",\"one\":\"%lu мережа Passpoint\",\"other\":\"%lu мережі Passpoint\",\"many\":\"%lu мереж Passpoint\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pt_BR",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Rede Passpoint\",\"other\":\"Redes Passpoint %lu\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ar",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"شبكة Passpoint\",\"few\":\"%lu حمولات من \\\"شبكات Passpoint\\\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"%lu حمولة من \\\"شبكات Passpoint\\\"\",\"two\":\"حمولتان من \\\"شبكات Passpoint\\\"\",\"other\":\"%lu حمولة من \\\"شبكات Passpoint\\\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"لا توجد حمولات من \\\"شبكات Passpoint\\\"\"}}"
+      }
+    ],
+    "CPPayloadCountStringsDictKey_SingularOnly" : [
+      {
+        "language" : "fr",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Réseau Passpoint\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hr",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"%lu passpoint mreža\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ro",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Rețea Passpoint\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "vi",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ru",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Сети Passpoint (%lu)\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_HK",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es_US",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Red Passpoint\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "id",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "he",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"רשת Passpoint\",\"NSStringFormatValueTypeKey\":\"lu\",\"other\":\"\",\"two\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}"
+      },
+      {
+        "language" : "el",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Δίκτυο Passpoint\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pt_PT",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Rede Passpoint\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_TW",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "it",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Rete Passpoint\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fr_CA",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Réseau Passpoint\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es_419",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Red Passpoint\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en_GB",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint Network\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ja",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "es",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Red Passpoint\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "da",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Adgangspunktnetværk\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "fi",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-verkko\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pl",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Sieć Passpoint\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "th",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ca",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Xarxa Passpoint\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "no",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-nettverk\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "de",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-Netzwerk\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "zh_CN",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sv",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-nätverk\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hu",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-hálózat\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sl",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Omrežje Passpoint\",\"other\":\"\",\"two\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ko",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ms",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "nl",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint-netwerk\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint Network\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "cs",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Síť Passpoint\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "sk",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Passpoint sieť\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "hi",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"पासपॉइंट नेटवर्क\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "tr",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Geçiş Noktası Ağı\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "en_AU",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Passpoint Network\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "uk",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"few\":\"\",\"one\":\"Мережа Passpoint\",\"other\":\"\",\"many\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "pt_BR",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"Rede Passpoint\",\"other\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lu\"}}"
+      },
+      {
+        "language" : "ar",
+        "filename" : "Hotspot.loctable",
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@PayloadType@\",\"PayloadType\":{\"one\":\"شبكة Passpoint\",\"few\":\"\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"\",\"two\":\"\",\"other\":\"\",\"NSStringFormatValueTypeKey\":\"lu\",\"zero\":\"\"}}"
+      }
+    ]
+  },
+  "bundlePath" : "\/System\/Library\/CoreServices\/ManagedClient.app\/Contents\/PlugIns\/wifi.profileDomainPlugin",
+  "loctablePath" : "\/System\/Library\/CoreServices\/ManagedClient.app\/Contents\/PlugIns\/wifi.profileDomainPlugin\/Contents\/Resources\/Hotspot.loctable"
+}

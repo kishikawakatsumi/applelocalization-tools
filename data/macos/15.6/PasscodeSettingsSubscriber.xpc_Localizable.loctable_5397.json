@@ -1,0 +1,4047 @@
+{
+  "bundlePath" : "\/System\/Library\/PrivateFrameworks\/RemoteManagement.framework\/XPCServices\/PasscodeSettingsSubscriber.xpc",
+  "loctablePath" : "\/System\/Library\/PrivateFrameworks\/RemoteManagement.framework\/XPCServices\/PasscodeSettingsSubscriber.xpc\/Contents\/Resources\/Localizable.loctable",
+  "localizations" : {
+    "%lld UI.MINUTES" : [
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld분\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld分鐘\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minuto\",\"other\":\"%lld minutos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld dakika\",\"other\":\"%lld dakika\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld menit\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld minit\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld分\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minuto\",\"other\":\"%lld minutos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld λεπτό\",\"other\":\"%lld λεπτά\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld phút\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld minute\",\"one\":\"%lld minuta\",\"other\":\"%lld minut\",\"two\":\"%lld minuti\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld minúty\",\"one\":\"%lld minúta\",\"other\":\"%lld minút\",\"many\":\"%lld minúty\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld минуты\",\"one\":\"%lld минуту\",\"other\":\"%lld минуты\",\"many\":\"%lld минут\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minut\",\"other\":\"%lld minutter\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld分钟\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld perc\",\"other\":\"%lld perc\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld minute\",\"one\":\"%lld minuta\",\"other\":\"%lld minuta\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minuto\",\"other\":\"%lld minutos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld Minute\",\"other\":\"%lld Minuten\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minute\",\"other\":\"%lld minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minute\",\"other\":\"%lld minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld minute\",\"one\":\"%lld minut\",\"other\":\"%lld de minute\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld minuty\",\"one\":\"%lld minuta\",\"other\":\"%lld minut\",\"many\":\"%lld minuty\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld minuty\",\"one\":\"%lld minuta\",\"other\":\"%lld minuty\",\"many\":\"%lld minut\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld मिनट\",\"other\":\"%lld मिनट\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minute\",\"other\":\"%lld minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minut\",\"other\":\"%lld minuts\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minut\",\"other\":\"%lld minuter\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"دقيقة واحدة\",\"few\":\"%lld دقائق\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"%lld دقيقة\",\"two\":\"دقيقتان\",\"other\":\"%lld دقيقة\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"%lld دقيقة\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld นาที\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"דקה אחת\",\"NSStringFormatValueTypeKey\":\"lld\",\"other\":\"‏%lld דקות\",\"two\":\"שתי דקות\",\"many\":\"‏%lld דקות\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minute\",\"other\":\"%lld minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minuto\",\"other\":\"%lld minuti\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minuto\",\"other\":\"%lld minutos\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minutt\",\"other\":\"%lld minutter\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld分鐘\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minuutti\",\"other\":\"%lld minuuttia\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minuut\",\"other\":\"%lld minuten\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld хвилини\",\"one\":\"%lld хвилина\",\"other\":\"%lld хвилини\",\"many\":\"%lld хвилин\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld minute\",\"other\":\"%lld minutes\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.REGEX" : [
+      {
+        "target" : "정규 표현식",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "常規表示式",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Expresión regular",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Düzenli İfade",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Ekspresi Reguler",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Ungkapan Biasa",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "正規表現",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Expressão Regular",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Κανονική παράσταση",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Biểu thức chính quy",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Regularni izraz",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Regulárny výraz",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Регулярное выражение",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Regulært udtryk",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "正则表达式",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Reguláris kifejezés",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Regularni izraz",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Expresión regular",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Regulärer Ausdruck",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Regular Expression",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Expression normale",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Expresie regulată",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Regulární výraz",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Wyrażenie regularne",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "रेग्युलर एक्सप्रेशन",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Regular Expression",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Expressió regular",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Reguljärt uttryck",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "تعبير اعتيادي",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "นิพจน์ปกติ",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "ביטוי רגולרי",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Expression régulière",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Espressione regolare",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Expressão regular",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Regulært uttrykk",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "常規表示式",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Säännöllinen lauseke",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Reguliere expressie",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Регулярний вираз",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Regular Expression",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "%lld UI.DAYS" : [
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld일\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld天\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld día\",\"other\":\"%lld días\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld gün\",\"other\":\"%lld gün\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld hari\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld hari\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld日\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld dia\",\"other\":\"%lld dias\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld ημέρα\",\"other\":\"%lld ημέρες\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld ngày\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld dnevi\",\"one\":\"%lld dan\",\"other\":\"%lld dni\",\"two\":\"%lld dneva\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld dni\",\"one\":\"%lld deň\",\"other\":\"%lld dní\",\"many\":\"%lld dňa\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld дня\",\"one\":\"%lld день\",\"other\":\"%lld дня\",\"many\":\"%lld дней\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld dag\",\"other\":\"%lld dage\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld天\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld nap\",\"other\":\"%lld nap\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld dana\",\"one\":\"%lld dan\",\"other\":\"%lld dana\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld día\",\"other\":\"%lld días\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld Tag\",\"other\":\"%lld Tage\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld day\",\"other\":\"%lld days\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld jour\",\"other\":\"%lld jours\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld zile\",\"one\":\"%lld zi\",\"other\":\"%lld de zile\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld dny\",\"one\":\"%lld den\",\"other\":\"%lld dní\",\"many\":\"%lld dne\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld dni\",\"one\":\"%lld dzień\",\"other\":\"%lld dnia\",\"many\":\"%lld dni\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld दिन\",\"other\":\"%lld दिनों\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld day\",\"other\":\"%lld days\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld dia\",\"other\":\"%lld dies\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld dag\",\"other\":\"%lld dagar\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"يوم واحد\",\"few\":\"%lld أيام\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"many\":\"%lld يومًا\",\"two\":\"يومان\",\"other\":\"%lld يوم\",\"NSStringFormatValueTypeKey\":\"lld\",\"zero\":\"%lld يوم\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld วัน\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"יום אחד\",\"NSStringFormatValueTypeKey\":\"lld\",\"other\":\"‏%lld ימים\",\"two\":\"יומיים\",\"many\":\"‏%lld ימים\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld jour\",\"other\":\"%lld jours\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld giorno\",\"other\":\"%lld giorni\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld dia\",\"other\":\"%lld dias\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld dag\",\"other\":\"%lld dager\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"other\":\"%lld日\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld päivä\",\"other\":\"%lld päivää\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld dag\",\"other\":\"%lld dagen\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"few\":\"%lld дні\",\"one\":\"%lld день\",\"other\":\"%lld дня\",\"many\":\"%lld днів\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "{\"NSStringLocalizedFormatKey\":\"%#@value@\",\"value\":{\"one\":\"%lld day\",\"other\":\"%lld days\",\"NSStringFormatSpecTypeKey\":\"NSStringPluralRuleType\",\"NSStringFormatValueTypeKey\":\"lld\"}}",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.MINIMUM.LENGTH" : [
+      {
+        "target" : "최소 길이",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "最短長度",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Longitud mínima",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Minimum uzunluk",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Panjang minimum",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Panjang minimum",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "最小文字数",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Comprimento mínimo",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Ελάχιστο μήκος",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Độ dài tối thiểu",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Minimalna dolžina",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Minimálna dĺžka",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Минимальная длина",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Minimal længde",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "最短密码长度",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Minimális hossz",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Minimalna duljina",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Longitud mínima",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Mindestlänge",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Minimum length",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Longueur minimale",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Lungime minimă",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Minimální délka",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Minimalna długość",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "न्यूनतम लंबाई",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Minimum length",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Llargada mínima",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Minimal längd",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "الحد الأدنى للطول",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "ความยาวขั้นต่ำ",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "אורך מינימלי",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Longueur minimum",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Lunghezza minima",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Comprimento mínimo",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Minimumslengde",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "最短長度",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Vähimmäispituus",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Minimumlengte",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Мінімальна довжина",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Minimum length",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.REGEX.DESCRIPTION" : [
+      {
+        "target" : "설명",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "描述",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Descripción",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Açıklama",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Deskripsi",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Perihalan",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "説明",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Descrição",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Περιγραφή",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Mô tả",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Opis",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Popis",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Описание",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Beskrivelse",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "描述",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Leírás",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Opis",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Descripción",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Beschreibung",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Description",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Description",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Descriere",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Popis",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Opis",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "वर्णन",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Description",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Descripció",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Beskrivning",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "الوصف",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "คำอธิบาย",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "תיאור",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Description",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Descrizione",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Descrição",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Beskrivelse",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "描述",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Kuvaus",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Beschrijving",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Опис",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Description",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.PASSCODE.REUSE.LIMIT" : [
+      {
+        "target" : "고유 암호 요구",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "獨有密碼要求",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Requisito de contraseña única",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Benzersiz parola gereksinimi",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Persyaratan kode sandi unik",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Keperluan kod laluan unik",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "一意なパスコードが必要です",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Requisito de código exclusivo",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Απαίτηση μοναδικού κωδικού",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Yêu cầu mật mã duy nhất",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Zahtevana je edinstvena koda za dostop",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Požiadavka na jedinečný kód",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Требуется уникальный код‑пароль",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Unik kode kræves",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "要求唯一密码",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Egyedi jelkód megkövetelése",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Potrebna je jedinstvena šifra",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Requisito de código único",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Eindeutiger Code erforderlich",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Unique passcode requirement",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Code unique obligatoire",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Necesitate pentru cod de acces unic",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Požadavek jedinečného kódu",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Wymagania dot. unikalnego hasła",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "विशिष्ट पासकोड आवश्यकता",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Unique passcode requirement",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Requisit de codi únic",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Krav för unik lösenkod",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "مطلوب رمز دخول فريد",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "ต้องเป็นรหัสที่ไม่ซ้ำ",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "דרישה לקוד גישה ייחודי",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Code unique obligatoire",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Codice univoco obbligatorio",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Requisito de código exclusivo",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Krav om unik kode",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "需要獨有的密碼",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Ainutkertaisen pääsykoodin vaatimus",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Unieke toegangscode vereist",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Потрібен унікальний код допуску",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Unique passcode requirement",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.MINIMUM.COMPLEX.CHARACTERS" : [
+      {
+        "target" : "복잡한 문자의 최소 개수",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "最短複雜字元",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Caracteres complejos mínimos",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Minimum karmaşık karakter",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Karakter kompleks minimum",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Aksara kompleks minimum",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "複雑なパスコードの最小文字数",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Mínimo de caracteres complexos",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Μέγιστος αριθμός σύνθετων χαρακτήρων",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Số ký tự phức hợp tối thiểu",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Najmanjše število posebnih znakov",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Minimálny počet komplexných znakov",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Минимальная сложность символов",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Minimum komplekse tegn",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "最少复杂字符数",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Összetett karakterek minimális száma",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Minimalno kompleksni znakovi",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Mínimo de caracteres complejos",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Minimale Anzahl komplexer Zeichen",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Minimum complex characters",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Minimum de caractères complexes",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Număr minim de caractere complexe",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Minimální počet komplexních znaků",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Minimalna liczba znaków złożonych",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "न्यूनतम जटिल वर्ण",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Minimum complex characters",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Mínim de caràcters complexos",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Lägsta antal komplexa tecken",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "الحد الأدنى للأحرف المعقدة",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "จำนวนอักขระซับซ้อนขั้นต่ำ",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "מספר התווים המורכבים המינימלי",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Minimum de caractères complexes",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Caratteri complessi minimi",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Número mínimo de caracteres complexos",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Minste antall spesialtegn",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "最短複雜字元",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Kompleksisten merkkien vähimmäismäärä",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Minimaal aantal complexe tekens",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Мінімум спеціальних символів",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Minimum complex characters",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.REQUIRE-COMPLEX-PASSCODE" : [
+      {
+        "target" : "복잡한 암호 필요",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "需要複雜字元",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Requerir caracteres complejos",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Karmaşık gereksin",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Perlukan kompleks",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Perlukan kompleks",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "複雑なパスコードが必要",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Exigir complexo",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Απαίτηση σύνθετου κωδικού",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Yêu cầu phức hợp",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Zahtevaj s posebnimi znaki",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Vyžadovať komplexné",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Требуется сложный пароль",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Kræv kompleks",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "要求复杂密码",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Komplex szükséges",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Zatraži kompleksnu",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Solicitar caracteres complejos",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Komplexe Zeichen erforderlich",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Require complex",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Exiger un code complexe",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Necesită cod complex",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Vyžadovat komplexní znaky",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Wymagaj złożonego",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "जटिल आवश्यक",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Require complex",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Codi complex obligatori",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Kräv komplex",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "طلب حروف معقدة",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "ต้องซับซ้อน",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "דרישה לקוד מורכב",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Code complexe requis",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Richiedi complesso",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Exigir complexo",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Krev spesialtegn",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "需要複雜字元",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Vaadi kompleksinen",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Complexe code vereist",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Потрібно ускладнити",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Require complex",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.NO" : [
+      {
+        "target" : "아니요",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "否",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "No",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Hayır",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Tidak",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Tidak",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "いいえ",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Não",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Όχι",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Không",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Ne",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Nie",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Нет",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Nej",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "否",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Nem",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Ne",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "No",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Nein",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "No",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Non",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Nu",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Ne",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Nie",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "नहीं",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "No",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "No",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Nej",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "لا",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "ไม่",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "לא",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Non",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "No",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Não",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Nei",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "否",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Ei",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Nee",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Ні",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "No",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.REQUIRE-PASSCODE" : [
+      {
+        "target" : "암호 필요",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "需要密碼",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Requerir código",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Parola gereksin",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Perlukan kode sandi",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Perlukan kod laluan",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "パスコードが必要",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Exigir código",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Απαίτηση κωδικού",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Yêu cầu mật mã",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Koda za dostop je obvezna",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Vyžadovať kód",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Требуется код‑пароль",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Kræv kode",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "需要密码",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Jelkód szükséges",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Zatraži šifru",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Solicitar código",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Code erforderlich",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Require passcode",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Exiger un code",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Necesită cod de acces",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Vyžadovat přístupový kód",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Wymagaj kodu",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "पासकोड आवश्यक",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Require passcode",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Codi obligatori",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Kräv lösenkod",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "طلب رمز دخول",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "ต้องใช้รหัส",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "דרישה לקוד גישה",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Code requis",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Richiedi codice",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Exigir código",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Krev kode",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "需要密碼",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Vaadi pääsykoodi",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Toegangscode vereist",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Запитувати код допуску",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Require passcode",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.CHANGE.AT.NEXT.AUTH" : [
+      {
+        "target" : "강제 재설정",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "強制重置",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Forzar restablecimiento",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Sıfırlamaya zorlama",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Atur ulang paksa",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Reset paksa",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "強制的にリセット",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Forçar reinício",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Επιβολή επαναφοράς",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Bắt buộc đặt lại",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Prisilna ponastavitev",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Vynútené resetovanie",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Сбросить принудительно",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Gennemtving nulstilling",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "强制重置",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Alaphelyzetbe állítás kényszerítése",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Prisilno resetiraj",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Forzar restablecimiento",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Zurücksetzen erzwingen",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Force reset",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Forcer la réinitialisation",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Resetare forțată",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Vynutit reset",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Wymuś wyzerowanie",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "जबरन रीसेट करें",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Force reset",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Força el restabliment",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Tvinga nollställning",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "فرض إعادة التعيين",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "บังคับรีเซ็ต",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "איפוס כפוי",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Forcer la réinitialisation",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Forza inizializzazione",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Forçar reposição",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Tving tilbakestilling",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "強制重設",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Pakota nollaus",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Forceer opnieuw instellen",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Примусове скидання",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Force reset",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.REQUIRE-ALPHANUMERIC-PASSCODE" : [
+      {
+        "target" : "알파벳 숫자 필요",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "需要英數字元",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Requerir código alfanumérico",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Alfasayısal gereksin",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Perlukan alfanumerik",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Perlukan abjad angka",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "英数字が必要",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Exigir alfanumérico",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Απαίτηση αλφαριθμητικού κωδικού",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Yêu cầu chữ và số",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Zahtevaj alfanumerično",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Vyžadovať alfanumerické",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Требуется пароль из букв и цифр",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Kræv alfanumerisk værdi",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "要求字母加数字",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Alfanumerikus szükséges",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Zatraži slovnobrojčanu",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Solicitar valor alfanumérico",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Alphanumerische Werte erforderlich",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Require alphanumeric",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Exiger un code alphanumérique",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Necesită cod alfanumeric",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Vyžadovat alfanumerické znaky",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Wymagaj alfanumerycznego",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "अल्फ़ान्यूमैरिक आवश्यक",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Require alphanumeric",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Codi alfanumèric obligatori",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Kräv alfanumerisk",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "طلب حروف أبجدية رقمية",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "ต้องเป็นตัวอักษรและตัวเลข",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "דרישה לקוד אלפאנומרי",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Code alphanumérique obligatoire",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Richiedi alfanumerico",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Exigir alfanumérico",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Krev alfanumeriske tegn",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "需要英數字元",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Vaadi aakkosnumeerinen",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Alfanumerieke waarde vereist",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Букви та цифри",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Require alphanumeric",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.FAILED.ATTEMPTS.RESET" : [
+      {
+        "target" : "시도 실패 횟수 재설정",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "失敗次數重置",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Restablecimiento del número de intentos fallidos",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Başarısız deneme sıfırlama",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Pengaturan ulang percobaan gagal",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Reset percubaan gagal",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "失敗回数の上限に達するとリセットします",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Redefinição das tentativas falhas",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Επαναφορά μετά από αποτυχημένες απόπειρες",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Đặt lại số lần nhập sai tối đa",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Ponastavitev po doseženem največjem številu neuspelih poskusov",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Resetovanie neúspešných pokusov",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Сброс после неудачных попыток",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Forsøg på nulstilling mislykkedes",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "失败次数重置",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Sikertelen próbálkozások alaphelyzetbe állítása",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Resetiranje neuspjelih pokušaja",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Restablecimiento de intentos fallidos",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Fehlgeschlagene Zurücksetzversuche",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Failed attempts reset",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Réinitialisation des tentatives échouées",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Resetare încercări eșuate",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Reset neúspěšných pokusů",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Zerowanie licznika nieudanych prób",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "विफल प्रयास रीसेट",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Failed attempts reset",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Restabliment dels intents fallits",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Nollställning av misslyckade försök",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "إعادة تعيين المحاولات الفاشلة",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "รีเซ็ตจำนวนครั้งที่ผิด",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "איפוס הניסיונות נכשל",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Réinitialisation du nombre de tentatives",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Inizializzazione tentativi non riusciti",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Reposição das tentativas falhadas",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Mislykkede forsøk nullstilt",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "錯誤嘗試次數重設",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Epäonnistuneiden yritysten nollaus",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Stel mislukte pogingen opnieuw in",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Примусове скидання після невдалих спроб",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Failed attempts reset",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.MAXIMUM.AGE" : [
+      {
+        "target" : "최대 사용 기간",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "最長時效",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Periodo máximo de validez",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Maksimum yaş",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Umur maksimum",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Umur maksimum",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "上限年齢",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Idade máxima",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Μέγιστο όριο ηλικίας",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Tuổi tối đa",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Najvišja starost",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Maximálny vek",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Максимальный возраст",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Højeste alder",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "最长时效",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Maximális kor",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Maksimalna dob",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Edad máxima",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Maximales Alter",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Maximum age",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Âge maximal",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Vârsta maximă",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Maximální stáří",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Maksymalna ważność",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "न्यूनतम उम्र",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Maximum age",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Edat màxima",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Högsta ålder",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "الحد الأقصى للعمر",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "อายุนานสุด",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "הגיל המרבי",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Âge limite",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Età massima",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Validade máxima",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Maks varighet",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "最長使用期限",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Enimmäisikä",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Maximale leeftijd",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Максимальний вік",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Maximum age",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.PASSCODE-DESCRIPTION" : [
+      {
+        "target" : "암호 설정",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "密碼設定",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Ajustes del código",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Parola Ayarları",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Pengaturan Kode Sandi",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Seting Kod Laluan",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "パスコード設定",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Ajustes de Código",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Ρυθμίσεις κωδικού",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Cài đặt mật mã",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Nastavitve kode za dostop",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Nastavenia kódu",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Настройки код‑пароля",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Indstillinger til kode",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "密码设置",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Jelkódbeállítások",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Postavke šifre",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Configuración de código",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Codeeinstellungen",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Passcode Settings",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Réglages du code",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Configurări cod de acces",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Nastavení kódu",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Ustawienia kodu",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "पासकोड सेटिंग्ज़",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Passcode Settings",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Configuració de codi",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Lösenkodsinställningar",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "إعدادات رمز الدخول",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "การตั้งค่ารหัส",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "הגדרות קוד גישה",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Réglages des codes",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Impostazioni codice",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Definições de código",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Kodeinnstillinger",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "密碼設定",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Pääsykoodiasetukset",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Toegangscode-instellingen",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Параметри коду допуску",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Passcode Settings",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.YES" : [
+      {
+        "target" : "예",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "是",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Sí",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Evet",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Ya",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Ya",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "はい",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Sim",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Ναι",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Có",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Da",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Áno",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Да",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Ja",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "是",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Igen",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Da",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Sí",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Ja",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Yes",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Oui",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Da",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Ano",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Tak",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "हाँ",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Yes",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Sí",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Ja",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "نعم",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "ใช่",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "כן",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Oui",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Sì",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Sim",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Ja",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "是",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Kyllä",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Ja",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Так",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Yes",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.MAXIMUM.GRACE.PERIOD" : [
+      {
+        "target" : "최대 유예 시간",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "最長寬限期",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Periodo máximo de gracia",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Maksimum süre dönemi",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Masa tenggang maksimum",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Tempoh ihsan maksimum",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "最大猶予期間",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Período de carência máximo",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Μέγιστη περίοδος χάριτος",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Thời gian ân hạn tối đa",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Najdaljše obdobje odloga",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Maximálna doba odkladu",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Макс. период отсрочки",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Maksimal forsinkelsestid",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "最长宽限期",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Zárolás maximális türelmi ideje",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Maksimalni period odgode",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Máximo periodo de gracia",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Maximale Schonfrist",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Maximum grace period",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Période de grâce maximale",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Perioadă maximă de grație",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Maximální interval tolerance zamknutí",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Maksymalny okres prolongaty",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "अधिकतम छूट अवधि",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Maximum grace period",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Període màxim de gràcia",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Maximal väntetid",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "أقصى مدة للسماح",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "ระยะเวลาอนุญาตนานสุด",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "תקופת חסד מרבית",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Période de grâce maximale",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Durata massima intervallo",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Período de tolerância máximo",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Maks. forsinkelsestid",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "最長寬限期",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Enimmäisaikaraja",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Maximumgeldigheid",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Максимальна відстрочка",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Maximum grace period",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.MAXIMUM.INACTIVITY" : [
+      {
+        "target" : "최대 비활성 상태",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "最長閒置時間",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Inactividad máxima",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Maksimum eylemsizlik",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Ketidakaktifan maksimum",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Ketiadaan aktiviti maksimum",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "最大アイドル時間",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Inatividade máxima",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Μέγιστη αδράνεια",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Không hoạt động tối đa",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Najdaljše trajanje neaktivnosti",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Maximálna doba nečinnosti",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Макс. время бездействия",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Maksimal tid uden aktivitet",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "最长闲置时间",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Tétlenség maximális ideje",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Maksimalna neaktivnost",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Inactividad máxima",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Maximale Inaktivität",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Maximum inactivity",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Inactivité maximale",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Inactivitate maximă",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Maximální neaktivita",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Maksymalny okres braku aktywności",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "अधिकतम निष्क्रियता",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Maximum inactivity",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Inactivitat màxima",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Maximal väntetid vid inaktivitet",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "أقصى مدة لعدم النشاط",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "ระยะเวลาที่ไม่ใช้งานนานสุด",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "תקופת חוסר פעילות מרבית",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Inactivité maximale",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Durata massima inattività",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Período máximo de inatividade",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Maks. inaktivitet",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "最長閒置時間",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Käyttämättömänä enintään",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Maximuminactiviteit",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Максимум неактивності",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Maximum inactivity",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.TITLE" : [
+      {
+        "target" : "암호",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "密碼",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Código",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Parola",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Kode Sandi",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Kod Laluan",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "パスコード",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Código",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Κωδικός",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Mật mã",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Koda za dostop",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Kód",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Код‑пароль",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Kode",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "密码",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Jelkód",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Šifra",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Código",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Code",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Passcode",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Code",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Cod acces",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Kód",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Kod",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "पासकोड",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Passcode",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Codi",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Lösenkod",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "رمز الدخول",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "รหัส",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "קוד גישה",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Code",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Codice",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Código",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Kode",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "密碼",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Pääsykoodi",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Toegangscode",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Код допуску",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Passcode",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ],
+    "UI.MAXIMUM.FAILED.ATTEMPTS" : [
+      {
+        "target" : "최대 시도 실패 횟수",
+        "filename" : "Localizable.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "最多失敗次數",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Número máximo de intentos fallidos",
+        "filename" : "Localizable.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Maksimum başarısız girişim",
+        "filename" : "Localizable.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Percobaan gagal maksimum",
+        "filename" : "Localizable.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Percubaan gagal maksimum",
+        "filename" : "Localizable.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "失敗回数の上限",
+        "filename" : "Localizable.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Máximo de tentativas incorretas",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Μέγιστες αποτυχημένες απόπειρες",
+        "filename" : "Localizable.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Số lần nhập sai tối đa",
+        "filename" : "Localizable.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Največje število neuspešnih poskusov",
+        "filename" : "Localizable.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Maximálny počet neúspešných pokusov",
+        "filename" : "Localizable.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Макс. кол-во неудачных попыток",
+        "filename" : "Localizable.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Maksimalt antal mislykkede forsøg",
+        "filename" : "Localizable.loctable",
+        "language" : "da"
+      },
+      {
+        "target" : "最多失败次数",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Sikertelen próbálkozások maximális száma",
+        "filename" : "Localizable.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Maksimalni broj neuspjelih pokušaja",
+        "filename" : "Localizable.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Máximo de intentos fallidos",
+        "filename" : "Localizable.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Maximale Anmeldefehlversuche",
+        "filename" : "Localizable.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Maximum failed attempts",
+        "filename" : "Localizable.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Maximum de tentatives échouées",
+        "filename" : "Localizable.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Număr maxim de încercări eșuate",
+        "filename" : "Localizable.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Maximální počet neúspěšných pokusů",
+        "filename" : "Localizable.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Maksymalna liczba nieudanych prób",
+        "filename" : "Localizable.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "अधिकतम विफल प्रयास",
+        "filename" : "Localizable.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Maximum failed attempts",
+        "filename" : "Localizable.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Nombre màxim d’intents fallits",
+        "filename" : "Localizable.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Maximalt antal misslyckade försök",
+        "filename" : "Localizable.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "الحد الأقصى للمحاولات الفاشلة",
+        "filename" : "Localizable.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "จำนวนครั้งที่ผิดได้มากสุด",
+        "filename" : "Localizable.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "מספר מרבי של ניסיונות",
+        "filename" : "Localizable.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Nombre maximum de tentatives",
+        "filename" : "Localizable.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Numero massimo di tentativi non riusciti",
+        "filename" : "Localizable.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Máximo de tentativas falhadas",
+        "filename" : "Localizable.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Maks. mislykkede forsøk",
+        "filename" : "Localizable.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "輸入錯誤密碼的最多次數",
+        "filename" : "Localizable.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Epäonnistuneiden yritysten enimmäismäärä",
+        "filename" : "Localizable.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Maximum aantal mislukte pogingen",
+        "filename" : "Localizable.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Максимум невдалих спроб",
+        "filename" : "Localizable.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Maximum failed attempts",
+        "filename" : "Localizable.loctable",
+        "language" : "en_AU"
+      }
+    ]
+  },
+  "framework" : "PasscodeSettingsSubscriber.xpc"
+}

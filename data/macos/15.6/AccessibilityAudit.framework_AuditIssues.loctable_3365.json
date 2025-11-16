@@ -1,0 +1,735 @@
+{
+  "localizations" : {
+    "inSwipeOrderButNotHitTested.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Unable to touch to select this %@"
+      }
+    ],
+    "elementLabelAndValueEmpty.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Element has no description"
+      }
+    ],
+    "contrastAAAFail.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Contrast failed for %@."
+      }
+    ],
+    "dynamicTextUnsupported.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "User will not be able to change the font size of this %@"
+      }
+    ],
+    "elementLabelUsesImageName.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Image name used in description"
+      }
+    ],
+    "unknownRole.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "This %@ is missing a valid role to identify its type."
+      }
+    ],
+    "auditTestType.elementDetection" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Element Detection"
+      }
+    ],
+    "potentialElement.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Potentially inaccessible element"
+      }
+    ],
+    "elementMissingTraitNotEnabled.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Missing trait: UIAccessibilityTraitNotEnabled"
+      }
+    ],
+    "missingParent.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Determine which ancestor reports this element in its accessibilityChildren. That ancestor element should be reported as this element’s accessibilityParent"
+      }
+    ],
+    "element" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "element"
+      }
+    ],
+    "potentialTextElement.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Potentially inaccessible text"
+      }
+    ],
+    "contrastAAPartialPass.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Contrast is not high enough for %@ unless font size is larger."
+      }
+    ],
+    "contrastUnknown.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Unknown contrast"
+      }
+    ],
+    "hitTestButNotInSwipeOrder.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "A user may be able to touch to select this element, but it is not accessible in linear navigation order. It will not be accessible to those using linear navigation techniques such as swipes or keyboard shortcuts."
+      }
+    ],
+    "elementLabelDuplicateRoleDescription.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "The accessibilityLabel of this %@ duplicates information that is available in the accessibilityRoleDescription."
+      }
+    ],
+    "textIsClipped.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Text of this %@ may be clipped at larger Dynamic Type sizes."
+      }
+    ],
+    "dynamicTextUnsupported.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "This text does not support Dynamic Type. Consider using a UIFont preferred font and setting adjustsFontForContentSizeCategory to YES"
+      }
+    ],
+    "elementImageHasNoLabel.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Consider setting the accessibilityLabel."
+      }
+    ],
+    "contrastAAAPass.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Excellent. No change needed."
+      }
+    ],
+    "contrastAAAPass.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Contrast passed"
+      }
+    ],
+    "dynamicTextUnsupported.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Dynamic Type font sizes are unsupported"
+      }
+    ],
+    "auditTestType.contrast" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Contrast"
+      }
+    ],
+    "elementLabelDuplicateRoleDescription.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "The accessibilityRoleDescription describes the type of element. For example, ‘image’ or ‘button’. The accessibilityLabel is the function or content of that specific element. For example, ‘Get Mail.’"
+      }
+    ],
+    "dynamicTextPartiallyUnsupported.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "User will not be able to change the font size of this %@"
+      }
+    ],
+    "missingParent.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Missing parent"
+      }
+    ],
+    "contrastUnknown.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Unable to determine the contrast in this region."
+      }
+    ],
+    "dynamicTextPartiallyUnsupported.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "This text does not fully support Dynamic Type. Consider using a UIFont preferred font and setting adjustsFontForContentSizeCategory to YES"
+      }
+    ],
+    "notChildOfParent.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "This %@ is not an accessibility child of the parent element."
+      }
+    ],
+    "auditTestType.textClipped" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Clipped Text"
+      }
+    ],
+    "contrastAAFail.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "To ensure higher contrast for readability, try adjusting either the text color to %@ or the background color to %@ so the contrast ratio is above 3.0."
+      }
+    ],
+    "elementCouldUseTitle.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Element may need a title"
+      }
+    ],
+    "swipeOrderForwardReverseMismatch.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Linear navigation order is incorrect for this %@."
+      }
+    ],
+    "elementLabelUsesImageName.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "The label of this %@ is an image file name."
+      }
+    ],
+    "defaultIOSSuggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Review the UIAccessibility protocol"
+      }
+    ],
+    "contrastAAAFail.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "To ensure higher contrast for readability, try adjusting either the text color or the background color so the contrast ratio is above 4.4."
+      }
+    ],
+    "elementLabelAndValueEmptyWithMLGeneratedDesc.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "This %@ is missing useful accessibility information."
+      }
+    ],
+    "auditTestType.trait" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Traits"
+      }
+    ],
+    "contrastAAAFail.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Contrast failed"
+      }
+    ],
+    "actionMissing.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "This %@ is missing accessibility action support equivalent to click\/tap inputs."
+      }
+    ],
+    "elementCouldUseTitle.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "If a static text label is nearby to provide context for this element, reference that label as the accessibilityTitleUIElement. Otherwise, provide an accessibilityLabel."
+      }
+    ],
+    "elementLabelDuplicateTraitString.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "The accessibilityTraits characterize the type or properties of an element. For example, ‘button’ or ‘selected’. The accessibilityLabel is the function or content of that specific element. For example, ‘Get Mail’."
+      }
+    ],
+    "contrastAAFail.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Contrast failed"
+      }
+    ],
+    "hitRegionTooSmall.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "The size of this %@ is too small for user to interact."
+      }
+    ],
+    "potentialTextElement.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "This element appears to display text that should be represented using the accessibility API."
+      }
+    ],
+    "elementLabelAndValueEmpty.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Consider setting the accessibilityLabel."
+      }
+    ],
+    "elementImageHasNoLabel.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "This %@ is missing useful accessibility information."
+      }
+    ],
+    "auditTestType.hitRegion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Hit Region"
+      }
+    ],
+    "elementLabelUsesImageName.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Set a human-readable, localized accessibilityLabel."
+      }
+    ],
+    "elementLabelNotHumanReadable.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "The accessibilityLabel of this %@ is not human-readable."
+      }
+    ],
+    "potentialTextElement.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Determine if any part of the content should be exposed as separate accessibility children."
+      }
+    ],
+    "potentialElement.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "This %@ contains content that could potentially form one or more separate accessibility elements."
+      }
+    ],
+    "elementValueDuplicateTraitString.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "The accessibilityValue represents the dynamic value of the element. For example, a slider’s numeric value or a text field’s contents. The accessibilityLabel is the function or content of that specific element. For example, ‘Volume’ or ‘Mailing Address.’"
+      }
+    ],
+    "notChildOfParent.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Determine the parent element and add this element to the parent element’s accessibilityChildren array."
+      }
+    ],
+    "contrastAAAPartialPass.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Contrast is not high enough for %@ unless font size is larger."
+      }
+    ],
+    "notChildOfParent.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Parent\/Child mismatch"
+      }
+    ],
+    "contrastAAFail.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Contrast failed for %@"
+      }
+    ],
+    "inSwipeOrderButNotHitTested.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Not hit-testable"
+      }
+    ],
+    "contrastAAPartialPass.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Make sure the text font size is at least 18 point regular or 14 point bold. Else pick a different color with contrast ratio above 4.4 to ensure better contrast."
+      }
+    ],
+    "hitTestButNotInSwipeOrder.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Not in navigation order"
+      }
+    ],
+    "hitRegionTooSmall.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Hit area is too small"
+      }
+    ],
+    "contrastAAPartialPass.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Contrast nearly passed"
+      }
+    ],
+    "dynamicTextPartiallyUnsupported.longDescExtraInfo" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "The following font sizes are unsupported:"
+      }
+    ],
+    "auditTestType.swipeOrder" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Swipe Order"
+      }
+    ],
+    "contrastAAPass.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Contrast passed"
+      }
+    ],
+    "hitTestButNotInSwipeOrder.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "This %@ cannot be accessed via linear navigation techniques."
+      }
+    ],
+    "elementLabelDuplicateTraitString.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Label duplicates traits"
+      }
+    ],
+    "swipeOrderForwardReverseMismatch.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Navigation order mismatch"
+      }
+    ],
+    "auditTestType.dynamicText" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Dynamic Type"
+      }
+    ],
+    "defaultMacOSSuggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Review the NSAccessibility protocol"
+      }
+    ],
+    "elementLabelNotHumanReadable.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Consider choosing a string that can be understood when presented visually and when spoken verbally."
+      }
+    ],
+    "elementImageHasNoLabel.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Image has no label"
+      }
+    ],
+    "potentialElement.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Determine if any part of the content should be exposed as separate accessibility children."
+      }
+    ],
+    "elementLabelAndValueEmpty.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "This %@ is missing useful accessibility information."
+      }
+    ],
+    "textIsClipped.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Text clipped"
+      }
+    ],
+    "textIsClipped.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Use flexible and stackable layouts, word wrap and hyphenate, or increase row heights."
+      }
+    ],
+    "auditTestType.parentChild" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Parent\/Child"
+      }
+    ],
+    "auditTestType.elementDescription" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Element Description"
+      }
+    ],
+    "elementValueDuplicateTraitString.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "The accessibilityValue of this %@ duplicates information that is available in the traits."
+      }
+    ],
+    "elementLabelDuplicateTraitString.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "The accessibilityLabel of this %@ duplicates information that is available in the traits."
+      }
+    ],
+    "elementCouldUseTitle.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "This %@ is missing contextual information to know its functionality."
+      }
+    ],
+    "elementLabelAndValueEmptyWithMLGeneratedDesc.suggestion.formatter" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Consider setting the accessibilityLabel to: %@"
+      }
+    ],
+    "contrastAAPass.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Contrast passed."
+      }
+    ],
+    "contrastAAPass.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Doing great. Consider upgrading to contrast ratio above 7.0."
+      }
+    ],
+    "dynamicTextPartiallyUnsupported.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Dynamic Type font sizes are partially unsupported"
+      }
+    ],
+    "contrastAAAPartialPass.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Make sure the text font size is at least 18 point regular or 14 point bold. Else pick a different color with contrast ratio above 7.0 to ensure better contrast."
+      }
+    ],
+    "unknownRole.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Unknown role"
+      }
+    ],
+    "swipeOrderForwardReverseMismatch.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "The previous\/next linear navigation order is inconsistent or incomplete for this element. Navigating forward results in a different order than navigating backward."
+      }
+    ],
+    "elementLabelAndValueEmptyWithMLGeneratedDesc.title.formatter" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Element has no description, looks like: %@"
+      }
+    ],
+    "hitRegionTooSmall.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "The visible area for interaction is too small for touch or other standard action inputs. Consider increasing both width and height above 44."
+      }
+    ],
+    "contrastAAAPartialPass.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Contrast nearly passed"
+      }
+    ],
+    "auditTestType.action" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Action"
+      }
+    ],
+    "unknownRole.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Consider setting the appropriate accessibilityRole."
+      }
+    ],
+    "actionMissing.suggestion.formatter" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Consider implementing the following method(s): %@"
+      }
+    ],
+    "missingParent.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "This %@ is missing an accessibility parent element."
+      }
+    ],
+    "elementMissingTraitNotEnabled.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "This %@ is disabled, but it is missing the UIAccessibilityTraitNotEnabled trait."
+      }
+    ],
+    "actionMissing.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Action is missing"
+      }
+    ],
+    "elementLabelNotHumanReadable.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Label not human-readable"
+      }
+    ],
+    "elementMissingTraitNotEnabled.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Add the UIAccessibilityTraitNotEnabled trait to this element."
+      }
+    ],
+    "elementLabelDuplicateRoleDescription.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Label duplicates role description"
+      }
+    ],
+    "elementValueDuplicateTraitString.title" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Value duplicates traits"
+      }
+    ],
+    "contrastUnknown.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Find out the RGB value of the color used for text versus background and check the contrast ratio via many available online color contrast calculators."
+      }
+    ],
+    "contrastAAAPass.longDesc" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "Contrast passed."
+      }
+    ],
+    "inSwipeOrderButNotHitTested.suggestion" : [
+      {
+        "filename" : "AuditIssues.loctable",
+        "language" : "en",
+        "target" : "A user may be able to navigate to this element by swipe or keyboard navigation, but cannot touch to select."
+      }
+    ]
+  },
+  "framework" : "AccessibilityAudit.framework",
+  "loctablePath" : "\/System\/Library\/PrivateFrameworks\/AccessibilityAudit.framework\/Versions\/A\/Resources\/AuditIssues.loctable",
+  "bundlePath" : "\/System\/Library\/PrivateFrameworks\/AccessibilityAudit.framework"
+}

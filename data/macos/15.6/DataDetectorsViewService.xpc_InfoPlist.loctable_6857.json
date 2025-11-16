@@ -1,0 +1,992 @@
+{
+  "framework" : "DataDetectorsViewService.xpc",
+  "bundlePath" : "\/System\/Library\/PrivateFrameworks\/DataDetectors.framework\/Versions\/A\/XPCServices\/DataDetectorsViewService.xpc",
+  "localizations" : {
+    "NSRemindersUsageDescription" : [
+      {
+        "target" : "Чтобы создавать напоминания, необходимо разрешить этой службе доступ к Вашим календарям.",
+        "language" : "ru",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Ce service doit accéder à vos calendriers pour vous permettre de créer des rappels.",
+        "language" : "fr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Acest serviciu necesită acces la calendarele dvs. pentru a vă permite să creați mementouri.",
+        "language" : "ro",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Ennek a szolgáltatásnak hozzá kell férnie az Ön naptáraihoz, hogy Ön emlékeztetőket hozhasson létre.",
+        "language" : "hu",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Αυτή η υπηρεσία χρειάζεται πρόσβαση στα ημερολόγιά σας για να έχετε τη δυνατότητα δημιουργίας υπομνήσεων.",
+        "language" : "el",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "이 서비스에서 사용자가 미리 알림을 생성할 수 있도록 하려면 캘린더 접근 권한이 필요합니다.",
+        "language" : "ko",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Il servizio richiede l’accesso ai calendari per consentirti di creare promemoria.",
+        "language" : "it",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Dieser Dienst benötigt Zugriff auf deine Kalender, damit du Erinnerungen erstellen kannst.",
+        "language" : "de",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Perkhidmatan ini memerlukan akses kepada kalendar anda untuk membolehkan anda mencipta peringatan.",
+        "language" : "ms",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Bu servisin anımsatıcı yaratmanıza izin vermesi için takvimlerinize erişmesi gerekiyor.",
+        "language" : "tr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "บริการนี้ต้องการเข้าถึงปฏิทินของคุณเพื่อช่วยให้คุณสามารถสร้างเตือนความจำได้",
+        "language" : "th",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Denne tjeneste skal have adgang til dine kalendere, før du kan oprette påmindelser.",
+        "language" : "da",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "इस सेवा को आपके कैलेंडर का ऐक्सेस चाहिए ताकि आप रिमाइंडर सेट कर सकें।",
+        "language" : "hi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Este serviço necessita de acesso aos seus calendários para lhe permitir criar lembretes.",
+        "language" : "pt_PT",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Ce service a besoin d’accéder à vos calendriers pour vous permettre de créer des rappels.",
+        "language" : "fr_CA",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Tämä palvelu tarvitsee kalenteriesi käyttöoikeuden, jotta voit luoda muistutuksia.",
+        "language" : "fi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "לשירות זה דרושה הרשאת גישה ללוחות השנה שלך כדי לאפשר לך ליצור תזכורות.",
+        "language" : "he",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "This service needs access to your calendars to let you create reminders.",
+        "language" : "en_GB",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "يجب أن تتمكن هذه الخدمة من الوصول إلى تقويماتك حتى يمكنك إنشاء التذكيرات.",
+        "language" : "ar",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Ta storitev zahteva dostop do vaših koledarjev, da vam omogoči ustvarjanje opomnikov.",
+        "language" : "sl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Щоб ви могли створювати нагадування, необхідно надати цьому сервісу доступ до календарів.",
+        "language" : "uk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Deze voorziening heeft toegang tot je agenda's nodig zodat je herinneringen kunt aanmaken.",
+        "language" : "nl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "此服务需要访问你的日历以让你创建提醒事项。",
+        "language" : "zh_CN",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "El servei necessita accedir als calendaris perquè puguis crear recordatoris.",
+        "language" : "ca",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Denne tjenesten må gis tilgang til kalenderne dine før du kan opprette påminnelser.",
+        "language" : "no",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Ova usluga treba pristupiti vašim kalendarima kako biste mogli izraditi podsjetnike.",
+        "language" : "hr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Chcete‑li vytvářet připomínky, tato služba potřebuje přístup ke kalendářům.",
+        "language" : "cs",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Den här tjänsten behöver tillgång till dina kalendrar för att du ska kunna skapa påminnelser.",
+        "language" : "sv",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Este servicio requiere acceso a tus calendarios para permitirte crear recordatorios.",
+        "language" : "es",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Este servicio requiere acceso a tus calendarios para permitirte crear recordatorios.",
+        "language" : "es_419",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "This service needs access to your calendars to let you create reminders.",
+        "language" : "en_AU",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "リマインダーを作成するには、このサービスでカレンダーにアクセスする必要があります。",
+        "language" : "ja",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Aby pozwolić Ci tworzyć przypomnienia, ta usługa musi mieć dostęp do Twoich kalendarzy.",
+        "language" : "pl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Este serviço precisa de acesso aos seus calendários para permitir que você crie lembretes.",
+        "language" : "pt_BR",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "此服務需要取用你的行事曆才能讓你製作提醒事項。",
+        "language" : "zh_TW",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Táto služba potrebuje prístup k vašim kalendárom, aby ste mohli vytvárať pripomienky.",
+        "language" : "sk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "此服務需要取用你的日曆才能讓你製作提醒事項。",
+        "language" : "zh_HK",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Layanan ini membutuhkan akses ke kalender Anda agar Anda dapat membuat pengingat.",
+        "language" : "id",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Dịch vụ này cần quyền truy cập vào lịch để cho phép bạn tạo các lời nhắc.",
+        "language" : "vi",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "CFBundleName" : [
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "ru",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "fr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "ro",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "hu",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "el",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "ko",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "it",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "de",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "ms",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "tr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "th",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "da",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "hi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "pt_PT",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "fr_CA",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "fi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "he",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "en_GB",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "ar",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "sl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "uk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "nl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "zh_CN",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "ca",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "no",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "hr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "cs",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "sv",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "es",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "es_419",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "en_AU",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "ja",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "pl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "pt_BR",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "zh_TW",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "sk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "zh_HK",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "id",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "vi",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "NSCalendarsUsageDescription" : [
+      {
+        "target" : "Чтобы создавать события, необходимо разрешить этой службе доступ к Вашим календарям.",
+        "language" : "ru",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Ce service doit accéder à vos calendriers pour vous permettre de créer des évènements.",
+        "language" : "fr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Acest serviciu necesită acces la calendarele dvs. pentru a vă permite să creați evenimente.",
+        "language" : "ro",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Ennek a szolgáltatásnak hozzá kell férnie az Ön naptáraihoz, hogy Ön eseményeket hozhasson létre.",
+        "language" : "hu",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Αυτή η υπηρεσία χρειάζεται πρόσβαση στα ημερολόγιά σας για να έχετε τη δυνατότητα δημιουργίας γεγονότων.",
+        "language" : "el",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "이 서비스에서 사용자가 이벤트를 생성할 수 있도록 하려면 캘린더 접근 권한이 필요합니다.",
+        "language" : "ko",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Il servizio richiede l’accesso ai calendari per consentirti di creare eventi.",
+        "language" : "it",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Dieser Dienst benötigt Zugriff auf deine Kalender, damit du Ereignisse erstellen kannst.",
+        "language" : "de",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Perkhidmatan ini memerlukan akses kepada kalendar anda untuk membolehkan anda mencipta peristiwa.",
+        "language" : "ms",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Bu servisin etkinlik yaratmanıza izin vermesi için takvimlerinize erişmesi gerekiyor.",
+        "language" : "tr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "บริการนี้ต้องการเข้าถึงปฏิทินของคุณเพื่อช่วยให้คุณสามารถสร้างกิจกรรมได้",
+        "language" : "th",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Denne tjeneste skal have adgang til dine kalendere, før du kan oprette begivenheder.",
+        "language" : "da",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "इस सेवा को आपके कैलेंडर का ऐक्सेस चाहिए ताकि आप इवेंट बना सकें।",
+        "language" : "hi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Este serviço necessita de acesso aos seus calendários para lhe permitir criar eventos.",
+        "language" : "pt_PT",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Ce service a besoin d’accéder à vos calendriers pour vous permettre de créer des événements.",
+        "language" : "fr_CA",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Tämä palvelu tarvitsee kalenteriesi käyttöoikeuden, jotta voit luoda tapahtumia.",
+        "language" : "fi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "לשירות זה דרושה הרשאת גישה ללוחות השנה שלך כדי לאפשר לך ליצור אירועים.",
+        "language" : "he",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "This service needs access to your calendars to let you create events.",
+        "language" : "en_GB",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "يجب أن تتمكن هذه الخدمة من الوصول إلى تقويماتك حتى يمكنك إنشاء الأحداث.",
+        "language" : "ar",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Ta storitev zahteva dostop do vaših koledarjev, da vam omogoči ustvarjanje dogodkov.",
+        "language" : "sl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Щоб ви могли створювати події, необхідно надати цьому сервісу доступ до календарів.",
+        "language" : "uk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Deze voorziening heeft toegang tot je agenda's nodig zodat je activiteiten kunt aanmaken.",
+        "language" : "nl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "此服务需要访问你的日历以让你创建日程。",
+        "language" : "zh_CN",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "El servei necessita accedir als calendaris perquè puguis crear esdeveniments.",
+        "language" : "ca",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Denne tjenesten må gis tilgang til kalenderne dine før du kan opprette hendelser.",
+        "language" : "no",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Ova usluga treba pristupiti vašim kalendarima kako biste mogli izraditi događaje.",
+        "language" : "hr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Chcete‑li vytvářet události, tato služba potřebuje přístup ke kalendářům.",
+        "language" : "cs",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Den här tjänsten behöver tillgång till dina kalendrar för att du ska kunna skapa aktiviteter.",
+        "language" : "sv",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Este servicio requiere acceso a tus calendarios para permitirte crear eventos.",
+        "language" : "es",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Este servicio requiere acceso a tus calendarios para permitirte crear eventos.",
+        "language" : "es_419",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "This service needs access to your calendars to let you create events.",
+        "language" : "en_AU",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "予定を作成するには、このサービスでカレンダーにアクセスする必要があります。",
+        "language" : "ja",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Aby pozwolić Ci tworzyć wydarzenia, ta usługa musi mieć dostęp do Twoich kalendarzy.",
+        "language" : "pl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Este serviço precisa de acesso aos seus calendários para permitir que você crie eventos.",
+        "language" : "pt_BR",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "此服務需要取用你的行事曆才能讓你製作行程。",
+        "language" : "zh_TW",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Táto služba potrebuje prístup k vašim kalendárom, aby ste mohli vytvárať udalosti.",
+        "language" : "sk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "此服務需要取用你的日曆才能讓你製作行程。",
+        "language" : "zh_HK",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Layanan ini membutuhkan akses ke kalender Anda agar Anda dapat membuat acara.",
+        "language" : "id",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Dịch vụ này cần quyền truy cập vào lịch để cho phép bạn tạo các sự kiện.",
+        "language" : "vi",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "NSHumanReadableCopyright" : [
+      {
+        "target" : "Copyright © 2016 Apple Inc. Все права защищены.",
+        "language" : "ru",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple Inc. Tous droits réservés.",
+        "language" : "fr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple Inc. Toate drepturile rezervate.",
+        "language" : "ro",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple Inc., Minden jog fenntartva.",
+        "language" : "hu",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Πνευματικά δικαιώματα © 2016 Apple Inc. Με επιφύλαξη κάθε δικαιώματος.",
+        "language" : "el",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc. 모든 권리 보유.",
+        "language" : "ko",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc. Tutti i diritti riservati.",
+        "language" : "it",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple Inc. Alle Rechte vorbehalten.",
+        "language" : "de",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Hak Cipta © 2016 Apple, Inc. Hak cipta terpelihara.",
+        "language" : "ms",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc. Tüm hakları saklıdır.",
+        "language" : "tr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc. สงวนสิทธิ์ทุกประการ",
+        "language" : "th",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple Inc. Alle rettigheder forbeholdes.",
+        "language" : "da",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "कॉपीराइट © 2016 Apple Inc. सर्वाधिकार सुरक्षित।",
+        "language" : "hi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple Inc. Todos os direitos reservados.",
+        "language" : "pt_PT",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc. Tous droits réservés.",
+        "language" : "fr_CA",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple Inc. Kaikki oikeudet pidätetään.",
+        "language" : "fi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "‏© ‏2016 ‏⁨Apple, Inc.⁩. כל הזכויות שמורות.",
+        "language" : "he",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc. All rights reserved.",
+        "language" : "en_GB",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "‏Copyright © 2016 Apple Inc.‎ جميع الحقوق محفوظة.",
+        "language" : "ar",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple Inc. Vse pravice pridržane.",
+        "language" : "sl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "© 2016 Apple, Inc. Усі права захищено.",
+        "language" : "uk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple Inc. Alle rechten voorbehouden.",
+        "language" : "nl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc. 保留一切权利。",
+        "language" : "zh_CN",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple Inc. Tots els drets reservats.",
+        "language" : "ca",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple Inc. Alle rettigheter forbeholdes.",
+        "language" : "no",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc. Sva prava pridržana.",
+        "language" : "hr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc. Všechna práva vyhrazena.",
+        "language" : "cs",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple Inc. Alla rättigheter förbehålls.",
+        "language" : "sv",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc. Todos los derechos reservados.",
+        "language" : "es",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple,.\nTodos los derechos reservados.",
+        "language" : "es_419",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc. All rights reserved.",
+        "language" : "en_AU",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc. All rights reserved.",
+        "language" : "ja",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc. Wszystkie prawa zastrzeżone.",
+        "language" : "pl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc.\nTodos os direitos reservados.",
+        "language" : "pt_BR",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple Inc. 保留一切權利。",
+        "language" : "zh_TW",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple Inc. Všetky práva vyhradené.",
+        "language" : "sk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc. 保留一切權利。",
+        "language" : "zh_HK",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Hak Cipta © 2016 Apple, Inc. Semua hak cipta dilindungi undang-undang.",
+        "language" : "id",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "Copyright © 2016 Apple, Inc. Mọi quyền được bảo lưu.",
+        "language" : "vi",
+        "filename" : "InfoPlist.loctable"
+      }
+    ],
+    "CFBundleDisplayName" : [
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "ru",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "fr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "ro",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "hu",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "el",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "ko",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "it",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "de",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "ms",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "tr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "th",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "da",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "hi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "pt_PT",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "fr_CA",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "fi",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "he",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "en_GB",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "ar",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "sl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "uk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "nl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "zh_CN",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "ca",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "no",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "hr",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "cs",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "sv",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "es",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "es_419",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "en_AU",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "ja",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "pl",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "pt_BR",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "zh_TW",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "sk",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "zh_HK",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "id",
+        "filename" : "InfoPlist.loctable"
+      },
+      {
+        "target" : "DataDetectorsViewService",
+        "language" : "vi",
+        "filename" : "InfoPlist.loctable"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/PrivateFrameworks\/DataDetectors.framework\/Versions\/A\/XPCServices\/DataDetectorsViewService.xpc\/Contents\/Resources\/InfoPlist.loctable"
+}

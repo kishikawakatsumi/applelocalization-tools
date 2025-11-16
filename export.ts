@@ -33,7 +33,7 @@ for (const table of tables) {
     macos12: "data/macos/12.6",
     macos13: "data/macos/13.5.2",
     macos14: "data/macos/14.6",
-    macos15: "data/macos/15.2",
+    macos15: "data/macos/15.6",
     macos26: "data/macos/26.1",
     ios15: "data/ios/15.7",
     ios16: "data/ios/16.6",

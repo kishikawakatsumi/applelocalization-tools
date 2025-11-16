@@ -1,0 +1,2284 @@
+{
+  "bundlePath" : "\/System\/Library\/Automator\/Apply Quartz Composition Filter to Image Files.action",
+  "framework" : "Apply Quartz Composition Filter to Image Files.action",
+  "localizations" : {
+    "AMDNote" : [
+      {
+        "target" : "This action can use any Quartz Composition of type Image Filter installed in the Quartz Composer Composition Repository (“\/Library\/Compositions” or “~\/Library\/Compositions”) as long as it does not depend on time.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "פעולה זו יכולה לעשות שימוש בכל קומפוזיציה של Quartz מסוג ״מסנן תמונה״ המותקנת ב״מאגר הקומפוזיציות של Quartz Composer״‏ (‎\"\/Library\/Compositions\"‎ או ‎\"~\/Library\/Compositions\"‎) כל עוד היא אינה תלויה בזמן.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Questa azione può utilizzare qualunque Quartz Composition di tipo Image Filter installata in Quartz Composer Composition Repository (“\/Libreria\/Compositions” o “~\/Libreria\/Compositions”), a condizione che non dipenda dal tempo.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Ez a művelet bármely, a Quartz Composer kompozíciós tárházba („\/Library\/Compositions” vagy „~\/Library\/Compositions”) telepített, képszűrő típusú Quartz-kompozíciót fel tud használni, amíg mindez nem az idő függvénye.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "इस क्रिया द्वारा Quartz Composer कंपोज़िशन रिपोज़िट्री (“\/Library\/Compositions” या “~\/Library\/Compositions”) में इंस्टॉल किए गए इमेज फ़िल्टर प्रकार के किसी Quartz Composition का उपयोग किया जा सकता है जब तक यह समय पर निर्भर न हो।",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Diese Aktion kann jede beliebige Quartz-Composition des Typs „Image Filter“, der im Quartz Composer Composition Repository („\/Library\/Compositions“ oder „~\/Library\/Compositions“) installiert ist, verwenden, sofern diese nicht zeitbasiert arbeitet.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Met deze taak kun je elke willekeurige Quartz-compositie van het type afbeeldingsfilter gebruiken die is geïnstalleerd in de Quartz Composer-compositiebewaarplaats ('\/Bibliotheek\/Compositions' of '~\/Bibliotheek\/Compositions') zolang deze niet afhankelijk is van tijd.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Quartz Composerのコンポジションリポジトリ（“\/ライブラリ\/Compositions”または“~\/ライブラリ\/Compositions”）にインストールされているすべての画像フィルタタイプのQuartzコンポジションを使用できます。ただし、経時変化を伴うものを除きます。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Bu işlem, zamana bağlı olmadığı sürece Quartz Composer kompozisyon deposunda (“\/Kitaplık\/Compositions” veya “~\/Kitaplık\/Compositions”) yüklü olan Görüntü Filtresi türündeki herhangi bir Quartz kompozisyonunu kullanabilir.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Esta acción puede usar cualquier composición Quartz del tipo filtro de imagen instalada en el depósito de composiciones de Quartz Composer (“\/Biblioteca\/Compositions” o “~\/Biblioteca\/Compositions”), mientras no dependa del tiempo.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_US"
+      },
+      {
+        "target" : "Esta acción puede usar cualquier composición Quartz del tipo filtro de imagen instalada en el depósito de composiciones de Quartz Composer (“\/Biblioteca\/Compositions” o “~\/Biblioteca\/Compositions”), mientras no dependa del tiempo.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Ta czynność może używać dowolnej Kompozycji Quartz typu Filtr obrazu zainstalowanej w magazynie Quartz Composer Composition Repository („\/Library\/Compositions” lub „~\/Library\/Compositions”), jeśli tylko nie zależy ona od czasu.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "Cette action peut utiliser n’importe quelle composition Quartz de type Filtre d’image installée dans le référentiel de compositions Quartz Composer (« \/Bibliothèque\/Compositions » ou « ~\/Bibliothèque\/Compositions ») à condition qu’elle n’ait pas de restriction de temps.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Aquesta acció pot utilitzar qualsevol composició Quartz del tipus filtre d’imatge que estigui instal·lada al repositori de composicions de Quartz Composer (“\/Biblioteca\/Compositions” o “~\/Biblioteca\/Compositions”), si no és dependent del temps.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "只要不受时间限制，此操作可以使用安装在Quartz Composer Composition Repository（“\/资源库\/Compositions”或“~\/资源库\/Compositions”）中的任何Quartz合成类型的图像滤镜。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Cette action peut utiliser n’importe quelle composition Quartz de type Filtre d’image installée dans le référentiel de compositions Quartz Composer (« \/Library\/Compositions » ou « ~\/Library\/Compositions ») à condition qu’elle n’ait pas de restriction de temps.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Esta ação pode utilizar qualquer composição do tipo “Filtro de imagem” instalada no repositório de composições do Quartz Composer (“\/Library\/Compositions” ou “~\/Library\/Compositions”), desde que seja independente do tempo.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Ovaj postupak može koristiti bilo koju Quartz kompoziciju vrste \"slikovni filtar\" instaliranu u repozitorij kompozicija Quartz Composera (\"\/Medijateka\/Kompozicije\" ili \"~\/Medijateka\/Kompozicije\") sve dok ne ovisi o vremenu.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "يمكن لهذا الإجراء استخدام أي تكوين Quartz من نوع مرشح الصور المثبت في مخزن تكوينات Quartz Composer ‏(‪“\/Library\/Compositions”‬ أو ‪“~\/Library\/Compositions”‬) طالما أنه لا يعتمد على الوقت.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "This action can use any Quartz Composition of type Image Filter installed in the Quartz Composer Composition Repository (“\/Library\/Compositions” or “~\/Library\/Compositions”) as long as it does not depend on time.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "Esta acción puede usar cualquier composición Quartz del tipo filtro de imagen, instalada en el depósito de composiciones de Quartz Composer (“\/Biblioteca\/Compositions” o “~\/Biblioteca\/Compositions”), si no es dependiente en tiempo.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "To dejanje lahko uporablja katerokoli kompozicijo Quartz Composition vrste Slikovni filter, nameščeno v repozitoriju Quartz Composer Composition (»\/Knjižnica\/Kompozicije« ali »~\/Knjižnica\/Kompozicije«), pod pogojem, da ni odvisna od časa.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Táto akcia môže použiť ktorýkoľvek obrázkový filter Quartz kompozície inštalovaný v odkladacom priestore kompozície Quartz Composera („\/Knižnica\/Kompozície“ alebo „~\/Knižnica\/Kompozície“), ak nie je časovo závislý.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Thao tác này có thể sử dụng mọi Thành phần Quartz của loại Bộ lọc Hình ảnh được cài đặt trong Bộ lưu trữ Thành phần Quartz Composer (“\/Thư viện\/Thành phần” hoặc “~\/Thư viện\/Thành phần”) với điều kiện nó không phụ thuộc vào thời gian.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "只要不受時間限制時，此動作可使用任何安裝在Quartz Composer Composition Repository（「\/資源庫\/Compositions」或「~\/資源庫\/Compositions」）的「Quartz合成」類型「影像濾鏡」。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Åtgärden kan använda Quartz Composition-filer av typen bildfilter som är installerade i Quartz Composer Composition Repository (”\/Bibliotek\/Compositions” eller ”~\/Bibliotek\/Compositions”) så länge den inte är tidsberoende.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "Tato akce může použít libovolnou kompozici Quartz typu Filtr obrázků, nainstalovanou v úložišti kompozicí nástroje Quartz Composer(”\/Knihovna\/Kompozice” nebo \"~\/Knihovna\/Kompozice\"), pokud není závislá na čase.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "이 동작을 실행하면 시간이 허락하는 한 Quartz Composer 컴퍼지션 저장소(‘\/라이브러리\/컴퍼지션’ 또는 ‘~\/라이브러리\/컴퍼지션’)에 설치된 유형 이미지 필터의 모든 Quartz 컴퍼지션을 사용할 수 있습니다.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Această acțiune poate utiliza orice compoziție Quartz de tip filtru de imagine instalată în depozitul de compoziții Quartz Composer („\/Library\/Compositions” sau „~\/Library\/Compositions”), cu condiția să nu depindă de timp.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "This action can use any Quartz Composition of type Image Filter installed in the Quartz Composer Composition Repository (“\/Library\/Compositions” or “~\/Library\/Compositions”) as long as it does not depend on time.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Esta ação pode usar qualquer Quartz Composition do tipo Filtro de Imagem instalado no Repositório de Composições do Quartz Composer (“\/Library\/Compositions” ou “~\/Library\/Compositions”), contanto que não dependa de tempo.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Tindakan ini dapat menggunakan Komposisi Quartz apa pun dari jenis Filter Gambar yang diinstal di Repositori Komposisi Quartz Composer (“\/Perpustakaan\/Komposisi” atau “~\/Perpustakaan\/Komposisi”) selama tidak tergantung pada waktu.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Αυτή η ενέργεια μπορεί να χρησιμοποιήσει οποιαδήποτε σύνθεση Quartz τύπου φίλτρου εικόνας, εγκατεστημένη στο αποθετήριο σύνδεσης Quartz Composer («\/Βιβλιοθήκη\/Συνθέσεις» ή «~\/Βιβλιοθήκη\/Συνθέσεις») με την προϋπόθεση ότι δεν εξαρτάται από τον χρόνο.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Ця дія може використовувати будь-яку композицію Quartz типу «Фільтр зображень», інстальовану в сховище композицій Quartz Composer (\/Library\/Compositions або ~\/Library\/Compositions), допоки вона не залежить від часу.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Denne handlingen kan bruke en hvilken som helst Quartz-komposisjon av typen bildefilter som er installert i Quartz Composer-komposisjonsarkivet (i «\/Bibliotek\/Compositions» eller «~\/Bibliotek\/Compositions»), så lenge den ikke er avhengig av tid.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "只要不受時間限制時，此動作可使用任何安裝在Quartz Composer Composition Repository（「\/資源庫\/Compositions」或「~\/資源庫\/Compositions」）的「Quartz合成」類型「影像濾鏡」。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Tindakan ini boleh menggunakan Komposisi Quartz untuk Penapis Imej jenis yang dipasang dalam Repositori Komposisi Komposer Quartz (“\/Pustaka\/Komposisi” atau “~\/Pustaka\/Komposisi”) selagi mana ia tidak bergantung pada masa.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "การทำงานนี้สามารถใช้ Quartz Composition ของฟิลเตอร์ประเภทภาพใดๆ ที่ติดตั้งไว้ใน Quartz Composer Composition Repository (“\/คลัง\/Compositions” หรือ “~\/คลัง\/Compositions”) ตราบเท่าที่ฟิลเตอร์ดังกล่าวไม่ขึ้นอยู่กับเวลา",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "Это действие может использовать любую композицию Quartz типа фильтра изображения, установленную в папке композиций Quartz Composer («Библиотека\/Compositions» или «~\/Библиотека\/Compositions»), до тех пор, пока ее срок действия не истек.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Tämä toiminto voi käyttää mitä tahansa Image Filter -tyyppistä Quartz Compositionia, joka on asennettu Quartz Composer Composition Repositoryyn (\/Library\/Compositions\/ tai ~\/Library\/Compositions\/), kunhan se ei ole ajasta riippuvainen.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Denne handling kan bruge alle Quartz Composition af typen Image Filter installeret i Quartz Composer Composition Repository (“\/Bibliotek\/Compositions” eller “~\/Bibliotek\/Compositions”), så længe den ikke er afhængig af tid.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      }
+    ],
+    "Image" : [
+      {
+        "target" : "Image",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "תמונה",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Immagine",
+        "filename" : "InfoPlist.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Kép",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "इमेज",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Bild",
+        "filename" : "InfoPlist.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Afbeelding",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "画像",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Görüntü",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Imagen",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_US"
+      },
+      {
+        "target" : "Imagen",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Obrazek",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "Image",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Imatge",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "图像",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Image",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Imagem",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Slika",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "صورة",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "Image",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "Imagen",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Slika",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Obrázok",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Hình ảnh",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "影像",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Bild",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "Obrázek",
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "이미지",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Imagine",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Image",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Imagem",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Gambar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Εικόνα",
+        "filename" : "InfoPlist.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Зображення",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Bilde",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "影像",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Imej",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "ภาพ",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "Изображение",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Kuva",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Billede",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      }
+    ],
+    "Message" : [
+      {
+        "target" : "This action will change the image files passed into it. Would you like to add a Copy Finder Items action so that the copies are changed and your originals are preserved?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "פעולה זו תשנה את קבצי התמונה המועברים אליה. האם ברצונך להוסיף פעולת העתקה של פריטי Finder על-מנת שהעותקים שלך ישתנו והקבצים המקוריים יישמרו?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Questa azione modificherà le immagini processate. Desideri aggiungere un’azione Copia elementi del Finder in modo da modificare le copie e conservare gli originali?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Ez a művelet módosítja a neki átadott képfájlokat. Szeretné hozzáadni a Finder-elem másolása műveletet, hogy a módosítások a másolatokon történjenek, és az eredeti példányok megőrződjenek?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "इस क्रिया द्वारा इसमें पास की गई इमेज फ़ाइलों को बदला जाएगा। क्या आप Finder आइटम कॉपी करें क्रिया जोड़ना चाहेंगे ताकि कॉपी बदल जाएँ और आपकी मूल कॉपी संरक्षित रहें?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Bei dieser Aktion werden die übergebenen Bilddateien geändert. Möchtest du die Aktion „Finder Objekte kopieren“ hinzufügen, damit die Kopien geändert werden und die Originale unverändert bleiben?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Met deze taak wijzig je de afbeeldingsbestanden die aan de taak worden doorgegeven. Wil je de taak 'Kopieer Finder-onderdelen' toevoegen, zodat de kopieën worden gewijzigd en de originelen behouden blijven?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "このアクションは、渡された画像ファイルを変更します。“Finder項目をコピー”アクションを追加して、オリジナルを変更しないでコピーを変更するようにしますか?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Bu işlem kendisine verilen görüntü dosyalarını değiştirecektir. Özgün dosyaların değişmeden korunup yalnızca kopyaların değiştirilmesi için Finder Öğelerini Kopyala işleminin eklenmesini ister misiniz?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Esta acción modificará los archivos de imagen a los que se aplique. ¿Desea agregar la acción Copiar elementos del Finder para que se modifiquen las copias y los originales se conserven tal cual?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_US"
+      },
+      {
+        "target" : "Esta acción modificará los archivos de imagen a los que se aplique. ¿Desea agregar la acción Copiar elementos del Finder para que se modifiquen las copias y los originales se conserven tal cual?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Ta czynność zmieni pliki ilustracji przekazywanych na wejściu. Czy chcesz dodać czynność Kopiuj rzeczy Findera, aby zmieniane były kopie plików, a oryginały były zachowane?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "Cette action modifie les fichiers image qui lui sont transmis. Voulez-vous ajouter une action « Copier des éléments du Finder » afin de modifier les copies tout en conservant les originaux?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Aquesta acció modificarà els arxius d’imatge filtrats. Vols afegir una acció de copiar ítems del Finder perquè es modifiquin les còpies i es conservin els originals?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "此操作将更改那些传给它的图像文件。你想添加一个“拷贝访达项目”操作以便仅更改副本而保留原始文件吗？",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Cette action modifie les fichiers image qui lui sont transmis. Voulez-vous ajouter une action « Copier des éléments du Finder » afin de modifier les copies mais conserver les originaux ?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Esta ação altera os ficheiros de imagem fornecidos. Gostaria de adicionar uma ação “Copiar elementos do Finder” para que sejam alteradas as cópias e preservados os originais?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Ovaj postupak će promijeniti slikovne datoteke koje mu proslijedite. Želite li dodati postupak \"Kopiraj stavke Findera\" tako da sačuvate promijenjene kopije i vaše originale?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "سيقوم هذا الإجراء بتغيير ملفات الصور التي تم تمريرها إليه. هل ترغب في إضافة إجراء نسخ عناصر فايندر بحيث يتم تغيير النُسخ مع الاحتفاظ بالعناصر الأصلية؟",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "This action will change the image files passed into it. Would you like to add a Copy Finder Items action so that the copies are changed and your originals are preserved?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "Esta acción modificará los archivos de imagen a los que se aplique. ¿Quieres añadir la acción “Copiar ítems del Finder” para que se modifiquen las copias y los originales se conserven tal cual?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "To dejanje bo spremenilo slikovne datoteke, posredovane vanj. Želite dodati dejanje Kopiraj elemente raziskovalca Finder, da bodo kopije spremenjene in izvirniki ohranjeni?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Táto akcia zmení odovzdané obrázkové súbory. Chcete pridať akciu Kopírovať položky Findera, takže budú zmenené kópie a pôvodné súbory ostanú zachované?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Thao tác này sẽ thay đổi các tệp hình ảnh được chuyển vào. Bạn có muốn thêm thao tác Sao chép các Mục Finder để các bản sao được thay đổi và bản gốc của bạn được giữ lại không?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "這一項動作將變更傳送到其中的影像檔。你想要加入「拷貝Finder項目」的動作，好讓備份檔案變更時保存原來的檔案嗎？",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Åtgärden ändrar överförda bildfiler. Vill du lägga till åtgärden Kopiera Finder-objekt så att ändringarna görs i kopior och originalen bevaras?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "Tato akce změní obrázkové soubory, které jsou jí předány. Chcete přidat akci Kopírovat položky Finderu, takže se změní kopie a původní soubory zůstanou zachovány?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "이 동작은 전달된 이미지 파일을 변경합니다. Finder 항목 복사하기 동작을 추가하여, 복사본은 변경하고 원본은 보존하겠습니까?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Această acțiune va modifica fișierele de imagine primite. Doriți să adăugați o acțiune Copiere articole Finder astfel încât să fie modificate copiile, iar originalele să fie păstrate?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "This action will change the image files passed into it. Would you like to add a Copy Finder Items action so that the copies are changed and your originals are preserved?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Esta ação modificará os arquivos de imagem fornecidos a ele. Deseja adicionar uma ação “Copiar Itens do Finder” de forma que as cópias sejam alteradas e os originais preservados?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Tindakan ini akan mengubah file gambar yang diprosesnya. Apakah Anda ingin menambah tindakan Salin Item Finder sehingga salinan diubah dan yang asli dipertahankan?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Με αυτήν την ενέργεια, αλλάζουν τα αρχεία εικόνας που διαβιβάζονται σε αυτή. Θέλετε να προσθέσετε μια ενέργεια αντιγραφής στοιχείων Finder, ώστε τα αντίγραφα να αλλάζουν και τα πρωτότυπα να διατηρούνται;",
+        "filename" : "InfoPlist.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Ця дія змінить передані файли зображень. Хочете додати дію «Скопіювати елементи Finder», щоб змінювалися лише копії, а оригінали залишалися незмінними?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Denne handlingen endrer bildefiler som sendes til den. Vil du legge til en Kopier Finder-objekter-handling slik at kopiene endres og originalene forblir uendret?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "此動作將變更傳送到其中的影像檔。你要加入「複製Finder項目」動作，讓副本變更時保留原來的檔案嗎？",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Tindakan ini akan mengubah fail imej yang diberi kepadanya. Adakah anda ingin tambah tindakan Salin Item Finder supaya hanya salinan yang diubah manakala salinan asal dikekalkan?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "การทำงานนี้จะเปลี่ยนแปลงไฟล์ภาพที่ส่งผ่านเข้ามา คุณต้องการเพิ่มการทำงานรายการ Finder สำเนาเพื่อให้สำเนาต่างๆ ได้รับการเปลี่ยนแปลงและต้นฉบับของคุณได้รับการเก็บรักษาไว้หรือไม่",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "Данное действие изменяет файлы изображений, переданные в него. Добавить действие копирования объектов Finder, чтобы копии изменились и исходные файлы были сохранены?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Toiminto muuttaa sille annettuja kuvatiedostoja. Haluatko lisätä Kopioi Finder-kohteita -toiminnon, jolloin vain kopioita muutetaan ja alkuperäiset kuvat säilytetään?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Denne handling vil ændre de billedarkiver, den omfatter. Vil du tilføje en handling kaldet Kopier Finderemner, så alle kopier ændres, og originalerne bevares?",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      }
+    ],
+    "IgnoreButton" : [
+      {
+        "target" : "Don’t Add",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "לא להוסיף",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Non aggiungere",
+        "filename" : "InfoPlist.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Hozzáadás mellőzése",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "न जोड़ें",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Nicht hinzufügen",
+        "filename" : "InfoPlist.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Voeg niet toe",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "追加しない",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Ekleme",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "No agregar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_US"
+      },
+      {
+        "target" : "No agregar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Nie dodawaj",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "Ne pas ajouter",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "No afegeixis",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "不添加",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Ne pas ajouter",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Não adicionar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Nemoj dodati",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "عدم الإضافة",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "Don’t Add",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "No añadir",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Ne dodaj",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Nepridávať",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Không thêm",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "不要加入",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Lägg inte till",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "Nepřidávat",
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "추가하지 않음",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Nu adăuga",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Don’t Add",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Não Adicionar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Jangan Tambahkan",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Να μη γίνει προσθήκη",
+        "filename" : "InfoPlist.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Не додавати",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Ikke legg til",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "不要加入",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Jangan Tambah",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "ไม่เพิ่ม",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "Не добавлять",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Älä lisää",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Tilføj ikke",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      }
+    ],
+    "ApplyButton" : [
+      {
+        "target" : "Add",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "הוספה",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Aggiungi",
+        "filename" : "InfoPlist.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Hozzáadás",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "जोड़ें",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Hinzufügen",
+        "filename" : "InfoPlist.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Voeg toe",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "追加",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Ekle",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Agregar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_US"
+      },
+      {
+        "target" : "Agregar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Dodaj",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "Ajouter",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Afegeix",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "添加",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Ajouter",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Adicionar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Dodaj",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "إضافة",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "Add",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "Añadir",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Dodaj",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Pridať",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Thêm",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "加入",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Lägg till",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "Přidat",
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "추가",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Adaugă",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Add",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Adicionar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Tambah",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Προσθήκη",
+        "filename" : "InfoPlist.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Додати",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Legg til",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "加入",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Tambah",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "เพิ่ม",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "Добавить",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Lisää",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Tilføj",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      }
+    ],
+    "NSHumanReadableCopyright" : [
+      {
+        "target" : "© 2007-2009 Apple Inc. All Rights Reserved.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "© 2007‏-2009 Apple Inc.‎. כל הזכויות שמורות.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Tutti i diritti riservati.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Minden jog fenntartva.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. सर्वाधिकार सुरक्षित।",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Alle Rechte vorbehalten.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Alle rechten voorbehouden.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. All Rights Reserved.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Tüm Hakları Saklıdır.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "© 2007-2009 Apple.\nTodos los derechos reservados.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_US"
+      },
+      {
+        "target" : "© 2007-2009 Apple.\nTodos los derechos reservados.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Wszystkie prawa zastrzeżone.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Tous droits réservés.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Tots els drets reservats.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. 保留一切权利。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Tous droits réservés.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Todos os direitos reservados.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Sva prava pridržana.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "‏‎© 2007-2009 Apple Inc.‎\n‏جميع الحقوق محفوظة.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. All Rights Reserved.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Todos los derechos reservados.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "© 2007–2009 Apple Inc. Vse pravice pridržane.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "© 2007 – 2009 Apple Inc. Všetky práva vyhradené.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Mọi quyền được bảo lưu.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. 保留一切權利。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "© 2007–2009 Apple Inc. Alla rättigheter förbehålls.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Všechna práva vyhrazena.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. 모든 권리 보유.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Toate drepturile rezervate.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. All Rights Reserved.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Todos os direitos reservados.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Semua Hak Cipta Dilindungi Undang-Undang.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Με επιφύλαξη κάθε δικαιώματος.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "© 2007–2009 Apple Inc. Усі права захищено.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "© 2007–2009 Apple Inc. Alle rettigheter forbeholdes.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. 保留一切權利。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Hak Cipta Terpelihara.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. สงวนสิทธิ์ทุกประการ",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Все права защищены.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "© 2007 - 2009 Apple Inc. Kaikki oikeudet pidätetään.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "© 2007-2009 Apple Inc. Alle rettigheder forbeholdes.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      }
+    ],
+    "AMDSummary" : [
+      {
+        "target" : "This action applies a selected image filter Quartz Composition from the Quartz Composer Composition Repository to image files.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "פעולה זו מחילה מסנן תמונה של קומפוזיציית Quartz ממאגר הקומפוזיציות של Quartz Composer על קבצי תמונה.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Questa azione applica un filtro immagine Quartz Composition da Quartz Composer Composition Repository alle immagini.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Alkalmazza a Quartz Composer kompozíciós tárházból származó, kijelölt képszűrő Quartz-kompozíciót a képfájlokra.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "इस क्रिया द्वारा Quartz Composer कंपोज़िशन रिपोज़िट्री से इमेज फ़ाइलों पर चयनित इमेज फ़िल्टर Quartz Composition लागू होता है।",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Diese Aktion wendet eine ausgewählte Quartz-Composition des Typs „Image Filter“ aus dem Quartz Composer Composition Repository auf Bilddateien an.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Met deze taak pas je een geselecteerde Quartz-compositie uit de Quartz Composer-compositiebewaarplaats als afbeeldingsfilter toe op afbeeldingsbestanden.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Quartz Composerのコンポジションリポジトリから選択した画像フィルタタイプのQuartzコンポジションを画像ファイルに適用します。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Bu işlem Quartz Composer kompozisyon deposunda seçilen Quartz kompozisyonu görüntü filtresini görüntü dosyalarına uygular.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Esta acción aplica un filtro de imagen seleccionado de composición Quartz del depósito de composiciones Quartz Composer a archivos de imagen.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_US"
+      },
+      {
+        "target" : "Esta acción aplica un filtro de imagen seleccionado de composición Quartz del depósito de composiciones Quartz Composer a archivos de imagen.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Ta czynność stosuje do plików obrazków zaznaczony filtr obrazu Kompozycji Quartz z magazynu Quartz Composer Composition Repository.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "Cette action applique à des fichiers image une composition Quartz de filtre d’image sélectionnée dans le référentiel de compositions Quartz Composer.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Aquesta acció aplica als arxius d’imatge un filtre d’imatge seleccionat de composició Quartz del repositori de composicions de Quartz Composer.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "此操作会将Quartz Composer Composition Repository中的某个选定图像滤镜Quartz合成应用到图像文件。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Cette action applique à des fichiers image une composition Quartz de filtre d’image sélectionnée dans le référentiel de compositions Quartz Composer.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Esta ação aplica a ficheiros de imagem um filtro de imagem selecionado (composição do Quartz) do repositório de composições do Quartz Composer.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Ovaj postupak primjenjuje odabrani slikovni filtar Quartz kompozicije iz repozitorija kompozicija Quartz Composera na slikovne datoteke.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "يقوم هذا الإجراء بتطبيق تكوين Quartz محدد من نوع مرشح الصور من مخزن تكوينات Quartz Composer على ملفات الصور.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "This action applies a selected image filter Quartz Composition from the Quartz Composer Composition Repository to image files.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "Esta acción aplica un filtro de imagen seleccionado de composición Quartz del depósito de composiciones Quartz Composer a archivos de imagen.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "To dejanje v slikovnih datotekah uporabi izbran slikovni filter Quartz Composition iz repozitorija Quartz Composer Composition.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Táto akcia aplikuje vybraný obrázkový filter Quartz kompozície z odkladacieho priestoru kompozície Quartz Composera na obrázkové súbory.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Thao tác này áp dụng bộ lọc hình ảnh đã chọn Thành phần Quartz từ Bộ lưu trữ Thành phần Quartz Composer cho các tệp hình ảnh.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "此動作會從Quartz Composer Composition Repository套用所選的影像濾鏡「Quartz合成」到影像檔案上。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Åtgärden lägger till ett valt Quartz Composition-bildfilter från Quartz Composer Composition Repository till bildfiler.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "Tato akce použije pro obrázkové soubory vybraný obrázkový filtr definovaný kompozicí Quartz z úložiště kompozicí nástroje Quartz Composer.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "이 동작은 Quartz Composer 컴퍼지션 저장소에서 선택한 이미지 필터 Quartz 컴퍼지션을 이미지 파일로 적용합니다.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Această acțiune aplică o compoziție Quartz de tip filtru de imagine selectată din depozitul de compoziții Quartz Composer fișierelor de imagine.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "This action applies a selected image filter Quartz Composition from the Quartz Composer Composition Repository to image files.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Essa ação aplica um filtro de imagem selecionado do Quartz Composition a partir do Repositório de Composições do Quartz Composer aos arquivos de imagem.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Tindakan ini menerapkan Komposisi Quartz filter gambar tertentu dari Repositori Komposisi Quartz Composer ke file gambar.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Αυτή η ενέργεια εφαρμόζει μια επιλεγμένη σύνθεση Quartz φίλτρου εικόνας από το αποθετήριο σύνθεσης Quartz Composer σε αρχεία εικόνας.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Ця дія застосовує до файлів зображень фільтр композиції Quartz зі сховища композицій Quartz Composer.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Denne handlingen legger et valgt Quartz-komposisjonsbildefilter fra Quartz Composer-komposisjonsarkivet på bildefiler.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "此動作會從Quartz Composer Composition Repository套用所選的影像濾鏡「Quartz合成」到影像檔案上。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Tindakan ini menggunakan Komposisi Quartz penapis imej yang dipilih daripada Repositori Komposisi Komposer Quartz kepada fail imej.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "การทำงานนี้จะนำ Quartz Composition ฟิลเตอร์ภาพที่เลือกจาก Quartz Composer Composition Repository ไปใช้กับไฟล์ภาพ",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "Это действие применяет выбранную композицию фильтра изображения Quartz из папки композиций Quartz Composer к файлам изображений.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Tämä toiminto käyttää valittua Quartz Composition -kuvasuodatinta Quartz Composer Composition Repositorystä kuvatiedostoille.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Denne handling anvender et valgt Quartz Composition-billedfilter fra Quartz Composer Composition Repository til billedarkiver.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      }
+    ],
+    "AMName" : [
+      {
+        "target" : "Apply Quartz Composition Filter to Image Files",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "החלת מסנן קומפוזיציה של Quartz על קובצי תמונה",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Applica Quartz Composition Filter alle immagini",
+        "filename" : "InfoPlist.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Quartz kompozíciós szűrő alkalmazása képfájlokhoz",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "इमेज फ़ाइलों पर Quartz Composition फ़िल्टर लागू करें",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Quartz-Composition-Filter auf Bilddateien anwenden",
+        "filename" : "InfoPlist.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Pas Quartz-compositiefilter op afbeeldingsbestanden toe",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Quartzコンポジションフィルタを画像ファイルに適用",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Quartz Kompozisyon Filtresini Görüntü Dosyalarına Uygula",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Aplicar filtro de composición Quartz a los archivos de imagen",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_US"
+      },
+      {
+        "target" : "Aplicar filtro de composición Quartz a los archivos de imagen",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Zastosuj Filtr Kompozycji Quartz do plików obrazków",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "Appliquer un filtre de composition Quartz à des fichiers image",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Aplica un filtre de composició Quartz als arxius d’imatge",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "将Quartz合成滤镜应用到图像文件",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Appliquer un filtre de composition Quartz à des fichiers image",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Aplicar filtro de composição do Quartz a ficheiros de imagem",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Primijeni filtar Quartz kompozicije na slikovne datoteke",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "تطبيق مرشح تكوين Quartz على ملفات الصور",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "Apply Quartz Composition Filter to Image Files",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "Aplicar filtro de composición Quartz a los archivos de imagen",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Uporabi filter Quartz Composition v slikovnih datotekah",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Aplikovať filter Quartz kompozície na obrázkové súbory",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Áp dụng Bộ lọc Thành phần Quartz cho Tệp Hình ảnh",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "將Quartz合成濾鏡套用至影像檔案",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Använd Quartz Composition-filter i bildfiler",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "Použít filtr kompozicí Quartz pro obrázkové soubory",
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Quartz 컴퍼지션 필터를 이미지 파일에 적용",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Aplicare filtru compoziție Quartz la fișiere de imagine",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Apply Quartz Composition Filter to Image Files",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Aplicar Filtro do Quartz Composition aos Arquivos de Imagem",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Terapkan Filter Komposisi Quartz ke File Gambar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Εφαρμογή φίλτρου σύνθεσης Quartz σε αρχεία εικόνας",
+        "filename" : "InfoPlist.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Застосувати фільтр композиції Quartz до файлів зображень",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Bruk Quartz-komposisjonsfilter på bildefiler",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "將Quartz合成濾鏡套用至影像檔案",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Gunakan Penapis Komposisi Quartz kepada Fail Imej",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "นำฟิลเตอร์ Quartz Composition ไปใช้กับไฟล์ภาพ",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "Обработка изображений Quartz-фильтром",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Käytä Quartz Composition -suodatinta kuvatiedostoille",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Anvend Quartz Composition-filter på billedarkiver",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      }
+    ],
+    "CompositionError" : [
+      {
+        "target" : "Unable find Quartz Composition in Composition Repository.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "לא נמצאה קומפוזיציית Quartz במאגר הקומפוזיציות.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Impossibile trovare Quartz Composition in Composition Repository.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "A Quartz-kompozíció nem található a kompozíciós tárházban.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "कंपोज़िशन रिपोज़िट्री में Quartz Composition ढूँढना अक्षम।",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Quartz-Composition wurde nicht im Composition Repository gefunden.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Quartz-compositie niet gevonden in compositiebewaarplaats.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Quartzコンポジションがコンポジションリポジトリに見つかりません。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Quartz kompozisyonu, kompozisyon deposunda bulunamıyor.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "No se pudo encontrar composiciones de Quartz en el depósito de composiciones.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_US"
+      },
+      {
+        "target" : "No se pudo encontrar composiciones de Quartz en el depósito de composiciones.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Nie można znaleźć Kompozycji Quartz w magazynie kompozycji.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "Impossible de trouver la composition Quartz dans le référentiel de compositions.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "No s’ha trobat la composició de Quartz al repositori de composicions.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "无法在Composition Repository中找到Quartz合成。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Impossible de trouver la composition Quartz dans le référentiel de compositions.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Não foi possível encontrar uma composição do Quartz no repositório de composições.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Ne može se pronaći Quartz kompozicija u repozitoriju kompozicija.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "يتعذر العثور على تكوين Quartz في مخزن التكوينات.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "Unable find Quartz Composition in Composition Repository.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "No se ha podido encontrar composiciones de Quartz en el depósito de composiciones.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Kompozicije Quartz Composition v repozitoriju Composition ni mogoče najti.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Nie je možné nájsť Quartz kompozíciu v odkladacom priestore kompozície.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Không thể tìm thấy Thành phần Quartz trong Bộ lưu trữ Thành phần.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "無法在Composition Repository裡找到「Quartz合成」。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Kan inte hitta Quartz Composition i Composition Repository.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "Nelze najít kompozici Quartz v úložišti kompozicí.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "컴퍼지션 보관소에서 Quartz 컴퍼지션을 찾을 수 없습니다.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Imposibil de găsit compoziția Quartz în depozitul de compoziții.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Unable to find Quartz Composition in Composition Repository.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Não foi possível buscar o Quartz Composition no Repositório de Composições.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Tidak dapat menemukan Komposisi Quartz pada Repositori Komposisi.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Δεν βρέθηκε η σύνθεση Quartz στο αποθετήριο συνθέσεων.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Не вдалося знайти композицію Quartz у сховищі композицій.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Finner ikke Quartz-komposisjon i komposisjonsarkiv.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "無法在Composition Repository裹找到「Quartz合成」。",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Gagal menemui Komposisi Quartz dalam Repositori Komposisi.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "ไม่สามารถค้นหา Quartz Composition ใน Composition Repository ได้",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "Не удается найти композицию Quartz в папке композиций.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Quartz Compositionia ei löytynyt Composition Repositorystä.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Kan ikke finde Quartz Composition i Composition Repository.",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      }
+    ],
+    "FileError" : [
+      {
+        "target" : "Failed processing",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "תקלה בעיבוד",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Elaborazione non riuscita",
+        "filename" : "InfoPlist.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "A feldolgozás sikertelen volt",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "प्रोसेस करना विफल",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Verarbeitung fehlgeschlagen",
+        "filename" : "InfoPlist.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Verwerking mislukt",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "処理できませんでした",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "İşleme başarısız",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Error al procesar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_US"
+      },
+      {
+        "target" : "Error al procesar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Błąd przetwarzania",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "Échec du traitement",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "No s’ha pogut processar",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "处理失败",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Échec du traitement",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Processamento malsucedido",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Procesiranje nije uspjelo",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "فشلت المعالجة",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "Failed processing",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "Error de procesamiento",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Obdelava ni uspela",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Spracovanie zlyhalo",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Lỗi khi xử lý",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "處理失敗",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Bearbetning misslyckades",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "Zpracování selhalo",
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "처리 실패함",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Procesare eșuată",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Failed processing",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Falha no processamento",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Gagal memproses",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Απέτυχε η επεξεργασία",
+        "filename" : "InfoPlist.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Не вдалося обробити",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Behandling mislyktes",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "處理失敗",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Gagal memproses",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "ดำเนินการไม่สำเร็จ",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "Сбой обработки",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Käsittely epäonnistui",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Behandling mislykkedes",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      }
+    ],
+    "Quartz Composer" : [
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "he"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "it"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hu"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hi"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "de"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "nl"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ja"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "tr"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_US"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es_419"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pl"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr_CA"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ca"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_CN"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fr"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_PT"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "hr"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ar"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_AU"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "es"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sl"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sk"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "vi"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_TW"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "sv"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "cs"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ko"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ro"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "en_GB"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "pt_BR"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "id"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "el"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "uk"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "no"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "zh_HK"
+      },
+      {
+        "target" : "Komposer Quartz",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ms"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "th"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "ru"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "fi"
+      },
+      {
+        "target" : "Quartz Composer",
+        "filename" : "InfoPlist.loctable",
+        "language" : "da"
+      }
+    ]
+  },
+  "loctablePath" : "\/System\/Library\/Automator\/Apply Quartz Composition Filter to Image Files.action\/Contents\/Resources\/InfoPlist.loctable"
+}
