@@ -1,10 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, mkdir, readFile, writeFile, copyFile, unlink } from 'node:fs/promises';
+import { mkdtemp, mkdir, readFile, writeFile, copyFile, unlink, symlink, access } from 'node:fs/promises';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { promisify } from 'node:util';
 import { execFile } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
 import { collectionStages } from '../scripts/collect-image-localizations.mjs';
 import { runCheckpoints, withCollectionLock, fileHash, treeHashes, writeJson } from '../scripts/collection-checkpoints.mjs';
 import { exportTransfer, verifyTransfer } from '../scripts/package-transfer.mjs';
@@ -62,4 +63,18 @@ test('release assets verify archive and extracted inventory, refusing altered as
   await verifyReleaseAssets({ input: assets, output: join(f.temp, 'unpacked'), artifactSha256 });
   await copyFile(join(assets, 'artifact.json'), join(assets, 'extra'));
   await assert.rejects(verifyReleaseAssets({ input: assets, output: join(f.temp, 'bad'), artifactSha256 }));
+});
+test('archive reader rejects raw paths, duplicates and symlinks before creating output', async () => {
+  const temp = await mkdtemp(join(tmpdir(), 'intermediate-unsafe-tar-')), source = join(temp, 'source');
+  await mkdir(source);
+  await writeFile(join(source, 'original.strings'), '{}');
+  await writeFile(join(source, 'release.json'), '{}');
+  const run = promisify(execFile), reader = fileURLToPath(new URL('../scripts/unpack-intermediate-release.py', import.meta.url));
+  for (const [name, paths] of [['raw', ['original.strings']], ['duplicate', ['release.json', 'release.json']], ['link', ['release.json']]]) {
+    if (name === 'link') { await unlink(join(source, 'release.json')); await symlink('original.strings', join(source, 'release.json')); }
+    const archive = join(temp, name + '.tar'), output = join(temp, name);
+    await run('/usr/bin/tar', ['-cf', archive, '-C', source, ...paths]);
+    await assert.rejects(run('python3', [reader, '--archive', archive, '--output', output]), /Unexpected tar path\/type|Duplicate tar member/);
+    await assert.rejects(access(output), /ENOENT/);
+  }
 });

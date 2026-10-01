@@ -8,9 +8,6 @@ on:
         type: boolean
         required: true
         default: false
-  # One-time explicitly approved bootstrap; remove after first successful run.
-  push:
-    branches: [codex/intermediate-release]
 
 permissions:
   contents: read
@@ -21,7 +18,7 @@ concurrency:
 
 jobs:
   extract:
-    if: inputs.allow_public_data == true || github.event_name == 'push'
+    if: inputs.allow_public_data == true
     runs-on: macos-15
     timeout-minutes: 45
     outputs:
