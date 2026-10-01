@@ -1,0 +1,54 @@
+name: Finalize verified intermediate draft (fixed recovery)
+
+on:
+  workflow_dispatch:
+    inputs:
+      allow_public_data:
+        description: Verify and publish only draft 401107508 from the successful extraction run
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: intermediate-ios26-23B85-os
+  cancel-in-progress: false
+
+jobs:
+  finalize:
+    if: inputs.allow_public_data == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            scripts
+            tests
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - run: node --test tests/*.test.mjs
+      - uses: actions/download-artifact@v8
+        with:
+          name: intermediate-36882142781-1
+          run-id: 36882142781
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/release-assets
+      - name: Verify original producer and existing uploaded bytes, then finalize by release ID
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ASSET_INPUT: ${{ runner.temp }}/release-assets
+          VERIFY_OUTPUT: ${{ runner.temp }}/release-verified
+        run: >-
+          node scripts/publish-intermediate-release.mjs --allow-public-data
+          --input "$ASSET_INPUT" --output "$VERIFY_OUTPUT"
+          --sha256 ffe84a2e7b77246f2424fe6dac5b4157218c52873d74e6e63efa9fb3f6cf6d04
+          --resume-release-id 401107508
+          --source-commit 631fa9406754bf7122b3de9812284b66e06021c1
+          --source-run-id 36882142781 --source-run-attempt 1
