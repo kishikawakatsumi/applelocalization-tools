@@ -59,6 +59,17 @@ jobs:
           retention-days: 7
           compression-level: 0
           if-no-files-found: error
+      - name: Retain bounded diagnostic metadata, including on failure
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: diagnostics-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/intermediate-release/work/trial/report.json
+            ${{ runner.temp }}/intermediate-release/work/trial/job/collection/package-attempt-0001/data/report.json
+            ${{ runner.temp }}/intermediate-release/work/trial/job/collection/package-attempt-0001/data/resources.jsonl.gz
+          retention-days: 7
+          if-no-files-found: ignore
 
   publish:
     needs: extract
