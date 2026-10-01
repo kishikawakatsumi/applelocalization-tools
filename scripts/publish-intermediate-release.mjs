@@ -10,6 +10,7 @@ import { verifyReleaseAssets } from './verify-release-assets.mjs';
 
 export function validateReleaseForPublication(release, { tag, commit, assets }) {
   assert.ok(Number.isSafeInteger(release.id) && release.id > 0);
+  assert.equal(typeof release.draft, 'boolean');
   assert.equal(release.prerelease, true); assert.equal(release.tag_name, tag);
   assert.equal(release.target_commitish, commit, 'Draft source commit differs');
   assert.deepEqual(release.assets.map(x => ({ name: x.name, size: x.size, digest: x.digest })).sort((x, y) => x.name.localeCompare(y.name)),
@@ -51,6 +52,10 @@ export async function publishIntermediateRelease({ input, output, artifactSha256
   const release = matches[0];
   const expectedRelease = { tag, commit, assets: expected };
   validateReleaseForPublication(release, expectedRelease);
+  if (resumeReleaseId !== undefined) {
+    const tagged = JSON.parse(await run(['api', `repos/${repository}/commits/${tag}`]));
+    assert.equal(tagged.sha, commit, 'Recovery tag must already point at the pinned producer commit');
+  }
   if (release.draft) {
     const published = JSON.parse(await run(['api', '--method', 'PATCH', `repos/${repository}/releases/${release.id}`, '-F', 'draft=false', '-F', 'prerelease=true', '-f', 'make_latest=false']));
     validateReleaseForPublication(published, expectedRelease); assert.equal(published.draft, false);
