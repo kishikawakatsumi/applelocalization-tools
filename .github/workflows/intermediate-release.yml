@@ -8,6 +8,11 @@ on:
         type: boolean
         required: true
         default: false
+      finalize_draft_only:
+        description: Resume only verified draft 401107508 without acquiring or extracting again
+        type: boolean
+        required: true
+        default: false
 
 permissions:
   contents: read
@@ -17,8 +22,17 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  finalize-existing:
+    if: inputs.allow_public_data == true && inputs.finalize_draft_only == true
+    permissions:
+      contents: write
+      actions: read
+    uses: ./.github/workflows/finalize-intermediate-release.yml
+    with:
+      allow_public_data: ${{ inputs.allow_public_data }}
+
   extract:
-    if: inputs.allow_public_data == true
+    if: inputs.allow_public_data == true && inputs.finalize_draft_only != true
     runs-on: macos-15
     timeout-minutes: 45
     outputs:

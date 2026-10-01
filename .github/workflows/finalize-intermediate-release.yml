@@ -1,6 +1,12 @@
 name: Finalize verified intermediate draft (fixed recovery)
 
 on:
+  workflow_call:
+    inputs:
+      allow_public_data:
+        type: boolean
+        required: true
+        default: false
   workflow_dispatch:
     inputs:
       allow_public_data:
@@ -14,7 +20,7 @@ permissions:
   actions: read
 
 concurrency:
-  group: intermediate-ios26-23B85-os
+  group: finalize-intermediate-ios26-23B85-os
   cancel-in-progress: false
 
 jobs:
