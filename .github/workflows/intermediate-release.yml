@@ -1,0 +1,91 @@
+name: Extract and release parsed intermediate data
+
+on:
+  workflow_dispatch:
+    inputs:
+      allow_public_data:
+        description: Extract pinned iOS 26.1 OS and publicly release parsed data (no originals)
+        type: boolean
+        required: true
+        default: false
+  # One-time explicitly approved bootstrap; remove after first successful run.
+  push:
+    branches: [codex/intermediate-release]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: intermediate-ios26-23B85-os
+  cancel-in-progress: false
+
+jobs:
+  extract:
+    if: inputs.allow_public_data == true || github.event_name == 'push'
+    runs-on: macos-15
+    timeout-minutes: 45
+    outputs:
+      metadata_sha256: ${{ steps.digest.outputs.sha256 }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            scripts
+            tests
+            .github
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Parsed-only release regression tests
+        run: node --test tests/*.test.mjs
+      - name: Acquire, extract all languages, audit and omit originals
+        env:
+          RELEASE_OUTPUT: ${{ runner.temp }}/intermediate-release
+        run: node --max-old-space-size=4096 scripts/build-intermediate-release.mjs --allow-download --allow-public-data --output "$RELEASE_OUTPUT"
+      - name: Verify final archive and pin metadata for publisher
+        id: digest
+        env:
+          RELEASE_OUTPUT: ${{ runner.temp }}/intermediate-release
+        run: |
+          metadata_sha256=$(shasum -a 256 "$RELEASE_OUTPUT/assets/artifact.json" | awk '{print $1}')
+          node scripts/verify-release-assets.mjs --input "$RELEASE_OUTPUT/assets" --output "$RELEASE_OUTPUT/work/archive-verified" --sha256 "$metadata_sha256"
+          echo "sha256=$metadata_sha256" >> "$GITHUB_OUTPUT"
+      - name: Transfer only parsed release assets (never work or images)
+        uses: actions/upload-artifact@v7
+        with:
+          name: intermediate-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/intermediate-release/assets/artifact.json
+            ${{ runner.temp }}/intermediate-release/assets/localization-intermediate.tar
+          retention-days: 7
+          compression-level: 0
+          if-no-files-found: error
+
+  publish:
+    needs: extract
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          sparse-checkout: scripts
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - uses: actions/download-artifact@v8
+        with:
+          name: intermediate-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/release-assets
+      - name: Verify, upload as draft, check digests and publish a non-latest prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARTIFACT_SHA256: ${{ needs.extract.outputs.metadata_sha256 }}
+          ASSET_INPUT: ${{ runner.temp }}/release-assets
+          VERIFY_OUTPUT: ${{ runner.temp }}/release-verified
+        run: node scripts/publish-intermediate-release.mjs --allow-public-data --input "$ASSET_INPUT" --output "$VERIFY_OUTPUT" --sha256 "$ARTIFACT_SHA256"
