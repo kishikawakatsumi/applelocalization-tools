@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       allow_public_data:
-        description: Extract pinned iOS 26.1 OS and publicly release parsed data (no originals)
+        description: Release parsed data AND quarantined review originals (no IPSW or normally parsed originals)
         type: boolean
         required: true
         default: false
@@ -49,9 +49,9 @@ jobs:
         with:
           node-version: '24'
           package-manager-cache: false
-      - name: Parsed-only release regression tests
+      - name: Intermediate and review-original retention regression tests
         run: node --test tests/*.test.mjs
-      - name: Acquire, extract all languages, audit and omit originals
+      - name: Acquire, extract all languages, audit and retain quarantined originals
         env:
           RELEASE_OUTPUT: ${{ runner.temp }}/intermediate-release
         run: node --max-old-space-size=4096 scripts/build-intermediate-release.mjs --allow-download --allow-public-data --output "$RELEASE_OUTPUT"
@@ -63,7 +63,7 @@ jobs:
           metadata_sha256=$(shasum -a 256 "$RELEASE_OUTPUT/assets/artifact.json" | awk '{print $1}')
           node scripts/verify-release-assets.mjs --input "$RELEASE_OUTPUT/assets" --output "$RELEASE_OUTPUT/work/archive-verified" --sha256 "$metadata_sha256"
           echo "sha256=$metadata_sha256" >> "$GITHUB_OUTPUT"
-      - name: Transfer only parsed release assets (never work or images)
+      - name: Transfer intermediate assets with review originals (never work or images)
         uses: actions/upload-artifact@v7
         with:
           name: intermediate-${{ github.run_id }}-${{ github.run_attempt }}
